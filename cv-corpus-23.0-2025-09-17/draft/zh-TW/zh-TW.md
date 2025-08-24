@@ -1,33 +1,26 @@
-# *台語* &mdash; Taiwanese (Minnan) (`nan-tw`)
+# *華語（台灣）* &mdash; Chinese (Taiwan) (`zh-TW`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Taiwanese (Minnan) (`nan-tw`).
+for Chinese (Taiwan) (`zh-TW`).
 
 ## Language
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-Common Voice Taiwanese (Minnan) dataset is a "*Hanzi-Voices* dataset".
-The text corpus is focus in Hanzi with POJ or TL as pronunciation reference.
-Participants are mainly from Taiwan.
+繁體中文文字語料，台灣口音。
 
 ### Variants 
 
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-From v23.0, the dataset allows contributors to select the following variants (optional),
-but the current text corpus of specific writing system is pretty minimal.
-
-- 白話字 (POJ): nan-TW-pehoeji
-- 台羅 (TL): nan-TW-tailo
-
 ### Accents
 
 <!-- {{ACCENT_DESCRIPTION}} -->
 
-Currently, the dataset allows contributors to select the following birthplace information (optional) in the accent field. Contributors can also input other accent information.
+目前台語語音資料集中，允許錄音者於口音欄位選擇以下出生地資訊，作為預設口音資料（可選）。
+錄音者亦也可自行輸入其他口音資訊。
 
 - 出生地：基隆市 (birthplace: keelung_city)
 - 出生地：臺北市 (birthplace: taipei_city)
@@ -51,7 +44,7 @@ Currently, the dataset allows contributors to select the following birthplace in
 - 出生地：澎湖縣 (birthplace: penghu_county)
 - 出生地：金門縣 (birthplace: kinmen_county)
 - 出生地：連江縣 (birthplace: lienchiang_county)
-- 出生地：其他 (other_county)
+- 香港 (hong_kong)
 
 #### Predefined
 
@@ -118,29 +111,23 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
-三兩人講四斤話 （sann niú lâng kóng sì kin uē）
-土地公廟仔 （Thóo-tē-kong biō-á）
-開向（khui-hiàng）
-菜蟲食菜菜跤死（Tshài-thâng tsia̍h tshài, tshài-kha sí）
-兩翁仔某（nn̄g ang-á-bóo）
-補眠（póo-bîn）
-辛亥國小（Sin-hāi Kok-sió）
-蔡厝（Tshuà-tshù | Chhòa-chhù）
-
 ### Sources
 
 <!-- {{SOURCES_LIST}} -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-Most of the text corpus is from [MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences).
-Most early text corpus is mainly from "2016-itaigi華台對照典" (2016 iTaigi Hua-Tai dictionary). Please check the repo for the details info.
+大部分繁體中文文本語料整理自：[MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences)。
+
+There are 3573 characters in the corpus, covering about 85.6% of the MOU 2015 common chars data (教育部2015常用字99.75% (3593字)).
+
+1046 phonetic are covered, about 66.75% of the total phonetic from CnsPhonetic2016-08v2.cin table.
+
+Please check the repo for the details info and statistics methods.
 
 ### Text domains
 
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
 <!-- What text domains are represented in the corpus? -->
-
-Since we still lack public-licensed "daily dialogue" data, the dataset is still mainly focused on "word" data. Please contact us via [community links](#community-links) if you can donate your works in Taiwanese.
 
 ### Processing
 
@@ -152,8 +139,6 @@ Since we still lack public-licensed "daily dialogue" data, the dataset is still 
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
 
-Because the romanization part of sentences text is for reference only, mixed with POJ and TL, and not all accents are marked, we recommend removing the reference pronunciation part wrapped in `（）` before processing the data.
-
 ## Get involved!
 
 ### Community links
@@ -161,9 +146,9 @@ Because the romanization part of sentences text is for reference only, mixed wit
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- Links to community chats / fora -->
 
-Common Voice project page of Mozilla Taiwan Community: [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
+MozTW 社群 Common Voice 專案網站： [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
 
-If you want to help build the Common Voice dataset for Traditional Chinese, or have any questions or suggestions, please join the following community groups and discuss with us:
+如有任何問題與建議，或有興趣協助推廣、協力建構語料，請加入以下社群群組，與大家一起討論：
 
 - [Telegram group](https://t.me/+gvmHEcAtd-IwNzFl)
 - [Line group](https://line.me/ti/g/_PLyjCSe_8)
@@ -173,7 +158,7 @@ If you want to help build the Common Voice dataset for Traditional Chinese, or h
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
-Related news - [https://hackmd.io/@moztw/common-voice-news](https://hackmd.io/@moztw/common-voice-news)
+相關報導 - [https://hackmd.io/@moztw/common-voice-news](https://hackmd.io/@moztw/common-voice-news)
 
 ### Contribute
 
@@ -187,10 +172,9 @@ Related news - [https://hackmd.io/@moztw/common-voice-news](https://hackmd.io/@m
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Mozilla Taiwan Community, G0v Community, and other open source participants in Taiwan.
+Mozilla 台灣社群、G0v 社群、及其他開放原始碼運動參與者共同建立。  
 
-- Irvin Chen (MozTW Community Liaison) <irvin@moztw.org>
-- Dennis <>
+- Irvin Chen (MozTW 志工聯絡人) <irvin@moztw.org>
 
 ### Citation guidelines
 
@@ -204,5 +188,5 @@ Mozilla Taiwan Community, G0v Community, and other open source participants in T
 
 ## Licence
 
-This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
-you agree to not determine the identity of speakers in the dataset.
+此資料集以 [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) 授權釋出至公共領域。
+下載這個資料集，代表你同意不對資料集中的個別發音者進行識別。
