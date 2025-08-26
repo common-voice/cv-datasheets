@@ -10,8 +10,6 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-## Status
-
 10 / 288
 
 | Draft | Final |
