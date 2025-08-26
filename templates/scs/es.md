@@ -92,7 +92,7 @@ A continuación se muestran cinco oraciones seleccionadas aleatoriamente del cor
 ### Discusiones
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
-<!-- Puede incluirse cualquier enlace a debates, por ejemplo en Discourse, foros u otros blogs -->
+<!-- Puede incluirse cualquier enlace a discusiones, por ejemplo en Discourse, foros u otros blogs -->
 
 ### Contribuir
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
