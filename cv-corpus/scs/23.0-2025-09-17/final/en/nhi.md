@@ -1,4 +1,4 @@
-# *[Western Sierra Puebla Nahuatl]* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
+# Mejicano *[Western Sierra Puebla Nahuatl]* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Western Sierra Puebla Nahuatl (`nhi`). The dataset contains 0.6 hours of recorded
@@ -13,9 +13,11 @@ variety of Nahuatl spoken in the Northwestern region of Puebla's Sierra Norte. A
 from Mexico's National Institute of Indigenous Languages estimates approximately 17,000 speakers.
 
 The language code is `nhi`. There is quite a bit of variation within the nhi variant, varying between
-municipalities and communities. The sentences in this corpus come from the nhi Universal Dependencies
-treebank, which is made up of samples from All three municipalities, and a set of dictionary-style example
-sentences written by a speaker from the Tepetzintla municipality.
+municipalities and communities. For example, some towns, near San Miguel Tenango, use "inverted prefixes" compared
+to the rest of the Nahuatl-speaking area, (e.g. in-nihnimi instead of ni-nihnimi, "I walk").
+The sentences in this corpus come from the nhi Universal Dependencies treebank, which is made up of samples 
+from all three municipalities, and a set of dictionary-style example sentences written by a speaker from the 
+Tepetzintla municipality.
 
 ### Variants 
 
@@ -64,7 +66,9 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-The average length of validated sentences is 5.5 words (34 characters).
+The average length of validated sentences is 5.5 words (34 characters). The corpus contains numerous Spanish loanwords, calques, and code-switching. For example, the following sentence from the corpus contains the Spanish conjunction "pero", Spanish preposition "de", the subordinator "hasta", a morphologically-adapted loanword "oniquestudiaro" (from estudiar "to study"), and a morphologically-adapted number, "ocho" (tiochoque "we are eight"). Due to long-standing language contact and bilingualism, Nahuatl commonly incorporates elements of Spanish, and this is well-represented in the text corpus.
+
+Pero de nochten tlen tiochoque sa ye neh oniquestudiaro hasta cuando onipiyaya dieciocho años.
 
 ### Writing system
 
