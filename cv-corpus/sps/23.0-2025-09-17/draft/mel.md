@@ -1,7 +1,8 @@
 # *Melanau* &mdash; Central Melanau (`mel`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Central Melanau (`mel`).
+for Central Melanau (`mel`). The dataset contains 11 hours of recorded
+speech (1 hours validated) from 35 speakers.
 
 ## Language
 

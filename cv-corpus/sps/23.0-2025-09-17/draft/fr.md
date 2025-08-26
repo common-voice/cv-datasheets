@@ -1,7 +1,8 @@
 # *Français* &mdash; French (`fr`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for French (`fr`).
+for French (`fr`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 14 speakers.
 
 ## Language
 

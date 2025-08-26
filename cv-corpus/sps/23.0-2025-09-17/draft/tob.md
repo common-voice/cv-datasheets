@@ -1,7 +1,8 @@
 # *_* &mdash; Toba Qom (`tob`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Toba Qom (`tob`).
+for Toba Qom (`tob`). The dataset contains 11 hours of recorded
+speech (11 hours validated) from 25 speakers.
 
 ## Language
 

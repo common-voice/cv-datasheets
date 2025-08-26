@@ -1,7 +1,8 @@
 # *Brezhoneg* &mdash; Breton (`br`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Breton (`br`).
+for Breton (`br`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 5 speakers.
 
 ## Language
 

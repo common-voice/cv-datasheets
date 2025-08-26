@@ -1,7 +1,8 @@
 # *Русский* &mdash; Russian (`ru`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Russian (`ru`).
+for Russian (`ru`). The dataset contains 1 hours of recorded
+speech (0 hours validated) from 2 speakers.
 
 ## Language
 

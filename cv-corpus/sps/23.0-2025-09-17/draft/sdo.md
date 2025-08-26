@@ -1,7 +1,8 @@
 # *Serian Bidayuh* &mdash; Serian Bidayuh (`sdo`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Serian Bidayuh (`sdo`).
+for Serian Bidayuh (`sdo`). The dataset contains 10 hours of recorded
+speech (2 hours validated) from 25 speakers.
 
 ## Language
 

@@ -1,7 +1,8 @@
 # *Башҡорт* &mdash; Bashkir (`ba`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Bashkir (`ba`).
+for Bashkir (`ba`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 3 speakers.
 
 ## Language
 

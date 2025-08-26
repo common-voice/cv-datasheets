@@ -1,7 +1,8 @@
 # *Kenyah* &mdash; Kenyah (`xkl`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Kenyah (`xkl`).
+for Kenyah (`xkl`). The dataset contains 11 hours of recorded
+speech (2 hours validated) from 23 speakers.
 
 ## Language
 

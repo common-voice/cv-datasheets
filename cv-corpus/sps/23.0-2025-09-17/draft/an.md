@@ -1,7 +1,8 @@
 # *Aragonés* &mdash; Aragonese (`an`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Aragonese (`an`).
+for Aragonese (`an`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 1 speakers.
 
 ## Language
 

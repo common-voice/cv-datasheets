@@ -1,7 +1,8 @@
 # *Ligure* &mdash; Ligurian (`lij`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Ligurian (`lij`).
+for Ligurian (`lij`). The dataset contains 2 hours of recorded
+speech (1 hours validated) from 4 speakers.
 
 ## Language
 

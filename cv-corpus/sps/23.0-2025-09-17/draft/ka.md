@@ -1,7 +1,8 @@
 # *ქართული* &mdash; Georgian (`ka`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Georgian (`ka`).
+for Georgian (`ka`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 7 speakers.
 
 ## Language
 

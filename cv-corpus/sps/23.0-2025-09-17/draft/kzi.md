@@ -1,7 +1,8 @@
 # *Kelabit* &mdash; Kelabit (`kzi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Kelabit (`kzi`).
+for Kelabit (`kzi`). The dataset contains 10 hours of recorded
+speech (1 hours validated) from 21 speakers.
 
 ## Language
 

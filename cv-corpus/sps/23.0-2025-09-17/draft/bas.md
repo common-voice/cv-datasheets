@@ -1,7 +1,8 @@
 # *Basaa* &mdash; Basaa (`bas`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Basaa (`bas`).
+for Basaa (`bas`). The dataset contains 6 hours of recorded
+speech (6 hours validated) from 11 speakers.
 
 ## Language
 

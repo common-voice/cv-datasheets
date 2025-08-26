@@ -1,7 +1,8 @@
 # *Gaeilge* &mdash; Irish (`ga-IE`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Irish (`ga-IE`).
+for Irish (`ga-IE`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 1 speakers.
 
 ## Language
 

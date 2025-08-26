@@ -1,7 +1,8 @@
 # *_* &mdash; Eastern Min (`cdo`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Eastern Min (`cdo`).
+for Eastern Min (`cdo`). The dataset contains 10 hours of recorded
+speech (1 hours validated) from 31 speakers.
 
 ## Language
 

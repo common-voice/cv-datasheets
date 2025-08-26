@@ -1,7 +1,8 @@
 # *Bukusu* &mdash; Bukusu (`bxk`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Bukusu (`bxk`).
+for Bukusu (`bxk`). The dataset contains 15 hours of recorded
+speech (11 hours validated) from 27 speakers.
 
 ## Language
 

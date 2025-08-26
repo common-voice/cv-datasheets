@@ -1,7 +1,8 @@
 # *Sabah Bisaya* &mdash; Sabah Bisaya (`bsy`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Sabah Bisaya (`bsy`).
+for Sabah Bisaya (`bsy`). The dataset contains 11 hours of recorded
+speech (0 hours validated) from 25 speakers.
 
 ## Language
 

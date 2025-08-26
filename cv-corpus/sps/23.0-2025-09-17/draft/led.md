@@ -1,7 +1,8 @@
 # *Lendu* &mdash; Lendu (`led`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Lendu (`led`).
+for Lendu (`led`). The dataset contains 16 hours of recorded
+speech (11 hours validated) from 26 speakers.
 
 ## Language
 

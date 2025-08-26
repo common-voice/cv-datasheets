@@ -1,7 +1,8 @@
 # *Chiga* &mdash; Chiga (`cgg`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Chiga (`cgg`).
+for Chiga (`cgg`). The dataset contains 12 hours of recorded
+speech (11 hours validated) from 27 speakers.
 
 ## Language
 

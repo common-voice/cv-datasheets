@@ -1,7 +1,8 @@
 # *_* &mdash; Manx (`gv`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Manx (`gv`).
+for Manx (`gv`). The dataset contains 1 hours of recorded
+speech (0 hours validated) from 1 speakers.
 
 ## Language
 

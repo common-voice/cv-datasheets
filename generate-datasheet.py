@@ -40,9 +40,11 @@ for modality in metadata:
 		print(locale, metadata[modality][locale])
 		english_name = metadata[modality][locale]['english_name']
 		native_name = metadata[modality][locale]['native_name']
+		version_readable = version.split('-')[0]
 		if native_name == '':
 			native_name = '<' + english_name + '>'
 		filled_template = template.replace('{{LOCALE}}', locale)
+		filled_template = filled_template.replace('{{VERSION}}', version_readable)
 		filled_template = filled_template.replace('{{ENGLISH_NAME}}', english_name)
 		filled_template = filled_template.replace('{{NATIVE_NAME}}', native_name)
 		filled_template = filled_template.replace('{{SPEAKERS}}', metadata[modality][locale]['speakers'])

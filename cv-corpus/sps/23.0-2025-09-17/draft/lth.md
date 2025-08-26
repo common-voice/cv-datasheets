@@ -1,7 +1,8 @@
 # *Thur* &mdash; Thur (`lth`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Thur (`lth`).
+for Thur (`lth`). The dataset contains 34 hours of recorded
+speech (11 hours validated) from 29 speakers.
 
 ## Language
 

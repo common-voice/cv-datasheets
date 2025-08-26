@@ -1,7 +1,8 @@
 # *Arvanitika* &mdash; Arvanitika (`aat`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Arvanitika (`aat`).
+for Arvanitika (`aat`). The dataset contains 3 hours of recorded
+speech (0 hours validated) from 5 speakers.
 
 ## Language
 

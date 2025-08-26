@@ -1,7 +1,8 @@
 # *Elsassisch* &mdash; Alsatian (`gsw`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Alsatian (`gsw`).
+for Alsatian (`gsw`). The dataset contains 1 hours of recorded
+speech (0 hours validated) from 1 speakers.
 
 ## Language
 

@@ -1,7 +1,8 @@
 # *català* &mdash; Catalan (`ca`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Catalan (`ca`).
+for Catalan (`ca`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 11 speakers.
 
 ## Language
 

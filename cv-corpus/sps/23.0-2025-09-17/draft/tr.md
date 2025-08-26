@@ -1,7 +1,8 @@
 # *Türkçe* &mdash; Turkish (`tr`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Turkish (`tr`).
+for Turkish (`tr`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 8 speakers.
 
 ## Language
 

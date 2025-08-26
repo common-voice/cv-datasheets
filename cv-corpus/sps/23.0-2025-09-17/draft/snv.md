@@ -1,7 +1,8 @@
 # *Saʼban* &mdash; Sa'ban (`snv`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Sa'ban (`snv`).
+for Sa'ban (`snv`). The dataset contains 11 hours of recorded
+speech (1 hours validated) from 30 speakers.
 
 ## Language
 

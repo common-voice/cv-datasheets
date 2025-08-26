@@ -1,7 +1,8 @@
 # *_* &mdash; Bahasa Malay (`ms-MY`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Bahasa Malay (`ms-MY`).
+for Bahasa Malay (`ms-MY`). The dataset contains 7 hours of recorded
+speech (6 hours validated) from 22 speakers.
 
 ## Language
 

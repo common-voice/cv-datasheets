@@ -1,6 +1,7 @@
 # *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} ({{LOCALE}})
-Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
-para {{ENGLISH_NAME}} ({{LOCALE}}).
+Esta ficha técnica corresponde a la versión {{VERSION}} del conjunto de datos de voz guiada de Mozilla Common Voice 
+para {{ENGLISH_NAME}} ({{LOCALE}}). El conjunto de datos contiene {{HOURS_RECORDED}} horas de grabaciones ({{HOURS_VALIDATED}} horas
+validadas) de {{SPEAKERS}} hablantes.
 
 ## Idioma
 <!-- {{LANGUAGE_DESCRIPTION}} -->

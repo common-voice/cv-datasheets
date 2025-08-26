@@ -1,7 +1,8 @@
 # *Latviešu* &mdash; Latvian (`lv`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Latvian (`lv`).
+for Latvian (`lv`). The dataset contains 1 hours of recorded
+speech (1 hours validated) from 4 speakers.
 
 ## Language
 

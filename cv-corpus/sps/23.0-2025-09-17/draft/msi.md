@@ -1,7 +1,8 @@
 # *Sabah Malay* &mdash; Sabah Malay (`msi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Sabah Malay (`msi`).
+for Sabah Malay (`msi`). The dataset contains 14 hours of recorded
+speech (1 hours validated) from 33 speakers.
 
 ## Language
 

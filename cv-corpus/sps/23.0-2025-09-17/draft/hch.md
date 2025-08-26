@@ -1,7 +1,8 @@
 # *Wixárika* &mdash; Wixárika (`hch`)
 
-Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* de Mozilla Common Voice 
-para Wixárika (`hch`).
+Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
+para Wixárika (`hch`). El conjunto de datos contiene 11 horas de grabaciones 
+(11 horas validadas) de 10 hablantes.
 
 ## Lengua
 

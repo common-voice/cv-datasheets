@@ -1,7 +1,8 @@
 # *English* &mdash; English (`en`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for English (`en`).
+for English (`en`). The dataset contains 9 hours of recorded
+speech (2 hours validated) from 148 speakers.
 
 ## Language
 

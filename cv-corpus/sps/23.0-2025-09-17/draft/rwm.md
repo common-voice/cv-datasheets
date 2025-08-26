@@ -1,7 +1,8 @@
 # *Amba* &mdash; Amba (`rwm`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Amba (`rwm`).
+for Amba (`rwm`). The dataset contains 14 hours of recorded
+speech (11 hours validated) from 21 speakers.
 
 ## Language
 

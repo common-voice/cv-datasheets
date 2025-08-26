@@ -1,7 +1,8 @@
 # *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} (`{{LOCALE}}`)
 
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for {{ENGLISH_NAME}} (`{{LOCALE}}`).
+This datasheet is for version {{VERSION}} of the the Mozilla Common Voice *Scripted Speech* dataset 
+for {{ENGLISH_NAME}} (`{{LOCALE}}`). The dataset contains {{HOURS_RECORDED}} hours of recorded
+speech ({{HOURS_VALIDATED}} hours validated) from {{SPEAKERS}} speakers.
 
 ## Language
 

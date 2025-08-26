@@ -1,7 +1,8 @@
 # *Nubi* &mdash; Nubi (`kcn`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Nubi (`kcn`).
+for Nubi (`kcn`). The dataset contains 15 hours of recorded
+speech (10 hours validated) from 26 speakers.
 
 ## Language
 

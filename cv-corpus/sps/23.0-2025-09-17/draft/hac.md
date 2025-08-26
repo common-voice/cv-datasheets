@@ -1,7 +1,8 @@
 # *Gorani* &mdash; Gorani (`hac`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Gorani (`hac`).
+for Gorani (`hac`). The dataset contains 12 hours of recorded
+speech (1 hours validated) from 19 speakers.
 
 ## Language
 

@@ -1,7 +1,8 @@
 # *Michoacán Mazahua* &mdash; Michoacán Mazahua (`mmc`)
 
-Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* de Mozilla Common Voice 
-para Michoacán Mazahua (`mmc`).
+Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
+para Michoacán Mazahua (`mmc`). El conjunto de datos contiene 12 horas de grabaciones 
+(12 horas validadas) de 12 hablantes.
 
 ## Lengua
 

@@ -1,7 +1,8 @@
 # *Western Penan* &mdash; Western Penan (`pne`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Western Penan (`pne`).
+for Western Penan (`pne`). The dataset contains 13 hours of recorded
+speech (13 hours validated) from 24 speakers.
 
 ## Language
 
