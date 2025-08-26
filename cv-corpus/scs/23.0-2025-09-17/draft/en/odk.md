@@ -1,7 +1,8 @@
-# *<Oadki>* &mdash; Oadki (`odk`)
+# *_* &mdash; Oadki (`odk`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Oadki (`odk`).
+for Oadki (`odk`). The dataset contains 12 hours of recorded
+speech (12 hours validated) from 20 speakers.
 
 ## Language
 
@@ -11,23 +12,8 @@ for Oadki (`odk`).
 ### Variants 
 
 <!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-
-### Accents
-
-<!-- {{ACCENT_DESCRIPTION}} -->
-
-#### Predefined
-
-<!-- {{PREDEFINED_ACCENT_DESCRIPTION}} -->
-
-<!-- {{PREDEFINED_ACCENT_TABLE}} -->
-
-#### User defined
-
-<!-- {{USER_DEFINED_ACCENT_DESCRPIPTION}} -->
-
-<!-- {{USER_DEFINED_ACCENT_TABLE}} -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -38,6 +24,7 @@ The dataset includes the following distribution of age and gender.
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
 
 <!-- {{GENDER_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- 
 | Gender | Frequency |
 |--------|-----------|
@@ -50,6 +37,7 @@ Self-declared gender information, frequency refers to the number of clips annota
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
 
 <!-- {{AGE_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- 
 | Age band | Frequency |
 |----------|-----------|
@@ -64,16 +52,19 @@ Self-declared age information, frequency refers to the number of clips annotated
 ## Text corpus
 
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
 ### Writing system
 
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
 
 <!-- {{ALPHABET_TABLE}} -->
+<!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 ### Sample
@@ -85,21 +76,25 @@ There follows a randomly selected sample of five sentences from the corpus.
 ### Sources
 
 <!-- {{SOURCES_LIST}} -->
+<!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
 ### Text domains
 
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- What text domains are represented in the corpus? -->
 
 ### Processing
 
 <!-- {{PROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- How has the text data been processed -->
 
 ### Recommended post-processing
 
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
 
 ## Get involved!
@@ -107,11 +102,13 @@ There follows a randomly selected sample of five sentences from the corpus.
 ### Community links
 
 <!-- {{COMMUNITY_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
 ### Discussions
 
 <!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
@@ -129,11 +126,13 @@ There follows a randomly selected sample of five sentences from the corpus.
 ### Citation guidelines
 
 <!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 
 <!-- {{FUNDING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
 ## Licence

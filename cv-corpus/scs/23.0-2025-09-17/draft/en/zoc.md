@@ -1,143 +1,121 @@
-# *<Copainalá Zoque>* &mdash; Copainalá Zoque (`zoc`)
+# *_* &mdash; Copainalá Zoque (zoc)
+Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
+para Copainalá Zoque (zoc). El conjunto de datos contiene 11 horas de grabaciones (11 horas
+validadas) de 12 hablantes.
 
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Copainalá Zoque (`zoc`).
-
-## Language
-
+## Idioma
 <!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
+<!-- Proporcione una breve descripción (1-2 párrafos) de su idioma -->
 
-### Variants 
-
+### Variantes
 <!-- {{VARIANT_DESCRIPTION}} -->
-<!-- Describe the variants (MCV variants) of your language -->
+<!-- @ OPCIONAL @ -->
+<!-- Describa las variantes (variantes MCV) de su idioma -->
 
-### Accents
+## Información demográfica
+<!--puede obtener gran parte de la información en esta sección desde https://analyzer.cv-toolbox.web.tr/browse -->
+El conjunto de datos incluye la siguiente distribución de edad y género.
 
-<!-- {{ACCENT_DESCRIPTION}} -->
-
-#### Predefined
-
-<!-- {{PREDEFINED_ACCENT_DESCRIPTION}} -->
-
-<!-- {{PREDEFINED_ACCENT_TABLE}} -->
-
-#### User defined
-
-<!-- {{USER_DEFINED_ACCENT_DESCRPIPTION}} -->
-
-<!-- {{USER_DEFINED_ACCENT_TABLE}} -->
-
-## Demographic information
-<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
-The dataset includes the following distribution of age and gender.
-
-### Gender
-
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-
+### Género
+Información de género autodeclarada, frecuencia se refiere al número de clips anotados con este género.
 <!-- {{GENDER_TABLE}} -->
+<!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
-| Gender | Frequency |
-|--------|-----------|
-| male, masculine | ? |
-| undeclared | ? |
-| female, feminine | ? |
+| Género              | Frecuencia |
+|---------------------|------------|
+| masculino           | ? |
+| no declarado        | ? |
+| femenino            | ? |
 -->
-### Age
 
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
-
+### Edad
+Información de edad autodeclarada, frecuencia se refiere al número de clips anotados con este rango de edad.
 <!-- {{AGE_TABLE}} -->
+<!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
-| Age band | Frequency |
-|----------|-----------|
-| teens | ? |
-| twenties | ? |
-| thirties | ? |
-| fourties | ? |
-| fifties | ? |
-   ...if other age ranges are present in your data, add rows...
+| Rango de edad | Frecuencia |
+|---------------|------------|
+| adolescentes  | ? |
+| veintes       | ? |
+| treintas      | ? |
+| cuarentas     | ? |
+| cincuentas    | ? |
+   ...si hay otros rangos de edad presentes en sus datos, añádalos como filas...
 -->
 
-## Text corpus
-
+## Corpus de texto
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
-<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
+<!-- @ OPCIONAL @ -->
+<!-- Una descripción general del corpus de texto, con información como la longitud media (en caracteres y palabras) de las oraciones validadas. -->
 
-### Writing system
-
+### Sistema de escritura
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
-<!-- A description of the writing system (or writing systems) used in the text corpus -->
+<!-- @ OPCIONAL @ -->
+<!-- Una descripción del sistema de escritura (o sistemas de escritura) utilizado en el corpus de texto -->
 
-#### Symbol table
-
+#### Tabla de símbolos
 <!-- {{ALPHABET_TABLE}} -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+<!-- @ OPCIONAL @ -->
+<!-- Si el sistema de escritura es alfabético, puede incluir aquí el alfabeto válido -->
 
-### Sample
-
-There follows a randomly selected sample of five sentences from the corpus.
-
+### Muestra
+A continuación se muestran cinco oraciones seleccionadas aleatoriamente del corpus.
 <!-- {{SENTENCES_SAMPLE}} -->
 
-### Sources
-
+### Fuentes
 <!-- {{SOURCES_LIST}} -->
-<!-- A list of sentence sources, can be curated to the top-N -->
+<!-- @ OPCIONAL @ -->
+<!-- Una lista de las fuentes de las oraciones, se puede limitar a las N principales -->
 
-### Text domains
-
+### Dominios textuales
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- What text domains are represented in the corpus? -->
+<!-- @ OPCIONAL @ -->
+<!-- ¿Qué dominios textuales están representados en el corpus? -->
 
-### Processing
-
+### Procesamiento
 <!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- How has the text data been processed -->
+<!-- @ OPCIONAL @ -->
+<!-- Cómo se ha procesado la información textual -->
 
-### Recommended post-processing
-
+### Postprocesamiento recomendado
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
+<!-- @ OPCIONAL @ -->
+<!-- Qué debería hacerse antes de usar los datos, por ejemplo normalización de Unicode -->
 
-## Get involved!
+## ¡Involúcrate!
 
-### Community links
-
+### Enlaces comunitarios
 <!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- Links to community chats / fora -->
+<!-- @ OPCIONAL @ -->
+<!-- Enlaces a chats / foros de la comunidad -->
 
-### Discussions
-
+### Discusiones
 <!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+<!-- @ OPCIONAL @ -->
+<!-- Puede incluirse cualquier enlace a debates, por ejemplo en Discourse, foros u otros blogs -->
 
-### Contribute
-
+### Contribuir
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
-<!-- Here you can include links for how to contribute to the dataset -->
+<!-- Aquí puede incluir enlaces sobre cómo contribuir al conjunto de datos -->
 
-## Acknowledgements
+## Agradecimientos
 
-### Datasheet authors
-
+### Autores de la ficha técnica
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- Una lista en el formato: Su Nombre <email@email.com> -->
 
-### Citation guidelines
-
+### Criterios de citación
 <!-- {{CITATION_DESCRIPTION}} -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+<!-- @ OPCIONAL @ -->
+<!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
-### Funding
-
+### Financiación
 <!-- {{FUNDING_DESCRIPTION}} -->
-<!-- If you received any funding, you can include the acknowledgement here -->
+<!-- @ OPCIONAL @ -->
+<!-- Si recibió financiación, puede incluir el reconocimiento aquí -->
 
-## Licence
+## Licencia
+Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
+usted acepta no determinar la identidad de los hablantes en el conjunto de datos.
 
-This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
-you agree to not determine the identity of speakers in the dataset.
 

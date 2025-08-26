@@ -34,8 +34,8 @@ for line in open(metadata_file):
 	metadata[modality][locale]['hours_validated'] = hours_validated 
 	
 for modality in metadata:
-	draft_output_dir = output_dir + '/%s/%s/draft' % (modality, version)
 	for locale in metadata[modality]:
+		draft_output_dir = output_dir + '/%s/%s/draft/%s' % (modality, version, template_languages[modality][locale])
 		template = open('templates/%s/%s.md' % (modality, template_languages[modality][locale])).read()
 		print(locale, metadata[modality][locale])
 		english_name = metadata[modality][locale]['english_name']
