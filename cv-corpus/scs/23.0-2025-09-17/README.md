@@ -10,7 +10,9 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-12 / 288
+## Status
+
+10 / 288
 
 | Draft | Final |
 |-------|-------|
@@ -53,7 +55,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `btv` | - |
 | `bum` | - |
 | `byv` | - |
-| `ca` | ✔ |
+| `ca` | - |
 | `cjk` | - |
 | `ckb` | - |
 | `cnh` | - |
@@ -92,7 +94,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `fr` | - |
 | `fub` | - |
 | `fue` | - |
-| `fy-NL` | ✔ |
+| `fy-NL` | - |
 | `ga-IE` | - |
 | `gej` | - |
 | `ggg` | - |
@@ -141,7 +143,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `ko` | - |
 | `ksf` | - |
 | `kvx` | - |
-| `kw` | - |
+| `kw` | ✔ |
 | `kxp` | - |
 | `ky` | ✔ |
 | `lg` | - |
@@ -264,7 +266,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `tli` | - |
 | `tn` | - |
 | `tok` | - |
-| `tr` | ✔ |
+| `tr` | - |
 | `trv` | - |
 | `trw` | - |
 | `ts` | - |
@@ -302,5 +304,3 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `zoc` | - |
 | `zu` | - |
 | `zza` | - |
-
-Note: This table can be updated using the supplied `update-readme.py` script.
