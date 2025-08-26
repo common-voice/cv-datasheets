@@ -1,0 +1,347 @@
+modality	code	native_name	english_name	speakers	hours_recorded	hours_validated
+sps	en	English	English	148	9	2
+sps	cdo	_	Eastern Min	31	10	1
+sps	ms-MY	_	Bahasa Malay	22	7	6
+sps	bsy	Sabah Bisaya	Sabah Bisaya	25	11	0
+sps	msi	Sabah Malay	Sabah Malay	33	14	1
+sps	kzi	Kelabit	Kelabit	21	10	1
+sps	cpx	Heng Hua	Heng Hua	29	12	1
+sps	mel	Melanau	Central Melanau	35	11	1
+sps	sdo	Serian Bidayuh	Serian Bidayuh	25	10	2
+sps	xkl	Kenyah	Kenyah	23	11	2
+sps	pne	Western Penan	Western Penan	24	13	13
+sps	snv	Saʼban	Sa'ban	30	11	1
+sps	fr	Français	French	14	1	1
+sps	mmc	Michoacán Mazahua	Michoacán Mazahua	12	12	12
+sps	tr	Türkçe	Turkish	8	1	1
+sps	meh	Mixteco Yucuhiti	Southwestern Tlaxiaco Mixtec	16	11	11
+sps	top	Papantla Totonac	Papantla Totonac	10	11	11
+sps	sco	Scots	Scots	21	12	11
+sps	bew	Betawi	Betawi	21	11	11
+sps	hch	Wixárika	Wixárika	10	11	11
+sps	aat	Arvanitika	Arvanitika	5	3	0
+sps	an	Aragonés	Aragonese	1	1	1
+sps	tob	_	Toba Qom	25	11	11
+sps	aln	Gheg Albanian	Gheg Albanian	14	11	11
+sps	kcn	Nubi	Nubi	26	15	10
+sps	lth	Thur	Thur	29	34	11
+sps	ush	_	Ushojo	10	6	5
+sps	lke	Kenyi	Kenyi	26	13	11
+sps	ruc	Ruuli	Ruuli	26	18	11
+sps	ukv	_	Kuku	22	12	11
+sps	hac	Gorani	Gorani	19	12	1
+sps	el-CY	_	Cypriot Greek	10	11	11
+sps	qxp	_	Puno Quechua	11	6	6
+sps	gv	_	Manx	1	1	0
+sps	kbd	Адыгэбзэ (Къэбэрдей)	Kabardian (East Circassian)	25	8	6
+sps	ady	Адыгабзэ	Adyghe (West Circassian)	22	6	6
+sps	lij	Ligure	Ligurian	4	2	1
+sps	bxk	Bukusu	Bukusu	27	15	11
+sps	koo	Konzo	Konzo	28	15	11
+sps	lv	Latviešu	Latvian	4	1	1
+sps	rwm	Amba	Amba	21	14	11
+sps	cgg	Chiga	Chiga	27	12	11
+sps	ttj	Rutoro	Rutoro	26	17	11
+sps	ka	ქართული	Georgian	7	1	1
+sps	cy	Cymraeg	Welsh	1	1	0
+sps	br	Brezhoneg	Breton	5	1	1
+sps	ca	català	Catalan	11	1	1
+sps	led	Lendu	Lendu	26	16	11
+sps	gsw	Elsassisch	Alsatian	1	1	0
+sps	gl	Galego	Galician	13	2	1
+sps	brx	_	Bodo	1	1	1
+sps	bas	Basaa	Basaa	11	6	6
+sps	de	Deutsch	German	2	1	0
+sps	ba	Башҡорт	Bashkir	3	1	1
+sps	ga-IE	Gaeilge	Irish	1	1	1
+sps	ru	Русский	Russian	2	1	0
+sps	seh	_	Sena	1	1	0
+scs	en	English	English	98579	3746	2682
+scs	de	Deutsch	German	20355	1484	1371
+scs	fr	Français	French	20794	1189	1072
+scs	cy	Cymraeg	Welsh	1923	159	124
+scs	br	Brezhoneg	Breton	259	32	30
+scs	cv	Чӑвашла	Chuvash	122	29	27
+scs	tr	Türkçe	Turkish	1790	134	129
+scs	tt	Татар	Tatar	285	33	32
+scs	kab	Taqbaylit	Kabyle	1603	705	571
+scs	ky	Кыргызча	Kyrgyz	298	49	39
+scs	ga-IE	Gaeilge	Irish	218	15	9.3
+scs	sl	slovenščina	Slovenian	1002	22	18
+scs	ca	català	Catalan	36898	3403	2883
+scs	it	Italiano	Italian	7325	450	363
+scs	zh-TW	華語（台灣）	Chinese (Taiwan)	2291	131	77
+scs	eo	Esperanto	Esperanto	1884	1951	1437
+scs	nl	Nederlands	Dutch	1861	138	123
+scs	zh-CN	汉语（中国大陆）	Chinese (China)	7476	1090	238
+scs	zh-HK	中文（香港）	Chinese (Hong Kong)	3093	143	108
+scs	an	Aragonés	Aragonese	52	18	17
+scs	ar	العربية	Arabic	1654	158	92
+scs	as	অসমীয়া	Assamese	51	7.7	2.8
+scs	ast	Asturianu	Asturian	30	2	0.8
+scs	az	Azərbaycanca	Azerbaijani	43	1.5	0.5
+scs	bg	Български	Bulgarian	147	22	16
+scs	bn	বাংলা	Bengali	22996	1278	49
+scs	cnh	Laiholh (Hakha)	Hakha Chin	300	4.8	1.9
+scs	cs	Čeština	Czech	1119	272	75
+scs	da	Dansk	Danish	294	16	13
+dsb
+scs	el	Ελληνικά	Greek	449	34	20
+scs	es	Español	Spanish	26808	2289	449
+scs	et	eesti	Estonian	1003	65	59
+scs	eu	Euskara	Basque	11035	713	453
+scs	fa	فارسی	Persian	4609	435	371
+scs	fi	suomi	Finnish	246	23	15
+scs	fy-NL	Frysk	Frisian	2090	225	66
+scs	he	עברית	Hebrew	55	7	1.9
+scs	hsb	Hornjoserbšćina	Sorbian, Upper	29	4	3
+scs	hu	Magyar	Hungarian	1688	184	94
+scs	ia	Interlingua	Interlingua	72	18	15
+scs	id	Bahasa Indonesia	Indonesian	647	67	34
+scs	is	Íslenska	Icelandic	6	0.1	0.1
+scs	ja	日本語	Japanese	5546	610	223
+scs	ka	ქართული	Georgian	2771	331	167
+scs	kk	Қазақ тілі	Kazakh	191	3.7	2.2
+scs	ko	한국어	Korean	161	8.3	1.7
+scs	kw	Kernowek	Cornish	10	13	13
+scs	mdf	Мокшень кяль	Moksha	11	0.5	0.5
+scs	mk	Македонски	Macedonian	468	55	20
+scs	mn	Монгол хэл	Mongolian	607	142	46
+scs	myv	Эрзянь кель	Erzya	13	3.9	3.8
+scs	nb-NO	Norsk (bokmål)	Norwegian Bokmål	20	2.2	1.8
+scs	ne-NP	नेपाली	Nepali	58	1.9	1.3
+scs	nn-NO	Norsk (nynorsk)	Norwegian Nynorsk	40	1.7	1.5
+scs	oc	occitan	Occitan	148	14	1.9
+scs	or	ଓଡ଼ିଆ	Odia	164	38	2.8
+scs	pl	polski	Polish	3453	191	176
+scs	pt	Português	Portuguese	3801	230	181
+scs	rm-sursilv	romontsch sursilvan	Romansh Sursilvan	91	12	6.6
+scs	ro	Română	Romanian	455	50	21
+scs	ru	Русский	Russian	3595	290	247
+scs	sah	Саха тыла	Sakha	245	24	16
+scs	sc	Sardu	Sardinian	35	3.6	2.9
+scs	sk	Slovenčina	Slovak	265	57	52
+scs	sq	Shqip	Albanian	145	9.2	8.8
+scs	sr	Српски	Serbian	185	14	7.5
+scs	sv-SE	Svenska	Swedish	888	57	47
+scs	ta	தமிழ்	Tamil	983	432	235
+scs	te	తెలుగు	Telugu	61	2.8	0.3
+scs	th	ไทย	Thai	8051	428	172
+scs	uk	Українська	Ukrainian	1157	116	99
+scs	ur	اردو	Urdu	495	304	77
+scs	uz	O‘zbek	Uzbek	2272	266	100
+scs	vi	Việt	Vietnamese	361	22	6.3
+scs	af	Afrikaans	Afrikaans	63	1.6	0.6
+scs	ab	Аԥсуа	Abkhaz	423	104	67
+scs	ady	Адыгабзэ	Adyghe	108	48	32
+scs	am	አማርኛ	Amharic	45	2.9	1.8
+scs	dv	ދިވެހި	Dhivehi	392	62	39
+scs	mhr	Марий	Meadow Mari	499	304	282
+scs	mrj	Кырык мары	Hill Mari	60	38	34
+scs	vot	vad̕d̕a	Votic	6	0.5	0.1
+scs	rw	Ikinyarwanda	Kinyarwanda	1176	2388	2002
+scs	lt	Lietuvių	Lithuanian	328	36	25
+scs	gl	Galego	Galician	6652	376	156
+scs	lv	Latviešu	Latvian	6508	311	263
+scs	lij	Ligure	Ligurian	39	5.7	5.1
+scs	tg	Тоҷикӣ	Tajik	7	0.7	0.4
+scs	ba	Башҡорт	Bashkir	939	279	259
+scs	ha	Hausa	Hausa	59	13	4.1
+scs	ckb	کوردیی ناوەندی	Central Kurdish	1963	193	136
+scs	ml	മലയാളം	Malayalam	151	12	2.8
+scs	rm-vallader	Rumantsch vallader	Romansh Vallader	55	5	2.9
+scs	mt	Malti	Maltese	222	18	8.7
+scs	sw	Kiswahili	Swahili	1484	1119	411
+scs	be	Беларуская	Belarusian	8602	1893	1812
+scs	pa-IN	ਪੰਜਾਬੀ	Punjabi	75	4.7	2.5
+scs	kbd	Адыгэбзэ (Къэбэрдей)	Kabardian	213	115	104
+scs	lg	Luganda	Luganda	667	582	437
+scs	hy-AM	Հայերեն	Armenian	438	57	31
+scs	hi	हिंदी	Hindi	466	23	16
+scs	gn	Guarani	Guarani	297	33	4.4
+scs	kmr	Kurdî (Kurmancî)	Kurmanji Kurdish	664	104	70
+scs	bas	Basaa	Basaa	54	14	12
+scs	yue	粵語	Cantonese	1171	309	203
+scs	ht	Ayisyen	Haitian	3	0	0
+scs	mr	मराठी	Marathi	104	28	20
+scs	ms	Bahasa Melayu	Malay	27	3.7	0
+scs	ps	پښتو	Pashto	1523	148	82
+scs	ug	ئۇيغۇرچە	Uyghur	1817	500	437
+scs	tw	Twi	Twi	13	0.3	0.2
+scs	yo	Yòrùbá	Yoruba	132	9.1	6.4
+scs	sat	ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ)	Santali (Ol Chiki)	13	1.1	0.5
+scs	nan-tw	台語	Taiwanese (Minnan)	290	24	21
+scs	yi	אידיש	Yiddish	95	1.7	1.7
+scs	ig	Ásụ̀sụ́ Ìgbò	Igbo	122	8.9	0
+scs	ti	ትግርኛ	Tigrinya	16	0.7	0.1
+scs	tig	ትግረ	Tigre	150	13	12
+scs	tk	Türkmençe	Turkmen	127	7.4	2.8
+scs	quy	Quechua Chanka	Quechua Chanka	8	3.1	0
+scs	skr	سرائیکی	Saraiki	60	6.7	4.3
+scs	tok	toki pona	Toki Pona	170	23	16
+scs	dyu	Dioula ye	Dioula	35	0.5	0.4
+scs	nso	Sesotho sa Leboa	Northern Sotho	1	0	0
+scs	st	Sesotho sa Borwa	Southern Sotho	2	0.2	0
+scs	ts	Xitsonga	Xitsonga	1	0	0
+scs	ve	Tshivenḓa	Tshivenda	2	0	0
+scs	nr	IsiNdebele (Sewula)	IsiNdebele (South)	1	0	0
+scs	ss	Siswati	Siswati	2	0.2	0
+scs	tn	Setswana	Setswana	17	4.9	4.3
+scs	xh	IsiXhosa	Xhosa	4	0	0
+scs	zu	Zulu	Zulu	8	0.3	0
+scs	lo	ພາສາລາວ	Lao	16	0.4	0.3
+scs	zgh	ⵜⴰⵎⴰⵣⵉⵖⵜ	Tamazight	31	2	1.3
+scs	dag	_	Dagbani	46	13	11
+scs	zza	Kurdkî (Zazakî)	Zaza	20	2.5	1.8
+scs	byv	_	Medumba	96	14	14
+scs	nhi	_	Western Sierra Puebla Nahuatl	6	0.6	0.1
+scs	ltg	Latgalīšu	Latgalian	378	34	30
+scs	os	Ирон	Ossetian	36	1.4	1.4
+scs	ewo	_	Ewondo	27	20	19
+scs	qvi	_	Kichwa	15	13	12
+scs	sd	_	Sindhi	25	35	0.4
+vmw
+scs	dav	_	Kidaw'ida	24	56	9.3
+scs	luo	_	Dholuo	46	120	30
+scs	kln	_	Kalenjin	41	92	43
+scs	dar	Дарган	Dargwa	12	1.6	1.3
+scs	abb	Ɓàŋkón	Bankon	22	12	12
+scs	bax	Shüpamom	Bamun	13	13	11
+scs	bba	Baatɔnum	Baatonum	14	16	12
+scs	bbj	_	Ghomala	31	13	13
+scs	bci	_	Baoule	16	15	12
+scs	beb	_	Bamvele	33	12	11
+scs	bfd	_	Bafut	36	12	11
+scs	bkm	_	Kom	27	13	13
+scs	bnm	_	Batanga	21	17	17
+scs	bri	_	Mokpwe	15	12	11
+scs	bum	_	Bulu	22	11	11
+scs	dua	_	Duala	13	16	14
+scs	ebr	_	Ebrie	6	3.2	2.4
+scs	eto	_	Eton	24	11	11
+scs	fan	_	Fang	43	12	12
+scs	fue	_	Borgu Fulfulde	9	11	11
+scs	gya	_	Northwest Gbaya	31	11	10
+scs	ibb	_	Ibibio	18	28	11
+scs	ksf	_	Bafia	25	21	20
+scs	mbo	_	Mbo	12	13	11
+scs	mxu	_	Mada	22	15	14
+scs	nnh	_	Ngiembon	17	23	23
+scs	qxp	_	Puno Quechua	14	12	9.2
+scs	tui	t'pur	Tupuri	48	12	11
+scs	tvu	_	Tunen	13	11	11
+scs	wes	_	Cameroon Pidgin	18	11	11
+scs	fub	_	Adamawa Fulfulde	16	14	14
+scs	pcm	_	Nigerian Pidgin English	57	15	14
+scs	bbl	ვაჲღეჼ	Tush	22	12	12
+scs	bft	بلتی	Balti	156	19	18
+scs	bgp	بلوچی	Eastern Balochi	25	14	13
+scs	bsk	Mishaski	Brushaski	27	12	11
+scs	cut	_	Teutila Cuicatec	15	11	11
+scs	cux	_	Tepeuxila Cuicatec	11	11	11
+scs	hno	شمالی ہندکو	Northern Hindko	36	11	11
+scs	khw	کھوار	Khowar	49	21	18
+scs	kls	Kalasha	Kalasha	23	11	11
+scs	mau	_	Huautla Mazatec	7	11	11
+scs	ncx	_	Central Puebla Nahuatl	41	12	11
+scs	pua	_	Western Highland Purepecha	9	12	11
+scs	scl	شِینا	Shina	39	11	11
+scs	sei	_	Seri	16	11	11
+scs	sva	ლუშნუ	Svan	55	19	16
+scs	trw	توروالی	Torwali	27	19	19
+scs	var	_	Huarijio	12	12	10
+scs	xhe	کھیترانی	Ketrani	11	11	11
+scs	xmf	მარგალური	Mingrelian	84	13	12
+scs	yaq	_	Yaqui	5	12	11
+scs	zoc	_	Copainalá Zoque	12	11	11
+scs	esu	_	Central Alaskan Yupʼik	3	7.6	7.6
+scs	gv	_	Manx	8	11	11
+scs	qup	_	Southern Pastaza Quechua	15	16	12
+scs	szy	Sakizaya	Sakizaya	26	15	14
+scs	dml	_	Dameli	5	11	11
+scs	oru	اُرمړي	Ormuri	12	18	17
+scs	phl	پالولا	Palula	20	30	22
+scs	ipk	_	Iñupiaq	2	7.2	7.2
+scs	bnn	Bunun	Bunun	18	12	11
+scs	dru	Drekay	Rukai	20	11	11
+scs	pwn	_	Paiwan	27	15	15
+scs	tay	Atayal	Atayal	18	13	12
+scs	trv	_	Seediq	10	11	10
+scs	qxu	_	Quechua Arequipa-La Unión	16	14	11
+scs	jqr	_	Jaqaru	12	11	10
+scs	qux	_	Quechua Yauyos	15	14	11
+scs	qva	_	Quechua Ambo-Pasco	13	11	10
+scs	qvl	_	Quechua Cajatambo	19	11	11
+scs	qwa	_	Quechua Corongo Ancash	13	12	10
+scs	qws	_	Quechua Sihuas Ancash	12	11	11
+scs	qxa	_	Quechua Chiquián	17	11	11
+scs	qxt	_	Quechua Pasco Santa Ana de Tusi	16	14	11
+scs	qxw	_	Quechua Jauja Wanka	14	14	10
+scs	bsh	کتہ وری	Kateviri	14	11	11
+scs	dmk	داوُدِݵ	Dawoodi	10	11	11
+scs	gju	گوجری	Gujari	6	11	11
+scs	gwc	گاؤری	Gawri	22	16	12
+scs	gwt	گوَرباتی	Gawarbaiti	5	13	13
+scs	lss	لاسي	Lassi	15	11	10
+scs	mvy	اباسیْن کوستَیں	Indus Kohistani	56	26	23
+scs	plk	کوہستانی شینا	Kohistani Shina	10	17	13
+scs	ush	_	Ushojo	23	6.8	6.7
+scs	wbl	Wakhi (Wuk̃hikwor)	Wakhi	13	16	13
+scs	xka	کلکوٹی	Kalkoti	9	11	11
+gsw
+scs	rup	_	Aromanian	6	0.1	0
+scs	btv	_	Bateri	16	11	11
+scs	ggg	_	Gurgula	24	13	13
+scs	gig	_	Goaria	20	11	11
+scs	gjk	_	Kachhi	22	12	11
+scs	kvx	_	Parkari Koli	22	12	12
+scs	kxp	_	Wadiyara Koli	22	12	12
+scs	lrk	_	Loarki	20	12	12
+scs	mki	_	Dhatki	12	11	11
+scs	mve	_	Pakistani Marwari	20	11	11
+scs	odk	_	Oadki	20	12	12
+scs	phr	_	Pahari-Pothwari	63	15	15
+scs	sbn	_	Sindhi Bhili	21	11	11
+scs	ssi	_	Sansi	21	11	11
+scs	ydg	_	Yadgha	15	12	11
+scs	bag	Tukí	Tuki	14	12	12
+scs	ajg	_	Adja	23	13	13
+scs	bkh	_	Bakoko	13	15	11
+scs	cjk	_	Chokwe	45	15	13
+scs	cpy	_	Asheninka South Ucayali	15	11	11
+scs	fmp	_	Feʼefeʼe	32	13	12
+scs	gej	_	Mina	20	12	12
+scs	gid	_	Guidar	16	11	11
+scs	giz	_	Guiziga	32	11	11
+scs	hem	_	Kihemba	41	11	11
+scs	hux	_	Nüpode Huitoto	13	12	10
+scs	jgo	_	Ngomba	16	12	12
+scs	kdh	_	Kotokoli	20	11	11
+scs	lua	_	Tshiluba	46	14	11
+scs	mcf	_	Matses	20	11	11
+scs	mcn	_	Massa	35	11	11
+scs	mcx	_	Mpiemo	10	11	11
+scs	mdd	_	Mbum	7	11	11
+scs	mgg	_	Kunabembe	8	11	11
+scs	mhk	_	Mungaka	9	12	12
+scs	mse	_	Moussey	18	11	11
+scs	mua	_	Mundang	17	11	11
+scs	mug	_	Musgum	17	13	12
+scs	nla	_	Ngombale	15	11	10
+scs	nmz	_	Losso	35	12	12
+scs	prq	_	Asheninka Perene	13	11	11
+scs	qur	_	Quechua Yanahuanca	12	11	11
+scs	qus	_	Quechua Santiago del Estero	23	12	12
+scs	rof	_	Kirombo	24	12	11
+scs	tar	_	Central Tarahumara	17	11	10
+scs	tli	_	Tlingit	3	11	11
+scs	udl	_	Ouldémé	20	11	11
+scs	yav	_	Nuasue	10	14	12
+scs	nlv	_	Orizaba Nahuatl	16	13	12
+scs	brh	_	Brahui	18	11	11
+scs	eko	_	Ekoti	6	11	11
+scs	haz	_	Hazargi	7	11	11
+scs	nmg	_	Kwasio	11	11	11
+scs	nyu	_	Nyungwe	5	11	11
+scs	qvj	_	Loja Highland Kichwa	16	12	11
+scs	bce	_	Mengambo	14	11	11
