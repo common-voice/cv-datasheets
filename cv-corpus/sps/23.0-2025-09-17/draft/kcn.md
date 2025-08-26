@@ -64,7 +64,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 
 ### Samples
 
-#### Questions
+#### Questions
 
 There follows a randomly selected sample of transcribed responses from the corpus.
 
