@@ -1,4 +1,4 @@
-# *_* &mdash; Bateri (`btv`)
+# *<Bateri>* &mdash; Bateri (`btv`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Bateri (`btv`). The dataset contains 11 hours of recorded

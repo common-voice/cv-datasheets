@@ -1,4 +1,4 @@
-# *_* &mdash; Cypriot Greek (`el-CY`)
+# *<Cypriot Greek>* &mdash; Cypriot Greek (`el-CY`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Cypriot Greek (`el-CY`). The dataset contains 11 hours of recorded

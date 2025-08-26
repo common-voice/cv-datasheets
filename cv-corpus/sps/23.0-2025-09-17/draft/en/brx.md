@@ -1,4 +1,4 @@
-# *_* &mdash; Bodo (`brx`)
+# *<Bodo>* &mdash; Bodo (`brx`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Bodo (`brx`). The dataset contains 1 hours of recorded

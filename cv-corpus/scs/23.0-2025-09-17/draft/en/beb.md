@@ -1,4 +1,4 @@
-# *_* &mdash; Bamvele (`beb`)
+# *<Bamvele>* &mdash; Bamvele (`beb`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Bamvele (`beb`). The dataset contains 12 hours of recorded

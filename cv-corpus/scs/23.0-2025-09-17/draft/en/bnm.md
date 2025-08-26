@@ -1,4 +1,4 @@
-# *_* &mdash; Batanga (`bnm`)
+# *<Batanga>* &mdash; Batanga (`bnm`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Batanga (`bnm`). The dataset contains 17 hours of recorded

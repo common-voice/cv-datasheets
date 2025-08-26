@@ -1,4 +1,4 @@
-# *_* &mdash; Ekoti (`eko`)
+# *<Ekoti>* &mdash; Ekoti (`eko`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Ekoti (`eko`). The dataset contains 11 hours of recorded

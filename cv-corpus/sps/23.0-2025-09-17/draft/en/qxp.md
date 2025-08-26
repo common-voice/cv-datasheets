@@ -1,4 +1,4 @@
-# *_* &mdash; Puno Quechua (`qxp`)
+# *<Puno Quechua>* &mdash; Puno Quechua (`qxp`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Puno Quechua (`qxp`). The dataset contains 6 hours of recorded

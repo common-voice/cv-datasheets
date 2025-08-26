@@ -1,4 +1,4 @@
-# *_* &mdash; Chokwe (`cjk`)
+# *<Chokwe>* &mdash; Chokwe (`cjk`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Chokwe (`cjk`). The dataset contains 15 hours of recorded

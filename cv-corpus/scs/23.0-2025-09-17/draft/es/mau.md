@@ -1,4 +1,4 @@
-# *_* &mdash; Huautla Mazatec (mau)
+# *<Huautla Mazatec>* &mdash; Huautla Mazatec (mau)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Huautla Mazatec (mau). El conjunto de datos contiene 11 horas de grabaciones (11 horas
 validadas) de 7 hablantes.

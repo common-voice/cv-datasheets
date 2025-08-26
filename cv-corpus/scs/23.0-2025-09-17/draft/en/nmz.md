@@ -1,4 +1,4 @@
-# *_* &mdash; Losso (`nmz`)
+# *<Losso>* &mdash; Losso (`nmz`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Losso (`nmz`). The dataset contains 12 hours of recorded

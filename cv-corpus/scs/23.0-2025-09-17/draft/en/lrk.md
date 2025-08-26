@@ -1,4 +1,4 @@
-# *_* &mdash; Loarki (`lrk`)
+# *<Loarki>* &mdash; Loarki (`lrk`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Loarki (`lrk`). The dataset contains 12 hours of recorded

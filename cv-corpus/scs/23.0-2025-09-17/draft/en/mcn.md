@@ -1,4 +1,4 @@
-# *_* &mdash; Massa (`mcn`)
+# *<Massa>* &mdash; Massa (`mcn`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Massa (`mcn`). The dataset contains 11 hours of recorded

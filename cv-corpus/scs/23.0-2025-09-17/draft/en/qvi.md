@@ -1,4 +1,4 @@
-# *_* &mdash; Kichwa (`qvi`)
+# *<Kichwa>* &mdash; Kichwa (`qvi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Kichwa (`qvi`). The dataset contains 13 hours of recorded

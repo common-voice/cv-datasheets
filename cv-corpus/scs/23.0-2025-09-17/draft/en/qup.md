@@ -1,4 +1,4 @@
-# *_* &mdash; Southern Pastaza Quechua (`qup`)
+# *<Southern Pastaza Quechua>* &mdash; Southern Pastaza Quechua (`qup`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Southern Pastaza Quechua (`qup`). The dataset contains 16 hours of recorded

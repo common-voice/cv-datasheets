@@ -1,4 +1,4 @@
-# *_* &mdash; Adamawa Fulfulde (`fub`)
+# *<Adamawa Fulfulde>* &mdash; Adamawa Fulfulde (`fub`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Adamawa Fulfulde (`fub`). The dataset contains 14 hours of recorded

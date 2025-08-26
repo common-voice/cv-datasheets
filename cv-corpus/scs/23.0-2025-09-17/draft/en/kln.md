@@ -1,4 +1,4 @@
-# *_* &mdash; Kalenjin (`kln`)
+# *<Kalenjin>* &mdash; Kalenjin (`kln`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Kalenjin (`kln`). The dataset contains 92 hours of recorded

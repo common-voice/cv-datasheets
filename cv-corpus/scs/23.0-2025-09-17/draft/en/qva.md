@@ -1,4 +1,4 @@
-# *_* &mdash; Quechua Ambo-Pasco (`qva`)
+# *<Quechua Ambo-Pasco>* &mdash; Quechua Ambo-Pasco (`qva`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Quechua Ambo-Pasco (`qva`). The dataset contains 11 hours of recorded

@@ -1,4 +1,4 @@
-# *_* &mdash; Teutila Cuicatec (cut)
+# *<Teutila Cuicatec>* &mdash; Teutila Cuicatec (cut)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Teutila Cuicatec (cut). El conjunto de datos contiene 11 horas de grabaciones (11 horas
 validadas) de 15 hablantes.

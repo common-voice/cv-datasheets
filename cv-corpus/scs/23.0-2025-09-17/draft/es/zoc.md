@@ -1,4 +1,4 @@
-# *_* &mdash; Copainalá Zoque (zoc)
+# *<Copainalá Zoque>* &mdash; Copainalá Zoque (zoc)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Copainalá Zoque (zoc). El conjunto de datos contiene 11 horas de grabaciones (11 horas
 validadas) de 12 hablantes.

@@ -1,4 +1,4 @@
-# *_* &mdash; Bafia (`ksf`)
+# *<Bafia>* &mdash; Bafia (`ksf`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Bafia (`ksf`). The dataset contains 21 hours of recorded

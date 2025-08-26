@@ -1,4 +1,4 @@
-# *_* &mdash; Ibibio (`ibb`)
+# *<Ibibio>* &mdash; Ibibio (`ibb`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Ibibio (`ibb`). The dataset contains 28 hours of recorded

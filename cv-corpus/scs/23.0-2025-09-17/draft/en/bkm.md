@@ -1,4 +1,4 @@
-# *_* &mdash; Kom (`bkm`)
+# *<Kom>* &mdash; Kom (`bkm`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Kom (`bkm`). The dataset contains 13 hours of recorded

@@ -1,4 +1,4 @@
-# *_* &mdash; Tepeuxila Cuicatec (cux)
+# *<Tepeuxila Cuicatec>* &mdash; Tepeuxila Cuicatec (cux)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Tepeuxila Cuicatec (cux). El conjunto de datos contiene 11 horas de grabaciones (11 horas
 validadas) de 11 hablantes.

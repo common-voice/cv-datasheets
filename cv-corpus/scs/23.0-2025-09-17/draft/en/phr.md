@@ -1,4 +1,4 @@
-# *_* &mdash; Pahari-Pothwari (`phr`)
+# *<Pahari-Pothwari>* &mdash; Pahari-Pothwari (`phr`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Pahari-Pothwari (`phr`). The dataset contains 15 hours of recorded

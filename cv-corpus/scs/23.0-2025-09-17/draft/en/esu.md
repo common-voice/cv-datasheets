@@ -1,4 +1,4 @@
-# *_* &mdash; Central Alaskan Yupʼik (`esu`)
+# *<Central Alaskan Yupʼik>* &mdash; Central Alaskan Yupʼik (`esu`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Central Alaskan Yupʼik (`esu`). The dataset contains 7.6 hours of recorded

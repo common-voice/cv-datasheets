@@ -1,4 +1,4 @@
-# *_* &mdash; Gurgula (`ggg`)
+# *<Gurgula>* &mdash; Gurgula (`ggg`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Gurgula (`ggg`). The dataset contains 13 hours of recorded

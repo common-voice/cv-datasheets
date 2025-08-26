@@ -1,4 +1,4 @@
-# *_* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
+# *<Western Sierra Puebla Nahuatl>* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Western Sierra Puebla Nahuatl (`nhi`). The dataset contains 0.6 hours of recorded

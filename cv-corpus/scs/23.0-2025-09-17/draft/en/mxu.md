@@ -1,4 +1,4 @@
-# *_* &mdash; Mada (`mxu`)
+# *<Mada>* &mdash; Mada (`mxu`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Mada (`mxu`). The dataset contains 15 hours of recorded

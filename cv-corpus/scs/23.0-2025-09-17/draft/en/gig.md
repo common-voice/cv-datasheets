@@ -1,4 +1,4 @@
-# *_* &mdash; Goaria (`gig`)
+# *<Goaria>* &mdash; Goaria (`gig`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Goaria (`gig`). The dataset contains 11 hours of recorded
