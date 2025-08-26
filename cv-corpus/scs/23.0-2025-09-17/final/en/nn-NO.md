@@ -1,7 +1,8 @@
 # *Norsk Nynorsk* &mdash; Norwegian Nynorsk (`nn-NO`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Norwegian Nynorsk (`nn-NO`).
+for Norwegian Nynorsk (`nn-NO`). The dataset contains 1.7 hours of recorded
+speech (1.5 hours validated) from 40 speakers.
 
 ## Language
 
