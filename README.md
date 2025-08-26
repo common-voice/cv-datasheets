@@ -21,11 +21,11 @@ Generate the draft datasheets:
 *Scripted:*
  
 ```
-python3 generate-datasheet.py metadata/scs/metadata.json templates/scs/en.md cv-corpus-23.0-2025-09-17/scs/draft/en 
+python3 generate-datasheet.py metadata/scs/metadata.json templates/scs/en.md cv-corpus/scs/23.0-2025-09-17/draft/en 
 ```
 
 *Spontaneous:*
 
 ```
-python3 generate-datasheet.py metadata/sps/metadata.json templates/sps/en.md cv-corpus-23.0-2025-09-17/sps/draft/en 
+python3 generate-datasheet.py metadata/sps/metadata.json templates/sps/en.md cv-corpus/sps/23.0-2025-09-17/draft/en 
 ```

@@ -85,7 +85,6 @@ scs	bn	বাংলা	Bengali	22996	1278	49
 scs	cnh	Laiholh (Hakha)	Hakha Chin	300	4.8	1.9
 scs	cs	Čeština	Czech	1119	272	75
 scs	da	Dansk	Danish	294	16	13
-dsb
 scs	el	Ελληνικά	Greek	449	34	20
 scs	es	Español	Spanish	26808	2289	449
 scs	et	eesti	Estonian	1003	65	59
@@ -200,7 +199,6 @@ scs	os	Ирон	Ossetian	36	1.4	1.4
 scs	ewo	_	Ewondo	27	20	19
 scs	qvi	_	Kichwa	15	13	12
 scs	sd	_	Sindhi	25	35	0.4
-vmw
 scs	dav	_	Kidaw'ida	24	56	9.3
 scs	luo	_	Dholuo	46	120	30
 scs	kln	_	Kalenjin	41	92	43
@@ -288,7 +286,6 @@ scs	plk	کوہستانی شینا	Kohistani Shina	10	17	13
 scs	ush	_	Ushojo	23	6.8	6.7
 scs	wbl	Wakhi (Wuk̃hikwor)	Wakhi	13	16	13
 scs	xka	کلکوٹی	Kalkoti	9	11	11
-gsw
 scs	rup	_	Aromanian	6	0.1	0
 scs	btv	_	Bateri	16	11	11
 scs	ggg	_	Gurgula	24	13	13
