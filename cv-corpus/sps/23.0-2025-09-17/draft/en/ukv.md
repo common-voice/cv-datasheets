@@ -1,4 +1,4 @@
-# *<Kuku>* &mdash; Kuku (`ukv`)
+# *[Kuku]* &mdash; Kuku (`ukv`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Kuku (`ukv`). The dataset contains 12 hours of recorded

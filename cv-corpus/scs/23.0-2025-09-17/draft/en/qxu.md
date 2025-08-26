@@ -1,4 +1,4 @@
-# *<Quechua Arequipa-La Unión>* &mdash; Quechua Arequipa-La Unión (`qxu`)
+# *[Quechua Arequipa-La Unión]* &mdash; Quechua Arequipa-La Unión (`qxu`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Quechua Arequipa-La Unión (`qxu`). The dataset contains 14 hours of recorded

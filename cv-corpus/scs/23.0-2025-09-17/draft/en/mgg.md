@@ -1,4 +1,4 @@
-# *<Kunabembe>* &mdash; Kunabembe (`mgg`)
+# *[Kunabembe]* &mdash; Kunabembe (`mgg`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Kunabembe (`mgg`). The dataset contains 11 hours of recorded

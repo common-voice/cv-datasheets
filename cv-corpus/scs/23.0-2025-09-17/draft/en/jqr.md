@@ -1,4 +1,4 @@
-# *<Jaqaru>* &mdash; Jaqaru (`jqr`)
+# *[Jaqaru]* &mdash; Jaqaru (`jqr`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Jaqaru (`jqr`). The dataset contains 11 hours of recorded

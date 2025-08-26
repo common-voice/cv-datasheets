@@ -1,4 +1,4 @@
-# *<Mbum>* &mdash; Mbum (`mdd`)
+# *[Mbum]* &mdash; Mbum (`mdd`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Mbum (`mdd`). The dataset contains 11 hours of recorded

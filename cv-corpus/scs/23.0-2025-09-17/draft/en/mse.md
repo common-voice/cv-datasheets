@@ -1,4 +1,4 @@
-# *<Moussey>* &mdash; Moussey (`mse`)
+# *[Moussey]* &mdash; Moussey (`mse`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Moussey (`mse`). The dataset contains 11 hours of recorded

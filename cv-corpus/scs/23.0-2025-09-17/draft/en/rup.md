@@ -1,4 +1,4 @@
-# *<Aromanian>* &mdash; Aromanian (`rup`)
+# *[Aromanian]* &mdash; Aromanian (`rup`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Aromanian (`rup`). The dataset contains 0.1 hours of recorded

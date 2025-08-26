@@ -1,4 +1,4 @@
-# *<Huarijio>* &mdash; Huarijio (var)
+# *[Huarijio]* &mdash; Huarijio (var)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Huarijio (var). El conjunto de datos contiene 12 horas de grabaciones (10 horas
 validadas) de 12 hablantes.

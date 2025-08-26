@@ -1,4 +1,4 @@
-# *<Bulu>* &mdash; Bulu (`bum`)
+# *[Bulu]* &mdash; Bulu (`bum`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Bulu (`bum`). The dataset contains 11 hours of recorded

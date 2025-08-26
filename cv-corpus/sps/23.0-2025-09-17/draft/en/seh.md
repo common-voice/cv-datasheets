@@ -1,4 +1,4 @@
-# *<Sena>* &mdash; Sena (`seh`)
+# *[Sena]* &mdash; Sena (`seh`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Sena (`seh`). The dataset contains 1 hours of recorded

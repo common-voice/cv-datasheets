@@ -1,4 +1,4 @@
-# *<Dameli>* &mdash; Dameli (`dml`)
+# *[Dameli]* &mdash; Dameli (`dml`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Dameli (`dml`). The dataset contains 11 hours of recorded

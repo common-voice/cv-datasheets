@@ -1,4 +1,4 @@
-# *<Central Puebla Nahuatl>* &mdash; Central Puebla Nahuatl (ncx)
+# *[Central Puebla Nahuatl]* &mdash; Central Puebla Nahuatl (ncx)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Central Puebla Nahuatl (ncx). El conjunto de datos contiene 12 horas de grabaciones (11 horas
 validadas) de 41 hablantes.

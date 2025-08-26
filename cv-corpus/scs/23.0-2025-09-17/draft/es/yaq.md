@@ -1,4 +1,4 @@
-# *<Yaqui>* &mdash; Yaqui (yaq)
+# *[Yaqui]* &mdash; Yaqui (yaq)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Yaqui (yaq). El conjunto de datos contiene 12 horas de grabaciones (11 horas
 validadas) de 5 hablantes.

@@ -1,4 +1,4 @@
-# *<Ewondo>* &mdash; Ewondo (`ewo`)
+# *[Ewondo]* &mdash; Ewondo (`ewo`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Ewondo (`ewo`). The dataset contains 20 hours of recorded

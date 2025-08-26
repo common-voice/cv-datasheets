@@ -1,4 +1,4 @@
-# *<Quechua Chiquián>* &mdash; Quechua Chiquián (`qxa`)
+# *[Quechua Chiquián]* &mdash; Quechua Chiquián (`qxa`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Quechua Chiquián (`qxa`). The dataset contains 11 hours of recorded

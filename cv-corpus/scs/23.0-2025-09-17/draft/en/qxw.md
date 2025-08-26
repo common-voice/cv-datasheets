@@ -1,4 +1,4 @@
-# *<Quechua Jauja Wanka>* &mdash; Quechua Jauja Wanka (`qxw`)
+# *[Quechua Jauja Wanka]* &mdash; Quechua Jauja Wanka (`qxw`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Quechua Jauja Wanka (`qxw`). The dataset contains 14 hours of recorded

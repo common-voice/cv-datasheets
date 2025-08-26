@@ -1,4 +1,4 @@
-# *<Asheninka South Ucayali>* &mdash; Asheninka South Ucayali (`cpy`)
+# *[Asheninka South Ucayali]* &mdash; Asheninka South Ucayali (`cpy`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Asheninka South Ucayali (`cpy`). The dataset contains 11 hours of recorded

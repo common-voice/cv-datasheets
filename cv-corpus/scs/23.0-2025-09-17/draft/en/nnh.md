@@ -1,4 +1,4 @@
-# *<Ngiembon>* &mdash; Ngiembon (`nnh`)
+# *[Ngiembon]* &mdash; Ngiembon (`nnh`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Ngiembon (`nnh`). The dataset contains 23 hours of recorded

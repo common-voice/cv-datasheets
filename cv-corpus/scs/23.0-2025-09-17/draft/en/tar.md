@@ -1,4 +1,4 @@
-# *<Central Tarahumara>* &mdash; Central Tarahumara (`tar`)
+# *[Central Tarahumara]* &mdash; Central Tarahumara (`tar`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Central Tarahumara (`tar`). The dataset contains 11 hours of recorded

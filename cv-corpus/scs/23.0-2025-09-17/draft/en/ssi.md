@@ -1,4 +1,4 @@
-# *<Sansi>* &mdash; Sansi (`ssi`)
+# *[Sansi]* &mdash; Sansi (`ssi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Sansi (`ssi`). The dataset contains 11 hours of recorded

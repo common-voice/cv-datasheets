@@ -1,4 +1,4 @@
-# *<Baoule>* &mdash; Baoule (`bci`)
+# *[Baoule]* &mdash; Baoule (`bci`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Baoule (`bci`). The dataset contains 15 hours of recorded

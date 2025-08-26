@@ -1,4 +1,4 @@
-# *<Iñupiaq>* &mdash; Iñupiaq (`ipk`)
+# *[Iñupiaq]* &mdash; Iñupiaq (`ipk`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Iñupiaq (`ipk`). The dataset contains 7.2 hours of recorded

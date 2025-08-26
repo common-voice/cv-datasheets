@@ -1,4 +1,4 @@
-# *<Parkari Koli>* &mdash; Parkari Koli (`kvx`)
+# *[Parkari Koli]* &mdash; Parkari Koli (`kvx`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Parkari Koli (`kvx`). The dataset contains 12 hours of recorded

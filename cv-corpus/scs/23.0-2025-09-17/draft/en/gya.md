@@ -1,4 +1,4 @@
-# *<Northwest Gbaya>* &mdash; Northwest Gbaya (`gya`)
+# *[Northwest Gbaya]* &mdash; Northwest Gbaya (`gya`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Northwest Gbaya (`gya`). The dataset contains 11 hours of recorded

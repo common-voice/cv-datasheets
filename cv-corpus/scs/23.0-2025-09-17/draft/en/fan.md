@@ -1,4 +1,4 @@
-# *<Fang>* &mdash; Fang (`fan`)
+# *[Fang]* &mdash; Fang (`fan`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Fang (`fan`). The dataset contains 12 hours of recorded

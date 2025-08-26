@@ -1,4 +1,4 @@
-# *<Ghomala>* &mdash; Ghomala (`bbj`)
+# *[Ghomala]* &mdash; Ghomala (`bbj`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Ghomala (`bbj`). The dataset contains 13 hours of recorded

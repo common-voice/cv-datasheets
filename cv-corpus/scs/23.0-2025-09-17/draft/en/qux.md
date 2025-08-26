@@ -1,4 +1,4 @@
-# *<Quechua Yauyos>* &mdash; Quechua Yauyos (`qux`)
+# *[Quechua Yauyos]* &mdash; Quechua Yauyos (`qux`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Quechua Yauyos (`qux`). The dataset contains 14 hours of recorded

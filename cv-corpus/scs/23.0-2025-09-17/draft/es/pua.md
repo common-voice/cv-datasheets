@@ -1,4 +1,4 @@
-# *<Western Highland Purepecha>* &mdash; Western Highland Purepecha (pua)
+# *[Western Highland Purepecha]* &mdash; Western Highland Purepecha (pua)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
 para Western Highland Purepecha (pua). El conjunto de datos contiene 12 horas de grabaciones (11 horas
 validadas) de 9 hablantes.

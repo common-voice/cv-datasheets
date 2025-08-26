@@ -1,4 +1,4 @@
-# *<Ushojo>* &mdash; Ushojo (`ush`)
+# *[Ushojo]* &mdash; Ushojo (`ush`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Ushojo (`ush`). The dataset contains 6.8 hours of recorded

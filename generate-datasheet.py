@@ -42,9 +42,9 @@ for modality in metadata:
 		native_name = metadata[modality][locale]['native_name']
 		version_readable = version.split('-')[0]
 		if english_name == '' or english_name == '_':
-			english_name = '<' + native_name + '>'
+			english_name = '[' + native_name + ']'
 		if native_name == '' or native_name == '_':
-			native_name = '<' + english_name + '>'
+			native_name = '[' + english_name + ']'
 		filled_template = template.replace('{{LOCALE}}', locale)
 		filled_template = filled_template.replace('{{VERSION}}', version_readable)
 		filled_template = filled_template.replace('{{ENGLISH_NAME}}', english_name)
