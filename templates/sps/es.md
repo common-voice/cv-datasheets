@@ -67,7 +67,7 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 
 #### Preguntas
 
-A continuación se muestra una selección aleatoria de respuestas transcritas del corpus.
+A continuación se muestra una selección aleatoria de las preguntas usadas en el corpus.
 
 <!-- {{QUESTIONS_SAMPLE}} -->
 
@@ -91,7 +91,7 @@ A continuación se muestra una selección aleatoria de respuestas transcritas de
 <!-- @ OPCIONAL @ -->
 <!-- Enlaces a chats o foros comunitarios -->
 
-### Debates
+### Discusiones
 
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
