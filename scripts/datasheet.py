@@ -1,7 +1,7 @@
 """
 A very minimal implementation for converting between a datasheet markdown file 
 and a Python object. It is capable of parsing markdown sections, extracting 
-metadata, and converting back to markdown format. It currently doesn't parse 
+comments, and converting back to markdown format. It currently doesn't parse 
 anything in the section content, but instead treats everything as raw text.
 
 Example usage:
