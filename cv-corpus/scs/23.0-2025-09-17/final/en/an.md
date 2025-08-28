@@ -1,6 +1,8 @@
 # *Aragonés* &mdash; Aragonese (`an`)
 
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset for Aragonese (`an`).
+This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
+for Aragonese (`an`). The dataset contains 18 hours of recorded
+speech (17 hours validated) from 52 speakers.
 
 ## Language
 
@@ -59,12 +61,17 @@ To get more information about this dataset and find out how you can contribute, 
 * [Validate recordings](https://commonvoice.mozilla.org/an/listen)
 * [Review sentences](https://commonvoice.mozilla.org/an/review)
 
-## Acknowledgements
+## Acknowledgements
 
 ### Datasheet authors
 
 * Juan Pablo Martínez <juanpabl@gmail.com>
 
-### Funding
+### Funding
 
 This dataset was partially funded by the Open Multilingual Speech Fund.
+
+## Licence
+
+This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
+you agree to not determine the identity of speakers in the dataset.
