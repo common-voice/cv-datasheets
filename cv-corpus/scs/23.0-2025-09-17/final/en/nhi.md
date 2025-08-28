@@ -156,6 +156,11 @@ None
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
+* [Contribute voice recordings](https://commonvoice.mozilla.org/nhi/speak)
+* [Contribute sentences](https://commonvoice.mozilla.org/nhi/write)
+* [Validate recordings](https://commonvoice.mozilla.org/nhi/listen)
+* [Review sentences](https://commonvoice.mozilla.org/nhi/review)
+
 ## Acknowledgements
 
 ### Datasheet authors
