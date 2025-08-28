@@ -11,7 +11,7 @@ Example usage:
 
     > section_title = datasheet.sections[2].title
     > datasheet.append_content(section_title, "New content")
-    > datasheet.write_to_file("output.md", include_empty_sections=True)
+    > markdown_text = datasheet.to_markdown(include_empty_sections=True)
 
 Note: The "header" section referred to throughout the code is the top-most 
       section of the datasheet 
