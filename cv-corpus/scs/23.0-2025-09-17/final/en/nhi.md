@@ -1,4 +1,4 @@
-# Maseualtlahtol *[Western Sierra Puebla Nahuatl]* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
+# *Maseualtlahtol* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Western Sierra Puebla Nahuatl (`nhi`). The dataset contains 0.6 hours of recorded
@@ -14,8 +14,8 @@ from Mexico's National Institute of Indigenous Languages estimates approximately
 
 The language code is `nhi`. There is quite a bit of variation within the nhi variant, varying between
 municipalities and communities. For example, some towns, near San Miguel Tenango, use "inverted prefixes" compared
-to the rest of the Nahuatl-speaking area, (e.g. in-nihnimi instead of ni-nihnimi, "I walk").
-The sentences in this corpus come from the nhi Universal Dependencies treebank, which is made up of samples 
+to the rest of the Nahuatl-speaking area, (e.g. *in-nihnimi* instead of *ni-nihnimi*, "I walk").
+The sentences in this corpus come from the `nhi` Universal Dependencies treebank, which is made up of samples 
 from all three municipalities, and a set of dictionary-style example sentences written by a speaker from the 
 Tepetzintla municipality.
 
@@ -66,9 +66,11 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-The average length of validated sentences is 5.5 words (34 characters). The corpus contains numerous Spanish loanwords, calques, and code-switching. For example, the following sentence from the corpus contains the Spanish conjunction "pero", Spanish preposition "de", the subordinator "hasta", a morphologically-adapted loanword "oniquestudiaro" (from estudiar "to study"), and a morphologically-adapted number, "ocho" (tiochoque "we are eight"). Due to long-standing language contact and bilingualism, Nahuatl commonly incorporates elements of Spanish, and this is well-represented in the text corpus.
+The average length of validated sentences is 5.5 words (34 characters). The corpus contains numerous Spanish loanwords, calques, and code-switching. For example, the following sentence from the corpus contains the Spanish conjunction *pero* "but", Spanish preposition *de* "of", the subordinator *hasta* "until", a morphologically-adapted loanword *oniquestudiaro* (from *estudiar* "to study"), and a morphologically-adapted number, *ocho* "eight" (*tiochoque* "we are eight"). Due to long-standing language contact and bilingualism, Nahuatl commonly incorporates elements of Spanish, and this is well-represented in the text corpus.
 
-Pero de nochten tlen tiochoque sa ye neh oniquestudiaro hasta cuando onipiyaya dieciocho años.
+> *Pero de nochten tlen tiochoque sa ye neh oniquestudiaro hasta cuando onipiyaya dieciocho años.*
+> 
+> "But of all of us eight I was the only one who studied until when I was eighteen years old."
 
 ### Writing system
 
@@ -167,7 +169,7 @@ None
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-Robert A. Pugh robertp@mozillafoundation.org
+* Robert A. Pugh <robertp@mozillafoundation.org>
 
 ### Citation guidelines
 
