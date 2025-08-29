@@ -10,7 +10,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-10 / 288
+5 / 288
 
 | Draft | Final |
 |-------|-------|
@@ -25,7 +25,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `as` | - |
 | `ast` | - |
 | `az` | - |
-| `ba` | ✔ |
+| `ba` | - |
 | `bag` | - |
 | `bas` | ✔ |
 | `bax` | - |
@@ -61,7 +61,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `cs` | - |
 | `cut` | - |
 | `cux` | - |
-| `cv` | ✔ |
+| `cv` | - |
 | `cy` | - |
 | `da` | - |
 | `dag` | - |
@@ -134,7 +134,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `kbd` | - |
 | `kdh` | - |
 | `khw` | - |
-| `kk` | ✔ |
+| `kk` | - |
 | `kln` | - |
 | `kls` | - |
 | `kmr` | - |
@@ -143,7 +143,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `kvx` | - |
 | `kw` | ✔ |
 | `kxp` | - |
-| `ky` | ✔ |
+| `ky` | - |
 | `lg` | - |
 | `lij` | - |
 | `lo` | - |
@@ -268,7 +268,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `trv` | - |
 | `trw` | - |
 | `ts` | - |
-| `tt` | ✔ |
+| `tt` | - |
 | `tui` | - |
 | `tvu` | - |
 | `tw` | - |
@@ -302,3 +302,4 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `zoc` | - |
 | `zu` | - |
 | `zza` | - |
+
