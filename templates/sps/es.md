@@ -105,23 +105,19 @@ A continuación se muestra una selección aleatoria de respuestas transcritas de
 ## Agradecimientos
 
 ### Autores de la ficha técnica
-
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- Lista con el formato: Tu Nombre <email@email.com> -->
+<!-- Una lista en el formato: Su Nombre <email@email.com> -->
 
-### Normas de citación
-
+### Criterios de citación
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
-<!-- Si publicaste un artículo y quieres que la gente lo cite, puedes incluir aquí el BiBTeX -->
+<!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
-
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
-<!-- Si recibiste financiamiento, puedes incluir aquí el reconocimiento correspondiente -->
+<!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->
 
 ## Licencia
-
-Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/).  
-Al descargar estos datos, aceptas no intentar determinar la identidad de los hablantes en el conjunto de datos.
+Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
+usted acepta no determinar la identidad de los hablantes en el conjunto de datos.

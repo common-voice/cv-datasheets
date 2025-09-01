@@ -109,10 +109,10 @@ A continuación se muestran cinco oraciones seleccionadas aleatoriamente del cor
 <!-- @ OPCIONAL @ -->
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
-### Financiación
+### Financiamiento
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
-<!-- Si recibió financiación, puede incluir el reconocimiento aquí -->
+<!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->
 
 ## Licencia
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
