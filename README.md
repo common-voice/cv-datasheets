@@ -16,7 +16,7 @@ If you can't access the Google form or the GitHub contribution process, please e
 ### Via a form
 To add a new datasheet for your language in either the Scripted Speech or Spontaneous Speech, please click the appropriate link below and follow the instructions in the form.
 
-Currently these forms are available in English and Spanish. To request a version of this form in your language please email commonvoice@mozilla.com with the subject line "Datasheet form localization".
+Currently these forms are available in English and Spanish.
 
 **Scripted/Read Speech:**
 
