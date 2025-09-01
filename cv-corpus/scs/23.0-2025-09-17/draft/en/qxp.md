@@ -148,6 +148,7 @@ Elwin Huaman <elwin.huaman@hotmail.com>
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+Submitted to SIMBig 2025 (Needs confirmation)
 
     @inproceedings{HuamanHHQ25,
     author       = {Elwin Huaman and
