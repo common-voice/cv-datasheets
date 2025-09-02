@@ -10,7 +10,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-5 / 288
+6 / 288
 
 | Draft | Final |
 |-------|-------|
@@ -222,7 +222,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `qwa` | - |
 | `qws` | - |
 | `qxa` | - |
-| `qxp` | - |
+| `qxp` | ✔ |
 | `qxt` | - |
 | `qxu` | - |
 | `qxw` | - |
