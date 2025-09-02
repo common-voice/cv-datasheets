@@ -4,7 +4,7 @@ Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Sponta
 para Michoacán Mazahua (`mmc`). El conjunto de datos contiene 12 horas de grabaciones 
 (12 horas validadas) de 12 hablantes.
 
-## Lengua
+## Idioma
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->
