@@ -4,7 +4,7 @@ Esta ficha técnica corresponde a la versión {{VERSION}} del conjunto de datos 
 para {{ENGLISH_NAME}} (`{{LOCALE}}`). El conjunto de datos contiene {{HOURS_RECORDED}} horas de grabaciones 
 ({{HOURS_VALIDATED}} horas validadas) de {{SPEAKERS}} hablantes.
 
-## Lengua
+## Idioma
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->

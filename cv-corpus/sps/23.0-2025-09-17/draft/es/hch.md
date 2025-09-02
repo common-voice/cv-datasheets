@@ -4,7 +4,7 @@ Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Sponta
 para Wixárika (`hch`). El conjunto de datos contiene 11 horas de grabaciones 
 (11 horas validadas) de 10 hablantes.
 
-## Lengua
+## Idioma
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->
