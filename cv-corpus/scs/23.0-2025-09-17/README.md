@@ -10,7 +10,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-6 / 288
+13 / 288
 
 | Draft | Final |
 |-------|-------|
@@ -59,8 +59,8 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `cnh` | - |
 | `cpy` | - |
 | `cs` | - |
-| `cut` | - |
-| `cux` | - |
+| `cut` | ✔ |
+| `cux` | ✔ |
 | `cv` | - |
 | `cy` | - |
 | `da` | - |
@@ -181,12 +181,12 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `myv` | - |
 | `nan-tw` | - |
 | `nb-NO` | - |
-| `ncx` | - |
+| `ncx` | ✔ |
 | `ne-NP` | - |
 | `nhi` | ✔ |
 | `nl` | - |
 | `nla` | - |
-| `nlv` | - |
+| `nlv` | ✔ |
 | `nmg` | - |
 | `nmz` | - |
 | `nn-NO` | ✔ |
@@ -253,7 +253,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `sw` | - |
 | `szy` | - |
 | `ta` | - |
-| `tar` | - |
+| `tar` | ✔ |
 | `tay` | - |
 | `te` | - |
 | `tg` | - |
@@ -278,7 +278,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `ur` | - |
 | `ush` | - |
 | `uz` | - |
-| `var` | - |
+| `var` | ✔ |
 | `ve` | - |
 | `vi` | - |
 | `vmw` | - |
@@ -289,7 +289,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `xhe` | - |
 | `xka` | - |
 | `xmf` | - |
-| `yaq` | - |
+| `yaq` | ✔ |
 | `yav` | - |
 | `ydg` | - |
 | `yi` | - |

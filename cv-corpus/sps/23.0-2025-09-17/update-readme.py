@@ -1,9 +1,9 @@
 import sys, glob
 
-draft_files = glob.glob('draft/en/*.md')
-final_files = glob.glob('final/en/*.md')
-draft_codes = [f.split('/')[-1].split('.')[0] for f in draft_files]
-final_codes = [f.split('/')[-1].split('.')[0] for f in final_files]
+draft_files = glob.glob('draft/en/*.md') + glob.glob('draft/es/*.md')
+final_files = glob.glob('final/en/*.md') + glob.glob('final/es/*.md')
+draft_codes = list(set([f.split('/')[-1].split('.')[0] for f in draft_files]))
+final_codes = list(set([f.split('/')[-1].split('.')[0] for f in final_files]))
 
 draft_codes.sort()
 final_codes.sort()
