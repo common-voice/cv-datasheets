@@ -1,6 +1,6 @@
-# *[Makurawe]* &mdash; Huarijio (var)
+# *Warihío* &mdash; Huarijio (`var`)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
-para Huarijio (var). El conjunto de datos contiene 12 horas de grabaciones (10 horas
+para Huarijio (`var`). El conjunto de datos contiene 12 horas de grabaciones (10 horas
 validadas) de 12 hablantes.
 
 ## Idioma
@@ -14,7 +14,10 @@ La lengua según el Catálogo de lenguas Indigenas del INALI, el Huarijío perte
 <!-- @ OPCIONAL @ -->
 <!-- Describa las variantes (variantes MCV) de su idioma -->
 
-La variante del Huarijío es el Warijó (guarijío de la sierra) hablado en Chihuahua, que tiene el mismo código ISO 639-3: var.  
+La variante del Huarijío es el Warijó (guarijío de la sierra) hablado en Chihuahua, que tiene el mismo código ISO 639-3: `var`.  
+
+* `var-delrio`: Makurawe
+* `var-sierra`: Warihío
 
 ## Información demográfica
 <!-- puede obtener gran parte de la información en esta sección desde https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +65,32 @@ Se tomó la escritura usada en la tesis del 2005 por el Dr. Rolando Guadalupe Fe
 <!-- @ OPCIONAL @ -->
 <!-- Si el sistema de escritura es alfabético, puede incluir aquí el alfabeto válido -->
 
+```
 p t k r s č m n w y h (') 
+a e i o u
+```
 
 ### Muestra
 <!-- {{SENTENCES_SAMPLE}} -->
 A continuación se muestran cinco oraciones seleccionadas aleatoriamente del corpus.
-1. Waní akačupare 2. No'ó poní kikainá kuú 3. Waní yauré 4. Ko'kosapa kočírúne 5. Yomá tihoé simpanáre ečitiači  
+
+```
+Waní akačupare 
+No'ó poní kikainá kuú 
+Waní yauré 
+Ko'kosapa kočírúne 
+Yomá tihoé simpanáre ečitiači  
+```
 
 ### Fuentes
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Una lista de las fuentes de las oraciones, se puede limitar a las N principales -->
 
-Avila Enriquez, Diana Amelia. 2012. Las construcciones aplicativas en guarijío de Sonora. (tesis de maestría). Sonora: Universidad de Sonora.  Barreras Aguilar, Isabel.  1996  “Clasificación semántica de los verbos en guarijío. En: J.Fajardo (Ed.). Estudios semánticos. México: El Colegio de México Félix Armendáriz, Rolando Gpe. 2005. A Grammar of River Warihio. Disertación de doctorado.Texas: Rice University.  Medina Murillo Ana Aurora. 2002. Diccionario morfológico: formación de palabras en el  guarijio. (tesis de maestria). Sonora: Universidad de Sonora. 
+* Avila Enriquez, Diana Amelia. 2012. *Las construcciones aplicativas en guarijío de Sonora*. (tesis de maestría). Sonora: Universidad de Sonora.  
+* Barreras Aguilar, Isabel.  1996  “Clasificación semántica de los verbos en guarijío. En: J.Fajardo (Ed.). *Estudios semánticos*. México: El Colegio de México Félix Armendáriz, 
+* Rolando Gpe. 2005. *A Grammar of River Warihio*. Disertación de doctorado.Texas: Rice University.  
+* Medina Murillo Ana Aurora. 2002. *Diccionario morfológico: formación de palabras en el  guarijio*. (tesis de maestria). Sonora: Universidad de Sonora. 
 
 ### Dominios textuales
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -88,28 +104,21 @@ General
 <!-- @ OPCIONAL @ -->
 <!-- Cómo se ha procesado la información textual -->
 
-Se tuvo que elegir un sistema de escritura porque hay varios investigadores y normalizarlo. 
-
 ### Postprocesamiento recomendado
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Qué debería hacerse antes de usar los datos, por ejemplo normalización de Unicode -->
-
-Ninguno. 
 
 ### Enlaces comunitarios
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Enlaces a chats / foros de la comunidad -->
 
-Ninguno. 
-
 ### Discusiones
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Puede incluirse cualquier enlace a debates, por ejemplo en Discourse, foros u otros blogs -->
 
-ninguno. 
 
 ### Contribuir
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
@@ -121,7 +130,7 @@ ninguno.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- Una lista en el formato: Su Nombre <email@email.com> -->
 
-Maria Alfonsa Larios Santacruz (mariaalfonsa@hotmail.com)
+* Maria Alfonsa Larios Santacruz <mariaalfonsa@hotmail.com>
 
 ### Criterios de citación
 <!-- {{CITATION_DESCRIPTION}} -->
@@ -135,8 +144,9 @@ Maria Alfonsa Larios Santacruz (mariaalfonsa@hotmail.com)
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiemiento, puede incluir el reconocimiento aquí -->
 
-Se recibió financiamiento de MOZILLA FOUNDATION. Proyecto: COMMON VOICE MÉXICO. 
+Se recibió financiamiento del programa "Open Multilingual Speech Fund" gestionado por el proyecto Common Voice de la Fundación Mozilla.
 
 ## Licencia
+
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
 usted acepta no determinar la identidad de los hablantes en el conjunto de datos.
