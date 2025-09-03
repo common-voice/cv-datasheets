@@ -10,7 +10,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-1 / 57
+2 / 57
 
 | Draft | Final |
 |-------|-------|
@@ -52,7 +52,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `lv` | - |
 | `meh` | - |
 | `mel` | - |
-| `mmc` | - |
+| `mmc` | ✔ |
 | `ms-MY` | - |
 | `msi` | - |
 | `pne` | - |
