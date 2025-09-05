@@ -54,7 +54,9 @@ Historically, this language used Pegon, Arabic script, but now Latin is adapted.
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+```
 a b c d é è ȇ e f g h i j k l m n o p q r s t u v w y z 
+```
 
 #### Extralinguistic tags
 
@@ -66,11 +68,19 @@ a b c d é è ȇ e f g h i j k l m n o p q r s t u v w y z
 #### Questions
 <!-- {{QUESTIONS_SAMPLE}} -->
 There follows a randomly selected sample of transcribed responses from the corpus.
-Begimané pendidikan keluargé di masyarakat sekitar Ente? | Pigimané masyarakat di lingkungan Ente ngejagé atow melestarikan alam di sekitar? | Menurut Ente déwék, seberapé besar peran tuh kesenian buat acaré khusus? | Elmu apé nyang bakalan penting buat dipelajarin di masé depan? | Begimané caré kité ngedidik generasi mudé biar lebih peduli ngejagé lingkungan?
+
+```
+Begimané pendidikan keluargé di masyarakat sekitar Ente? 
+Pigimané masyarakat di lingkungan Ente ngejagé atow melestarikan alam di sekitar? 
+Menurut Ente déwék, seberapé besar peran tuh kesenian buat acaré khusus? 
+Elmu apé nyang bakalan penting buat dipelajarin di masé depan? 
+Begimané caré kité ngedidik generasi mudé biar lebih peduli ngejagé lingkungan?
+```
 
 #### Responses
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 There follows a randomly selected sample of transcribed responses from the corpus.
+
 Kalo di sini mah pendidikan paling utama, ya minimal lulus SMA. Jadinya di sini mah bagan emaknya pada kuli nandur yang penting anaknya sekolȇh. Jadinya diusahain banget pendidikan di sini. Bagan boleh utang kék, èmaknya boleh kuli nandur, kuli nyuci, yang penting anaknyé sekolȇh.
 
 ### Recommended post-processing
@@ -88,7 +98,8 @@ Kalo di sini mah pendidikan paling utama, ya minimal lulus SMA. Jadinya di sini 
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-https://referensi.data.kemendikdasmen.go.id/budayakita/wbtb/objek/AA000491  | https://petabahasa.kemdikbud.go.id/  (Web of peta bahasa does not consider Betawi language is part of Indonesia, particularly in Jakarta and West Jawa Province.  
+* https://referensi.data.kemendikdasmen.go.id/budayakita/wbtb/objek/AA000491  
+* https://petabahasa.kemdikbud.go.id/  (Web of peta bahasa does not consider Betawi language is part of Indonesia, particularly in Jakarta and West Jawa Province.  
 
 ### Discussions
 <!-- {{DISCUSSION_LINKS_LIST}} -->
@@ -101,7 +112,7 @@ https://referensi.data.kemendikdasmen.go.id/budayakita/wbtb/objek/AA000491  | ht
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-https://commonvoice.mozilla.org/spontaneous-speech/beta/
+* [Common Voice: Spontaneous Speech](https://commonvoice.mozilla.org/spontaneous-speech/beta/)
 
 ## Acknowledgements
 
@@ -110,14 +121,13 @@ https://commonvoice.mozilla.org/spontaneous-speech/beta/
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Yacub Fahmilda (yacub.fahmilda@gmail.com)  Riska Legistari Febri (Riskalegistari25@gmail.com)
+* Yacub Fahmilda (yacub.fahmilda@gmail.com)  
+* Riska Legistari Febri (Riskalegistari25@gmail.com)
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-Fahmilda & Febri
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
