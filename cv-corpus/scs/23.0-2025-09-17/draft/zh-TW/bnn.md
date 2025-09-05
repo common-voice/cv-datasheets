@@ -1,6 +1,6 @@
 # *布農語* &mdash; Bunun (`bnn`)
 
-Mozilla Common Voice 23.0 版的 布農語（Bunun, `bnn`）*文本錄音* 語料集。
+Mozilla Common Voice 23.0 布農語（Bunun, `bnn`）*文本錄音* 語料集。
 本語料集包含布農族的 18 位錄音者，共 12 小時的錄音資料，其中 11 小時已驗證（經另二名參與者確認）。
 錄音範圍為十二年國教課程原住民族語文教材第 1 至 9 階課文文本。
 
@@ -18,11 +18,11 @@ Mozilla Common Voice 23.0 版的 布農語（Bunun, `bnn`）*文本錄音* 語�
 
 本語音語料庫包含以下方言語群
 
-- 卓群布農語 Takituduh Bunun (`takitudu`)
-- 卡群布農語 Takibakha Bunun (`bakha`)
-- 郡群布農語 Isbukun Bunun (`bubukun`)
-- 巒群布農語 Takbanuaz Bunun (`banuaz`)
-- 丹群布農語 Takivatan Bunun (`vatan`)
+- 卓群布農語 Takituduh (`takitudu`)
+- 卡群布農語 Takibakha (`bakha`)
+- 郡群布農語 Isbukun (`bubukun`)
+- 巒群布農語 Takbanuaz (`banuaz`)
+- 丹群布農語 Takivatan (`vatan`)
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -92,7 +92,9 @@ Mozilla Common Voice 23.0 版的 布農語（Bunun, `bnn`）*文本錄音* 語�
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-錄音文本取《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）文本，經中華民國[教育部國民及學前教育署](https://www.k12ea.gov.tw)授權台灣維基媒體協會整理上傳。
+錄音文本取自《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）內容，經[中華民國教育部國民及學前教育署](https://www.k12ea.gov.tw)授權，由台灣維基媒體協會整理後上傳。
+
+在族語專案錄音過程中，我們發現部分文本存在文意不符、單詞或拼寫錯誤等情況。因 Common Voice 系統限制，相關內容未能事先更正仍直接進行錄製。錄音者與教材之間是為共同協作關係，特此說明。
 
 特別感謝時任教育部政務次長葉丙成協助協調授權事宜。
 

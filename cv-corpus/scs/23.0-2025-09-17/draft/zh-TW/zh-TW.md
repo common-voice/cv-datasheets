@@ -1,14 +1,15 @@
-# *華語（台灣）* &mdash; Chinese (Taiwan) (`zh-TW`)
+# *國語（台灣華語）* &mdash; Chinese (Taiwan) (`zh-TW`)
 
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Chinese (Taiwan) (`zh-TW`). The dataset contains 131 hours of recorded
-speech (77 hours validated) from 2291 speakers.
+Mozilla Common Voice 23.0 國語（台灣華語／繁體中文, `zh-TW`）*文本錄音* 語料集。
+本語料集包含 2291 位錄音者，共 131 小時的錄音資料，其中 77 小時已驗證（經另二名參與者確認）。
+
+本語料及錄音者為主要來自台灣的個別志工參與者。
 
 ## Language
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Mandarin with mainly Taiwan accents, Traditional Chinese text corpus.
+中華民國國語（台灣華語），繁體中文語料文字。
 
 ### Variants 
 
@@ -18,11 +19,11 @@ Mandarin with mainly Taiwan accents, Traditional Chinese text corpus.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
-The dataset includes the following distribution of age and gender.
+本資料集包含以下年齡與性別分布。
 
 ### Gender
 
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+錄音者自行宣告的性別資訊。頻率為標記此性別的錄音數。
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -35,7 +36,7 @@ Self-declared gender information, frequency refers to the number of clips annota
 -->
 ### Age
 
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
+錄音者自行宣告的年齡資訊。頻率為標記此年齡的錄音數。
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -56,15 +57,15 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-Most of the current Traditional Chinese text corpus is collected at [MozTW CC0 sentences](https://github.com/moztw/cc0-sentences), a community projects project.
+大部分繁體文本語料整理於：[MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences)。
 
-Here are some statistic info,
+以下是文本語料的統計資訊，請檢視上述 repo 以進一步瞭解統計方式：
 
 > There are 3573 characters in the corpus, covering about 85.6% of the MOU 2015 common chars data (教育部2015常用字99.75% (3593字)).
 > 
 > 1046 phonetic are covered, about 66.75% of the total phonetic from CnsPhonetic2016-08v2.cin table.
->
-> Please check the repo for the details info and methods.
+
+我們亟需更多「日常生活用句」，歡迎捐贈您以國語書寫的作品，請參考下方社群頻道資訊與我們聯繫。
 
 ### Writing system
 
@@ -80,7 +81,7 @@ Here are some statistic info,
 
 ### Sample
 
-There follows a randomly selected sample of five sentences from the corpus.
+以下為五個隨機選擇的錄音句子樣本
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
@@ -90,7 +91,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-Sentences curated by Mozilla Taiwan Community members, g0v Community members, and other open source participants in Taiwan.
+文本語料由 Mozilla 台灣社群、g0v 社群、及其他開放原始碼運動參與者共同建立。
 
 ### Text domains
 
@@ -118,9 +119,9 @@ Sentences curated by Mozilla Taiwan Community members, g0v Community members, an
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-Common Voice project page of Mozilla Taiwan Community: [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
+Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
 
-If you want to help build the Common Voice dataset for Traditional Chinese, or have any questions or suggestions, please join the following community groups and discuss with us:
+任何問題與建議、協助推廣、捐贈語料，或其他合作需求，請透過以下社群頻道與我們討論：
 
 - [Telegram group](https://t.me/+gvmHEcAtd-IwNzFl)
 - [Line group](https://line.me/ti/g/_PLyjCSe_8)
@@ -131,16 +132,17 @@ If you want to help build the Common Voice dataset for Traditional Chinese, or h
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
-Related news - [https://hackmd.io/@moztw/common-voice-news](https://hackmd.io/@moztw/common-voice-news)
+- [Discourse 討論區](https://discourse.mozilla.org/c/voice/zh-tw/286)
+- [相關新聞](https://hackmd.io/@moztw/common-voice-news)
 
 ### Contribute
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-* [Recordings voice](https://commonvoice.mozilla.org/zh-TW/speak)
-* [Validate recordings](https://commonvoice.mozilla.org/zh-TW/listen)
-* Contribute sentences - If you would like to donate your text-corpus (eg., your own writing), please first contact Irvin at irvin@moztw.org or via above Line / Telegram group.
+* [協助錄音](https://commonvoice.mozilla.org/nan-tw/speak)
+* [協助驗證錄音](https://commonvoice.mozilla.org/nan-tw/listen)
+* 捐出你的句子 - 如您有意願捐出你擁有的文本語料（例如您的個人創作）供參與者錄音，請先聯絡 Irvin （ irvin@moztw.org ）或於以上 Line / Telegram 群組討論。
 
 ## Acknowledgements
 
@@ -149,7 +151,7 @@ Related news - [https://hackmd.io/@moztw/common-voice-news](https://hackmd.io/@m
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-- Irvin Chen (MozTW Community Liaison) <irvin@moztw.org>
+- Irvin Chen (MozTW 社群聯絡人) <irvin@moztw.org>
 
 ### Citation guidelines
 
@@ -165,5 +167,5 @@ Related news - [https://hackmd.io/@moztw/common-voice-news](https://hackmd.io/@m
 
 ## Licence
 
-This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
-you agree to not determine the identity of speakers in the dataset.
+此資料集以 [創用 CC 公眾領域貢獻宣告 (CC-0)](https://creativecommons.org/public-domain/cc0/) 釋出至公共領域。
+下載這個資料集，即代表你同意不對資料集中的個別參與者進行識別。

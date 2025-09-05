@@ -1,6 +1,6 @@
 # *台語* &mdash; Taiwanese (Minnan) (`nan-tw`)
 
-Mozilla Common Voice 23.0 版的台語（臺灣閩南語，Tâi-gí／Taiwanese Hokkien, `nan-tw`）*文本錄音* 語料集。
+Mozilla Common Voice 23.0 台語（臺灣閩南語，Tâi-gí／Taiwanese Hokkien, `nan-tw`）*文本錄音* 語料集。
 本語料集包含 290 位錄音者，共 24 小時的錄音資料，其中 21 小時已驗證（經另二名參與者確認）。
 
 請特別注意：本語音語料集為「*漢字——語音資料集*」。
@@ -70,7 +70,7 @@ Mozilla Common Voice 23.0 版的台語（臺灣閩南語，Tâi-gí／Taiwanese 
 
 此錄音集大部分文本語料整理於：[MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences)，主要來自 MozTW ／ g0v 社群個別參與者。
 
-由於目前缺乏公共授權（無以知授權限制）的台語「句子」文本語料，Common Voice 台語錄音目前以「單詞」為大宗。
+由於目前缺乏公共授權（無已知授權限制）的台語「句子」文本語料，Common Voice 台語錄音目前以「單詞」為大宗。
 
 我們亟需更多「日常生活用句」，歡迎捐贈您以台語書寫的作品。請參考下方社群頻道資訊與我們聯繫。
 

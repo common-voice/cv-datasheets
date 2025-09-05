@@ -1,6 +1,6 @@
 # *賽德克語* &mdash; Seediq (`trv`)
 
-Mozilla Common Voice 23.0 版的 賽德克語（Seediq, `trv`）之 *文本錄音* 語料集。
+Mozilla Common Voice 23.0 賽德克語（Seediq, `trv`）之 *文本錄音* 語料集。
 本語料集包含來自賽德克族語言推動組織的 10 位錄音者，共 11 小時的錄音資料，其中 10 小時已驗證（經另二名參與者確認）。
 錄音範圍為十二年國教課程原住民族語文教材第 1 至 9 階課文文本。
 
@@ -19,8 +19,8 @@ Mozilla Common Voice 23.0 版的 賽德克語（Seediq, `trv`）之 *文本錄�
 本語音語料庫包含以下方言語群
 
 - 德固達雅賽德克語 Tgdaya Seediq (`tgdaya`)
-- 都達賽德克語 Toda Seediq (`teuda`)
-- 德鹿谷賽德克語 Truku Seediq (`truku`)
+- 都達賽德克語 Toda Sediq (`toda`)
+- 德鹿谷賽德克語 Truku Seejiq (`truku`)
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -90,7 +90,9 @@ Mozilla Common Voice 23.0 版的 賽德克語（Seediq, `trv`）之 *文本錄�
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-錄音文本取《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）文本，經中華民國[教育部國民及學前教育署](https://www.k12ea.gov.tw)授權台灣維基媒體協會整理上傳。
+錄音文本取自《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）內容，經[中華民國教育部國民及學前教育署](https://www.k12ea.gov.tw)授權，由台灣維基媒體協會整理後上傳。
+
+在族語專案錄音過程中，我們發現部分文本存在文意不符、單詞或拼寫錯誤等情況。因 Common Voice 系統限制，相關內容未能事先更正仍直接進行錄製。錄音者與教材之間是為共同協作關係，特此說明。
 
 特別感謝時任教育部政務次長葉丙成協助協調授權事宜。
 
@@ -130,7 +132,7 @@ Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/com
 2025 族語錄音計畫參與社群：
 
 - [賽德克族語言推動組織](https://www.facebook.com/Kari3s4t/)
-- 特別感謝林江苹秀協助招募與錄音事宜
+- 特別感謝林江苹秀 Bilaq Watan 協助招募與錄音事宜
 
 ### Discussions
 
