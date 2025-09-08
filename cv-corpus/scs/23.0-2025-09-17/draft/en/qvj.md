@@ -8,7 +8,7 @@ speech (11 hours validated) from 16 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Loja Highland Kichwa, identified by the ISO 639-3: [qvj](https://iso639-3.sil.org/code/qvj), belongs to the Quechua II group. 
+
 ### Variants 
 
 <!-- {{VARIANT_DESCRIPTION}} -->
@@ -51,14 +51,15 @@ Self-declared age information, frequency refers to the number of clips annotated
 
 ## Text corpus
 
-The average length of sentences is 6 tokens (40 characters).
+<!-- {{TEXT_CORPUS_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
 ### Writing system
 
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
-Quechua language is written in the Latin script. All Quechua dialects form words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
 #### Symbol table
 
@@ -68,15 +69,7 @@ Quechua language is written in the Latin script. All Quechua dialects form words
 
 ### Sample
 
-There follows a randomly selected sample of five sentences from the corpus:
-```
-Shunkullita mashama kararka
-Tikramuy kikinpa muskuypi
-Pawan ashtaka wayanaykuna tamia chayamuymanta
-Hatarishka wayrawan pillpintushna
-Hatarishka pillpintulaya kawsay yaya pachamamapi
-
-```
+There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
@@ -85,7 +78,6 @@ Hatarishka pillpintulaya kawsay yaya pachamamapi
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
-Sentences were collected by Mr. Luis Córdova
 
 ### Text domains
 
@@ -120,46 +112,28 @@ Sentences were collected by Mr. Luis Córdova
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
-* [Contribute voice recordings](https://commonvoice.mozilla.org/qvj/speak)
-* [Contribute sentences](https://commonvoice.mozilla.org/qvj/write)
-* [Validate recordings](https://commonvoice.mozilla.org/qvj/listen)
-* [Review sentences](https://commonvoice.mozilla.org/qvj/review)
+
+<!-- {{CONTRIBUTE_LINKS_LIST}} -->
+<!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
-We extend our gratitude to Mr. Oscar Chávez Gonzales of the Peruvian Ministry of Education for providing invaluable information.
 
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-* Luis Camacho <camacho.l@pucp.pe>
 
 ### Citation guidelines
 
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-<!-- Submitted to SIMBig 2025 (Needs confirmation).-->
-
-If you use this dataset in your research, please cite the following publication:
-
-```bibtex
-    @article{Camacho_2024, 
-    title   ={Automating the Proposition of Neologisms for the Quechua Language},  
-    volume  ={54}, DOI={10.1017/S0025100324000227}, 
-    number  ={3}, 
-    journal ={Journal of the International Phonetic Association}, 
-    author  ={Camacho, Luis}, 
-    year    ={2024}, 
-    pages   ={922–938}} 
-```
 
 ### Funding
 
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-This dataset was funded by the Mozilla Foundation Open Multilingual Speech Fund.
 
 ## Licence
 
