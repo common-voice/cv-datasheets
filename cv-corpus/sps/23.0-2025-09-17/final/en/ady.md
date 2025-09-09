@@ -200,8 +200,13 @@ Murat Topçu <murattopcu67@hotmail.com> <br>
 <!-- A list in the format of: Your Name <email@email.com>-->	
 M.Uğur Nemlioğlu <nemerko@nemerko.com><br>
 Saida Abregova <br>
+Elizaveta Gogunokova <br>
+Murat Topçu <br>
 
-	A special thanks to Bülent Özden, who served as an Advisor to this dataset.
+### Advisors
+<!-- {{ADVISORS_LIST}} -->
+<!-- A list in the format of: Your Name-->
+Bülent Özden (Technical Advisor)<br>
 
 ### Citation guidelines
 
