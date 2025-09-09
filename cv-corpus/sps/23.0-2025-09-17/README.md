@@ -1,4 +1,4 @@
-# Datasheets
+﻿# Datasheets
 
 This directory contains the Markdown files representing the datasheets. There
 are two sub-directories:
@@ -15,7 +15,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | Draft | Final |
 |-------|-------|
 | `aat` | - |
-| `ady` | - |
+| `ady` | ✔ |
 | `aln` | - |
 | `an` | - |
 | `ba` | - |
@@ -41,7 +41,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `hac` | - |
 | `hch` | - |
 | `ka` | - |
-| `kbd` | - |
+| `kbd` | ✔ |
 | `kcn` | - |
 | `koo` | - |
 | `kzi` | - |
