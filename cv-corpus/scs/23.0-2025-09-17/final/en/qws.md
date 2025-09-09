@@ -1,20 +1,14 @@
-# *Drekay* &mdash; Rukai (`dru`)
+# *[Quechua Sihuas Ancash]* &mdash; Quechua Sihuas Ancash (`qws`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Rukai (`dru`). The dataset contains 11 hours of recorded
-speech (11 hours validated) from 20 speakers.
+for Quechua Sihuas Ancash (`qws`). The dataset contains 11 hours of recorded
+speech (11 hours validated) from 12 speakers.
 
 ## Language
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-
-### Variants 
-
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-
+Sihuas Ancash Quechua, identified by the ISO 639-3: [qws](https://iso639-3.sil.org/code/qws), belongs to the Quechua I group. 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
@@ -51,51 +45,66 @@ Self-declared age information, frequency refers to the number of clips annotated
 
 ## Text corpus
 
-<!-- {{TEXT_CORPUS_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
+The average length of sentences is 6 tokens (40 characters).
 
 ### Writing system
 
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+Quechua language is written in the Latin script. All Quechua dialects form words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
 #### Symbol table
-
+Following the rules established by the Peruvian Ministry of Education, [Chawpin qichwata qillqanapaq maytu. Manual de escritura quechua central](https://repositorio.minedu.gob.pe/handle/20.500.12799/8170)
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+|Symbol|
+|---|
+| a | 
+| aa | 
+| ch | 
+| h | 
+| i | 
+| ii | 
+| k | 
+| l | 
+| ll | 
+| m | 
+| n | 
+| ñ | 
+| p | 
+| q | 
+| r | 
+| s | 
+| sh | 
+| t | 
+| ts | 
+| tr | 
+| u | 
+| uu | 
+| w | 
+| y | 
 
-### Sample
 
-There follows a randomly selected sample of five sentences from the corpus.
-
-<!-- {{SENTENCES_SAMPLE}} -->
+### Samples
+There follows a randomly selected sample of five sentences from the corpus:
+```
+Huk runashi ishkay churiyuq kanaq.
+Qipa kaq churin shamuykan.
+¿Imanirtaq kayllatraw mana maypapis yarqukur arur kaykanki?
+Taytay, uushaata rakipaykamay.
+Huk markapa aywakuytami munaa.
+```
 
 ### Sources
-
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
+Sentences were written by Mr. Franklin Espinoza
 
 ### Recommended post-processing
 
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
+<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -104,6 +113,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
+* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qws/common-voice/contributors/)
 
 ### Discussions
 
@@ -113,27 +123,46 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 ### Contribute
 
-<!-- {{CONTRIBUTE_LINKS_LIST}} -->
-<!-- Here you can include links for how to contribute to the dataset -->
+* [Contribute voice recordings](https://commonvoice.mozilla.org/qws/speak)
+* [Contribute sentences](https://commonvoice.mozilla.org/qws/write)
+* [Validate recordings](https://commonvoice.mozilla.org/qws/listen)
+* [Review sentences](https://commonvoice.mozilla.org/qws/review)
 
 ## Acknowledgements
+We extend our gratitude to Mr. Oscar Chávez Gonzales of the Peruvian Ministry of Education for providing invaluable information.
 
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+* Luis Camacho <camacho.l@pucp.pe>
 
 ### Citation guidelines
 
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+<!-- Submitted to SIMBig 2025 (Needs confirmation).-->
+
+If you use this dataset in your research, please cite the following publication:
+
+```bibtex
+    @article{Camacho_2024, 
+    title   ={Automating the Proposition of Neologisms for the Quechua Language},  
+    volume  ={54}, DOI={10.1017/S0025100324000227}, 
+    number  ={3}, 
+    journal ={Journal of the International Phonetic Association}, 
+    author  ={Camacho, Luis}, 
+    year    ={2024}, 
+    pages   ={922–938}} 
+```
 
 ### Funding
 
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+This dataset was funded by the Mozilla Foundation Open Multilingual Speech Fund.
 
 ## Licence
 
