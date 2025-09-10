@@ -1,6 +1,12 @@
 import sys
 import csv
+from scripts.datasheet import CVDatasheet
 
+
+TEMPLATE_PATH = "templates/{modality}/{lang_code}.md"
+DRAFT_OUTPUT_PATH = (
+    "{output_dir}/{modality}/{version}/draft/{template_lang}/{locale}.md"
+)
 metadata_file = sys.argv[1]
 languages_file = sys.argv[2]
 version = sys.argv[3]
@@ -53,6 +59,9 @@ def get_template_languages_data(file_name: str) -> dict:
 def get_metadata_data(file_name: str) -> dict:
     """Parse metadata tsv file to dictionary
 
+    Each row has (in this order) the next structure:
+    modality\tcode\tnative_name\tenglish_name\tspeakers\thours_recorded\thours_validated
+
     Parameters
     ----------
     file_name: str
@@ -60,11 +69,18 @@ def get_metadata_data(file_name: str) -> dict:
     Returns
     -------
     dict:
-        Dictionary metadata by modality (scs, sps), by locale with keys english_name,
+        Dictionary metadata by modality (scs, sps), by locale (lang code) with keys english_name,
         native_name, speakers, hours_recorded, hours_validated.
+        Example:
+    'tar': {
+        'english_name': 'Central Tarahumara',
+        'native_name': '_',
+        'speakers': '17',
+        'hours_recorded': '11',
+        'hours_validated': '10'
+    }
 
     """
-    # modality	code	native_name	english_name	speakers	hours_recorded	hours_validated
     data = {"scs": {}, "sps": {}}
 
     for line in read_tsv_file(file_name):
@@ -87,42 +103,72 @@ def get_metadata_data(file_name: str) -> dict:
     return data
 
 
+def fill_template_header(
+    template: CVDatasheet, locale: str, modality: str, metadata: dict
+) -> CVDatasheet:
+    english_name = metadata[modality][locale]["english_name"]
+    native_name = metadata[modality][locale]["native_name"]
+    version_readable = version.split("-")[0]
+    if english_name == "" or english_name == "_":
+        english_name = "[" + native_name + "]"
+    if native_name == "" or native_name == "_":
+        native_name = "[" + english_name + "]"
+
+    # Fill title info
+    header_title = template.header.title
+
+    filled_title = header_title.replace("{{LOCALE}}", locale)
+    filled_title = filled_title.replace("{{ENGLISH_NAME}}", english_name)
+    filled_title = filled_title.replace("{{NATIVE_NAME}}", native_name)
+    # Update title
+    template.header.title = filled_title
+
+    # Fill header content
+    hours_recorded = metadata[modality][locale]["hours_recorded"]
+    hours_validated = metadata[modality][locale]["hours_validated"]
+    speakers = metadata[modality][locale]["speakers"]
+    header_content = template.header.content
+
+    filled_header_content = header_content.replace("{{VERSION}}", version_readable)
+    filled_header_content = filled_header_content.replace(
+        "{{ENGLISH_NAME}}", english_name
+    )
+    filled_header_content = filled_header_content.replace("{{LOCALE}}", locale)
+    filled_header_content = filled_header_content.replace(
+        "{{HOURS_RECORDED}}", hours_recorded
+    )
+    filled_header_content = filled_header_content.replace(
+        "{{HOURS_VALIDATED}}", hours_validated
+    )
+    filled_header_content = filled_header_content.replace("{{SPEAKERS}}", speakers)
+    # Update header content
+    template.header.content = filled_header_content
+    return template
+
+
 template_languages = get_template_languages_data(languages_file)
 metadata = get_metadata_data(metadata_file)
 
-
 for modality in metadata:
     for locale in metadata[modality]:
-        draft_output_dir = output_dir + "/%s/%s/draft/%s" % (
-            modality,
-            version,
-            template_languages[modality][locale],
+        # Reading md template
+        template_path = TEMPLATE_PATH.format(
+            modality=modality, lang_code=template_languages[modality][locale]
         )
-        template = open(
-            "templates/%s/%s.md" % (modality, template_languages[modality][locale])
-        ).read()
-        print(locale, metadata[modality][locale])
-        english_name = metadata[modality][locale]["english_name"]
-        native_name = metadata[modality][locale]["native_name"]
-        version_readable = version.split("-")[0]
-        if english_name == "" or english_name == "_":
-            english_name = "[" + native_name + "]"
-        if native_name == "" or native_name == "_":
-            native_name = "[" + english_name + "]"
-        filled_template = template.replace("{{LOCALE}}", locale)
-        filled_template = filled_template.replace("{{VERSION}}", version_readable)
-        filled_template = filled_template.replace("{{ENGLISH_NAME}}", english_name)
-        filled_template = filled_template.replace("{{NATIVE_NAME}}", native_name)
-        filled_template = filled_template.replace(
-            "{{SPEAKERS}}", metadata[modality][locale]["speakers"]
-        )
-        filled_template = filled_template.replace(
-            "{{HOURS_RECORDED}}", metadata[modality][locale]["hours_recorded"]
-        )
-        filled_template = filled_template.replace(
-            "{{HOURS_VALIDATED}}", metadata[modality][locale]["hours_validated"]
-        )
+        with open(template_path, "r") as template_file:
+            template = template_file.read()
+        # TODO: Parsing Template is working weird
+        ds = CVDatasheet(template)
+        filled_ds = fill_template_header(ds, locale, modality, metadata)
 
-        output_fd = open(draft_output_dir + "/" + locale + ".md", "w+")
-        print(filled_template, file=output_fd)
-        output_fd.close()
+        draft_output_path = DRAFT_OUTPUT_PATH.format(
+            output_dir=output_dir,
+            modality=modality,
+            version=version,
+            template_lang=template_languages[modality][locale],
+            locale="new_" + locale,
+        )
+        with open(draft_output_path, "w+") as out_file:
+            out_file.write(filled_ds.to_markdown())
+        break
+    break
