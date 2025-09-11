@@ -64,7 +64,7 @@ Self-Written
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 ```
-ا آ ب ٻ ڀ ت ٿ ٽ ٺ پ ج ڄ جھ ڃ چ ڇ د ڌ ۮ                      ڏ ڊ  ڍ  ر  ڙ ز س  ش  ڦ  ڪ  ک  گ  ڳ  گھ  ڱ  ل  ݪ م  ن  ݩ  ڻ  ۈ  و  ۆ  ه  ء  يٰ  ي  يٚ َ  ِ ُ 
+ا  آ  ب  ٻ  ڀ  ت  ٿ  ٽ  ٺ  پ  ج  ڄ  جھ  ڃ  چ  ڇ  د  ڌ  ۮ  ڏ  ڊ  ڍ  ر  ڙ  ز  س  ش  ڦ  ڪ  ک  گ  ڳ  گھ  ڱ  ل  ݪ  م  ن  ݩ  ڻ  ۈ  و  ۆ  ه  ء  يٰ  ي  يٚ َ  ِ ُ 
 ```
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
