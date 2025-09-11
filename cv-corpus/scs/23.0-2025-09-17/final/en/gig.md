@@ -89,9 +89,13 @@ Self-Written
 
 General
 
+## Get involved!
+
+### Contribute
+<!-- {{CONTRIBUTE_LINKS_LIST}} -->
+<!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
-
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
@@ -105,6 +109,8 @@ Common Voice Community
 <!-- If you received any funding, you can include the acknowledgement here -->
 
 From Mozilla Community. Acknowledge Meesum Alam.
+This dataset was partially funded by the Open Multilingual Speech Fund.
+
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
