@@ -55,5 +55,5 @@ The instructions below are for use by the Common Voice team. Community members c
 Generate the draft datasheets:
 
 ```
-python3 generate-datasheet.py metadata/metadata.tsv metadata/datasheet-languages.tsv 23.0-2025-09-17 cv-corpus 
+python3 generate_datasheet.py metadata/metadata.tsv metadata/datasheet-languages.tsv 23.0-2025-09-17 cv-corpus 
 ```

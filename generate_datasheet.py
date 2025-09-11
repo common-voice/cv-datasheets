@@ -3,11 +3,15 @@ import csv
 from scripts.datasheet import CVDatasheet
 
 
+# global path variables
 TEMPLATE_PATH = "templates/{modality}/{lang_code}.md"
 DRAFT_OUTPUT_PATH = (
     "{output_dir}/{modality}/{version}/draft/{template_lang}/{locale}.md"
 )
+ORIGINAL_PR_DATA_PATH = "metadata/language-requests.tsv"
 COMMON_VOICE_URL = "https://commonvoice.mozilla.org"
+
+
 metadata_file = sys.argv[1]
 languages_file = sys.argv[2]
 version = sys.argv[3]
@@ -161,6 +165,11 @@ def fill_contribute_links(template: CVDatasheet, locale: str, lang_code: str) ->
     elif lang_code == "zh-TW":
         section = "貢獻"
     template.append_content(section, "\n".join(contribute_links))
+
+
+def fill_community_links(template: CVDatasheet, locale: str, lang_code: str) -> None:
+    # TODO: Original PR will be periodically fetched from github
+    original_pr_data = read_tsv_file(ORIGINAL_PR_DATA_PATH)
 
 
 template_languages = get_template_languages_data(languages_file)
