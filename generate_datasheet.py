@@ -9,8 +9,10 @@ DRAFT_OUTPUT_PATH = (
     "{output_dir}/{modality}/{version}/draft/{template_lang}/{locale}.md"
 )
 ORIGINAL_PR_DATA_PATH = "metadata/language-requests.tsv"
-COMMON_VOICE_URL = "https://commonvoice.mozilla.org"
 
+PONTOON_URL = "https://pontoon.mozilla.org/{locale}/common-voice/contributors/"
+COMMON_VOICE_URL = "https://commonvoice.mozilla.org"
+COMMON_VOICE_PR_URL = "https://github.com/common-voice/common-voice/issues/{issue}"
 
 metadata_file = sys.argv[1]
 languages_file = sys.argv[2]
@@ -162,14 +164,29 @@ def fill_contribute_links(template: CVDatasheet, locale: str, lang_code: str) ->
         section = "Contribute"
     elif lang_code == "es":
         section = "Contribuir"
-    elif lang_code == "zh-TW":
-        section = "貢獻"
     template.append_content(section, "\n".join(contribute_links))
 
 
-def fill_community_links(template: CVDatasheet, locale: str, lang_code: str) -> None:
+def fill_community_links(
+    template: CVDatasheet, locale: str, modality: str, lang_code: str
+) -> None:
     # TODO: Original PR will be periodically fetched from github
     original_pr_data = read_tsv_file(ORIGINAL_PR_DATA_PATH)
+    pontoon_url = PONTOON_URL.format(locale=locale)
+    content = f"* {pontoon_url}\n"
+    issue_url = ""
+    for row in original_pr_data:
+        c_locale, c_modality, issue_number = row
+        if c_locale == locale and modality == c_modality:
+            issue_url = COMMON_VOICE_PR_URL.format(issue=issue_number)
+            break
+    if issue_url:
+        content += f"* [Original PR]({issue_url})"
+    if lang_code == "es":
+        section = "Enlaces comunitarios"
+    elif lang_code == "en":
+        section = "Community links"
+    template.append_content(section, content)
 
 
 template_languages = get_template_languages_data(languages_file)
@@ -185,6 +202,7 @@ for modality in metadata:
         ds = CVDatasheet(template)
         fill_template_header(ds, locale, modality, metadata)
         fill_contribute_links(ds, locale, lang_code)
+        fill_community_links(ds, locale, modality, lang_code)
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
             modality=modality,
