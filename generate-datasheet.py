@@ -7,6 +7,7 @@ TEMPLATE_PATH = "templates/{modality}/{lang_code}.md"
 DRAFT_OUTPUT_PATH = (
     "{output_dir}/{modality}/{version}/draft/{template_lang}/{locale}.md"
 )
+COMMON_VOICE_URL = "https://commonvoice.mozilla.org"
 metadata_file = sys.argv[1]
 languages_file = sys.argv[2]
 version = sys.argv[3]
@@ -105,7 +106,7 @@ def get_metadata_data(file_name: str) -> dict:
 
 def fill_template_header(
     template: CVDatasheet, locale: str, modality: str, metadata: dict
-) -> CVDatasheet:
+) -> None:
     english_name = metadata[modality][locale]["english_name"]
     native_name = metadata[modality][locale]["native_name"]
     version_readable = version.split("-")[0]
@@ -143,7 +144,16 @@ def fill_template_header(
     filled_header_content = filled_header_content.replace("{{SPEAKERS}}", speakers)
     # Update header content
     template.header.content = filled_header_content
-    return template
+
+
+def fill_contribute_links(template: CVDatasheet, locale: str) -> None:
+    contribute_links = [
+        f"* {COMMON_VOICE_URL}/{locale}/speak",
+        f"* {COMMON_VOICE_URL}/{locale}/write",
+        f"* {COMMON_VOICE_URL}/{locale}/listen",
+        f"* {COMMON_VOICE_URL}/{locale}/review",
+    ]
+    template.append_content("Contribute", "\n".join(contribute_links))
 
 
 template_languages = get_template_languages_data(languages_file)
@@ -157,18 +167,17 @@ for modality in metadata:
         )
         with open(template_path, "r") as template_file:
             template = template_file.read()
-        # TODO: Parsing Template is working weird
         ds = CVDatasheet(template)
-        filled_ds = fill_template_header(ds, locale, modality, metadata)
-
+        fill_template_header(ds, locale, modality, metadata)
+        fill_contribute_links(ds, locale)
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
             modality=modality,
             version=version,
             template_lang=template_languages[modality][locale],
-            locale="new_" + locale,
+            locale=locale + "_new",
         )
         with open(draft_output_path, "w+") as out_file:
-            out_file.write(filled_ds.to_markdown())
+            out_file.write(ds.to_markdown(include_empty_sections=True))
         break
     break
