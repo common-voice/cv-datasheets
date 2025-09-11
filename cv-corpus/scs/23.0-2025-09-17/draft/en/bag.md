@@ -148,6 +148,8 @@ The organization of the data camp was conducted by a dynamic whose dedication is
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 Emmanuel Ngue Um <ngueum@gmail.com>
+Jean-Louis Aimé Mbataka <jlam1709@gmail.com>
+Marguérite Flore Ndjana <ndjanamarguerite@gmail.com>
 
 ### Citation guidelines
 
