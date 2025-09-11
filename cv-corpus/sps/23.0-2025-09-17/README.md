@@ -1,4 +1,4 @@
-# Datasheets
+﻿# Datasheets
 
 This directory contains the Markdown files representing the datasheets. There
 are two sub-directories:
@@ -9,13 +9,13 @@ are two sub-directories:
 Each directory contains subdirectories corresponding to the languages of the datasheets, e.g. `en/` for datasheets written in English. So for example, `final/en/qxp.md` is the Puno Quechua datasheet that has been finalised and is written in English.
 
 ## Status
+6 / 57
 
-4 / 57
 
 | Draft | Final |
 |-------|-------|
 | `aat` | - |
-| `ady` | - |
+| `ady` | ✔ |
 | `aln` | - |
 | `an` | - |
 | `ba` | - |
@@ -41,7 +41,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `hac` | - |
 | `hch` | - |
 | `ka` | - |
-| `kbd` | - |
+| `kbd` | ✔ |
 | `kcn` | - |
 | `koo` | - |
 | `kzi` | - |
