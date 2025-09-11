@@ -10,7 +10,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-2 / 57
+6 / 57
 
 | Draft | Final |
 |-------|-------|
@@ -20,7 +20,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `an` | - |
 | `ba` | - |
 | `bas` | - |
-| `bew` | - |
+| `bew` | ✔ |
 | `br` | - |
 | `brx` | - |
 | `bsy` | - |
@@ -69,6 +69,6 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `tr` | - |
 | `ttj` | - |
 | `ukv` | - |
-| `ush` | - |
+| `ush` | ✔ |
 | `xkl` | - |
 
