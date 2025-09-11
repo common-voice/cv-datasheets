@@ -146,14 +146,21 @@ def fill_template_header(
     template.header.content = filled_header_content
 
 
-def fill_contribute_links(template: CVDatasheet, locale: str) -> None:
+def fill_contribute_links(template: CVDatasheet, locale: str, lang_code: str) -> None:
     contribute_links = [
         f"* {COMMON_VOICE_URL}/{locale}/speak",
         f"* {COMMON_VOICE_URL}/{locale}/write",
         f"* {COMMON_VOICE_URL}/{locale}/listen",
         f"* {COMMON_VOICE_URL}/{locale}/review",
     ]
-    template.append_content("Contribute", "\n".join(contribute_links))
+    # TODO: Think how to manage this correctly
+    if lang_code == "en":
+        section = "Contribute"
+    elif lang_code == "es":
+        section = "Contribuir"
+    elif lang_code == "zh-TW":
+        section = "貢獻"
+    template.append_content(section, "\n".join(contribute_links))
 
 
 template_languages = get_template_languages_data(languages_file)
@@ -161,15 +168,14 @@ metadata = get_metadata_data(metadata_file)
 
 for modality in metadata:
     for locale in metadata[modality]:
+        lang_code = template_languages[modality][locale]
         # Reading md template
-        template_path = TEMPLATE_PATH.format(
-            modality=modality, lang_code=template_languages[modality][locale]
-        )
+        template_path = TEMPLATE_PATH.format(modality=modality, lang_code=lang_code)
         with open(template_path, "r") as template_file:
             template = template_file.read()
         ds = CVDatasheet(template)
         fill_template_header(ds, locale, modality, metadata)
-        fill_contribute_links(ds, locale)
+        fill_contribute_links(ds, locale, lang_code)
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
             modality=modality,
@@ -179,5 +185,3 @@ for modality in metadata:
         )
         with open(draft_output_path, "w+") as out_file:
             out_file.write(ds.to_markdown(include_empty_sections=True))
-        break
-    break

@@ -97,7 +97,7 @@ A continuación se muestra una selección aleatoria de respuestas transcritas de
 <!-- @ OPCIONAL @ -->
 <!-- Aquí se pueden incluir enlaces a discusiones, por ejemplo en Discourse u otros foros o blogs -->
 
-### Contribuye
+### Contribuir
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
