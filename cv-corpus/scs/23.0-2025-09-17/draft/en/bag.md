@@ -22,6 +22,8 @@ The Administrative Atlas of Cameroon's Languages (Breton and Bikia Fohtung 1993)
 - Tocenka spoken by the Tiki also known as Bacenga
 - Tumbele spoken by the Mbele (also known as Bambele)
 
+Of the 6 dialects, two are reprensented in the dataset, namely, Tukombe and Tutsingo.
+
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
