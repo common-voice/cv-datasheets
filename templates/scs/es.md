@@ -82,6 +82,22 @@ A continuación se muestran cinco oraciones seleccionadas aleatoriamente del cor
 <!-- @ OPCIONAL @ -->
 <!-- Qué debería hacerse antes de usar los datos, por ejemplo normalización de Unicode -->
 
+### Campos
+
+Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:
+
+* `client_id` - UUID hasheado de cierto usuario
+* `path` - Ruta relativa al archivo de audio
+* `text` - Presunta transcripción del audio
+* `up_votes` - número de personas que dijeron que el audio concordaba con el texto
+* `down_votes` - número de personas que dijeron que el audio no concordaba con el texto
+* `age` - edad de los hablantes*
+* `gender` - genero de los hablantes*
+* `accent` - acénto de los hablantes*
+* `segment` - si la oración pertenece a una porción personalizada de un dataset, será listada aquí 
+
+*Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
+
 ## ¡Involúcrate!
 
 ### Enlaces comunitarios

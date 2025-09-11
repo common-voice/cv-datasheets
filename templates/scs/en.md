@@ -97,6 +97,26 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
 
+### Fields
+
+Each row of a tsv file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `path` - relative path of the audio file
+* `text` - supposed transcription of the audio
+* `up_votes` - number of people who said audio matches the text
+* `down_votes` - number of people who said audio does not match text
+* `age` - age of the speaker*
+* `gender` - gender of the speaker*
+* `accent` - accent of the speaker*
+* `segment` - if sentence belongs to a custom dataset segment, it will be listed here
+
+*For a full list of age, gender, and accent options, see the
+[demograpics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
+
 ## Get involved!
 
 ### Community links
