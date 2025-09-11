@@ -132,11 +132,11 @@ https://commonvoice.mozilla.org/bag
 
 ## Acknowledgements
 The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
-- Jean-Louis Aimé MBATAKA 
+- Jean-Louis Aimé Mbataka 
 - Marguérite Flore Ndjana
 
 The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
-- Florus Landry Dibenge (Project Lead)
+- Dr. Florus Landry Dibenge (Project Lead)
 - Eliette Emilie-Caroline Ngo Tjomb Assembe
 - Eric Koung
 - Blaise Mathieu Banum Manguele
