@@ -30,13 +30,12 @@ Self-declared gender information, frequency refers to the number of clips annota
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
-<!-- 
 | Gender | Frequency |
 |--------|-----------|
 | male, masculine | 15 |
 | undeclared | 4 |
 | female, feminine | 35 |
--->
+
 ### Age
 
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
