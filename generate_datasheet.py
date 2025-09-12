@@ -1,5 +1,6 @@
 import sys
 import csv
+import json
 from scripts.datasheet import CVDatasheet
 
 
@@ -9,7 +10,9 @@ DRAFT_OUTPUT_PATH = (
     "{output_dir}/{modality}/{version}/draft/{template_lang}/{locale}.md"
 )
 ORIGINAL_PR_DATA_PATH = "metadata/language-requests.tsv"
+SPS_STATS_PATH = "metadata/sps-stats.json"
 
+# Global constants URL
 PONTOON_URL = "https://pontoon.mozilla.org/{locale}/common-voice/contributors/"
 COMMON_VOICE_URL = "https://commonvoice.mozilla.org"
 COMMON_VOICE_PR_URL = "https://github.com/common-voice/common-voice/issues/{issue}"
@@ -113,6 +116,27 @@ def get_metadata_data(file_name: str) -> dict:
 def fill_template_header(
     template: CVDatasheet, locale: str, modality: str, metadata: dict
 ) -> None:
+    """Fill header template
+
+    Add information about language name, native name, locale, speakers count,
+    hours validated, hours recorded and version
+
+    Parameters
+    ----------
+    template: CVDatasheet
+        Template as CVDatasheet object
+    locale: str
+        Common Voice language code
+    modality: str
+        Code for spontaneous and scripted mode
+    metadata: dict
+        Language metadata for fill the information
+
+    Returns
+    -------
+    None:
+        Information is filled in the object
+    """
     english_name = metadata[modality][locale]["english_name"]
     native_name = metadata[modality][locale]["native_name"]
     version_readable = version.split("-")[0]
@@ -153,40 +177,87 @@ def fill_template_header(
 
 
 def fill_contribute_links(template: CVDatasheet, locale: str, lang_code: str) -> None:
-    contribute_links = [
-        f"* {COMMON_VOICE_URL}/{locale}/speak",
-        f"* {COMMON_VOICE_URL}/{locale}/write",
-        f"* {COMMON_VOICE_URL}/{locale}/listen",
-        f"* {COMMON_VOICE_URL}/{locale}/review",
-    ]
+    # TODO: Add user friendly text
     # TODO: Think how to manage this correctly
     if lang_code == "en":
+        contribute_links = [
+            f"* [Speak]({COMMON_VOICE_URL}/{locale}/speak)",
+            f"* [Write]({COMMON_VOICE_URL}/{locale}/write)",
+            f"* [Listen]({COMMON_VOICE_URL}/{locale}/listen)",
+            f"* [Review]({COMMON_VOICE_URL}/{locale}/review)",
+        ]
         section = "Contribute"
     elif lang_code == "es":
         section = "Contribuir"
+        contribute_links = [
+            f"* [Hablar]({COMMON_VOICE_URL}/{locale}/speak)",
+            f"* [Escribir]({COMMON_VOICE_URL}/{locale}/write)",
+            f"* [Escuchar]({COMMON_VOICE_URL}/{locale}/listen)",
+            f"* [Revisar]({COMMON_VOICE_URL}/{locale}/review)",
+        ]
     template.append_content(section, "\n".join(contribute_links))
 
 
 def fill_community_links(
     template: CVDatasheet, locale: str, modality: str, lang_code: str
 ) -> None:
-    # TODO: Original PR will be periodically fetched from github
+    if lang_code == "es":
+        section = "Enlaces comunitarios"
+        url_issue_desc = "Petición original para la lengua en GitHub"
+        url_pontoon_desc = "Traductores de Common Voice en Pontoon"
+    elif lang_code == "en":
+        section = "Community links"
+        url_issue_desc = "Original language request on GitHub"
+        url_pontoon_desc = "Common Voice translators on Pontoon"
+
+    # TODO: Original issue will be periodically fetched from github?
     original_pr_data = read_tsv_file(ORIGINAL_PR_DATA_PATH)
     pontoon_url = PONTOON_URL.format(locale=locale)
-    content = f"* {pontoon_url}\n"
+    content = f"* [{url_pontoon_desc}]({pontoon_url})\n"
     issue_url = ""
+    # FIXME: Do this better
     for row in original_pr_data:
         c_locale, c_modality, issue_number = row
         if c_locale == locale and modality == c_modality:
             issue_url = COMMON_VOICE_PR_URL.format(issue=issue_number)
             break
     if issue_url:
-        content += f"* [Original PR]({issue_url})"
-    if lang_code == "es":
-        section = "Enlaces comunitarios"
-    elif lang_code == "en":
-        section = "Community links"
+        content += f"* [{url_issue_desc}]({issue_url})"
     template.append_content(section, content)
+
+
+def fill_stats_samples_data(
+    template: CVDatasheet, locale: str, modality: str, lang_code: str
+):
+    if lang_code == "en":
+        q_section = "Questions"
+        r_section = "Responses"
+        stats_section = "Transcription"
+    elif lang_code == "es":
+        q_section = "Preguntas"
+        r_section = "Respuestas"
+        stats_section = "Transcripciones"
+    # print(lang_code)
+    if modality == "sps":
+        with open(SPS_STATS_PATH, "r") as f:
+            sps_stats_data = json.load(f)
+        locale_stats = sps_stats_data.get(locale)
+        if locale_stats:
+            prompts = locale_stats.get("randomPrompts")
+            if prompts:
+                promts_content = f"\n* Prompts: {locale_stats.get('prompts', 0)}\n* Clips: {locale_stats.get('clips', 0)}\n\n```\n{'\n '.join(prompts)}\n```\n"
+                template.append_content(q_section, promts_content)
+            answers = locale_stats.get("randomTranscripts")
+            if answers:
+                answers_content = f"\n```\n{'\n'.join(answers)}\n```\n"
+                template.append_content(r_section, answers_content)
+    elif modality == "scs":
+        # TODO: Get data from api
+        pass
+
+
+def fill_demographic_data(ds, locale):
+    pass
 
 
 template_languages = get_template_languages_data(languages_file)
@@ -203,6 +274,13 @@ for modality in metadata:
         fill_template_header(ds, locale, modality, metadata)
         fill_contribute_links(ds, locale, lang_code)
         fill_community_links(ds, locale, modality, lang_code)
+        fill_stats_samples_data(ds, locale, modality, lang_code)
+        fill_demographic_data(ds, locale)
+        # TODO: Add samples scs. Data comes from private API. dejar un par de segundos entre lenguas
+        # TODO: Demographic data from : https://github.com/Mozilla-Data-Collective/mdc-scripts/blob/main/alpha_data_seed/inputs/scripted_speech/cv-corpus-23.0-2025-09-05.json
+        # splits -> section de demographic information
+        # Text stats empty for scs
+        # stats SPS from fram script
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
             modality=modality,

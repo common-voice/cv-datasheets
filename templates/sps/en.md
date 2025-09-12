@@ -82,6 +82,28 @@ There follows a randomly selected sample of transcribed responses from the corpu
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
+### Fields
+
+Each row of a tsv file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `audio_id` - Numeric id for audio file
+* `audio_file` - Audio file name
+* `duration_ms` - Duration of audio in milliseconds
+* `prompt_id` - Numeric id for prompt
+* `prompt` - Question for user
+* `transcription` - User response
+* `votes` - Number of people that (?)
+* `age` - age of the speaker[^1]
+* `gender` - gender of the speaker[^1]
+* `language` - Language name
+
+[^1]: For a full list of age, gender, and accent options, see the
+[demograpics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
+
 ## Get involved!
 
 ### Community links
