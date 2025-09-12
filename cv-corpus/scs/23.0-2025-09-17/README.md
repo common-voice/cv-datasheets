@@ -9,7 +9,6 @@ are two sub-directories:
 Each directory contains subdirectories corresponding to the languages of the datasheets, e.g. `en/` for datasheets written in English. So for example, `final/en/nn-NO.md` is the Norwegian Nynorsk datasheet that has been finalised and is written in English.
 
 ## Status
-
 65 / 280
 
 | Draft | Final |
