@@ -93,11 +93,11 @@ Mozilla Common Voice 23.0 泰雅語（Atayal, `tay`）*文本錄音* 語料集�
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-錄音文本取自《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）內容，經[中華民國教育部國民及學前教育署](https://www.k12ea.gov.tw)授權，由台灣維基媒體協會整理後上傳。
+錄音文本取自《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）內容，經[中華民國教育部國民及學前教育署](https://www.k12ea.gov.tw)（K-12 Education Administration, Ministry of Education, Taiwan ROC）授權，由台灣維基媒體協會整理後上傳。特別感謝時任教育部政務次長葉丙成協助協調授權事宜。
+
+賽考利克泰雅語另包含[泰雅爾語聖經](https://cb.fhl.net)選句共 115 句，感謝財團法人台灣聖經公會（The Bible Society in Taiwan）授權。
 
 在族語專案錄音過程中，我們發現部分文本存在文意不符、單詞或拼寫錯誤等情況。因 Common Voice 系統限制，相關內容未能事先更正仍直接進行錄製。錄音者與教材之間是為共同協作關係，特此說明。
-
-特別感謝時任教育部政務次長葉丙成協助協調授權事宜。
 
 ### 文本領域
 
