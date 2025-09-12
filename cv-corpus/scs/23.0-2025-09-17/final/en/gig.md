@@ -14,7 +14,7 @@ Goaria language is spoken in Mirpurkhas and little bit all over the Sindh.
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-<!-- Author Description: -->
+<!-- Original Answer: -->
 <!-- Marwari -->
 
 ## Demographic information
@@ -63,12 +63,10 @@ Self-Written
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-```
-ا  آ  ب  ٻ  ڀ  ت  ٿ  ٽ  ٺ  پ  ج  ڄ  جھ  ڃ  چ  ڇ  د  ڌ  ۮ  ڏ  ڊ  ڍ  ر  ڙ  ز  س  ش  ڦ  ڪ  ک  گ  ڳ  گھ  ڱ  ل  ݪ  م  ن  ݩ  ڻ  ۈ  و  ۆ  ه  ء  يٰ  ي  يٚ َ  ِ ُ 
-```
+```ا  آ  ب  ٻ  ڀ  ت  ٿ  ٽ  ٺ  پ  ج  ڄ  جھ  ڃ  چ  ڇ  د  ڌ  ۮ  ڏ  ڊ  ڍ  ر  ڙ  ز  س  ش  ڦ  ڪ  ک  گ  ڳ  گھ  ڱ  ل  ݪ  م  ن  ݩ  ڻ  ۈ  و  ۆ  ه  ء  يٰ  ي  يٚ َ  ِ ُ ```
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of three sentences from the corpus.
 ```
 اڪبر بآڇآ هيتۆ  ائيݩ ۈيرمل ۈزير هيتۆ  پڇيٚ ۈيٚ ڪآئي ڪيۮيٚ۔
 ۈيرمل ۈزير ڪيکر هي‍ٰ‎ۆ۔
