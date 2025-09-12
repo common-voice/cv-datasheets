@@ -16,9 +16,9 @@ Bankon, also known as Abo, is a Bantu language spoken in the Moungou Division of
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-The language representatives who contributed to this dataset have described Bankon and Barombi (also known as Lombi, Balombi, or Barumbi) as two dialects of the same language.
+The language representatives who contributed to this dataset described Bankon and Barombi (also known as Lombi, Balombi, or Barumbi) as two closely related varieties. However, each is recognized as a distinct language in scientific and administrative nomenclatures. For example, the Administrative Atlas of Cameroon's Languages (Breton and Bikia Fohtung, 1991) recognizes them as such. These representatives added that there are two varieties of Bankon: South Bankon and North Bankon. According to the representatives, however, there are only minor lexical and phonetic differences between these two varieties. Speakers of each variety designate the other variety as Mwi Nwan, wich translates as "the other bank of thhe river". Additionnaly, speakers of South Bakon refer to North Bankon as *Bankon Ba Ibom*, or "Upper Bankon". Conversely, the speakers of North Bankon refer to South Bankon as Bankon Ba Nlon*, which translates as *Lower Bankon*. Other less common designations of North Bankon and South Bankon are *Banaka* and *Bayeme*, respectively.
 
-According to the language representatives, the dialect most represented in the collection of sentence prompts is Barombi.
+Both the Southern and Northern dialects of Bankon are represented in the collection of sentence prompts, with a slight bias towards Southern Bankon.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -126,6 +126,7 @@ https://commonvoice.mozilla.org/abb
 ## Acknowledgements
 
 The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Eyoum Ndando Thomas
 - Emmanuel Ndando
 - David Miyenga Miyenga
 
@@ -147,9 +148,7 @@ The organization of the data camp was conducted by a dynamic whose dedication is
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Emmanuel Ngue Um <ngueum@gmail.com>
-Emmanuel Ndando <ndandoemmanuel@gmail.com>
-David Miyenga Miyenga <dmiyenga@gmail.com> 
+Emmanuel Ngue Um <ngueum@gmail.com>, Thomas Eyoum Ndando <thomas.eyoum@ucac-icam.com>, Emmanuel Ndando <ndandoemmanuel@gmail.com>, David Miyenga Miyenga <dmiyenga@gmail.com> 
 
 ### Citation guidelines
 
