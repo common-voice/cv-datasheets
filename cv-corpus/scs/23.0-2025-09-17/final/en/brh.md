@@ -9,12 +9,13 @@ speech (11 hours validated) from 18 speakers.
 
 Brahui is a dravidian language spoken primarily in Central and western Balochistan, Pakistan, with smaller communities in Afghanistan and Iran. Despite being geographically isolated from other Dravidian languages, Brahui has retained its distinct linguistics identity for centuries. It is spoken by around 2.8 million people and coexists with surrounding languages such as Balochi, Pashtu and Persian, which has influenced its vocabulary and structure. The language is traditionally oral, though it has been written using the Arabic scripts in modern times. Brahui holds historical significances and contributes to the rich linguistic diversity of the region. The language has three main dialects: Sarawani, Jalawani and Rakhshani, with Sarawani being the standard dialect.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-The dataset represents the Sarawani variety of Brahui, which is considered the standard dialect of the language.
+<!-- Original Answer: -->
+<!-- The dataset represents the Sarawani variety of Brahui, which is considered the standard dialect of the language. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +63,17 @@ Although Brahui is traditionally an oral language, in modern times it has been w
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ڷ م ن ں و ہ ھ ی ے 
+```ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ڷ م ن ں و ہ ھ ی ے ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
-کامن وائس امر کاریم کیک۔ جملہ غاتے مخلوق نا تیز آن توار اٹ خواننگ کن مچ کننگانے بندغاک بریرہ و تینا توار نا کمک ئے کیرہ۔ ای زبان ئس امر ساڑی کیو؟ نن کامن وائس آ سہی ڈول اٹ زبان ئے امر خواننگ کینہ؟
+There follows a randomly selected sample of four sentences from the corpus.
+```
+کامن وائس امر کاریم کیک۔
+جملہ غاتے مخلوق نا تیز آن توار اٹ خواننگ کن مچ کننگانے بندغاک بریرہ و تینا توار نا کمک ئے کیرہ۔
+ای زبان ئس امر ساڑی کیو؟
+نن کامن وائس آ سہی ڈول اٹ زبان ئے امر خواننگ کینہ؟
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -100,25 +106,11 @@ Further post-processing may include verifying the alignment between text and aud
 ## Get involved!
 
 
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-Currently, there are no dedicated community links for this dataset.
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-There are no public discussion links specifically related to the creation of this dataset. All work was carried out internally during the dataset preparation process.
-
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-https://commonvoice.mozilla.org/brh/write
+* [Contribute sentences](https://commonvoice.mozilla.org/brh/write)
 
 ## Acknowledgements
 
@@ -127,14 +119,8 @@ https://commonvoice.mozilla.org/brh/write
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
- Dr zia ur Rehman  ;  zia.rehman@aiou.edu.pk Muhammad Imran ;  muhammad.imran@numl.edu.pk
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-NIL
+* Dr. Zia ur Rehman <zia.rehman@aiou.edu.pk>
+* Muhammad Imran <muhammad.imran@numl.edu.pk>
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

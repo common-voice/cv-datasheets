@@ -9,12 +9,13 @@ speech (11 hours validated) from 22 speakers.
 
  Our language is called Kachhi Gujarati. It is mostly spoken in the Sindh province. There are about 200,000 speakers of this language. It is written in the Arabic Persian script in Sindh province.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-there are no varieties in Sindh specially in our community speakers. 
+<!-- Original Answer: -->
+<!-- there are no varieties in Sindh specially in our community speakers. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +63,18 @@ Arabic Persian script
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-آ ا ٻ ڀ ت ٿ ٽ ٺ پ چ ڇ ڄ ڃ جھ ۮ ڌ ڏ ڍ ر ڙز س ش ڦ ڪ ک ڳ گھ ل م ن ڻ و ھ ۿ ء  ي
+```آ ا ٻ ڀ ت ٿ ٽ ٺ پ چ ڇ ڄ ڃ جھ ۮ ڌ ڏ ڍ ر ڙز س ش ڦ ڪ ک ڳ گھ ل م ن ڻ و ھ ۿ ء  ي```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-ڪڇِي ماڻۿان نا ٻارا واتون۔ راچ سوڪرِي نين گھرين کميَ سي۔ زين مان ۿاڪر هوئيَ سي۔ پسيَ ويوا مورِ اينيان نان لڳنَ زوراويَ سي۔ لاڏا نان ڌوران لوُڳڙان شيوڙاويَ سي۔
-
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-No
+```
+ڪڇِي ماڻۿان نا ٻارا واتون۔
+راچ سوڪرِي نين گھرين کميَ سي۔
+زين مان ۿاڪر هوئيَ سي۔
+پسيَ ويوا مورِ اينيان نان لڳنَ زوراويَ سي۔
+لاڏا نان ڌوران لوُڳڙان شيوڙاويَ سي۔
+```
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -83,42 +83,13 @@ No
 
 General
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-by Mozilla software
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-No.
 
 ## Get involved!
 
 
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-No.
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-No.
-
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
-
-No.
 
 ## Acknowledgements
 
@@ -127,14 +98,8 @@ No.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-No.
+Common Voice Community
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-No.
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

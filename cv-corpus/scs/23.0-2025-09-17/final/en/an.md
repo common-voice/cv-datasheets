@@ -1,4 +1,4 @@
-# *Aragonés* &mdash; Aragonese (`an`)
+# *Aragonés* &mdash; Aragonese (`an`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Aragonese (`an`). The dataset contains 18 hours of recorded
@@ -8,19 +8,31 @@ speech (17 hours validated) from 52 speakers.
 
 Aragonese is a Romance language spoken in several dialects by about 8,000&mdash;12,000 people in the northern areas of Aragon, Spain, primarily in the counties of Chacetania, Alto Galligo, Sobrarbe and Ribagorza.
 
-### Variants
 
-There are currently no variants defined for Aragonese.
+<!-- ### Variants -->
+<!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Describe the variants (MCV variants) of your language -->
 
-### Accents
+<!-- Original Answer: -->
+<!-- There are currently no variants defined for Aragonese. -->
 
-#### Predefined
+<!-- ### Accents -->
 
-There are currently no pre-defined accents.
+<!-- #### Predefined -->
+
+<!-- There are currently no pre-defined accents. -->
 
 ## Text corpus
 
-### Sources ###
+### Writing system
+
+In 2023, the [Academia Aragonesa de la Lengua](https://academiaaragonesadelalengua.org), a public institution created as language regulatory body, established the [Orthography of Aragonese](https://https://academiaaragonesadelalengua.org/sites/default/files/ficheros-pdf/ortografia-aragones.pdf) as the official spelling for the language. The spelling system is flexible enough to allow writing all Aragonese varieties.
+
+All the submitted sentences have been adapted to the official orthography, although errors can be found occasionally.
+
+
+### Sources
 
 Sentences have been obtained from the works of two writters whose works are already in the public domain: Dámaso Carrera and Domingo Miral, as well as by living authors who have submitted sentences from their own works.
 
@@ -39,12 +51,6 @@ Sentences have been obtained from the works of two writters whose works are alre
 * 444 sentences from surveys and dictionary examples. Author. F. Romanos. La Fueva Aragonese.
 * 529 sentences from stories and articles. Author: J.M. Satué. Sobrepuerto Aragonese.
 * 100 sentences from stories. Author: Chorche. Panticuto Aragonese.
-
-#### Orthography ####
-
-In 2023, the [Academia Aragonesa de la Lengua](https://academiaaragonesadelalengua.org), a public institution created as language regulatory body, established the [Orthography of Aragonese](https://https://academiaaragonesadelalengua.org/sites/default/files/ficheros-pdf/ortografia-aragones.pdf) as the official spelling for the language. The spelling system is flexible enough to allow writing all Aragonese varieties.
-
-All the submitted sentences have been adapted to the official orthography, although errors can be found occasionally.
 
 ## Get involved!
 

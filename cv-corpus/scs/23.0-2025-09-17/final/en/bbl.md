@@ -15,12 +15,13 @@ In fact, the scientific study of the language today is in complete stagnation - 
 The language is referred to by different terms - the Georgian term Tushuri and the Russian term тушинский; during the USSR, it was replaced by the term Batsburi - бацбийский, and after that by Tsova Tush. People are dissatisfied - by changing the name of their language, the Tushetians - this border-defending people, praised many times in history - appear as an unclear ethnicity.
 But the language is still alive - enthusiasts even translate poetry into this language, while maintaining rhyme, meter, and rhythm.
 
-### Variants 
-
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-There are no variants defined for the Tush language. Slight variations present in the language are not essential.
+
+<!-- Original Answer: -->
+<!-- There are no variants defined for the Tush language. Slight variations present in the language are not essential. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -75,21 +76,20 @@ Georgian alphabet with additional signs, symbols.
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-ა ბ გ დ ე ვ ზ თ ი ჲ კ ლ ლ' მ ნ ჼ ო პ ჟ რ ს ტ უ უ̂ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჴ ჯ ჰ ჰ̦ ჵ ჸ ჺ
-ა́ ე́ ი́ ო́ უ́  
-ე̆ ი̆ ო̆ უ̆
+```ა ბ გ დ ე ვ ზ თ ი ჲ კ ლ ლ' მ ნ ჼ ო პ ჟ რ ს ტ უ უ̂ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჴ ჯ ჰ ჰ̦ ჵ ჸ ჺ ა́ ე́ ი́ ო́ უ́  ე̆ ი̆ ო̆ უ̆```
 
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{SENTENCES_SAMPLE}} -->
+```
 1. ცჰ̦აჲნი̆ გე́ფსუდო́ლიჼ წე́ლტი უჲთთო̆, თიშჩოვ, თხა ბუჲსო̆ მა́ მა́რხო̆ და́სტლა.
 2. წყე სო́მხთი რესტო́რნე შეკვე́თ მე ჲე́ჸეჼ თხოჼ, სო́უზეჼ დაყე̆ დითხ რე́ვალაჲნი̆ საკმაზ იცნორა́თხ. 
 3. ვარბი ქე́კერ ჸეჸმაქ ას ა́ლვინ ვო́ტუშ, ვორ'ლწატყ-იწატყ მო́ჸ ხილ'ურ, მეჯოგე́ გურ ო́სი ცჰ̦ა.
 4. ო თათაჲრი̆ დაკლაჲვნო́რ, ეჴუჲგო დუჴ ტათებ ხილ'ო-აჲნო̆, ლაჭყ-ლაჭყუშ ჰ̦ალო̆ ბო́წბაჲლნო́რ.
 5. ჴო́წ ტყაუზტყ დო́ლარ ხილ'ნო́ჰ̦ერ სო́გო, "ფსიკეჼ-თანთეჼ ფალ" ჰ̦ალო̆ ღე́ბადოჩო̆ ჟაგნოღ დე́რწდორა́ს.
-
+```
 ### Sources
 
 <!-- {{SOURCES_LIST}} -->
@@ -115,25 +115,7 @@ The biggest obstacle turned out to be:
     1. In Pirago, there is no single consonant () grapheme, for which we used the letter (ჰ̦), and the symbols for short vowels and consonants, placing them one by one on the graphemes, take a lot of time when typing;
     2. With two exceptions, elderly people cannot independently create voice recordings due to their lack of computer skills, even though they know the language well.
 
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
 ## Get involved!
-
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 
@@ -146,19 +128,7 @@ The biggest obstacle turned out to be:
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-Tinatin Tsiskarishvili <tinatintsiskarishvili@gmail.com>
-
-### Citation guidelines
-
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-### Funding
-
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
+* Tinatin Tsiskarishvili <tinatintsiskarishvili@gmail.com>
 
 ## Licence
 

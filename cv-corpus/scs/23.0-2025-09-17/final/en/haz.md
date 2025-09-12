@@ -9,12 +9,13 @@ speech (11 hours validated) from 7 speakers.
 
 Hazargi is the language of Hazara people who live in Pakistan, Afghanistan, Iran, Europe, Australia and America. It contains 32 alphabets and the script is in Arabic with some additional characters which are Hazargi based.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-The dataset includes literature, history, folk stories and mostly poetry
+<!-- Original Answer: -->
+<!-- The dataset includes literature, history, folk stories and mostly poetry -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +63,14 @@ The writing system is in Hazargi with an Arabic script that includes some additi
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا٬ ب٬ پ٬ ت٬ ݖ٬ ج٬ چ٬ خ٬ د٬ ۮ٬ ر٬ ز٬ ژ٬ س٬ ش٬ غ٬ ف٬ ق٬ ک٬ گ٬ ل٬ م٬ ن٬ و٬ۉ٬ ۆ٬ ۂ٬ ی٬ ې٬ ݷ٬ ئ
+```ا ب پ ت ݖ ج چ خ د ۮ ر ز ژ س ش غ ف ق ک گ ل م ن و ۉ ۆ ۂ ی ې ݷ ئ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+```
 بود نئبود بودیار بود ار چاری مئمئد یار بود دۂ کار کیدۉ بېمار بود دۂ خۉردۉ تئیار بود بود نئبود یئگ آجݷ بود
-
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-
+```
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -83,41 +79,13 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 General
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-
 
 ## Get involved!
-
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
-
 
 
 ## Acknowledgements
@@ -128,19 +96,6 @@ General
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 Mushtaq Mughul Ali Toorani Jawad Khawari Raziq Kohzad Mustafa Elkhani  Shawkat shaoor Hussain Ali Yosufi Aziz Fayaz Qadir Nayil Yaseen Zameer Loyaqath Ajiz Manzoor poya T. Malistani Amir Shah Haidri Farhad Zahidi Doc Zaibul Nisa
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-
-
-### Funding
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
-
 
 
 ## Licence
