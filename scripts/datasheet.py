@@ -102,7 +102,7 @@ class DatasheetSection(object):
         # Then commens
         for comment in self.comments:
             lines.append(f"<!-- {comment} -->")
-        return "\n".join(lines)
+        return "\n\n".join(lines)
 
 
 class CVDatasheet(object):

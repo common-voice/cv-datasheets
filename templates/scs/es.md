@@ -96,6 +96,8 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 * `accent` - acénto de los hablantes[^1]
 * `segment` - si la oración pertenece a una porción personalizada de un dataset, será listada aquí 
 
+#### Nota
+
 [^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
 
 ## ¡Involúcrate!
@@ -133,4 +135,3 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 ## Licencia
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
 usted acepta no determinar la identidad de los hablantes en el conjunto de datos.
-
