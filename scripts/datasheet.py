@@ -46,8 +46,8 @@ class DatasheetSection(object):
         self.content = ""
 
         if raw_text is not None:
-            self.parse_section_text(raw_text.split("\n"))
-
+            #self.parse_section_text(raw_text.split("\n"))
+            self.parse_section_text(re.split("(\n+)", raw_text))
     def __repr__(self):
         return self.title
 
@@ -62,7 +62,7 @@ class DatasheetSection(object):
             A list of lines of text in a single section, including comments.
 
         """
-        lines = [line for line in line_list if line.strip()]
+        lines = [line for line in line_list]  # if line.strip()]
         title_line = lines[0]
         match = re.match(r"^#+", title_line)
         deg = len(match.group(0)) if match else 0
@@ -73,7 +73,6 @@ class DatasheetSection(object):
         # multiple lines
         #
         text = "\n".join(lines[1:])
-
         comment_blocks = [
             m.group(1).strip() for m in re.finditer(r"<!--(.*?)-->", text, re.DOTALL)
         ]
@@ -103,7 +102,6 @@ class DatasheetSection(object):
         for comment in self.comments:
             lines.append(f"<!-- {comment} -->")
         return "\n\n".join(lines)
-
 
 class CVDatasheet(object):
     """
@@ -237,12 +235,16 @@ class CVDatasheet(object):
         str
             The datasheet as markdown-formatted text.
 
-        >>> ds = CVDatasheet("# Header\\nIntro\\n# Section\\nContent")
+        >>> ds = CVDatasheet("# Header\\nIntro\\n## Section\\n\\nThis is test\\nYes\\n\\n## End Section\\nContent")
         >>> print(ds.to_markdown())
         # Header
         Intro
         <BLANKLINE>
-        # Section
+        ## Section
+        This is a test
+        Yes
+        <BLANKLINE>
+        ## End Section
         Content
         """
         sections = [self.header if self.header is not None else ""] + self.sections
