@@ -130,12 +130,12 @@ Yes. It is recommended to apply additional noise reduction, normalize audio leve
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ```bibtex
-   @article{noristani_dataset_2025,
-   title={Noristani Spontaneous Speech Dataset},
-   author={Arshad Nasir},
-   year={2025},
-   howpublished={\url{https://commonvoice.mozilla.org}},
-   note={Noristani language corpus for spontaneous speech}} 
+   @misc{noristani_dataset_2025,
+   title        ={Noristani Spontaneous Speech Dataset},
+   author       ={Arshad Nasir},
+   year         ={2025},
+   howpublished ={\url{https://commonvoice.mozilla.org}},
+   note         ={Noristani language corpus for spontaneous speech}} 
 ```
 
 ### Funding
