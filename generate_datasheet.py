@@ -10,7 +10,10 @@ DRAFT_OUTPUT_PATH = (
     "{output_dir}/{modality}/{version}/draft/{template_lang}/{locale}.md"
 )
 ORIGINAL_PR_DATA_PATH = "metadata/language-requests.tsv"
+# Non public data
 SPS_STATS_PATH = "metadata/sps-stats.json"
+# Non public data
+SCS_DEMOGRAPHIC_PATH = "metadata/cv-corpus-23.0-2025-09-05.json"
 
 # Global constants URL
 PONTOON_URL = "https://pontoon.mozilla.org/{locale}/common-voice/contributors/"
@@ -42,6 +45,12 @@ def read_tsv_file(file_name: str) -> list[list[str]]:
         # Skipping the header
         next(reader, None)
         data = list(reader)
+    return data
+
+
+def read_json_file(file_name: str) -> dict:
+    with open(file_name, "r") as f:
+        data = json.load(f)
     return data
 
 
@@ -232,36 +241,92 @@ def fill_stats_samples_data(
     if lang_code == "en":
         q_section = "Questions"
         r_section = "Responses"
-        stats_section = "Transcription"
+        stats_section = "Transcriptions"
     elif lang_code == "es":
         q_section = "Preguntas"
         r_section = "Respuestas"
         stats_section = "Transcripciones"
-    # print(lang_code)
+
     if modality == "sps":
-        with open(SPS_STATS_PATH, "r") as f:
-            sps_stats_data = json.load(f)
+        sps_stats_data = read_json_file(SPS_STATS_PATH)
         locale_stats = sps_stats_data.get(locale)
+        # TODO: Localize stats strings
         if locale_stats:
             prompts = locale_stats.get("randomPrompts")
             if prompts:
-                promts_content = f"\n* Prompts: {locale_stats.get('prompts', 0)}\n* Clips: {locale_stats.get('clips', 0)}\n\n```\n{'\n '.join(prompts)}\n```\n"
+                promts_content = f"\n* Prompts: `{locale_stats.get('prompts', 0)}`\n* Clips: `{locale_stats.get('clips', 0)}`\n\n```\n{'\n'.join(prompts)}\n```\n"
                 template.append_content(q_section, promts_content)
             answers = locale_stats.get("randomTranscripts")
             if answers:
                 answers_content = f"\n```\n{'\n'.join(answers)}\n```\n"
                 template.append_content(r_section, answers_content)
+            stats_content = f"* Duration: `{locale_stats.get('duration')}[ms]`\n"
+            stats_content += (
+                f"* Avg. Transcription Len: `{locale_stats.get('avgTranscriptLen')}`\n"
+            )
+            stats_content += (
+                f"* Avg. Duration: `{locale_stats.get('avgDurationSecs')}[s]`\n"
+            )
+            stats_content += (
+                f"* Valid Duration: `{locale_stats.get('validDurationSecs')}[s]`\n"
+            )
+            stats_content += f"* Total hours: `{locale_stats.get('totalHrs')}`[h]\n"
+            stats_content += f"* Valid hours: `{locale_stats.get('validHrs')}`[h]\n"
+            template.append_content(stats_section, stats_content)
+
     elif modality == "scs":
-        # TODO: Get data from api
+        # TODO: Get sentences from api
+        # TODO: Fill stats from mdc
         pass
 
 
-def fill_demographic_data(ds, locale):
-    pass
+def make_table(data: dict, header: str) -> str:
+    # TODO: localize fields
+    table = f"{header}\n"
+    for field, freq in data.items():
+        clean_field = field.title().replace("_", " ")
+        table += f"| {clean_field} | {freq} |\n"
+    return table
+
+
+def fill_demographic_data(
+    template: CVDatasheet,
+    scs_demographic_data: dict,
+    lang_code: str,
+):
+    if lang_code == "en":
+        age_section = "Age"
+        gender_section = "Gender"
+        domains_section = "Text domains"
+        age_header = "| Age Band | Frequency |"
+        gender_header = "| Gender | Frequency |"
+        domain_header = "| Domain | Count |"
+    elif lang_code == "es":
+        age_section = "Edad"
+        gender_section = "Género"
+        domains_section = "Dominios textuales"
+        age_header = "| Rango de edad | Frecuencia |"
+        gender_header = "| Género | Frecuencia |"
+        domain_header = "| Dominio | Cuenta |"
+
+    # fill age
+    age_table = make_table(scs_demographic_data.get("age"), age_header)
+    template.append_content(age_section, age_table)
+
+    # Fill gender
+    gender_table = make_table(scs_demographic_data.get("gender"), gender_header)
+    template.append_content(gender_section, gender_table)
+
+    # Fill domains
+    domain_table = make_table(
+        scs_demographic_data.get("sentence_domain"), domain_header
+    )
+    template.append_content(domains_section, domain_table)
 
 
 template_languages = get_template_languages_data(languages_file)
 metadata = get_metadata_data(metadata_file)
+demographic_data = read_json_file(SCS_DEMOGRAPHIC_PATH).get("locales")
 
 for modality in metadata:
     for locale in metadata[modality]:
@@ -274,13 +339,13 @@ for modality in metadata:
         fill_template_header(ds, locale, modality, metadata)
         fill_contribute_links(ds, locale, lang_code)
         fill_community_links(ds, locale, modality, lang_code)
-        fill_stats_samples_data(ds, locale, modality, lang_code)
-        fill_demographic_data(ds, locale)
         # TODO: Add samples scs. Data comes from private API. dejar un par de segundos entre lenguas
-        # TODO: Demographic data from : https://github.com/Mozilla-Data-Collective/mdc-scripts/blob/main/alpha_data_seed/inputs/scripted_speech/cv-corpus-23.0-2025-09-05.json
-        # splits -> section de demographic information
+        fill_stats_samples_data(ds, locale, modality, lang_code)
+        if modality == "scs":
+            fill_demographic_data(
+                ds, demographic_data.get(locale).get("splits"), lang_code
+            )
         # Text stats empty for scs
-        # stats SPS from fram script
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
             modality=modality,
