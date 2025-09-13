@@ -7,20 +7,14 @@ for Nawdem (`nmz`). The dataset contains **11.63 hours of recorded speech** (col
 
 Nawdm (also known as Nawdem, Losso, Losu, Naoudem) is a Gur language spoken in northern Togo and southern Ghana. It belongs to the Niger‑Congo family, under the Oti‑Volta subgroup. The language is used in daily communication, religious texts, poetry, oral tradition, and common expressions.
 
-### Variants
+<!-- ### Variants -->
 
-This dataset includes not only the standard Nawdem variety but also variants loosely referred to as Losso. Differences are phonetic, lexical, and orthographic among communities; this dataset aims to represent this variation for better coverage.
+<!-- Original Answer: -->
+<!-- This dataset includes not only the standard Nawdem variety but also variants loosely referred to as Losso. Differences are phonetic, lexical, and orthographic among communities; this dataset aims to represent this variation for better coverage. -->
 
-### 🔤 Alphabet
+## Text corpus
 
-Uppercase letters:  
-A, B, D, E, Ɛ, F, G, Gw, Gb, H, Ĥ, I, J, K, Kw, Kp, L, M, N, Ny, Ŋ, Ŋm, O, Ɔ, R, S, T, U, V, W, Y  
-
-Lowercase letters:  
-a, b, d, e, ɛ, f, g, gw, gb, h, ɦ, i, j, k, kw, kp, l, m, n, ny, ŋ, ŋm, o, ɔ, r, s, t, u, v, w, y  
- 
-
-###  Accent
+### Writing system
 
 Nawdm is a **tonal language**, with at least **two level tones**:
 
@@ -29,9 +23,13 @@ Nawdm is a **tonal language**, with at least **two level tones**:
 
 Tone marking is not always used, typically reserved for pronouns, religious or formal texts.
 
----
+#### Symbol table
 
-## Text corpus
+Uppercase letters:  
+```A B D E Ɛ F G Gw Gb H Ĥ I J K Kw Kp L M N Ny Ŋ Ŋm O Ɔ R S T U V W Y  ```
+
+Lowercase letters:  
+```a b d e ɛ f g gw gb h ɦ i j k kw kp l m n ny ŋ ŋm o ɔ r s t u v w y  ```
 
 ### Sources
 
@@ -40,15 +38,6 @@ The dataset has been compiled from:
 * Dictionaries of Nawdm  
 * Common expressions collected from everyday life and fieldwork  
 
----
-
-## Dataset demographics
-
-### Age statistics
-
-Recordings span from **twenties** up to **seventies**, providing a wide generational representation.
-
----
 
 ## Get involved!
 
@@ -65,7 +54,6 @@ To get more information about this dataset and find out how you can contribute, 
 * [Validate recordings](https://commonvoice.mozilla.org/nmz/listen)  
 * [Review sentences](https://commonvoice.mozilla.org/nmz/review)  
 
----
 
 ## Acknowledgements
 
@@ -80,13 +68,11 @@ To get more information about this dataset and find out how you can contribute, 
 
 ### Contact
 
-* **Justin Bakoubolo** – [justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)
+* **Justin Bakoubolo** <[justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)>
 
 ### Funding
 
 This dataset was made possible by the **Open Multilingual Speech Fund**.
-
----
 
 ## Licence
 

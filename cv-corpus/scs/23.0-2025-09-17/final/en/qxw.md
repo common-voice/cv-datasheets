@@ -95,17 +95,10 @@ Maltakaq qiluta aysan.
 Walmikaq yakuta alsakun.
 Yukaliptu kullupiqta yantata lulapaakun.
 Llumpayta tamyaptin chakatam mayu apan.
-
 ```
 
 ### Sources
 Sentences were written by Mr. Pedro Ricce
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -115,12 +108,6 @@ Sentences were written by Mr. Pedro Ricce
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qxw/common-voice/contributors/)
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 

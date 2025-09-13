@@ -95,17 +95,11 @@ Qarachupaqa muntikunapapish, patsapapish purinmi.
 Wasita qatanapaq uqsha waskawan qirukunata watay.
 Llapan hunaqmi uywakuna tunachaw kachita llaqwan.
 Waraychaw mishipa ñawinqa quyllurnawmi chipipin.
-
 ```
 
 ### Sources
 Sentences were written by Mr. Franklin Espinoza
 
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -116,11 +110,6 @@ Sentences were written by Mr. Franklin Espinoza
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qvl/common-voice/contributors/)
 
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 
