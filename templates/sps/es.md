@@ -99,7 +99,7 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 * `gender` - genero de los hablantes[^1]
 * `language` - nombre de la lengua
 
-#### Nota
+####
 
 [^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
 

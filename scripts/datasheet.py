@@ -46,8 +46,9 @@ class DatasheetSection(object):
         self.content = ""
 
         if raw_text is not None:
-            #self.parse_section_text(raw_text.split("\n"))
+            # self.parse_section_text(raw_text.split("\n"))
             self.parse_section_text(re.split("(\n+)", raw_text))
+
     def __repr__(self):
         return self.title
 
@@ -72,7 +73,7 @@ class DatasheetSection(object):
         # extract html-style comments (<!-- ... -->), possibly spanning
         # multiple lines
         #
-        text = "\n".join(lines[1:])
+        text = "".join(lines[1:])
         comment_blocks = [
             m.group(1).strip() for m in re.finditer(r"<!--(.*?)-->", text, re.DOTALL)
         ]
@@ -101,7 +102,8 @@ class DatasheetSection(object):
         # Then commens
         for comment in self.comments:
             lines.append(f"<!-- {comment} -->")
-        return "\n\n".join(lines)
+        return "\n".join(lines)
+
 
 class CVDatasheet(object):
     """

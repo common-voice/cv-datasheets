@@ -1,29 +1,20 @@
 # *Mixteco Yucuhiti* &mdash; Southwestern Tlaxiaco Mixtec (`meh`)
-
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
 para Southwestern Tlaxiaco Mixtec (`meh`). El conjunto de datos contiene 11 horas de grabaciones 
 (11 horas validadas) de 16 hablantes.
 
 ## Idioma
-
 <!-- {{LANGUAGE_DESCRIPTION}} -->
-
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->
 
 ## Información demográfica
-
 El conjunto de datos incluye la siguiente distribución de edad y género.
-
 <!-- Puedes obtener gran parte de la información de esta sección desde [https://analyzer.cv-toolbox.web.tr/browse](https://analyzer.cv-toolbox.web.tr/browse) -->
 
 ### Género
-
 Información de género autodeclarada; la frecuencia se refiere al número de fragmentos anotados con este género.
-
 <!-- {{GENDER_TABLE}} -->
-
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
-
 <!-- | Género              | Frecuencia |
 |---------------------|------------|
 | masculino           | ? |
@@ -31,13 +22,9 @@ Información de género autodeclarada; la frecuencia se refiere al número de fr
 | femenino            | ? | -->
 
 ### Edad
-
 Información de edad autodeclarada; la frecuencia se refiere al número de fragmentos anotados con esta franja etaria.
-
 <!-- {{AGE_TABLE}} -->
-
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
-
 <!-- | Franja etaria  | Frecuencia |
 |----------------|------------|
 | adolescencia   | ? |
@@ -49,7 +36,6 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 
 ## Transcripciones
 
-
 * Prompts: `120`
 * Clips: `1057`
 * Duration: `36567144[ms]`
@@ -59,25 +45,17 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 * Total hours: `10.15754[h]`
 * Valid hours: `10.05486[h]`
 
-
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
-
 <!-- Una descripción del sistema de transcripción utilizado -->
 
 ### Sistema de escritura
-
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Una descripción del sistema (o sistemas) de escritura usado en el corpus de texto -->
 
 #### Tabla de símbolos
-
 <!-- {{ALPHABET_TABLE}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Si el sistema de escritura es alfabético, puedes incluir aquí el alfabeto válido -->
 
 #### Etiquetas extralingüísticas
@@ -85,7 +63,6 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 ### Ejemplos
 
 #### Preguntas
-
 A continuación se muestra una selección aleatoria de las preguntas usadas en el corpus.
 
 ```
@@ -96,11 +73,9 @@ Né neyu kúvi à víjí túní’ sà’a
 Nàsa koo jiñú’ú danú nùù ñɨvɨ’ ñá’nú ñuu’ nú?
 ```
 
-
 <!-- {{QUESTIONS_SAMPLE}} -->
 
 #### Respuestas
-
 A continuación se muestra una selección aleatoria de respuestas transcritas del corpus.
 
 ```
@@ -111,20 +86,16 @@ Sa nkiji iin ñu'un taan maa ni'i jen ñu'vi kuatee ni nsa'a tyi ntia'an kuni ni
 Suu a kuvi ni nuvi va'a nuu ñuu ni vi, da ityi jika jia'a Niji Nuu tyiyo tuni iyo jen... na'a kuatee ñu'un on ityi tyi iyo tuni ɨjɨn, nkuvi tyi ñakɨn daja... nsa'a kaji daja nuu ñu'un soma tan ña'a kivɨ jen ntuvi iyo vii ka ityi i... ntu sa'a va'a to'o majan jen vitan jen no'o dani jin jin ityi tyi... ɨjɨn... tikua'yɨ kuatee jen no'o da kaa, sa numii ki da axin sa iyo ki ñɨvɨ. Jia'an ki Nijnuu jen no'o tuni daja. Jika tyiyo sava nee kuvi u'vi yo a ñu'un ityi a ne'i iyo ityi yukuan.
 ```
 
-
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Posprocesamiento recomendado
-
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Qué deberían hacer los usuarios antes de emplear los datos, por ejemplo normalización Unicode o normalización de etiquetas extralingüísticas -->
 
 ### Campos
-
 Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:
+
 * `client_id` - UUID hasheado de cierto usuario
 * `audio_id` - id numérico para archivo de audio
 * `audio_file` - nombre del archivo de audio
@@ -137,69 +108,49 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 * `gender` - genero de los hablantes[^1]
 * `language` - nombre de la lengua
 
-#### Nota
-
+#### 
 [^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
 
 ## ¡Participa!
 
 ### Enlaces comunitarios
 
-
 * [Traductores de Common Voice en Pontoon](https://pontoon.mozilla.org/meh/common-voice/contributors/)
 
-
 <!-- {{COMMUNITY_LINKS_LIST}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Enlaces a chats o foros comunitarios -->
 
 ### Discusiones
-
 <!-- {{DISCUSSION_LINKS_LIST}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Aquí se pueden incluir enlaces a discusiones, por ejemplo en Discourse u otros foros o blogs -->
 
 ### Contribuir
-
 
 * [Hablar](https://commonvoice.mozilla.org/meh/speak)
 * [Escribir](https://commonvoice.mozilla.org/meh/write)
 * [Escuchar](https://commonvoice.mozilla.org/meh/listen)
 * [Revisar](https://commonvoice.mozilla.org/meh/review)
-
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
-
 <!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
 
 ## Agradecimientos
 
 ### Autores de la ficha técnica
-
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-
 <!-- Una lista en el formato: Su Nombre <email@email.com> -->
 
 ### Criterios de citación
-
 <!-- {{CITATION_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
-
 <!-- {{FUNDING_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->
 
 ## Licencia
-
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
 usted acepta no determinar la identidad de los hablantes en el conjunto de datos.

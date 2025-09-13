@@ -98,7 +98,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 * `gender` - gender of the speaker[^1]
 * `language` - language name
 
-#### Note
+####
 
 [^1]: For a full list of age, gender, and accent options, see the
 [demograpics

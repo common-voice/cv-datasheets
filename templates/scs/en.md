@@ -111,7 +111,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 * `accent` - accent of the speaker[^1]
 * `segment` - if sentence belongs to a custom dataset segment, it will be listed here
 
-#### Note
+####
 
 [^1]: For a full list of age, gender, and accent options, see the
 [demograpics

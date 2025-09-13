@@ -1,29 +1,20 @@
 # *Michoacán Mazahua* &mdash; Michoacán Mazahua (`mmc`)
-
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
 para Michoacán Mazahua (`mmc`). El conjunto de datos contiene 12 horas de grabaciones 
 (12 horas validadas) de 12 hablantes.
 
 ## Idioma
-
 <!-- {{LANGUAGE_DESCRIPTION}} -->
-
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->
 
 ## Información demográfica
-
 El conjunto de datos incluye la siguiente distribución de edad y género.
-
 <!-- Puedes obtener gran parte de la información de esta sección desde [https://analyzer.cv-toolbox.web.tr/browse](https://analyzer.cv-toolbox.web.tr/browse) -->
 
 ### Género
-
 Información de género autodeclarada; la frecuencia se refiere al número de fragmentos anotados con este género.
-
 <!-- {{GENDER_TABLE}} -->
-
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
-
 <!-- | Género              | Frecuencia |
 |---------------------|------------|
 | masculino           | ? |
@@ -31,13 +22,9 @@ Información de género autodeclarada; la frecuencia se refiere al número de fr
 | femenino            | ? | -->
 
 ### Edad
-
 Información de edad autodeclarada; la frecuencia se refiere al número de fragmentos anotados con esta franja etaria.
-
 <!-- {{AGE_TABLE}} -->
-
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
-
 <!-- | Franja etaria  | Frecuencia |
 |----------------|------------|
 | adolescencia   | ? |
@@ -49,7 +36,6 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 
 ## Transcripciones
 
-
 * Prompts: `195`
 * Clips: `876`
 * Duration: `40574520[ms]`
@@ -59,25 +45,17 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 * Total hours: `11.2707[h]`
 * Valid hours: `11.2707[h]`
 
-
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
-
 <!-- Una descripción del sistema de transcripción utilizado -->
 
 ### Sistema de escritura
-
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Una descripción del sistema (o sistemas) de escritura usado en el corpus de texto -->
 
 #### Tabla de símbolos
-
 <!-- {{ALPHABET_TABLE}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Si el sistema de escritura es alfabético, puedes incluir aquí el alfabeto válido -->
 
 #### Etiquetas extralingüísticas
@@ -85,7 +63,6 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 ### Ejemplos
 
 #### Preguntas
-
 A continuación se muestra una selección aleatoria de las preguntas usadas en el corpus.
 
 ```
@@ -96,11 +73,9 @@ B'ǘb'ü ná jñâtjo o náñyakímü gí né'e pjéko gi ñé'e?
 Jânge ga jóküji nú níts'imi mà sǔ'p'a?
 ```
 
-
 <!-- {{QUESTIONS_SAMPLE}} -->
 
 #### Respuestas
-
 A continuación se muestra una selección aleatoria de respuestas transcritas del corpus.
 
 ```
@@ -111,20 +86,16 @@ Ná pá'a má yá mêzhe, mí b'ǚb'ü dyä̀jä tǐ'i k'o mí b'ǚb'ü ó 
 Rí m'ângó ná té k'a jízhi pjéko pë́jch'i, este... ts'ómbeñe gá té dyàndéjo té yó m'ârá k'o ó p'âra, mê'erá jízhi ngéko rá mbàra koyáji yó té porque m'â'rá 'ö́jtk'ä kja ró té m'adyàrá jízhi pues si rá ndézhi para dyákja rá xôrü má'a ño'té. Mí na ts'ómbeñe ngéko gü ná jízhikö k'o pá'a
 ```
 
-
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Posprocesamiento recomendado
-
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Qué deberían hacer los usuarios antes de emplear los datos, por ejemplo normalización Unicode o normalización de etiquetas extralingüísticas -->
 
 ### Campos
-
 Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:
+
 * `client_id` - UUID hasheado de cierto usuario
 * `audio_id` - id numérico para archivo de audio
 * `audio_file` - nombre del archivo de audio
@@ -137,69 +108,49 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 * `gender` - genero de los hablantes[^1]
 * `language` - nombre de la lengua
 
-#### Nota
-
+#### 
 [^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
 
 ## ¡Participa!
 
 ### Enlaces comunitarios
 
-
 * [Traductores de Common Voice en Pontoon](https://pontoon.mozilla.org/mmc/common-voice/contributors/)
 
-
 <!-- {{COMMUNITY_LINKS_LIST}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Enlaces a chats o foros comunitarios -->
 
 ### Discusiones
-
 <!-- {{DISCUSSION_LINKS_LIST}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Aquí se pueden incluir enlaces a discusiones, por ejemplo en Discourse u otros foros o blogs -->
 
 ### Contribuir
-
 
 * [Hablar](https://commonvoice.mozilla.org/mmc/speak)
 * [Escribir](https://commonvoice.mozilla.org/mmc/write)
 * [Escuchar](https://commonvoice.mozilla.org/mmc/listen)
 * [Revisar](https://commonvoice.mozilla.org/mmc/review)
-
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
-
 <!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
 
 ## Agradecimientos
 
 ### Autores de la ficha técnica
-
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-
 <!-- Una lista en el formato: Su Nombre <email@email.com> -->
 
 ### Criterios de citación
-
 <!-- {{CITATION_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
-
 <!-- {{FUNDING_DESCRIPTION}} -->
-
 <!-- @ OPCIONAL @ -->
-
 <!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->
 
 ## Licencia
-
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
 usted acepta no determinar la identidad de los hablantes en el conjunto de datos.

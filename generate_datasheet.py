@@ -1,7 +1,9 @@
 import sys
 import csv
 import json
+
 from scripts.datasheet import CVDatasheet
+
 
 # TODO: Think how to manage localization correctly
 
@@ -15,6 +17,8 @@ ORIGINAL_PR_DATA_PATH = "metadata/language-requests.tsv"
 SPS_STATS_PATH = "metadata/sps-stats.json"
 # Non public data
 SCS_DEMOGRAPHIC_PATH = "metadata/cv-corpus-23.0-2025-09-05.json"
+# Extracted using scripts/fetch_scs_sentences.py
+SCS_SENTENCES_PATH = "metadata/scs-sentences.json"
 
 # Global constants URL
 PONTOON_URL = "https://pontoon.mozilla.org/{locale}/common-voice/contributors/"
@@ -50,6 +54,18 @@ def read_tsv_file(file_name: str) -> list[list[str]]:
 
 
 def read_json_file(file_name: str) -> dict:
+    """Read json file from dist
+
+    Parameters
+    ----------
+    file_name : str
+        File name
+
+    Returns
+    -------
+    dict
+        json data as python dict
+    """
     with open(file_name, "r") as f:
         data = json.load(f)
     return data
@@ -315,6 +331,7 @@ def fill_demographic_data(
 def fill_scs_stats(template: CVDatasheet, data: dict, lang_code: str):
     stats_section = "Corpus de texto" if lang_code == "es" else "Text corpus"
 
+    # TODO: Localize this better
     stats_content = f"* Reported sentences: `{data.get('reportedSentences')}`\n"
     stats_content += f"* Validated sentences: `{data.get('validatedSentences')}`\n"
     stats_content += f"* Unvalidated sentences: `{data.get('unvalidatedSentences')}`\n"
@@ -328,11 +345,18 @@ def fill_scs_stats(template: CVDatasheet, data: dict, lang_code: str):
     template.append_content(stats_section, stats_content)
 
 
+def fill_scs_samples(template: CVDatasheet, data: list[str], lang_code: str):
+    samples_section = "Muestra" if lang_code == "es" else "Sample"
+    samples_content = f"\n```\n{'\n'.join(data)}\n```\n"
+    template.append_content(samples_section, samples_content)
+
+
 template_languages = get_template_languages_data(languages_file)
 metadata = get_metadata_data(metadata_file)
 # TODO: By now only for scripted dataheets
 demographic_data = read_json_file(SCS_DEMOGRAPHIC_PATH).get("locales")
 sps_stats_data = read_json_file(SPS_STATS_PATH)
+scs_sentences = read_json_file(SCS_SENTENCES_PATH)
 
 for modality in metadata:
     for locale in metadata[modality]:
@@ -346,13 +370,12 @@ for modality in metadata:
         fill_contribute_links(ds, locale, lang_code)
         fill_community_links(ds, locale, modality, lang_code)
         if modality == "scs":
-            # TODO: Add samples scs.
-            # Data comes from private API
-            # (keep it chill with IDLE seconds in beetween calls)
             data = demographic_data.get(locale)
             if data:
                 fill_demographic_data(ds, data.get("splits"), lang_code)
                 fill_scs_stats(ds, data, lang_code)
+            sentences = scs_sentences.get(locale)
+            fill_scs_samples(ds, sentences, lang_code)
         elif modality == "sps":
             stats = sps_stats_data.get(locale)
             if stats:
