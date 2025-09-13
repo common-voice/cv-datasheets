@@ -364,7 +364,7 @@ for modality in metadata:
             modality=modality,
             version=version,
             template_lang=template_languages[modality][locale],
-            locale=locale + "_new",
+            locale=locale,
         )
         with open(draft_output_path, "w+") as out_file:
             out_file.write(ds.to_markdown(include_empty_sections=True))
