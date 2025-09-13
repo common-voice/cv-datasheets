@@ -235,49 +235,38 @@ def fill_community_links(
     template.append_content(section, content)
 
 
-def fill_stats_samples_data(
-    template: CVDatasheet, locale: str, modality: str, lang_code: str
-):
+def fill_sps_stats(template: CVDatasheet, data: dict, lang_code: str):
+    stats_section = "Transcripciones" if lang_code == "es" else "Transcriptions"
+
+    # TODO: Localize stats strings
+    stats_content = f"* Prompts: `{data.get('prompts', 0)}`\n"
+    stats_content += f"* Clips: `{data.get('clips', 0)}`\n"
+    stats_content += f"* Duration: `{data.get('duration')}[ms]`\n"
+    stats_content += f"* Avg. Transcription Len: `{data.get('avgTranscriptLen')}`\n"
+    stats_content += f"* Avg. Duration: `{data.get('avgDurationSecs')}[s]`\n"
+    stats_content += f"* Valid Duration: `{data.get('validDurationSecs')}[s]`\n"
+    stats_content += f"* Total hours: `{data.get('totalHrs')}[h]`\n"
+    stats_content += f"* Valid hours: `{data.get('validHrs')}[h]`\n"
+    template.append_content(stats_section, stats_content)
+
+
+def fill_sps_samples(template: CVDatasheet, data: dict, lang_code: str):
     if lang_code == "en":
         q_section = "Questions"
         r_section = "Responses"
-        stats_section = "Transcriptions"
     elif lang_code == "es":
         q_section = "Preguntas"
         r_section = "Respuestas"
-        stats_section = "Transcripciones"
 
-    if modality == "sps":
-        sps_stats_data = read_json_file(SPS_STATS_PATH)
-        locale_stats = sps_stats_data.get(locale)
-        # TODO: Localize stats strings
-        if locale_stats:
-            prompts = locale_stats.get("randomPrompts")
-            if prompts:
-                promts_content = f"\n* Prompts: `{locale_stats.get('prompts', 0)}`\n* Clips: `{locale_stats.get('clips', 0)}`\n\n```\n{'\n'.join(prompts)}\n```\n"
-                template.append_content(q_section, promts_content)
-            answers = locale_stats.get("randomTranscripts")
-            if answers:
-                answers_content = f"\n```\n{'\n'.join(answers)}\n```\n"
-                template.append_content(r_section, answers_content)
-            stats_content = f"* Duration: `{locale_stats.get('duration')}[ms]`\n"
-            stats_content += (
-                f"* Avg. Transcription Len: `{locale_stats.get('avgTranscriptLen')}`\n"
-            )
-            stats_content += (
-                f"* Avg. Duration: `{locale_stats.get('avgDurationSecs')}[s]`\n"
-            )
-            stats_content += (
-                f"* Valid Duration: `{locale_stats.get('validDurationSecs')}[s]`\n"
-            )
-            stats_content += f"* Total hours: `{locale_stats.get('totalHrs')}`[h]\n"
-            stats_content += f"* Valid hours: `{locale_stats.get('validHrs')}`[h]\n"
-            template.append_content(stats_section, stats_content)
+    prompts = data.get("randomPrompts")
+    if prompts and set(prompts) != {""}:
+        promts_content = f"\n```\n{'\n'.join(prompts)}\n```\n"
+        template.append_content(q_section, promts_content)
 
-    elif modality == "scs":
-        # TODO: Get sentences from api
-        # TODO: Fill stats from mdc
-        pass
+    answers = data.get("randomTranscripts")
+    if answers and set(answers) != {""}:
+        answers_content = f"\n```\n{'\n'.join(answers)}\n```\n"
+        template.append_content(r_section, answers_content)
 
 
 def make_table(data: dict, header: str) -> str:
@@ -298,16 +287,16 @@ def fill_demographic_data(
         age_section = "Age"
         gender_section = "Gender"
         domains_section = "Text domains"
-        age_header = "| Age Band | Frequency |"
-        gender_header = "| Gender | Frequency |"
-        domain_header = "| Domain | Count |"
+        age_header = "| Age Band | Frequency |\n|-|-|"
+        gender_header = "| Gender | Frequency |\n|-|-|"
+        domain_header = "| Domain | Count |\n|-|-|"
     elif lang_code == "es":
         age_section = "Edad"
         gender_section = "Género"
         domains_section = "Dominios textuales"
-        age_header = "| Rango de edad | Frecuencia |"
-        gender_header = "| Género | Frecuencia |"
-        domain_header = "| Dominio | Cuenta |"
+        age_header = "| Rango de edad | Frecuencia |\n|-|-|"
+        gender_header = "| Género | Frecuencia |\n|-|-|"
+        domain_header = "| Dominio | Cuenta |\n|-|-|"
 
     # fill age
     age_table = make_table(scs_demographic_data.get("age"), age_header)
@@ -324,9 +313,27 @@ def fill_demographic_data(
     template.append_content(domains_section, domain_table)
 
 
+def fill_scs_stats(template: CVDatasheet, data: dict, lang_code: str):
+    stats_section = "Corpus de texto" if lang_code == "es" else "Text corpus"
+
+    stats_content = f"* Reported sentences: `{data.get('reportedSentences')}`\n"
+    stats_content += f"* Validated sentences: `{data.get('validatedSentences')}`\n"
+    stats_content += f"* Unvalidated sentences: `{data.get('unvalidatedSentences')}`\n"
+    stats_content += f"* Clips: `{data.get('clips')}`\n"
+    stats_content += f"* Users: `{data.get('users')}`\n"
+    stats_content += f"* Avg duration: `{data.get('avgDurationSecs')}[s]`\n"
+    stats_content += f"* Valid duration: `{data.get('validDurationSecs')}[s]`\n"
+    stats_content += f"* Total hours: `{data.get('totalHrs')}`\n"
+    stats_content += f"* Valid hours: `{data.get('validHrs')}`\n"
+
+    template.append_content(stats_section, stats_content)
+
+
 template_languages = get_template_languages_data(languages_file)
 metadata = get_metadata_data(metadata_file)
+# TODO: By now only for scripted dataheets
 demographic_data = read_json_file(SCS_DEMOGRAPHIC_PATH).get("locales")
+sps_stats_data = read_json_file(SPS_STATS_PATH)
 
 for modality in metadata:
     for locale in metadata[modality]:
@@ -339,12 +346,19 @@ for modality in metadata:
         fill_template_header(ds, locale, modality, metadata)
         fill_contribute_links(ds, locale, lang_code)
         fill_community_links(ds, locale, modality, lang_code)
-        # TODO: Add samples scs. Data comes from private API. dejar un par de segundos entre lenguas
-        fill_stats_samples_data(ds, locale, modality, lang_code)
         if modality == "scs":
-            fill_demographic_data(
-                ds, demographic_data.get(locale).get("splits"), lang_code
-            )
+            # TODO: Add samples scs.
+            # Data comes from private API
+            # (keep it chill with IDLE seconds in beetween calls)
+            data = demographic_data.get(locale)
+            if data:
+                fill_demographic_data(ds, data.get("splits"), lang_code)
+                fill_scs_stats(ds, data, lang_code)
+        elif modality == "sps":
+            stats = sps_stats_data.get(locale)
+            if stats:
+                fill_sps_samples(ds, stats, lang_code)
+                fill_sps_stats(ds, stats, lang_code)
         # Text stats empty for scs
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
