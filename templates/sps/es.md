@@ -83,6 +83,24 @@ A continuación se muestra una selección aleatoria de respuestas transcritas de
 <!-- @ OPCIONAL @ -->
 <!-- Qué deberían hacer los usuarios antes de emplear los datos, por ejemplo normalización Unicode o normalización de etiquetas extralingüísticas -->
 
+### Campos
+
+Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:
+
+* `client_id` - UUID hasheado de cierto usuario
+* `audio_id` - id numérico para archivo de audio
+* `audio_file` - nombre del archivo de audio
+* `duration_ms` - duración del audio en milisegundo
+* `prompt_id` - id numérico para el prompt
+* `prompt` - pregunta para el usuario
+* `transcription` - transcripción de la respuesta al audio
+* `votes` - número de personas quiene aprobaron cierta transcripción
+* `age` - edad de los hablantes[^1]
+* `gender` - genero de los hablantes[^1]
+* `language` - nombre de la lengua
+
+[^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
+
 ## ¡Participa!
 
 ### Enlaces comunitarios

@@ -84,19 +84,19 @@ There follows a randomly selected sample of transcribed responses from the corpu
 
 ### Fields
 
-Each row of a tsv file represents a single audio clip, and contains the following information:
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
 
 * `client_id` - hashed UUID of a given user
-* `audio_id` - Numeric id for audio file
-* `audio_file` - Audio file name
-* `duration_ms` - Duration of audio in milliseconds
-* `prompt_id` - Numeric id for prompt
-* `prompt` - Question for user
-* `transcription` - User response
-* `votes` - Number of people that (?)
+* `audio_id` - numeric id for audio file
+* `audio_file` - audio file name
+* `duration_ms` - duration of audio in milliseconds
+* `prompt_id` - numeric id for prompt
+* `prompt` - question for user
+* `transcription` - transcription of the audio response
+* `votes` - number of people that who approved a given transcript
 * `age` - age of the speaker[^1]
 * `gender` - gender of the speaker[^1]
-* `language` - Language name
+* `language` - language name
 
 [^1]: For a full list of age, gender, and accent options, see the
 [demograpics

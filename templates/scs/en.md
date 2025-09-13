@@ -99,7 +99,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 ### Fields
 
-Each row of a tsv file represents a single audio clip, and contains the following information:
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
 
 * `client_id` - hashed UUID of a given user
 * `path` - relative path of the audio file

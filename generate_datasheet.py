@@ -3,6 +3,7 @@ import csv
 import json
 from scripts.datasheet import CVDatasheet
 
+# TODO: Think how to manage localization correctly
 
 # global path variables
 TEMPLATE_PATH = "templates/{modality}/{lang_code}.md"
@@ -186,8 +187,6 @@ def fill_template_header(
 
 
 def fill_contribute_links(template: CVDatasheet, locale: str, lang_code: str) -> None:
-    # TODO: Add user friendly text
-    # TODO: Think how to manage this correctly
     if lang_code == "en":
         contribute_links = [
             f"* [Speak]({COMMON_VOICE_URL}/{locale}/speak)",
