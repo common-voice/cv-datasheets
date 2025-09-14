@@ -123,12 +123,13 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-https://commonvoice.mozilla.org/bbj/
+
 
 ### Contribute
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+https://commonvoice.mozilla.org/bbj/
 
 ## Acknowledgements
 
