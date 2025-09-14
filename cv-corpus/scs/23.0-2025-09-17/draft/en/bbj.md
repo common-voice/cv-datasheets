@@ -8,6 +8,11 @@ speech (13 hours validated) from 31 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Ghomala is a Central-Bamileke language of the Grassfield-Bantu sub-group. It is spoken in the Mifi Division, West Region of Cameroon. The Administrative Atlas of Cameroon's Languages (Breton and Bikia Fohtung 1991) lists four dialectal areas for the Ghomala language:
+- North Ghomala which comprises Fu'sep (of Bafoussam) and Lang (of Balong) varieties
+- Ngomba also known as West-Ghomala which comprises the Mugum (of the Bamungum), the Meka (of the Bameka) and the Monjo (of the Bamenju) varieties
+- Central-Ghomala which has the following varieties : Jo (of the Banjun), and Yegam (of the Bayangam)
+- South Ghomama which comprises Te (of the Batie), Pa (of the Bapa) and Denkwop (of the Badenwkop)
 
 ### Variants 
 
@@ -60,6 +65,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The collection of sentence prompts provided by the language representatives aligns with the General Alphabet of Cameroonian Languages
 
 #### Symbol table
 
@@ -70,6 +76,12 @@ Self-declared age information, frequency refers to the number of clips annotated
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
+
+1. Nə́ fa' dəm nám ntʉɔ
+2. Bâ tɛ msətùk bə́ yə pə́ wɛ mdzə
+3. Ywə́ mlwâ euthanasie bə́ kʉ́ʉ́ ?
+4. Pú bəm cwəp mɔkshyə dəm mta'shyə
+5. Mə̌shyə bə́ yə gwyə̌, á haptə mtə̀m guŋ
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
@@ -110,6 +122,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+https://commonvoice.mozilla.org/bbj/
 
 ### Contribute
 
@@ -118,16 +131,37 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 ## Acknowledgements
 
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Norine Andreas Kenge Defo
+- Paulin Noel Deffo Fogem
+
+The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
+- Eliette Emilie-Caroline Ngo Tjomb Assembe (Project Lead)
+- Dr. Florus Landry Dibenge
+- Blaise Mathieu Banoum Manguele
+- Blaise Abo Djoulde
+- Mathilde Nyambe A.
+- Brice Martial Atangana Eloundou
+- Jeff Sterling Ngami Kamagoua
+- José Mpuda Avom
+- Zacharie Nyobe
+- Emmanuel Giovanni Eloundou Eyenga
+- André Pascal Likwai
+
+
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+Emmanuel Ngue Um <ngueum@gmail.com>, Norine Andreas Kenge Defo <kengneandreas8@gmail.com>, Paulin Noel Deffo Fogem < Noelfradiquesfoguem@gmail.com>
 
 ### Citation guidelines
 
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+Ngué Um E, Ngo Tjomb EEC, Dibengue FL, Banum Manguele BM, Abo Djoulde B, Nyambe MA, Atangana Eloundou BM, Ngami Kamagoua JS, Mpouda Avom J, Nyobe Z, Eloundou Eyenga EG, Likwai AP (2025) Speech Technologies Datasets for African Under-Served Languages. Proceedings of the Eight Workshop on the Use of Computational Methods in the Study of Endangered Languages, edited by Lachler J, Agyapong G, Arppe A, Moeller S, Chaudhary A, Rijhwani S, Rosenblum D. [URL](https://aclanthology.org/2025.computel-main.pdf) 
+Association for Computational Linguistics (ACL), 
 
 ### Funding
 
