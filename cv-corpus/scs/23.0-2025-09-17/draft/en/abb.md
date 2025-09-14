@@ -77,6 +77,12 @@ The collection of sentence prompts provided by the language representatives alig
 
 There follows a randomly selected sample of five sentences from the corpus.
 
+1. Ǹsɔn mwɛ̄ŋ mu ndɛ̂m mu diŋā i ilòŋgɛ
+2. Imbūs pɛpu mùt nik à kɔ̀la à kaā ifyē man myāŋgō
+3. Mbèŋ i malɔ̀ ipɛ nì ŋ̀kòtòk mu mikɔŋgɔ
+4. Ɔ̂ màlew ma mamàa i tāŋki, ɓè nɛsi malew 
+5. Kɛ̌, ɔ̀ yȏŋ bìkwɛm bi ŋgɔ̑n ɓaā i tȗŋ 
+
 <!-- {{SENTENCES_SAMPLE}} -->
 
 ### Sources
