@@ -8,6 +8,7 @@ speech (11 hours validated) from 14 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Mengambo is Grassfield Bantu language spoken in the Bamboutos Division, West region of Cameroon.
 
 ### Variants 
 
@@ -60,6 +61,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The collection of sentence prompts provided by the language representatives aligns with the General Alphabet of Cameroonian Languages
 
 #### Symbol table
 
@@ -70,6 +72,12 @@ Self-declared age information, frequency refers to the number of clips annotated
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
+
+1. Á cû ŋgâʼ a zhə́ ŋkwǎ tsə̌tndyǎ mamá Máni
+2. Tsopmǒ nǝ mǒmǝ ntyénǝ́ fwo syé kǝtʼsǝmét
+3. Mə́cywǐ ghâʼ mbî mə́ má fít ghyə̌ gho yéghə́ gho
+4. Pʉ̌ gho mɛnə́ məfyeʼ mú gho ntyá ŋgâʼ o pə̂ fú wye 
+5. A má nə́ mbe ŋgâʼ á kát mbî 
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
@@ -115,13 +123,28 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+https://commonvoice.mozilla.org/bce/
 
 ## Acknowledgements
+
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Jean-Claude Moutieu
+- Geneviève Mouokat
+- Augustin Tagem
+
+The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
+- Dr. Florus Landry Dibenge (Project Lead)
+- Eliette Emilie-Caroline Ngo Tjomb Assembe
+- Eric Koung
+- Blaise Mathieu Banum Manguele
+- Martial Brice Antangana Eloundou
+- Emmanuel Giovanni Eloundou Eyenga
 
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+Emmanuel Ngue Um <ngueum@gmail.com>, Geneviève Mouokat <>, Jean-Claude Moutieu <>
 
 ### Citation guidelines
 
@@ -134,6 +157,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
 
 ## Licence
 
