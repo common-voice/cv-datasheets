@@ -8,6 +8,7 @@ speech (13 hours validated) from 27 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Kom is a Grassfield-Bantu language that belongs to the group Ring and is spoken in the Menchum Division, North-West region in Cameroon.
 
 ### Variants 
 
@@ -60,6 +61,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The collection of sentence prompts provided by the language representatives aligns with the General Alphabet of Cameroonian Languages
 
 #### Symbol table
 
@@ -70,6 +72,12 @@ Self-declared age information, frequency refers to the number of clips annotated
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
+
+1. Mbvɨngwo ghɨ ntè' ghɨ kɨ-a kɨ camelûn i jɨm bòm ndo àfvɨ zɨ a i ghɨ a fu
+2. Ngem ka i bu læ kum bula àmbu' a ngèm
+3. Su fu ma nɨ̀ ìti ma gva fɨsus ateyn
+4. Ghesina kɨŋ nkɨŋsɨ kfa nɨ̀ seynsɨ 
+5. A ghɨ a kom ɨlwe' ɨ sana 
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
@@ -115,8 +123,27 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+https://commonvoice.mozilla.org/bkm
 
 ## Acknowledgements
+
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Gilian Nindum
+- Milton Mih Nges
+
+
+The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
+- Eliette Emilie-Caroline Ngo Tjomb Assembe (Project Lead)
+- Dr. Florus Landry Dibenge
+- Blaise Mathieu Banoum Manguele
+- Blaise Abo Djoulde
+- Mathilde Nyambe A.
+- Brice Martial Atangana Eloundou
+- Jeff Sterling Ngami Kamagoua
+- José Mpuda Avom
+- Zacharie Nyobe
+- Emmanuel Giovanni Eloundou Eyenga
+- André Pascal Likwai
 
 ### Datasheet authors
 
