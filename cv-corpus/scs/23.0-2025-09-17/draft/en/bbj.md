@@ -8,17 +8,18 @@ speech (13 hours validated) from 31 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Ghomala is a Central-Bamileke language of the Grassfield-Bantu sub-group. It is spoken in the Mifi Division, West Region of Cameroon. The Administrative Atlas of Cameroon's Languages (Breton and Bikia Fohtung 1991) lists four dialectal areas for the Ghomala language:
-- North Ghomala which comprises Fu'sep (of Bafoussam) and Lang (of Balong) varieties
-- Ngomba also known as West-Ghomala which comprises the Mugum (of the Bamungum), the Meka (of the Bameka) and the Monjo (of the Bamenju) varieties
-- Central-Ghomala which has the following varieties : Jo (of the Banjun), and Yegam (of the Bayangam)
-- South Ghomama which comprises Te (of the Batie), Pa (of the Bapa) and Denkwop (of the Badenwkop)
+Ghomala is a Central-Bamileke language of the Grassfield-Bantu sub-group. It is spoken in the Mifi Division, West Region of Cameroon. 
 
 ### Variants 
 
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
+The Administrative Atlas of Cameroon's Languages (Breton and Bikia Fohtung 1991) lists four dialectal areas for the Ghomala language:
+- North Ghomala which comprises Fu'sep (of Bafoussam) and Lang (of Balong) varieties
+- Ngomba also known as West-Ghomala which comprises the Mugum (of the Bamungum), the Meka (of the Bameka) and the Monjo (of the Bamenju) varieties
+- Central-Ghomala which has the following varieties : Jo (of the Banjun), and Yegam (of the Bayangam)
+- South Ghomama which comprises Te (of the Batie), Pa (of the Bapa) and Denkwop (of the Badenwkop)
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
