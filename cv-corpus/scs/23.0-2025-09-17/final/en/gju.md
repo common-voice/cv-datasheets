@@ -9,12 +9,13 @@ speech (11 hours validated) from 6 speakers.
 
 Gojri is an Indo-Aryan language spoken by the Gujjar community in various parts of South Asia, particularly in: Regions 1. Jammu and Kashmir: Gojri is widely spoken in the Jammu region. 2. India: Many Gujjar communities in Himachal Pradesh, Rajasthan,  Gujarat  and in many other states speak Gojri. 3. Pakistan: Gojri is also spoken in all provinces of Pakistan including AJK, and GB 4. Afghanistan: Gojri is also spoken in Afghanistan, particularly in Kunar province.  Characteristics 1. Similarities with other languages: Gojri shares similarities with other Indo-Aryan languages, such as Punjabi, Urdu, and Hindi, Nepali,  Gojrati etc. 2. Unique vocabulary: Gojri has its own distinct vocabulary and expressions, reflecting the culture and traditions of the Gujjar community. Writing system  Gojri has its own writing system, and books have been written in various literary genres, including: Gojri Writing System and Literature 1. Perso-Arabic script: Gojri is often written in a modified Perso-Arabic script. 2. Literary works: Books, poetry, and other literary works have been written in Gojri, showcasing the language's rich cultural heritage. 3. Translation of the Holy Quran: The Quran has been translated into Gojri, making it accessible to the Gujjar community. 4. Cultural Expression: Gojri music, songs, films, dramas, radio programs and cultural events showcase the language's richness and the community's heritage. Gojri is a vital part of the Gujjar community's linguistic and cultural diversity.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-Gojri is rich with three dialects i.e Eastern, Western and Northern dialects. In datasets Eastern and Western dialects have been added.
+<!-- Original Answer: -->
+<!-- Gojri is rich with three dialects i.e Eastern, Western and Northern dialects. In datasets Eastern and Western dialects have been added. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +63,17 @@ Perso-Arabic script
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا آ ب بھ پ پھ ت تھ ٹ ٹھ ث ج جھ چ چھ ح خ د دھ  ڈ  ڈھ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک کھ گ گھ ل ل°  م  ن ن°  و ہ ی ے
-
+```ا آ ب بھ پ پھ ت تھ ٹ ٹھ ث ج جھ چ چھ ح خ د دھ  ڈ  ڈھ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک کھ گ گھ ل ل°  م  ن ن°  و ہ ی ے```
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-مہارا مذہب کو ناں اسلام ہے۔ ہم مسلمان ہاں۔ شریف نے اس کے سٹ کری۔ روٹی جھب جھب پکائی۔ دیو آ گیو۔
+```
+مہارا مذہب کو ناں اسلام ہے۔
+ہم مسلمان ہاں۔
+شریف نے اس کے سٹ کری۔
+روٹی جھب جھب پکائی۔
+دیو آ گیو۔
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -100,25 +106,10 @@ There are two special characters in Gojri that must be used to create difference
 ## Get involved!
 
 
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-N/A 
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-N/A 
-
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-N/A
 
 ## Acknowledgements
 
@@ -129,19 +120,13 @@ N/A
 
 Mumtaz Ahmed  Nizam Din Shahid-ur-Rehman 
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-N/A
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
-Sir.Meesum Alam 
+Sir. Meesum Alam 
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

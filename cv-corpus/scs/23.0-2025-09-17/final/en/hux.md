@@ -9,12 +9,14 @@ speech (10 hours validated) from 13 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 The [Murui-Muinanɨ](https://bdpi.cultura.gob.pe/lenguas/murui-muinani) language, ISO code [hux](https://www.ethnologue.com/language/hux/) belongs to the Witotoan family and is spoken in the basins of the Putumayo, Napo, and Amazonas rivers in the Loreto department of Perú. It has traditionally been known as Uitoto or Huitoto but now they prefer the endonym Murui-Muinanɨ.
-### Variants 
 
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-Murui and Muinanɨ are the two dialects of this language
+
+<!-- Original Answer: -->
+<!-- Murui and Muinanɨ are the two dialects of this language -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -63,11 +65,6 @@ On average, sentences consist of six words and contain a total of forty letters.
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 The murui muinane alphabet was officially established by Executive Order No. 303-2015-MINEDU issued by Peruvian Ministry of Education. The alphabet is composed by 23 graphemes. 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 ### Sample
 
@@ -88,37 +85,7 @@ eikaɨ kookɨ dɨga uillɨtaitɨkue.
 <!-- A list of sentence sources, can be curated to the top-N -->
 Sentences were written by Mrs. Cleofina Tello
 
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
 ## Get involved!
-
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute voice recordings](https://commonvoice.mozilla.org/hux/speak)

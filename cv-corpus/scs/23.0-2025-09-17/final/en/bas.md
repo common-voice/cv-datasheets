@@ -8,7 +8,7 @@ speech (12 hours validated) from 54 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Basaa is a language spoken in Cameroon by a population of around 500k speakers. While the vitality of Basaa is considered to be stable by [Ethnologue](https://www.ethnologue.com/language/bas/) intergenerational transmission is not systematically achieved, mostly in urban areas.
+Basaa is a language spoken in Cameroon by a population of around 500k speakers. While the vitality of Basaa is considered to be stable by [Ethnologue](https://www.ethnologue.com/language/bas/), intergenerational transmission is not systematically achieved, mostly in urban areas.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
