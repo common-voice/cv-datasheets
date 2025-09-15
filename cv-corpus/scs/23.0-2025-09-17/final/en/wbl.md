@@ -100,22 +100,6 @@ General
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
-
-There are uncountable social media forums (FaceBook, YouTube channels, or Insta) made with the name of Wakhi or in Wakhi language and cultural context. I can’t rmember all. Here, I’m offering some  of them, where I normally post the links of my creative work published on my website or YouTube channels.  It becomes  difficult for a visually disabled peron like me to trace out the links of them. I’m just mentioing their names.
-* FaceBook (FB) Page of Wakhi Tajik Cultural Association (WTCA) 
-* FB Page of K̃hikwor Zik-e Razhek  
-* FB Page of PamirTimes  
-* FB Group of K̃hik Dũnyo (Wakhi World) 
-* FB Group of Wuk̃h TV (Wux TV) 
-* FB Group of Wakhi Research Center  
-* FB Group of Wakhan Corridor  
-* FB Group of Wakhi Music  
-* FB Group of Wakhi Crowd  
-* FB Group of Pamirs  
-* YouTube Channel of  Wakhi Tajik Cultural Association (WTCA) 
-* YouTube channel of Pamir Television
-
-http://www.fazalamin.com 
  
 
 ### Discussions
