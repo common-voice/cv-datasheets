@@ -62,7 +62,7 @@ El corpus se formó de textos que ya han sido recopilados con anterioridad por o
 <!-- @ OPCIONAL @ -->
 <!-- Si el sistema de escritura es alfabético, puede incluir aquí el alfabeto válido -->
 
-a, e, i, o, u, aa, ee, ii, oo, uu, b, bw, ch, j, k, l, m, n, p, r, s, t, w, y, ´
+```a, e, i, o, u, aa, ee, ii, oo, uu, b, bw, ch, j, k, l, m, n, p, r, s, t, w, y, ´ ```
 
 ### Muestra
 <!-- {{SENTENCES_SAMPLE}} -->

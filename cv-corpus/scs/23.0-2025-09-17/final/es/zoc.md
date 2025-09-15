@@ -62,7 +62,7 @@ Se utilizó el sistema arábico, consonantes y vocales que normalmente usa el es
 <!-- @ OPCIONAL @ -->
 <!-- Si el sistema de escritura es alfabético, puede incluir aquí el alfabeto válido -->
 
-p/b t/d k/g ts/ds ' m n ŋ w y l a e i o u ä ã ẽ ĩ õ ũ ä̃
+```p/b t/d k/g ts/ds ' m n ŋ w y l a e i o u ä ã ẽ ĩ õ ũ ä̃```
 
 ### Muestra
 <!-- {{SENTENCES_SAMPLE}} -->
