@@ -257,7 +257,6 @@ def fill_sps_stats(template: CVDatasheet, data: dict, lang_code: str):
 
     # TODO: Localize stats strings
     stats_content = f"* Prompts: `{data.get('prompts', 0)}`\n"
-    stats_content += f"* Clips: `{data.get('clips', 0)}`\n"
     stats_content += f"* Duration: `{data.get('duration')}[ms]`\n"
     stats_content += f"* Avg. Transcription Len: `{data.get('avgTranscriptLen')}`\n"
     stats_content += f"* Avg. Duration: `{data.get('avgDurationSecs')}[s]`\n"
@@ -291,8 +290,10 @@ def make_table(data: dict, header: str) -> str:
     table = f"{header}\n"
     for field, freq in data.items():
         if freq != 0:
+            # Convert to percent format
+            clean_freq = f"{freq * 100:.1f}%" if freq <= 1 else freq
             clean_field = field.title().replace("_", " ") if field else "Undefined"
-            table += f"| {clean_field} | {freq} |\n"
+            table += f"| {clean_field} | {clean_freq} |\n"
     return table
 
 
@@ -305,15 +306,15 @@ def fill_demographic_data(
         age_section = "Age"
         gender_section = "Gender"
         domains_section = "Text domains"
-        age_header = "| Age Band | Frequency |\n|-|-|"
-        gender_header = "| Gender | Frequency |\n|-|-|"
+        age_header = "| Age Band | Percentage |\n|-|-|"
+        gender_header = "| Gender | Pertentage |\n|-|-|"
         domain_header = "| Domain | Count |\n|-|-|"
     elif lang_code == "es":
         age_section = "Edad"
         gender_section = "Género"
         domains_section = "Dominios textuales"
-        age_header = "| Rango de edad | Frecuencia |\n|-|-|"
-        gender_header = "| Género | Frecuencia |\n|-|-|"
+        age_header = "| Rango de edad | Porcentaje |\n|-|-|"
+        gender_header = "| Género | Porcentaje |\n|-|-|"
         domain_header = "| Dominio | Cuenta |\n|-|-|"
 
     # fill age

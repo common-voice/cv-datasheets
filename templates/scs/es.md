@@ -17,7 +17,7 @@ validadas) de {{SPEAKERS}} hablantes.
 El conjunto de datos incluye la siguiente distribución de edad y género.
 
 ### Género
-Información de género autodeclarada, frecuencia se refiere al número de clips anotados con este género.
+Información de género autodeclarada, el porcentaje se refiere al número de clips anotados con este género.
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -29,7 +29,7 @@ Información de género autodeclarada, frecuencia se refiere al número de clips
 -->
 
 ### Edad
-Información de edad autodeclarada, frecuencia se refiere al número de clips anotados con este rango de edad.
+Información de edad autodeclarada, el porcentaje se refiere al número de clips anotados con este rango de edad.
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 

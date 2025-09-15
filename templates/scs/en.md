@@ -21,7 +21,7 @@ The dataset includes the following distribution of age and gender.
 
 ### Gender
 
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -34,7 +34,7 @@ Self-declared gender information, frequency refers to the number of clips annota
 -->
 ### Age
 
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
