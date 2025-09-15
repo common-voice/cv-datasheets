@@ -67,11 +67,11 @@ Arabi parssion keyboard
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
 ```
-1. My name is Nanjit 
-2. I live in Mirpurkhas. I am married. 
-3. I have four children 
-4. My father is driver. I love to my family. 
-5. My chil
+مارُون نام نانجيت ڪُمار سي۔
+ماران چار سوڪران سي۔
+سوڪران چارئي اسڪُول زائي سي۔
+اِي الاهِي محنت ٿِي ڀڻي سي۔
+ايڪ واڄي گھِِري آوي سي۔
 ```
 
 ## Get involved!
