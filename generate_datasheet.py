@@ -329,18 +329,24 @@ def fill_demographic_data(
 
 
 def fill_scs_stats(template: CVDatasheet, data: dict, lang_code: str):
-    stats_section = "Corpus de texto" if lang_code == "es" else "Text corpus"
+    if lang_code == "es":
+        stats_section = "Corpus de texto"
+        stats_template = "El corpus textual contiene `{total_sents}` oraciones, de las cuales `{validated_sents}` están validadas, `{unvalidated_sents}` están invalidadas y `{reported_sents}` son reportadas."
+    elif lang_code == "en":
+        stats_section = "Text corpus"
+        stats_template = "The text corpus contains `{total_sents}` sentences, of which `{validated_sents}` are validated, `{unvalidated_sents}` are invalidated and `{reported_sents}` are reported."
 
-    # TODO: Localize this better
-    stats_content = f"* Reported sentences: `{data.get('reportedSentences')}`\n"
-    stats_content += f"* Validated sentences: `{data.get('validatedSentences')}`\n"
-    stats_content += f"* Unvalidated sentences: `{data.get('unvalidatedSentences')}`\n"
-    stats_content += f"* Clips: `{data.get('clips')}`\n"
-    stats_content += f"* Users: `{data.get('users')}`\n"
-    stats_content += f"* Avg duration: `{data.get('avgDurationSecs')}[s]`\n"
-    stats_content += f"* Valid duration: `{data.get('validDurationSecs')}[s]`\n"
-    stats_content += f"* Total hours: `{data.get('totalHrs')}`\n"
-    stats_content += f"* Valid hours: `{data.get('validHrs')}`\n"
+    validated_sents = data.get("validatedSentences")
+    unvalidated_sents = data.get("unvalidatedSentences")
+    total_sents = validated_sents + unvalidated_sents
+    reported_sents = data.get("reportedSentences")
+
+    stats_content = stats_template.format(
+        total_sents=total_sents,
+        validated_sents=validated_sents,
+        unvalidated_sents=unvalidated_sents,
+        reported_sents=reported_sents,
+    )
 
     template.append_content(stats_section, stats_content)
 
@@ -367,9 +373,10 @@ for modality in metadata:
             template = template_file.read()
         ds = CVDatasheet(template)
         fill_template_header(ds, locale, modality, metadata)
-        fill_contribute_links(ds, locale, lang_code)
         fill_community_links(ds, locale, modality, lang_code)
         if modality == "scs":
+            # Cotribute links with locale only for scripted mode
+            fill_contribute_links(ds, locale, lang_code)
             data = demographic_data.get(locale)
             if data:
                 fill_demographic_data(ds, data.get("splits"), lang_code)

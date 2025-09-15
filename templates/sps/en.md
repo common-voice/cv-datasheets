@@ -122,6 +122,11 @@ information.
 
 ### Contribute
 
+* [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Answer questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe recordings](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Validate transcriptions](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 

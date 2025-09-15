@@ -119,6 +119,12 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 
 ### Contribuir
 
+* [Contribuye con preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Valida preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Responde preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe grabaciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Valida transcripciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
+
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
 
