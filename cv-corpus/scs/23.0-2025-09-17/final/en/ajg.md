@@ -7,32 +7,27 @@ for Adja (`ajg`). The dataset contains **12 hours of recorded speech** (collecte
 
 Adja (Aja) is a Gbe language  spoken in Benin, Gabon, Ghana, Nigeria and Togo by 1M+ people. It is part of the Kwa branch of the Niger-Congo family. The language is used in daily communication, oral literature, and traditional expressions.
 
-### Variants
+<!-- ### Variants -->
 
-This dataset focuses on the standardized Aja variety as curated by AGOSSOU K., PhD, and Kansiwer, PhD, based on field research and literary sources. Regional phonetic and lexical variations are present but harmonized through community consensus.
+<!-- Original Answer: -->
+<!-- This dataset focuses on the standardized Aja variety as curated by AGOSSOU K., PhD, and Kansiwer, PhD, based on field research and literary sources. Regional phonetic and lexical variations are present but harmonized through community consensus. -->
 
----
+## Text corpus
 
-## Alphabet
-
-a, an, b, c, d, d, e, s, en, f, g, gb, y, h, hw, i, in, j, k, kp, I, m, n, ny, n, o, 5, on, p, r, s, sh, t, u, un, v, w, x, xw, y, z, 3
-
-
-### Accent
+### Writing system
 
 Aja is a **tonal language**, typically with **three level tones**:
 
 - High (´)  
 - Mid (unmarked)  
-- Low (`)  
-
-### Standardization
+- Low (`)
 
 The orthography used in this dataset aligns with conventions adopted by Aja linguists and educators, particularly those documented by **AGOSSOU Kogbédji Émile, PhD**, and **Kansiwer, PhD**. Minor regional variations are harmonized through community consensus.
 
----
 
-## Text corpus
+#### Symbol table
+
+```a an b c d d e s en f g gb y h hw i in j k kp I m n ny n o 5 on p r s sh t u un v w x xw y z 3```
 
 ### Sources
 
@@ -45,18 +40,7 @@ The orthography used in this dataset aligns with conventions adopted by Aja ling
 In addition, the dataset includes sentences from:
 
 * Common perceptions and everyday life expressions collected during fieldwork.  
-* Crowdsourced contributions supervised by the curators.  
-
----
-
-## Dataset demographics
-
-### Age statistics
-
-* **Forties**: 11,158 recordings  
-* **Twenties**: 6,365 recordings
-
----
+* Crowdsourced contributions supervised by the curators.
 
 ## Get involved!
 
@@ -73,7 +57,6 @@ To get more information about this dataset and find out how you can contribute, 
 * [Validate recordings](https://commonvoice.mozilla.org/ajg/listen)  
 * [Review sentences](https://commonvoice.mozilla.org/ajg/review)  
 
----
 
 ## Acknowledgements
 
@@ -85,17 +68,15 @@ To get more information about this dataset and find out how you can contribute, 
 
 ### Compiler
 
-* * **Justin Bakoubolo** – [justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org) — supervised the compilation of the dataset.
+* **Justin Bakoubolo** <[justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)> — supervised the compilation of the dataset.
 
 ### Contact
 
-* **Justin Bakoubolo** – [justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)
+* **Justin Bakoubolo** <[justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)>
 
 ### Funding
 
 This dataset was made possible by the **Open Multilingual Speech Fund**.
-
----
 
 ## Licence
 

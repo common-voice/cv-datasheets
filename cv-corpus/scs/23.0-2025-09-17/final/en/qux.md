@@ -96,17 +96,12 @@ Chay riñunpaqa papata yanusaykita chumaykushpam upyanki.
 Manam ñuqaqa almata qawanichu.
 Ima chumpi ñawichu, ima yana ñawichu.
 Chumpi ñawi alli allintachus qawan.
-
 ```
 
 ### Sources
 Sentences were written by Mr. Pedro Ricce
 
-### Recommended post-processing
 
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -117,11 +112,6 @@ Sentences were written by Mr. Pedro Ricce
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qux/common-voice/contributors/)
 
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 
@@ -149,7 +139,15 @@ We extend our gratitude to Mr. Oscar Chávez Gonzales of the Peruvian Ministry o
 If you use this dataset in your research, please cite the following publication:
 
 ```bibtex
-@article{Camacho_2024, title={Automating the Proposition of Neologisms for the Quechua Language}, volume={54}, DOI={10.1017/S0025100324000227}, number={3}, journal={Journal of the International Phonetic Association}, author={Camacho, Luis}, year={2024}, pages={922–938}}
+    @article{Camacho_2024, 
+    title   ={Automating the Proposition of Neologisms for the Quechua Language}, 
+    volume  ={54}, 
+    DOI     ={10.1017/S0025100324000227}, 
+    number  ={3}, 
+    journal ={Journal of the International Phonetic Association}, 
+    author  ={Camacho, Luis}, 
+    year    ={2024}, 
+    pages   ={922–938}}
 ```
 
 ### Funding

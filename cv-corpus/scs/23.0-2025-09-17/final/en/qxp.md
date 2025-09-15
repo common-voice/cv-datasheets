@@ -11,12 +11,6 @@ speech (9.2 hours validated) from 14 speakers.
 Puno Quechua, identified by the ISO 639-3: [qxp](https://iso639-3.sil.org/code/qxp), belongs to the Quechua II group. The [2017 National
 Census in Peru](https://www.gob.pe/en/535-check-results-of-the-2017-national-census) estimates approximately 474203 speaker of Puno Quechua, predominantly in the Puno region of Peru.
 
-### Variants 
-
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
@@ -64,12 +58,6 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 The writting system for the Puno Quechua language is not formaly described, however there are some resources that can be mentioned. Linguistic resources for Puno Quechua, as cataloged by Glottolog [puno1238](https://glottolog.org/resource/languoid/id/puno1238), are predominantly from the 1963–1993 period, with limited publications post-2005. These materials offer critical insights into the Puno Quechua language's grammatical framework. Like all Quechua languages, Puno Quechua forms words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
@@ -100,18 +88,6 @@ The domain of the sentences are under:
 - Agriculture and Food
 - Nature and Environment
 
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
 ## Get involved!
 
 ### Community links
@@ -121,12 +97,6 @@ The domain of the sentences are under:
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qxp/common-voice/contributors/)
 * [QuechuaBase telegram group](https://t.me/QuechuaBase)
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 

@@ -8,11 +8,6 @@ speech (11 hours validated) from 12 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 Quechua Yanahuanca, identified by the ISO 639-3: [qur](https://iso639-3.sil.org/code/qur), belongs to the Quechua I group. 
-### Variants 
-
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -61,12 +56,6 @@ On average, sentences consist of six words and contain a total of forty letters.
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 Quechua language is written in the Latin script. All Quechua dialects form words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus:
@@ -87,37 +76,9 @@ tumish manam tushuyta yachantsu.
 <!-- A list of sentence sources, can be curated to the top-N -->
 Sentences were written by Mrs. Mabel Amado
 
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
 
 ## Get involved!
 
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute voice recordings](https://commonvoice.mozilla.org/qur/speak)
