@@ -59,7 +59,7 @@ El sistema de escritura del idioma seri se desarrolló en la década de 1950 y s
 #### Tabla de símbolos
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPCIONAL @ -->
-a, aa, c, cö, e, ee, f, h, i, ii, j, jö, l, ḻ, m, n, o, oo, p, qu, r, s, t, x, xö, y, z 
+```a, aa, c, cö, e, ee, f, h, i, ii, j, jö, l, ḻ, m, n, o, oo, p, qu, r, s, t, x, xö, y, z```
 
 ### Muestra
 A continuación se muestran cinco oraciones seleccionadas aleatoriamente del corpus.
