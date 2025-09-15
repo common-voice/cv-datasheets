@@ -1,6 +1,6 @@
 # *Русский* &mdash; Russian (`ru`)
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Russian (`ru`). The dataset contains 1 hours of recorded
+for Russian (`ru`). The dataset contains 62 clips representing 1 hours of recorded
 speech (0 hours validated) from 2 speakers.
 
 ## Language
@@ -34,10 +34,11 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+## Data splits for modelling
+
 ## Transcriptions
 
 * Prompts: `47`
-* Clips: `62`
 * Duration: `1012968[ms]`
 * Avg. Transcription Len: `13`
 * Avg. Duration: `16.338193548387096[s]`
@@ -122,11 +123,11 @@ information.
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
-
-* [Speak](https://commonvoice.mozilla.org/ru/speak)
-* [Write](https://commonvoice.mozilla.org/ru/write)
-* [Listen](https://commonvoice.mozilla.org/ru/listen)
-* [Review](https://commonvoice.mozilla.org/ru/review)
+* [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Answer questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe recordings](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Validate transcriptions](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 

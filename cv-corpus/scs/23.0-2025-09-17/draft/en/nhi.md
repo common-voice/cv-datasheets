@@ -1,6 +1,6 @@
 # *[Western Sierra Puebla Nahuatl]* &mdash; Western Sierra Puebla Nahuatl (`nhi`)
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Western Sierra Puebla Nahuatl (`nhi`). The dataset contains 0.6 hours of recorded
+for Western Sierra Puebla Nahuatl (`nhi`). The dataset contains 427 clips representing 0.6 hours of recorded
 speech (0.1 hours validated) from 6 speakers.
 
 ## Language
@@ -17,15 +17,12 @@ The dataset includes the following distribution of age and gender.
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-| Gender | Frequency |
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
 |-|-|
-|  | 0.19 |
-| Male Masculine | 0.08 |
-| Female Feminine | 0.73 |
-| Transgender | 0 |
-| Non-Binary | 0 |
-| Do Not Wish To Say | 0 |
+| Undefined | 19.0% |
+| Male Masculine | 8.0% |
+| Female Feminine | 73.0% |
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -36,19 +33,12 @@ Self-declared gender information, frequency refers to the number of clips annota
 | female, feminine | ? | -->
 
 ### Age
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
-| Age Band | Frequency |
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
 |-|-|
-|  | 0.19 |
-| Twenties | 0.73 |
-| Thirties | 0.08 |
-| Teens | 0 |
-| Fourties | 0 |
-| Fifties | 0 |
-| Sixties | 0 |
-| Seventies | 0 |
-| Eighties | 0 |
-| Nineties | 0 |
+| Undefined | 19.0% |
+| Twenties | 73.0% |
+| Thirties | 8.0% |
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -61,18 +51,20 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+## Data splits for modelling
+
+The official data splits for modelling this language are as follows. Of the validated clips, 100.00% are included in the splits.
+
+ | Split | Count |
+|-|-|
+| Train | 24 |
+| Test | 6 |
+| Dev | 10 |
+
+
 ## Text corpus
 
-* Reported sentences: `0`
-* Validated sentences: `758`
-* Unvalidated sentences: `11`
-* Clips: `427`
-* Users: `6`
-* Avg duration: `5.081[s]`
-* Valid duration: `203.239[s]`
-* Total hours: `0.6`
-* Valid hours: `0.05`
-
+The text corpus contains `769` sentences, of which `758` are validated, `11` are invalidated and `0` are reported.
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
@@ -109,19 +101,7 @@ Nin se libro itoca mach "rana, can ticah?" quimotlahtlania se telpucatl.
 
 | Domain | Count |
 |-|-|
-|  | 427 |
-| Agriculture Food | 0 |
-| Automotive Transport | 0 |
-| Finance | 0 |
-| Service Retail | 0 |
-| General | 0 |
-| Healthcare | 0 |
-| History Law Government | 0 |
-| Language Fundamentals | 0 |
-| Media Entertainment | 0 |
-| Nature Environment | 0 |
-| News Current Affairs | 0 |
-| Technology Robotics | 0 |
+| Undefined | 427 |
 
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->

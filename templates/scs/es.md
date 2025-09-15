@@ -43,6 +43,9 @@ Información de edad autodeclarada, el porcentaje se refiere al número de clips
    ...si hay otros rangos de edad presentes en sus datos, añádalos como filas...
 -->
 
+## Partición de datos para modelado
+
+
 ## Corpus de texto
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->

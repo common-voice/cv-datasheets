@@ -1,6 +1,6 @@
 # *[Bahasa Malay]* &mdash; Bahasa Malay (`ms-MY`)
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Bahasa Malay (`ms-MY`). The dataset contains 7 hours of recorded
+for Bahasa Malay (`ms-MY`). The dataset contains 1144 clips representing 7 hours of recorded
 speech (6 hours validated) from 22 speakers.
 
 ## Language
@@ -34,10 +34,20 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+## Data splits for modelling
+
+
+
+ | Split | Count |
+|-|-|
+| Train | 546 |
+| Test | 291 |
+| Dev | 307 |
+
+
 ## Transcriptions
 
 * Prompts: `119`
-* Clips: `1144`
 * Duration: `22271760[ms]`
 * Avg. Transcription Len: `199`
 * Avg. Duration: `19.468321678321676[s]`
@@ -131,11 +141,11 @@ information.
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
-
-* [Speak](https://commonvoice.mozilla.org/ms-MY/speak)
-* [Write](https://commonvoice.mozilla.org/ms-MY/write)
-* [Listen](https://commonvoice.mozilla.org/ms-MY/listen)
-* [Review](https://commonvoice.mozilla.org/ms-MY/review)
+* [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Answer questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe recordings](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Validate transcriptions](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 

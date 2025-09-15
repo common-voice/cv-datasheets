@@ -17,6 +17,7 @@ ORIGINAL_PR_DATA_PATH = "metadata/language-requests.tsv"
 SPS_STATS_PATH = "metadata/sps-stats.json"
 # Non public data
 SCS_DEMOGRAPHIC_PATH = "metadata/cv-corpus-23.0-2025-09-05.json"
+SPS_REPORT_PATH = "metadata/sps_status_report.tsv"
 # Extracted using scripts/fetch_scs_sentences.py
 SCS_SENTENCES_PATH = "metadata/scs-sentences.json"
 
@@ -361,12 +362,40 @@ def fill_scs_samples(template: CVDatasheet, data: list[str], lang_code: str):
     template.append_content(samples_section, samples_content)
 
 
+def fill_data_splits(template: CVDatasheet, data: dict, modality: str, lang_code: str) -> None:
+    data_splits_content = ""
+
+    if lang_code == "es":
+        data_splits_section = "Partición de datos para modelado"
+        table_header = "| Partición | Cuenta |\n|-|-|"
+        if modality == "scs":
+            data_splits_template = "Las particiones de datos oficiales para el modelado de esta lengua son las siguientes. De los clips validados, {percent:.2f}% están incluidos en las particiones."
+    elif lang_code == "en":
+        data_splits_section = "Data splits for modelling"
+        table_header = "| Split | Count |\n|-|-|"
+        if modality == "scs":
+            data_splits_template = "The official data splits for modelling this language are as follows. Of the validated clips, {percent:.2f}% are included in the splits."
+
+    dev = data.get("dev")
+    train = data.get("train")
+    test = data.get("test")
+    if modality == "scs":
+        validated = data.get("validated")
+        percent = (test + dev + train) / validated * 100 if validated > 0 else 0
+        data_splits_content += data_splits_template.format(percent=percent)
+
+    table = make_table({"train": train, "test": test, "dev": dev}, table_header)
+    data_splits_content += f"\n\n {table}"
+    template.append_content(data_splits_section, data_splits_content)
+
+
 template_languages = get_template_languages_data(languages_file)
 metadata = get_metadata_data(metadata_file)
 # TODO: By now only for scripted dataheets
 demographic_data = read_json_file(SCS_DEMOGRAPHIC_PATH).get("locales")
 sps_stats_data = read_json_file(SPS_STATS_PATH)
 scs_sentences = read_json_file(SCS_SENTENCES_PATH)
+sps_report = read_tsv_file(SPS_REPORT_PATH)
 
 for modality in metadata:
     for locale in metadata[modality]:
@@ -384,11 +413,22 @@ for modality in metadata:
             if data:
                 fill_demographic_data(ds, data.get("splits"), lang_code)
                 fill_scs_stats(ds, data, lang_code)
+                fill_data_splits(ds, data.get("buckets"), modality, lang_code)
             sentences = scs_sentences.get(locale)
             fill_scs_samples(ds, sentences, lang_code)
             clips = data.get("clips", 0)
         elif modality == "sps":
             stats = sps_stats_data.get(locale)
+            splits = {}
+            for line in sps_report:
+                if line[0] == locale and int(line[2]) + int(line[3]) + int(line[4]) != 0:
+                    splits = {
+                        "train": int(line[2]),
+                        "test": int(line[4]),
+                        "dev": int(line[3])
+                    }
+            if splits:
+                fill_data_splits(ds, splits, modality, lang_code)
             if stats:
                 fill_sps_samples(ds, stats, lang_code)
                 fill_sps_stats(ds, stats, lang_code)

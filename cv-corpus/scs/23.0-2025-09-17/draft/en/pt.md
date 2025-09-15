@@ -1,6 +1,6 @@
 # *Português* &mdash; Portuguese (`pt`)
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Portuguese (`pt`). The dataset contains 230 hours of recorded
+for Portuguese (`pt`). The dataset contains 195889 clips representing 230 hours of recorded
 speech (181 hours validated) from 3801 speakers.
 
 ## Language
@@ -17,15 +17,12 @@ The dataset includes the following distribution of age and gender.
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-| Gender | Frequency |
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
 |-|-|
-|  | 0.26 |
-| Male Masculine | 0.68 |
-| Female Feminine | 0.06 |
-| Transgender | 0 |
-| Non-Binary | 0 |
-| Do Not Wish To Say | 0 |
+| Undefined | 26.0% |
+| Male Masculine | 68.0% |
+| Female Feminine | 6.0% |
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -36,19 +33,16 @@ Self-declared gender information, frequency refers to the number of clips annota
 | female, feminine | ? | -->
 
 ### Age
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
-| Age Band | Frequency |
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
 |-|-|
-|  | 0.24 |
-| Twenties | 0.36 |
-| Thirties | 0.18 |
-| Teens | 0.02 |
-| Fourties | 0.13 |
-| Fifties | 0.03 |
-| Sixties | 0.04 |
-| Seventies | 0 |
-| Eighties | 0 |
-| Nineties | 0 |
+| Undefined | 24.0% |
+| Twenties | 36.0% |
+| Thirties | 18.0% |
+| Teens | 2.0% |
+| Fourties | 13.0% |
+| Fifties | 3.0% |
+| Sixties | 4.0% |
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -61,18 +55,20 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+## Data splits for modelling
+
+The official data splits for modelling this language are as follows. Of the validated clips, 26.44% are included in the splits.
+
+ | Split | Count |
+|-|-|
+| Train | 22991 |
+| Test | 9653 |
+| Dev | 9653 |
+
+
 ## Text corpus
 
-* Reported sentences: `2850`
-* Validated sentences: `43533`
-* Unvalidated sentences: `147`
-* Clips: `195889`
-* Users: `3787`
-* Avg duration: `4.187[s]`
-* Valid duration: `669743.642[s]`
-* Total hours: `227.81`
-* Valid hours: `186.03`
-
+The text corpus contains `43680` sentences, of which `43533` are validated, `147` are invalidated and `2850` are reported.
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
@@ -109,7 +105,7 @@ A astronomia é um campo importante da ciência.
 
 | Domain | Count |
 |-|-|
-|  | 194189 |
+| Undefined | 194189 |
 | Agriculture Food | 121 |
 | Automotive Transport | 36 |
 | Finance | 26 |

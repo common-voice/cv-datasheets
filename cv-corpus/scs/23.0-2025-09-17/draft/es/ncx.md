@@ -1,6 +1,6 @@
 # *[Central Puebla Nahuatl]* &mdash; Central Puebla Nahuatl (ncx)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
-para Central Puebla Nahuatl (ncx). El conjunto de datos contiene 12 horas de grabaciones (11 horas
+para Central Puebla Nahuatl (ncx). El conjunto de datos contiene 9509 clips reprentando 12 horas de grabaciones (11 horas
 validadas) de 41 hablantes.
 
 ## Idioma
@@ -17,15 +17,12 @@ El conjunto de datos incluye la siguiente distribución de edad y género.
 <!-- puede obtener gran parte de la información en esta sección desde https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Género
-Información de género autodeclarada, frecuencia se refiere al número de clips anotados con este género.
-| Género | Frecuencia |
+Información de género autodeclarada, el porcentaje se refiere al número de clips anotados con este género.
+| Género | Porcentaje |
 |-|-|
-|  | 0.61 |
-| Male Masculine | 0.01 |
-| Female Feminine | 0.38 |
-| Transgender | 0 |
-| Non-Binary | 0 |
-| Do Not Wish To Say | 0 |
+| Undefined | 61.0% |
+| Male Masculine | 1.0% |
+| Female Feminine | 38.0% |
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
@@ -36,19 +33,13 @@ Información de género autodeclarada, frecuencia se refiere al número de clips
 | femenino            | ? | -->
 
 ### Edad
-Información de edad autodeclarada, frecuencia se refiere al número de clips anotados con este rango de edad.
-| Rango de edad | Frecuencia |
+Información de edad autodeclarada, el porcentaje se refiere al número de clips anotados con este rango de edad.
+| Rango de edad | Porcentaje |
 |-|-|
-|  | 0.04 |
-| Twenties | 0.15 |
-| Thirties | 0.63 |
-| Teens | 0 |
-| Fourties | 0.17 |
-| Fifties | 0 |
-| Sixties | 0 |
-| Seventies | 0 |
-| Eighties | 0 |
-| Nineties | 0 |
+| Undefined | 4.0% |
+| Twenties | 15.0% |
+| Thirties | 63.0% |
+| Fourties | 17.0% |
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
@@ -61,18 +52,20 @@ Información de edad autodeclarada, frecuencia se refiere al número de clips an
 | cincuentas    | ? |
    ...si hay otros rangos de edad presentes en sus datos, añádalos como filas... -->
 
+## Partición de datos para modelado
+
+Las particiones de datos oficiales para el modelado de esta lengua son las siguientes. De los clips validados, 12.08% están incluidos en las particiones.
+
+ | Partición | Cuenta |
+|-|-|
+| Train | 360 |
+| Test | 345 |
+| Dev | 339 |
+
+
 ## Corpus de texto
 
-* Reported sentences: `2`
-* Validated sentences: `1518`
-* Unvalidated sentences: `5`
-* Clips: `9509`
-* Users: `41`
-* Avg duration: `4.457[s]`
-* Valid duration: `38508.643[s]`
-* Total hours: `11.77`
-* Valid hours: `10.69`
-
+El corpus textual contiene `1523` oraciones, de las cuales `1518` están validadas, `5` están invalidadas y `2` son reportadas.
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Una descripción general del corpus de texto, con información como la longitud media (en caracteres y palabras) de las oraciones validadas. -->
@@ -109,19 +102,11 @@ Panpa ne amo nechyolkokoa nimotemakas mopatka.
 
 | Dominio | Cuenta |
 |-|-|
-|  | 2832 |
-| Agriculture Food | 0 |
-| Automotive Transport | 0 |
+| Undefined | 2832 |
 | Finance | 212 |
-| Service Retail | 0 |
-| General | 0 |
 | Healthcare | 212 |
-| History Law Government | 0 |
 | Language Fundamentals | 2047 |
 | Media Entertainment | 4700 |
-| Nature Environment | 0 |
-| News Current Affairs | 0 |
-| Technology Robotics | 0 |
 
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->

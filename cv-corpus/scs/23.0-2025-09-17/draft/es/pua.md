@@ -1,6 +1,6 @@
 # *[Western Highland Purepecha]* &mdash; Western Highland Purepecha (pua)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
-para Western Highland Purepecha (pua). El conjunto de datos contiene 12 horas de grabaciones (11 horas
+para Western Highland Purepecha (pua). El conjunto de datos contiene 8180 clips reprentando 12 horas de grabaciones (11 horas
 validadas) de 9 hablantes.
 
 ## Idioma
@@ -17,15 +17,11 @@ El conjunto de datos incluye la siguiente distribución de edad y género.
 <!-- puede obtener gran parte de la información en esta sección desde https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Género
-Información de género autodeclarada, frecuencia se refiere al número de clips anotados con este género.
-| Género | Frecuencia |
+Información de género autodeclarada, el porcentaje se refiere al número de clips anotados con este género.
+| Género | Porcentaje |
 |-|-|
-|  | 0.72 |
-| Male Masculine | 0 |
-| Female Feminine | 0.28 |
-| Transgender | 0 |
-| Non-Binary | 0 |
-| Do Not Wish To Say | 0 |
+| Undefined | 72.0% |
+| Female Feminine | 28.0% |
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
@@ -36,19 +32,12 @@ Información de género autodeclarada, frecuencia se refiere al número de clips
 | femenino            | ? | -->
 
 ### Edad
-Información de edad autodeclarada, frecuencia se refiere al número de clips anotados con este rango de edad.
-| Rango de edad | Frecuencia |
+Información de edad autodeclarada, el porcentaje se refiere al número de clips anotados con este rango de edad.
+| Rango de edad | Porcentaje |
 |-|-|
-|  | 0.14 |
-| Twenties | 0.55 |
-| Thirties | 0.31 |
-| Teens | 0 |
-| Fourties | 0 |
-| Fifties | 0 |
-| Sixties | 0 |
-| Seventies | 0 |
-| Eighties | 0 |
-| Nineties | 0 |
+| Undefined | 14.0% |
+| Twenties | 55.0% |
+| Thirties | 31.0% |
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
@@ -61,18 +50,20 @@ Información de edad autodeclarada, frecuencia se refiere al número de clips an
 | cincuentas    | ? |
    ...si hay otros rangos de edad presentes en sus datos, añádalos como filas... -->
 
+## Partición de datos para modelado
+
+Las particiones de datos oficiales para el modelado de esta lengua son las siguientes. De los clips validados, 29.13% están incluidos en las particiones.
+
+ | Partición | Cuenta |
+|-|-|
+| Train | 1153 |
+| Test | 547 |
+| Dev | 495 |
+
+
 ## Corpus de texto
 
-* Reported sentences: `1`
-* Validated sentences: `2201`
-* Unvalidated sentences: `-1`
-* Clips: `8180`
-* Users: `9`
-* Avg duration: `4.919[s]`
-* Valid duration: `37067.59[s]`
-* Total hours: `11.17`
-* Valid hours: `10.29`
-
+El corpus textual contiene `2200` oraciones, de las cuales `2201` están validadas, `-1` están invalidadas y `1` son reportadas.
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Una descripción general del corpus de texto, con información como la longitud media (en caracteres y palabras) de las oraciones validadas. -->
@@ -109,19 +100,7 @@ Xarhinichani kanekwa tsʼïrakwarhisïnti.
 
 | Dominio | Cuenta |
 |-|-|
-|  | 8180 |
-| Agriculture Food | 0 |
-| Automotive Transport | 0 |
-| Finance | 0 |
-| Service Retail | 0 |
-| General | 0 |
-| Healthcare | 0 |
-| History Law Government | 0 |
-| Language Fundamentals | 0 |
-| Media Entertainment | 0 |
-| Nature Environment | 0 |
-| News Current Affairs | 0 |
-| Technology Robotics | 0 |
+| Undefined | 8180 |
 
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->

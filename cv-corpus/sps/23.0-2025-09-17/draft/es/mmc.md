@@ -1,6 +1,6 @@
 # *Michoacán Mazahua* &mdash; Michoacán Mazahua (`mmc`)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
-para Michoacán Mazahua (`mmc`). El conjunto de datos contiene 12 horas de grabaciones 
+para Michoacán Mazahua (`mmc`). El conjunto de datos contiene 876 representando 12 horas de grabaciones 
 (12 horas validadas) de 12 hablantes.
 
 ## Idioma
@@ -34,10 +34,19 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 | cincuentas     | ? |
    ...si en tus datos aparecen otros rangos de edad, añade filas... -->
 
+## Partición de datos para modelado
+
+
+
+ | Partición | Cuenta |
+|-|-|
+| Train | 429 |
+| Dev | 270 |
+
+
 ## Transcripciones
 
 * Prompts: `195`
-* Clips: `876`
 * Duration: `40574520[ms]`
 * Avg. Transcription Len: `330`
 * Avg. Duration: `46.31794520547945[s]`
@@ -127,11 +136,11 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 <!-- Aquí se pueden incluir enlaces a discusiones, por ejemplo en Discourse u otros foros o blogs -->
 
 ### Contribuir
-
-* [Hablar](https://commonvoice.mozilla.org/mmc/speak)
-* [Escribir](https://commonvoice.mozilla.org/mmc/write)
-* [Escuchar](https://commonvoice.mozilla.org/mmc/listen)
-* [Revisar](https://commonvoice.mozilla.org/mmc/review)
+* [Contribuye con preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Valida preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Responde preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe grabaciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Valida transcripciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
 

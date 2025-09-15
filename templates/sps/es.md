@@ -44,6 +44,8 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
    ...si en tus datos aparecen otros rangos de edad, añade filas...
 -->
 
+## Partición de datos para modelado
+
 ## Transcripciones
 
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
