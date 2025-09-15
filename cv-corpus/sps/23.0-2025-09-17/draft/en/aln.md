@@ -126,7 +126,7 @@ There follows a randomly selected sample of transcribed responses from the corpu
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 * Antonios Dimakis <a.dimakis@athenarc.gr>
-* 
+
 ### Citation guidelines
 
 <!-- {{CITATION_DESCRIPTION}} -->
