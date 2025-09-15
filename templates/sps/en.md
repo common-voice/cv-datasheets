@@ -10,13 +10,19 @@ speech ({{HOURS_VALIDATED}} hours validated) from {{SPEAKERS}} speakers.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
+
+We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information
+is not available.
+
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
+
+<!--
 The dataset includes the following distribution of age and gender.
 
 ### Gender
 
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-
+-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- 
@@ -26,10 +32,11 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? |
 -->
+<!--
 ### Age
 
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
-
+-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- 
@@ -44,6 +51,8 @@ Self-declared age information, frequency refers to the number of clips annotated
 -->
 
 ## Data splits for modelling
+
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 
@@ -102,7 +111,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 * `split` - for data modelling, which subset of the data does this clip pertain to
 * `char_per_sec` - how many characters of transcription per second of audio
 * `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
-   *  `transcription-length` - character per second under 3 characters per second
+   * `transcription-length` - character per second under 3 characters per second
    * `speech-rate` - characters per second over 30 characters per second
    * `short-audio` - audio length under 2 seconds
    * `long-audio` - audio length over 30 seconds
@@ -131,13 +140,14 @@ information.
 
 ### Contribute
 
+<!-- {{CONTRIBUTE_LINKS_LIST}} -->
+<!-- Here you can include links for how to contribute to the dataset -->
+
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
 * [Answer questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
 * [Transcribe recordings](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
 * [Validate transcriptions](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
-<!-- {{CONTRIBUTE_LINKS_LIST}} -->
-<!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
 

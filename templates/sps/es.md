@@ -10,13 +10,18 @@ para {{ENGLISH_NAME}} (`{{LOCALE}}`). El conjunto de datos contiene {{CLIPS}} re
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->
 
 ## Información demográfica
+
+Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea 
+disponible en el próximo lanzamiento.
+
 <!-- Puedes obtener gran parte de la información de esta sección desde [https://analyzer.cv-toolbox.web.tr/browse](https://analyzer.cv-toolbox.web.tr/browse) -->
+<!--
 El conjunto de datos incluye la siguiente distribución de edad y género.
 
 ### Género
 
 Información de género autodeclarada; la frecuencia se refiere al número de fragmentos anotados con este género.
-
+-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -26,11 +31,11 @@ Información de género autodeclarada; la frecuencia se refiere al número de fr
 | no declarado        | ? |
 | femenino            | ? |
 -->
-
+<!--
 ### Edad
 
 Información de edad autodeclarada; la frecuencia se refiere al número de fragmentos anotados con esta franja etaria.
-
+-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -45,6 +50,8 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 -->
 
 ## Partición de datos para modelado
+
+<!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 
 ## Transcripciones
 
@@ -128,14 +135,14 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 
 ### Contribuir
 
+<!-- {{CONTRIBUTE_LINKS_LIST}} -->
+<!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
+
 * [Contribuye con preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Valida preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
 * [Responde preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
 * [Transcribe grabaciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
 * [Valida transcripciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
-
-<!-- {{CONTRIBUTE_LINKS_LIST}} -->
-<!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
 
 ## Agradecimientos
 
