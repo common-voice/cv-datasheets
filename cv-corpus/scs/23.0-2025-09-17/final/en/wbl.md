@@ -116,6 +116,14 @@ There are uncountable social media forums (FaceBook, YouTube channels, or Insta)
 * YouTube channel of Pamir Television
 
 http://www.fazalamin.com 
+ 
+
+### Discussions
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+
+
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
