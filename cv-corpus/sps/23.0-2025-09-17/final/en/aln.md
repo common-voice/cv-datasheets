@@ -1,4 +1,4 @@
-# *Gheg Albanian* &mdash; Gheg Albanian (`aln`)
+# *Gegnisht* &mdash; Gheg Albanian (`aln`)
 
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Gheg Albanian (`aln`). The dataset contains 11 hours of recorded
@@ -51,10 +51,10 @@ The transcription of the entire dataset was done by a single individual, using t
 
 In general, the standard Albanian writing system was used, with the following exceptions:
 
-* <Ε> was used in place of standard Albanian <ë> /ǝ/
-* <C> was used in place of standard Albanian <ç> /tš/
-* <gh> was used to represent /γ/
-* <hj> was used to represent /ç/
+* `<Ε>` was used in place of standard Albanian <ë> /ǝ/
+* `<C>` was used in place of standard Albanian <ç> /tš/
+* `<gh>` was used to represent /γ/
+* `<hj>` was used to represent /ç/
 
 ### Writing system
 
