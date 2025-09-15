@@ -69,7 +69,7 @@ During the period when there was no Kabardian keyboard option, the recorded text
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 **Main Alphabet:** (Ordered by ascending) <br>
-а э б в г {гу} {гъ} {гъу} д {дж} {дз} е ё ж {жь} з и й к {ку} {кӏ} {кӏу} {къ} {къу} {кхъ} {кхъу} л {лъ} {лӏ} м н о п {пӏ} р с т {тӏ} у ф {фӏ} х {ху} {хь} {хъ} {хъу} ц {цӏ} ч  ш щ {щӏ} ъ ы ь ю я ӏ {ӏу} 
+```а э б в г {гу} {гъ} {гъу} д {дж} {дз} е ё ж {жь} з и й к {ку} {кӏ} {кӏу} {къ} {къу} {кхъ} {кхъу} л {лъ} {лӏ} м н о п {пӏ} р с т {тӏ} у ф {фӏ} х {ху} {хь} {хъ} {хъу} ц {цӏ} ч  ш щ {щӏ} ъ ы ь ю я ӏ {ӏу} ```
 
 **Orthographic–Phonetic Table (IPA):** <br>
 
@@ -169,12 +169,6 @@ If you want to join kbd community, start here: https://bit.ly/cv_circassian_star
 You can find more information about how to participate in the Common Voice Project on the following page:  
 [Community Participation Guidelines](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)
 
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-Comming soon.
 
 ### Contribute
 
@@ -195,27 +189,21 @@ https://bit.ly/cv_circassian_start_here
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-Murat Topçu <murattopcu67@hotmail.com> <br>	
+* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
+* Murat Topçu <murattopcu67@hotmail.com> <br>	
 
 ### Dataset curators
 <!-- {{DATASET_CURATORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com>-->
-Murat Topçu <murattopcu67@hotmail.com> <br>	
-Elizaveta Gogunokova <br>
-Saida Abregova <br>
-M.Uğur Nemlioğlu <br>
+* Murat Topçu <murattopcu67@hotmail.com> <br>	
+* Elizaveta Gogunokova <br>
+* Saida Abregova <br>
+* M.Uğur Nemlioğlu <br>
 
 ### Advisors
 <!-- {{ADVISORS_LIST}} -->
 <!-- A list in the format of: Your Name-->
-Bülent Özden (Technical Advisor)<br>
-
-### Citation guidelines
-
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Bülent Özden (Technical Advisor)<br>
 
 ### Funding
 

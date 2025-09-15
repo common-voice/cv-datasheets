@@ -7,7 +7,7 @@ speech (10 hours validated) from 13 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Pasco Quechua, identified by the ISO 639-3: [qva](https://iso639-3.sil.org/code/qva), belongs to the Quechua I group. This quechua dialect is spoken at both sides of bordeline between Junín and [Pasco](https://peru.sil.org/es/lengua_cultura/familia_linguistica_quechua/quechua_ambo-pasco) regions 
+Pasco Quechua, identified by the ISO 639-3: [qva](https://iso639-3.sil.org/code/qva), belongs to the Quechua I group. This quechua dialect is spoken at both sides of bordeline between Junín and [Pasco](https://peru.sil.org/es/lengua_cultura/familia_linguistica_quechua/quechua_ambo-pasco) regions.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -95,17 +95,11 @@ Tirihu turuqsumantapas ichumantapas tuturamantapas awasqa
 Kaquqa llumpay arus mikusqa kaskitakuywan nanaq unquymi
 Kaspa sarapa muyuriqninpi wiñaq uchuy kaspa sarachakuna
 Sacha allpaman hapipakusqan hatun suytu llañu kaspikuna
-
 ```
 
 ### Sources
 Sentences were written by Mr. Pedro Ricce
 
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -115,12 +109,6 @@ Sentences were written by Mr. Pedro Ricce
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qva/common-voice/contributors/)
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 

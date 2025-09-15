@@ -9,12 +9,13 @@ speech (0.4 hours validated) from 25 speakers.
 
 Sindhi (سنڌي) is an Indo-Aryan language spoken mainly in Sindh, Pakistan, and also in India. It has millions of speakers, a rich literary history, and is written in both Perso-Arabic and Devanagari scripts.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-Sindhi has several dialects, including Siroli (spoken in upper Sindh), Lari (spoken in lower Sindh), Thari (spoken in Tharparkar), and Kutchi (spoken in Kutch, India). The standard variety is based on the central Sindh dialect.
+<!-- Original Answer: -->
+<!-- Sindhi has several dialects, including Siroli (spoken in upper Sindh), Lari (spoken in lower Sindh), Thari (spoken in Tharparkar), and Kutchi (spoken in Kutch, India). The standard variety is based on the central Sindh dialect. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +63,16 @@ The Sindhi corpus is written in the Perso-Arabic script, which is the standard s
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-The Sindhi Perso-Arabic script (used in newspapers) has 52 letters. Here is the full alphabet list separated by spaces:  ا ب ٻ ڀ پ ت ٿ ٽ ٺ ث ج جه ڄ چ ڇ ح خ د ڌ ڏ ڊ ڍ ذ ر ڙ ڍ ز س ش ص ض ط ظ ع غ ف ڦ ق ڪ گ ڳ گه ڱ ل ڻ ن ڃ م و ء ه ة ي ئ
+The Sindhi Perso-Arabic script (used in newspapers) has 52 letters. Here is the full alphabet list separated by spaces:
+```ا ب ٻ ڀ پ ت ٿ ٽ ٺ ث ج جه ڄ چ ڇ ح خ د ڌ ڏ ڊ ڍ ذ ر ڙ ڍ ز س ش ص ض ط ظ ع غ ف ڦ ق ڪ گ ڳ گه ڱ ل ڻ ن ڃ م و ء ه ة ي ئ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+
+```
 ڳوٺ محمد ابراهيم سومرو ۾ پورهيت چاڪر سومرو جي گهر کي باهه لڳي وئي عوامي تحريڪ ضلعي صدر ايڊووڪيٽ نياز بھراڻي  قتل ٿيل امجد علي لاشاري جي والد عرس لاشاري احتجاج ڪيو ايس ايس پي سنگهار ملڪ جي وڪيل جي پونيئرن سان تعزيت قوم سميت واٽر ڪارپوريشن جي سمورن آفيسرن ۽ ملازمن کي مبارڪون
-
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-
+```
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -99,21 +97,6 @@ It is recommended to clean the text for duplicate articles, normalize spellings,
 
 ## Get involved!
 
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-Currently, there are no dedicated community links. Users can connect through Mozilla’s open-source language community channels 
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-
-
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
@@ -127,21 +110,15 @@ Currently, there are no dedicated community links. Users can connect through Moz
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
+Common Voice Community
 
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-  
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
-This dataset was created with funding support from Mozilla. Special acknowledgments to Meesam Alam (Meesum.alam12@gmail.com) for contributions and support.
+This dataset was created with funding support from Mozilla. Special acknowledgments to Meesam Alam (meesum.alam12@gmail.com) for contributions and support.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

@@ -9,11 +9,6 @@ speech (11 hours validated) from 16 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 Loja Highland Kichwa, identified by the ISO 639-3: [qvj](https://iso639-3.sil.org/code/qvj), belongs to the Quechua II group. 
-### Variants 
-
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -60,13 +55,8 @@ The average length of sentences is 6 tokens (40 characters).
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 Quechua language is written in the Latin script. All Quechua dialects form words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 ### Sample
+<!-- {{SENTENCES_SAMPLE}} -->
 
 There follows a randomly selected sample of five sentences from the corpus:
 ```
@@ -75,10 +65,9 @@ Tikramuy kikinpa muskuypi
 Pawan ashtaka wayanaykuna tamia chayamuymanta
 Hatarishka wayrawan pillpintushna
 Hatarishka pillpintulaya kawsay yaya pachamamapi
-
 ```
 
-<!-- {{SENTENCES_SAMPLE}} -->
+
 
 ### Sources
 
@@ -87,37 +76,7 @@ Hatarishka pillpintulaya kawsay yaya pachamamapi
 <!-- A list of sentence sources, can be curated to the top-N -->
 Sentences were collected by Mr. Luis Córdova
 
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
 ## Get involved!
-
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute voice recordings](https://commonvoice.mozilla.org/qvj/speak)

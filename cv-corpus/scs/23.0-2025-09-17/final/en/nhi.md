@@ -19,12 +19,14 @@ The sentences in this corpus come from the `nhi` Universal Dependencies treebank
 from all three municipalities, and a set of dictionary-style example sentences written by a speaker from the 
 Tepetzintla municipality.
 
-### Variants 
+<!-- ### Variants -->
 
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-There are currently no variants defined for Western Sierra Puebla Nahuatl.
+
+<!-- Original Answer: -->
+<!-- There are currently no variants defined for Western Sierra Puebla Nahuatl. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -90,7 +92,7 @@ In most cases, Spanish loans, even those with Nahuatl morphology, are written in
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-`a b c ch cu d e f g h i j k l m n ñ o p qu r s t tl tz u v w x y`
+```a b c ch cu d e f g h i j k l m n ñ o p qu r s t tl tz u v w x y```
 
 Note that of the alphabet listed above, `b d f g j k ñ r v w` are used for loanwords and some proper names only.
 
@@ -113,7 +115,7 @@ Cualtzin uelic atzintlin
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-* [subset of UD corpus](https://github.com/UniversalDependencies/UD_Western_Sierra_Puebla_Nahuatl-ITML) (Public domain)
+* [Subset of UD corpus](https://github.com/UniversalDependencies/UD_Western_Sierra_Puebla_Nahuatl-ITML) (Public domain)
 * Individual sentences submitted by users through the Mozilla Common Voice interface (Public domain)
 
 ### Text domains
@@ -132,26 +134,8 @@ Cualtzin uelic atzintlin
 The original sentences from the UD treebank are written in varying orthographic norms. Prior to their inclusion into the Common Voice corpus,
 the orthgoraphy was converted to the SIL San Miguel Tenango orthography ("ilv") using a rule-based automatic converter from the [py-elotl Python package](https://aclanthology.org/2025.americasnlp-1.5/), followed by some manual verification.
 
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-None
 
 ## Get involved!
-
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 
@@ -170,18 +154,6 @@ None
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 * Robert A. Pugh <robertp@mozillafoundation.org>
-
-### Citation guidelines
-
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-### Funding
-
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
 
 ## Licence
 
