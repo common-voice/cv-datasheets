@@ -116,6 +116,13 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 * `age` - edad de los hablantes[^1]
 * `gender` - genero de los hablantes[^1]
 * `language` - nombre de la lengua
+* `split` - para el modelado de datos, indica a qué subconjunto de datos pertenece este clip
+* `char_per_sec` - cuántos caracteres de transcripción por segundo de audio.
+* `quality_tags` - una evaluación automatizada del par transcripción-audio, separadas por `|`
+   * `transcription-length` -  caracteres por segundo inferior a 3 caracteres por segundo
+   * `speech-rate` - tasa de caracteres por segundo superior a 30 caracteres por segundo
+   * `short-audio` - duración del audio inferior a 2 segundos
+   * `long-audio` - duración del audio superior a 30 segundos
 
 #### 
 [^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
