@@ -11,6 +11,7 @@ speech (11 hours validated) from 24 speakers.
 Eton is classified in the Administrative Atlas of Cameroon's Languages as a dialect of Beti-Fang, along with Mengisa, Ewondo, Bulu, Ntumu and others. [Ethnologue online](https://www.ethnologue.com/language/eto/) identifies Eton as a distinct language.
 
 ### Variants 
+The main contributor to this dataset has identified two varieties of Eton which he calls *Eton a Nke* and *Eton a Kwe*. He has declared that the collection of sentences used for read speech in this dataset represent the *Eton a Nke*v variety.
 
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
