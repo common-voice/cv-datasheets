@@ -9,12 +9,13 @@ speech (22 hours validated) from 20 speakers.
 
 Palula is an Indo-Aryan language, specifically a branch of the Dardic group, closely related to Shina. Palula is spoken in several regions of Chitral District, including Ashret, Biori, Kalkatak, and parts of Shishi Koh. Beyond Chitral, it is also spoken in Gumandan (Dir Kohistan) and Sao village in Kunar Province, Afghanistan. The estimated number of speakers ranges between 20,000 and 25,000.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-The dataset comprises a diverse range of linguistic and cultural materials collected from Palula-speaking communities, reflecting the richness of their oral and written traditions. These varieties include: Folk tales, traditional narratives passed down through generations. Cultural and experience stories narratives that document lived experience, seasonal practices, and social customs. Proverbs and Idiomatic Expressions in Palula with Urdu translation. Poetic Texts, Original and traditional poetry composed in Palula with Urdu translation. 
+<!-- Original Answer: -->
+<!-- The dataset comprises a diverse range of linguistic and cultural materials collected from Palula-speaking communities, reflecting the richness of their oral and written traditions. These varieties include: Folk tales, traditional narratives passed down through generations. Cultural and experience stories narratives that document lived experience, seasonal practices, and social customs. Proverbs and Idiomatic Expressions in Palula with Urdu translation. Poetic Texts, Original and traditional poetry composed in Palula with Urdu translation. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +63,29 @@ Palula orthography based on the Arabic writing system
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا ، ب ، پ ، ت ، ث، ٹ، ج، چ ،ڇ ،څ، ح ، خ، د ، ڈ ،ذ ، ر، ز، ژ، ڙ، س، ش، ݜ، ص، ض، ط، ظ، ع، غ، ف، ق، ک، گ، ل، م، ن، ں، ݨ، و، ہ،ھ،ء،ی،ے 
+```ا ب پ ت ث ٹ ج چ ڇ څ ح خ د ڈ ذ ر ز ژ ڙ س ش ݜ ص ض ط ظ ع غ ف ق ک گ ل م ن ں ݨ و ہ ھ ء ی ے ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-انی گھوݜٹہ کتی کمرے ہنہ؟ اندہ دُو کمرے آک بہ پراجمی دیرہ ہنوۡ۔ تھی انیۡ کُڈ خختمی دِتیۡ ہِنم کی بٹومی؟ انیوے بُٹھے خختم استعمال بھِلم ہِنم، بٹومی کڈ دتی ہِنیۡ۔  تھی گھوݜٹہ کتی جانہ ہِنہ؟  
+```
+انی گھوݜٹہ کتی کمرے ہنہ؟
+اندہ دُو کمرے آک بہ پراجمی دیرہ ہنوۡ۔
+تھی انیۡ کُڈ خختمی دِتیۡ ہِنم کی بٹومی؟
+انیوے بُٹھے خختم استعمال بھِلم ہِنم، بٹومی کڈ دتی ہِنیۡ۔
+تھی گھوݜٹہ کتی جانہ ہِنہ؟
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-- Palula Matli (Proverbs) – Author: Naseem Haider - Palula Textbook – Author:  Naseem Haider - Palula Gul-Dasta Ashaar (Poetry) – Author: Naseem Haider - Palula–Urdu–English Conversation Guide – Author: Naseem Haider - Palula Folk Tales – Author: Naseem Haider 
+* Palula Matli (Proverbs) – Author: Naseem Haider
+* Palula Textbook – Author:  Naseem Haider
+* Palula Gul-Dasta Ashaar (Poetry) – Author: Naseem Haider 
+* Palula–Urdu–English Conversation Guide – Author: Naseem Haider 
+* Palula Folk Tales – Author: Naseem Haider 
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -90,13 +101,6 @@ General, Agriculture and Food, Healthcare, History, Law and Governmant, Media an
 
 The process involved collecting texts, stories, and proverbs through community-based audio recordings. These recordings were transcribed, and selected sentences were curated for inclusion in the Common Voice dataset. The finalized dataset was then uploaded and subsequently recorded by multiple speakers. 
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-The datasets should be reachable to everyone for adding the sentences and uploading their recording. 
-
 ## Get involved!
 
 
@@ -105,20 +109,12 @@ The datasets should be reachable to everyone for adding the sentences and upload
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-https://www.palulacommunity.org  
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-https://www.palulacommunity.org  
+* [Palula Community Welfare Organization website](https://www.palulacommunity.org)
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-https://www.palulacommunity.org  
 
 ## Acknowledgements
 
@@ -127,13 +123,7 @@ https://www.palulacommunity.org
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Naseem Haider naseemhaider78@gmail.com   
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
+* Naseem Haider <naseemhaider78@gmail.com>
 
 
 ### Funding
@@ -141,7 +131,7 @@ Naseem Haider naseemhaider78@gmail.com
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
-Meesum Alam Meesum.alam12@gmail.com  
+Meesum Alam: meesum.alam12@gmail.com  
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

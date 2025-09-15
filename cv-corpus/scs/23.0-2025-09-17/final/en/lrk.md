@@ -7,14 +7,16 @@ speech (12 hours validated) from 20 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-Five lake Plus
+Loarki is spoken by around 520,000 people in Sindh in Pakistan and in Rajasthan in India.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-مارواڑی،سنسکرت،سندھی۔اردو
+<!-- Original Answer: -->
+<!-- مارواڑی،سنسکرت،سندھی۔اردو -->
+
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -48,7 +50,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-دو ھزار جملے لوھار کی زبان کے ھی اور کچھ گھریلو اور کہانیوں  والی ھی 
+<!-- دو ھزار جملے لوھار کی زبان کے ھی اور کچھ گھریلو اور کہانیوں  والی ھی -->
 
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
@@ -62,12 +64,14 @@ Latin Sindhi
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-اآب ٻ ڀ ت ٿ ٺ ث ٽ ج ڄ چ ڇ خ ح د ڌ ڏ ڊ ذ ر ڙ ز س ش ص ض ط ظ ع غ ف ڦ ڪ و ک ل م ن ڻ و ه ھ ي
+```اآب ٻ ڀ ت ٿ ٺ ث ٽ ج ڄ چ ڇ خ ح د ڌ ڏ ڊ ذ ر ڙ ز س ش ص ض ط ظ ع غ ف ڦ ڪ و ک ل م ن ڻ و ه ھ ي```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+```
 ھون لوھار ھون ماري ذات پتاڻي جي ھون بي روزگار ھون  ماري تين ٽاٻر ھي ماري ٻير گهر ۾ گهي ھي
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -83,42 +87,13 @@ Nand kishore
 
 General
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-Software 
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-No
 
 ## Get involved!
 
 
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-No
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-No
-
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
-
-No
 
 ## Acknowledgements
 
@@ -127,14 +102,8 @@ No
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-No
+Common Voice Community
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-No
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

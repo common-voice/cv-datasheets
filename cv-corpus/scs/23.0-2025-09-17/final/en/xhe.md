@@ -9,12 +9,6 @@ speech (11 hours validated) from 11 speakers.
 
 Khetrani also called Khetranki is an Indo-Aryan language spoken in northeast Balochistan province of Pakistan mainly in Barkhan district but also in neighbouring districts, it is spoken by the Khetran people. About 200,000 people speak it.
 
-### Variants
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-
-NA
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +56,15 @@ As the writing system of Khetrani language is Indo-Aryan (Indo-Arabic) similiar 
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا ب پ ت ٹ ث ج چ ح خ د ذ ڈ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ہ ء ی ے ٻ ڄ ڋ ڳ ݨ
+```ا ب پ ت ٹ ث ج چ ح خ د ذ ڈ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ہ ء ی ے ٻ ڄ ڋ ڳ ݨ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+```
 ظالم تا ہِک مُنشی ہا ظالم کم تا ٻُجھا ہِے ذال ہِک دُکان ݙے ڳئی ہِے کہ اَسے شیر ݙے ون٘ڄوں بیگھاوا آں ہِے
+```
 
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-NA
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -88,37 +78,16 @@ General, Language Fundamentals (e.g. Digits, Letters, Money)
 <!-- @ OPTIONAL @ -->
 <!-- How has the text data been processed -->
 
-To create the corpus the Khetrani native speakers generated the sentences by themselves .
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-NA
+To create the corpus the Khetrani native speakers generated the sentences by themselves.
 
 ## Get involved!
 
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-NA
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-NA
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-NA
+
 
 ## Acknowledgements
 
@@ -127,14 +96,10 @@ NA
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Muhammad Hussain <mhussainhassni1@gmail.com> Mubasher Kaleem <mubasherkaleem@gmail.com> Meesum Alam <Meesum.alam12@gmail.com>
+* Muhammad Hussain <mhussainhassni1@gmail.com>
+* Mubasher Kaleem <mubasherkaleem@gmail.com>
+* Meesum Alam <meesum.alam12@gmail.com>
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-NA
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
