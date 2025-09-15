@@ -162,7 +162,7 @@ Emmanuel Ngue Um <ngueum@gmail.com>, Thomas Eyoum Ndando <thomas.eyoum@ucac-icam
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 Ngué Um E, Ngo Tjomb EEC, Dibengue FL, Banum Manguele BM, Abo Djoulde B, Nyambe MA, Atangana Eloundou BM, Ngami Kamagoua JS, Mpouda Avom J, Nyobe Z, Eloundou Eyenga EG, Likwai AP (2025) Speech Technologies Datasets for African Under-Served Languages. Proceedings of the Eight Workshop on the Use of Computational Methods in the Study of Endangered Languages, edited by Lachler J, Agyapong G, Arppe A, Moeller S, Chaudhary A, Rijhwani S, Rosenblum D. [URL](https://aclanthology.org/2025.computel-main.pdf) 
-Association for Computational Linguistics (ACL), 
+Association for Computational Linguistics (ACL). 
 
 ### Funding
 
