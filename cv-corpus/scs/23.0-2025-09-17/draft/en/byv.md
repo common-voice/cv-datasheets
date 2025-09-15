@@ -127,7 +127,7 @@ https://commonvoice.mozilla.org/byv/
 
 ## Acknowledgements
 
-The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Medumba, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
 - Jeff Sterline Ngami Kamagoua
 - Minette Yimga Mbamen 
 
