@@ -126,7 +126,8 @@ There follows a randomly selected sample of five sentences from the corpus.
 https://commonvoice.mozilla.org/beb/
 
 ## Acknowledgements
-The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Bamvele, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+
 - Gisèle Magangtand Moandi épse Nkou Abina
 - Galbert Bissogo Ndong
 
