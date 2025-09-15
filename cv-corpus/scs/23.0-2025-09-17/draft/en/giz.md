@@ -9,6 +9,8 @@ speech (11 hours validated) from 32 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
+According to [Ethnologue online](https://www.ethnologue.com/language/gid/), Giziga is a stable indigenous language of Cameroon. It belongs to the Afro-Asiatic language family
+
 ### Variants 
 
 <!-- {{VARIANT_DESCRIPTION}} -->
@@ -60,6 +62,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The writing system used in the collection of sentence prompts is mostly based on Latin script with a few phonetic symbols such as ŋ, ɗ, and ɓ
 
 #### Symbol table
 
@@ -70,6 +73,12 @@ Self-declared age information, frequency refers to the number of clips annotated
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
+
+1. Lar mitirgeveɗ e naƞ ɗalak, amma ngwasay misi ti huruy o a wuɗam ɓi naha teʼe
+2. Sukuy taƞʼha anta zumam cawa ta
+3. I wuɗ i hiɗik mota ɓa ngi ru nga liʼi ati ngamaɗu hoy
+4. Kira vula vu ɗik da gwat ngi si tewle ta
+5. Akum nga gi dungur angi li papal 
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
@@ -118,10 +127,24 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 ## Acknowledgements
 
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Daniel Singaidi
+- Christiane Mandai Etono
+
+The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
+- Dr. Florus Landry Dibenge (Project Lead)
+- Eliette Emilie-Caroline Ngo Tjomb Assembe
+- Eric Koung
+- Blaise Mathieu Banum Manguele
+- Martial Brice Antangana Eloundou
+- Emmanuel Giovanni Eloundou Eyenga
+
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+
+Emmanuel Ngue Um <ngueum@gmail.com>, Daniel Singaidi <danielsingaidi10@gmail.com>, Christiane Mandai Etono <etonochristiane@gmail.com>
 
 ### Citation guidelines
 
@@ -134,6 +157,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
 
 ## Licence
 
