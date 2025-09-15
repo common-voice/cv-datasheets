@@ -1,7 +1,7 @@
 # *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} (`{{LOCALE}}`)
 
 This datasheet is for version {{VERSION}} of the the Mozilla Common Voice *Scripted Speech* dataset 
-for {{ENGLISH_NAME}} (`{{LOCALE}}`). The dataset contains {{HOURS_RECORDED}} hours of recorded
+for {{ENGLISH_NAME}} (`{{LOCALE}}`). The dataset contains {{CLIPS}} clips representing {{HOURS_RECORDED}} hours of recorded
 speech ({{HOURS_VALIDATED}} hours validated) from {{SPEAKERS}} speakers.
 
 ## Language
@@ -21,7 +21,7 @@ The dataset includes the following distribution of age and gender.
 
 ### Gender
 
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
 
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -34,7 +34,7 @@ Self-declared gender information, frequency refers to the number of clips annota
 -->
 ### Age
 
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
 
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
@@ -48,6 +48,8 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows...
 -->
+
+## Data splits for modelling
 
 ## Text corpus
 
@@ -96,6 +98,28 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
+
+### Fields
+
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `path` - relative path of the audio file
+* `text` - supposed transcription of the audio
+* `up_votes` - number of people who said audio matches the text
+* `down_votes` - number of people who said audio does not match text
+* `age` - age of the speaker[^1]
+* `gender` - gender of the speaker[^1]
+* `accent` - accent of the speaker[^1]
+* `segment` - if sentence belongs to a custom dataset segment, it will be listed here
+
+####
+
+[^1]: For a full list of age, gender, and accent options, see the
+[demograpics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
 
 ## Get involved!
 

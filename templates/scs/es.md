@@ -1,6 +1,6 @@
 # *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} ({{LOCALE}})
 Esta ficha técnica corresponde a la versión {{VERSION}} del conjunto de datos de voz guiada de Mozilla Common Voice 
-para {{ENGLISH_NAME}} ({{LOCALE}}). El conjunto de datos contiene {{HOURS_RECORDED}} horas de grabaciones ({{HOURS_VALIDATED}} horas
+para {{ENGLISH_NAME}} ({{LOCALE}}). El conjunto de datos contiene {{CLIPS}} clips reprentando {{HOURS_RECORDED}} horas de grabaciones ({{HOURS_VALIDATED}} horas
 validadas) de {{SPEAKERS}} hablantes.
 
 ## Idioma
@@ -17,7 +17,7 @@ validadas) de {{SPEAKERS}} hablantes.
 El conjunto de datos incluye la siguiente distribución de edad y género.
 
 ### Género
-Información de género autodeclarada, frecuencia se refiere al número de clips anotados con este género.
+Información de género autodeclarada, el porcentaje se refiere al número de clips anotados con este género.
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -29,7 +29,7 @@ Información de género autodeclarada, frecuencia se refiere al número de clips
 -->
 
 ### Edad
-Información de edad autodeclarada, frecuencia se refiere al número de clips anotados con este rango de edad.
+Información de edad autodeclarada, el porcentaje se refiere al número de clips anotados con este rango de edad.
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -42,6 +42,9 @@ Información de edad autodeclarada, frecuencia se refiere al número de clips an
 | cincuentas    | ? |
    ...si hay otros rangos de edad presentes en sus datos, añádalos como filas...
 -->
+
+## Partición de datos para modelado
+
 
 ## Corpus de texto
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
@@ -82,6 +85,24 @@ A continuación se muestran cinco oraciones seleccionadas aleatoriamente del cor
 <!-- @ OPCIONAL @ -->
 <!-- Qué debería hacerse antes de usar los datos, por ejemplo normalización de Unicode -->
 
+### Campos
+
+Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:
+
+* `client_id` - UUID hasheado de cierto usuario
+* `path` - ruta relativa al archivo de audio
+* `text` - presunta transcripción del audio
+* `up_votes` - número de personas que dijeron que el audio concordaba con el texto
+* `down_votes` - número de personas que dijeron que el audio no concordaba con el texto
+* `age` - edad de los hablantes[^1]
+* `gender` - genero de los hablantes[^1]
+* `accent` - acénto de los hablantes[^1]
+* `segment` - si la oración pertenece a una porción personalizada de un dataset, será listada aquí 
+
+####
+
+[^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
+
 ## ¡Involúcrate!
 
 ### Enlaces comunitarios
@@ -117,4 +138,3 @@ A continuación se muestran cinco oraciones seleccionadas aleatoriamente del cor
 ## Licencia
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
 usted acepta no determinar la identidad de los hablantes en el conjunto de datos.
-

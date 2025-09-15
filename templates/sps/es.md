@@ -1,7 +1,7 @@
 # *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} (`{{LOCALE}}`)
 
 Esta ficha técnica corresponde a la versión {{VERSION}} del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
-para {{ENGLISH_NAME}} (`{{LOCALE}}`). El conjunto de datos contiene {{HOURS_RECORDED}} horas de grabaciones 
+para {{ENGLISH_NAME}} (`{{LOCALE}}`). El conjunto de datos contiene {{CLIPS}} representando {{HOURS_RECORDED}} horas de grabaciones 
 ({{HOURS_VALIDATED}} horas validadas) de {{SPEAKERS}} hablantes.
 
 ## Idioma
@@ -44,6 +44,8 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
    ...si en tus datos aparecen otros rangos de edad, añade filas...
 -->
 
+## Partición de datos para modelado
+
 ## Transcripciones
 
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
@@ -83,6 +85,33 @@ A continuación se muestra una selección aleatoria de respuestas transcritas de
 <!-- @ OPCIONAL @ -->
 <!-- Qué deberían hacer los usuarios antes de emplear los datos, por ejemplo normalización Unicode o normalización de etiquetas extralingüísticas -->
 
+### Campos
+
+Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:
+
+* `client_id` - UUID hasheado de cierto usuario
+* `audio_id` - id numérico para archivo de audio
+* `audio_file` - nombre del archivo de audio
+* `duration_ms` - duración del audio en milisegundo
+* `prompt_id` - id numérico para el prompt
+* `prompt` - pregunta para el usuario
+* `transcription` - transcripción de la respuesta al audio
+* `votes` - número de personas quiene aprobaron cierta transcripción
+* `age` - edad de los hablantes[^1]
+* `gender` - genero de los hablantes[^1]
+* `language` - nombre de la lengua
+* `split` - para el modelado de datos, indica a qué subconjunto de datos pertenece este clip
+* `char_per_sec` - cuántos caracteres de transcripción por segundo de audio.
+* `quality_tags` - una evaluación automatizada del par transcripción-audio, separadas por `|`
+   * `transcription-length` -  caracteres por segundo inferior a 3 caracteres por segundo
+   * `speech-rate` - tasa de caracteres por segundo superior a 30 caracteres por segundo
+   * `short-audio` - duración del audio inferior a 2 segundos
+   * `long-audio` - duración del audio superior a 30 segundos
+
+####
+
+[^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.
+
 ## ¡Participa!
 
 ### Enlaces comunitarios
@@ -97,7 +126,13 @@ A continuación se muestra una selección aleatoria de respuestas transcritas de
 <!-- @ OPCIONAL @ -->
 <!-- Aquí se pueden incluir enlaces a discusiones, por ejemplo en Discourse u otros foros o blogs -->
 
-### Contribuye
+### Contribuir
+
+* [Contribuye con preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Valida preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Responde preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe grabaciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Valida transcripciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Aquí puedes incluir enlaces sobre cómo contribuir al conjunto de datos -->
