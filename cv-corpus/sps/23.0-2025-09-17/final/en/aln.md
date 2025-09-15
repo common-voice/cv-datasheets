@@ -51,10 +51,10 @@ The transcription of the entire dataset was done by a single individual, using t
 
 In general, the standard Albanian writing system was used, with the following exceptions:
 
-* <Ε> was used in place of standard Albanian <ë> /ǝ/
-* <C> was used in place of standard Albanian <ç> /tš/
-* <gh> was used to represent /γ/
-* <hj> was used to represent /ç/
+* `<Ε>` was used in place of standard Albanian <ë> /ǝ/
+* `<C>` was used in place of standard Albanian <ç> /tš/
+* `<gh>` was used to represent /γ/
+* `<hj>` was used to represent /ç/
 
 ### Writing system
 
