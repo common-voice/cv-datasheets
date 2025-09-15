@@ -8,6 +8,7 @@ speech (11 hours validated) from 46 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+According to [Ethnologue online](https://www.ethnologue.com/language/dag/), Dagbani is a stable indigenous language of Ghana. It belongs to the Niger-Congo language family.
 
 ### Variants 
 
@@ -60,6 +61,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The collection of sentence prompts used for read speech in the compilation of this dataset was scripted with in an alphabet that is mostly based on Latin characgers with some phonetic symbols such as ɣ, ʒ, ŋ, ɛ, and ɔ.
 
 #### Symbol table
 
@@ -70,7 +72,11 @@ Self-declared age information, frequency refers to the number of clips annotated
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus.
-
+1. A ni zaŋ paɣ’ so ti ma ni o be n san’ la 
+2. Saliya karibu dali nyɛla din mali di saha
+3. Ŋunkam mi ti mali di duno’ yɔriti, o bidibiga ŋun nyɛ biasani ni kpi
+4. O ŋmɛri bɔbili din nyaɣisira pari kom zuɣu o nyaaŋa
+5. zaŋ ʒim ve yi dunoya zuɣusahi mini dunopaɣira
 <!-- {{SENTENCES_SAMPLE}} -->
 
 ### Sources
@@ -115,25 +121,49 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+https://commonvoice.mozilla.org/dag/
 
 ## Acknowledgements
+
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Dagbani, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Osman Mohammed Nndow 
+- Hadja Natuusamata Abubakari
+
+
+The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
+- Eliette Emilie-Caroline Ngo Tjomb Assembe (Project Lead)
+- Dr. Florus Landry Dibenge
+- Blaise Mathieu Banoum Manguele
+- Blaise Abo Djoulde
+- Mathilde Nyambe A.
+- Brice Martial Atangana Eloundou
+- Jeff Sterling Ngami Kamagoua
+- José Mpuda Avom
+- Zacharie Nyobe
+- Emmanuel Giovanni Eloundou Eyenga
+- André Pascal Likwai
 
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
+Emmanuel Ngue Um <>, Osman Mohammed Nndow <mnindow@uds.edu.gh>, Hadja Natuusamata Abubakari <hadijaabubakari16@gmail.com>.
+
 ### Citation guidelines
 
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+Ngué Um E, Ngo Tjomb EEC, Dibengue FL, Banum Manguele BM, Abo Djoulde B, Nyambe MA, Atangana Eloundou BM, Ngami Kamagoua JS, Mpouda Avom J, Nyobe Z, Eloundou Eyenga EG, Likwai AP (2025) Speech Technologies Datasets for African Under-Served Languages. Proceedings of the Eight Workshop on the Use of Computational Methods in the Study of Endangered Languages, edited by Lachler J, Agyapong G, Arppe A, Moeller S, Chaudhary A, Rijhwani S, Rosenblum D. [URL](https://aclanthology.org/2025.computel-main.pdf) 
+Association for Computational Linguistics (ACL).
 
 ### Funding
 
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
 
 ## Licence
 
