@@ -122,6 +122,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+https://commonvoice.mozilla.org/fue/
 
 ## Acknowledgements
 
