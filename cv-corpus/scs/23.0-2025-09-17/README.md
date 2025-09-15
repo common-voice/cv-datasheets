@@ -9,15 +9,16 @@ are two sub-directories:
 Each directory contains subdirectories corresponding to the languages of the datasheets, e.g. `en/` for datasheets written in English. So for example, `final/en/nn-NO.md` is the Norwegian Nynorsk datasheet that has been finalised and is written in English.
 
 ## Status
-65 / 280
+
+99 / 288
 
 | Draft | Final |
 |-------|-------|
 | `ab` | - |
-| `abb` | - |
+| `abb` | ✔ |
 | `ady` | - |
 | `af` | - |
-| `ajg` | - |
+| `ajg` | ✔ |
 | `am` | - |
 | `an` | ✔ |
 | `ar` | - |
@@ -25,32 +26,33 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `ast` | - |
 | `az` | - |
 | `ba` | - |
-| `bag` | - |
+| `bag` | ✔ |
 | `bas` | ✔ |
-| `bax` | - |
-| `bba` | - |
-| `bbj` | - |
+| `bax` | ✔ |
+| `bba` | ✔ |
+| `bbj` | ✔ |
 | `bbl` | ✔ |
-| `bce` | - |
-| `bci` | - |
+| `bce` | ✔ |
+| `bci` | ✔ |
 | `be` | - |
-| `beb` | - |
-| `bfd` | - |
+| `beb` | ✔ |
+| `bfd` | ✔ |
 | `bft` | ✔ |
 | `bg` | - |
-| `bgp` | - |
-| `bkh` | - |
-| `bkm` | - |
+| `bgp` | ✔ |
+| `bkh` | ✔ |
+| `bkm` | ✔ |
 | `bn` | - |
-| `bnm` | - |
+| `bnm` | ✔ |
+| `bnn` | - |
 | `br` | - |
 | `brh` | ✔ |
-| `bri` | - |
+| `bri` | ✔ |
 | `bsh` | ✔ |
 | `bsk` | - |
 | `btv` | - |
-| `bum` | - |
-| `byv` | - |
+| `bum` | ✔ |
+| `byv` | ✔ |
 | `ca` | - |
 | `cjk` | - |
 | `ckb` | - |
@@ -62,16 +64,17 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `cv` | - |
 | `cy` | - |
 | `da` | - |
-| `dag` | - |
+| `dag` | ✔ |
 | `dar` | - |
 | `dav` | - |
 | `de` | - |
 | `dmk` | ✔ |
 | `dml` | ✔ |
-| `dua` | - |
+| `dru` | - |
+| `dua` | ✔ |
 | `dv` | - |
 | `dyu` | - |
-| `ebr` | - |
+| `ebr` | ✔ |
 | `eko` | - |
 | `el` | - |
 | `en` | - |
@@ -79,23 +82,23 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `es` | - |
 | `esu` | - |
 | `et` | - |
-| `eto` | - |
+| `eto` | ✔ |
 | `eu` | - |
-| `ewo` | - |
+| `ewo` | ✔ |
 | `fa` | - |
-| `fan` | - |
+| `fan` | ✔ |
 | `fi` | - |
-| `fmp` | - |
+| `fmp` | ✔ |
 | `fr` | - |
-| `fub` | - |
-| `fue` | - |
+| `fub` | ✔ |
+| `fue` | ✔ |
 | `fy-NL` | - |
 | `ga-IE` | - |
-| `gej` | - |
+| `gej` | ✔ |
 | `ggg` | - |
-| `gid` | - |
+| `gid` | ✔ |
 | `gig` | ✔ |
-| `giz` | - |
+| `giz` | ✔ |
 | `gjk` | ✔ |
 | `gju` | ✔ |
 | `gl` | - |
@@ -103,7 +106,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `gsw` | - |
 | `gv` | - |
 | `gwc` | - |
-| `gwt` | ✔ |
+| `gwt` | - |
 | `gya` | - |
 | `ha` | - |
 | `haz` | ✔ |
@@ -117,7 +120,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `hux` | ✔ |
 | `hy-AM` | - |
 | `ia` | - |
-| `ibb` | - |
+| `ibb` | ✔ |
 | `id` | - |
 | `ig` | - |
 | `ipk` | - |
@@ -129,7 +132,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `ka` | - |
 | `kab` | - |
 | `kbd` | - |
-| `kdh` | - |
+| `kdh` | ✔ |
 | `khw` | ✔ |
 | `kk` | - |
 | `kln` | - |
@@ -151,7 +154,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `lua` | - |
 | `luo` | - |
 | `lv` | - |
-| `mau` | - |
+| `mau` | ✔ |
 | `mbo` | - |
 | `mcf` | ✔ |
 | `mcn` | - |
@@ -176,6 +179,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `mvy` | ✔ |
 | `mxu` | - |
 | `myv` | - |
+| `nan-tw` | - |
 | `nb-NO` | - |
 | `ncx` | ✔ |
 | `ne-NP` | - |
@@ -184,7 +188,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `nla` | - |
 | `nlv` | ✔ |
 | `nmg` | - |
-| `nmz` | - |
+| `nmz` | ✔ |
 | `nn-NO` | ✔ |
 | `nnh` | - |
 | `nr` | - |
@@ -196,7 +200,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `oru` | - |
 | `os` | - |
 | `pa-IN` | - |
-| `pcm` | - |
+| `pcm` | ✔ |
 | `phl` | ✔ |
 | `phr` | ✔ |
 | `pl` | - |
@@ -205,6 +209,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `ps` | - |
 | `pt` | - |
 | `pua` | - |
+| `pwn` | - |
 | `qup` | ✔ |
 | `qur` | ✔ |
 | `qus` | ✔ |
@@ -246,8 +251,10 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `sv-SE` | - |
 | `sva` | - |
 | `sw` | - |
+| `szy` | - |
 | `ta` | - |
 | `tar` | ✔ |
+| `tay` | - |
 | `te` | - |
 | `tg` | - |
 | `th` | - |
@@ -257,7 +264,8 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `tli` | - |
 | `tn` | - |
 | `tok` | - |
-| `tr` | - |
+| `tr` | ✔ |
+| `trv` | - |
 | `trw` | ✔ |
 | `ts` | - |
 | `tt` | - |
@@ -290,6 +298,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `zgh` | - |
 | `zh-CN` | - |
 | `zh-HK` | - |
+| `zh-TW` | - |
 | `zoc` | ✔ |
 | `zu` | - |
 | `zza` | - |
