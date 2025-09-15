@@ -133,7 +133,7 @@ https://commonvoice.mozilla.org/bbj/
 
 ## Acknowledgements
 
-The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in September-October 2024. Two main contributors were involved in the localization of the MCV interface for Ghomala, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
 - Norine Andreas Kenge Defo
 - Paulin Noel Deffo Fogem
 
