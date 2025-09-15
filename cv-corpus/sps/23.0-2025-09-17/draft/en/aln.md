@@ -6,8 +6,7 @@ speech (11 hours validated) from 14 speakers.
 
 ## Language
 
-<!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
+Gheg Albanian (/ɡɛɡ/) is an Albanian dialect group spoken in northern and central Albania, Kosovo, northwestern North Macedonia, southeastern Montenegro, southern Serbia and southwestern Croatia. Identified by the ISO 639-3 code aln, it belongs to the Indo-European language family. There are estimated to be around four million speakers. There is no widely accepted writing system.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -68,7 +67,11 @@ Self-declared age information, frequency refers to the number of clips annotated
 
 There follows a randomly selected sample of transcribed responses from the corpus.
 
-<!-- {{QUESTIONS_SAMPLE}} -->
+```
+Çar shifni ju n’ televizor?
+Çar lloj lojrash ju pëlqejshin me lujt kalamajve kur ishin t’ vegjël?
+Kur ke marr telefon për her t’ par?
+```
 
 #### Responses
 
@@ -100,6 +103,11 @@ There follows a randomly selected sample of transcribed responses from the corpu
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+* [Contribute Questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Validate Questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Answer Spontaneous Questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe Recordings](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Validate Transcriptions](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 
 ## Acknowledgements
 
@@ -107,6 +115,7 @@ There follows a randomly selected sample of transcribed responses from the corpu
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+* Antonios Dimakis <a.dimakis@athenarc.gr>
 
 ### Citation guidelines
 
