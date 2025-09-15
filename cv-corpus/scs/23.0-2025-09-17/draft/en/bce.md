@@ -127,7 +127,7 @@ https://commonvoice.mozilla.org/bce/
 
 ## Acknowledgements
 
-The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Mengambo, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
 - Jean-Claude Moutieu
 - Geneviève Mouokat
 - Augustin Tagem
