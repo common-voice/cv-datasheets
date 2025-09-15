@@ -62,8 +62,7 @@ Arabi parssion keyboard
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-آ ا ب ٻ ڀ ت ٿ ٽ ٺ پ ج  ڄ  ج ھ ڃ چ ڇ ڌ ۮ ڏ ڍ ر ۯ ڙ ز س ش  ڦ  ڪ ک گ ڳ  گھ ل م ن ڻ و ھ ء ي ی
-
+```آ ا ب ٻ ڀ ت ٿ ٽ ٺ پ ج  ڄ  ج ھ ڃ چ ڇ ڌ ۮ ڏ ڍ ر ۯ ڙ ز س ش  ڦ  ڪ ک گ ڳ  گھ ل م ن ڻ و ھ ء ي ی```
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
