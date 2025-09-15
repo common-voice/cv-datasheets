@@ -4,24 +4,25 @@ for Wadiyara Koli (`kxp`). The dataset contains 12 hours of recorded
 speech (12 hours validated) from 22 speakers.
 
 ## Language
+The Thradhri language is speaking in various Sindh Pakistan, total 1.1 million people's who speak the Thradhri language. It is from Thraad province of India.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-
-The Thradhri language is speaking in various Sindh Pakistan, total 1.1 million people's who speak the Thradhri language. It is from Thraad province of India. 
-
 <!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-
 <!-- Original Answer: -->
 <!-- Parkari, Dhatti, Gujarati, Wadiyaari and marwari -->
 
 ## Demographic information
-<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
+|-|-|
+| Undefined | 100.0% |
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -29,9 +30,16 @@ The dataset includes the following distribution of age and gender.
 | male, masculine | ? |
 | undeclared | ? |
 | female, feminine | ? | -->
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
 
 ### Age
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
+|-|-|
+| Undefined | 1.0% |
+| Twenties | 28.0% |
+| Thirties | 53.0% |
+| Teens | 1.0% |
+| Fourties | 18.0% |
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -42,29 +50,26 @@ Self-declared gender information, frequency refers to the number of clips annota
 | fourties | ? |
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
 
 ## Text corpus
+MLE writer workshop
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-MLE writer workshop 
-
 ### Writing system
+Arabi parssion keyboard
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-Arabi parssion keyboard 
-
 #### Symbol table
+```آ ا ب ٻ ڀ ت ٿ ٽ ٺ پ ج  ڄ  ج ھ ڃ چ ڇ ڌ ۮ ڏ ڍ ر ۯ ڙ ز س ش  ڦ  ڪ ک گ ڳ  گھ ل م ن ڻ و ھ ء ي ی```
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-```آ ا ب ٻ ڀ ت ٿ ٽ ٺ پ ج  ڄ  ج ھ ڃ چ ڇ ڌ ۮ ڏ ڍ ر ۯ ڙ ز س ش  ڦ  ڪ ک گ ڳ  گھ ل م ن ڻ و ھ ء ي ی```
+
 ### Sample
-<!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
 ```
 1. My name is Nanjit 
@@ -74,31 +79,38 @@ There follows a randomly selected sample of five sentences from the corpus.
 5. My chil
 ```
 
+*Automatic random samples*
+
+```
+ما الاهي برادشت ڪري سي
+پريم هپ ٿِي ري سي
+وٽُوئو ڀيۯو راکي سي
+ڪي آپڻي واڙي مان هروز سوري ٿائي سي
+اي ڳام مان ايڪ پٽيل هتو
+```
+<!-- {{SENTENCES_SAMPLE}} -->
+
 ## Get involved!
 
+### Community links
+* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/kxp/common-voice/contributors/)
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-
-
 ## Acknowledgements
 
-
 ### Datasheet authors
+Common Voice Community
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Common Voice Community
-
-
 ### Funding
+Last funding through common voice. Meesum.alam
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-
-Last funding through common voice. Meesum.alam
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

@@ -93,6 +93,16 @@ Paqarimusqanchikmantam wañunanchikkama yachanchik.
 Kaymi huknin miski imakunamanta.
 Gloria patachallapi.
 ```
+
+*Automatic random samples*
+
+```
+Iskaynin churikunam qullqisapakunayarunku.
+Soltero vidachallayta suwarquwasqanki.
+Paqarimusqanchikmantam wañunanchikkama yachanchik.
+Kaymi huknin miski imakunamanta.
+Gloria patachallapi.
+```
 <!-- {{SENTENCES_SAMPLE}} -->
 
 ### Sources
