@@ -1,74 +1,69 @@
 # *[Jaqaru]* &mdash; Jaqaru (`jqr`)
-
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Jaqaru (`jqr`). The dataset contains 11 hours of recorded
 speech (10 hours validated) from 12 speakers.
 
 ## Language
-
+The [Jaqaru](https://bdpi.cultura.gob.pe/lenguas/jaqaru) language is characterized phonologically by possessing a series of aspirated co-articulated stop and affricate consonants, and by the presence of long vowels in some roots. Morphologically, it is an agglutinative language with extensive use of suffixes.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-The [Jaqaru](https://bdpi.cultura.gob.pe/lenguas/jaqaru) language is characterized phonologically by possessing a series of aspirated co-articulated stop and affricate consonants, and by the presence of long vowels in some roots. Morphologically, it is an agglutinative language with extensive use of suffixes.
-
-
 <!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-
 <!-- Original Answer: -->
 <!-- Jaqaru belongs to the Aru family -->
 
 ## Demographic information
-<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
-
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
+|-|-|
+| Undefined | 48.0% |
+| Female Feminine | 52.0% |
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
-<!-- 
-| Gender | Frequency |
+<!-- | Gender | Frequency |
 |--------|-----------|
 | male, masculine | ? |
 | undeclared | ? |
-| female, feminine | ? |
--->
+| female, feminine | ? | -->
+
 ### Age
-
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
-
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
+|-|-|
+| Undefined | 23.0% |
+| Fourties | 60.0% |
+| Fifties | 16.0% |
+| Sixties | 1.0% |
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
-<!-- 
-| Age band | Frequency |
+<!-- | Age band | Frequency |
 |----------|-----------|
 | teens | ? |
 | twenties | ? |
 | thirties | ? |
 | fourties | ? |
 | fifties | ? |
-   ...if other age ranges are present in your data, add rows...
--->
+   ...if other age ranges are present in your data, add rows... -->
 
 ## Text corpus
-
+On average, each sentence is composed by six words, sixty letters
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
-On average, each sentence is composed by six words, sixty letters
 
 ### Writing system
-
+For the Jaqaru language, an official alphabet of 39 graphemes was established by Executive Order No. 303-2015-MINEDU issued by Peruvian Ministry of Education on June 12, 2015.
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
-For the Jaqaru language, an official alphabet of 39 graphemes was established by Executive Order No. 303-2015-MINEDU issued by Peruvian Ministry of Education on June 12, 2015.
 
 ### Sample
-
 There follows a randomly selected sample of five sentences from the corpus:
 ```
 Kacxan qaqcxawkiwa, ajtz' jakshinwa tz'uknushu
@@ -78,16 +73,27 @@ Qamish qillqas mushkutna, ishaw jicx'k"anushutxi, qajcxnushutxi, shumayw qillqas
 Punan yatxutaq antz jayankiwa: qayllkunaq apsap" apsap" wasanw shaykutsan yatxutar purki.
 ```
 
+*Automatic random samples*
+
+```
+Apkaq may janq' pañul wayta wayt wurtawi
+"Punan yatxutaq antz jayankiwa: qayllkunaq apsap"" apsap"" wasanw shaykutsan yatxutar purki."
+Isiduraq lluq'in niwnir nawptawi
+"Tatanhq yatxutat"" nurnushunht"" yanhishkutu. "
+Jinch us ustatktna ish qamshishisna
+```
 <!-- {{SENTENCES_SAMPLE}} -->
 
 ### Sources
-
+Sentences were written by Mrs. Neli Belleza
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
-Sentences were written by Mrs. Neli Belleza
 
 ## Get involved!
+
+### Community links
+* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/jqr/common-voice/contributors/)
 
 ### Contribute
 * [Contribute voice recordings](https://commonvoice.mozilla.org/jqr/speak)
@@ -99,18 +105,11 @@ Sentences were written by Mrs. Neli Belleza
 We extend our gratitude to Mr. Oscar Chávez Gonzales of the Peruvian Ministry of Education for providing invaluable information.
 
 ### Datasheet authors
-
+* Luis Camacho <camacho.l@pucp.pe>
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-* Luis Camacho <camacho.l@pucp.pe>
 
 ### Citation guidelines
-
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-<!-- Submitted to SIMBig 2025 (Needs confirmation).-->
-
 If you use this dataset in your research, please cite the following publication:
 
 ```bibtex
@@ -123,16 +122,17 @@ If you use this dataset in your research, please cite the following publication:
     year    ={2024}, 
     pages   ={922–938}} 
 ```
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+<!-- Submitted to SIMBig 2025 (Needs confirmation). -->
 
 ### Funding
-
+This dataset was funded by the Mozilla Foundation Open Multilingual Speech Fund.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-This dataset was funded by the Mozilla Foundation Open Multilingual Speech Fund.
 
 ## Licence
-
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
 you agree to not determine the identity of speakers in the dataset.
-

@@ -4,24 +4,26 @@ for Kachhi (`gjk`). The dataset contains 12 hours of recorded
 speech (11 hours validated) from 22 speakers.
 
 ## Language
+Our language is called Kachhi Gujarati. It is mostly spoken in the Sindh province. There are about 200,000 speakers of this language. It is written in the Arabic Persian script in Sindh province.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-
- Our language is called Kachhi Gujarati. It is mostly spoken in the Sindh province. There are about 200,000 speakers of this language. It is written in the Arabic Persian script in Sindh province.
-
 <!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-
 <!-- Original Answer: -->
 <!-- there are no varieties in Sindh specially in our community speakers. -->
 
 ## Demographic information
-<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
+|-|-|
+| Undefined | 74.0% |
+| Female Feminine | 26.0% |
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -29,9 +31,16 @@ The dataset includes the following distribution of age and gender.
 | male, masculine | ? |
 | undeclared | ? |
 | female, feminine | ? | -->
-Self-declared gender information, frequency refers to the number of clips annotated with this gender.
 
 ### Age
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
+|-|-|
+| Undefined | 2.0% |
+| Twenties | 12.0% |
+| Thirties | 59.0% |
+| Teens | 4.0% |
+| Fourties | 23.0% |
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -42,31 +51,26 @@ Self-declared gender information, frequency refers to the number of clips annota
 | fourties | ? |
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
-Self-declared age information, frequency refers to the number of clips annotated with this age band.
 
 ## Text corpus
+We have written the entire text of the corpus, and there are approximately 2000 sentences in it.
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-We have written the entire text of the corpus, and there are approximately 2000 sentences in it.
-
 ### Writing system
+Arabic Persian script
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-Arabic Persian script
-
 #### Symbol table
+```آ ا ٻ ڀ ت ٿ ٽ ٺ پ چ ڇ ڄ ڃ جھ ۮ ڌ ڏ ڍ ر ڙز س ش ڦ ڪ ک ڳ گھ ل م ن ڻ و ھ ۿ ء  ي```
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-```آ ا ٻ ڀ ت ٿ ٽ ٺ پ چ ڇ ڄ ڃ جھ ۮ ڌ ڏ ڍ ر ڙز س ش ڦ ڪ ک ڳ گھ ل م ن ڻ و ھ ۿ ء  ي```
-
 ### Sample
-<!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
 ```
 ڪڇِي ماڻۿان نا ٻارا واتون۔
@@ -76,16 +80,27 @@ There follows a randomly selected sample of five sentences from the corpus.
 لاڏا نان ڌوران لوُڳڙان شيوڙاويَ سي۔
 ```
 
+*Automatic random samples*
+
+```
+لاڏو لاڏِي ڳرا مان هانۿڻِي پيريَ سي۔
+زين زوئان ھوئي سي اِي آوي سي
+ايوي نموني ٿي اِي مٽڪي ڦوڙيا واري رمچ رمي سي۔
+پاڙوا ني ۮي گھر نان ماڻۿان پوتا مان مِلي سي۔
+اڳيَ ويوا نا ٻارا مان ماوتر ڦينصلو ڪرتان ڪي چان ۿٻڪڻ ۿانڌو ڪروو سي۔
+```
+<!-- {{SENTENCES_SAMPLE}} -->
+
 ### Text domains
+General
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What text domains are represented in the corpus? -->
 
-General
-
-
 ## Get involved!
 
+### Community links
+* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/gjk/common-voice/contributors/)
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
@@ -93,20 +108,16 @@ General
 
 ## Acknowledgements
 
-
 ### Datasheet authors
+Common Voice Community
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Common Voice Community
-
-
 ### Funding
+Yes, we have received from Mozilla foundation via Meesum Alam
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-
-Yes, we have received from Mozilla foundation via Meesum Alam
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

@@ -1,7 +1,9 @@
-# *_* &mdash; Huautla Mazatec (mau)
-Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
-para Huautla Mazatec (mau). El conjunto de datos contiene 11 horas de grabaciones (11 horas
-validadas) de 7 hablantes.
+# *_* &mdash; Tepeuxila Cuicatec (cux)
+> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
+
+ Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
+para Tepeuxila Cuicatec (cux). El conjunto de datos contiene 11 horas de grabaciones (11 horas
+validadas) de 11 hablantes.
 
 ## Idioma
 <!-- {{LANGUAGE_DESCRIPTION}} -->
@@ -13,35 +15,31 @@ validadas) de 7 hablantes.
 <!-- Describa las variantes (variantes MCV) de su idioma -->
 
 ## Información demográfica
-<!--puede obtener gran parte de la información en esta sección desde https://analyzer.cv-toolbox.web.tr/browse -->
 El conjunto de datos incluye la siguiente distribución de edad y género.
+<!-- puede obtener gran parte de la información en esta sección desde https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Género
 Información de género autodeclarada, frecuencia se refiere al número de clips anotados con este género.
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
-<!-- 
-| Género              | Frecuencia |
+<!-- | Género              | Frecuencia |
 |---------------------|------------|
 | masculino           | ? |
 | no declarado        | ? |
-| femenino            | ? |
--->
+| femenino            | ? | -->
 
 ### Edad
 Información de edad autodeclarada, frecuencia se refiere al número de clips anotados con este rango de edad.
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
-<!-- 
-| Rango de edad | Frecuencia |
+<!-- | Rango de edad | Frecuencia |
 |---------------|------------|
 | adolescentes  | ? |
 | veintes       | ? |
 | treintas      | ? |
 | cuarentas     | ? |
 | cincuentas    | ? |
-   ...si hay otros rangos de edad presentes en sus datos, añádalos como filas...
--->
+   ...si hay otros rangos de edad presentes en sus datos, añádalos como filas... -->
 
 ## Corpus de texto
 <!-- {{TEXT_CORPUS_DESCRIPTION}} -->
@@ -117,5 +115,3 @@ A continuación se muestran cinco oraciones seleccionadas aleatoriamente del cor
 ## Licencia
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
 usted acepta no determinar la identidad de los hablantes en el conjunto de datos.
-
-
