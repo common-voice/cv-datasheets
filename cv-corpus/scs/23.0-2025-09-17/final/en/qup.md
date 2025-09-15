@@ -54,7 +54,7 @@ The average length of sentences is 6 tokens (40 characters).
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 Quechua language is written in the Latin script. All Quechua dialects form words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
-### Samples
+### Sample
 There follows a randomly selected sample of five sentences from the corpus:
 ```
 Shuk sisakuna tutayahushpan taparinahun pakarihushpan paskarinahun.

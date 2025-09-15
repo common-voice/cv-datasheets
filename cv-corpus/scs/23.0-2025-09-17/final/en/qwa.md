@@ -87,7 +87,7 @@ Following the rules established by the Peruvian Ministry of Education, [Chawpin 
 | y | 
 
 
-### Samples
+### Sample
 There follows a randomly selected sample of five sentences from the corpus:
 ```
 Mamaaqa hallqatrawmi kaykan.
