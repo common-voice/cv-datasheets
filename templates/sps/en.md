@@ -99,6 +99,13 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 * `age` - age of the speaker[^1]
 * `gender` - gender of the speaker[^1]
 * `language` - language name
+* `split` - for data modelling, which subset of the data does this clip pertain to
+* `char_per_sec` - how many characters of transcription per second of audio
+* `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
+   *  `transcription-length` - character per second under 3 characters per second
+   * `speech-rate` - characters per second over 30 characters per second
+   * `short-audio` - audio length under 2 seconds
+   * `long-audio` - audio length over 30 seconds
 
 ####
 
