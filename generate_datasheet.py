@@ -184,12 +184,14 @@ def fill_template_header(
     hours_recorded = metadata[modality][locale]["hours_recorded"]
     hours_validated = metadata[modality][locale]["hours_validated"]
     speakers = metadata[modality][locale]["speakers"]
+    clips = str(metadata[modality][locale]["clips"])
     header_content = template.header.content
 
     filled_header_content = header_content.replace("{{VERSION}}", version_readable)
     filled_header_content = filled_header_content.replace(
         "{{ENGLISH_NAME}}", english_name
     )
+    filled_header_content = filled_header_content.replace("{{CLIPS}}", clips)
     filled_header_content = filled_header_content.replace("{{LOCALE}}", locale)
     filled_header_content = filled_header_content.replace(
         "{{HOURS_RECORDED}}", hours_recorded
@@ -288,8 +290,9 @@ def make_table(data: dict, header: str) -> str:
     # TODO: localize fields
     table = f"{header}\n"
     for field, freq in data.items():
-        clean_field = field.title().replace("_", " ")
-        table += f"| {clean_field} | {freq} |\n"
+        if freq != 0:
+            clean_field = field.title().replace("_", " ") if field else "Undefined"
+            table += f"| {clean_field} | {freq} |\n"
     return table
 
 
@@ -372,7 +375,6 @@ for modality in metadata:
         with open(template_path, "r") as template_file:
             template = template_file.read()
         ds = CVDatasheet(template)
-        fill_template_header(ds, locale, modality, metadata)
         fill_community_links(ds, locale, modality, lang_code)
         if modality == "scs":
             # Cotribute links with locale only for scripted mode
@@ -383,11 +385,18 @@ for modality in metadata:
                 fill_scs_stats(ds, data, lang_code)
             sentences = scs_sentences.get(locale)
             fill_scs_samples(ds, sentences, lang_code)
+            clips = data.get("clips", 0)
         elif modality == "sps":
             stats = sps_stats_data.get(locale)
             if stats:
                 fill_sps_samples(ds, stats, lang_code)
                 fill_sps_stats(ds, stats, lang_code)
+                clips = stats.get("clips", 0)
+            else:
+                # english case
+                clips = 0
+        metadata[modality][locale]["clips"] = clips
+        fill_template_header(ds, locale, modality, metadata)
         # Text stats empty for scs
         draft_output_path = DRAFT_OUTPUT_PATH.format(
             output_dir=output_dir,
