@@ -48,7 +48,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-دو هزار جملے سانسی سماج کے کُچھ حقیقی کہانی اور باقی گھریلو زبان میں جملے ہے
+The sentences are from day to day use of sansi language. 
 
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
@@ -67,7 +67,7 @@ Perso Arabic
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-چھوری تالٓا میلٓ تو ماؤں کُو کیہ دٓیگڑی دھووَ ٻائی ڈٓرے متی چھورا پاڻْی لاؤ ہوں تیسے دھو مراؤں گڑا 
+چھوری تالٓا میلٓ تو، ماؤں کُو کیہ دٓیگڑی دھووَ، ٻائی ڈٓرے متی، چھورا پاڻْی لاؤ، ہوں تیسے دھو مراؤں گڑا 
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
