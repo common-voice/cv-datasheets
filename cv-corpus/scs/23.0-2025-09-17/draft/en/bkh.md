@@ -128,7 +128,7 @@ https://commonvoice.mozilla.org/bkh
 
 ## Acknowledgements
 
-The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Tuki, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Bakoko, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
 - Eugène Roland Bilaa
 - Dieudonné Bihoya
 
