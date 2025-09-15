@@ -9,12 +9,13 @@ speech (11 hours validated) from 39 speakers.
 
 Shina language is one of the major languages of Gilgit Baltistan Pakistan. It's spoken in Gilgit, Astore, Chilas, Kohistan and some areas in Sakrdu Baltistan. It is also spoken in some areas of India. Gilgiti and Astori dialects are considered to be its major dialects. The dialect spoken in Gilgit is known as the main and standard dialect.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-1. Gilgiti 2. Astori (locally known as Astorija) 3. Chilasi 4. Kohistani shina 5. Gurezi 
+<!-- Original Answer: -->
+<!-- 1. Gilgiti 2. Astori (locally known as Astorija) 3. Chilasi 4. Kohistani shina 5. Gurezi --> 
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -55,62 +56,35 @@ It mostly comes from textbooks, and social media platforms. There are one thousa
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-The Shina language in Gilgit-Baltistan, Pakistan, is written in a variation of the Arabic script. This script is reported to be adapted to represent the unique sounds of the Shina language, with additional letters such as: - ݜ for /ʂ/ - ڙ for /ʐ/ - څ for /ts/ - ڇ for /ʈʂ/ - ݨ for /ɳ/
+The Shina language in Gilgit-Baltistan, Pakistan, is written in a variation of the Arabic script. This script is reported to be adapted to represent the unique sounds of the Shina language, with additional letters such as: 
+- ݜ for /ʂ/ 
+- ڙ for /ʐ/ 
+- څ for /ts/ 
+- ڇ for /ʈʂ/ 
+- ݨ for /ɳ/ 
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
- ا ب پ ت ٹ ث ج چ ح خ څ ڇ د ڈ ذ ر ڑ ز ژ ڙ س ش ݜ ص ض ط ظ ع غ ڠ ف ق ک گ ل م ن ݨ ں و ہ ھ ء ی ے  
+``` ا ب پ ت ٹ ث ج چ ح خ څ ڇ د ڈ ذ ر ڑ ز ژ ڙ س ش ݜ ص ض ط ظ ع غ ڠ ف ق ک گ ل م ن ݨ ں و ہ ھ ء ی ے```  
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-1۔ ووئی پییَموس۔ 2. چہ ڇووں ہوں۔ 3. راتی ڙینگی ہِیں۔ 4. اوشی آلی۔ 5. والو کھیݨ پھݜ بِیلو۔
-
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-
-
-### Text domains
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-
-
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
+```
+1۔ ووئی پییَموس۔
+2. چہ ڇووں ہوں۔
+3. راتی ڙینگی ہِیں۔
+4. اوشی آلی۔
+5. والو کھیݨ پھݜ بِیلو۔
+```
 
 
 
 ## Get involved!
 
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 
 
@@ -127,20 +101,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-
-
-### Funding
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
-
+Common Voice Community
 
 
 ## Licence

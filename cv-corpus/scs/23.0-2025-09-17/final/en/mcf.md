@@ -9,12 +9,15 @@ speech (11 hours validated) from 20 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 The [Matsés](https://bdpi.cultura.gob.pe/lenguas/matses) language, ISO code [mcf](https://www.ethnologue.com/language/mcf/) belongs to the Pano family and is spoken in the basins of the Gálvez and Yaquirana rivers, and in the Añushiyacu creek, in the Loreto department of Peru. It has also traditionally been known as "mayuruna", although today the speakers themselves prefer to call it Matsés.
-### Variants 
+
+
+<!-- ### Variants -->
 
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
-It is also spoken in Brasil close to the Yavarí river which is the borderline between Perú and Brasil. 
+<!-- Original Answer: -->
+<!-- It is also spoken in Brasil close to the Yavarí river which is the borderline between Perú and Brasil. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +65,6 @@ On average, sentences are composed by five words and contain a total of forty le
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 ### Sample
 
 There follows a randomly selected sample of five sentences from the corpus:
@@ -87,37 +84,8 @@ peshun ampambanta sandoquin
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 Sentences were written by Mr. Uaqui Dunu
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
 
 ## Get involved!
-
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute voice recordings](https://commonvoice.mozilla.org/mcf/speak)

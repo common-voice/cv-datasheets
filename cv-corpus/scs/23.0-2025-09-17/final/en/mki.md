@@ -9,12 +9,13 @@ speech (11 hours validated) from 12 speakers.
 
 Dhatki is a regional Indo-Aryan language, mainly spoken in Sindh (Pakistan) and Rajasthan (India). It is very close to Sindhi and Rajasthani, written in different scripts depending on the region, and mostly used in daily conversation, folk songs, and local stories.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-The dataset may contain two main varieties of Dhatki:  Sindh (Pakistan) variety, Sindhi-influenced, written in Perso-Arabic script. Rajasthan (India) variety, Marwari-influenced, written in Devanagari script.
+<!-- Original Answer: -->
+<!-- The dataset may contain two main varieties of Dhatki:  Sindh (Pakistan) variety, Sindhi-influenced, written in Perso-Arabic script. Rajasthan (India) variety, Marwari-influenced, written in Devanagari script. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +63,19 @@ The corpus is written in the Sindhi script. While Dhatki can be written in eithe
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-My corpus is written Sindhi, Sindhi script has 52 letters. ا ب ٻ پ ڀ ت ٿ ٽ ٺ ث ج ڄ جھ چ ڇ ح خ د ڌ ڊڍ ڏ ڍ ذر ر ڙ ز ژ س ش ص ض ط ظ ع غ ف ڦ ق ڪ گ ڳ ڱ ل ڻ ن ڃ م ء و ؤ ۏ ه ء ي ءَ ءِ ءُ
+My corpus is written Sindhi, Sindhi script has 52 letters.
+```ا ب ٻ پ ڀ ت ٿ ٽ ٺ ث ج ڄ جھ چ ڇ ح خ د ڌ ڊڍ ڏ ڍ ذر ر ڙ ز ژ س ش ص ض ط ظ ع غ ف ڦ ق ڪ گ ڳ ڱ ل ڻ ن ڃ م ء و ؤ ۏ ه ء ي ءَ ءِ ءُ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-1. تايو نالو ڪي هي. 2. سيورو جلدي اٺڻ سٺي بات هي. 3. آپرو ڪم آپ ڪرڻ کپي. 4. ڪراچي سنڌ صوبي رو شهر. 5. ٿري ڌاٽڪي ٻولي ٻولي ٿا.
+```
+1. تايو نالو ڪي هي.
+2. سيورو جلدي اٺڻ سٺي بات هي.
+3. آپرو ڪم آپ ڪرڻ کپي.
+4. ڪراچي سنڌ صوبي رو شهر.
+5. ٿري ڌاٽڪي ٻولي ٻولي ٿا.
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -90,28 +98,8 @@ General, Service and Retail, Healthcare, Nature and Environment, Language Fundam
 
 The corpus was created by composing original sentences in Dhatki, typing them in Sindhi script, and then editing for accuracy and consistency. Sentences were cleaned, standardized, and organized into a digital format for use in analysis.
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-no
 
 ## Get involved!
-
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 
 
 ### Contribute
@@ -127,14 +115,7 @@ no
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-
+Common Voice Community
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

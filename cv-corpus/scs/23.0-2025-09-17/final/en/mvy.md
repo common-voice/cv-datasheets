@@ -7,13 +7,7 @@ speech (23 hours validated) from 56 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-Indus Kohistani is an Indo-Aryan language spoken in District Lower Kohistan, Upper Kohistan, Gilgit Baltistan and other parts of Pakistan. There are few books written and publsihed in this language. It is mainly a verbal language but currently young generation has started this language at social media platform and started to write in it.
-
-### Variants
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-
+Indus Kohistani is an Indo-Aryan language spoken in District Lower Kohistan, Upper Kohistan, Gilgit Baltistan and other parts of Pakistan. There are few books written and published in this language. It is mainly a verbal language but currently young generation has started this language at social media platform and started to write in it.
 
 
 ## Demographic information
@@ -55,26 +49,21 @@ Corpus contains more 6500 sentences from different open source documents or from
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-Persio-Arabic script
+Perso-Arabic script
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا ب بھ پ پھ ت تھ ٹ ٹھ ث ج جھ چ جھ ڇ ڇھ ح خ څ څھ د دھ ڈ ڈھ ذ ر رھ ڑ ز زھ ژ ژھ ڙ ڙھ س ش ݜ ص ض ط ظ ع غ ف ق ک کھ گ گھ ل لھ م مھ ن نھ ݨ و ہ ء ی ې ے
+```ا ب بھ پ پھ ت تھ ٹ ٹھ ث ج جھ چ جھ ڇ ڇھ ح خ څ څھ د دھ ڈ ڈھ ذ ر رھ ڑ ز زھ ژ ژھ ڙ ڙھ س ش ݜ ص ض ط ظ ع غ ف ق ک کھ گ گھ ل لھ م مھ ن نھ ݨ و ہ ء ی ې ے```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+```
 بال ہمېش تمیز ہِن آں اعتراض ہمېش دلیل ہن کری کو ڇہ پرہ تاؤں نہ څابُون اَیں بئ تھی ݜُو وَل لا مُسلماں آں بنو ہاشم ݜس ظِلم نہ مُچِل ݜیں صحابی یے ہُم نبیؐ پشے لس اېک وار اوک ابو طالبہ لا قُریشؤں چَکس آؤ
-
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-
+```
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -83,35 +72,8 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 General, Agriculture and Food, Automotive and Transport, Healthcare, History, Law and Governmant, Media and Entertainment, Nature and Environment, News and Current Affairs, Technology and Robotics, Language Fundamentals (e.g. Digits, Letters, Money)
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-
 
 ## Get involved!
-
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 
 
 ### Contribute
@@ -127,20 +89,7 @@ General, Agriculture and Food, Automotive and Transport, Healthcare, History, La
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-
-
-### Funding
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
-
+Common Voice Community
 
 
 ## Licence

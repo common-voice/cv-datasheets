@@ -14,9 +14,10 @@ The language code is `nn` and the locale is `nn-NO` (Nynorsk as written in Norwa
 locale includes the region code for historical reasons relating to the localisation platform. The dataset
 contains Norwegian as spoken anywhere and as written in the Nynorsk standard.
 
-### Variants 
+<!-- ### Variants -->
 
-There are currently no variants defined for Norwegian Nynorsk.
+<!-- Original Answer: -->
+<!-- There are currently no variants defined for Norwegian Nynorsk. -->
 
 ## Demographic information
 
@@ -26,24 +27,9 @@ The dataset includes the following distribution of age and gender.
 
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
 
-| Gender | Frequency |
-|--------|-----------|
-| male, masculine | 686 |
-| undeclared | 331 |
-| female, feminine | 165 |
-
 ### Age
 
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
-
-| Age band | Frequency |
-|----------|-----------|
-| thirties | 513 |
-| twenties | 308 |
-| undeclared | 301 |
-| fourties | 34 |
-| teens | 24 |
-| fifties | 2 |
 
 ## Text corpus
 
@@ -136,7 +122,6 @@ Nynorsk-only words:
 These candidate sentences were then checked by two writers of Nynorsk to ensure that they were indeed written
 in Nynorsk before inclusion into the corpus.
 
-### Recommended post-processing
 
 ## Get involved!
 

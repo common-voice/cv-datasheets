@@ -7,14 +7,15 @@ speech (12 hours validated) from 22 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-The thradhri language is speaking in various sindh Pakistan, total 1.1 million people's who speak the thradhri language. It is from Thraad province of India. 
+The Thradhri language is speaking in various Sindh Pakistan, total 1.1 million people's who speak the Thradhri language. It is from Thraad province of India. 
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-Parkari, Dhatti, Gujarati, Wadiyaari and marwari
+<!-- Original Answer: -->
+<!-- Parkari, Dhatti, Gujarati, Wadiyaari and marwari -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,56 +63,20 @@ Arabi parssion keyboard
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا - ی
+```ا - ی```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-1. My name is Nanjit 2. I live in Mirpurkhas. I am married. 3.I have four children 4. My father is driver. I love to my family. 5. My chil
-
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
-
-
-
-### Text domains
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-
-
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-
+```
+1. My name is Nanjit 
+2. I live in Mirpurkhas. I am married. 
+3. I have four children 
+4. My father is driver. I love to my family. 
+5. My chil
+```
 
 ## Get involved!
-
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 
 
 ### Contribute
@@ -127,13 +92,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
+Common Voice Community
 
 
 ### Funding
