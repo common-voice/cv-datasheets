@@ -139,6 +139,8 @@ There follows a randomly selected sample of transcribed responses from the corpu
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
+This dataset was partially funded by the Open Multilingual Speech Fund.
+
 ## Licence
 
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
