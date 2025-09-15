@@ -41,10 +41,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 * Prompts: `47`
 * Duration: `1012968[ms]`
 * Avg. Transcription Len: `13`
-* Avg. Duration: `16.338193548387096[s]`
-* Valid Duration: `102.096[s]`
-* Total hours: `0.28138[h]`
-* Valid hours: `0.02836[h]`
+* Avg. Duration: `16.34[s]`
+* Valid Duration: `102.1[s]`
+* Total hours: `0.28[h]`
+* Valid hours: `0.03[h]`
 
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- A description of the transcription system used -->

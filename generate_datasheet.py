@@ -260,10 +260,10 @@ def fill_sps_stats(template: CVDatasheet, data: dict, lang_code: str):
     stats_content = f"* Prompts: `{data.get('prompts', 0)}`\n"
     stats_content += f"* Duration: `{data.get('duration')}[ms]`\n"
     stats_content += f"* Avg. Transcription Len: `{data.get('avgTranscriptLen')}`\n"
-    stats_content += f"* Avg. Duration: `{data.get('avgDurationSecs')}[s]`\n"
-    stats_content += f"* Valid Duration: `{data.get('validDurationSecs')}[s]`\n"
-    stats_content += f"* Total hours: `{data.get('totalHrs')}[h]`\n"
-    stats_content += f"* Valid hours: `{data.get('validHrs')}[h]`\n"
+    stats_content += f"* Avg. Duration: `{round(data.get('avgDurationSecs'), 2)}[s]`\n"
+    stats_content += f"* Valid Duration: `{round(data.get('validDurationSecs'), 2)}[s]`\n"
+    stats_content += f"* Total hours: `{round(data.get('totalHrs'), 2)}[h]`\n"
+    stats_content += f"* Valid hours: `{round(data.get('validHrs'), 2)}[h]`\n"
     template.append_content(stats_section, stats_content)
 
 

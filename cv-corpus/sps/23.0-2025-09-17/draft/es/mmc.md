@@ -49,10 +49,10 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 * Prompts: `195`
 * Duration: `40574520[ms]`
 * Avg. Transcription Len: `330`
-* Avg. Duration: `46.31794520547945[s]`
+* Avg. Duration: `46.32[s]`
 * Valid Duration: `40574.52[s]`
-* Total hours: `11.2707[h]`
-* Valid hours: `11.2707[h]`
+* Total hours: `11.27[h]`
+* Valid hours: `11.27[h]`
 
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- Una descripción del sistema de transcripción utilizado -->
