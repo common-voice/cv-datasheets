@@ -100,12 +100,6 @@ Huk markapa aywakuytami munaa.
 ### Sources
 Sentences were written by Mr. Franklin Espinoza
 
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
-
 ## Get involved!
 
 ### Community links

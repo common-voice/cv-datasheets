@@ -56,13 +56,6 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 The writting system for the Puno Quechua language is not formaly described, however there are some resources that can be mentioned. Linguistic resources for Puno Quechua, as cataloged by Glottolog [puno1238](https://glottolog.org/resource/languoid/id/puno1238), are predominantly from the 1963–1993 period, with limited publications post-2005. These materials offer critical insights into the Puno Quechua language's grammatical framework. Like all Quechua languages, Puno Quechua forms words by sequentially adding suffixes to a root and follows a Subject-Object-Verb (SOV) word order.
 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
-#### Extralinguistic tags
 
 ### Samples
 
@@ -71,24 +64,23 @@ The writting system for the Puno Quechua language is not formaly described, howe
 There follows a randomly selected sample of transcribed responses from the corpus.
 
 <!-- {{QUESTIONS_SAMPLE}} -->
-* *Huñullachu icha sapallaykichu llank'ayta munawaq? Imarayku?*
-* *Pipas wañupuqtin hinaqa, imatataq ruwankichis llaqtaykipi?*
-* *Aylluykipi, imaynatataq qullqita waqaychayta yachankichis?*
+```
+*Huñullachu icha sapallaykichu llank'ayta munawaq? Imarayku?*
+*Pipas wañupuqtin hinaqa, imatataq ruwankichis llaqtaykipi?*
+*Aylluykipi, imaynatataq qullqita waqaychayta yachankichis?*
+```
 
 #### Responses
 
 There follows a randomly selected sample of transcribed responses from the corpus.
 
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
-* Masiykunawan tupani hinaqa asikuspallaykun puriyku, chaymanta mikhuspapis lumata purispapis, takiqpis riyku ima. Aqnatan.
-* Llaqtaman urayuyku hinaqa chaqramanta huqarisqakunata qhatuyku qhatuna wasipi, runa mink'akuqpis puriyku, utaq ayllumasiykuta watukuq riyku, anchaymi llaqtapi p'unchaykunaqa.
-* Nuqaqa llank'ani sapallay, nuqataq warmi kani nuqataq qhari kani, hina chaqra ruwayñiykunata. Waq amikuykunapis kallantaq anchiykunatapis ayutallawantaq hina, chaykunata llank'ani: papata, kinuwata, qañiwa siwarata, todo agricultura.
+```
+Masiykunawan tupani hinaqa asikuspallaykun puriyku, chaymanta mikhuspapis lumata purispapis, takiqpis riyku ima. Aqnatan.
+Llaqtaman urayuyku hinaqa chaqramanta huqarisqakunata qhatuyku qhatuna wasipi, runa mink'akuqpis puriyku, utaq ayllumasiykuta watukuq riyku, anchaymi llaqtapi p'unchaykunaqa.
+Nuqaqa llank'ani sapallay, nuqataq warmi kani nuqataq qhari kani, hina chaqra ruwayñiykunata. Waq amikuykunapis kallantaq anchiykunatapis ayutallawantaq hina, chaykunata llank'ani: papata, kinuwata, qañiwa siwarata, todo agricultura.
+```
 
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -99,12 +91,6 @@ There follows a randomly selected sample of transcribed responses from the corpu
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qxp/common-voice/contributors/)
 * [QuechuaBase telegram group](https://t.me/QuechuaBase)
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 

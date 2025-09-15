@@ -95,17 +95,10 @@ Mishim chipshaata mikurqun.
 Chakiimi nanaykaaman.
 Yana punchuutam rachish.
 Anta yuriptinqa muchuyshi kanqa.
-
 ```
 
 ### Sources
 Sentences were written by Mr. Franklin Espinoza
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -115,12 +108,6 @@ Sentences were written by Mr. Franklin Espinoza
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qxa/common-voice/contributors/)
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 

@@ -7,14 +7,15 @@ speech (11 hours validated) from 5 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-Dameli is one of the most vulnerable languages of Pakistan. The language is spoken in a few remote villages, Asper, Dondidari, Ponagram and Shintari and the surrounding hamlets in the side valley called Damel in northern mountainous area of district Chitral of Khyber Pakhtunkhwa province. This vulnerability becomes more critical because of the community’s fewer numbers of speakers (about 6500 in total) In UNESCO’S  Atlas of the world languages in Danger, Dameli is listed as “Severely endangered” (Elnazarov,2010).The entry on Dameli was contributed by Hakim Elnazarov, and was based on information in Decker(1992). 
+Dameli is one of the most vulnerable languages of Pakistan. The language is spoken in a few remote villages, Asper, Dondidari, Ponagram and Shintari and the surrounding hamlets in the side valley called Damel in northern mountainous area of district Chitral of Khyber Pakhtunkhwa province. This vulnerability becomes more critical because of the community’s fewer numbers of speakers (about 6500 in total) In UNESCO’S  Atlas of the world languages in Danger, Dameli is listed as “Severely endangered” (Elnazarov, 2010).The entry on Dameli was contributed by Hakim Elnazarov, and was based on information in Decker (1992). 
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-The dataset represents a wide range of Dameli language usage across different domains. The collected material includes sentences and expressions from:  Economic life Social interactions Education Agriculture and farming Poetry and oral traditions History and culture These varieties ensure that the dataset captures the richness of the Dameli language, reflecting not only everyday communication but also specialized fields and traditional knowledge. 
+<!-- Original Answer: -->
+<!-- The dataset represents a wide range of Dameli language usage across different domains. The collected material includes sentences and expressions from:  Economic life, Social interactions, Education, Agriculture and farming, Poetry and oral traditions, History and culture. These varieties ensure that the dataset captures the richness of the Dameli language, reflecting not only everyday communication but also specialized fields and traditional knowledge. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,19 +63,26 @@ The Dameli corpus is written using the Arabic script (Perso-Arabic style), which
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
- آ ا ب پ ت ٹ ث ج چ ڇ څ ح خ د ڈ ذ ر ڑ ز ڙ ژ س ش ݜ ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ و ہ ھ ء ی ے
+``` آ ا ب پ ت ٹ ث ج چ ڇ څ ح خ د ڈ ذ ر ڑ ز ڙ ژ س ش ݜ ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ و ہ ھ ء ی ے```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+```
  ماں نم حیات درو ماں گرم ساں نم نعیلہ درو ائی دامن ایک مس آݜنتہ ینُم ما کُل آسپرہ درو دامن لے شُباں درو 
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-The text corpus was compiled from the following sources:  * Published books in the Dameli language * Unpublished community manuscripts and notes * Folk stories, oral traditions, and poetry transcribed into written form * Newly created sentences for grammar and vocabulary coverage * Educational and social materials produced by local speakers  
+The text corpus was compiled from the following sources:  
+* Published books in the Dameli language 
+* Unpublished community manuscripts and notes 
+* Folk stories, oral traditions, and poetry transcribed into written form 
+* Newly created sentences for grammar and vocabulary coverage 
+* Educational and social materials produced by local speakers  
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -95,7 +103,12 @@ The collected texts were first gathered from books, manuscripts, and community c
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
 
-Recommended post-processing Users of this dataset may consider the following post-processing steps depending on their research goals:  Normalization: Ensure consistent spelling, especially where multiple variants of the same word exist. Tokenization: Segment the text into words or morphemes for computational use. POS tagging / annotation: Add part-of-speech or grammatical tags if the dataset will be used for linguistic or NLP applications. Transliteration:  Convert the Arabic script into Latin script if required for cross-linguistic comparison. Alignment: If paired with translations, align Dameli sentences with their equivalents in other languages for bilingual analysis.  
+Users of this dataset may consider the following post-processing steps depending on their research goals:  
+* Normalization: Ensure consistent spelling, especially where multiple variants of the same word exist. 
+* Tokenization: Segment the text into words or morphemes for computational use. 
+* POS tagging / annotation: Add part-of-speech or grammatical tags if the dataset will be used for linguistic or NLP applications. 
+* Transliteration:  Convert the Arabic script into Latin script if required for cross-linguistic comparison. 
+* Alignment: If paired with translations, align Dameli sentences with their equivalents in other languages for bilingual analysis.  
 
 ## Get involved!
 
@@ -127,14 +140,7 @@ There are no formal online forums or blogs for discussions related to the datase
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-https://commonvoice.mozilla.org/dml/speak
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-
+Common Voice Community
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

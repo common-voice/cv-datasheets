@@ -9,12 +9,13 @@ speech (18 hours validated) from 156 speakers.
 
 Balti is known as the lingua franca in Baltistan, the Northern Areas of Pakistan.  It is spoken in the four districts of Baltistan Division: Skardu, Ghanche, Shigar, Kharmang and some parts of Round District of Gilgit Baltistan.  It is spoken by Eight Lac people.  
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-General Balti has been represented in the datasets.  
+<!-- Author Description: -->
+<!-- General Balti has been represented in the datasets. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +63,7 @@ Perso-Arabic script has been used as the writing system of Balti language.
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-اب پ ت ٹ ث ج ڃ چ  ڇ ح خ د ڈ ذ ر ڑ زڗ ژ س ش ݜ ص ض ط ظ ع غ ف ق ک گ کٔ ل م ن نٚ ݨ و ہ ء ی ے
-
-### Sample
-<!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
-Refer to the Common Voice Dataset please 
+```اب پ ت ٹ ث ج ڃ چ  ڇ ح خ د ڈ ذ ر ڑ زڗ ژ س ش ݜ ص ض ط ظ ع غ ف ق ک گ کٔ ل م ن نٚ ݨ و ہ ء ی ے```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -90,28 +86,8 @@ General
 
 Collected Balti books in soft form and extracted more than ten thousand sentences from the books with the prior consents of the respective writers.  
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-
 
 ## Get involved!
-
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 
 
 ### Contribute
@@ -127,13 +103,7 @@ Collected Balti books in soft form and extracted more than ten thousand sentence
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
+Common Voice Community
 
 
 ### Funding

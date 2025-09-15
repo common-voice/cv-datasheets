@@ -62,17 +62,10 @@ Wiksayni waklishkawa rishpayni mana atipashkanichu kushilla kanata.
 Wakra wañushkata muktishpankuna ullawankakuna awapi pawarihunkuna.
 Urkunrayku sinchi kaspikunata munan wasi llashata awantanankunapa.
 Mana alita killkashka shimita pichanki, chaywasha alita killkanki.
-
 ```
 
 ### Sources
 Sentences were collected by Mr. Pedro Ricce and Mr. Franklin Espinoza
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
@@ -82,12 +75,6 @@ Sentences were collected by Mr. Pedro Ricce and Mr. Franklin Espinoza
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/qup/common-voice/contributors/)
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 

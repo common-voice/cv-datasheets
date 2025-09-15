@@ -9,12 +9,13 @@ speech (11 hours validated) from 10 speakers.
 
 The Dawoodi language is one of the rarest and most endangered languages of northern Pakistan. It is spoken by the Dawoodi community, a small ethnic group mainly found in the Hunza and Gilgit regions of Gilgit-Baltistan.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-No any
+<!-- Original Answer: -->
+<!-- No any -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +63,18 @@ Perco-arabic writing system
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا ݳ آ ب پ ت ٹ ث ج چ ح خ ݼ څ د ڈذڎ ر ڑ ز ژ س ش ݽ ص ض ڞ ط ظ ع غ ف ق ک گ ݣ ل م ن ں و ݸ ہ ۃ ی ݵ ݷ ے ݺ 
+```ا ݳ آ ب پ ت ٹ ث ج چ ح خ ݼ څ د ڈذڎ ر ڑ ز ژ س ش ݽ ص ض ڞ ط ظ ع غ ف ق ک گ ݣ ل م ن ں و ݸ ہ ۃ ی ݵ ݷ ے ݺ ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-کی ہݸ چھائݺ؟ تݺ بِرݳرݳ کتݵئی چھݺ؟ تو کݸسݵئی چھائی؟ پیئݺ نݸم کیسݵک چھݳ؟ بینڈرنݣ کتݵئ چھݺ؟
+```
+کی ہݸ چھائݺ؟
+تݺ بِرݳرݳ کتݵئی چھݺ؟
+تو کݸسݵئی چھائی؟
+پیئݺ نݸم کیسݵک چھݳ؟
+بینڈرنݣ کتݵئ چھݺ؟
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -83,42 +90,13 @@ Myself
 
 General
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-No any specific process.
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-no any
-
 ## Get involved!
 
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-Myself 
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-No any specifically.
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-I have don it by myself. Sir Meesum Alam has helped us.
 
 ## Acknowledgements
 
@@ -127,21 +105,14 @@ I have don it by myself. Sir Meesum Alam has helped us.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-No any.
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-No any
+Common Voice Community
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
-Yes, via Meesum Alam Meesum.alam12@gmail.com
+Yes, via Meesum Alam: meesum.alam12@gmail.com
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

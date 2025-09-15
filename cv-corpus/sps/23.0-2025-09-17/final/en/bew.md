@@ -58,10 +58,6 @@ Historically, this language used Pegon, Arabic script, but now Latin is adapted.
 a b c d é è ȇ e f g h i j k l m n o p q r s t u v w y z 
 ```
 
-#### Extralinguistic tags
-
-
-
 ### Samples
 
 
@@ -80,9 +76,12 @@ Begimané caré kité ngedidik generasi mudé biar lebih peduli ngejagé lingkun
 #### Responses
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 There follows a randomly selected sample of transcribed responses from the corpus.
-
-Kalo di sini mah pendidikan paling utama, ya minimal lulus SMA. Jadinya di sini mah bagan emaknya pada kuli nandur yang penting anaknya sekolȇh. Jadinya diusahain banget pendidikan di sini. Bagan boleh utang kék, èmaknya boleh kuli nandur, kuli nyuci, yang penting anaknyé sekolȇh.
-
+```
+Kalo di sini mah pendidikan paling utama, ya minimal lulus SMA. 
+Jadinya di sini mah bagan emaknya pada kuli nandur yang penting anaknya sekolȇh. 
+Jadinya diusahain banget pendidikan di sini. 
+Bagan boleh utang kék, èmaknya boleh kuli nandur, kuli nyuci, yang penting anaknyé sekolȇh.
+```
 ### Recommended post-processing
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
@@ -101,12 +100,6 @@ Kalo di sini mah pendidikan paling utama, ya minimal lulus SMA. Jadinya di sini 
 * https://referensi.data.kemendikdasmen.go.id/budayakita/wbtb/objek/AA000491  
 * https://petabahasa.kemdikbud.go.id/  (Web of peta bahasa does not consider Betawi language is part of Indonesia, particularly in Jakarta and West Jawa Province.  
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
@@ -121,13 +114,8 @@ Kalo di sini mah pendidikan paling utama, ya minimal lulus SMA. Jadinya di sini 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-* Yacub Fahmilda (yacub.fahmilda@gmail.com)  
-* Riska Legistari Febri (Riskalegistari25@gmail.com)
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Yacub Fahmilda <yacub.fahmilda@gmail.com>
+* Riska Legistari Febri <riskalegistari25@gmail.com>
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

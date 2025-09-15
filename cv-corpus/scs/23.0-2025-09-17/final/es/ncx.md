@@ -62,7 +62,7 @@ Escritura práctica, utilizando la pauta propuesta por el Instituto Lingüístic
 <!-- @ OPCIONAL @ -->
 <!-- Si el sistema de escritura es alfabético, puede incluir aquí el alfabeto válido -->
 
-a b ch e f g i j k l m n o p r s t tl ts u x y
+```a b ch e f g i j k l m n o p r s t tl ts u x y```
 
 ### Muestra
 <!-- {{SENTENCES_SAMPLE}} -->

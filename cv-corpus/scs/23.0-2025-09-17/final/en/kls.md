@@ -7,13 +7,7 @@ speech (11 hours validated) from 23 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-Kalasha language is a endangered language, spoken in the 3 kalash valleys of Hindukush in Pakistan. 
-
-### Variants
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-
+Kalasha language is an endangered language, spoken in the 3 kalash valleys of Hindukush in Pakistan. 
 
 
 ## Demographic information
@@ -55,19 +49,19 @@ Roman corpus text, there are lots sentences
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-Roman 
-
-#### Symbol table
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
-Kalasha language 
+Roman
+Kalasha language
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-A jonim dai, tu jonis dai, se joniu dai, abi jonik dai, se maw dai 
+```
+A jonim dai
+tu jonis dai
+se joniu dai
+abi jonik dai
+se maw dai 
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -90,22 +84,9 @@ General, Agriculture and Food, Nature and Environment
 
 Pontoon
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-Yes 
 
 ## Get involved!
 
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-Kalasha people of Pakistan, kalasha people of hindukush 
 
 ### Discussions
 <!-- {{DISCUSSION_LINKS_LIST}} -->
@@ -114,11 +95,6 @@ Kalasha people of Pakistan, kalasha people of hindukush
 
 Mozilla foundation, Facebook, Instagram 
 
-### Contribute
-<!-- {{CONTRIBUTE_LINKS_LIST}} -->
-<!-- Here you can include links for how to contribute to the dataset -->
-
-Kalasha people , kalasha tribes 
 
 ## Acknowledgements
 
@@ -127,13 +103,7 @@ Kalasha people , kalasha tribes
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-zarin.kalash@gmail.com
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
+* <zarin.kalash@gmail.com>
 
 
 ### Funding
@@ -141,7 +111,7 @@ zarin.kalash@gmail.com
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
-Meesum Alam/ Meesum.alam12@gmail.com
+Meesum Alam: meesum.alam12@gmail.com
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

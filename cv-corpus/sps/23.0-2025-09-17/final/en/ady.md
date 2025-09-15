@@ -70,7 +70,7 @@ Therefore we allowed the use of only the keyboard layout specially designed for 
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 **Main Alphabet:** (Ordered by ascending) <br>
-а б в г {гу} {гъ} {гъу} д {дж} {дз} {дзу} е ё ж {жъ} {жъу} {жь} з и й к {ку} {къ} {къу} {кӏ} {кӏу} л {лъ} {лӏ} м н о п {пӏ} {пӏу} р с т {тӏ} {тӏу} у ф х {хъ} {хъу} {хь} ц {цу} {цӏ} ч {чъ} {чӏ} ш {шъ} {шъу} {шӏ} {шӏу} щ ъ ы ь э ю я ӏ {ӏу}
+```а б в г {гу} {гъ} {гъу} д {дж} {дз} {дзу} е ё ж {жъ} {жъу} {жь} з и й к {ку} {къ} {къу} {кӏ} {кӏу} л {лъ} {лӏ} м н о п {пӏ} {пӏу} р с т {тӏ} {тӏу} у ф х {хъ} {хъу} {хь} ц {цу} {цӏ} ч {чъ} {чӏ} ш {шъ} {шъу} {шӏ} {шӏу} щ ъ ы ь э ю я ӏ {ӏу}```
 
 **Orthographic–Phonetic Table (IPA):** <br>
 
@@ -167,12 +167,6 @@ If you want to join ady community, start here: https://bit.ly/cv_circassian_star
 You can find more information about how to participate in the Common Voice Project on the following page:  
 [Community Participation Guidelines](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)
 
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-Comming soon.
 
 ### Contribute
 
@@ -192,27 +186,22 @@ https://bit.ly/cv_circassian_start_here
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-Murat Topçu <murattopcu67@hotmail.com> <br>	
+* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
+* Murat Topçu <murattopcu67@hotmail.com> <br>	
 
 ### Dataset curators
 <!-- {{DATASET_CURATORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com>-->	
-M.Uğur Nemlioğlu <nemerko@nemerko.com><br>
-Saida Abregova <br>
-Elizaveta Gogunokova <br>
-Murat Topçu <br>
+* M.Uğur Nemlioğlu <nemerko@nemerko.com><br>
+* Saida Abregova <br>
+* Elizaveta Gogunokova <br>
+* Murat Topçu <br>
 
 ### Advisors
 <!-- {{ADVISORS_LIST}} -->
 <!-- A list in the format of: Your Name-->
-Bülent Özden (Technical Advisor)<br>
+* Bülent Özden (Technical Advisor)<br>
 
-### Citation guidelines
-
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 

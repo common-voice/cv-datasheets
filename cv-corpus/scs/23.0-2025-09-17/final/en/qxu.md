@@ -8,13 +8,7 @@ speech (11 hours validated) from 16 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Arequipa - La Unión Quechua, identified by the ISO 639-3: [qxu](https://iso639-3.sil.org/code/qxu), belongs to the Quechua II group. 
-### Variants 
-
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-
+Arequipa - La Unión Quechua, identified by the ISO 639-3: [qxu](https://iso639-3.sil.org/code/qxu), belongs to the Quechua II group.
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
@@ -112,37 +106,8 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 Sentences were written by Prof. Cerafina Condori
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
 
 ## Get involved!
-
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 
 ### Contribute

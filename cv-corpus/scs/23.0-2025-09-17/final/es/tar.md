@@ -62,7 +62,7 @@ El sistema de escritura que se basó en la escritura del Raramuri es el  españo
 <!-- @ OPCIONAL @ -->
 <!-- Si el sistema de escritura es alfabético, puede incluir aquí el alfabeto válido -->
 
-A B  K CH  E  G ' I J L M N O P R S T  U W  Y 
+```A B  K CH  E  G ' I J L M N O P R S T  U W  Y ```
 
 ### Muestra
 <!-- {{SENTENCES_SAMPLE}} -->
