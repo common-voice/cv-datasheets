@@ -8,12 +8,14 @@ speech (12 hours validated) from 32 speakers.
 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+According to [Ethnologue online](https://www.ethnologue.com/language/fmp/), Fe’fe’ is a stable indigenous language of Cameroon. It belongs to the Niger-Congo language family
 
 ### Variants 
 
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
+Contributors to this dataset have listed two varities of Fe'efe'e, namely, *Nkwa* and *Nka’*. The sentence prompts originate from both varieties.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -60,6 +62,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The collection of sentence prompts provided by the language representatives aligns with the General Alphabet of Cameroonian Languages
 
 #### Symbol table
 
@@ -71,6 +74,11 @@ Self-declared age information, frequency refers to the number of clips annotated
 
 There follows a randomly selected sample of five sentences from the corpus.
 
+1. Nkwe yᾱᾱ mʉ̄ngén siʼ mά mbhi pí ǎ túmfαʼ yōh
+2. Mʉnzhwīē kα̌ ndάʼ ndə yə̌ lά sǐʼ nsī lə́bdʉ̄ᾱ bᾱ
+3. Thʉthʉ̌ nkwēʼ, ncwī síʼ mbᾱ nά í bᾱ
+4. Ǒ ndah móʼ laʼ mfhʉ̄ ko, ndīʼ kwēn zhie yāā lǐʼ nkǒ ǒ mα ǎ cóh
+5. Ghen ndómsí nshi hᾱ ā, n ndah sóh nā a cʉ̄ʼcô
 <!-- {{SENTENCES_SAMPLE}} -->
 
 ### Sources
@@ -115,13 +123,27 @@ There follows a randomly selected sample of five sentences from the corpus.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+https://commonvoice.mozilla.org/fmp/
 
 ## Acknowledgements
+
+The compilation of this dataset occured during data camp organized in Yaoundé (Cameroon) in May 2025. Two main contributors were involved in the localization of the MCV interface for Fe'efe'e, gathering of the sentence prompts, reading sentence prompts, and validating recordings. They are :
+- Franchesco Ngameni Elong
+- Nicole Wogfa
+
+The organization of the data camp was conducted by a dynamic whose dedication is herewith acknowledged :
+- Dr. Florus Landry Dibenge (Project Lead)
+- Eliette Emilie-Caroline Ngo Tjomb Assembe
+- Eric Koung
+- Blaise Mathieu Banum Manguele
+- Martial Brice Antangana Eloundou
+- Emmanuel Giovanni Eloundou Eyenga
 
 ### Datasheet authors
 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+Emmanuel Ngue Um <ngueum@gmail.com>, Nicole Wogfa <wogfanicole@gmail.com>, Franchesco Ngameni Elong <ngamenifranchesco@gmail.com>
 
 ### Citation guidelines
 
@@ -134,6 +156,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
 
 ## Licence
 
