@@ -7,45 +7,34 @@ for Tem (`kdh`). The dataset contains **10.63 hours of recorded speech** (collec
 
 Tem (Kotokoli) is a Gur language spoken primarily in Togo, Ghana, Benin, and Burkina Faso. It is part of the Niger-Congo family. The language is used in daily communication, religious practice, and traditional expressions.
 
-### Variants
+<!-- ### Variants -->
+<!-- Original Answer: -->
+<!-- This dataset focuses on the standardized Tem variety as curated by the project team. Regional phonetic and lexical variations exist across speaker communities but are harmonized through community consensus. -->
 
-This dataset focuses on the standardized Tem variety as curated by the project team. Regional phonetic and lexical variations exist across speaker communities but are harmonized through community consensus.
+## Text corpus
 
-### 🔤 Alphabet
-
-A, B, C, D, Ɖ, E, Ɛ, F, G, Gb, H, I, Ɩ, J, K, Kp, L, M, N, Ny, Ŋ, Ŋm, O, Ɔ, P, R, S, T, U, Ʊ, V, W, Y, Z  
-a, b, c, d, ɖ, e, ɛ, f, g, gb, h, i, ɩ, j, k, kp, l, m, n, ny, ŋ, ŋm, o, ɔ, p, r, s, t, u, ʊ, v, w, y, z
-
-###  Accent
+### Writing system
 
 Tem is a **tonal language**, typically with **two level tones**:
 
 - High (´)  
 - Low (unmarked)  
 
-Tone is essential for distinguishing lexical and grammatical meaning.  
+Tone is essential for distinguishing lexical and grammatical meaning.
 
----
+### Symbol table
+Uppercase:
+```A B C D Ɖ E Ɛ F G Gb H I Ɩ J K Kp L M N Ny Ŋ Ŋm O Ɔ P R S T U Ʊ V W Y Z ```
 
-## Text corpus
+Lowercase:
+```a b c d ɖ e ɛ f g gb h i ɩ j k kp l m n ny ŋ ŋm o ɔ p r s t u ʊ v w y z```
 
 ### Sources
 
 The dataset has been compiled from:  
 * Religious books (translations and liturgy).  
 * Dictionaries of Tem.  
-* Common expressions collected from everyday life and fieldwork.  
-
----
-
-## Dataset demographics
-
-### Age statistics
-
-* **Twenties**: 7,385 recordings  
-* **Thirties**: 6,123 recordings  
-
----
+* Common expressions collected from everyday life and fieldwork.
 
 ## Get involved!
 
@@ -62,7 +51,6 @@ To get more information about this dataset and find out how you can contribute, 
 * [Validate recordings](https://commonvoice.mozilla.org/kdh/listen)  
 * [Review sentences](https://commonvoice.mozilla.org/kdh/review)  
 
----
 
 ## Acknowledgements
 
@@ -77,13 +65,11 @@ To get more information about this dataset and find out how you can contribute, 
 
 ### Contact
 
-* **Justin Bakoubolo** – [justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)
+* **Justin Bakoubolo** <[justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)>
 
 ### Funding
 
 This dataset was made possible by the **Open Multilingual Speech Fund**.
-
----
 
 ## Licence
 

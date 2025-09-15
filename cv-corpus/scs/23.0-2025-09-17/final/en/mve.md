@@ -9,12 +9,13 @@ speech (11 hours validated) from 20 speakers.
 
 Marwari language is spoken all over the Pakistan also in India but mostly in Sindh. Marwari language speakers are in millions all over the world.
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-Thali, Godwari, and Dhatki
+<!-- Original Answer: -->
+<!-- Thali, Godwari, and Dhatki -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -62,12 +63,18 @@ Self-Written
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-ا ب چ د آ ف گ ه ي ج ڪ ل م ن ئ پ ق ر س ت و ش ڊ خ ٽ ز ڀ ڇ ڌ ڳ گھ ڄ جھ ک ݪ ڃ ڻ ہ ڦ ڏ ڙ ݾ ٿ ٻ ح ٺ ښ
+```ا ب چ د آ ف گ ه ي ج ڪ ل م ن ئ پ ق ر س ت و ش ڊ خ ٽ ز ڀ ڇ ڌ ڳ گھ ڄ جھ ک ݪ ڃ ڻ ہ ڦ ڏ ڙ ݾ ٿ ٻ ح ٺ ښ```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
 There follows a randomly selected sample of five sentences from the corpus.
-وائس ٽيڪنالآجِي ريَ چوڌارِي ھيڪ برادرِي ٺاھڻ ۾ مھورِي مدد ڪرو۔  اِي ميل ريَ وسِيليَ مھون ھون رابطيَ ريا۔ آپرو اِي ميل ايڊرس لگائو۔ ٿارِي مهربونِي، آپيَ رابطي ۾ ريون۔ عام آواز ريَ ڊيٽاسَٽ طرف واپس آڻ۔ 
+```
+وائس ٽيڪنالآجِي ريَ چوڌارِي ھيڪ برادرِي ٺاھڻ ۾ مھورِي مدد ڪرو۔
+اِي ميل ريَ وسِيليَ مھون ھون رابطيَ ريا۔
+آپرو اِي ميل ايڊرس لگائو۔
+ٿارِي مهربونِي، آپيَ رابطي ۾ ريون۔
+عام آواز ريَ ڊيٽاسَٽ طرف واپس آڻ۔
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
@@ -83,42 +90,14 @@ Self-Written
 
 General
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-A project from Mozilla to help us for Writing. 
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-NO
 
 ## Get involved!
 
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-NO
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
-NO
 
 ### Contribute
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
-NO
 
 ## Acknowledgements
 
@@ -127,21 +106,15 @@ NO
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Self-Written 
+Common Voice Community
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-NO
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
 
-Funding From Mozilla Community. Acknowledge Mr Meesum Alam. Meesum.alam12@gmail.com
+Funding From Mozilla Community. Acknowledge Mr Meesum Alam: meesum.alam12@gmail.com
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

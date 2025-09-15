@@ -9,12 +9,13 @@ speech (11 hours validated) from 15 speakers.
 
 Yadgha (ISO 639-3: ydg), also known as Lutkohiwar, is spoken in the Lutkoh Valley, situated approximately 46 km west of Chitral town. The Yadgha people trace their origins to the Munjan valley in Afghanistan, having migrated to the Lutkoh Valley 31 generations ago. The Yadgha community consists of around 6,000 speakers, although this number is gradually decreasing. Speakers of the language are shifting to Khowar, the lingua franca of Chitral valley.  Yadgha is a written language, and several poets compose poetry in it. However, limited literacy activities are currently underway to support the language's preservation
 
-### Variants
+<!-- ### Variants -->
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-There is no different variety of the language. 
+<!-- Original Answer: -->
+<!-- There is no different variety of the language. -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -48,33 +49,35 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-The text came from my own writing.  The number of sentences are 2000
+The text came from my own writing.  The number of sentences are 2000.
 
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-The writing of Yadgha language is Perso-Arabic, develop by the community with support of Forum for language initiatives, a few years back 
+The writing of Yadgha language is Perso-Arabic, develop by the community with support of Forum for language initiatives, a few years back.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-آ ا ب پ ت ٹ ث ج چ ح خ ݯ ځ څ ݮ د ذ ر ز ڑ ژ ݱ س ش ݰ ص ض ط ظ ع غ ف ڤ ک گ ګ م ن ں و ہ ة ھ ء ی ے
+```آ ا ب پ ت ٹ ث ج چ ح خ ݯ ځ څ ݮ د ذ ر ز ڑ ژ ݱ س ش ݰ ص ض ط ظ ع غ ف ڤ ک گ ګ م ن ں و ہ ة ھ ء ی ے```
 
 ### Sample
 <!-- {{SENTENCES_SAMPLE}} -->
-There follows a randomly selected sample of five sentences from the corpus.
+There follows a randomly selected sample of sentences from the corpus.
+```
 نَمن یاغو شَماؤ نغن غور ڤے انسان خدان پیدا کڑے تو چر زیمونے نے ہورغن تیار اوئے
+```
 
 ### Sources
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-I wrote sentences are my own. There is very few written material of the language. Those are world list and alphabet book
+I wrote sentences are my own. There is very few written material of the language. Those are world list and alphabet book.
 
 ### Text domains
 <!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
@@ -90,28 +93,8 @@ General
 
 I wrote the sentences my own. I am a poet of the language and usually do write my poetry. Using the skill I develop the corpus that comprised on various general topics. 
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
-
 
 ## Get involved!
-
-
-### Community links
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 
 
 ### Contribute
@@ -127,14 +110,7 @@ I wrote the sentences my own. I am a poet of the language and usually do write m
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-
+Common Voice Community
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

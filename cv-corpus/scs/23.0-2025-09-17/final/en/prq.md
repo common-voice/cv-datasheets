@@ -9,11 +9,6 @@ speech (11 hours validated) from 13 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 The Asheninka are a South America first nation and their language belong to the Arawak linguistic family, they are primarily located in the central Peruvian rainforest between the eastern Andes and the Ucayali River, a region known as the Gran Pajonal due to its extensive tropical grasslands. Their cultural identity is deeply tied to their language, ancestral practices, and a profound connection to their territory, which they view as essential to their livelihood and cultural distinctiveness. This relationship fosters a strong ethic of environmental respect and sustainability, central to their organized community structure and long-standing desire for formal recognition separate from other Indigenous groups.
-### Variants 
-
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -61,11 +56,6 @@ On average, sentences consist of six words and contain a total of forty letters.
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 The Asheninka alphabet was officially established by Executive Order No. 199-2019-MINEDU issued by Peruvian Ministry of Education. The alphabet is composed by 22 graphemes. 
-#### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 ### Sample
 
@@ -85,37 +75,9 @@ Anijeitake shintsini aretantyari awankoki
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 Sentences were written by Mr. Pablo Jacinto.
-### Text domains
-
-<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What text domains are represented in the corpus? -->
-
-### Processing
-
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
 
 ## Get involved!
 
-### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
-
-### Discussions
-
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute voice recordings](https://commonvoice.mozilla.org/prq/speak)
