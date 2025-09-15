@@ -1,7 +1,7 @@
 import sys, glob
 
-draft_files = glob.glob('draft/en/*.md') + glob.glob('draft/es/*.md') 
-final_files = glob.glob('final/en/*.md') + glob.glob('final/es/*.md')
+draft_files = glob.glob('draft/en/*.md') + glob.glob('draft/es/*.md')  + glob.glob('draft/zh-TW/*.md')
+final_files = glob.glob('final/en/*.md') + glob.glob('final/es/*.md') + glob.glob('final/zh-TW/*.md')
 draft_codes = list(set([f.split('/')[-1].split('.')[0] for f in draft_files]))
 final_codes = list(set([f.split('/')[-1].split('.')[0] for f in final_files]))
 

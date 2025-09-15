@@ -10,7 +10,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 
 ## Status
 
-99 / 288
+107 / 288
 
 | Draft | Final |
 |-------|-------|
@@ -44,7 +44,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `bkm` | ✔ |
 | `bn` | - |
 | `bnm` | ✔ |
-| `bnn` | - |
+| `bnn` | ✔ |
 | `br` | - |
 | `brh` | ✔ |
 | `bri` | ✔ |
@@ -70,7 +70,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `de` | - |
 | `dmk` | ✔ |
 | `dml` | ✔ |
-| `dru` | - |
+| `dru` | ✔ |
 | `dua` | ✔ |
 | `dv` | - |
 | `dyu` | - |
@@ -179,7 +179,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `mvy` | ✔ |
 | `mxu` | - |
 | `myv` | - |
-| `nan-tw` | - |
+| `nan-tw` | ✔ |
 | `nb-NO` | - |
 | `ncx` | ✔ |
 | `ne-NP` | - |
@@ -209,7 +209,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `ps` | - |
 | `pt` | - |
 | `pua` | - |
-| `pwn` | - |
+| `pwn` | ✔ |
 | `qup` | ✔ |
 | `qur` | ✔ |
 | `qus` | ✔ |
@@ -251,10 +251,10 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `sv-SE` | - |
 | `sva` | - |
 | `sw` | - |
-| `szy` | - |
+| `szy` | ✔ |
 | `ta` | - |
 | `tar` | ✔ |
-| `tay` | - |
+| `tay` | ✔ |
 | `te` | - |
 | `tg` | - |
 | `th` | - |
@@ -265,7 +265,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `tn` | - |
 | `tok` | - |
 | `tr` | ✔ |
-| `trv` | - |
+| `trv` | ✔ |
 | `trw` | ✔ |
 | `ts` | - |
 | `tt` | - |
@@ -298,7 +298,7 @@ Each directory contains subdirectories corresponding to the languages of the dat
 | `zgh` | - |
 | `zh-CN` | - |
 | `zh-HK` | - |
-| `zh-TW` | - |
+| `zh-TW` | ✔ |
 | `zoc` | ✔ |
 | `zu` | - |
 | `zza` | - |
