@@ -12,13 +12,18 @@ La variante de Michoacán de mazahua o ‘Jñatjo’ es hablada en el norte Mich
 Los datos obtenidos para este corpus de datos provienen de la tenencia de Crescencio Morales, ubicado en el municipio de Zitácuaro. 
 
 ## Información demográfica
+
+Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea 
+disponible en el próximo lanzamiento.
+
 <!-- Puedes obtener gran parte de la información de esta sección desde [https://analyzer.cv-toolbox.web.tr/browse](https://analyzer.cv-toolbox.web.tr/browse) -->
+<!--
 El conjunto de datos incluye la siguiente distribución de edad y género.
 
 ### Género
 
 Información de género autodeclarada; la frecuencia se refiere al número de fragmentos anotados con este género.
-
+-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -28,11 +33,11 @@ Información de género autodeclarada; la frecuencia se refiere al número de fr
 | no declarado        | ? |
 | femenino            | ? |
 -->
-
+<!--
 ### Edad
 
 Información de edad autodeclarada; la frecuencia se refiere al número de fragmentos anotados con esta franja etaria.
-
+-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- 
@@ -58,8 +63,10 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 <!-- Una descripción del sistema (o sistemas) de escritura usado en el corpus de texto -->
 El Mazahua de Michoacán se escribe utilizando alfabeto latino.
 Ha habido múltiples propuestas de alfabeto para el Mazahua y sus dos variantes, la del Estado de México (Jñajtro) y la de Michoacán (Jñatjo), las cuales no toman en cuenta los tonos de las palabras habiendo mucha confusión durante la escritura, los tonos de la lengua son sistémicos ya que pueden contrastar funciones gramaticales (posesión, demostrativos, definitud, tiempo, aspecto y modo) y determinar el significado de las palabras 
-Por ejemplo: 	‘kjǚjnü’ metate – ‘kjǜjnü’ maíz 
-		‘‘ë̀dyi’ llevar animales – ‘ ‘ë̂dyi’ medir
+
+Por ejemplo: 	
+* ‘kjǚjnü’ metate – ‘kjǜjnü’ maíz 
+* ‘‘ë̀dyi’ llevar animales – ‘ ‘ë̂dyi’ medir
 
 #### Tabla de símbolos
 
@@ -104,7 +111,9 @@ Se usa diéresis en la vocal para indicar la abertura. Los símbolos en corchete
 - ü = [ɨ]
 
 ###### Vocales nasales 
+
 Se usa diacrítico macron en la vocal para indicar nasalidad.
+
 - ā = [ã]
 - ē = [ẽ]
 - ī = [ ĩ ]
@@ -117,15 +126,17 @@ En Unicode, “ǖ” tiene código 01D6 en minúscula y 01D5 en mayúscula.
 ##### Tonos (diacríticos en Unicode)
 
 El mazahua posee cuatro tonos: alto, bajo, ascendente y descendente. Los diacríticos se escriben encima de la primera vocal. 
-Tono alto: [ ́ ], 02CB 
-Tono bajo: [ ̀ ], 02CB
-Tono descendente: [ ̂  ], 02C6
-Tono ascendente: [ ̌  ], 02C6
 
-Ejemplo: ndzíncho – Nueve
-         jmū̀ru – Huevo 
-         pjâd'ül – Caballo  
-         jyö̌rga – Lagartija  
+* Tono alto: [ ́ ], 02CB 
+* Tono bajo: [ ̀ ], 02CB
+* Tono descendente: [ ̂  ], 02C6
+* Tono ascendente: [ ̌  ], 02C6
+
+Ejemplo: 
+* *ndzíncho* – nueve
+* *jmū̀ru* – huevo 
+* *pjâd'ül* – caballo  
+* *jyö̌rga* – lagartija  
          
 #### Etiquetas extralingüísticas
 
@@ -136,11 +147,11 @@ Ejemplo: ndzíncho – Nueve
 A continuación se muestra una selección aleatoria de respuestas transcritas del corpus.
 
 <!-- {{QUESTIONS_SAMPLE}} -->
-1) Pjéko gí kjâ'a nú ts'índajme k'a gí sôdya? - "¿Qué haces en tu tiempo libre?"
-2) Jânge gá dyä̀tji nú sopa k'âraxü? - "¿Cómo se hace la sopa de trigo verde?"
-3) Pjéko má 'úb'i kuâjtp'ü 'ó ngéjo añimále? - "¿Qué animales ponen en los bordados?"
-4) Jânge gá dyä̀t'äji nú b'ë̌'ë? - "¿cómo hacen el tejido?"
-5) Pjéko má jñôna dyà mí né'e má kjâ'a mí ts'íjke? - "¿Qué comida no te gustaba cuando eras niño/niña?"
+1) *Pjéko gí kjâ'a nú ts'índajme k'a gí sôdya?* - "¿Qué haces en tu tiempo libre?"
+2) *Jânge gá dyä̀tji nú sopa k'âraxü?* - "¿Cómo se hace la sopa de trigo verde?"
+3) *Pjéko má 'úb'i kuâjtp'ü 'ó ngéjo añimále?* - "¿Qué animales ponen en los bordados?"
+4) *Jânge gá dyä̀t'äji nú b'ë̌'ë?* - "¿Cómo hacen el tejido?"
+5) *Pjéko má jñôna dyà mí né'e má kjâ'a mí ts'íjke?* - "¿Qué comida no te gustaba cuando eras niño/niña?"
 
 #### Respuestas
 
@@ -188,9 +199,9 @@ El sistema de escritura propuesto para esta variante de mazahua queda abierto a 
 ### Autores de la ficha técnica
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- Una lista en el formato: Su Nombre <email@email.com> -->
-Rosario de Fátima Álvarez García: fatimaalvarezgr96@gmail.com
-Juan Castro Gallardo: jcgallardho@gmail.com
-Lorena Abigail Benítez Cruz: abigailbenitez66@gmail.com
+* Rosario de Fátima Álvarez García: fatimaalvarezgr96@gmail.com
+* Juan Castro Gallardo: jcgallardho@gmail.com
+* Lorena Abigail Benítez Cruz: abigailbenitez66@gmail.com
 
 ### Criterios de citación
 <!-- {{CITATION_DESCRIPTION}} -->
@@ -202,6 +213,7 @@ Lorena Abigail Benítez Cruz: abigailbenitez66@gmail.com
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->
 
+Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice.
 
 ## Licencia
 Este conjunto de datos se publica bajo la licencia [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/). Al descargar estos datos
