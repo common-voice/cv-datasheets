@@ -57,7 +57,7 @@ To get more information about this dataset and find out how you can contribute, 
 * **Justin Bakoubolo** <[justin.bakoubolo@umbaji.org](mailto:justin.bakoubolo@umbaji.org)>
 
 ### Funding
-This dataset was made possible by the **Open Multilingual Speech Fund**.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence.  

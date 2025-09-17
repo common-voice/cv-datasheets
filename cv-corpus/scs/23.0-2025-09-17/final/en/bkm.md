@@ -105,7 +105,6 @@ Và lu a Acha va dyaŋ Ashɨŋ.
 ## Get involved!
 
 ### Community links
-
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/bkm/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
@@ -150,6 +149,7 @@ The organization of the data camp was conducted by a dynamic whose dedication is
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

@@ -106,7 +106,6 @@ Me t'issa mindjong.
 ## Get involved!
 
 ### Community links
-
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/eto/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
@@ -150,6 +149,7 @@ Emmanuel Ngue Um <ngueum@gmail.com>, Sosthène Ahanda <ahanda317@gmail.com>
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

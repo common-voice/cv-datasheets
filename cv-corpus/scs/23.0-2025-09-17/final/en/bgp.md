@@ -106,7 +106,6 @@ Healthcare, Nature & environment, Language Fundamentals (e.g. Digits, Letters, M
 ## Get involved!
 
 ### Community links
-
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/bgp/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
@@ -135,6 +134,7 @@ SHUMAILA AMAN amanshumaila@gmail.com
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

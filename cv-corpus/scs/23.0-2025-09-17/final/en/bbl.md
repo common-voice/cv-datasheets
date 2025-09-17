@@ -137,7 +137,7 @@ The biggest obstacle turned out to be:
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Funding
-
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

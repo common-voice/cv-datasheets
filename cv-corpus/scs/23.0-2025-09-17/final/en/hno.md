@@ -131,7 +131,7 @@ There is limited material available of Hinkdo, the corpus of the langauge is mai
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Funding
-Yes Mozilla foundation has provided funding for the said dataset. The efforts of Mesum Alam are acknowledged in this regard because he has managed this project very well. This helped all the contributers to create and update dataset for their ancetral/indegenous laguage.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

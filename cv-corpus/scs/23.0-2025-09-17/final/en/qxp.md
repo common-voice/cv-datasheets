@@ -140,7 +140,7 @@ If you use this data in your research, please cite the following paper:
 <!-- Submitted to SIMBig 2025 (Needs confirmation) -->
 
 ### Funding
-This dataset was partially funded by the Open Multilingual Speech Fund.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

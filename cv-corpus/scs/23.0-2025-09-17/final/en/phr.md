@@ -118,7 +118,7 @@ The text was written in Unicode, following the conventions of Urdu orthography.
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Funding
-This datasheet was created with funding from the Mozilla Foundation. Meesum Alam (meesum.alam12@gmail.com) served as the resource person, coordinating the dispersal of the funds on behalf of Mozilla.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

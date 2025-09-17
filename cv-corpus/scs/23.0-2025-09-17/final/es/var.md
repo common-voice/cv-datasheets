@@ -122,7 +122,6 @@ General
 <!-- Qué debería hacerse antes de usar los datos, por ejemplo normalización de Unicode -->
 
 ### Enlaces comunitarios
-
 * [Traductores de Common Voice en Pontoon](https://pontoon.mozilla.org/var/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
@@ -148,7 +147,7 @@ General
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
-Se recibió financiamiento del programa "Open Multilingual Speech Fund" gestionado por el proyecto Common Voice de la Fundación Mozilla.
+Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiemiento, puede incluir el reconocimiento aquí -->
