@@ -140,7 +140,7 @@ Razwal Kohistani (razwal@gmail.com)
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
-Yes
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

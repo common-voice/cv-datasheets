@@ -106,7 +106,6 @@ Dəf katergən awsla biyin sa? Ka diy pay na bare kidanti.
 ## Get involved!
 
 ### Community links
-
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/gid/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
@@ -146,7 +145,7 @@ Emmanuel Ngue Um <ngueum@gmail.com>, Solange Ankavay <solangeankavay@gmail.com>,
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
-The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

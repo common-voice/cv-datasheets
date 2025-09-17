@@ -165,6 +165,12 @@ Audio recording of the text corpus
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
+### Funding
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
+<!-- {{FUNDING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you received any funding, you can include the acknowledgement here -->
+
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
 you agree to not determine the identity of speakers in the dataset.

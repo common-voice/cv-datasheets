@@ -146,7 +146,7 @@ Common Voice Community
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Funding
-This project was funded by the Common Voice Foundation, and we are deeply grateful for their support. These materials were then converted into individual sentences by Mr. Meesum Alam, whose guidance and leadership were instrumental in successfully completing the project. We extend our heartfelt thanks to the Common Voice Foundation for making this work possible, and special appreciation to Mr. Meesum Alam for his invaluable guidance and dedication throughout the project.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

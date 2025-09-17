@@ -129,7 +129,7 @@ Further post-processing may include verifying the alignment between text and aud
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Funding
-This dataset was funded by Mozilla Pontoon. The project is managed by Meesum Alam, who oversees the funding and coordination.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

@@ -1,73 +1,57 @@
-﻿# *Адыгэбзэ (Къэбэрдей)* &mdash; Kabardian (East Circassian) (`kbd`)
-
+ ﻿ *Адыгэбзэ (Къэбэрдей)* &mdash; Kabardian (East Circassian) (`kbd`)
 This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Kabardian (East Circassian) (`kbd`). The dataset contains 8 hours of recorded
 speech (6 hours validated) from 25 speakers.
 
 ## Language
-
-<!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
 **Kabardian** (/kəˈbɑːrdiən/, also known as *East Circassian*) is a Northwest Caucasian language spoken by the eastern subgroups of Adygheans (Circassians). Identified by the ISO 639-3 code [kbd](https://iso639-3.sil.org/code/kbd), it belongs to the **Northwest Caucasian language family** and is widely considered to be the eastern dialect of Adyghe. Kabardian is also one of the official languages of the Kabardino-Balkarian Republic and the Karachay-Cherkess Republic, both federal subjects of the Russian Federation.
 
 The [Kabardian (East Circassians)](https://en.wikipedia.org/wiki/Kabardians) population is estimated at 500,000 to 750,000, yet only around 300,000 are believed to actively speak the language. Kabardians are primarily located in the **Kabardino-Balkaria** and **Karachay-Cherkessia** republics of **Russia**, with additional diaspora populations in **Turkey**, **Jordan**, **Syria**, and other countries due to historical migrations. The language includes several dialects, with the **Baksan** and **Malka** varieties being the most prominent. However, **only a limited portion of the Kabardian population is considered literate in the language**.
 
 There is no definitive and official publication on this matter. Data published by organizations such as [Wikipedia](https://en.wikipedia.org/wiki/Kabardians), Etnologue, and the Joshua Project do not reflect reality. Many Kabardians living in both the Caucasus and the Diaspora identify themselves as Adyghe unless specifically asked. Therefore, to obtain reliable results, researchers must be well-versed in the Adyghe tribes and their culture.
+<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
-<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 The dataset includes the following distribution of age and gender.
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
-
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
-<!-- 
-| Gender | Frequency |
+<!-- | Gender | Frequency |
 |--------|-----------|
 | male, masculine | ? |
 | undeclared | ? |
-| female, feminine | ? |
--->
+| female, feminine | ? | -->
+
 ### Age
-
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
-
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
-<!-- 
-| Age band | Frequency |
+<!-- | Age band | Frequency |
 |----------|-----------|
 | teens | ? |
 | twenties | ? |
 | thirties | ? |
 | fourties | ? |
 | fifties | ? |
-   ...if other age ranges are present in your data, add rows...
--->
+   ...if other age ranges are present in your data, add rows... -->
 
 ## Transcriptions
-
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- A description of the transcription system used -->
 
 ### Writing system
+The Kabardian language uses the Cyrillic script with some additional letters to represent specific sounds in the language. The [alphabet](https://www.omniglot.com/writing/kabardian.htm) consists of 59 letters, including 33 standard Cyrillic letters and 26 additional letters unique to Kabardian. The writing system is phonetic, meaning that words are generally spelled as they are pronounced. Kabardian is written from left to right.
 
+During the period when there was no Kabardian keyboard option, the recorded text content was written with the Russian keyboard as the closest alternative. The characters in the Kabardian alphabet defined by the Unicode Consortium as "Cyrillic Letter Palocka ('Ӏ': u04C0, utf-8)" and "Cyrillic Letter Small Palocka ('ӏ': u04CF, utf-8)" are not defined in this keyboard model. For this reason, since the early days of computers, when creating digital data in Adyghe or Kabardian, one of the characters "Latin Capital Letter i ('I': u0049, utf-8)", "Latin Small Letter L ('l': u006C, utf-8)" or "Digit One ('1': u0031, utf-8)", albeit rarely "Vertical Line ('|': u007C, utf-8)" was used randomly due to their visual similarities ([Nemlioğlu, 2018](https://www.researchgate.net/publication/385579626_BILISIM_ve_INTERNETTE_ADIGE_DILININ_KULLANIMININ_YAYGINLASMASININ_SAGLANMASI)). This situation emerges as an important factor that negatively affects data quality ([Nemlioğlu,2025](https://www.researchgate.net/publication/395242067_ADYGABZEKE_KLAVIATURER_GEFEDENYM_ERYS_AKYLYM_ISKUSSTVENNYJ_INTELLEKT_IGESENYGE_MEHANEU_SYRIER)).
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
-The Kabardian language uses the Cyrillic script with some additional letters to represent specific sounds in the language. The [alphabet](https://www.omniglot.com/writing/kabardian.htm) consists of 59 letters, including 33 standard Cyrillic letters and 26 additional letters unique to Kabardian. The writing system is phonetic, meaning that words are generally spelled as they are pronounced. Kabardian is written from left to right.
-
-During the period when there was no Kabardian keyboard option, the recorded text content was written with the Russian keyboard as the closest alternative. The characters in the Kabardian alphabet defined by the Unicode Consortium as "Cyrillic Letter Palocka ('Ӏ': u04C0, utf-8)" and "Cyrillic Letter Small Palocka ('ӏ': u04CF, utf-8)" are not defined in this keyboard model. For this reason, since the early days of computers, when creating digital data in Adyghe or Kabardian, one of the characters "Latin Capital Letter i ('I': u0049, utf-8)", "Latin Small Letter L ('l': u006C, utf-8)" or "Digit One ('1': u0031, utf-8)", albeit rarely "Vertical Line ('|': u007C, utf-8)" was used randomly due to their visual similarities ([Nemlioğlu, 2018](https://www.researchgate.net/publication/385579626_BILISIM_ve_INTERNETTE_ADIGE_DILININ_KULLANIMININ_YAYGINLASMASININ_SAGLANMASI)). This situation emerges as an important factor that negatively affects data quality ([Nemlioğlu,2025](https://www.researchgate.net/publication/395242067_ADYGABZEKE_KLAVIATURER_GEFEDENYM_ERYS_AKYLYM_ISKUSSTVENNYJ_INTELLEKT_IGESENYGE_MEHANEU_SYRIER)). 
 
 #### Symbol table
-
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 **Main Alphabet:** (Ordered by ascending) <br>
 ```а э б в г {гу} {гъ} {гъу} д {дж} {дз} е ё ж {жь} з и й к {ку} {кӏ} {кӏу} {къ} {къу} {кхъ} {кхъу} л {лъ} {лӏ} м н о п {пӏ} р с т {тӏ} у ф {фӏ} х {ху} {хь} {хъ} {хъу} ц {цӏ} ч  ш щ {щӏ} ъ ы ь ю я ӏ {ӏу} ```
 
@@ -104,21 +88,20 @@ The following letters are also present in the dataset, but are not part of the o
 
 **Other Languages:** <br>
 Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
+<!-- {{ALPHABET_TABLE}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 #### Extralinguistic tags
-
-<!-- {{EXTRALINGUISTIC_TAGS_DESCRIPTION}} -->
 | Tag          | Meaning                                                                                                                                 |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | [laugh]      | The sound of laughter.                                                                                                                  |
 | [disfluency] | A filler word or sound used as a placeholder whilst a speaker decides what to say. In English, common hesitation sounds are “err”, “um”, “huh”, etc. |
 | [unclear]    | A word or sequence of words that cannot be understood.                                                                                  |
 | [noise]      | Any other type of noise, such as the speaker coughing or clearing their throat, a car honking, the sound of something hitting the microphone, a phone buzzing, etc. |
-
+<!-- {{EXTRALINGUISTIC_TAGS_DESCRIPTION}} -->
 
 ### Variants
-<!-- {{VARIANT_DESCRIPTIONS}} -->
-<!-- @ OPTIONAL @ -->
 The following table presents the general language variants of the Kabardian language used in the Common Voice project.
 
 | Language Variant                                               | BCP-47 Tag                         | Script                  | Short Description       |
@@ -131,49 +114,41 @@ The following table presents the general language variants of the Kabardian lang
 | Kabardian/East Circassian (Cyrillic, Syria)                    | kbd-Cyrl-SY                        | Cyrillic                | Specified for literate speakers in Syria. |
 
 **Questions in the MCV-SS project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Kabardian alphabet.
+<!-- {{VARIANT_DESCRIPTIONS}} -->
+<!-- @ OPTIONAL @ -->
 
 ### Samples
 
 #### Questions
-
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 <!-- {{QUESTIONS_SAMPLE}} -->
 
 #### Responses
-
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Recommended post-processing
-
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 These transcriptions are provided as-is, and no additional post-processing is required. However, users may choose to perform Unicode normalization (NFC or NFD) depending on their specific use case.
 
 Although the sentences (questions/translation texts) have been written and verified using correct Unicode characters via the [**ady & kbd keyboard for Windows**](https://www.nemerko.org/adyghe-circassian-keyboard-for-windows-7-11/), it is possible that some text inputs beyond our control may have been submitted due to **Common Voice’s open participation model**.
 
 After the datasets are published, we **re-audit** these entries and take the necessary steps to ensure **corrections in the next release**.
+<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ## Get involved!
 
 ### Community links
-
-<!-- {{COMMUNITY_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Links to community chats / fora -->
 If you want to join kbd community, start here: https://bit.ly/cv_circassian_start_here
 
 You can find more information about how to participate in the Common Voice Project on the following page:  
 [Community Participation Guidelines](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)
-
+<!-- {{COMMUNITY_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Links to community chats / fora -->
 
 ### Contribute
-
-<!-- {{CONTRIBUTE_LINKS_LIST}} -->
-<!-- Here you can include links for how to contribute to the dataset -->
 We do not advice to contribute to this dataset directly, because of writting system-keyboard issues. Please, read the section "Writing system" above and the following article: https://www.nemerko.org/the-importance-of-adyghe-keyboard-usage-for-artificial-intelligence-training/
 
 If you want to contribute to the Kabardian language, please visit the following links:
@@ -181,39 +156,36 @@ https://bit.ly/cv_circassian_start_here
 
 
 	A special thanks to all the volunteers who contributed to this dataset.
-
+<!-- {{CONTRIBUTE_LINKS_LIST}} -->
+<!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
 
 ### Datasheet authors
-
+* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
+* Murat Topçu <murattopcu67@hotmail.com> <br>
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-* Murat Topçu <murattopcu67@hotmail.com> <br>	
 
 ### Dataset curators
-<!-- {{DATASET_CURATORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com>-->
 * Murat Topçu <murattopcu67@hotmail.com> <br>	
 * Elizaveta Gogunokova <br>
 * Saida Abregova <br>
 * M.Uğur Nemlioğlu <br>
+<!-- {{DATASET_CURATORS_LIST}} -->
+<!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Advisors
-<!-- {{ADVISORS_LIST}} -->
-<!-- A list in the format of: Your Name-->
 * Bülent Özden (Technical Advisor)<br>
+<!-- {{ADVISORS_LIST}} -->
+<!-- A list in the format of: Your Name -->
 
 ### Funding
-
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-This dataset was partially funded by the Open Multilingual Speech Fund.
 
 ## Licence
-
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
 you agree to not determine the identity of speakers in the dataset.
-

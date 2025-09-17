@@ -113,7 +113,6 @@ Mbétékénô zê udzanamú itéka manônōh má wenga.
 ## Get involved!
 
 ### Community links
-
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/bag/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
@@ -155,7 +154,7 @@ Marguérite Flore Ndjana <ndjanamarguerite@gmail.com>
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
-The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

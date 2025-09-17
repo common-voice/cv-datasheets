@@ -1,9 +1,8 @@
-import sys
 import csv
 import json
+import sys
 
 from scripts.datasheet import CVDatasheet
-
 
 # TODO: Think how to manage localization correctly
 
@@ -261,7 +260,9 @@ def fill_sps_stats(template: CVDatasheet, data: dict, lang_code: str):
     stats_content += f"* Duration: `{data.get('duration')}[ms]`\n"
     stats_content += f"* Avg. Transcription Len: `{data.get('avgTranscriptLen')}`\n"
     stats_content += f"* Avg. Duration: `{round(data.get('avgDurationSecs'), 2)}[s]`\n"
-    stats_content += f"* Valid Duration: `{round(data.get('validDurationSecs'), 2)}[s]`\n"
+    stats_content += (
+        f"* Valid Duration: `{round(data.get('validDurationSecs'), 2)}[s]`\n"
+    )
     stats_content += f"* Total hours: `{round(data.get('totalHrs'), 2)}[h]`\n"
     stats_content += f"* Valid hours: `{round(data.get('validHrs'), 2)}[h]`\n"
     template.append_content(stats_section, stats_content)
@@ -362,7 +363,9 @@ def fill_scs_samples(template: CVDatasheet, data: list[str], lang_code: str):
     template.append_content(samples_section, samples_content)
 
 
-def fill_data_splits(template: CVDatasheet, data: dict, modality: str, lang_code: str) -> None:
+def fill_data_splits(
+    template: CVDatasheet, data: dict, modality: str, lang_code: str
+) -> None:
     data_splits_content = ""
 
     if lang_code == "es":
@@ -389,6 +392,17 @@ def fill_data_splits(template: CVDatasheet, data: dict, modality: str, lang_code
     template.append_content(data_splits_section, data_splits_content)
 
 
+def fill_fundings(template: CVDatasheet, locale: str, lang_code: str) -> None:
+    if lang_code == "es":
+        funding_section = "Financiamiento"
+        funding_content = "Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice."
+    elif lang_code == "en":
+        funding_section = "Funding"
+        funding_content = "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+
+    template.append_content(funding_section, funding_content)
+
+
 template_languages = get_template_languages_data(languages_file)
 metadata = get_metadata_data(metadata_file)
 # TODO: By now only for scripted dataheets
@@ -396,6 +410,7 @@ demographic_data = read_json_file(SCS_DEMOGRAPHIC_PATH).get("locales")
 sps_stats_data = read_json_file(SPS_STATS_PATH)
 scs_sentences = read_json_file(SCS_SENTENCES_PATH)
 sps_report = read_tsv_file(SPS_REPORT_PATH)
+funding_data = [row[0] for row in read_tsv_file("metadata/funding.tsv")]
 
 for modality in metadata:
     for locale in metadata[modality]:
@@ -406,6 +421,8 @@ for modality in metadata:
             template = template_file.read()
         ds = CVDatasheet(template)
         fill_community_links(ds, locale, modality, lang_code)
+        if locale in funding_data:
+            fill_fundings(ds, locale, lang_code)
         if modality == "scs":
             # Cotribute links with locale only for scripted mode
             fill_contribute_links(ds, locale, lang_code)
@@ -421,11 +438,14 @@ for modality in metadata:
             stats = sps_stats_data.get(locale)
             splits = {}
             for line in sps_report:
-                if line[0] == locale and int(line[2]) + int(line[3]) + int(line[4]) != 0:
+                if (
+                    line[0] == locale
+                    and int(line[2]) + int(line[3]) + int(line[4]) != 0
+                ):
                     splits = {
                         "train": int(line[2]),
                         "test": int(line[4]),
-                        "dev": int(line[3])
+                        "dev": int(line[3]),
                     }
             if splits:
                 fill_data_splits(ds, splits, modality, lang_code)

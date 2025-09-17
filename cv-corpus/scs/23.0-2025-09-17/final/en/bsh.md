@@ -142,7 +142,7 @@ Yes. It is recommended to apply additional noise reduction, normalize audio leve
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
-Meesum Alam: meesum.alam12@gmail.com
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

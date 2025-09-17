@@ -108,7 +108,6 @@ Se siguieron pautas comunes de lenguaje cotidiano y representativo.
 <!-- Qué debería hacerse antes de usar los datos, por ejemplo normalización de Unicode -->
 
 ### Enlaces comunitarios
-
 * [Traductores de Common Voice en Pontoon](https://pontoon.mozilla.org/ncx/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
@@ -134,7 +133,7 @@ Luis Samuel Santiago Melchor: lssm8676969@gmail.com
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
-Mozilla Common Voice.
+Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->

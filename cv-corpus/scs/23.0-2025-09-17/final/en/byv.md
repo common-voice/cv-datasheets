@@ -108,7 +108,6 @@ Nse’ ntshundà mbètte nzwi ndù :
 ## Get involved!
 
 ### Community links
-
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/byv/common-voice/contributors/)
 * [Original language request on GitHub](https://github.com/common-voice/common-voice/issues/3846)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
@@ -156,7 +155,7 @@ Association for Computational Linguistics (ACL).
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
-The organization of the data camp that led to the compilation of this dataset was made possible by a grant by the Mozilla Foundation under the Opem Multingual Speech Fund (OMSF)
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

@@ -121,7 +121,7 @@ If you use this dataset in your research, please cite the following publication:
 <!-- Submitted to SIMBig 2025 (Needs confirmation). -->
 
 ### Funding
-This dataset was funded by the Mozilla Foundation Open Multilingual Speech Fund.
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

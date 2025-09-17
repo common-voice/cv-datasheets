@@ -119,7 +119,7 @@ Common Voice Community
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Funding
-Yes, via Meesum Alam: meesum.alam12@gmail.com
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->

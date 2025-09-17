@@ -169,6 +169,8 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
+
+Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->

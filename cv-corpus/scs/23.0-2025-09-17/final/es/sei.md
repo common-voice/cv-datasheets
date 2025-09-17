@@ -1,6 +1,6 @@
-# *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} ({{LOCALE}})
+# *_* &mdash; Seri (sei)
 Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos de voz guiada de Mozilla Common Voice 
-para {{ENGLISH_NAME}} ({{LOCALE}}).
+para Seri (sei). El conjunto de datos contiene 11 horas de grabaciones (11 horas validadas) de 16 hablantes.
 
 ## Idioma
 El idioma seri, conocida como cmiique iitom \[kw̃ĩˈkiitom\] en el idioma mismo, se habla a lo largo del Golfo de California en el estado mexicano de Sonora. Desde 1970, el pueblo seri vive en un ejido decretado por el presidente mexicano, que incluye dos pueblos, Socaaix (Punta Chueca) y Haxöl Iihom (Desemboque). Hoy en día hay alrededor de 900 hablantes del idioma.
@@ -107,7 +107,6 @@ Las oraciones son uniformemente oraciones de ejemplo de diccionario, aunque algu
 ## ¡Involúcrate!
 
 ### Enlaces comunitarios
-
 * [Traductores de Common Voice en Pontoon](https://pontoon.mozilla.org/sei/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPCIONAL @ -->
@@ -133,7 +132,8 @@ Las oraciones son uniformemente oraciones de ejemplo de diccionario, aunque algu
 <!-- @ OPCIONAL @ -->
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
-### Financiación
+### Financiamiento
+Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiación, puede incluir el reconocimiento aquí -->
