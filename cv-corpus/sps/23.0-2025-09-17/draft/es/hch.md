@@ -8,11 +8,21 @@ para Wixárika (`hch`). El conjunto de datos contiene 1553 representando 11 hora
 <!-- Proporciona una breve descripción (1-2 párrafos) de tu lengua -->
 
 ## Información demográfica
+Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea 
+disponible en el próximo lanzamiento.
+
+
+<!--
 El conjunto de datos incluye la siguiente distribución de edad y género.
 <!-- Puedes obtener gran parte de la información de esta sección desde [https://analyzer.cv-toolbox.web.tr/browse](https://analyzer.cv-toolbox.web.tr/browse) -->
 
 ### Género
 Información de género autodeclarada; la frecuencia se refiere al número de fragmentos anotados con este género.
+-->
+
+
+
+<!--
 <!-- {{GENDER_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- | Género              | Frecuencia |
@@ -23,6 +33,7 @@ Información de género autodeclarada; la frecuencia se refiere al número de fr
 
 ### Edad
 Información de edad autodeclarada; la frecuencia se refiere al número de fragmentos anotados con esta franja etaria.
+-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 <!-- | Franja etaria  | Frecuencia |
@@ -43,6 +54,7 @@ Información de edad autodeclarada; la frecuencia se refiere al número de fragm
 | Train | 857 |
 | Dev | 472 |
 
+<!-- @ GENERADO AUTOMÁTICAMENTE @ -->
 
 ## Transcripciones
 
@@ -163,6 +175,8 @@ Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la si
 <!-- Si publicó un artículo y desea que lo citen, puede incluir el BiBTeX aquí -->
 
 ### Financiamiento
+
+Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPCIONAL @ -->
 <!-- Si recibió financiamiento, puede incluir el reconocimiento aquí -->
