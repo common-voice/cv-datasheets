@@ -122,7 +122,7 @@ def smart_update_section(
     elif section_title == "funding" and (
         "multingual speech fund" in final_content or "omfs" in final_content
     ):
-        # Skip adding founding string
+        # Skip adding funding string
         return
 
     final_ds.append_content(localized_section, draft_section.content)
@@ -168,7 +168,7 @@ def read_tsv_file(file_name: str) -> list[list[str]]:
     return data
 
 
-OMSF_FOUNDING = [row[0] for row in read_tsv_file("metadata/funding.tsv")]
+OMSF_FUNDING = [row[0] for row in read_tsv_file("metadata/funding.tsv")]
 
 
 def main():
@@ -214,9 +214,13 @@ def main():
                     # )
                     continue
                 final_datasheet = CVDatasheet(markdown_text=md_final_text)
-                # update founding only
+                # update funding only
 
-                if locale in OMSF_FOUNDING:
+                if locale in OMSF_FUNDING:
+                    final_content = final_datasheet._section_map.get(
+                        get_localize_section(lang_code, "funding")
+                    ).content.lower()
+                    if final_content
                     replace_content_section(
                         draft_datasheet, final_datasheet, "funding", lang_code
                     )

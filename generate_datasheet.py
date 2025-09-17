@@ -392,15 +392,15 @@ def fill_data_splits(
     template.append_content(data_splits_section, data_splits_content)
 
 
-def fill_foundings(template: CVDatasheet, locale: str, lang_code: str) -> None:
+def fill_fundings(template: CVDatasheet, locale: str, lang_code: str) -> None:
     if lang_code == "es":
-        founding_section = "Financiamiento"
-        founding_content = "Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice."
+        funding_section = "Financiamiento"
+        funding_content = "Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice."
     elif lang_code == "en":
-        founding_section = "Funding"
-        founding_content = "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+        funding_section = "Funding"
+        funding_content = "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
 
-    template.append_content(founding_section, founding_content)
+    template.append_content(funding_section, funding_content)
 
 
 template_languages = get_template_languages_data(languages_file)
@@ -410,7 +410,7 @@ demographic_data = read_json_file(SCS_DEMOGRAPHIC_PATH).get("locales")
 sps_stats_data = read_json_file(SPS_STATS_PATH)
 scs_sentences = read_json_file(SCS_SENTENCES_PATH)
 sps_report = read_tsv_file(SPS_REPORT_PATH)
-founding_data = [row[0] for row in read_tsv_file("metadata/funding.tsv")]
+funding_data = [row[0] for row in read_tsv_file("metadata/funding.tsv")]
 
 for modality in metadata:
     for locale in metadata[modality]:
@@ -421,8 +421,8 @@ for modality in metadata:
             template = template_file.read()
         ds = CVDatasheet(template)
         fill_community_links(ds, locale, modality, lang_code)
-        if locale in founding_data:
-            fill_foundings(ds, locale, lang_code)
+        if locale in funding_data:
+            fill_fundings(ds, locale, lang_code)
         if modality == "scs":
             # Cotribute links with locale only for scripted mode
             fill_contribute_links(ds, locale, lang_code)
