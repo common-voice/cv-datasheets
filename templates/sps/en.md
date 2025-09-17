@@ -119,7 +119,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 ####
 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demographics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.
