@@ -8,11 +8,22 @@ speech (1 hours validated) from 29 speakers.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
+We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information
+is not available.
+
+
+
+<!--
 The dataset includes the following distribution of age and gender.
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+-->
+
+
+
+<!--
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -23,6 +34,7 @@ Self-declared gender information, frequency refers to the number of clips annota
 
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -44,6 +56,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 | Test | 316 |
 | Dev | 285 |
 
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 
@@ -120,7 +133,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 * `split` - for data modelling, which subset of the data does this clip pertain to
 * `char_per_sec` - how many characters of transcription per second of audio
 * `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
-   *  `transcription-length` - character per second under 3 characters per second
+   * `transcription-length` - character per second under 3 characters per second
    * `speech-rate` - characters per second over 30 characters per second
    * `short-audio` - audio length under 2 seconds
    * `long-audio` - audio length over 30 seconds
@@ -168,6 +181,8 @@ information.
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
