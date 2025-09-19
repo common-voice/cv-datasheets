@@ -180,6 +180,12 @@ information.
 
 ## Acknowledgements
 
+### Datasheet authors
+<!-- {{DATASHEET_AUTHORS_LIST}} -->
+<!-- A list in the format of: Your Name <email@email.com> -->
+
+Common Voice Community
+
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
 you agree to not determine the identity of speakers in the dataset.
