@@ -100,7 +100,7 @@ Catalan is written using the Latin alphabet (abcdefghijklmnopqrstuvwxyz), with t
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-abcçdefghijklmnopqrstuvwxyzàèéíòóúïü
+```a b c ç d e f g h i j k l m n o p q r s t u v w x y z à è é í ò ó ú ï ü```
 
 ### Sample
 There follows a randomly selected sample of five sentences from the corpus.
@@ -142,16 +142,6 @@ Res ni ningú guanyar ni doblegarà les nostres ànsies de llibertat, va escriur
 <!-- @ OPTIONAL @ -->
 <!-- What text domains are represented in the corpus? -->
 
-### Processing
-<!-- {{PROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- How has the text data been processed -->
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation -->
-
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
 
@@ -182,10 +172,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 
@@ -197,20 +183,6 @@ information.
 <!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
-
-### Datasheet authors
-<!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
-### Funding
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
