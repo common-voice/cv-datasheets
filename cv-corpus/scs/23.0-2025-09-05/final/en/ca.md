@@ -115,10 +115,6 @@ Res ni ningú guanyar ni doblegarà les nostres ànsies de llibertat, va escriur
 
 <!-- {{SENTENCES_SAMPLE}} -->
 
-### Sources
-<!-- {{SOURCES_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A list of sentence sources, can be curated to the top-N -->
 
 ### Text domains
 
