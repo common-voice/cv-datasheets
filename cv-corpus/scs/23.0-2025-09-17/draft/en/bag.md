@@ -69,7 +69,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
-The collection os sentence prompts provided by the language representatives aligns with the General Alphabet of Cameroonian Languages
+The collection of sentence prompts provided by the language representatives aligns with the General Alphabet of Cameroonian Languages
 
 #### Symbol table
 
