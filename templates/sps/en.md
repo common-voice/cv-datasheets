@@ -1,7 +1,7 @@
 # *{{NATIVE_NAME}}* &mdash; {{ENGLISH_NAME}} (`{{LOCALE}}`)
 
 This datasheet is for version {{VERSION}} of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for {{ENGLISH_NAME}} (`{{LOCALE}}`). The dataset contains {{HOURS_RECORDED}} hours of recorded
+for {{ENGLISH_NAME}} (`{{LOCALE}}`). The dataset contains {{CLIPS}} clips representing {{HOURS_RECORDED}} hours of recorded
 speech ({{HOURS_VALIDATED}} hours validated) from {{SPEAKERS}} speakers.
 
 ## Language
@@ -10,13 +10,19 @@ speech ({{HOURS_VALIDATED}} hours validated) from {{SPEAKERS}} speakers.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
+
+We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information
+is not available.
+
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
+
+<!--
 The dataset includes the following distribution of age and gender.
 
 ### Gender
 
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
-
+-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- 
@@ -26,10 +32,11 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? |
 -->
+<!--
 ### Age
 
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
-
+-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- 
@@ -42,6 +49,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows...
 -->
+
+## Data splits for modelling
+
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 
@@ -82,6 +93,37 @@ There follows a randomly selected sample of transcribed responses from the corpu
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
+### Fields
+
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `audio_id` - numeric id for audio file
+* `audio_file` - audio file name
+* `duration_ms` - duration of audio in milliseconds
+* `prompt_id` - numeric id for prompt
+* `prompt` - question for user
+* `transcription` - transcription of the audio response
+* `votes` - number of people that who approved a given transcript
+* `age` - age of the speaker[^1]
+* `gender` - gender of the speaker[^1]
+* `language` - language name
+* `split` - for data modelling, which subset of the data does this clip pertain to
+* `char_per_sec` - how many characters of transcription per second of audio
+* `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
+   * `transcription-length` - character per second under 3 characters per second
+   * `speech-rate` - characters per second over 30 characters per second
+   * `short-audio` - audio length under 2 seconds
+   * `long-audio` - audio length over 30 seconds
+
+####
+
+[^1]: For a full list of age, gender, and accent options, see the
+[demographics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
+
 ## Get involved!
 
 ### Community links
@@ -100,6 +142,12 @@ There follows a randomly selected sample of transcribed responses from the corpu
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
+
+* [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
+* [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
+* [Answer questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)
+* [Transcribe recordings](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)
+* [Validate transcriptions](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)
 
 ## Acknowledgements
 
