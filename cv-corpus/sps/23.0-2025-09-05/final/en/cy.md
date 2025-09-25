@@ -10,7 +10,7 @@ speech (0 hours validated) from 1 speakers.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 The Welsh language (Cymraeg - /kəmˈraːiɡ/) belongs to the Celtic language family, specifically the Brythonic branch of Insular Celtic. Welsh evolved in the 6th century, alongside Breton and Cornish, from Common Brittonic, the common language previously spoken throughout Great Britain during the Iron Age and Roman period. The language has experienced contact with English since medieval times, leading to extensive lexical borrowing and gradual language shift intensified by socioeconomic factors and educational policies. It's resilience however stems from concentrated communities, intergenerational transmission, cultural traditions like the Eisteddfod, and religious revival movements. Strategic activism by speakers from the 1960s onwards has transformed Welsh from a declining minority language into one with official legal status. The most recent census shows 538,300 speakers (17.8% of Wales' population), though other surveys suggest higher figures of up to 862,700 speakers. Legislation by the Senedd (Welsh Parliament) supports revitalization through education and technology, with the goal of achieving one million speakers and doubled daily usage by 2050.
 
-Welsh language speech varies significantly across proficiency levels (from native speakers and learners to passive understanders), regional dialects (mainly northern and southern, plus Patagonian Welsh), and registers (formal literary Welsh versus colloquial spoken forms that show heavy English influence and frequent code-switching). Speaker competence ranges widely, with some demonstrating full fluency across all domains while others show more limited or context-specific abilities.
+Welsh language speech varies significantly across proficiency levels (from native speakers and learners to passive understanders), regional dialects (mainly northern and southern, plus Patagonian Welsh), and registers (formal literary Welsh versus more informal colloquial spoken forms that sometimes incorporates code-switching). Speaker competence ranges widely, with some demonstrating full fluency across all domains while others show more limited or context-specific abilities.
 
 
 ## Demographic information
@@ -57,15 +57,17 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
-Welsh employs a Latin alphabet of 28 letters, including eight digraphs (ch, dd, ff, ng, ll, ph, rh, th) treated as single letters for alphabetization, and treats "w" and "y" as vowels. The orthography is largely phonetic with predictable sound-letter correspondences. Loanwords, especially from English, are occasionally adapted to Welsh spelling conventions.
+Welsh employs a Latin alphabet of 29 letters, including eight digraphs (ch, dd, ff, ng, ll, ph, rh, th) treated as single letters for alphabetization, and treats "w" and "y" as vowels. The orthography is largely phonetic with predictable sound-letter correspondences. Loanwords, especially from English, are occasionally adapted to Welsh spelling conventions.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-The 28 letters used for alphabetization in Welsh are:
+The 29 letters used for alphabetization in Welsh are:
 
-a, b, c, ch, d, dd, e, f, ff, g, ng, h, i, l, ll, m, n, o, p, ph, r, rh, s, t, th, u, w, y
+a, b, c, ch, d, dd, e, f, ff, g, ng, h, i, j, l, ll, m, n, o, p, ph, r, rh, s, t, th, u, w, y
+
+The letter j is borrowed from English to represent the borrowed /dʒ/ consonant phoneme. 
 
 Welsh also uses diacritical marks on vowels (considered variants of their base letters, not separate letters for alphabetization):
 
@@ -77,7 +79,7 @@ With grave accent: à, è, ì, ò, ù, ẁ, ỳ
 
 With diaeresis: ä, ë, ï, ö, ü, ẅ, ÿ
 
-The traditional system lacks letters j, k, q, v, x, z, although these can appear in proper nouns and technical terms. 
+The traditional system lacks letters k, q, v, x, z, although these can appear in proper nouns and technical terms. 
 
 
 #### Extralinguistic tags
