@@ -7,6 +7,23 @@ speech (6 hours validated) from 11 speakers.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
+Basaa is a narrow Bantu language spoken across a geographical area spanning three administrative regions in Cameroon: the Centre, Littoral and South regions. It is estimated that there are currently around 600,000–700,000 speakers. This figure includes different varieties, as well as diasporic populations who identify as Basaa speakers.
+
+The vitality of the Basaa language is stable (Ethnologue online). However, intergenerational transmission of Basaa is increasingly threatened among parents aged 50 and under, particularly in urban areas.
+
+Although Basaa is taught in schools, this does not significantly impact the vitality of the language, mainly due to the current pedagogical approach, which relies on rule-based and descriptivist teaching methods.
+
+The glossonym 'Basaa' is a generic term that encompasses a range of varieties, the speakers of which may identify with the 'Basaa' label to varying degrees, depending on a complex set of geographical, social, political, situational and pragmatic factors. Whether a language variant is considered Basaa depends greatly on the perspective of the person 'telling the story'. Some of the most commonly acknowledged varieties of Basaa include:
+- Mbene
+- Bikok
+- Babimbi
+- Basaa ba Omeng
+- Basaa ba Yabasi 
+Basaa ba Duala
+- Ndog-Bikim
+
+Other varieties, such as Ndonga, Mbaa (also known as Mbay-Bati) and Hijuk, may also be classified as Basaa. However, as previously mentioned, not everyone agrees on this classification.
+
 ## Demographic information
 We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information
 is not available.
@@ -75,6 +92,9 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+
+The prompts and responses in this dataset are written in the Latin alphabet, following the orthography of Protestant missionaries but with modifications introduced by the dataset's author. One such modification is the use of an apostrophe before the symbols 'y' and 'b' to signal nasal prefixes. For example:
+'me n'yo': 'stealing palm wine from the palm trunk' (as opposed to *me nyo*, meaning 'drinking'), and *m'bôñ*, meaning 'poison'. 'cassava' (vs. 'mbôñ': 'poison'). As a general rule, the apostrophe signals 'accidentals' of a morphological or prosodic nature.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
@@ -170,10 +190,13 @@ information.
 <!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
+The recording of spontaneous speech for this dataset was made with volunteer contribution from individuals who are not cited here for privacy reasons, but whose invulable contribution is acknowledged.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+
+Emmanuel Ngue Um <ngueum@gmail.com>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
@@ -184,6 +207,7 @@ information.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+The compilation of this dataset was made possible thanks to grant awarded by the Mozilla Foundation
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
