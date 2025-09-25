@@ -6,8 +6,17 @@ for Aragonese (`an`). The dataset contains 19 clips representing 1 hours of reco
 speech (1 hours validated) from 1 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
+Aragonese is a Romance language spoken in several dialects by about 8,000&mdash;12,000 people in the northern areas of Aragon, Spain, primarily in the counties of Chacetania, Alto Galligo, Sobrarbe and Ribagorza. The language vitality status is Endangered according to https://www.ethnologue.com/language/arg/. At the moment, Spanish influences the native speakers, which may cause code mixing in a spontaneous speech. 
+
+<!-- ### Variants -->
+<!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Describe the variants (MCV variants) of your language -->
+<!-- Original Answer: -->
+<!-- There are currently no variants defined for Aragonese. -->
+<!-- ### Accents -->
+<!-- #### Predefined -->
+<!-- There are currently no pre-defined accents. -->
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -50,9 +59,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A description of the writing system (or writing systems) used in the text corpus -->
+In 2023, the [Academia Aragonesa de la Lengua](https://academiaaragonesadelalengua.org), a public institution created as language regulatory body, established the [Orthography of Aragonese](https://https://academiaaragonesadelalengua.org/sites/default/files/ficheros-pdf/ortografia-aragones.pdf) as the official spelling for the language. The spelling system is flexible enough to allow writing all Aragonese varieties. All the transcriptions have been done using the official orthography (using Spanish spelling when words of this language were intercalated in the speech).
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
@@ -148,6 +155,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+* Juan Pablo Martínez <juanpabl@gmail.com>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
@@ -158,6 +166,7 @@ information.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+This dataset was partially funded by the Open Multilingual Speech Fund.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
