@@ -101,6 +101,9 @@ ya plijout a rin labourat kar me a labour e bed ar brezhoneg [eeeuu] o stourmiñ
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
+In Breton, c'h is considered to be a letter. To avoid confusion with the final apostrophe (U+2019 RIGHT SINGLE QUOTATION MARK), you can use the character U+02BC MODIFIER LETTER APOSTROPHE for natural language processing purposes.
+
+c'h : U+0063 LATIN SMALL LETTER C  U+02BC MODIFIER LETTER APOSTROPHE  U+0068 LATIN SMALL LETTER H
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
