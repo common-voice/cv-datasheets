@@ -20,12 +20,17 @@ The language evolved from Vulgar Latin in the Middle Ages.
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 The main variants of Catalan are:
-* Central: It is the variant with the most speakers, as it encompasses the metropolitan area of Barcelona, extending to the region of Girona and the eastern half of Tarragona
-* Nord-western: Spoken in Andorra, Lleida and the western half of Tarragona in Catalonia, and the eastern part of Aragon
+* Central [ca-central]: It is the variant with the most speakers, as it encompasses the metropolitan area of Barcelona, extending to the region of Girona and the eastern half of Tarragona
+* Balearic [ca-balear]: The variant used in the Balearic Islands
+* Nord-Occidental [ca-nwestern]: Spoken in Andorra, Lleida and the western half of Tarragona in Catalonia, and the eastern part of Aragon
+* Septentrional [ca-northern]: Corresponds to the area of Roussillon and the northern part of Girona
 * Valencian: Spoken in the Valencian comunity, where it's also known as "Valencian"
-* Northern: Corresponds to the area of Roussillon and the northern part of Girona
-* Balearic: The variant used in the Balearic Islands
-* Alguerese: Spoken in the city of Alghero, in Sardinia
+  * Valencià meridional [ca-valencia-southern]
+  * Alacantí [ca-valencia-alacant]
+  * Valencià septentrional [ca-valencia-northern]
+  * Tortosí [ca-valencia-tortosi]
+  * Valencià central [ca-valencia-central]
+* Alguerese [ca-algueres]: Spoken in the city of Alghero, in Sardinia
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -138,6 +143,13 @@ Res ni ningú guanyar ni doblegarà les nostres ànsies de llibertat, va escriur
 <!-- @ OPTIONAL @ -->
 <!-- What text domains are represented in the corpus? -->
 
+### Recommended post-processing
+<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What should people do before they use the data, for example Unicode normalisation -->
+
+It is recommended to normalize instances of the geminate L, which can take the equivalent forms of l·l or ŀl.
+
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
 
@@ -184,7 +196,7 @@ information.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-Common Voice Community
+* Carme Armentano <carme.armentano@bsc.es>
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
