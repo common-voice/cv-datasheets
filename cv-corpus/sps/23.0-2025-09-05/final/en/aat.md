@@ -8,6 +8,7 @@ speech (0 hours validated) from 5 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Arvanitika (/ˌɑːrvəˈnɪtɪkə/; Arvanitika: αρbε̰ρίσ̈τ, romanized: arbërisht; Greek: αρβανίτικα, romanized: arvanítika), also known as Arvanitic, is the variety of Albanian traditionally spoken by the Arvanites, a population group in Greece. Arvanitika was brought to Southern Greece during the late Middle Ages by Albanian settlers who moved south from their homeland in present-day Albania in several waves. The dialect preserves elements of medieval Albanian, while also being significantly influenced by the Greek language. Arvanitika is today endangered, as its speakers have been shifting to the use of Greek and most younger members of the community no longer speak it.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -53,6 +54,12 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+Following the writing rules of modern Albanian, while keeping the Greek alphabet for sounds not existing in Albanian.
+In cases of code-switching, write the Greek portion using Greek letters, even for isolated Greek words.
+*Use the capital letter E to represent the Albanian letter ë [ǝ].
+*Use the capital letter C to represent the Albanian letter ç [tš].
+*For γ before α and ο, retain γ or alternatively write gh.
+*For χ before ε and ι, retain χ or alternatively write hj
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
@@ -148,6 +155,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+vivianstamou@gmail.com
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
