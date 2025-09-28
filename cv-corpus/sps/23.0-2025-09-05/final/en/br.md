@@ -1,9 +1,8 @@
 # *Brezhoneg* &mdash; Breton (`br`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Breton (`br`). The dataset contains 28 clips representing 0.1 hours of recorded
-speech (0.01 hours validated) from 5 speakers.
+for Breton (`br`). The dataset contains 28 clips representing 1 hours of recorded
+speech (1 hours validated) from 5 speakers.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
@@ -63,11 +62,11 @@ The writing system in this dataset uses general Latin script. The diacritics à,
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-a â b ch c'h d e ê f g h i j k l m n ñ o ô p r s t u ù û ü v w y z
+```a â b ch c'h d e ê f g h i j k l m n ñ o ô p r s t u ù û ü v w y z```
 
-à è é (for gwenedeg variant) 
+```à è é``` (for gwenedeg variant) 
 
-c q x (foreign, loanwords)
+```c q x``` (foreign, loanwords)
 
 #### Extralinguistic tags
 
@@ -142,14 +141,9 @@ information.
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
-https://www.brezhoneg.bzh/  (public institution in charge of promoting and developing the teaching and use of the Breton language in everyday life)
+* [Ofis Publik ar Brezhoneg](https://www.brezhoneg.bzh/)  (public institution in charge of promoting and developing the teaching and use of the Breton language in everyday life)
 
-https://niverel.brezhoneg.bzh/br/home/ (portal gathering various digital tools relating to the Breton language)
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+* [Porched niverel ar brezhoneg](https://niverel.brezhoneg.bzh/br/home/) (portal gathering various digital tools relating to the Breton language)
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -167,10 +161,6 @@ https://niverel.brezhoneg.bzh/br/home/ (portal gathering various digital tools r
 <!-- A list in the format of: Your Name <email@email.com> -->
 Contact us via  https://www.fr.brezhoneg.bzh/171-contact.htm
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
