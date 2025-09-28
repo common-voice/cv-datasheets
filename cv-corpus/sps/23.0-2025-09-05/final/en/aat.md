@@ -1,5 +1,4 @@
 # *Arvanitika* &mdash; Arvanitika (`aat`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Arvanitika (`aat`). The dataset contains 334 clips representing 3 hours of recorded
@@ -55,11 +54,13 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 Following the writing rules of modern Albanian, while keeping the Greek alphabet for sounds not existing in Albanian.
+
 In cases of code-switching, write the Greek portion using Greek letters, even for isolated Greek words.
-*Use the capital letter E to represent the Albanian letter ë [ǝ].
-*Use the capital letter C to represent the Albanian letter ç [tš].
-*For γ before α and ο, retain γ or alternatively write gh.
-*For χ before ε and ι, retain χ or alternatively write hj
+
+* Use the capital letter E to represent the Albanian letter ë [ǝ].
+* Use the capital letter C to represent the Albanian letter ç [tš].
+* For γ before α and ο, retain γ or alternatively write gh.
+* For χ before ε and ι, retain χ or alternatively write hj
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
@@ -136,11 +137,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
@@ -155,12 +151,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-vivianstamou@gmail.com
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Vivian Stamou <vivianstamou@gmail.com>
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
