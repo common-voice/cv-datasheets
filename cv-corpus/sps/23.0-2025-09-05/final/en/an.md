@@ -1,5 +1,4 @@
 # *Aragonés* &mdash; Aragonese (`an`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Aragonese (`an`). The dataset contains 19 clips representing 1 hours of recorded
@@ -94,11 +93,6 @@ L'orache en lo mío lugar habría que estar como l'orache de lo mont en lo Pirin
 ```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
-
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
 
@@ -136,10 +130,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -157,10 +147,6 @@ information.
 <!-- A list in the format of: Your Name <email@email.com> -->
 * Juan Pablo Martínez <juanpabl@gmail.com>
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
