@@ -6,7 +6,7 @@ for Sena (`seh`). The dataset contains 21 clips representing 1 hours of recorded
 speech (0 hours validated) from 1 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- {{LANGUAGE_DESCRIPTION}} --> The Sena language (hereinafter Cisena, N 44 in the Guthrie classification, 1967-71), is a language originally belonging to the Congo-Kordophonian (Niger-Congo) family of the Bantu group. In Mozambique the Sena language is spoken predominantly in the provinces of lower Zambezi, namely Sofala, Zambezia, Tete and Manica and in the far south of the Republic of Malawi.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
@@ -46,18 +46,34 @@ Self-declared age information, frequency refers to the number of clips annotated
 * Valid Duration: `0.0[s]`
 * Total hours: `0.23[h]`
 * Valid hours: `0.0[h]`
-<!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
-<!-- A description of the transcription system used -->
+<!-- {{TRANSCRIPTIONS_DESCRIPTION}} --> 
+<!-- A description of the transcription system used --> The transcription system uses Latin script in general, but with some combinations of consonants that serve to represent the specific sounds of the language as ny, dz, jh, pf, bz, ng', ps, sv, ts, dh and bh.
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} --> The writing system uses the Latin script in general, but with some combinations of consonants that serve to represent the specific sounds of the language as ny, dz, jh, pf, bz, ng', ps, sv, ts, dh and bh.
 <!-- @ OPTIONAL @ -->
-<!-- A description of the writing system (or writing systems) used in the text corpus -->
-
+<!-- A description of the writing system (or writing systems) used in the text corpus --> In the corpus was used the latin writing system, but with some combinations of consonants that serve to represent the specific sounds of the language as ny, dz, jh, pf, bz, ng', ps, sv, ts, dh and bh.
 #### Symbol table
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+<!-- {{ALPHABET_TABLE}} --> 
+Sena	IPA		Sena	IPA
+a	a	    	n	n
+b	ɓ		    ng'	ŋ
+bh	b	   	ny	ɲ
+c	c	    	o	ɔ
+d	ɗ	    	p	p
+dh	d	   	r	ɾ
+jh	dʒ  		s	s
+j 	dj 	 	dz	dz
+e	ɛ		    t	t
+f	f	   	th	ʄ
+g	g		   u	u
+h	h	   	v	v
+i	i	   	w	w
+k	k	   	x	ʃ
+l	l		   y	j
+m	m	   	z	Z
+
+<!-- @ OPTIONAL @ --> 
 
 #### Extralinguistic tags
 
