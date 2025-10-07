@@ -155,8 +155,8 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
-author: Ricardo Samuel Bulaque
-email: rbulaque@isced.ac.mz 
+<!-- {{DATASHEET_AUTHORS_LIST}} -->
+<!-- A list in the format of: Ricardo Samuel Bulaque <email@email.com> --> rbulaque@isced.ac.mz 
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
