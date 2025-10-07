@@ -55,12 +55,16 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+The French language uses the 26 letters of the Latin alphabet with the addition of two ligatures (æ, œ) and five diacritics.
+
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-```! " ' ( ) , - . 0 3 4 : ; ? A B C D E F G H I J L M N O P Q S T U V Y ] a b c d e f g h i k l m  o p q r s t u v w x y z À à â ç è é ê î ï ô ù û œ ’```
+```
+a à â æ b c ç d e é è ê ë f g h i î ï j k l m n ô œ p q r s t u ù û ü v w x y ÿ z
+```
 
 #### Extralinguistic tags
 
@@ -95,7 +99,7 @@ Oui, mais avec le gouvernement Bayrou de moins en moins et il y a toujours une a
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
-The transcripts contain two different quotations, ’ and ', which should be normalized.
+The transcripts contain two different apostrophes, ’ and ', which should be normalized.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -134,10 +138,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
