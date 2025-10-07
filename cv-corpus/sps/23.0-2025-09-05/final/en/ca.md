@@ -8,6 +8,22 @@ speech (1 hours validated) from 11 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Catalan is a Romance language spoken by about 9 million people, mainly on the Mediterranean coast of the Iberian Peninsula. 
+
+It is an official language, along with Spanish or Castilian, in Catalonia, the Balearic Islands and the Valencian Community (where it
+is also called Valencian), while it is the only official language of the Principality of Andorra. 
+It is also spoken, and has some administrative recognition, without reaching official status,
+in the eastern part of the autonomous community of Aragon, in the French department of Pyrénées-Orientales (Eastern Pyrenees) and in the city of Alghero, on the island of Sardinia (Italy).
+
+### Variants
+The main variants of Catalan are:
+* Central: It is the variant with the most speakers, as it encompasses the metropolitan area of Barcelona, extending to the region of Girona and the eastern half of Tarragona
+* North-western: Spoken in Andorra, Lleida and the western half of Tarragona in Catalonia, and the eastern part of Aragon
+* Valencian: Spoken in the Valencian community, where it's also known as "Valencian"
+* Northern: Corresponds to the area of Roussillon and the northern part of Girona
+* Balearic: The variant used in the Balearic Islands
+* Alguerese: Spoken in the city of Alghero, in Sardinia
+
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
