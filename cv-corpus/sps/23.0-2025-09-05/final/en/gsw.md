@@ -1,13 +1,15 @@
 # *Elsassisch* &mdash; Alsatian (`gsw`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
-
- This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Alsatian (`gsw`). The dataset contains 3 clips representing 1 hours of recorded
 speech (0 hours validated) from 1 speakers.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+
+Elsassisch (Alsatian in English, Alsacien in French) is a language spoken in the Alsace region in the East of France. As of 2022, 46 % of the population of the region declares speaking Alsatian. The term Alsatian refers to a linguistic continuum that includes varieties of Alemannic and Franconian. It shares the Alemannic language family with Swiss German and the Franconian language family with Luxembourgish.
+
+ Note on the language code : There is currently no language code for specifically Alsatian. GSW is the code of Swiss German. However, the Common Voice community for Swiss German has chosen to be included under the umbrella of German, and thus isn't using the language code. It has been agreed to use GSW for Alsatian in the context of Common Voice. This does not mean that Alsatian is the same as Swiss German (even if some features are shared), and care should be taken to not mix up the two languages.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -71,10 +73,6 @@ There follows a randomly selected sample of questions used in the corpus.
 There follows a randomly selected sample of transcribed responses from the corpus.
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -114,11 +112,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
@@ -134,15 +127,15 @@ information.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Pascale Erhart
+* Sam Bigeard <sam.bigeard@inria.fr>
+
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+The launch of this language on Common Voice was part of Défi Inria COLaF, which was financed by Plan National de Recherche en Intelligence Artificielle.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

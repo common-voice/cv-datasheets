@@ -1,5 +1,4 @@
 # *Cymraeg* &mdash; Welsh (`cy`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Welsh (`cy`). The dataset contains 8 clips representing 1 hours of recorded
@@ -8,6 +7,10 @@ speech (0 hours validated) from 1 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+The Welsh language (Cymraeg - /kəmˈraːiɡ/) belongs to the Celtic language family, specifically the Brythonic branch of Insular Celtic. Welsh evolved in the 6th century, alongside Breton and Cornish, from Common Brittonic, the common language previously spoken throughout Great Britain during the Iron Age and Roman period. The language has experienced contact with English since medieval times, leading to extensive lexical borrowing and gradual language shift intensified by socioeconomic factors and educational policies. It's resilience however stems from concentrated communities, intergenerational transmission, cultural traditions like the Eisteddfod, and religious revival movements. Strategic activism by speakers from the 1960s onwards has transformed Welsh from a declining minority language into one with official legal status. The most recent census shows 538,300 speakers (17.8% of Wales' population), though other surveys suggest higher figures of up to 862,700 speakers. Legislation by the Senedd (Welsh Parliament) supports revitalization through education and technology, with the goal of achieving one million speakers and doubled daily usage by 2050.
+
+Welsh language speech varies significantly across proficiency levels (from native speakers and learners to passive understanders), regional dialects (mainly northern and southern, plus Patagonian Welsh), and registers (formal literary Welsh versus more informal colloquial spoken forms that sometimes incorporates code-switching). Speaker competence ranges widely, with some demonstrating full fluency across all domains while others show more limited or context-specific abilities.
+
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -53,11 +56,30 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+Welsh employs a Latin alphabet of 29 letters, including eight digraphs (ch, dd, ff, ng, ll, ph, rh, th) treated as single letters for alphabetization, and treats "w" and "y" as vowels. The orthography is largely phonetic with predictable sound-letter correspondences. Loanwords, especially from English, are occasionally adapted to Welsh spelling conventions.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+The 29 letters used for alphabetization in Welsh are:
+
+```a b c ch d dd e f ff g ng h i j l ll m n o p ph r rh s t th u w y```
+
+The letter j is borrowed from English to represent the borrowed /dʒ/ consonant phoneme. 
+
+Welsh also uses diacritical marks on vowels (considered variants of their base letters, not separate letters for alphabetization):
+
+With circumflex ('to bach'): ```â ê î ô û ŵ ŷ```
+
+With acute accent: ```á é í ó ú ẃ ý```
+
+With grave accent: ```à è ì ò ù ẁ ỳ```
+
+With diaeresis: ```ä ë ï ö ü ẅ ÿ```
+
+The traditional system lacks letters k, q, v, x, z, although these can appear in proper nouns and technical terms. 
+
 
 #### Extralinguistic tags
 
@@ -79,10 +101,6 @@ Beth wyt tiʼn ei hoffi fwyaf am dy swydd?
 There follows a randomly selected sample of transcribed responses from the corpus.
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -121,11 +139,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
@@ -141,10 +154,9 @@ information.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Dewi Bryn Jones (https://github.com/DewiBrynJones)
+* Gareth Watkins (https://github.com/grw20blt)
+
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
