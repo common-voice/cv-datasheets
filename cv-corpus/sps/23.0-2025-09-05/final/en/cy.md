@@ -1,5 +1,4 @@
 # *Cymraeg* &mdash; Welsh (`cy`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Welsh (`cy`). The dataset contains 8 clips representing 1 hours of recorded
