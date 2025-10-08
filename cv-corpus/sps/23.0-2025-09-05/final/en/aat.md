@@ -1,5 +1,4 @@
 # *Arvanitika* &mdash; Arvanitika (`aat`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Arvanitika (`aat`). The dataset contains 334 clips representing 3 hours of recorded
@@ -8,6 +7,7 @@ speech (0 hours validated) from 5 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Arvanitika (/ˌɑːrvəˈnɪtɪkə/; Arvanitika: αρbε̰ρίσ̈τ, romanized: arbërisht; Greek: αρβανίτικα, romanized: arvanítika), also known as Arvanitic, is the variety of Albanian traditionally spoken by the Arvanites, a population group in Greece. Arvanitika was brought to Southern Greece during the late Middle Ages by Albanian settlers who moved south from their homeland in present-day Albania in several waves. The dialect preserves elements of medieval Albanian, while also being significantly influenced by the Greek language. Arvanitika is today endangered, as its speakers have been shifting to the use of Greek and most younger members of the community no longer speak it.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -53,6 +53,14 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+Following the writing rules of modern Albanian, while keeping the Greek alphabet for sounds not existing in Albanian.
+
+In cases of code-switching, write the Greek portion using Greek letters, even for isolated Greek words.
+
+* Use the capital letter E to represent the Albanian letter ë [ǝ].
+* Use the capital letter C to represent the Albanian letter ç [tš].
+* For γ before α and ο, retain γ or alternatively write gh.
+* For χ before ε and ι, retain χ or alternatively write hj
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
@@ -87,10 +95,6 @@ Cw mw pwlqen qw jesh e vogwl nw skolio, ish qw thosh enjwn [ennoia] tw mathimas,
 ```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -129,11 +133,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
@@ -148,11 +147,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Vivian Stamou <vivianstamou@gmail.com>
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
