@@ -73,10 +73,6 @@ There follows a randomly selected sample of questions used in the corpus.
 There follows a randomly selected sample of transcribed responses from the corpus.
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -115,11 +111,6 @@ information.
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
-
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
