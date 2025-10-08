@@ -1,5 +1,4 @@
 # *català* &mdash; Catalan (`ca`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Catalan (`ca`). The dataset contains 137 clips representing 1 hours of recorded
@@ -17,12 +16,17 @@ in the eastern part of the autonomous community of Aragon, in the French departm
 
 ### Variants
 The main variants of Catalan are:
-* Central: It is the variant with the most speakers, as it encompasses the metropolitan area of Barcelona, extending to the region of Girona and the eastern half of Tarragona
-* North-western: Spoken in Andorra, Lleida and the western half of Tarragona in Catalonia, and the eastern part of Aragon
-* Valencian: Spoken in the Valencian community, where it's also known as "Valencian"
-* Northern: Corresponds to the area of Roussillon and the northern part of Girona
-* Balearic: The variant used in the Balearic Islands
-* Alguerese: Spoken in the city of Alghero, in Sardinia
+* Central [ca-central]: It is the variant with the most speakers, as it encompasses the metropolitan area of Barcelona, extending to the region of Girona and the eastern half of Tarragona
+* Balearic [ca-balear]: The variant used in the Balearic Islands
+* Nord-Occidental [ca-nwestern]: Spoken in Andorra, Lleida and the western half of Tarragona in Catalonia, and the eastern part of Aragon
+* Septentrional [ca-northern]: Corresponds to the area of Roussillon and the northern part of Girona
+* Valencian: Spoken in the Valencian comunity, where it's also known as "Valencian"
+  * Valencià meridional [ca-valencia-southern]
+  * Alacantí [ca-valencia-alacant]
+  * Valencià septentrional [ca-valencia-northern]
+  * Tortosí [ca-valencia-tortosi]
+  * Valencià central [ca-valencia-central]
+* Alguerese [ca-algueres]: Spoken in the city of Alghero, in Sardinia
 
 
 ## Demographic information
@@ -69,11 +73,14 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+Catalan is written using the Latin alphabet (abcdefghijklmnopqrstuvwxyz), with the special characters *ç* and *l·l*. In addition, vowels can be accented (à, è, é, í, ò, ó, ú, ü, ï). The characters *-* (hyphen) and *'* (apostrophe) are also part of Catalan orthography.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+```a b c ç d e f g h i j k l m n o p q r s t u v w x y z à è é í ò ó ú ï ü```
+
 
 #### Extralinguistic tags
 
@@ -107,6 +114,7 @@ Per seguir l'actualitat, normalment utilitzo l'aplicació del 324. De 3cat.
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
+It is recommended to normalize instances of the geminate L, which can take the equivalent forms of l·l or ŀl.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -146,10 +154,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -166,10 +170,7 @@ information.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Carme Armentano <carme.armentano@bsc.es>
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
