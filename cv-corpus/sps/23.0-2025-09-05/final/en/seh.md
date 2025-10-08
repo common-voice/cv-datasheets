@@ -1,5 +1,4 @@
 # *[Sena]* &mdash; Sena (`seh`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Sena (`seh`). The dataset contains 21 clips representing 1 hours of recorded
@@ -7,6 +6,7 @@ speech (0 hours validated) from 1 speakers.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
+The Sena language (hereinafter Cisena, N 44 in the Guthrie classification, 1967-71), is a language originally belonging to the Congo-Kordophonian (Niger-Congo) family of the Bantu group. In Mozambique the Sena language is spoken predominantly in the provinces of lower Zambeze, namely Sofala, Zambezia, Tete and Manica and in the far south of the Republic of Malawi. The record of the presence of Sena speakers in the region is documented with the designation of the Village of Sena, from 1561. In Mozambique the Sena language is spoken to about 1,551,684 speakers of five or more years of age (INE, 2017) and in the Republic of Malawi it is spoken to about half a million people. The Cisena has the following variants: Sena Tonga, spoken in the north and center of Sofala, and in the borders of Tete and Zambezia; Sena Bangwe, spoken in the Beira area; Sena Phodzo, spoken between Sofala and Zambezia (from Marromeu, until Chinde) and Mopeia (in Zambezia); Sena Gombe, spoken in Caia, Mutarara, Chemba (coast), and Cheringoma and the coastal part of Zambezia; Sena Gorongozi, spoken in the Sierra Gorongosa area. The first grammar of the sena language was elaborated and printed in Chupanga (Marromeu), in 1900, by the french jesuit missionary and philologist Jules Torrend, in a trilingual edition in portuguese, sena and english. Two years earlier, the typography of this catholic mission had already produced a sena-portuguese catechism. In 1957, the first Portuguese-Sena-Portuguese dictionary was published in Beira. Since 2004, in Mozambique, the sena language has been part of bilingual education in rural schools in Sofala province, during the first five years of primary education, of the National Education System
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
@@ -46,18 +46,40 @@ Self-declared age information, frequency refers to the number of clips annotated
 * Valid Duration: `0.0[s]`
 * Total hours: `0.23[h]`
 * Valid hours: `0.0[h]`
-<!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
+<!-- {{TRANSCRIPTIONS_DESCRIPTION}} --> 
 <!-- A description of the transcription system used -->
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} --> 
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+The writing system uses the Latin script in general, but with some combinations of consonants that serve to represent the specific sounds of the language as ny, dz, jh, pf, bz, ng', ps, sv, ts, dh and bh.
+
+
 #### Symbol table
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+<!-- {{ALPHABET_TABLE}} --> 
+
+| Sena | IPA | Sena | IPA |
+|------|-----|------|-----|
+| a    | a | n | n |
+| b    | ɓ | ng' | ŋ |
+| bh   | b | ny | ɲ |
+| c    | c | o | ɔ |
+| d    | ɗ | p | p |
+| dh   | d | r | ɾ |
+| jh   | dʒ | s | s |
+| j    | dj | dz | dz |
+| e    | ɛ | t | t |
+| f    | f | th | ʄ |
+| g    | g | u | u |
+| h    | h | v | v |
+| i    | i | w | w |
+| k    | k | x | ʃ |
+| l    | l | y | j |
+| m    | m | z | Z |
+
+<!-- @ OPTIONAL @ --> 
 
 #### Extralinguistic tags
 
@@ -78,11 +100,6 @@ Musafuna kudyanji makamaka mucisa mwanu?
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -122,10 +139,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -142,10 +155,7 @@ information.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+* Ricardo Samuel Bulaque <rbulaque@isced.ac.mz>
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
