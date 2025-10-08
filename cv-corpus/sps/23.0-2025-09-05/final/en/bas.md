@@ -29,18 +29,11 @@ We are working on adding demographic information to the Spontaneous Speech datas
 is not available.
 
 
-
-<!--
-The dataset includes the following distribution of age and gender.
-<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
-
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
--->
+<!-- The dataset includes the following distribution of age and gender.-->
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
-
-
-<!--
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -51,7 +44,7 @@ Self-declared gender information, frequency refers to the number of clips annota
 
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
--->
+
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -64,8 +57,6 @@ Self-declared age information, frequency refers to the number of clips annotated
    ...if other age ranges are present in your data, add rows... -->
 
 ## Data splits for modelling
-
-
 
  | Split | Count |
 |-|-|
@@ -130,11 +121,6 @@ Mbog yés i Mbog yés, di nje ngond minténmintén. Di nla je yo nkônô u ngond
 ```
 
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
-
-### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
