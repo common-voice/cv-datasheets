@@ -135,6 +135,7 @@ information.
 
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/cy/common-voice/contributors/)
+* [Original language request on GitHub](https://github.com/common-voice/common-voice/issues/4906)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
