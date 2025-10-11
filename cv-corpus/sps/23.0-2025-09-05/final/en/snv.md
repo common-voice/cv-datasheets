@@ -1,5 +1,4 @@
 # *Saʼban* &mdash; Sa'ban (`snv`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Sa'ban (`snv`). The dataset contains 2038 clips representing 11 hours of recorded
@@ -8,6 +7,7 @@ speech (1 hours validated) from 30 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Saʼban is an Austronesian language in the Apo Duat subgroup. It is spoken by the Saʼban people and is indigenous to Sarawak, Malaysia and North Kalimantan, Indonesia.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -59,6 +59,8 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+The Saʼban writing system is based on the Latin alphabet.
+
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
@@ -96,6 +98,8 @@ Kai sik lem lun nok arok anok malak lem'rang ceh weik arai mrai padeik nok weik 
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
+
+The questions use the ’ character, while the responses use the ' character instead. These characters should be treated as equivalent.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:

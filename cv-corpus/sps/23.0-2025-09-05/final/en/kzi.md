@@ -1,5 +1,4 @@
 # *Kelabit* &mdash; Kelabit (`kzi`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Kelabit (`kzi`). The dataset contains 1741 clips representing 10 hours of recorded
@@ -8,6 +7,7 @@ speech (1 hours validated) from 21 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Kelabit is an Austronesian language in the Apo Duat subgroup. It is spoken by the Kelabit people and is indigenous to Sarawak, Malaysia and North Kalimantan, Indonesia.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -59,10 +59,18 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+The Kelabit writing system is based on the Latin alphabet.
+
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+
+```
+a e i o u
+aa ee ii oo uu
+b bp c d dt g gk h j k l m n ng p r s t w y ʼ
+```
 
 #### Extralinguistic tags
 
@@ -96,6 +104,8 @@ Na'em ngadan getu'en keli' keduih. Na'em men lun merar mala ngadan getu'en malam
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
+
+The questions use the ’ character, while the responses use the ' character instead. These characters should be treated as equivalent.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:

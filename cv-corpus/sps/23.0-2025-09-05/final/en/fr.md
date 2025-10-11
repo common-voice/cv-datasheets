@@ -1,5 +1,4 @@
 # *Français* &mdash; French (`fr`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for French (`fr`). The dataset contains 133 clips representing 1 hours of recorded
@@ -8,6 +7,8 @@ speech (1 hours validated) from 14 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+
+French is a Romance language. It is the official language of 26 countries and is spoken across around 50 countries. 
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -54,10 +55,16 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+The French language uses the 26 letters of the Latin alphabet with the addition of two ligatures (æ, œ) and five diacritics.
+
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+
+```
+a à â æ b c ç d e é è ê ë f g h i î ï j k l m n ô œ p q r s t u ù û ü v w x y ÿ z
+```
 
 #### Extralinguistic tags
 
@@ -91,6 +98,8 @@ Oui, mais avec le gouvernement Bayrou de moins en moins et il y a toujours une a
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
+
+The transcripts contain two different apostrophes, ’ and ', which should be normalized.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -129,10 +138,6 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-### Discussions
-<!-- {{DISCUSSION_LINKS_LIST}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -148,11 +153,6 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-
-### Citation guidelines
-<!-- {{CITATION_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
