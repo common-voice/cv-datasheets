@@ -1,6 +1,6 @@
 # *Saʼban* &mdash; Sa'ban (`snv`)
 
- This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Sa'ban (`snv`). The dataset contains 2038 clips representing 11 hours of recorded
 speech (1 hours validated) from 30 speakers.
 
@@ -125,7 +125,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demographics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.

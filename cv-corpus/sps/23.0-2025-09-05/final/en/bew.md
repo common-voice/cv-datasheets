@@ -1,5 +1,5 @@
 # *Betawi* &mdash; Betawi (`bew`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Betawi (`bew`). The dataset contains 11 hours of recorded
 speech (11 hours validated) from 21 speakers.
 

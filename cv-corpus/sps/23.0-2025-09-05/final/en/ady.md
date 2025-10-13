@@ -1,5 +1,5 @@
 # *Адыгабзэ* &mdash; Adyghe (West Circassian) (`ady`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Adyghe (West Circassian) (`ady`). The dataset contains 6 hours of recorded
 speech (6 hours validated) from 22 speakers.
 

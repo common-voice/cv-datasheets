@@ -1,5 +1,5 @@
 # *Elsassisch* &mdash; Alsatian (`gsw`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Alsatian (`gsw`). The dataset contains 3 clips representing 1 hours of recorded
 speech (0 hours validated) from 1 speakers.
 
@@ -98,7 +98,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demographics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.

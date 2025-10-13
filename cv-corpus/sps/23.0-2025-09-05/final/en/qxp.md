@@ -1,5 +1,5 @@
 # *Punu qhichwa* &mdash; Puno Quechua (`qxp`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Puno Quechua (`qxp`). The dataset contains 6 hours of recorded
 speech (6 hours validated) from 11 speakers.
 

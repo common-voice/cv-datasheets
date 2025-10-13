@@ -1,5 +1,5 @@
 # *Gegnisht* &mdash; Gheg Albanian (`aln`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Gheg Albanian (`aln`). The dataset contains 11 hours of recorded
 speech (11 hours validated) from 14 speakers.
 
