@@ -8,6 +8,7 @@ speech (77 hours validated) from 2291 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+中華民國國語（台灣華語），繁體中文語料文字。
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
@@ -69,6 +70,16 @@ The text corpus contains `21589` sentences, of which `20748` are validated, `841
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
+大部分繁體文本語料整理於：[MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences)。
+
+以下是文本語料的統計資訊，請檢視上述 repo 以進一步瞭解統計方式：
+
+> There are 3573 characters in the corpus, covering about 85.6% of the MOU 2015 common chars data (教育部2015常用字99.75% (3593字)).
+> 
+> 1046 phonetic are covered, about 66.75% of the total phonetic from CnsPhonetic2016-08v2.cin table.
+
+我們亟需更多「日常生活用句」，歡迎捐贈您以國語書寫的作品，請參考下方社群頻道資訊與我們聯繫。
+
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
@@ -95,6 +106,8 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
+
+文本語料由 Mozilla 台灣社群、g0v 社群、及其他開放原始碼運動參與者共同建立。
 
 ### Text domains
 | Domain | Count |
@@ -149,21 +162,31 @@ information.
 ## Get involved!
 
 ### Community links
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/zh-TW/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
+
+Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
+
+任何問題與建議、協助推廣、捐贈語料，或其他合作需求，請透過以下社群頻道與我們討論：
+
+- [Telegram group](https://t.me/+gvmHEcAtd-IwNzFl)
+- [Line group](https://line.me/ti/g/_PLyjCSe_8)
+- 
 
 ### Discussions
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
+* [Discourse 討論區](https://discourse.mozilla.org/c/voice/zh-tw/286)
+* [相關新聞](https://hackmd.io/@moztw/common-voice-news)
+
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/zh-TW/speak)
-* [Write](https://commonvoice.mozilla.org/zh-TW/write)
 * [Listen](https://commonvoice.mozilla.org/zh-TW/listen)
-* [Review](https://commonvoice.mozilla.org/zh-TW/review)
+* 捐出你的句子 - 如您有意願捐出你擁有的文本語料（例如您的個人創作）供參與者錄音，請先聯絡 Irvin （ irvin@moztw.org ）或於以上 Line / Telegram 群組討論。
+
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
@@ -172,6 +195,8 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+
+- Irvin Chen (MozTW 社群聯絡人) <irvin@moztw.org>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
