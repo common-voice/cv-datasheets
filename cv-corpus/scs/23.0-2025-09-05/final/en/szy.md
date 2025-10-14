@@ -5,12 +5,12 @@
 for Sakizaya (`szy`). The dataset contains 9643 clips representing 15 hours of recorded
 speech (14 hours validated) from 26 speakers.
 
-本語料集包含花蓮縣撒奇萊雅族維基媒體協會的 26 位錄音者，錄音範圍為十二年國教課程原住民族語文教材第 1 至 9 階課文文本。
+This dataset includes 26 speakers from the Hualien Sakizaya Wikimedia Association. The recordings cover the Indigenous Languages Curriculum (K-12) textbook materials, level 1 to 9.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-撒奇萊雅語（Sakizaya），臺灣原住民撒奇萊雅族的語言
+Sakizaya is the language of the Sakizaya people, an Indigenous people of Taiwan.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
@@ -24,7 +24,7 @@ The dataset includes the following distribution of age and gender.
 ### Gender
 Self-declared gender information, percentage refers to the number of clips annotated with this gender.
 
-（2025 年初 MozTW / 台灣維基協會族語錄音專案，並未登錄此資訊，故此資料相對不準確。）
+(The MozTW / Wikimedia Taiwan Indigenous language recording project in early 2025 did not collect this information; therefore, these figures may be relatively inaccurate.)
 
 | Gender | Pertentage |
 |-|-|
@@ -42,7 +42,7 @@ Self-declared gender information, percentage refers to the number of clips annot
 ### Age
 Self-declared age information, percentage refers to the number of clips annotated with this age band.
 
-（2025 年初 MozTW / 台灣維基協會族語錄音專案，並未登錄此資訊，故此資料相對不準確。）
+(The MozTW / Wikimedia Taiwan Indigenous language recording project in early 2025 did not collect this information; therefore, these figures may be relatively inaccurate.)
 
 | Age Band | Percentage |
 |-|-|
@@ -104,11 +104,11 @@ micakay kaku tu sapisulit atu sasulitan
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
-錄音文本取自《十二年國教原住民族語文教材》第一至九階課文之族語（羅馬字）內容，經[中華民國教育部國民及學前教育署](https://www.k12ea.gov.tw)（K-12 Education Administration, Ministry of Education, Taiwan ROC）授權，由台灣維基媒體協會整理後上傳。特別感謝時任教育部政務次長葉丙成協助協調授權事宜。
+The recording texts are taken from the Indigenous Languages Curriculum (K-12) textbook content (in romanization) for levels 1 to 9, uploaded by Wikimedia Taiwan under authorization from the K-12 Education Administration, Ministry of Education (Taiwan, ROC): https://www.k12ea.gov.tw. Special thanks to Deputy Minister Ping-Cheng Yeh for facilitating the authorization.
 
-少部分錄音文本由國⽴台灣⼤學語⾔學研究所《[台⼤台灣南島語語料庫](https://corpus.linguistics.ntu.edu.tw/)》（NTU Corpus of Formosan Languages, Graduate Institute of Linguistics, National Taiwan University）提供。感謝宋麗梅老師協助。
+A small portion of the texts is provided by the NTU Corpus of Formosan Languages (Graduate Institute of Linguistics, National Taiwan University): https://corpus.linguistics.ntu.edu.tw/ (thanks to Prof. Li-May Sung for assistance).
 
-在族語專案錄音過程中，我們發現部分文本存在文意不符、單詞或拼寫錯誤等情況。因 Common Voice 系統限制，相關內容未能事先更正仍直接進行錄製。錄音者與教材之間是為共同協作關係，特此說明。
+During the recording project, we noticed certain semantic mismatches and typographical/spelling issues in parts of the text. Due to Common Voice system constraints, these were not corrected in advance and recordings proceeded as-is. Recorders and textbook providers collaborated closely; this note is provided for transparency.
 
 ### Text domains
 | Domain | Count |
@@ -153,17 +153,17 @@ information.
 ## Get involved!
 
 ### Community links
-Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
+MozTW (Mozilla Taiwan) Common Voice project site: https://moztw.org/commonvoice/
 
-任何問題與建議、協助推廣、捐贈語料，或其他合作需求，請透過以下社群頻道與我們討論：
+For questions, suggestions, outreach, donating text, or collaboration, please reach out via:
 
-- [Telegram group](https://t.me/+gvmHEcAtd-IwNzFl)
-- [Line group](https://line.me/ti/g/_PLyjCSe_8)
+- Telegram group: https://t.me/+gvmHEcAtd-IwNzFl
+- Line group: https://line.me/ti/g/_PLyjCSe_8
 
-2025 族語錄音計畫參與社群：
+Communities involved in the 2025 Indigenous language recording project:
 
-- [台灣維基媒體協會 (Wikimedia Taiwan)](https://www.facebook.com/wikimedia.tw)
-- 花蓮縣撒奇萊雅族維基媒體協會
+- Wikimedia Taiwan: https://www.facebook.com/wikimedia.tw
+- Hualien County Sakizaya Wikimedia Association
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
@@ -172,8 +172,8 @@ Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/com
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
-* [Discourse 討論區](https://discourse.mozilla.org/c/voice/zh-tw/286)
-* [相關新聞](https://hackmd.io/@moztw/common-voice-news)
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
 
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/szy/speak)
@@ -186,7 +186,7 @@ Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/com
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
- - Irvin Chen (MozTW 社群聯絡人) <irvin@moztw.org>
+ - Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->

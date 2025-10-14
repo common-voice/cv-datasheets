@@ -5,28 +5,28 @@
 for Taiwanese (Minnan) (`nan-tw`). The dataset contains 31951 clips representing 24 hours of recorded
 speech (21 hours validated) from 290 speakers.
 
-請特別注意：本語音語料集為「*漢字——語音資料集*」。
-本語料集文本語料以漢字為主，同時括號標注台羅或白話字參考發音。
+Please note: This speech dataset is a Han character–speech dataset.
+The text corpus primarily uses Han characters, with bracketed TL/POJ romanization as reference pronunciations.
 
-本語料及錄音者為主要來自台灣的個別志工參與者。
+The corpus and speakers are primarily contributed by individual volunteers in Taiwan.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-臺灣話（白話字：Tâi-oân-ōe；臺羅：Tâi-uân-uē），又稱為台語／臺語或臺灣閩南語，通行於臺灣及澎湖群島，中華民國（臺灣）國家語言之一。
+Taiwanese (POJ: Tâi-oân-ōe; TL: Tâi-uân-uē), also known as Tai-gi (台語/臺語) or Taiwanese Minnan (臺灣閩南語), is spoken across Taiwan and the Penghu archipelago, and is one of Taiwan’s national languages.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
-於 v23.0 版本開始，Common Voice 台語版本允許錄音與文本貢獻者選擇（非必選）以下書寫系統變體（Variant）。但目前文本語料仍以兩者混合（非特定系統）為大宗。
+Starting from v23.0, the Taiwanese (nan-tw) locale allows (optional) selection of the following writing variants; however, most texts are still a mixture of both systems:
 
-- 白話字（POJ） (`pehoeji`)
-- 台羅（TL） (`tailo`)
+- POJ (`pehoeji`)
+- TL (`tailo`)
 
-如欲協助更新現有語料，請往下到 Community 欄目與我們聯繫。
+If you’d like to help curate or update the existing texts, please see the Community section below.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -84,11 +84,11 @@ The text corpus contains `27277` sentences, of which `26907` are validated, `370
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-此錄音集大部分文本語料整理於：[MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences)，主要來自 MozTW ／ g0v 社群個別參與者。
+Most of the text corpus was curated in the MozTW CC0 Sentences repository: https://github.com/moztw/cc0-sentences, primarily contributed by MozTW and g0v community members.
 
-由於目前缺乏公共授權（無已知授權限制）的台語「句子」文本語料，Common Voice 台語錄音目前以「單詞」為大宗。
+Due to the lack of publicly licensed Taiwanese sentences, recordings in the Taiwanese locale are currently dominated by single-word prompts.
 
-我們亟需更多「日常生活用句」，歡迎捐贈您以台語書寫的作品。請參考下方社群頻道資訊與我們聯繫。
+We welcome donations of everyday sentences written in Taiwanese. Please reach out via the community channels below.
 
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
@@ -117,9 +117,9 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-文本語料由 Mozilla 台灣社群、g0v 社群、及其他開放原始碼運動參與者共同建立。
+The text corpus is built by Mozilla Taiwan community, the g0v community, and other open-source contributors.
 
-早期的台語語料主要來自「2016-itaigi華台對照典」。請參考[資料來源與授權](https://github.com/moztw/cc0-sentences/tree/master/nan-TW#資料來源與授權)了解原始資料出處。
+Earlier Taiwanese entries were primarily sourced from the “2016-itaigi Mandarin–Taiwanese Dictionary”. See Sources and Licensing at: https://github.com/moztw/cc0-sentences/tree/master/nan-TW#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90%E8%88%87%E6%8E%88%E6%AC%8A
 
 ### Text domains
 | Domain | Count |
@@ -135,9 +135,9 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- What text domains are represented in the corpus? -->
 
-由於目前缺乏公共授權的「句子」資料，Common Voice 台語語料目前仍以「單詞」為大宗。
+Due to the lack of publicly licensed sentence data, recordings in Taiwanese remain predominantly single words.
 
-我們亟需更多「日常生活用句」，歡迎捐贈您以台語書寫的作品。請參考 [社群頻道資訊](#community-links) 與我們聯繫。
+We welcome more everyday sentences. If you would like to donate your own text (e.g., your original writing), please contact us via the community links below.
 
 ### Processing
 <!-- {{PROCESSING_DESCRIPTION}} -->
@@ -149,9 +149,9 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
 
-因為句子、單詞所標示的羅馬字為參考用，且 a) 混用台羅與白話字系統，b) 也未能標出所有腔調的發音，顧無法作為實際錄音者發音之對應標注。
+Because the bracketed romanization is for reference only and a) mixes TL and POJ systems, and b) does not consistently mark all tones, it cannot be treated as an authoritative phonetic annotation for the recordings.
 
-我們建議使用前先行移除用`（）`包夾的參考發音，僅取用漢字部分。
+We recommend removing bracketed pronunciations `（）` and using only the Han character portion when pre-processing the text.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -180,25 +180,25 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
-Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
+MozTW (Mozilla Taiwan) Common Voice project site: https://moztw.org/commonvoice/
 
-任何問題與建議、協助推廣、捐贈語料，或其他合作需求，請透過以下社群頻道與我們討論：
+For questions, suggestions, outreach, donating text, or collaboration, please reach out via:
 
-- [Telegram group](https://t.me/+gvmHEcAtd-IwNzFl)
-- [Line group](https://line.me/ti/g/_PLyjCSe_8)
+- Telegram group: https://t.me/+gvmHEcAtd-IwNzFl
+- Line group: https://line.me/ti/g/_PLyjCSe_8
 
 ### Discussions
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
-* [Discourse 討論區](https://discourse.mozilla.org/c/voice/zh-tw/286)
-* [相關新聞](https://hackmd.io/@moztw/common-voice-news)
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
 
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/nan-tw/speak)
 * [Listen](https://commonvoice.mozilla.org/nan-tw/listen)
-* 捐出你的句子 - 如您有意願捐出你擁有的文本語料（例如您的個人創作）供參與者錄音，請先聯絡 Irvin （ irvin@moztw.org ）或於以上 Line / Telegram 群組討論。
+* Donate your sentences — If you would like to donate text you own (e.g., original writing) for recording, please contact Irvin (irvin@moztw.org) or discuss in the Line/Telegram groups above.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
@@ -209,7 +209,7 @@ Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/com
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
- - Irvin Chen (MozTW 社群聯絡人) <irvin@moztw.org>
+ - Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
  - Dennis Chen (Common Voice Community Facilitator, Wikimedia Taiwan) <dennis@wikimedia.tw>
 
 ### Citation guidelines

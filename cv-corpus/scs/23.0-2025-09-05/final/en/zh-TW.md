@@ -8,7 +8,7 @@ speech (77 hours validated) from 2291 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-中華民國國語（台灣華語），繁體中文語料文字。
+Taiwan Mandarin in Traditional Chinese script.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
@@ -70,15 +70,15 @@ The text corpus contains `21589` sentences, of which `20748` are validated, `841
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
-大部分繁體文本語料整理於：[MozTW CC0 語料庫](https://github.com/moztw/cc0-sentences)。
+Most of the Traditional Chinese text corpus is curated in the MozTW CC0 Sentences repository: https://github.com/moztw/cc0-sentences.
 
-以下是文本語料的統計資訊，請檢視上述 repo 以進一步瞭解統計方式：
+Summary statistics (see the repo for methods):
 
-> There are 3573 characters in the corpus, covering about 85.6% of the MOU 2015 common chars data (教育部2015常用字99.75% (3593字)).
-> 
-> 1046 phonetic are covered, about 66.75% of the total phonetic from CnsPhonetic2016-08v2.cin table.
+> There are 3573 characters in the corpus, covering about 85.6% of the MOU 2015 common chars data (MoE 2015 common characters 99.75% (3593 chars)).
+>
+> 1046 phonetics are covered, about 66.75% of the total phonetics in CnsPhonetic2016-08v2.cin.
 
-我們亟需更多「日常生活用句」，歡迎捐贈您以國語書寫的作品，請參考下方社群頻道資訊與我們聯繫。
+We welcome more everyday sentences in Mandarin (Traditional Chinese). Please reach out via the community links below.
 
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
@@ -107,7 +107,7 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
-文本語料由 Mozilla 台灣社群、g0v 社群、及其他開放原始碼運動參與者共同建立。
+The text corpus is built by the Mozilla Taiwan community, the g0v community, and other open-source contributors.
 
 ### Text domains
 | Domain | Count |
@@ -179,13 +179,13 @@ Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/com
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
-* [Discourse 討論區](https://discourse.mozilla.org/c/voice/zh-tw/286)
-* [相關新聞](https://hackmd.io/@moztw/common-voice-news)
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
 
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/zh-TW/speak)
 * [Listen](https://commonvoice.mozilla.org/zh-TW/listen)
-* 捐出你的句子 - 如您有意願捐出你擁有的文本語料（例如您的個人創作）供參與者錄音，請先聯絡 Irvin （ irvin@moztw.org ）或於以上 Line / Telegram 群組討論。
+* Donate your sentences — If you would like to donate text you own (e.g., original writing) for recording, please contact Irvin (irvin@moztw.org) or discuss in the Line/Telegram groups above.
 
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
@@ -196,7 +196,7 @@ Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/com
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
-- Irvin Chen (MozTW 社群聯絡人) <irvin@moztw.org>
+- Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
