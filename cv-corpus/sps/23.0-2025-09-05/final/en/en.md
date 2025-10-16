@@ -1,5 +1,4 @@
 # *English* &mdash; English (`en`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
 This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for English (`en`). The dataset contains 0 clips representing 9 hours of recorded
@@ -8,6 +7,8 @@ speech (2 hours validated) from 148 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+
+English is a West Germanic language with origins in England. There are an estimated 1.5 billion English speakers, making it the most widely spoken language in the world. English is commonly learned as a second language in many countries.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -47,10 +48,14 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+The English writing system is based off of the latin alphabet.
+
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+
+`a b c d e f g h i j k l m n o p q r s t u v w x y z`
 
 #### Extralinguistic tags
 
@@ -85,11 +90,15 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 * `language` - language name
 * `split` - for data modelling, which subset of the data does this clip pertain to
 * `char_per_sec` - how many characters of transcription per second of audio
-* `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
-   *  `transcription-length` - character per second under 3 characters per second
+* `quality_tags` - some automated assessment of the transcription--audio pair, separated by |
+   * `transcription-length` - character per second under 3 characters per second
    * `speech-rate` - characters per second over 30 characters per second
    * `short-audio` - audio length under 2 seconds
    * `long-audio` - audio length over 30 seconds
+   * `non-allowed-script` - Tag for transcriptions containing a writing system non associated with the language.
+   * `mixed-script-words` - ag for transcriptions containing multiple writing systems at the word/token level.
+   * `mixed-script-transcription` - Tag for transcriptions containing multiple writing systems, but each word/token consistently uses a single script
+   * `dataset-language-audio-mismatch` - Tag for audio where the spoken language could not be verified that it is in the expected dataset language with high confidence by an ASR model.
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
