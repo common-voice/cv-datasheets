@@ -6,23 +6,19 @@ speech (1 hours validated) from 1 speakers.
 
 ## Language
 Aragonese is a Romance language spoken in several dialects by about 8,000&mdash;12,000 people in the northern areas of Aragon, Spain, primarily in the counties of Chacetania, Alto Galligo, Sobrarbe and Ribagorza. The language vitality status is Endangered according to https://www.ethnologue.com/language/arg/. At the moment, Spanish influences the native speakers, which may cause code mixing in a spontaneous speech. 
+<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- Provide a brief (1-2 paragraph) description of your language -->
 
-<!-- ### Variants -->
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
-<!-- Original Answer: -->
-<!-- There are currently no variants defined for Aragonese. -->
-<!-- ### Accents -->
-<!-- #### Predefined -->
-<!-- There are currently no pre-defined accents. -->
-
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -31,8 +27,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -44,7 +42,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `19`
@@ -59,19 +60,27 @@ Self-declared age information, frequency refers to the number of clips annotated
 
 ### Writing system
 In 2023, the [Academia Aragonesa de la Lengua](https://academiaaragonesadelalengua.org), a public institution created as language regulatory body, established the [Orthography of Aragonese](https://https://academiaaragonesadelalengua.org/sites/default/files/ficheros-pdf/ortografia-aragones.pdf) as the official spelling for the language. The spelling system is flexible enough to allow writing all Aragonese varieties. All the transcriptions have been done using the official orthography (using Spanish spelling when words of this language were intercalated in the speech).
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+<!--[Not provided]
 #### Symbol table
+[Not provided]-->
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
+<!--[Not provided]
 ### Samples
+[Not provided]-->
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Cuál d'os quefers de casa t'agrada menos?
 Qué remedios emplegas cuan yes resfriau?
@@ -83,7 +92,6 @@ Qué querrías fer pa trobar-te millor?
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 ```
 Como vivimos en un lugar chicorrón y no bi ha pescadería, lo pescau que mas se mincha ye la merluza conchelada. Fresco, lo que mas goyo nos fa ye la dorada, la lubina, y lo millor d'el mundo ye lo abadeixo salau.
 Pa trobar-me millor, m'aganaría caminar más y estar menos andalosa, no meter la carga debant de los machos siempre.
@@ -92,6 +100,13 @@ Tasament me refrío pero si lo i so, beber muita agua y tomar bel paracetamol.
 L'orache en lo mío lugar habría que estar como l'orache de lo mont en lo Pirineu: muito frío y muita nieu en himbierno; primaveras, bien de agua, aire, y verdes; veranos de muito calor de manyanas y fresco cuando se caye lo sol, y frío de noches y de madrugada; y las santmigaladas, con muita airera... pero ixas estacions ya se'n son perdidas.
 ```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
+
+<!--[Not provided]
+### Recommended post-processing
+[Not provided]-->
+<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -130,6 +145,12 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
+### Discussions
+[Not provided]-->
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -143,16 +164,22 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
+* Juan Pablo Martínez &lt;juanpabl@gmail.com&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
-* Juan Pablo Martínez &lt;juanpabl@gmail.com&gt;
 
+<!--[Not provided]
+### Citation guidelines
+[Not provided]-->
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+This dataset was partially funded by the Open Multilingual Speech Fund.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-This dataset was partially funded by the Open Multilingual Speech Fund.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

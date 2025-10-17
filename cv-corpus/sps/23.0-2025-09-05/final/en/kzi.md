@@ -5,16 +5,20 @@ for Kelabit (`kzi`). The dataset contains 1741 clips representing 10 hours of re
 speech (1 hours validated) from 21 speakers.
 
 ## Language
+Kelabit is an Austronesian language in the Apo Duat subgroup. It is spoken by the Kelabit people and is indigenous to Sarawak, Malaysia and North Kalimantan, Indonesia.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Kelabit is an Austronesian language in the Apo Duat subgroup. It is spoken by the Kelabit people and is indigenous to Sarawak, Malaysia and North Kalimantan, Indonesia.
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -23,8 +27,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -42,6 +48,7 @@ Self-declared age information, frequency refers to the number of clips annotated
 | Train | 1112 |
 | Test | 296 |
 | Dev | 333 |
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `120`
@@ -55,30 +62,29 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
+The Kelabit writing system is based on the Latin alphabet.
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-The Kelabit writing system is based on the Latin alphabet.
-
 #### Symbol table
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 ```
 a e i o u
 aa ee ii oo uu
 b bp c d dt g gk h j k l m n ng p r s t w y ʼ
 ```
+<!-- {{ALPHABET_TABLE}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Nun naru lun muyuh bubuh me’ ngi bawang beken? / Kadi ngudah lun muyuh bubuh me’ ngi bawang beken?
 Enun program radio lem bawang nuk iko doo pian?
@@ -90,7 +96,6 @@ Kapeh ayu edto ngi nuk inan iko mudeng?
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 ```
 Mo raut ebol, raut ebol, raut volley ball, raut gaing nideh ngilad, raut pepana' nideh, raut guli nideh ngilad.
 Manid na'an teh pakaian doo' piyan tauh lemulun eh. Maya' lawey mudeng ngi ruma' beto' narih keh pakai nuk buyur neh narih. La' mey lati' beto' narih keh pakai nuk senang koh mey lati' nikoh. La' mey kerja ngi upis beto' koh keh la' pakai gaun neh narih. Maya' kerja nuk tu'en narih teh sapa' nuk doo' piyan pakai narih.
@@ -101,11 +106,10 @@ Na'em ngadan getu'en keli' keduih. Na'em men lun merar mala ngadan getu'en malam
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Recommended post-processing
+The questions use the ’ character, while the responses use the ' character instead. These characters should be treated as equivalent.
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
-
-The questions use the ’ character, while the responses use the ' character instead. These characters should be treated as equivalent.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -144,7 +148,9 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
 ### Discussions
+[Not provided]-->
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
@@ -160,11 +166,15 @@ information.
 
 ## Acknowledgements
 
+<!--[Not provided]
 ### Datasheet authors
+[Not provided]-->
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
+<!--[Not provided]
 ### Citation guidelines
+[Not provided]-->
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->

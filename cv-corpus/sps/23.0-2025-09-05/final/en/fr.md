@@ -5,17 +5,20 @@ for French (`fr`). The dataset contains 133 clips representing 1 hours of record
 speech (1 hours validated) from 14 speakers.
 
 ## Language
+French is a Romance language. It is the official language of 26 countries and is spoken across around 50 countries.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
-French is a Romance language. It is the official language of 26 countries and is spoken across around 50 countries. 
-
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -24,8 +27,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -37,7 +42,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `81`
@@ -51,28 +59,27 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
+The French language uses the 26 letters of the Latin alphabet with the addition of two ligatures (æ, œ) and five diacritics.
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
-The French language uses the 26 letters of the Latin alphabet with the addition of two ligatures (æ, œ) and five diacritics.
-
 #### Symbol table
+```
+a à â æ b c ç d e é è ê ë f g h i î ï j k l m n ô œ p q r s t u ù û ü v w x y ÿ z
+```
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-```
-a à â æ b c ç d e é è ê ë f g h i î ï j k l m n ô œ p q r s t u ù û ü v w x y ÿ z
-```
-
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Pouvez-vous décrire l'un de vos hobbies et nous expliquer en quoi il consiste ?
 Les gens de différents âges utilisent-ils la technologie de manière différente ?
@@ -84,7 +91,6 @@ Quelle est votre fête préférée et pourquoi ?
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 ```
 On tourne en boucle, j'ai déjà répondu à cette question, sauf que maintenant c'est au pluriel, je reste sur l'anglais, c'est ma matière préférée, c'était l'anglais et pourquoi, parce que j'aimais ça.
 
@@ -95,11 +101,10 @@ Oui, mais avec le gouvernement Bayrou de moins en moins et il y a toujours une a
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Recommended post-processing
+The transcripts contain two different apostrophes, ’ and ', which should be normalized.
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
-
-The transcripts contain two different apostrophes, ’ and ', which should be normalized.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -138,6 +143,12 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
+### Discussions
+[Not provided]-->
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
@@ -148,13 +159,26 @@ information.
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
+<!--[Not provided]
 ## Acknowledgements
+[Not provided]-->
 
+<!--[Not provided]
 ### Datasheet authors
+[Not provided]-->
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
+<!--[Not provided]
+### Citation guidelines
+[Not provided]-->
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+
+<!--[Not provided]
 ### Funding
+[Not provided]-->
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
