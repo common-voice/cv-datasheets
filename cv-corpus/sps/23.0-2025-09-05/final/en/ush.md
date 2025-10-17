@@ -78,15 +78,6 @@ a, b, d, e, é, f, g, h, i, j, k, l, m, n, ñ, o, ô p, s, t, u, w, y
 
 #### Questions
 There follows a randomly selected sample of transcribed responses from the corpus.
-<<<<<<< HEAD:cv-corpus/sps/23.0-2025-09-17/draft/en/bas.md
-
-Lelaa Batada ba bé léglana manwin nwaa le ngobi-hop i bakana i nlo?
-Imbee tison i nlôôha lémél we ikédé loñ Kamerun ? Inyukii ini tison i nlémle we ?
-"Ngén basaa yada i nkal le, ""ibale he jôm bé, ki ngôs i tehe bé ñoñ"". Ini ngén i nkobla le kii ?"
-Bôt ba nyo maok ma maén, ndi jôga li nyi bé hee ma nlôl. Ti le bés ndoñol i bôlô i lisee maok ma maén.
-Mambee masak di gwéé i Mbog yés ?
-
-=======
 ```
 تُو کامیک رونگ خوشاریلا؟
 می تا ہر فن خوشاریما کے فن خو فن بینو.
@@ -94,20 +85,10 @@ Mambee masak di gwéé i Mbog yés ?
 پٹوئیا کارے جے کاروبار اِسٹارٹ بینو؟
 و آسو جیب رس بئیلا؟
 ```
->>>>>>> ea7d0e1d91133988552b2e3f46fe0c5927749ffc:cv-corpus/sps/23.0-2025-09-05/final/en/ush.md
 <!-- {{QUESTIONS_SAMPLE}} -->
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-<<<<<<< HEAD:cv-corpus/sps/23.0-2025-09-17/draft/en/bas.md
-
-Batada ba bé leglana manwin ni hikuu.
-Masak ma yé ngandak i Mbog yés. Ndi ma tôbôtôbô di nla añ nna, ma yé ; ngôla-m'be, hijingô, bôlbô, m'baye, hôngô, hisigô, makune, koo, mauñ, ike i bisu.
-Me nkal le ba nsébél Um Nyobe le Mpôdôl  inyu le ingeñ ntida u bakana i binay, le loñ yés i n'nay ni ndutu, i béda naano le yak bés di pam i minkôm, di kôs kunde, Um Nyobe nyen a bé'é a nke i pôdôl loñ, i kodba i matén. Jon ba nsébél nye le Mpôdôl.
-Bikila bi Mbog yés. Mut a nlalna bé ñôô ; mut a nsol bé to bép bagwal bé ; mut a nje bé nuga i Mbog kiki bo mbom, bo péé, nyetama ; bikila, mut a nyan bé loñ ; mut a nyan bé Bambombog.
-Mbog yés i Mbog yés, di nje ngond minténmintén. Di nla je yo nkônô u ngond ; di nla je yo euh nsagle-ngond ; di nla je yo masas ma ngond.
-
-=======
 ```
 می تہ ہر فن خوشاریما کے فن خو فن بینو۔
 می تہ ݜیلو رونگ لالو خوش ہنو۔
@@ -118,7 +99,6 @@ Mbog yés i Mbog yés, di nje ngond minténmintén. Di nla je yo nkônô u ngond
 مہ تی توسی جیب شنوٹو شنوٹو رز بئیلا۔
 مہ تی کامن وائس بارا در تپوس کیلا۔
 ```
->>>>>>> ea7d0e1d91133988552b2e3f46fe0c5927749ffc:cv-corpus/sps/23.0-2025-09-05/final/en/ush.md
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ## Get involved!
