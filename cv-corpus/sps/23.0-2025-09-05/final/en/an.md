@@ -75,9 +75,7 @@ In 2023, the [Academia Aragonesa de la Lengua](https://academiaaragonesadelaleng
 #### Extralinguistic tags
 [Not provided]-->
 
-<!--[Not provided]
 ### Samples
-[Not provided]-->
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
