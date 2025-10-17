@@ -5,16 +5,20 @@ for Arvanitika (`aat`). The dataset contains 334 clips representing 3 hours of r
 speech (0 hours validated) from 5 speakers.
 
 ## Language
+Arvanitika (/ˌɑːrvəˈnɪtɪkə/; Arvanitika: αρbε̰ρίσ̈τ, romanized: arbërisht; Greek: αρβανίτικα, romanized: arvanítika), also known as Arvanitic, is the variety of Albanian traditionally spoken by the Arvanites, a population group in Greece. Arvanitika was brought to Southern Greece during the late Middle Ages by Albanian settlers who moved south from their homeland in present-day Albania in several waves. The dialect preserves elements of medieval Albanian, while also being significantly influenced by the Greek language. Arvanitika is today endangered, as its speakers have been shifting to the use of Greek and most younger members of the community no longer speak it.
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
-Arvanitika (/ˌɑːrvəˈnɪtɪkə/; Arvanitika: αρbε̰ρίσ̈τ, romanized: arbërisht; Greek: αρβανίτικα, romanized: arvanítika), also known as Arvanitic, is the variety of Albanian traditionally spoken by the Arvanites, a population group in Greece. Arvanitika was brought to Southern Greece during the late Middle Ages by Albanian settlers who moved south from their homeland in present-day Albania in several waves. The dialect preserves elements of medieval Albanian, while also being significantly influenced by the Greek language. Arvanitika is today endangered, as its speakers have been shifting to the use of Greek and most younger members of the community no longer speak it.
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -23,8 +27,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -36,7 +42,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `111`
@@ -50,9 +59,6 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A description of the writing system (or writing systems) used in the text corpus -->
 Following the writing rules of modern Albanian, while keeping the Greek alphabet for sounds not existing in Albanian.
 
 In cases of code-switching, write the Greek portion using Greek letters, even for isolated Greek words.
@@ -61,19 +67,25 @@ In cases of code-switching, write the Greek portion using Greek letters, even fo
 * Use the capital letter C to represent the Albanian letter ç [tš].
 * For γ before α and ο, retain γ or alternatively write gh.
 * For χ before ε and ι, retain χ or alternatively write hj
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+<!--[Not provided]
 #### Symbol table
+[Not provided]-->
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Të më thuash një istori që të pëlqen.
 Keni mbjal gjë ndë gardh?
@@ -85,7 +97,6 @@ Si e ndren fain që të pëlqen më shum?
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 ```
 
 keshwm ujtw, kemi ..., keshwm lopw, keshwm pula, keshwmw nga tuti edhe shkojmw mirw.
@@ -95,6 +106,12 @@ Cw mw pwlqen qw jesh e vogwl nw skolio, ish qw thosh enjwn [ennoia] tw mathimas,
 ```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+<!--[Not provided]
+### Recommended post-processing
+[Not provided]-->
+<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -133,6 +150,13 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
+### Discussions
+[Not provided]-->
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
@@ -145,9 +169,16 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
+* Vivian Stamou &lt;vivianstamou@gmail.com&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
-* Vivian Stamou &lt;vivianstamou@gmail.com&gt;
+
+<!--[Not provided]
+### Citation guidelines
+[Not provided]-->
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
