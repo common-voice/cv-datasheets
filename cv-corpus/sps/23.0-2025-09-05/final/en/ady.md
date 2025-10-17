@@ -55,10 +55,10 @@ Therefore we allowed the use of only the keyboard layout specially designed for 
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
-**Main Alphabet:** (Ordered by ascending) <br>
+**Main Alphabet:** (Ordered by ascending) 
 ```а б в г {гу} {гъ} {гъу} д {дж} {дз} {дзу} е ё ж {жъ} {жъу} {жь} з и й к {ку} {къ} {къу} {кӏ} {кӏу} л {лъ} {лӏ} м н о п {пӏ} {пӏу} р с т {тӏ} {тӏу} у ф х {хъ} {хъу} {хь} ц {цу} {цӏ} ч {чъ} {чӏ} ш {шъ} {шъу} {шӏ} {шӏу} щ ъ ы ь э ю я ӏ {ӏу}```
 
-**Orthographic–Phonetic Table (IPA):** <br>
+**Orthographic–Phonetic Table (IPA):** 
 
 | А а (ä) | Б б (b) | В в (v) | Г г (g) | Гу гу (ɡʷ) | Гъ гъ (ʁ) | Гъу гъу (ʁʷ) | Д д (d) | Дж дж (dʒ) | Дз дз (dz) | Дзу дзу (dzʷ) |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -79,15 +79,15 @@ Therefore we allowed the use of only the keyboard layout specially designed for 
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 
 
-**Auxiliary exemplar:** <br>
-The following letters are also present in the dataset, but are not part of the official Adyghe alphabet. They are used to represent two specific sounds in the Shapsug dialect.<br>
+**Auxiliary exemplar:** 
+The following letters are also present in the dataset, but are not part of the official Adyghe alphabet. They are used to represent two specific sounds in the Shapsug dialect.
 
-**{гь}:** [_Voiced dorso-palatal plosive_ [ɟ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. егьэ (jeɟɘ) [Shapsug] = еджэ [Adyghe]: _reading_)<br>
-**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьэт (kʲɘt) [Shapsug] = чэт [Adyghe]: _chicken_ )<br>
-**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. кӏьакӏьэ (kʲʼäkʲʼɘ) [Shapsug] = кӏэнкӏэ [Adyghe]: _egg_)<br>
+**{гь}:** [_Voiced dorso-palatal plosive_ [ɟ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. егьэ (jeɟɘ) [Shapsug] = еджэ [Adyghe]: _reading_)
+**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьэт (kʲɘt) [Shapsug] = чэт [Adyghe]: _chicken_ )
+**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. кӏьакӏьэ (kʲʼäkʲʼɘ) [Shapsug] = кӏэнкӏэ [Adyghe]: _egg_)
 
-**Other Languages:** <br>
-Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Adyghe alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
+**Other Languages:** 
+Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Adyghe alphabet, with characters chosen to approximate their original pronunciation as closely as possible.
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
@@ -162,21 +162,21 @@ https://bit.ly/cv_circassian_start_here
 ## Acknowledgements
 
 ### Datasheet authors
-* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-* Murat Topçu <murattopcu67@hotmail.com> <br>
+* M.Ugur Nemlioglu <nemerko@nemerko.com> 
+* Murat Topçu <murattopcu67@hotmail.com> 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Dataset curators
-* M.Uğur Nemlioğlu <nemerko@nemerko.com><br>
-* Saida Abregova <br>
-* Elizaveta Gogunokova <br>
-* Murat Topçu <br>
+* M.Uğur Nemlioğlu <nemerko@nemerko.com>
+* Saida Abregova 
+* Elizaveta Gogunokova 
+* Murat Topçu 
 <!-- {{DATASET_CURATORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Advisors
-* Bülent Özden (Technical Advisor)<br>
+* Bülent Özden (Technical Advisor)
 <!-- {{ADVISORS_LIST}} -->
 <!-- A list in the format of: Your Name -->
 

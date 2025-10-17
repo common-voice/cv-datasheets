@@ -52,10 +52,10 @@ During the period when there was no Kabardian keyboard option, the recorded text
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
-**Main Alphabet:** (Ordered by ascending) <br>
+**Main Alphabet:** (Ordered by ascending) 
 ```а э б в г {гу} {гъ} {гъу} д {дж} {дз} е ё ж {жь} з и й к {ку} {кӏ} {кӏу} {къ} {къу} {кхъ} {кхъу} л {лъ} {лӏ} м н о п {пӏ} р с т {тӏ} у ф {фӏ} х {ху} {хь} {хъ} {хъу} ц {цӏ} ч  ш щ {щӏ} ъ ы ь ю я ӏ {ӏу} ```
 
-**Orthographic–Phonetic Table (IPA):** <br>
+**Orthographic–Phonetic Table (IPA):** 
 
 | А а (aː) |  Э э (a,ɘ) | Б б (b) | В в (v) | Г г (g) | Гу гу (ɡʷ) | Гъ гъ (ʁ) | Гъу гъу (ʁʷ) | Д д (d) | Дж дж (dʒ) |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -75,19 +75,19 @@ During the period when there was no Kabardian keyboard option, the recorded text
 | Щ щ (ɕ) | Щӏ щӏ (ɕʼ) | Ъ ъ (′) | Ы ы (ə) | Ь ь (′) | Ю ю (ju) | Я я (ja) | Ӏ ӏ (ʔ) | Ӏу ӏу (ʔʷ) |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|
 
-**Auxiliary exemplar:** <br>
-The following letters are also present in the dataset, but are not part of the official Kabardian alphabet. They are used to represent three specific sounds in the different sub dialects.<br>
+**Auxiliary exemplar:** 
+The following letters are also present in the dataset, but are not part of the official Kabardian alphabet. They are used to represent three specific sounds in the different sub dialects.
 
-**{гь}:** [_Voiced dorso-palatal plosive_ [ʄ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. гьанэ (ɟa:ne) [Some dialects of Kabardian] = джанэ [Kabardian]: _shirt/dress_)<br>
-**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьыржын (kʲərʒən) [Some dialects of Kabardian] = чыржын [Kabardian]: _a type of cookie made from corn flour_ )<br>
-**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. гьэдыкIьэ (ɟedəkʲ’e) [Some dialects of Kabardian] = джэдыкӏэ [Kabardian]: _egg_)<br>
+**{гь}:** [_Voiced dorso-palatal plosive_ [ʄ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. гьанэ (ɟa:ne) [Some dialects of Kabardian] = джанэ [Kabardian]: _shirt/dress_)
+**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьыржын (kʲərʒən) [Some dialects of Kabardian] = чыржын [Kabardian]: _a type of cookie made from corn flour_ )
+**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. гьэдыкIьэ (ɟedəkʲ’e) [Some dialects of Kabardian] = джэдыкӏэ [Kabardian]: _egg_)
 
 **_Prior to dataset utilization, the following transformations should be applied to resolve transcription inconsistencies related to dialectal phoneme representation:_**
-> г' -> гь <br>
-> чӏ -> кӏь <br>
+> г' -> гь 
+> чӏ -> кӏь 
 
-**Other Languages:** <br>
-Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
+**Other Languages:** 
+Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
@@ -162,21 +162,21 @@ https://bit.ly/cv_circassian_start_here
 ## Acknowledgements
 
 ### Datasheet authors
-* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-* Murat Topçu <murattopcu67@hotmail.com> <br>
+* M.Ugur Nemlioglu <nemerko@nemerko.com> 
+* Murat Topçu <murattopcu67@hotmail.com> 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Dataset curators
-* Murat Topçu <murattopcu67@hotmail.com> <br>	
-* Elizaveta Gogunokova <br>
-* Saida Abregova <br>
-* M.Uğur Nemlioğlu <br>
+* Murat Topçu <murattopcu67@hotmail.com> 	
+* Elizaveta Gogunokova 
+* Saida Abregova 
+* M.Uğur Nemlioğlu 
 <!-- {{DATASET_CURATORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
 
 ### Advisors
-* Bülent Özden (Technical Advisor)<br>
+* Bülent Özden (Technical Advisor)
 <!-- {{ADVISORS_LIST}} -->
 <!-- A list in the format of: Your Name -->
 
