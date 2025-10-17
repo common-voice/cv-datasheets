@@ -153,9 +153,9 @@ information.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
-* Ricardo Samuel Bulaque <rbulaque@isced.ac.mz>
+* Ricardo Samuel Bulaque &lt;rbulaque@isced.ac.mz&gt;
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

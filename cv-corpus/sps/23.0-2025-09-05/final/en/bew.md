@@ -101,10 +101,10 @@ Bagan boleh utang kék, èmaknya boleh kuli nandur, kuli nyuci, yang penting ana
 ## Acknowledgements
 
 ### Datasheet authors
-* Yacub Fahmilda <yacub.fahmilda@gmail.com>
-* Riska Legistari Febri <riskalegistari25@gmail.com>
+* Yacub Fahmilda &lt;yacub.fahmilda@gmail.com&gt;
+* Riska Legistari Febri &lt;riskalegistari25@gmail.com&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.

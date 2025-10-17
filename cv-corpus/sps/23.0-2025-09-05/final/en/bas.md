@@ -176,9 +176,9 @@ The recording of spontaneous speech for this dataset was made with volunteer con
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
-* Emmanuel Ngue Um <ngueum@gmail.com>
+* Emmanuel Ngue Um &lt;ngueum@gmail.com&gt;
 
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->

@@ -158,7 +158,7 @@ information.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 Contact us via  https://www.fr.brezhoneg.bzh/171-contact.htm
 
 

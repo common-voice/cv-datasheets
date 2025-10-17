@@ -90,9 +90,9 @@ Nuqaqa llank'ani sapallay, nuqataq warmi kani nuqataq qhari kani, hina chaqra ru
 ## Acknowledgements
 
 ### Datasheet authors
-* Elwin Huaman <elwin.huaman@hotmail.com>
+* Elwin Huaman &lt;elwin.huaman@hotmail.com&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Citation guidelines
 If you use this dataset in your research, please cite the following publication:

@@ -125,10 +125,10 @@ information.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 * Pascale Erhart
-* Sam Bigeard <sam.bigeard@inria.fr>
+* Sam Bigeard &lt;sam.bigeard@inria.fr&gt;
 
 
 ### Funding

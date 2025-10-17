@@ -83,8 +83,8 @@ The following letters are also present in the dataset, but are not part of the o
 **{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. гьэдыкIьэ (ɟedəkʲ’e) [Some dialects of Kabardian] = джэдыкӏэ [Kabardian]: _egg_)
 
 **_Prior to dataset utilization, the following transformations should be applied to resolve transcription inconsistencies related to dialectal phoneme representation:_**
-> г' -> гь 
-> чӏ -> кӏь 
+&gt; г' -> гь 
+&gt; чӏ -> кӏь 
 
 **Other Languages:** 
 Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.
@@ -162,18 +162,18 @@ https://bit.ly/cv_circassian_start_here
 ## Acknowledgements
 
 ### Datasheet authors
-* M.Ugur Nemlioglu <nemerko@nemerko.com> 
-* Murat Topçu <murattopcu67@hotmail.com> 
+* M.Ugur Nemlioglu &lt;nemerko@nemerko.com&gt; 
+* Murat Topçu &lt;murattopcu67@hotmail.com&gt; 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Dataset curators
-* Murat Topçu <murattopcu67@hotmail.com> 	
+* Murat Topçu &lt;murattopcu67@hotmail.com&gt; 	
 * Elizaveta Gogunokova 
 * Saida Abregova 
 * M.Uğur Nemlioğlu 
 <!-- {{DATASET_CURATORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Advisors
 * Bülent Özden (Technical Advisor)

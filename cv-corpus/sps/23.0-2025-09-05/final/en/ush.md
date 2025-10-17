@@ -117,11 +117,11 @@ The recording of spontaneous speech for this dataset was made by the volunteerin
 - Emmanuel Ngue Um
 
 ### Datasheet authors
-* Zubair Torwali <ztorwali@gmail.com> 
-* Javid Iqbal Torwali <jitorwali@gmail.com>
+* Zubair Torwali &lt;ztorwali@gmail.com&gt; 
+* Javid Iqbal Torwali &lt;jitorwali@gmail.com&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
-Emmanuel Ngue Um <ngueum@gmail.com>
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
+Emmanuel Ngue Um &lt;ngueum@gmail.com&gt;
 
 ### Citation guidelines
 1. Javid Iqbal Torwali 

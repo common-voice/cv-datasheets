@@ -84,7 +84,7 @@ Apakah jenis dokumen yang anda perlukan untuk membuat perjalanan di dalam negara
 There follows a randomly selected sample of transcribed responses from the corpus.
 
 ```
-Detik pada hidup saya yang sangat gembira adalah semasa saya mencuba memanjat Gunung Kinabalu. Tetapi malangnya tidak dapat mencapai puncaknya. <bunyi> Tetapi dapat melihat puncak adalah sangat gembira.
+Detik pada hidup saya yang sangat gembira adalah semasa saya mencuba memanjat Gunung Kinabalu. Tetapi malangnya tidak dapat mencapai puncaknya. &lt;bunyi&gt; Tetapi dapat melihat puncak adalah sangat gembira.
 Ya, buat masa ini saya memandu kereta saya, di mana di- saya selalunya akan menaiki kereta dan membawa kereta saya ke pejabat saya tiap-tiap hari dan juga pada hari minggu.
 Dalam budaya saya, kebiasaannya waris-waris terdekat seperti anak-anak ataupun adik-beradik yang akan bergilir-gilir menjaga seseorang yang sedang berada di penghujung nyawanya.
 Saya sentiasa memanjatkan doa untuk anak-anak saya dan saya- mereka bebas untuk memilih jalan hidup sendiri.
@@ -152,7 +152,7 @@ information.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->

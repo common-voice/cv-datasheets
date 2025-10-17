@@ -39,10 +39,10 @@ The transcription of the entire dataset was done by a single individual, using t
 
 In general, the standard Albanian writing system was used, with the following exceptions:
 
-* `<Ε>` was used in place of standard Albanian <ë> /ǝ/
-* `<C>` was used in place of standard Albanian <ç> /tš/
-* `<gh>` was used to represent /γ/
-* `<hj>` was used to represent /ç/
+* `&lt;Ε&gt;` was used in place of standard Albanian &lt;ë&gt; /ǝ/
+* `&lt;C&gt;` was used in place of standard Albanian &lt;ç&gt; /tš/
+* `&lt;gh&gt;` was used to represent /γ/
+* `&lt;hj&gt;` was used to represent /ç/
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- A description of the transcription system used -->
 
@@ -104,9 +104,9 @@ There follows a randomly selected sample of transcribed responses from the corpu
 ## Acknowledgements
 
 ### Datasheet authors
-* Antonios Dimakis <a.dimakis@athenarc.gr>
+* Antonios Dimakis &lt;a.dimakis@athenarc.gr&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->

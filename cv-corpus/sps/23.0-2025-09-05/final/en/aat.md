@@ -146,8 +146,8 @@ information.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
-* Vivian Stamou <vivianstamou@gmail.com>
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
+* Vivian Stamou &lt;vivianstamou@gmail.com&gt;
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.

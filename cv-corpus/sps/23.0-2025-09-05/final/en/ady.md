@@ -162,18 +162,18 @@ https://bit.ly/cv_circassian_start_here
 ## Acknowledgements
 
 ### Datasheet authors
-* M.Ugur Nemlioglu <nemerko@nemerko.com> 
-* Murat Topçu <murattopcu67@hotmail.com> 
+* M.Ugur Nemlioglu &lt;nemerko@nemerko.com&gt; 
+* Murat Topçu &lt;murattopcu67@hotmail.com&gt; 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Dataset curators
-* M.Uğur Nemlioğlu <nemerko@nemerko.com>
+* M.Uğur Nemlioğlu &lt;nemerko@nemerko.com&gt;
 * Saida Abregova 
 * Elizaveta Gogunokova 
 * Murat Topçu 
 <!-- {{DATASET_CURATORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Advisors
 * Bülent Özden (Technical Advisor)
