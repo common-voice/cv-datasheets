@@ -1,16 +1,17 @@
 # *Latviešu* &mdash; Latvian (`lv`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
-
- This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
+This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
 for Latvian (`lv`). The dataset contains 229955 clips representing 311 hours of recorded
 speech (263 hours validated) from 6508 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
+Latvian is an Baltic language belonging to the Indo-European language family. It is spoken in the Baltic region,
+and is the official language of Latvia as well as one of the official languages of the European Union.
+There are about 1.5 million native Latvian speakers in Latvia and 100,000 abroad. 
+It uses the Latin alphabet with additional diacritical marks to represent specific sounds.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ### Variants
-<!-- {{VARIANT_DESCRIPTION}} -->
+There are slight stylistic speach variations among different regions of Latvia, but they do not affect mutual intelligibility. Latgale region has more significant differences with main Latvian language. It is sometimes considered a dialect, but Latgalian (`ltg`) speech is collected as a separate language in Common Voice.
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
 
@@ -71,14 +72,23 @@ The text corpus contains `99526` sentences, of which `34448` are validated, `650
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+Latvian alphabet is based on the Latin script and consists of 33 letters, including special characters with
+diacritical marks such as ā, č, ē, ģ, ī, ķ, ļ, ņ, š, ū, and ž.
+
+Historic texts also used letter /ŗ/, but use of it has been officially discontinued since 1946. 
+This letter is equivalent to letter /r/ in modern Latvian orthography.
+
+Letter /o/ can represent three different sounds [ua̯], [ɔ], [ɔː].
+
+Letter /e/ can represent two different sounds [e], [æ].
+
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+```
+a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
+```
 
 ### Sample
 There follows a randomly selected sample of five sentences from the corpus.
@@ -93,7 +103,8 @@ Karavīri uzdāvināja frontes paciņu, kurā atradās saldumi un šokolādes t�
 <!-- {{SENTENCES_SAMPLE}} -->
 
 ### Sources
-<!-- {{SOURCES_LIST}} -->
+Text sources in the dataset consists of user added content as well as balanced sets of samples from Wikipedia,
+European parliament transcripts, out of copyright books and other sources.
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
@@ -123,7 +134,8 @@ Karavīri uzdāvināja frontes paciņu, kurā atradās saldumi un šokolādes t�
 <!-- How has the text data been processed -->
 
 ### Recommended post-processing
-<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+* Filter out clips with /ŗ/
+* Filter out clips with characters not in the Latvian alphabet
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
 
@@ -142,7 +154,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demograpics 
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.
@@ -151,7 +163,7 @@ information.
 
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/lv/common-voice/contributors/)
-<!-- {{COMMUNITY_LINKS_LIST}} -->
+* [Balsu talka](https://balsutalka.lv/)
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 

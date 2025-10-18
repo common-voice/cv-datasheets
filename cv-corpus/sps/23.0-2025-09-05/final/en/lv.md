@@ -1,12 +1,13 @@
 # *Latviešu* &mdash; Latvian (`lv`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
-
 This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Latvian (`lv`). The dataset contains 18 clips representing 1 hours of recorded
 speech (1 hours validated) from 4 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
+Latvian is an Baltic language belonging to the Indo-European language family. It is spoken in the Baltic region,
+and is the official language of Latvia as well as one of the official languages of the European Union.
+There are about 1.5 million native Latvian speakers in Latvia and 100,000 abroad. 
+It uses the Latin alphabet with additional diacritical marks to represent specific sounds.
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
@@ -50,14 +51,23 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+Latvian alphabet is based on the Latin script and consists of 33 letters, including special characters with
+diacritical marks such as ā, č, ē, ģ, ī, ķ, ļ, ņ, š, ū, and ž.
+
+Historic texts also used letter /ŗ/, but use of it has been officially discontinued since 1946. 
+This letter is equivalent to letter /r/ in modern Latvian orthography.
+
+Letter /o/ can represent three different sounds [ua̯], [ɔ], [ɔː].
+
+Letter /e/ can represent two different sounds [e], [æ].
+
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
-<!-- {{ALPHABET_TABLE}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+```
+a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
+```
 
 #### Extralinguistic tags
 
@@ -118,7 +128,7 @@ information.
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/lv/common-voice/contributors/)
 * [Original language request on GitHub](https://github.com/common-voice/common-voice/issues/4878)
-<!-- {{COMMUNITY_LINKS_LIST}} -->
+* * [Balsu talka](https://balsutalka.lv/)
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
