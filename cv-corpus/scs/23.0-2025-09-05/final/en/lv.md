@@ -89,6 +89,8 @@ Letter /e/ can represent two different sounds [e], [æ].
 ```
 a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
 ```
+<!-- @ OPTIONAL @ -->
+<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 ### Sample
 There follows a randomly selected sample of five sentences from the corpus.
@@ -154,7 +156,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics 
+[demograpics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.

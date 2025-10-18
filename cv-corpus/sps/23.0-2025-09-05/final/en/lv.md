@@ -68,6 +68,8 @@ Letter /e/ can represent two different sounds [e], [æ].
 ```
 a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
 ```
+<!-- @ OPTIONAL @ -->
+<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
 #### Extralinguistic tags
 
