@@ -173,7 +173,7 @@ information.
 <!-- If you received any funding, you can include the acknowledgement here -->
 This dataset was compiled by *Instituto da Lingua Galega* (Galician Language Institute) as part of *Proxecto Nós*. The work was funded by *Ministerio para la Transformación Digital y de la Función Pública*, with support from the European Union through *NextGenerationEU*, under the [ILENIA Project](https://proyectoilenia.es/) (reference 2022/TL22/00215336).
 
-Additional funding was provided by *Xunta de Galicia^* through the programme *Axudas de consolidación e estruturación de unidades de investigación competitivas* to the research group *Filoloxía e Lingüística Galega* (ED431C 2025/13), as well as by *Ministerio de Cultura*.
+Additional funding was provided by *Xunta de Galicia* through the programme *Axudas de consolidación e estruturación de unidades de investigación competitivas* to the research group *Filoloxía e Lingüística Galega* (ED431C 2025/13), as well as by *Ministerio de Cultura*.
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
 you agree to not determine the identity of speakers in the dataset.
