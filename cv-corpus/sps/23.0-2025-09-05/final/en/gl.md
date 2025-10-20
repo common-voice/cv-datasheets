@@ -88,11 +88,13 @@ Describe algunha decoración que teñas na casa.
 There follows a randomly selected sample of transcribed responses from the corpus.
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+```
 Pois, en xeral, levántome sobre as oito e media, máis ou menos, pero agora no verán teño que me levantar antes porque teño, eeh... horario de verán.
 Como son un señor, as actividades físicas favoritas para min son as de andar, se cadra andar tamén na bicicleta e tomar un pouco o fresco.
 Verde por fóra, branca por dentro... mmm (risas) é que non me lembro
 Para traballar e para me entreter
 Escoitar un pouco ó corpo, eee, comer de todo un pouco, eee, non restrinxir ningún alimento...
+```
 
 ### Recommended post-processing
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
