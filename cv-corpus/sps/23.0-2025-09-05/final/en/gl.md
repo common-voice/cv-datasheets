@@ -88,6 +88,12 @@ Describe algunha decoración que teñas na casa.
 There follows a randomly selected sample of transcribed responses from the corpus.
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+Pois, en xeral, levántome sobre as oito e media, máis ou menos, pero agora no verán teño que me levantar antes porque teño, eeh... horario de verán.
+Como son un señor, as actividades físicas favoritas para min son as de andar, se cadra andar tamén na bicicleta e tomar un pouco o fresco.
+Verde por fóra, branca por dentro... mmm (risas) é que non me lembro
+Para traballar e para me entreter
+Escoitar un pouco ó corpo, eee, comer de todo un pouco, eee, non restrinxir ningún alimento...
+
 ### Recommended post-processing
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
@@ -127,6 +133,7 @@ information.
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/gl/common-voice/contributors/)
 * [Original language request on GitHub](https://github.com/common-voice/common-voice/issues/4913)
+* [Doar a miña voz] (https://doagalego.nos.gal/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
@@ -150,6 +157,8 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+Adina Ioana Vladu
+María Pérez Lago 
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
@@ -160,6 +169,7 @@ information.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
+This dataset was fully funded by the Instituto da Lingua Galega.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
