@@ -159,8 +159,8 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-Adina Ioana Vladu
-María Pérez Lago 
+- Adina Ioana Vladu
+- María Pérez Lago 
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
