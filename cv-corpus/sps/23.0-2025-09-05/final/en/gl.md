@@ -1,5 +1,5 @@
 # *Galego* &mdash; Galician (`gl`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
+<!-- {{This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!}} -->
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Galician (`gl`). The dataset contains 211 clips representing 2 hours of recorded
