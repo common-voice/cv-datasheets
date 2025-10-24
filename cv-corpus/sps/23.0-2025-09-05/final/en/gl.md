@@ -1,23 +1,25 @@
 # *Galego* &mdash; Galician (`gl`)
-<!-- {{This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!}} -->
-
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Galician (`gl`). The dataset contains 211 clips representing 2 hours of recorded
 speech (1 hours validated) from 13 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
 Galician is the language of Galicia (Spain). In addition to being a language of use in this territory, it is spoken in other bordering areas, although without official status (Asturias, León, Zamora). It belongs to the Indo-European language family, specifically the Romance languages, along with Spanish, Portuguese and Catalan. It also has a close relationship with Portuguese since they share historical origins, but today they constitute two separate languages with each one having its own respective standard. The state of vitality of the language is “Institutional” according to Ethnologue https://www.ethnologue.com/language/glg/, that is, the language is developed, has a standard variety, is taught at all stages of the Galician educational system and has institutional support. However, from the point of view of sociolinguistics, both the autonomous community of Galicia and the other territories that speak the Galician language present typical features of a situation of linguistic conflict (diglossia), resulting from a historical process of replacement of Galician (a minority language) by Spanish. 
 
 The Galician language is a rich and diverse reality, and its linguistic variation is manifested in spontaneous speech. Thus, aspects such as age, geography, sociocultural level or communicative context also influence linguistic uses. At the dialectal level, Galician presents differentiating features between the eastern and western areas, as well as between the north and the south: phonetic changes (such as the use of *gheada* or *seseo*), lexical variations (different words to designate the same object) or even small morpho-syntactic differences. 
+<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- Provide a brief (1-2 paragraph) description of your language -->
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -26,8 +28,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -39,7 +43,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `153`
@@ -53,30 +60,31 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
-<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- A description of the writing system (or writing systems) used in the text corpus -->
-
 The writing system of Galician is based on the Latin alphabet, like other Romance languages (Spanish, Portuguese or French). Its orthography is regulated by the corresponding regional institutions that establish the official rules of use (NOMIG).
 
 Galician uses the 23 letters of the basic Latin alphabet: 5 vowels (a, e, i, o, u) and 18 consonants. The vowel system of Galician is composed of seven oral vowels (/a/, /e/, /ɛ/, /i/, /o/, /ɔ/ and /u/), as the mid vowels ("e" and "o") have two possible pronunciations: open (/ɛ/, /ɔ/) and closed (/e/, /o/). At the consonant level, the letters Ç, J, K, W and Y are supported in foreign words, proper names, abbreviations and international acronyms. The Galician alphabet also has numerous digraphs: combinations of two letters that represent a single sound: "ch", "gu", "ll", "nh", "qu", "rr". In addition, the presence of the phoneme /ʃ/ represented by the letter “x”, the fricative sound /ʒ/, the distinction between /s/ and /θ/ which depends on the dialect areas, the gheada, etc., should be highlighted in the Galician consonant system.
 
 Accentuation in Galician is quite regular and follows clear rules. A graphic "diacritical accent" is also used to distinguish pairs of words with the same spelling but different meanings, e.g., *bóla* (sphere, ball), *bola* (round type of bread).
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
+```
+a, á, b, c, d, e, é, f, g, h, i, í, ï, l, m, n, o, ó, p, q, r, s, t, u, ú, ü, v, x, z
+```
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
-a, á, b, c, d, e, é, f, g, h, i, í, ï, l, m, n, o, ó, p, q, r, s, t, u, ú, ü, v, x, z
-
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Estendes a roupa nun tendal ou métela nunha secadora?
 Que almorzas un día normal?
@@ -88,8 +96,6 @@ Describe algunha decoración que teñas na casa.
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-<!-- {{TRANSCRIPTIONS_SAMPLE}} -->
-
 ```
 Pois, en xeral, levántome sobre as oito e media, máis ou menos, pero agora no verán teño que me levantar antes porque teño, eeh... horario de verán.
 Como son un señor, as actividades físicas favoritas para min son as de andar, se cadra andar tamén na bicicleta e tomar un pouco o fresco.
@@ -97,8 +103,11 @@ Verde por fóra, branca por dentro... mmm (risas) é que non me lembro
 Para traballar e para me entreter
 Escoitar un pouco ó corpo, eee, comer de todo un pouco, eee, non restrinxir ningún alimento...
 ```
+<!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 ### Recommended post-processing
+[Not provided]-->
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
@@ -142,7 +151,9 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
 ### Discussions
+[Not provided]-->
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
@@ -159,23 +170,26 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
+* Adina Ioana Vladu
+* María Pérez Lago 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
-- Adina Ioana Vladu
-- María Pérez Lago 
 
+<!--[Not provided]
 ### Citation guidelines
+[Not provided]-->
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
-<!-- {{FUNDING_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- If you received any funding, you can include the acknowledgement here -->
 This dataset was compiled by *Instituto da Lingua Galega* (Galician Language Institute) as part of *Proxecto Nós*. The work was funded by *Ministerio para la Transformación Digital y de la Función Pública*, with support from the European Union through *NextGenerationEU*, under the [ILENIA Project](https://proyectoilenia.es/) (reference 2022/TL22/00215336).
 
 Additional funding was provided by *Xunta de Galicia* through the programme *Axudas de consolidación e estruturación de unidades de investigación competitivas* to the research group *Filoloxía e Lingüística Galega* (ED431C 2025/13), as well as by *Ministerio de Cultura*.
+<!-- {{FUNDING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you received any funding, you can include the acknowledgement here -->
+
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
 you agree to not determine the identity of speakers in the dataset.
