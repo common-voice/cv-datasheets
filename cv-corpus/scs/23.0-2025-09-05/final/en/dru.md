@@ -2,17 +2,27 @@
 > This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
  This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
-for Rukai (`dru`). The dataset contains 6692 clips representing 11 hours of recorded
+for Rukai (`dru`) (including Teldreka and 'Oponoho). The dataset contains 6692 clips representing 11 hours of recorded
 speech (11 hours validated) from 20 speakers.
+
+This dataset includes 20 speakers from the Rukai community recruited with support from Payuan Classic Studio, as well as speakers from the Teldreka and Oponoho communities. The recordings cover the Indigenous Languages Curriculum (K-12) textbook materials, level 1 to 9.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Rukai (Drekay), including Teldreka and Oponoho, are Indigenous languages of the Rukai people in Taiwan.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
+This speech corpus includes the following dialect groups:
+
+- Eastern Rukai (`taromak`)
+- Wutai Rukai (`veday`)
+- Dawu Rukai (`labuane`)
+- Oponoho (`oponoho`)
+- Teldreka (`teldreka`)
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -20,6 +30,9 @@ The dataset includes the following distribution of age and gender.
 
 ### Gender
 Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+
+(The MozTW / Wikimedia Taiwan Indigenous language recording project in early 2025 did not collect this information; therefore, these figures may be relatively inaccurate.)
+
 | Gender | Pertentage |
 |-|-|
 | Female Feminine | 12.0% |
@@ -34,6 +47,9 @@ Self-declared gender information, percentage refers to the number of clips annot
 
 ### Age
 Self-declared age information, percentage refers to the number of clips annotated with this age band.
+
+(The MozTW / Wikimedia Taiwan Indigenous language recording project in early 2025 did not collect this information; therefore, these figures may be relatively inaccurate.)
+
 | Age Band | Percentage |
 |-|-|
 | Undefined | 88.0% |
@@ -91,6 +107,14 @@ Taiwan ka ’iyakay nyani madraw na egeege?
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
+The recording texts are taken from the Indigenous Languages Curriculum (K-12) textbook content (in romanization) for levels 1 to 9, uploaded by Wikimedia Taiwan under authorization from the K-12 Education Administration, Ministry of Education (Taiwan, ROC): https://www.k12ea.gov.tw. Special thanks to Deputy Minister Ping-Cheng Yeh for facilitating the authorization.
+
+Some Wutai Rukai (`veday`) texts are provided by the NTU Corpus of Formosan Languages (Graduate Institute of Linguistics, National Taiwan University): https://corpus.linguistics.ntu.edu.tw/ (thanks to Prof. Li-May Sung for assistance).
+
+For Tona, Oponoho and Teldreka, 59 selected verses each from the Gospel of Mark (see https://cb.fhl.net) are included, with authorization from The Bible Society in Taiwan.
+
+During the recording project, we noticed certain semantic mismatches and typographical/spelling issues in parts of the text. Due to Common Voice system constraints, these were not corrected in advance and recordings proceeded as-is. Recorders and textbook providers collaborated closely; this note is provided for transparency.
+
 ### Text domains
 | Domain | Count |
 |-|-|
@@ -134,7 +158,20 @@ information.
 ## Get involved!
 
 ### Community links
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/dru/common-voice/contributors/)
+
+MozTW (Mozilla Taiwan) Common Voice project site: https://moztw.org/commonvoice/
+
+For questions, suggestions, outreach, donating text, or collaboration, please reach out via:
+
+- Telegram group: https://t.me/+gvmHEcAtd-IwNzFl
+- Line group: https://line.me/ti/g/_PLyjCSe_8
+
+Communities involved in the 2025 Indigenous language recording project:
+
+- Wikimedia Taiwan: https://www.facebook.com/wikimedia.tw
+- Payuan Classic: https://www.facebook.com/PayuanClassic/
+- Special thanks to Kuliw from Payuan Classic for recruitment and recording support
+- 
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
@@ -144,11 +181,12 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
+
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/dru/speak)
-* [Write](https://commonvoice.mozilla.org/dru/write)
 * [Listen](https://commonvoice.mozilla.org/dru/listen)
-* [Review](https://commonvoice.mozilla.org/dru/review)
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
@@ -157,6 +195,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+ - Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->

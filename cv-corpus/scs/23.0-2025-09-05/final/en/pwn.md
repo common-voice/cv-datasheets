@@ -5,14 +5,23 @@
 for Paiwan (`pwn`). The dataset contains 10938 clips representing 15 hours of recorded
 speech (15 hours validated) from 27 speakers.
 
+This dataset includes 27 speakers recruited with the support of Payuan Classic Studio. The recordings cover the Indigenous Languages Curriculum (K-12) textbook materials, level 1 to 9.
+
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Paiwan (Pinayuanan) is an Indigenous language of the Paiwan people in Taiwan.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
+This speech corpus includes the following dialect groups:
+
+- Central Paiwan (`central`)
+- Eastern Paiwan (`eastern`)
+- Northern Paiwan (`northern`)
+- Southern Paiwan (`southern`)
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -20,6 +29,9 @@ The dataset includes the following distribution of age and gender.
 
 ### Gender
 Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+
+(The MozTW / Wikimedia Taiwan Indigenous language recording project in early 2025 did not collect this information; therefore, these figures may be relatively inaccurate.)
+
 | Gender | Pertentage |
 |-|-|
 | Undefined | 49.0% |
@@ -36,6 +48,9 @@ Self-declared gender information, percentage refers to the number of clips annot
 
 ### Age
 Self-declared age information, percentage refers to the number of clips annotated with this age band.
+
+(The MozTW / Wikimedia Taiwan Indigenous language recording project in early 2025 did not collect this information; therefore, these figures may be relatively inaccurate.)
+
 | Age Band | Percentage |
 |-|-|
 | Undefined | 29.0% |
@@ -94,6 +109,9 @@ keman a ken tu tjanu ita tua udung
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
+The recording texts are taken from the Indigenous Languages Curriculum (K-12) textbook content (in romanization) for levels 1 to 9, uploaded by Wikimedia Taiwan under authorization from the K-12 Education Administration, Ministry of Education (Taiwan, ROC): https://www.k12ea.gov.tw. Special thanks to Deputy Minister Ping-Cheng Yeh for facilitating the authorization.
+
+During the recording project, we noticed certain semantic mismatches and typographical/spelling issues in parts of the text. Due to Common Voice system constraints, these were not corrected in advance and recordings proceeded as-is. Recorders and textbook providers collaborated closely; this note is provided for transparency.
 
 ### Text domains
 | Domain | Count |
@@ -136,7 +154,18 @@ information.
 ## Get involved!
 
 ### Community links
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/pwn/common-voice/contributors/)
+MozTW (Mozilla Taiwan) Common Voice project site: https://moztw.org/commonvoice/
+
+For questions, suggestions, outreach, donating text, or collaboration, please reach out via:
+
+- Telegram group: https://t.me/+gvmHEcAtd-IwNzFl
+- Line group: https://line.me/ti/g/_PLyjCSe_8
+
+Communities involved in the 2025 Indigenous language recording project:
+
+- Wikimedia Taiwan: https://www.facebook.com/wikimedia.tw
+- Payuan Classic: https://www.facebook.com/PayuanClassic/
+- Special thanks to Kuliw for recruitment and recording support
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
@@ -145,12 +174,13 @@ information.
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
 
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/pwn/speak)
-* [Write](https://commonvoice.mozilla.org/pwn/write)
 * [Listen](https://commonvoice.mozilla.org/pwn/listen)
-* [Review](https://commonvoice.mozilla.org/pwn/review)
+
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
@@ -159,6 +189,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+ - Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
