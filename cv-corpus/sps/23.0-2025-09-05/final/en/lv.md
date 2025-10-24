@@ -8,14 +8,19 @@ Latvian is an Baltic language belonging to the Indo-European language family. It
 and is the official language of Latvia as well as one of the official languages of the European Union.
 There are about 1.5 million native Latvian speakers in Latvia and 100,000 abroad. 
 It uses the Latin alphabet with additional diacritical marks to represent specific sounds.
+<!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -24,8 +29,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -37,7 +44,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `18`
@@ -60,7 +70,7 @@ This letter is equivalent to letter /r/ in modern Latvian orthography.
 Letter /o/ can represent three different sounds [ua̯], [ɔ], [ɔː].
 
 Letter /e/ can represent two different sounds [e], [æ].
-
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
@@ -68,16 +78,18 @@ Letter /e/ can represent two different sounds [e], [æ].
 ```
 a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
 ```
+<!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Ko jūs domājat par latviešu tradicionālo virtuvi mūsdienās?
 Ko jūs domājat par latviešu tautas tērpiem?
@@ -87,11 +99,15 @@ Kā labāk iepazīt Latviju tūristiem?
 ```
 <!-- {{QUESTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
+[Not provided]-->
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 ### Recommended post-processing
+[Not provided]-->
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
@@ -130,11 +146,13 @@ information.
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/lv/common-voice/contributors/)
 * [Original language request on GitHub](https://github.com/common-voice/common-voice/issues/4878)
-* * [Balsu talka](https://balsutalka.lv/)
+* [Balsu talka](https://balsutalka.lv/)
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
 ### Discussions
+[Not provided]-->
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
@@ -154,12 +172,16 @@ information.
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
+<!--[Not provided]
 ### Citation guidelines
+[Not provided]-->
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
+<!--[Not provided]
 ### Funding
+[Not provided]-->
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
