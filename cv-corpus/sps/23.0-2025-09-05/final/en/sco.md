@@ -171,7 +171,7 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
-* Jennifer Smith <jennifer.smith@glasgow.ac.uk>
+* Jennifer Smith &lt;jennifer.smith@glasgow.ac.uk&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
