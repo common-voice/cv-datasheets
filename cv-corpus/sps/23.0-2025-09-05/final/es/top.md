@@ -1,7 +1,7 @@
 # *Papantla Totonac* &mdash; Papantla Totonac (`top`)
 > Esta hoja de datos ha sido generada automáticamente, nos encantaría incluir más información, si deseas ayudar, [¡ponte en contacto con nosotros!]([get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)
 
- Esta ficha técnica corresponde a la versión 23.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
+Esta ficha técnica corresponde a la versión 1.0 del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice 
 para Papantla Totonac (`top`). El conjunto de datos contiene 411 representando 11 horas de grabaciones 
 (11 horas validadas) de 10 hablantes.
 

@@ -1,20 +1,25 @@
 # *Scots* &mdash; Scots (`sco`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
-
- This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Scots (`sco`). The dataset contains 715 clips representing 12 hours of recorded
 speech (11 hours validated) from 21 speakers.
 
 ## Language
+Scots, a sister language of English spoken throughout Scotland, has a long history. It arose from northern English dialects around the 14th century and spread east and northwards, supplanting the indigenous Gaelic language, and developing into a socially and politically high status language with spoken and written norms distinct from those in England. From the 17th century onwards, political, religious and social events led to a loss of status, and thus a shrinking of the domains in which Scots was used, but while English norms replaced Scots in writing, *spoken* Scots continued to be used. Present day Scots is characterised by the *Scots Linguistic Continuum* with Standard Scottish English – generally described as being close to Standard English but with an overlay of distinctly Scottish sounds – at one end and Broad Scots – much further from Standard English with its own words, sounds and sentence structures – at the other. In terms of the social profiles, Scottish Standard English is spoken by middle class speakers and in more formal situations such as in schools, while Broad Scots is spoken by working class speakers and in informal situations such as with family and friends. Speakers may styleshift up and down the continuum according to, amongst others, interlocutor and context. At the Broad Scots end of the continuum, there is significant geographic diversity, where, for example, speakers in Glasgow sound very different to speakers in Aberdeen. The speakers in these recordings are from a range of geographic locations, and align more with the Broad Scots end of the continuum. 
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
+<!--[Not provided]
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
 ### Gender
+The data contain both male and female speakers. 
+
+<!--[Not provided]
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -24,7 +29,11 @@ Self-declared gender information, frequency refers to the number of clips annota
 | female, feminine | ? | -->
 
 ### Age
+The speakers range from 25-65 years old. 
+
+<!--[Not provided]
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -36,6 +45,9 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+### Geography
+The speakers are from across Scotland, representing the different dialect areas therein. 
+   
 ## Data splits for modelling
 | Split | Count |
 |-|-|
@@ -43,6 +55,8 @@ Self-declared age information, frequency refers to the number of clips annotated
 | Dev | 161 |
 
 ## Transcriptions
+The transcription system uses general Latin script.
+
 * Prompts: `47`
 * Duration: `40234608[ms]`
 * Avg. Transcription Len: `725`
@@ -54,22 +68,26 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
+Present day Scots has no written standard and orthographic conventions vary both within and between the different dialects being represented. For example, *can’t* may be *cannae* or *canny* in Edinburgh, but *canna* in Aberdeen. For these transcriptions, we have followed protocols documented in previous research e.g. https://scotssyntaxatlas.ac.uk 
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+<!--[Not provided]
 #### Symbol table
+[Not provided]-->
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Describe where you grew up.
 If you could learn any skill, what would it be?
@@ -81,7 +99,6 @@ What’s the most expensive thing you’ve ever bought?
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
-
 ```
 Some of the things that I like about where I live is that it’s a quiet area, eh, and you know the neighbours are pretty nosey, which is good, eh and they look after, eh, me and my daughter. Eh, I like that it’s away from the main road, I like that it’s quiet, eh, and I’ve always felt safe there. Eh, what I don’t like about it, eh, that’s really quite hard to answer, ‘cause I can’t think of anything. Eh, no can’t think of anything about- in general in Aberdeen I think eh, I like living here ‘cause it’s all I’ve known, eh, so I feel safe and, eh, secure here. What I don’t like about it is that it’s not very like nice to look at these days, there’s a lot of empty buildings, eh, and it doesn’t seem to be as, eh, productive of a place as I think it could be in terms of other cities like Glasgow and Edinburgh. Eh, so yeah, I feel like eh, Aberdeen can be a bit- I don’t know, unused I suppose to its full potential. 
 I wish I had travelled more, and I wish I’d actually enjoyed school better, eh, to learn a lot more. However, when I was older I preferred- I went to college, but not as in for to do anything- it was more a course that was called ‘Fresh Start for Women’ and it gave you a wee taster of different things, you know, it gave you a taster of English, eh, it- maths, which I- as I said, I absolutely hated, eh, counselling, we were- I wanted to be a counsellor, so yeah, as in to help other people. However, when I was doing my training for that, my husband was getting paid off from his work, and I knew that I had to try and get a job for- to have money coming in, so I had to give up my college course, so yeah I think I wish that I’d actually stuck at that and become a counsellor. I know they say it’s never too late, but I think in time you know, you sort of lose the- the will to actual learn new things, eh so. So that’s no going to happen now, but yeah that’s a- I think that’s one of the things that I wish that I’d done was to stay on and study for- to be a counsellor.
@@ -91,7 +108,9 @@ Well, if you’d asked me this ten year ago I’d have always said a big night o
 ```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 ### Recommended post-processing
+[Not provided]-->
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
@@ -120,7 +139,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demographics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.
@@ -133,7 +152,9 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
 ### Discussions
+[Not provided]-->
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
@@ -150,10 +171,13 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
+* Jennifer Smith &lt;jennifer.smith@glasgow.ac.uk&gt;
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
+<!--[Not provided]
 ### Citation guidelines
+[Not provided]-->
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->

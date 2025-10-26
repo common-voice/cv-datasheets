@@ -1,22 +1,25 @@
 # *Elsassisch* &mdash; Alsatian (`gsw`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Alsatian (`gsw`). The dataset contains 3 clips representing 1 hours of recorded
 speech (0 hours validated) from 1 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
-
 Elsassisch (Alsatian in English, Alsacien in French) is a language spoken in the Alsace region in the East of France. As of 2022, 46 % of the population of the region declares speaking Alsatian. The term Alsatian refers to a linguistic continuum that includes varieties of Alemannic and Franconian. It shares the Alemannic language family with Swiss German and the Franconian language family with Luxembourgish.
 
  Note on the language code : There is currently no language code for specifically Alsatian. GSW is the code of Swiss German. However, the Common Voice community for Swiss German has chosen to be included under the umbrella of German, and thus isn't using the language code. It has been agreed to use GSW for Alsatian in the context of Common Voice. This does not mean that Alsatian is the same as Swiss German (even if some features are shared), and care should be taken to not mix up the two languages.
+<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- Provide a brief (1-2 paragraph) description of your language -->
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -25,8 +28,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -38,7 +43,10 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
 * Prompts: `3`
@@ -51,28 +59,46 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- A description of the transcription system used -->
 
+<!--[Not provided]
 ### Writing system
+[Not provided]-->
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
+<!--[Not provided]
 #### Symbol table
+[Not provided]-->
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
+<!--[Not provided]
 ### Samples
+[Not provided]-->
 
+<!--[Not provided]
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
+[Not provided]-->
 <!-- {{QUESTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
+[Not provided]-->
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+<!--[Not provided]
+### Recommended post-processing
+[Not provided]-->
+<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -98,7 +124,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demographics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.
@@ -112,6 +138,13 @@ information.
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
+### Discussions
+[Not provided]-->
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
+
 ### Contribute
 * [Contribute questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)
 * [Validate questions](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)
@@ -124,18 +157,23 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
-<!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
-
 * Pascale Erhart
-* Sam Bigeard <sam.bigeard@inria.fr>
+* Sam Bigeard &lt;sam.bigeard@inria.fr&gt;
+<!-- {{DATASHEET_AUTHORS_LIST}} -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
+<!--[Not provided]
+### Citation guidelines
+[Not provided]-->
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+The launch of this language on Common Voice was part of Défi Inria COLaF, which was financed by Plan National de Recherche en Intelligence Artificielle.
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-The launch of this language on Common Voice was part of Défi Inria COLaF, which was financed by Plan National de Recherche en Intelligence Artificielle.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data

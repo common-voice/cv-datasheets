@@ -1,6 +1,6 @@
 # *Адыгэбзэ (Къэбэрдей)* &mdash; Kabardian (East Circassian) (`kbd`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Kabardian (East Circassian) (`kbd`). The dataset contains 8 hours of recorded
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+for Kabardian (East Circassian) (`kbd`). The dataset contains 669 clips representing 8 hours of recorded
 speech (6 hours validated) from 25 speakers.
 
 ## Language
@@ -12,12 +12,16 @@ There is no definitive and official publication on this matter. Data published b
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -26,8 +30,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -38,8 +44,25 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fourties | ? |
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
+   
+<!--[Not provided]
+## Data splits for modelling
+ | Split | Count |
+|-|-|
+| Train | 381 |
+| Test | 166 |
+| Dev | 122 |
+[Not provided]-->
+<!-- @ AUTOMATICALLY GENERATED @ -->
 
 ## Transcriptions
+* Prompts: `154`
+* Duration: `25347204[ms]`
+* Avg. Transcription Len: `297`
+* Avg. Duration: `37.89[s]`
+* Valid Duration: `18827.35[s]`
+* Total hours: `7.04[h]`
+* Valid hours: `5.23[h]`
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- A description of the transcription system used -->
 
@@ -52,10 +75,10 @@ During the period when there was no Kabardian keyboard option, the recorded text
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
-**Main Alphabet:** (Ordered by ascending) <br>
+**Main Alphabet:** (Ordered by ascending) 
 ```а э б в г {гу} {гъ} {гъу} д {дж} {дз} е ё ж {жь} з и й к {ку} {кӏ} {кӏу} {къ} {къу} {кхъ} {кхъу} л {лъ} {лӏ} м н о п {пӏ} р с т {тӏ} у ф {фӏ} х {ху} {хь} {хъ} {хъу} ц {цӏ} ч  ш щ {щӏ} ъ ы ь ю я ӏ {ӏу} ```
 
-**Orthographic–Phonetic Table (IPA):** <br>
+**Orthographic–Phonetic Table (IPA):** 
 
 | А а (aː) |  Э э (a,ɘ) | Б б (b) | В в (v) | Г г (g) | Гу гу (ɡʷ) | Гъ гъ (ʁ) | Гъу гъу (ʁʷ) | Д д (d) | Дж дж (dʒ) |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -75,19 +98,19 @@ During the period when there was no Kabardian keyboard option, the recorded text
 | Щ щ (ɕ) | Щӏ щӏ (ɕʼ) | Ъ ъ (′) | Ы ы (ə) | Ь ь (′) | Ю ю (ju) | Я я (ja) | Ӏ ӏ (ʔ) | Ӏу ӏу (ʔʷ) |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|
 
-**Auxiliary exemplar:** <br>
-The following letters are also present in the dataset, but are not part of the official Kabardian alphabet. They are used to represent three specific sounds in the different sub dialects.<br>
+**Auxiliary exemplar:** 
+The following letters are also present in the dataset, but are not part of the official Kabardian alphabet. They are used to represent three specific sounds in the different sub dialects.
 
-**{гь}:** [_Voiced dorso-palatal plosive_ [ʄ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. гьанэ (ɟa:ne) [Some dialects of Kabardian] = джанэ [Kabardian]: _shirt/dress_)<br>
-**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьыржын (kʲərʒən) [Some dialects of Kabardian] = чыржын [Kabardian]: _a type of cookie made from corn flour_ )<br>
-**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. гьэдыкIьэ (ɟedəkʲ’e) [Some dialects of Kabardian] = джэдыкӏэ [Kabardian]: _egg_)<br>
+**{гь}:** [_Voiced dorso-palatal plosive_ [ʄ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. гьанэ (ɟa:ne) [Some dialects of Kabardian] = джанэ [Kabardian]: _shirt/dress_)
+**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьыржын (kʲərʒən) [Some dialects of Kabardian] = чыржын [Kabardian]: _a type of cookie made from corn flour_ )
+**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. гьэдыкIьэ (ɟedəkʲ’e) [Some dialects of Kabardian] = джэдыкӏэ [Kabardian]: _egg_)
 
 **_Prior to dataset utilization, the following transformations should be applied to resolve transcription inconsistencies related to dialectal phoneme representation:_**
-> г' -> гь <br>
-> чӏ -> кӏь <br>
+&gt; г' -> гь 
+&gt; чӏ -> кӏь 
 
-**Other Languages:** <br>
-Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
+**Other Languages:** 
+Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
@@ -120,11 +143,25 @@ The following table presents the general language variants of the Kabardian lang
 ### Samples
 
 #### Questions
-There follows a randomly selected sample of transcribed responses from the corpus.
+There follows a randomly selected sample of questions used in the corpus.
+```
+Ущыцӏыкӏум сыт хуэдэ джэгукӏэ узэрыджэгуар? [Vuşıts'ık'um sıt xuede ceguç'e vuzerıceguar?]
+Уи сабийр и ныбжьэгъухэм езауэмэ сыт пщӏэнур? [Vui sabiyr yi nıbjeğuxem yêzaueme sıt pş'enur?]
+Щхьэхуитыныгъэр дауэ къызэрыбгурыӏуэр? [Şhexuitınığer daue khızerıbgurı'uer?]
+Узэреплъымкӏэ псы ежэххэр къабзэу къызэтенэн папщӏэ сыт тщӏэн хуейр? [Vuzerêplhımç'e psı yêjjexxer khabzeu khızetênen papş'e sıt tş'en xuêyr?]
+Фи щӏэнгъасэ ӏуэхум дауэ уеплърэ? [Fi ş'enğase 'uexum daue vuêplhre?]
+```
 <!-- {{QUESTIONS_SAMPLE}} -->
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
+```
+Си лъэпкъ хабзэр куэдчӏэ къащхьэщочӏ адрей лъэпкъхэм. Сэ си хабзэр дахэщ, икъучӏэ губзыгъагъэ хьэлщэн дахэхьэр хэлъщ.[noise]
+
+Нтӏэ, ищӏащ. Цӏыхум убгъэдэту ущепсалъэм дей зыгуэрчӏэ и жагъуэ пщӏыуэ щытмэ е зыгуэр жепӏэу щытмэ игу иримыхьу,[disfluency] абыи зыгуэр къуищӏэнчӏэри хъунущ, ӏей дыдэу и жагъуэ пщӏыуэ щытмэ. Интернетым апхуэдэу зы щӏыпӏэ [disfluency] комментарий жоуэ уихьэу зыгуэр птхыуэ е зыгуэрым уедауэу зыгуэрк1э и жагъуэ пщӏыуэ щытмэ, зыри къуищӏэну [disfluency] къару иӏэнукъымэ.
+Си щэхухэр зыхуэсӏуатэр си анэращ. Си анэр анэм хуэдэуи, шыпхъу нэхъыжьым хуэдэуи, ныбжьэгъуфӏым хуэдэуи къысхущытщ. Абы хуэду си дзыхь зыми есхьэлӏэӏым, абы хуэдэуи зыми сыкъигъэпэжыну си фӏэщ хъуркъым.
+Пщӏэ яхуэпщӏын хуейщ.
+```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Recommended post-processing
@@ -137,6 +174,35 @@ After the datasets are published, we **re-audit** these entries and take the nec
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
+### Fields
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `audio_id` - numeric id for audio file
+* `audio_file` - audio file name
+* `duration_ms` - duration of audio in milliseconds
+* `prompt_id` - numeric id for prompt
+* `prompt` - question for user
+* `transcription` - transcription of the audio response
+* `votes` - number of people that who approved a given transcript
+* `age` - age of the speaker[^1]
+* `gender` - gender of the speaker[^1]
+* `language` - language name
+* `split` - for data modelling, which subset of the data does this clip pertain to
+* `char_per_sec` - how many characters of transcription per second of audio
+* `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
+   * `transcription-length` - character per second under 3 characters per second
+   * `speech-rate` - characters per second over 30 characters per second
+   * `short-audio` - audio length under 2 seconds
+   * `long-audio` - audio length over 30 seconds
+
+#### 
+[^1]: For a full list of age, gender, and accent options, see the
+[demograpics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
+
 ## Get involved!
 
 ### Community links
@@ -147,6 +213,13 @@ You can find more information about how to participate in the Common Voice Proje
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
+
+<!--[Not provided]
+### Discussions
+[Not provided]-->
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 We do not advice to contribute to this dataset directly, because of writting system-keyboard issues. Please, read the section "Writing system" above and the following article: https://www.nemerko.org/the-importance-of-adyghe-keyboard-usage-for-artificial-intelligence-training/
@@ -162,23 +235,30 @@ https://bit.ly/cv_circassian_start_here
 ## Acknowledgements
 
 ### Datasheet authors
-* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-* Murat Topçu <murattopcu67@hotmail.com> <br>
+* M.Ugur Nemlioglu &lt;nemerko@nemerko.com&gt; 
+* Murat Topçu &lt;murattopcu67@hotmail.com&gt; 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Dataset curators
-* Murat Topçu <murattopcu67@hotmail.com> <br>	
-* Elizaveta Gogunokova <br>
-* Saida Abregova <br>
-* M.Uğur Nemlioğlu <br>
+* Murat Topçu &lt;murattopcu67@hotmail.com&gt; 	
+* Elizaveta Gogunokova 
+* Saida Abregova 
+* M.Uğur Nemlioğlu 
 <!-- {{DATASET_CURATORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Advisors
-* Bülent Özden (Technical Advisor)<br>
+* Bülent Özden (Technical Advisor)
 <!-- {{ADVISORS_LIST}} -->
 <!-- A list in the format of: Your Name -->
+
+<!--[Not provided]
+### Citation guidelines
+[Not provided]-->
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.

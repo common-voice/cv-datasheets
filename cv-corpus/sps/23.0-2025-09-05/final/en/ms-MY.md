@@ -1,7 +1,7 @@
 # *[Bahasa Malay]* &mdash; Bahasa Malay (`ms-MY`)
 > This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
- This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Bahasa Malay (`ms-MY`). The dataset contains 1144 clips representing 7 hours of recorded
 speech (6 hours validated) from 22 speakers.
 
@@ -84,7 +84,7 @@ Apakah jenis dokumen yang anda perlukan untuk membuat perjalanan di dalam negara
 There follows a randomly selected sample of transcribed responses from the corpus.
 
 ```
-Detik pada hidup saya yang sangat gembira adalah semasa saya mencuba memanjat Gunung Kinabalu. Tetapi malangnya tidak dapat mencapai puncaknya. <bunyi> Tetapi dapat melihat puncak adalah sangat gembira.
+Detik pada hidup saya yang sangat gembira adalah semasa saya mencuba memanjat Gunung Kinabalu. Tetapi malangnya tidak dapat mencapai puncaknya. &lt;bunyi&gt; Tetapi dapat melihat puncak adalah sangat gembira.
 Ya, buat masa ini saya memandu kereta saya, di mana di- saya selalunya akan menaiki kereta dan membawa kereta saya ke pejabat saya tiap-tiap hari dan juga pada hari minggu.
 Dalam budaya saya, kebiasaannya waris-waris terdekat seperti anak-anak ataupun adik-beradik yang akan bergilir-gilir menjaga seseorang yang sedang berada di penghujung nyawanya.
 Saya sentiasa memanjatkan doa untuk anak-anak saya dan saya- mereka bebas untuk memilih jalan hidup sendiri.
@@ -121,7 +121,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demograpics
+[demographics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.
@@ -152,7 +152,7 @@ information.
 
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->

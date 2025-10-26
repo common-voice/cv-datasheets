@@ -1,6 +1,6 @@
 # *Адыгабзэ* &mdash; Adyghe (West Circassian) (`ady`)
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Adyghe (West Circassian) (`ady`). The dataset contains 6 hours of recorded
+This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+for Adyghe (West Circassian) (`ady`). The dataset contains contains 799 clips representing 6 hours of recorded
 speech (6 hours validated) from 22 speakers.
 
 ## Language
@@ -13,12 +13,16 @@ For more information about the global distribution of Adyghe population, see:
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -27,8 +31,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -41,6 +47,13 @@ Self-declared age information, frequency refers to the number of clips annotated
    ...if other age ranges are present in your data, add rows... -->
 
 ## Transcriptions
+* Prompts: `127`
+* Duration: `20277000[ms]`
+* Avg. Transcription Len: `189`
+* Avg. Duration: `25.38[s]`
+* Valid Duration: `16706.66[s]`
+* Total hours: `5.63[h]`
+* Valid hours: `4.64[h]`
 <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
 <!-- A description of the transcription system used -->
 
@@ -55,10 +68,10 @@ Therefore we allowed the use of only the keyboard layout specially designed for 
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
-**Main Alphabet:** (Ordered by ascending) <br>
+**Main Alphabet:** (Ordered by ascending) 
 ```а б в г {гу} {гъ} {гъу} д {дж} {дз} {дзу} е ё ж {жъ} {жъу} {жь} з и й к {ку} {къ} {къу} {кӏ} {кӏу} л {лъ} {лӏ} м н о п {пӏ} {пӏу} р с т {тӏ} {тӏу} у ф х {хъ} {хъу} {хь} ц {цу} {цӏ} ч {чъ} {чӏ} ш {шъ} {шъу} {шӏ} {шӏу} щ ъ ы ь э ю я ӏ {ӏу}```
 
-**Orthographic–Phonetic Table (IPA):** <br>
+**Orthographic–Phonetic Table (IPA):** 
 
 | А а (ä) | Б б (b) | В в (v) | Г г (g) | Гу гу (ɡʷ) | Гъ гъ (ʁ) | Гъу гъу (ʁʷ) | Д д (d) | Дж дж (dʒ) | Дз дз (dz) | Дзу дзу (dzʷ) |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -79,15 +92,15 @@ Therefore we allowed the use of only the keyboard layout specially designed for 
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 
 
-**Auxiliary exemplar:** <br>
-The following letters are also present in the dataset, but are not part of the official Adyghe alphabet. They are used to represent two specific sounds in the Shapsug dialect.<br>
+**Auxiliary exemplar:** 
+The following letters are also present in the dataset, but are not part of the official Adyghe alphabet. They are used to represent two specific sounds in the Shapsug dialect.
 
-**{гь}:** [_Voiced dorso-palatal plosive_ [ɟ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. егьэ (jeɟɘ) [Shapsug] = еджэ [Adyghe]: _reading_)<br>
-**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьэт (kʲɘt) [Shapsug] = чэт [Adyghe]: _chicken_ )<br>
-**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. кӏьакӏьэ (kʲʼäkʲʼɘ) [Shapsug] = кӏэнкӏэ [Adyghe]: _egg_)<br>
+**{гь}:** [_Voiced dorso-palatal plosive_ [ɟ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. егьэ (jeɟɘ) [Shapsug] = еджэ [Adyghe]: _reading_)
+**{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьэт (kʲɘt) [Shapsug] = чэт [Adyghe]: _chicken_ )
+**{кӏь}:** [_Glottalized voiceless dorso-palato-velar plosive_ [kʲʼ]](https://en.wikipedia.org/wiki/Velar_ejective_stop) (e.g. кӏьакӏьэ (kʲʼäkʲʼɘ) [Shapsug] = кӏэнкӏэ [Adyghe]: _egg_)
 
-**Other Languages:** <br>
-Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Adyghe alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
+**Other Languages:** 
+Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Adyghe alphabet, with characters chosen to approximate their original pronunciation as closely as possible.
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
@@ -120,11 +133,25 @@ The following table presents the general language variants of the Adyghe languag
 ### Samples
 
 #### Questions
-There follows a randomly selected sample of transcribed responses from the corpus.
+There follows a randomly selected sample of questions used in the corpus.
+```
+"""Непэ программэу ӏэрышӏ акъылыр зылъапсэм удэгущыӏэныр цӏыфхэмкӏэ шэпхъэ уцугъэу олъыта? [Nêpe programmeu 'erış' akhılır zılhapsem vudeguşı'enır ts'ıfxemç'e şşepxhe vutsuğeu volhıta?]"""
+"""Тиныдэлъфыбзэу адыгабзэр мыкӏодыжьынымкӏэ тыпэшӏуекӏонэу сыд тшӏэмэ хъущт, сыд уигупшысэр? [Tinıdelhfıbzeu adıgabzer mık'odıjınımç'e tıpeş'uêk'oneu sıd tş'eme xhuşt, sıd vuigupşşıser?]"""
+"""Гукъыдэчъ къыозытыгъэ цӀыф горэ е хъугъэ-шӀэгъэ горэ уищыӀэныгъэкӀэ щыӀа? [Gukhıdeçç khıozıtığe ts'ıf gore yê xhuğe-ş'eğe gore vuişı'enığeç'e şı'a?]"""
+"""Сыд фэдэ тхылъхэм уяджэныр уикӏаса? [Sıd fede txılhxem vuyacenır vuiç'asa?]"","
+"""Уисабыигъом тыдэ шъущыпсэугъ? Сыд фэда джэгухэр шъуджэгущтыгъа? [Vuisabıiğom tıde şsuşıpseuğ? Sıd feda ceguxer şsuceguştığa?]"""
+```
 <!-- {{QUESTIONS_SAMPLE}} -->
 
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
+```
+Жъыгъырыб, зае, зэндалэ, къужъы, къыпцӏэ, къыцэ, [noise] чэрэз - мыхэр.
+Сисабыигъом байрам мафэхэр янахь тикӏасэщтыгъ.  Джэнакӏэу тянэ къытфидыгъэхэ тщыгъэу, цокъакӏэхэр зыщытлъэу, зыдгъэкӏэракӏэу, къуажьэми тыкӏуагъэу тиныбжьэгъухэм тадэджэгумэ - джары янахь тызщытхъэщтыгъэ лъэхъаныр.
+Нахь бэрэм уахътэ сизакъоу згъэкӏонэу сыгу рехьы. Ау загъорэ цӏыфэу шӏу слъэгъухэрэм садигъусэу уахътэ згъэкӏонэуи сыфае мэхъу, сафэзэщы мэ.
+
+
+```
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
 ### Recommended post-processing
@@ -137,6 +164,35 @@ After the datasets are published, we **re-audit** these entries and take the nec
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
 
+### Fields
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `audio_id` - numeric id for audio file
+* `audio_file` - audio file name
+* `duration_ms` - duration of audio in milliseconds
+* `prompt_id` - numeric id for prompt
+* `prompt` - question for user
+* `transcription` - transcription of the audio response
+* `votes` - number of people that who approved a given transcript
+* `age` - age of the speaker[^1]
+* `gender` - gender of the speaker[^1]
+* `language` - language name
+* `split` - for data modelling, which subset of the data does this clip pertain to
+* `char_per_sec` - how many characters of transcription per second of audio
+* `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`
+   * `transcription-length` - character per second under 3 characters per second
+   * `speech-rate` - characters per second over 30 characters per second
+   * `short-audio` - audio length under 2 seconds
+   * `long-audio` - audio length over 30 seconds
+
+#### 
+[^1]: For a full list of age, gender, and accent options, see the
+[demograpics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
+
 ## Get involved!
 
 ### Community links
@@ -147,6 +203,13 @@ You can find more information about how to participate in the Common Voice Proje
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
+
+<!--[Not provided]
+### Discussions
+[Not provided]-->
+<!-- {{DISCUSSION_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
 ### Contribute
 We do not advice to contribute to this dataset directly, because of writting system-keyboard issues. Please, read the section "Writing system" above and the following article: https://www.nemerko.org/the-importance-of-adyghe-keyboard-usage-for-artificial-intelligence-training/
@@ -162,23 +225,30 @@ https://bit.ly/cv_circassian_start_here
 ## Acknowledgements
 
 ### Datasheet authors
-* M.Ugur Nemlioglu <nemerko@nemerko.com> <br>
-* Murat Topçu <murattopcu67@hotmail.com> <br>
+* M.Ugur Nemlioglu &lt;nemerko@nemerko.com&gt; 
+* Murat Topçu &lt;murattopcu67@hotmail.com&gt; 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Dataset curators
-* M.Uğur Nemlioğlu <nemerko@nemerko.com><br>
-* Saida Abregova <br>
-* Elizaveta Gogunokova <br>
-* Murat Topçu <br>
+* M.Uğur Nemlioğlu &lt;nemerko@nemerko.com&gt;
+* Saida Abregova 
+* Elizaveta Gogunokova 
+* Murat Topçu 
 <!-- {{DATASET_CURATORS_LIST}} -->
-<!-- A list in the format of: Your Name <email@email.com> -->
+<!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 ### Advisors
-* Bülent Özden (Technical Advisor)<br>
+* Bülent Özden (Technical Advisor)
 <!-- {{ADVISORS_LIST}} -->
 <!-- A list in the format of: Your Name -->
+
+<!--[Not provided]
+### Citation guidelines
+[Not provided]-->
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
 This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
