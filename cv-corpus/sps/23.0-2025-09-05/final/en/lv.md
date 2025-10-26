@@ -169,7 +169,7 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
-<!-- {{DATASHEET_AUTHORS_LIST}} -->
+Raivis Dejus <orvils@gmail.com>
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
 <!--[Not provided]
