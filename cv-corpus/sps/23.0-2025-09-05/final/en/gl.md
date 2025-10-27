@@ -171,7 +171,7 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
-* Adina Ioana Vladu
+* Adina Ioana Vladu &lt;adina.vladu@usc.gal&gt;
 * María Pérez Lago 
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
