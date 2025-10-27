@@ -6,7 +6,8 @@ for Manx (`gv`). The dataset contains 130 clips representing 1 hours of recorded
 speech (0 hours validated) from 1 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
+Manx is the indgenous Celtic language of the Isle of Man, closely related to Irish and Scottish Gaelic. It has used a unique orthography from at least the seventeenth century. It is spoken by at least 2,000 speakers today (2025).
+<!-- {{LANGUAGE_DESCRIPTION}} --> 
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
 ## Demographic information
@@ -50,10 +51,11 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
+The Manx orthography used today is based on the Manx orthography of the Manx Bible of 1775, and the Cregeen Dictionary of 1838, although many of the diacritcs are omitted these days.
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
-
+aâbcdefghijklmnopqrstçhuvwy
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
@@ -114,7 +116,7 @@ will only be reported if the speaker opted in to provide that
 information.
 
 ## Get involved!
-
+learnmanx.com
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/gv/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
@@ -136,7 +138,7 @@ information.
 <!-- Here you can include links for how to contribute to the dataset -->
 
 ## Acknowledgements
-
+Rob Teare, David Allison, Daniel Quayle, Paul Rogers
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
@@ -145,7 +147,7 @@ information.
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
-
+Mozilla
 ### Funding
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
