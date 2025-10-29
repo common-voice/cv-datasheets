@@ -5,14 +5,28 @@
 for Taiwanese (Minnan) (`nan-tw`). The dataset contains 31951 clips representing 24 hours of recorded
 speech (21 hours validated) from 290 speakers.
 
+Please note: This speech dataset is a Han character–speech dataset.
+The text corpus primarily uses Han characters, with bracketed TL/POJ romanization as reference pronunciations.
+
+The corpus and speakers are primarily contributed by individual volunteers in Taiwan.
+
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+
+Taiwanese (POJ: Tâi-oân-ōe; TL: Tâi-uân-uē), also known as Tai-gi (台語/臺語) or Taiwanese Minnan (臺灣閩南語), is spoken across Taiwan and the Penghu archipelago, and is one of Taiwan’s national languages.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Describe the variants (MCV variants) of your language -->
+
+Starting from v23.0, the Taiwanese (nan-tw) locale allows (optional) selection of the following writing variants; however, most texts are still a mixture of both systems:
+
+- POJ (`pehoeji`)
+- TL (`tailo`)
+
+If you’d like to help curate or update the existing texts, please see the Community section below.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -70,6 +84,12 @@ The text corpus contains `27277` sentences, of which `26907` are validated, `370
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
+Most of the text corpus was curated in the MozTW CC0 Sentences repository: https://github.com/moztw/cc0-sentences, primarily contributed by MozTW and g0v community members.
+
+Due to the lack of publicly licensed Taiwanese sentences, recordings in the Taiwanese locale are currently dominated by single-word prompts.
+
+We welcome donations of everyday sentences written in Taiwanese. Please reach out via the community channels below.
+
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
@@ -97,6 +117,10 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
 
+The text corpus is built by Mozilla Taiwan community, the g0v community, and other open-source contributors.
+
+Earlier Taiwanese entries were primarily sourced from the “2016-itaigi Mandarin–Taiwanese Dictionary”. See Sources and Licensing at: https://github.com/moztw/cc0-sentences/tree/master/nan-TW#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90%E8%88%87%E6%8E%88%E6%AC%8A
+
 ### Text domains
 | Domain | Count |
 |-|-|
@@ -111,6 +135,10 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- @ OPTIONAL @ -->
 <!-- What text domains are represented in the corpus? -->
 
+Due to the lack of publicly licensed sentence data, recordings in Taiwanese remain predominantly single words.
+
+We welcome more everyday sentences. If you would like to donate your own text (e.g., your original writing), please contact us via the community links below.
+
 ### Processing
 <!-- {{PROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
@@ -120,6 +148,10 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
+
+Because the bracketed romanization is for reference only and a) mixes TL and POJ systems, and b) does not consistently mark all tones, it cannot be treated as an authoritative phonetic annotation for the recordings.
+
+We recommend removing bracketed pronunciations `（）` and using only the Han character portion when pre-processing the text.
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -144,22 +176,30 @@ information.
 ## Get involved!
 
 ### Community links
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/nan-tw/common-voice/contributors/)
-* [Original language request on GitHub](https://github.com/common-voice/common-voice/issues/3194)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
+
+MozTW (Mozilla Taiwan) Common Voice project site: https://moztw.org/commonvoice/
+
+For questions, suggestions, outreach, donating text, or collaboration, please reach out via:
+
+- Telegram group: https://t.me/+gvmHEcAtd-IwNzFl
+- Line group: https://line.me/ti/g/_PLyjCSe_8
 
 ### Discussions
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
+
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/nan-tw/speak)
-* [Write](https://commonvoice.mozilla.org/nan-tw/write)
 * [Listen](https://commonvoice.mozilla.org/nan-tw/listen)
-* [Review](https://commonvoice.mozilla.org/nan-tw/review)
+* Donate your sentences — If you would like to donate text you own (e.g., original writing) for recording, please contact Irvin (irvin@moztw.org) or discuss in the Line/Telegram groups above.
+
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
@@ -168,6 +208,9 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+
+ - Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
+ - Dennis Chen (Common Voice Community Facilitator, Wikimedia Taiwan) <dennis@wikimedia.tw>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
