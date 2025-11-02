@@ -1,20 +1,23 @@
 # *[Manx]* &mdash; Manx (`gv`)
-> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
-
 This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Manx (`gv`). The dataset contains 130 clips representing 1 hours of recorded
 speech (0 hours validated) from 1 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
+Manx is the indgenous Celtic language of the Isle of Man, closely related to Irish and Scottish Gaelic. It has used a unique orthography from at least the seventeenth century. It is spoken by at least 2,000 speakers today (2025).
+<!-- {{LANGUAGE_DESCRIPTION}} --> 
 <!-- Provide a brief (1-2 paragraph) description of your language -->
 
+<!--[Not provided]
 ## Demographic information
 The dataset includes the following distribution of age and gender.
+[Not provided]-->
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
 
+<!--[Not provided]
 ### Gender
 Self-declared gender information, frequency refers to the number of clips annotated with this gender.
+[Not provided]-->
 <!-- {{GENDER_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Gender | Frequency |
@@ -23,8 +26,10 @@ Self-declared gender information, frequency refers to the number of clips annota
 | undeclared | ? |
 | female, feminine | ? | -->
 
+<!--[Not provided]
 ### Age
 Self-declared age information, frequency refers to the number of clips annotated with this age band.
+[Not provided]-->
 <!-- {{AGE_TABLE}} -->
 <!-- @ AUTOMATICALLY GENERATED @ -->
 <!-- | Age band | Frequency |
@@ -36,7 +41,9 @@ Self-declared age information, frequency refers to the number of clips annotated
 | fifties | ? |
    ...if other age ranges are present in your data, add rows... -->
 
+<!--[Not provided]
 ## Data splits for modelling
+[Not provided]-->
 
 ## Transcriptions
 * Prompts: `130`
@@ -50,22 +57,25 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- A description of the transcription system used -->
 
 ### Writing system
+The Manx orthography used today is based on the Manx orthography of the Manx Bible of 1775, and the Cregeen Dictionary of 1838, although many of the diacritcs are omitted these days.
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
 
 #### Symbol table
+```a â b c d e f g h i j k l m n o p q r s t ç h u v w y```
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+<!--[Not provided]
 #### Extralinguistic tags
+[Not provided]-->
 
 ### Samples
 
 #### Questions
 There follows a randomly selected sample of questions used in the corpus.
-
 ```
 Cre gollrish va'n emshyr jea?
 Kys ta'n shiaghtin obbyr ayd?
@@ -75,11 +85,15 @@ Laik lhiat snaue? Cre'n fa?
 ```
 <!-- {{QUESTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 #### Responses
 There follows a randomly selected sample of transcribed responses from the corpus.
+[Not provided]-->
 <!-- {{TRANSCRIPTIONS_SAMPLE}} -->
 
+<!--[Not provided]
 ### Recommended post-processing
+[Not provided]-->
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
@@ -114,14 +128,16 @@ will only be reported if the speaker opted in to provide that
 information.
 
 ## Get involved!
-
 ### Community links
 * [Common Voice translators on Pontoon](https://pontoon.mozilla.org/gv/common-voice/contributors/)
+* [Learn Manx](https://www.learnmanx.com/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
 
+<!--[Not provided]
 ### Discussions
+[Not provided]-->
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
@@ -138,15 +154,22 @@ information.
 ## Acknowledgements
 
 ### Datasheet authors
+* Rob Teare
+* David Allison
+* Daniel Quayle
+* Paul Rogers
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name &lt;email@email.com&gt; -->
 
+<!--[Not provided]
 ### Citation guidelines
+[Not provided]-->
 <!-- {{CITATION_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
 
 ### Funding
+Mozilla
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
