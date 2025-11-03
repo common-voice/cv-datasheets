@@ -8,6 +8,7 @@ speech (77 hours validated) from 2291 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Taiwan Mandarin in Traditional Chinese script.
 
 ### Variants
 <!-- {{VARIANT_DESCRIPTION}} -->
@@ -69,6 +70,16 @@ The text corpus contains `21589` sentences, of which `20748` are validated, `841
 <!-- @ OPTIONAL @ -->
 <!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
 
+Most of the Traditional Chinese text corpus is curated in the MozTW CC0 Sentences repository: https://github.com/moztw/cc0-sentences.
+
+Summary statistics (see the repo for methods):
+
+> There are 3573 characters in the corpus, covering about 85.6% of the MOU 2015 common chars data (MoE 2015 common characters 99.75% (3593 chars)).
+>
+> 1046 phonetics are covered, about 66.75% of the total phonetics in CnsPhonetic2016-08v2.cin.
+
+We welcome more everyday sentences in Mandarin (Traditional Chinese). Please reach out via the community links below.
+
 ### Writing system
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
@@ -95,6 +106,8 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A list of sentence sources, can be curated to the top-N -->
+
+The text corpus is built by the Mozilla Taiwan community, the g0v community, and other open-source contributors.
 
 ### Text domains
 | Domain | Count |
@@ -149,21 +162,31 @@ information.
 ## Get involved!
 
 ### Community links
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/zh-TW/common-voice/contributors/)
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
+
+Mozilla 台灣社群 (MozTW) Common Voice 專案網站： [https://moztw.org/commonvoice/](https://moztw.org/commonvoice/)
+
+任何問題與建議、協助推廣、捐贈語料，或其他合作需求，請透過以下社群頻道與我們討論：
+
+- [Telegram group](https://t.me/+gvmHEcAtd-IwNzFl)
+- [Line group](https://line.me/ti/g/_PLyjCSe_8)
+- 
 
 ### Discussions
 <!-- {{DISCUSSION_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Any links to discussions, for example on Discourse or other fora or blogs can be included here -->
 
+* Discourse forum (zh-TW): https://discourse.mozilla.org/c/voice/zh-tw/286
+* Related news: https://hackmd.io/@moztw/common-voice-news
+
 ### Contribute
 * [Speak](https://commonvoice.mozilla.org/zh-TW/speak)
-* [Write](https://commonvoice.mozilla.org/zh-TW/write)
 * [Listen](https://commonvoice.mozilla.org/zh-TW/listen)
-* [Review](https://commonvoice.mozilla.org/zh-TW/review)
+* Donate your sentences — If you would like to donate text you own (e.g., original writing) for recording, please contact Irvin (irvin@moztw.org) or discuss in the Line/Telegram groups above.
+
 <!-- {{CONTRIBUTE_LINKS_LIST}} -->
 <!-- Here you can include links for how to contribute to the dataset -->
 
@@ -172,6 +195,8 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+
+- Irvin Chen (MozTW Community Contact) <irvin@moztw.org>
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
