@@ -60,16 +60,16 @@ Male: 0.8
 | 50-59    | 3         |
 | 60-69    | 1         |
 | 70-above | 0         |
-|<!-- {{AGE_TABLE}} -->||
-|<!-- @ AUTOMATICALLY GENERATED @ -->||
-|<!-- | Age band |
+<!-- {{AGE_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
+<!-- | Age band | Frequency |
 |----------|-----------|
 | teens | ? |
 | twenties | ? |
 | thirties | ? |
 | fourties | ? |
 | fifties | ? |
-|   ...if other age ranges are present in your data, add rows... -->||
+...if other age ranges are present in your data, add rows... -->
 
 ## Data splits for modelling
 | Split | Count |
@@ -88,8 +88,8 @@ The data collection involved a coordinator (a PhD student), a linguist known by 
 * Valid Duration: `36076.25[s]`
 * Total hours: `10.35[h]`
 * Valid hours: `10.02[h]`
-  <!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
-  <!-- A description of the transcription system used -->
+<!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
+<!-- A description of the transcription system used -->
 
 ### Writing system
 The transcriptions follows the orthographic systems proposed by Buckwalter (2001) [^2] 
@@ -185,6 +185,9 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the [demographics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.
+[^2]: Buckwalter, Alberto. 2001 [1980]). Vocabulario toba. Formosa / Indiana: Equipo Menonita / Mennonite Board of Missions. Ed. Revisada.
+[^3]: Messineo, Cristina. 1991. Variantes dialectales del complejo lingüístico toba. Hacia una nueva carta étnica del Gran Chaco II: 12-22. Las Lomitas: Centro del Hombre Antiguo Chaqueño.
+[^4]: Messineo, Cristina. 2003. Lengua Toba (guaycurú). Aspectos gramaticales y discursivos. Lincom Studies in Native American Linguistics 48. Münich: Lincom Europa.
 
 ## Get involved!
 
@@ -232,12 +235,6 @@ The speaker collaborators were funded by Mozilla Common Voice. The project coord
 <!-- {{FUNDING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If you received any funding, you can include the acknowledgement here -->
-
-[^2]: Buckwalter, Alberto. 2001 [1980]). Vocabulario toba. Formosa / Indiana: Equipo Menonita / Mennonite Board of Missions. Ed. Revisada.
-
-[^3]: Messineo, Cristina. 1991. Variantes dialectales del complejo lingüístico toba. Hacia una nueva carta étnica del Gran Chaco II: 12-22. Las Lomitas: Centro del Hombre Antiguo Chaqueño.
-
-[^4]: Messineo, Cristina. 2003. Lengua Toba (guaycurú). Aspectos gramaticales y discursivos. Lincom Studies in Native American Linguistics 48. Münich: Lincom Europa.
 
 ## Licence
 This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
