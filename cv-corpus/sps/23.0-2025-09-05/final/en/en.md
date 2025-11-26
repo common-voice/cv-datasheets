@@ -127,8 +127,9 @@ information.
 
 ## Get involved!
 
+<!--[Not provided]
 ### Community links
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/en/common-voice/contributors/)
+[Not provided]-->
 <!-- {{COMMUNITY_LINKS_LIST}} -->
 <!-- @ OPTIONAL @ -->
 <!-- Links to community chats / fora -->
