@@ -216,7 +216,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 ## Acknowledgements
 
 ### Datasheet authors
-* Belu Ticona
+* Belu Ticona &lt;mticonao@gmu.edu&gt;
 * Paola Cúneo
 * Antonios Anastasopoulos
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
