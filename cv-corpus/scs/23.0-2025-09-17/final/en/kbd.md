@@ -1,8 +1,8 @@
-﻿# *Адыгэбзэ (Къэбэрдей)* &mdash; Kabardian (East Circassian) (`kbd`)
+# *Адыгэбзэ (Къэбэрдей)* &mdash; Kabardian (`kbd`)
 
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Kabardian (East Circassian) (`kbd`). The dataset contains 8 hours of recorded
-speech (6 hours validated) from 25 speakers.
+This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
+for Kabardian (`kbd`). The dataset contains 115 hours of recorded
+speech (104 hours validated) from 213 speakers.
 
 ## Language
 
@@ -13,6 +13,24 @@ speech (6 hours validated) from 25 speakers.
 The [Kabardian (East Circassians)](https://en.wikipedia.org/wiki/Kabardians) population is estimated at 500,000 to 750,000, yet only around 300,000 are believed to actively speak the language. Kabardians are primarily located in the **Kabardino-Balkaria** and **Karachay-Cherkessia** republics of **Russia**, with additional diaspora populations in **Turkey**, **Jordan**, **Syria**, and other countries due to historical migrations. The language includes several dialects, with the **Baksan** and **Malka** varieties being the most prominent. However, **only a limited portion of the Kabardian population is considered literate in the language**.
 
 There is no definitive and official publication on this matter. Data published by organizations such as [Wikipedia](https://en.wikipedia.org/wiki/Kabardians), Etnologue, and the Joshua Project do not reflect reality. Many Kabardians living in both the Caucasus and the Diaspora identify themselves as Adyghe unless specifically asked. Therefore, to obtain reliable results, researchers must be well-versed in the Adyghe tribes and their culture.
+
+### Variants 
+
+<!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Describe the variants (MCV variants) of your language -->
+The following table presents the general language variants of the Kabardian language used in the Common Voice project.
+
+| Language Variant                                               | BCP-47 Tag                         | Script                  | Short Description       |
+|----------------------------------------------------------------|------------------------------------|--------------------------|---------------------------|
+| Kabardian/East Circassian (Cyrillic)                           | kbd-Cyrl                           | Cyrillic                | Indicated for all literate speakers. |
+| Kabardian/East Circassian (Cyrillic, Russia)                   | kbd-RU                             | Cyrillic                | Specified for literate speakers in Russia. |
+| Kabardian/East Circassian (Cyrillic, Turkey)                   | kbd-Cyrl-TR                        | Cyrillic                | Specified for literate speakers in Turkey. |
+| Kabardian/East Circassian (Latin, Turkey, transliteration)     | kbd-Latn-TR-t-kbd-cyrl-tr          | Turkish transliteration | Specified for non-literate speakers in Turkey. |
+| Kabardian/East Circassian (Cyrillic, Jordan)                   | kbd-Cyrl-JOR                       | Cyrillic                | Specified for literate speakers in Jordan. |
+| Kabardian/East Circassian (Cyrillic, Syria)                    | kbd-Cyrl-SY                        | Cyrillic                | Specified for literate speakers in Syria. |
+
+**Semtences in the MCV project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Kabardian alphabet.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -48,10 +66,12 @@ Self-declared age information, frequency refers to the number of clips annotated
    ...if other age ranges are present in your data, add rows...
 -->
 
-## Transcriptions
+## Text corpus
 
-<!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
-<!-- A description of the transcription system used -->
+<!-- {{TEXT_CORPUS_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
+The text corpus for the Kabardian language in the Common Voice project consists of a diverse collection of sentences contributed by native speakers. These sentences cover a wide range of topics, including everyday conversations, cultural references, and various domains such as literature, news articles, conversational texts, technology, health, and education. The maximum length of Kabardian sentences in this dataset is limited to 15 words and 140 characters due to restrictions in the Common Voice interface. However, Kabardian sentences can naturally be much longer. In this dataset, the average length has been aimed to be maintained at around 6–8 words and 80–100 characters to reflect the typical structure and complexity of the Kabardian language. The corpus has been curated to ensure a broad representation of vocabulary and grammatical constructs, making it suitable for training robust speech recognition models.
 
 ### Writing system
 
@@ -67,7 +87,6 @@ During the period when there was no Kabardian keyboard option, the recorded text
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
 **Main Alphabet:** (Ordered by ascending) <br>
 а э б в г {гу} {гъ} {гъу} д {дж} {дз} е ё ж {жь} з и й к {ку} {кӏ} {кӏу} {къ} {къу} {кхъ} {кхъу} л {лъ} {лӏ} м н о п {пӏ} р с т {тӏ} у ф {фӏ} х {ху} {хь} {хъ} {хъу} ц {цӏ} ч  ш щ {щӏ} ъ ы ь ю я ӏ {ӏу} 
 
@@ -105,53 +124,64 @@ The following letters are also present in the dataset, but are not part of the o
 **Other Languages:** <br>
 Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Kabadrian alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
 
-#### Extralinguistic tags
+### Sample
 
-<!-- {{EXTRALINGUISTIC_TAGS_DESCRIPTION}} -->
-| Tag          | Meaning                                                                                                                                 |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [laugh]      | The sound of laughter.                                                                                                                  |
-| [disfluency] | A filler word or sound used as a placeholder whilst a speaker decides what to say. In English, common hesitation sounds are “err”, “um”, “huh”, etc. |
-| [unclear]    | A word or sequence of words that cannot be understood.                                                                                  |
-| [noise]      | Any other type of noise, such as the speaker coughing or clearing their throat, a car honking, the sound of something hitting the microphone, a phone buzzing, etc. |
+There follows a randomly selected sample of five sentences from the corpus.
 
+<!-- {{SENTENCES_SAMPLE}} -->
 
-### Variants
-<!-- {{VARIANT_DESCRIPTIONS}} -->
+### Sources
+
+<!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
-The following table presents the general language variants of the Kabardian language used in the Common Voice project.
+<!-- A list of sentence sources, can be curated to the top-N -->
+All sentences in this dataset were created specifically for the Common Voice project by native Kabardian speakers. The sentences were carefully crafted to cover a wide range of topics and linguistic structures, ensuring a diverse and representative corpus for speech recognition training.
 
-| Language Variant                                               | BCP-47 Tag                         | Script                  | Short Description       |
-|----------------------------------------------------------------|------------------------------------|--------------------------|---------------------------|
-| Kabardian/East Circassian (Cyrillic)                           | kbd-Cyrl                           | Cyrillic                | Indicated for all literate speakers. |
-| Kabardian/East Circassian (Cyrillic, Russia)                   | kbd-RU                             | Cyrillic                | Specified for literate speakers in Russia. |
-| Kabardian/East Circassian (Cyrillic, Turkey)                   | kbd-Cyrl-TR                        | Cyrillic                | Specified for literate speakers in Turkey. |
-| Kabardian/East Circassian (Latin, Turkey, transliteration)     | kbd-Latn-TR-t-kbd-cyrl-tr          | Turkish transliteration | Specified for non-literate speakers in Turkey. |
-| Kabardian/East Circassian (Cyrillic, Jordan)                   | kbd-Cyrl-JOR                       | Cyrillic                | Specified for literate speakers in Jordan. |
-| Kabardian/East Circassian (Cyrillic, Syria)                    | kbd-Cyrl-SY                        | Cyrillic                | Specified for literate speakers in Syria. |
+### Text domains
 
-**Questions in the MCV-SS project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Kabardian alphabet.
+<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What text domains are represented in the corpus? -->
+| Domain                   | en                          | kbd                                                   |
+|--------------------------|-----------------------------|-------------------------------------------------------|
+| agriculture_food         | Agriculture and Food        | Мэкъумэшымрэ ерыскъыпхъэхэмрэ                         |
+| automotive_transport     | Automotive and Transport    | Автомобиль ухуэныгъэмрэ транспортымрэ                 |
+| finance                  | Finance                     | Финанс                                                |
+| service_retail           | Service and Retail          | Ӏуэхутхьэбзэхэмрэ зырызу сатумрэ                      |
+| general                  | General                     | Зэдай темэхэр                                         |
+| healthcare               | Healthcare                  | Узыншагъэр хъумэныгъэ                                 |
+| history_law_government   | History, Law and Government | Тхыдэ, хабзэ, къэрал унафэщӏ                          |
+| language_fundamentals    | Language Fundamentals       | Бзэм и лъабжьэхэр                                     |
+| media_entertainment      | Media and Entertainment     | Медиа, нэгузыужьыгъуэ                                 |
+| nature_environment       | Nature and Environment      | Щӏыуэпсымрэ дыкъэзыухъуреихь дунеймрэ                 |
+| news_current_affairs     | News and Current Affairs    | Хъыбарыщӏэхэмрэ мыхьэнэ зиӏэ къэхъукъащӏэхэмрэ        |
+| technology_robotics      | Technology and Robotics     | Технологиехэмрэ робототехникэмрэ                      |
 
-### Samples
+### Processing
 
-#### Questions
-
-There follows a randomly selected sample of transcribed responses from the corpus.
-
-<!-- {{QUESTIONS_SAMPLE}} -->
-
-#### Responses
-
-There follows a randomly selected sample of transcribed responses from the corpus.
-
-<!-- {{TRANSCRIPTIONS_SAMPLE}} -->
+<!-- {{PROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- How has the text data been processed -->
+The text data in this dataset has undergone several processing steps to ensure quality and consistency:
+#### Preparation of Sentences:
+The sentences prepared by the community were mostly reviewed by Adyghe language experts before being transferred into the system. Prior to transfer, not only spelling errors but also character compatibility (such as corrections of Cyrillic Small Letter Palochka [u04CF] and Cyrillic Letter Palochka [u04C0]) were checked to ensure accuracy.
+#### Normalization:
+The text data has been normalized to ensure consistency in formatting and representation. This includes standardizing punctuation, capitalization, and spacing. Special attention was given to the unique characters in the Kabardian alphabet to ensure they are correctly represented.
+#### Validation:
+The sentences have been validated by native Kabardian speakers to ensure linguistic accuracy and naturalness. This validation process helps to eliminate any sentences that may be awkward or unnatural in everyday speech.
+#### Filtering:
+Sentences that contained inappropriate content, offensive language, or were deemed unsuitable for public use were filtered out during the review process.
+#### Reporting and Corrections:
+A system has been established for users to report any errors or issues they encounter in the text data. Reported issues are reviewed by language experts, and necessary corrections are made in subsequent releases of the dataset.
+#### Quality Assurance:
+Regular quality assurance checks are conducted to maintain the integrity of the text data. This includes periodic reviews of the sentences to ensure they continue to meet the established standards.
 
 ### Recommended post-processing
 
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
-These transcriptions are provided as-is, and no additional post-processing is required. However, users may choose to perform Unicode normalization (NFC or NFD) depending on their specific use case.
+<!-- What should people do before they use the data, for example Unicode normalisation -->
+These sentences are provided as-is, and no additional post-processing is required. However, users may choose to perform Unicode normalization (NFC or NFD) depending on their specific use case.
 
 Although the sentences (questions/translation texts) have been written and verified using correct Unicode characters via the [**ady & kbd keyboard for Windows**](https://www.nemerko.org/adyghe-circassian-keyboard-for-windows-7-11/), it is possible that some text inputs beyond our control may have been submitted due to **Common Voice’s open participation model**.
 

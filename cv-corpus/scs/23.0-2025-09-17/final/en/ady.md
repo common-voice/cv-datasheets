@@ -1,8 +1,8 @@
-﻿# *Адыгабзэ* &mdash; Adyghe (West Circassian) (`ady`)
+# *Адыгабзэ* &mdash; Adyghe (`ady`)
 
-This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
-for Adyghe (West Circassian) (`ady`). The dataset contains 6 hours of recorded
-speech (6 hours validated) from 22 speakers.
+This datasheet is for version 23.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
+for Adyghe (`ady`). The dataset contains 48 hours of recorded
+speech (32 hours validated) from 108 speakers.
 
 ## Language
 
@@ -14,6 +14,27 @@ The [Adyghean (West Circassians)](https://en.wikipedia.org/wiki/Circassians) pop
 
 For more information about the global distribution of Adyghe population, see:  
 [The Adyghe (Circassian) Diaspora Today](https://www.researchgate.net/publication/384043948_ADIGE_CERKES_DIASPORASININ_BUGUNU).
+
+
+### Variants 
+
+<!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Describe the variants (MCV variants) of your language -->
+# Circassian Language Variants
+
+The following table presents the general language variants of the Adyghe language used in the Common Voice project.
+
+| Language Variant                                               | BCP-47 Tag                         | Script                  | Short Description        |
+|----------------------------------------------------------------|------------------------------------|--------------------------|--------------------------|
+| Adyghe/West Circassian (Cyrillic)                              | ady-Cyrl                           | Cyrillic                | Indicated for all literate speakers.|
+| Adyghe/West Circassian (Cyrillic, Russia)                      | ady-RU                             | Cyrillic                | Specified for literate speakers in Russia. |
+| Adyghe/West Circassian (Cyrillic, Turkey)                      | ady-Cyrl-TR                        | Cyrillic                | Specified for literate speakers in Turkey. |
+| Adyghe/West Circassian (Latin, Turkey, transliteration)        | ady-Latn-TR-t-ady-cyrl-tr          | Turkish transliteration | Specifies for non-literate speakers in Turkey. |
+| Adyghe/West Circassian (Cyrillic, Jordan)                      | ady-Cyrl-JOR                       | Cyrillic                | Specified for literate speakers in Jordan. |
+| Adyghe/West Circassian (Cyrillic, Syria)                       | ady-Cyrl-SY                        | Cyrillic                | Specified for literate speakers in Syria. |
+
+**Semtences in the MCV project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Adyghean alphabet.
 
 ## Demographic information
 <!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
@@ -49,10 +70,12 @@ Self-declared age information, frequency refers to the number of clips annotated
    ...if other age ranges are present in your data, add rows...
 -->
 
-## Transcriptions
+## Text corpus
 
-<!-- {{TRANSCRIPTIONS_DESCRIPTION}} -->
-<!-- A description of the transcription system used -->
+<!-- {{TEXT_CORPUS_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
+The text corpus for the Adyghe language in the Common Voice project consists of a diverse collection of sentences contributed by native speakers. These sentences cover a wide range of topics, including everyday conversations, cultural references, and various domains such as literature, news articles, conversational texts, technology, health, and education. The maximum length of Adyghe sentences in this dataset is limited to 15 words and 140 characters due to restrictions in the Common Voice interface. However, Adyghe sentences can naturally be much longer. In this dataset, the average length has been aimed to be maintained at around 6–8 words and 80–100 characters to reflect the typical structure and complexity of the Adyghe language. The corpus has been curated to ensure a broad representation of vocabulary and grammatical constructs, making it suitable for training robust speech recognition models.
 
 ### Writing system
 
@@ -64,6 +87,7 @@ The Adyghe language uses the **Cyrillic script** with some additional letters to
 During the period when there was no Adyghe keyboard option, the recorded text content was written with the Russian keyboard as the closest alternative. The characters in the Adyghe alphabet defined by the **Unicode Consortium** as **"Cyrillic Letter Palocka ('Ӏ': u04C0, utf-8)"** and **"Cyrillic Letter Small Palocka ('ӏ': u04CF, utf-8)"** are not defined in this keyboard model. For this reason, since the early days of computers, when creating digital data in Adyghe or Kabardian, one of the characters **"Latin Capital Letter i ('I': u0049, utf-8)"**, **"Latin Small Letter L ('l': u006C, utf-8)"** or **"Digit One ('1': u0031, utf-8)"**, albeit rarely **"Vertical Line ('|': u007C, utf-8)"** was used randomly due to their visual similarities ([Nemlioğlu, 2018](https://www.researchgate.net/publication/385579626_BILISIM_ve_INTERNETTE_ADIGE_DILININ_KULLANIMININ_YAYGINLASMASININ_SAGLANMASI)). This situation emerges as an important factor that negatively affects data quality ([Nemlioğlu,2025](https://www.researchgate.net/publication/395242067_ADYGABZEKE_KLAVIATURER_GEFEDENYM_ERYS_AKYLYM_ISKUSSTVENNYJ_INTELLEKT_IGESENYGE_MEHANEU_SYRIER)). 
 
 Therefore we allowed the use of only the keyboard layout specially designed for Adyghe language in the Common Voice project. This keyboard layout includes all the letters of the Adyghe alphabet, including the special characters **"Cyrillic Letter Palocka ('Ӏ': u04C0, utf-8)"** and **"Cyrillic Letter Small Palocka ('ӏ': u04CF, utf-8)"**. The use of this keyboard layout has significantly improved the quality of the text data in Adyghe. [Click here to download Adyghe Keyboard for Windows](https://www.nemerko.org/adyghe-circassian-keyboard-for-windows-7-11/).
+
 
 #### Symbol table
 
@@ -95,7 +119,7 @@ Therefore we allowed the use of only the keyboard layout specially designed for 
 
 
 **Auxiliary exemplar:** <br>
-The following letters are also present in the dataset, but are not part of the official Adyghe alphabet. They are used to represent three specific sounds in the Shapsug dialect.<br>
+The following letters may also be present in the dataset, but are not part of the official Adyghe alphabet. They are used to represent three specific sounds in the Shapsug dialect. They could potentially appear in some dialogues or quoted sentences.
 
 **{гь}:** [_Voiced dorso-palatal plosive_ [ɟ]](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) (e.g. егьэ (jeɟɘ) [Shapsug] = еджэ [Adyghe]: _reading_)<br>
 **{кь}:** [_Voiceless dorso-palato-velar plosive_ [kʲ]](https://en.wikipedia.org/wiki/Voiceless_palatal_plosive) (e.g. кьэт (kʲɘt) [Shapsug] = чэт [Adyghe]: _chicken_ )<br>
@@ -104,57 +128,70 @@ The following letters are also present in the dataset, but are not part of the o
 **Other Languages:** <br>
 Some entries in the dataset include words originating from other languages, such as Russian or Turkish. These words have been phonetically transcribed using the Adyghe alphabet, with characters chosen to approximate their original pronunciation as closely as possible.<br>
 
-#### Extralinguistic tags
+### Sample
 
-<!-- {{EXTRALINGUISTIC_TAGS_DESCRIPTION}} -->
-| Tag          | Meaning                                                                                                                                 |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [laugh]      | The sound of laughter.                                                                                                                  |
-| [disfluency] | A filler word or sound used as a placeholder whilst a speaker decides what to say. In English, common hesitation sounds are “err”, “um”, “huh”, etc. |
-| [unclear]    | A word or sequence of words that cannot be understood.                                                                                  |
-| [noise]      | Any other type of noise, such as the speaker coughing or clearing their throat, a car honking, the sound of something hitting the microphone, a phone buzzing, etc. |
+There follows a randomly selected sample of five sentences from the corpus.
 
+<!-- {{SENTENCES_SAMPLE}} -->
 
-### Variants
-<!-- {{VARIANT_DESCRIPTIONS}} -->
+### Sources
+
+<!-- {{SOURCES_LIST}} -->
 <!-- @ OPTIONAL @ -->
-The following table presents the general language variants of the Adyghe language used in the Common Voice project.
+<!-- A list of sentence sources, can be curated to the top-N -->
+All sentences in this dataset were created specifically for the Common Voice project by native Adyghe speakers. The sentences were carefully crafted to cover a wide range of topics and linguistic structures, ensuring a diverse and representative corpus for speech recognition training.
 
-| Language Variant                                               | BCP-47 Tag                         | Script                  | Short Description        |
-|----------------------------------------------------------------|------------------------------------|--------------------------|--------------------------|
-| Adyghe/West Circassian (Cyrillic)                              | ady-Cyrl                           | Cyrillic                | Indicated for all literate speakers.|
-| Adyghe/West Circassian (Cyrillic, Russia)                      | ady-RU                             | Cyrillic                | Specified for literate speakers in Russia. |
-| Adyghe/West Circassian (Cyrillic, Turkey)                      | ady-Cyrl-TR                        | Cyrillic                | Specified for literate speakers in Turkey. |
-| Adyghe/West Circassian (Latin, Turkey, transliteration)        | ady-Latn-TR-t-ady-cyrl-tr          | Turkish transliteration | Specifies for non-literate speakers in Turkey. |
-| Adyghe/West Circassian (Cyrillic, Jordan)                      | ady-Cyrl-JOR                       | Cyrillic                | Specified for literate speakers in Jordan. |
-| Adyghe/West Circassian (Cyrillic, Syria)                       | ady-Cyrl-SY                        | Cyrillic                | Specified for literate speakers in Syria. |
+### Text domains
 
-**Questions in the MCV-SS project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Adyghe alphabet.
+<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What text domains are represented in the corpus? -->
 
-### Samples
+| Domain                   | en                          | ady                                                   |
+|--------------------------|-----------------------------|-------------------------------------------------------|
+| agriculture_food         | Agriculture and Food        | Мэкъу-мэщымрэ гъомлапхъэхэмрэ                         |
+| automotive_transport     | Automotive and Transport    | Ку секторымрэ транспортымрэ                           |
+| finance                  | Finance                     | Финанс                                                |
+| service_retail           | Service and Retail          | Фэӏо-фашӏэмрэ зырыз сатыумрэ                          |
+| general                  | General                     | Пстэумэ зэдыряе                                       |
+| healthcare               | Healthcare                  | Псауныгъэм иухъумэн                                   |
+| history_law_government   | History, Law and Government | Тарихъ, хабзэ ыкӏи къэралыгъо                         |
+| language_fundamentals    | Language Fundamentals       | Бзэм ылъапсэхэр (гущ. пае: пчъагъэхэр, хьарыфхэр)     |
+| media_entertainment      | Media and Entertainment     | Медия ыкӏи зэщтегъэуныгъ                              |
+| nature_environment       | Nature and Environment      | Чӏыопсымрэ тыкъэзыуцухьэрэ дунаимрэ                   |
+| news_current_affairs     | News and Current Affairs    | Къэбархэр ыкӏи мэхьанэ зиӏэ хъугъэ-шӏагъэхэр          |
+| technology_robotics      | Technology and Robotics     | Технологиехэмрэ робототехникэмрэ                      |
 
-#### Questions
+### Processing
 
-There follows a randomly selected sample of transcribed responses from the corpus.
-
-<!-- {{QUESTIONS_SAMPLE}} -->
-
-#### Responses
-
-There follows a randomly selected sample of transcribed responses from the corpus.
-
-<!-- {{TRANSCRIPTIONS_SAMPLE}} -->
+<!-- {{PROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- How has the text data been processed -->
+The text data in this dataset has undergone several processing steps to ensure quality and consistency:
+#### Preparation of Sentences:
+The sentences prepared by the community were mostly reviewed by Adyghe language experts before being transferred into the system. Prior to transfer, not only spelling errors but also character compatibility (such as corrections of Cyrillic Small Letter Palochka [u04CF] and Cyrillic Letter Palochka [u04C0]) were checked to ensure accuracy.
+#### Normalization:
+The text data has been normalized to ensure consistency in formatting and representation. This includes standardizing punctuation, capitalization, and spacing. Special attention was given to the unique characters in the Adyghe alphabet to ensure they are correctly represented.
+#### Validation:
+The sentences have been validated by native Adyghe speakers to ensure linguistic accuracy and naturalness. This validation process helps to eliminate any sentences that may be awkward or unnatural in everyday speech.
+#### Filtering:
+Sentences that contained inappropriate content, offensive language, or were deemed unsuitable for public use were filtered out during the review process.
+#### Reporting and Corrections:
+A system has been established for users to report any errors or issues they encounter in the text data. Reported issues are reviewed by language experts, and necessary corrections are made in subsequent releases of the dataset.
+#### Quality Assurance:
+Regular quality assurance checks are conducted to maintain the integrity of the text data. This includes periodic reviews of the sentences to ensure they continue to meet the established standards.
 
 ### Recommended post-processing
 
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
-<!-- What should people do before they use the data, for example Unicode normalisation or normalisation of extralinguistic tags -->
-These transcriptions are provided as-is, and no additional post-processing is required. However, users may choose to perform Unicode normalization (NFC or NFD) depending on their specific use case.
+<!-- What should people do before they use the data, for example Unicode normalisation -->
+These sentences are provided as-is, and no additional post-processing is required. However, users may choose to perform Unicode normalization (NFC or NFD) depending on their specific use case.
 
 Although the sentences (questions/translation texts) have been written and verified using correct Unicode characters via the [**ady & kbd keyboard for Windows**](https://www.nemerko.org/adyghe-circassian-keyboard-for-windows-7-11/), it is possible that some text inputs beyond our control may have been submitted due to **Common Voice’s open participation model**.
 
 After the datasets are published, we **re-audit** these entries and take the necessary steps to ensure **corrections in the next release**.
+
 
 ## Get involved!
 
