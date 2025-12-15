@@ -1,6 +1,7 @@
 import os
 import sys
 from http.client import responses
+from idlelib.pyshell import use_subprocess
 
 import requests as r
 
@@ -16,10 +17,15 @@ PREV_FINAL_RELEASE_PATH = os.path.join(OUTPUT_PATH_BASE, "scs","23.0-2025-09-05"
 TEMPLATE_PATH = "templates/scs/{lang}.md"
 
 AUTOMATIC_MSG = "> This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!\n\n"
+# Some languages on CV API doesn't have english name
 MISS_ENGLISH_NAMES = {
     "fmp": "Feʼefeʼe",
     "esu": "Central Alaskan Yupʼik"
 }
+
+PONTOON_URL = "https://pontoon.mozilla.org/{locale}/common-voice/contributors/"
+COMMON_VOICE_URL = "https://commonvoice.mozilla.org"
+COMMON_VOICE_PR_URL = "https://github.com/common-voice/common-voice/issues/{issue}"
 
 def download_release_metadata() -> dict:
     response = r.get(METADATA.format(release=RELEASE_VERSION))
@@ -47,8 +53,9 @@ def make_table(data: dict, header: str) -> str:
             table += f"| {clean_field} | {clean_freq} |\n"
     return table
 
-def fill_paragraph(lang: str, ds: CVDatasheet, metadata: dict, template_paragraph: str):
+def fill_header(lang: str, ds: CVDatasheet, metadata: dict, template_paragraph: str, update_title=False):
     lang_metadata = get_language_metadata(lang)
+    native_name = lang_metadata.get("native_name", "_")
     version_readable = RELEASE_VERSION.split("-")[0]
     english_name = lang_metadata.get("english_name", "")
     if not english_name and lang in MISS_ENGLISH_NAMES:
@@ -56,6 +63,14 @@ def fill_paragraph(lang: str, ds: CVDatasheet, metadata: dict, template_paragrap
 
     if not english_name:
         raise Exception("API ERROR")
+
+    if update_title:
+        header_title = ds.header.title
+        filled_title = header_title.replace("{{LOCALE}}", lang)
+        filled_title = filled_title.replace("{{ENGLISH_NAME}}", english_name)
+        filled_title = filled_title.replace("{{NATIVE_NAME}}", native_name)
+        ds.header.title = filled_title
+
     template_paragraph = template_paragraph.replace("{{VERSION}}", version_readable)
     template_paragraph = template_paragraph.replace("{{ENGLISH_NAME}}", english_name)
     template_paragraph = template_paragraph.replace("{{LOCALE}}", lang)
@@ -146,6 +161,100 @@ def fill_demographic_data(
     ds.replace_content(domains_section, template._section_map[domains_section].content)
 
 
+def fill_community_links(
+        template: CVDatasheet, locale: str, lang_code: str
+) -> None:
+    if lang_code == "es":
+        section = "Enlaces comunitarios"
+        url_issue_desc = "Petición original para la lengua en GitHub"
+        url_pontoon_desc = "Traductores de Common Voice en Pontoon"
+    elif lang_code == "en":
+        section = "Community links"
+        url_issue_desc = "Original language request on GitHub"
+        url_pontoon_desc = "Common Voice translators on Pontoon"
+
+    if locale == "lzz":
+        issue_url = "https://github.com/common-voice/common-voice/issues/4179"
+    elif locale == "dsb":
+        issue_url = "https://github.com/common-voice/common-voice/issues/4520"
+
+    pontoon_url = PONTOON_URL.format(locale=locale)
+    content = f"* [{url_pontoon_desc}]({pontoon_url})\n"
+    content += f"* [{url_issue_desc}]({issue_url})"
+    template.append_content(section, content)
+
+
+def fill_contribute_links(template: CVDatasheet, locale: str, lang_code: str) -> None:
+    if lang_code == "en":
+        contribute_links = [
+            f"* [Speak]({COMMON_VOICE_URL}/{locale}/speak)",
+            f"* [Write]({COMMON_VOICE_URL}/{locale}/write)",
+            f"* [Listen]({COMMON_VOICE_URL}/{locale}/listen)",
+            f"* [Review]({COMMON_VOICE_URL}/{locale}/review)",
+        ]
+        section = "Contribute"
+    elif lang_code == "es":
+        section = "Contribuir"
+        contribute_links = [
+            f"* [Hablar]({COMMON_VOICE_URL}/{locale}/speak)",
+            f"* [Escribir]({COMMON_VOICE_URL}/{locale}/write)",
+            f"* [Escuchar]({COMMON_VOICE_URL}/{locale}/listen)",
+            f"* [Revisar]({COMMON_VOICE_URL}/{locale}/review)",
+        ]
+    template.append_content(section, "\n".join(contribute_links))
+
+
+def fill_scs_stats(template: CVDatasheet, data: dict, lang_code: str):
+    if lang_code == "es":
+        stats_section = "Corpus de texto"
+        stats_template = "El corpus textual contiene `{total_sents}` oraciones, de las cuales `{validated_sents}` están validadas, `{unvalidated_sents}` están invalidadas y `{reported_sents}` son reportadas."
+    elif lang_code == "en":
+        stats_section = "Text corpus"
+        stats_template = "The text corpus contains `{total_sents}` sentences, of which `{validated_sents}` are validated, `{unvalidated_sents}` are invalidated and `{reported_sents}` are reported."
+
+    validated_sents = data.get("validatedSentences")
+    unvalidated_sents = data.get("unvalidatedSentences")
+    total_sents = validated_sents + unvalidated_sents
+    reported_sents = data.get("reportedSentences")
+
+    stats_content = stats_template.format(
+        total_sents=total_sents,
+        validated_sents=validated_sents,
+        unvalidated_sents=unvalidated_sents,
+        reported_sents=reported_sents,
+    )
+
+    template.append_content(stats_section, stats_content)
+
+def fill_data_splits(
+        template: CVDatasheet, data: dict, modality: str, lang_code: str
+) -> None:
+    data_splits_content = ""
+
+    if lang_code == "es":
+        data_splits_section = "Partición de datos para modelado"
+        table_header = "| Partición | Cuenta |\n|-|-|"
+        if modality == "scs":
+            data_splits_template = "Las particiones de datos oficiales para el modelado de esta lengua son las siguientes. De los clips validados, {percent:.2f}% están incluidos en las particiones."
+    elif lang_code == "en":
+        data_splits_section = "Data splits for modelling"
+        table_header = "| Split | Count |\n|-|-|"
+        if modality == "scs":
+            data_splits_template = "The official data splits for modelling this language are as follows. Of the validated clips, {percent:.2f}% are included in the splits."
+
+    dev = data.get("dev")
+    train = data.get("train")
+    test = data.get("test")
+    if modality == "scs":
+        validated = data.get("validated")
+        percent = (test + dev + train) / validated * 100 if validated > 0 else 0
+        data_splits_content += data_splits_template.format(percent=percent)
+
+    table = make_table({"train": train, "test": test, "dev": dev}, table_header)
+    data_splits_content += f"\n\n {table}"
+    template.append_content(data_splits_section, data_splits_content)
+
+
 def main():
     # Create folder sctructure for release for Scripted Release only
     output_path = os.path.join(OUTPUT_PATH_BASE, "scs", RELEASE_VERSION)
@@ -189,14 +298,26 @@ def main():
             template = read_datasheet(TEMPLATE_PATH.format(lang=template_lang))
             final_out_path = final_out_path_es
         else:
-            # TODO: Create a New Datasheet
-            print(f"\t[WARN] {lang} not found in previous release. Skipping.")
+            print(f"\t[WARN] {lang} not found in previous release. Creating new")
+            # Create a New Datasheet
+            # Read template
+            template_lang = "en"
+            template = read_datasheet(TEMPLATE_PATH.format(lang=template_lang))
+            fill_community_links(template, lang, template_lang)
+            fill_contribute_links(template, lang, template_lang)
+            fill_demographic_data(template, template, data.get("splits"), template_lang)
+            fill_scs_stats(template, data, template_lang)
+            fill_data_splits(template, data.get("buckets"), "scs", template_lang)
+            fill_header(lang, template, data, template.header.content, update_title=True)
+            with open(final_out_path_en, "w+") as  out_file:
+                out_file.write(template.to_markdown(include_empty_sections=True))
             continue
 
         # Update first paragraph
-        fill_paragraph(lang, final_datasheet, data, template.header.content)
+        fill_header(lang, final_datasheet, data, template.header.content)
         # Update demographic information
         fill_demographic_data(final_datasheet, template, data.get("splits"), template_lang)
+
 
         # Save it
         with open(final_out_path, "w+") as out_file:
