@@ -224,6 +224,54 @@ class CVDatasheet(object):
             additional_content + "\n" + self._section_map[title].content
         )
 
+    def add_section(self, new_section, relative_to_title=None, position="below"):
+        """
+        Adds a new section to the datasheet, either above or below a specified
+        section. If the specified section doesn't exist, the new section is
+        added to the end.
+
+        Arguments
+        ---------
+        new_section: DatasheetSection
+            The new section to add.
+        relative_to_title: str, optional
+            The title of the section to add the new section relative to.
+            If None, the section is added at the end.
+        position: str, optional
+            "above" or "below". Determines where to add the new section
+            relative to the specified section.
+
+        >>> ds = CVDatasheet("# Header\\nIntro\\n# Section 1\\nContent 1\\n# Section 3\\nContent 3")
+        >>> new_sec = DatasheetSection(raw_text="# Section 2\\nContent 2")
+        >>> ds.add_section(new_sec, "Section 1", "below")
+        >>> [s.title for s in ds.sections]
+        ['Section 1', 'Section 2', 'Section 3']
+        >>> new_sec_0 = DatasheetSection(raw_text="# Section 0\\nContent 0")
+        >>> ds.add_section(new_sec_0, "Section 1", "above")
+        >>> [s.title for s in ds.sections]
+        ['Section 0', 'Section 1', 'Section 2', 'Section 3']
+        >>> new_sec_4 = DatasheetSection(raw_text="# Section 4\\nContent 4")
+        >>> ds.add_section(new_sec_4, "Non-existent", "above")
+        >>> [s.title for s in ds.sections]
+        ['Section 0', 'Section 1', 'Section 2', 'Section 3', 'Section 4']
+        """
+        if new_section.title in self._section_map:
+            return
+
+        self._section_map[new_section.title] = new_section
+
+        if relative_to_title and relative_to_title in self._section_map:
+            for i, section in enumerate(self.sections):
+                if section.title == relative_to_title:
+                    if position == "above":
+                        self.sections.insert(i, new_section)
+                    else: # "below" or anything else
+                        self.sections.insert(i + 1, new_section)
+                    return
+
+        # If relative_to_title is not found or not provided, append at the end
+        self.sections.append(new_section)
+
     def to_markdown(self, include_empty_sections=False):
         """
         Converts the datasheet back to markdown format.

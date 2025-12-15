@@ -1,0 +1,147 @@
+# *[Jaqaru]* &mdash; Jaqaru (`jqr`)
+This datasheet is for version 24.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
+for Jaqaru (`jqr`). The dataset contains 6255 clips representing 10.27 hours of recorded
+speech (9.95 hours validated) from 12 speakers.
+
+## Language
+The [Jaqaru](https://bdpi.cultura.gob.pe/lenguas/jaqaru) language is characterized phonologically by possessing a series of aspirated co-articulated stop and affricate consonants, and by the presence of long vowels in some roots. Morphologically, it is an agglutinative language with extensive use of suffixes.
+<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- Provide a brief (1-2 paragraph) description of your language -->
+<!-- ### Variants -->
+<!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Describe the variants (MCV variants) of your language -->
+<!-- Original Answer: -->
+<!-- Jaqaru belongs to the Aru family -->
+
+## Demographic information
+The dataset includes the following distribution of age and gender.
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
+
+### Gender
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
+|-|-|
+| Undefined | 48.0% |
+| Female Feminine | 52.0% |
+
+<!-- {{GENDER_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
+<!-- | Gender | Frequency |
+|--------|-----------|
+| male, masculine | ? |
+| undeclared | ? |
+| female, feminine | ? | -->
+
+### Age
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
+|-|-|
+| Undefined | 23.0% |
+| Fourties | 60.0% |
+| Fifties | 16.0% |
+| Sixties | 1.0% |
+
+<!-- {{AGE_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
+<!-- | Age band | Frequency |
+|----------|-----------|
+| teens | ? |
+| twenties | ? |
+| thirties | ? |
+| fourties | ? |
+| fifties | ? |
+   ...if other age ranges are present in your data, add rows... -->
+
+## Text corpus
+On average, each sentence is composed by six words, sixty letters
+<!-- {{TEXT_CORPUS_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
+
+### Text domains
+
+| Domain | Count |
+|-|-|
+| Undefined | 6255 |
+
+
+### Writing system
+For the Jaqaru language, an official alphabet of 39 graphemes was established by Executive Order No. 303-2015-MINEDU issued by Peruvian Ministry of Education on June 12, 2015.
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- A description of the writing system (or writing systems) used in the text corpus -->
+
+### Sample
+There follows a randomly selected sample of five sentences from the corpus:
+```
+Kacxan qaqcxawkiwa, ajtz' jakshinwa tz'uknushu
+Jaqkunaq illt'kushtu nurtast"wa                                                                  
+Akura, Juli may markasanawa, illkirillkirir jayra, kantu,putaka,ilrunushsa akaw kultursa.
+Qamish qillqas mushkutna, ishaw jicx'k"anushutxi, qajcxnushutxi, shumayw qillqas uyunushu
+Punan yatxutaq antz jayankiwa: qayllkunaq apsap" apsap" wasanw shaykutsan yatxutar purki.
+```
+
+*Automatic random samples*
+
+```
+Apkaq may janq' pañul wayta wayt wurtawi
+"Punan yatxutaq antz jayankiwa: qayllkunaq apsap"" apsap"" wasanw shaykutsan yatxutar purki."
+Isiduraq lluq'in niwnir nawptawi
+"Tatanhq yatxutat"" nurnushunht"" yanhishkutu. "
+Jinch us ustatktna ish qamshishisna
+```
+<!-- {{SENTENCES_SAMPLE}} -->
+
+### Sources
+Sentences were written by Mrs. Neli Belleza
+<!-- {{SOURCES_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- A list of sentence sources, can be curated to the top-N -->
+
+## Get involved!
+
+### Community links
+* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/jqr/common-voice/contributors/)
+
+### Contribute
+* [Contribute voice recordings](https://commonvoice.mozilla.org/jqr/speak)
+* [Contribute sentences](https://commonvoice.mozilla.org/jqr/write)
+* [Validate recordings](https://commonvoice.mozilla.org/jqr/listen)
+* [Review sentences](https://commonvoice.mozilla.org/jqr/review)
+
+## Acknowledgements
+We extend our gratitude to Mr. Oscar Chávez Gonzales of the Peruvian Ministry of Education for providing invaluable information.
+
+### Datasheet authors
+* Luis Camacho <camacho.l@pucp.pe>
+<!-- {{DATASHEET_AUTHORS_LIST}} -->
+<!-- A list in the format of: Your Name <email@email.com> -->
+
+### Citation guidelines
+If you use this dataset in your research, please cite the following publication:
+
+```bibtex
+    @article{Camacho_2024, 
+    title   ={Automating the Proposition of Neologisms for the Quechua Language},  
+    volume  ={54}, DOI={10.1017/S0025100324000227}, 
+    number  ={3}, 
+    journal ={Journal of the International Phonetic Association}, 
+    author  ={Camacho, Luis}, 
+    year    ={2024}, 
+    pages   ={922–938}} 
+```
+<!-- {{CITATION_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you published a paper and would like people to cite it, you can include the BiBTeX here -->
+<!-- Submitted to SIMBig 2025 (Needs confirmation). -->
+
+### Funding
+This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice.
+<!-- {{FUNDING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If you received any funding, you can include the acknowledgement here -->
+
+## Licence
+This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
+you agree to not determine the identity of speakers in the dataset.
