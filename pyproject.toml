@@ -1,0 +1,10 @@
+[project]
+name = "cv-datasheets"
+version = "0.0.2"
+description = "Scripts to generate MDC datasheets"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "requests>=2.32.5",
+]

@@ -1,0 +1,191 @@
+# *català* &mdash; Catalan (`ca`)
+This datasheet is for version 24.0 of the the Mozilla Common Voice *Scripted Speech* dataset 
+for Catalan (`ca`). The dataset contains 2676776 clips representing 3866.82 hours of recorded
+speech (3318.62 hours validated) from 36868 speakers.
+
+## Language
+Catalan is a Romance language spoken by about 9 milion people mainly on the Mediterranean coast of the Iberian Peninsula. 
+
+It is an official language, along with Spanish or Castilian, in Catalonia, the Balearic Islands and the Valencian Community (where it
+is also called Valencian), while it is the only official language of the Principality of Andorra. It is also spoken, and has some administrative recognition, without reaching official status,
+in the eastern part of the autonomous community of Aragon, in the French department Pyrénées-Orientales (Eastern
+Pyrenees) and in the city of Alghero, on the island of Sardinia (Italy).
+
+The language evolved from Vulgar Latin in the Middle Ages.
+<!-- {{LANGUAGE_DESCRIPTION}} -->
+<!-- Provide a brief (1-2 paragraph) description of your language -->
+
+### Variants
+The main variants of Catalan are:
+* Central [ca-central]: It is the variant with the most speakers, as it encompasses the metropolitan area of Barcelona, extending to the region of Girona and the eastern half of Tarragona
+* Balearic [ca-balear]: The variant used in the Balearic Islands
+* Nord-Occidental [ca-nwestern]: Spoken in Andorra, Lleida and the western half of Tarragona in Catalonia, and the eastern part of Aragon
+* Septentrional [ca-northern]: Corresponds to the area of Roussillon and the northern part of Girona
+* Valencian: Spoken in the Valencian comunity, where it's also known as "Valencian"
+  * Valencià meridional [ca-valencia-southern]
+  * Alacantí [ca-valencia-alacant]
+  * Valencià septentrional [ca-valencia-northern]
+  * Tortosí [ca-valencia-tortosi]
+  * Valencià central [ca-valencia-central]
+* Alguerese [ca-algueres]: Spoken in the city of Alghero, in Sardinia
+<!-- {{VARIANT_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Describe the variants (MCV variants) of your language -->
+
+## Demographic information
+The dataset includes the following distribution of age and gender.
+<!-- You can get a lot of the information in this section from https://analyzer.cv-toolbox.web.tr/browse -->
+
+### Gender
+Self-declared gender information, percentage refers to the number of clips annotated with this gender.
+| Gender | Pertentage |
+|-|-|
+| Undefined | 27.0% |
+| Male Masculine | 52.0% |
+| Female Feminine | 21.0% |
+
+<!-- {{GENDER_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
+<!-- | Gender | Frequency |
+|--------|-----------|
+| male, masculine | ? |
+| undeclared | ? |
+| female, feminine | ? | -->
+
+### Age
+Self-declared age information, percentage refers to the number of clips annotated with this age band.
+| Age Band | Percentage |
+|-|-|
+| Undefined | 27.0% |
+| Twenties | 4.0% |
+| Thirties | 5.0% |
+| Teens | 1.0% |
+| Fourties | 12.0% |
+| Fifties | 19.0% |
+| Sixties | 29.0% |
+| Seventies | 4.0% |
+
+<!-- {{AGE_TABLE}} -->
+<!-- @ AUTOMATICALLY GENERATED @ -->
+<!-- | Age band | Frequency |
+|----------|-----------|
+| teens | ? |
+| twenties | ? |
+| thirties | ? |
+| fourties | ? |
+| fifties | ? |
+   ...if other age ranges are present in your data, add rows... -->
+
+## Data splits for modelling
+The official data splits for modelling this language are as follows. Of the validated clips, 54.59% are included in the splits.
+
+ | Split | Count |
+|-|-|
+| Train | 1212809 |
+| Test | 16415 |
+| Dev | 16415 |
+
+## Text corpus
+The text corpus contains `1307340` sentences, of which `1302505` are validated, `4835` are invalidated and `8864` are reported.
+<!-- {{TEXT_CORPUS_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- An overview of the text corpus, with information such as average length (in characters and words) of validated sentences. -->
+
+### Writing system
+Catalan is written using the Latin alphabet (abcdefghijklmnopqrstuvwxyz), with the special characters *ç* and *l·l*. In addition, vowels can be accented (à, è, é, í, ò, ó, ú, ü, ï). The characters *-* (hyphen) and *'* (apostrophe) are also part of Catalan orthography.
+<!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- A description of the writing system (or writing systems) used in the text corpus -->
+
+#### Symbol table
+```a b c ç d e f g h i j k l m n o p q r s t u v w x y z à è é í ò ó ú ï ü```
+<!-- {{ALPHABET_TABLE}} -->
+<!-- @ OPTIONAL @ -->
+<!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+
+### Sample
+There follows a randomly selected sample of five sentences from the corpus.
+
+```
+Després d'algunes mudes es transformen en pupa.
+Va ser Director General en diferents governs de Jordi Pujol.
+Va ser un altre avatar de Devi Laxmi.
+El de Sanchi tenia una execució menys refinada, i estava en pitjors condicions. 
+Res ni ningú guanyar ni doblegarà les nostres ànsies de llibertat, va escriure.
+```
+<!-- {{SENTENCES_SAMPLE}} -->
+
+### Text domains
+
+| Domain | Count |
+|-|-|
+| Undefined | 2675630 |
+| Agriculture Food | 59 |
+| Automotive Transport | 31 |
+| Finance | 4 |
+| Service Retail | 63 |
+| General | 657 |
+| Healthcare | 36 |
+| History Law Government | 65 |
+| Language Fundamentals | 34 |
+| Media Entertainment | 37 |
+| Nature Environment | 135 |
+| News Current Affairs | 36 |
+| Technology Robotics | 27 |
+
+<!-- {{TEXT_DOMAIN_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What text domains are represented in the corpus? -->
+
+### Recommended post-processing
+It is recommended to normalize instances of the geminate L, which can take the equivalent forms of l·l or ŀl.
+<!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
+<!-- @ OPTIONAL @ -->
+<!-- What should people do before they use the data, for example Unicode normalisation -->
+
+### Fields
+Each row of a `tsv` file represents a single audio clip, and contains the following information:
+
+* `client_id` - hashed UUID of a given user
+* `path` - relative path of the audio file
+* `text` - supposed transcription of the audio
+* `up_votes` - number of people who said audio matches the text
+* `down_votes` - number of people who said audio does not match text
+* `age` - age of the speaker[^1]
+* `gender` - gender of the speaker[^1]
+* `accent` - accent of the speaker[^1]
+* `segment` - if sentence belongs to a custom dataset segment, it will be listed here
+
+#### 
+[^1]: For a full list of age, gender, and accent options, see the
+[demograpics
+spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
+will only be reported if the speaker opted in to provide that
+information.
+
+## Get involved!
+
+### Community links
+* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/ca/common-voice/contributors/)
+<!-- {{COMMUNITY_LINKS_LIST}} -->
+<!-- @ OPTIONAL @ -->
+<!-- Links to community chats / fora -->
+
+### Contribute
+* [Speak](https://commonvoice.mozilla.org/ca/speak)
+* [Write](https://commonvoice.mozilla.org/ca/write)
+* [Listen](https://commonvoice.mozilla.org/ca/listen)
+* [Review](https://commonvoice.mozilla.org/ca/review)
+<!-- {{CONTRIBUTE_LINKS_LIST}} -->
+<!-- Here you can include links for how to contribute to the dataset -->
+
+## Acknowledgements
+
+### Datasheet authors
+* Carme Armentano <carme.armentano@bsc.es>
+<!-- {{DATASHEET_AUTHORS_LIST}} -->
+<!-- A list in the format of: Your Name <email@email.com> -->
+
+## Licence
+This dataset is released under the [Creative Commons Zero (CC-0)](https://creativecommons.org/public-domain/cc0/) licence. By downloading this data
+you agree to not determine the identity of speakers in the dataset.
