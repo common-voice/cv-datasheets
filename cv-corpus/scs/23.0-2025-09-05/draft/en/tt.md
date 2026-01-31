@@ -4,13 +4,28 @@ for Tatar (`tt`). The dataset contains 30895 clips representing 33 hours of reco
 speech (32 hours validated) from 285 speakers.
 
 ## Language
-<!-- {{LANGUAGE_DESCRIPTION}} -->
-<!-- Provide a brief (1-2 paragraph) description of your language -->
+Tatar (татар теле, tatar tele) is a Turkic language spoken by an estimated 5–7 million people,
+primarily in the Republic of Tatarstan (within the Russian Federation), as well as in neighboring
+regions of Russia, Central Asia, Turkey, China, Finland, and Western Europe.  
+
+It belongs to the Kipchak (Northwestern) branch of the Turkic family, closely related to Bashkir,
+Nogai, and Kazakh. The standard form, based on the **Kazan dialect**, is used in education, media,
+publishing, and administration in Tatarstan. Other dialects include **Mishar Tatar** (spoken in
+western areas) and **Siberian Tatar** (spoken in Siberia).  
+
+Historically, Tatar has been written in several scripts:  
+* **Arabic script** — used for centuries until the 1920s.  
+* **Latin script (Yanalif)** — introduced in 1928 during language reforms in the Soviet Union.  
+* **Cyrillic script** — adopted in 1939 and remains the official script today in Russia.  
+
+Despite Cyrillic remaining the official standard, recent decades have seen **revival efforts to promote a Latin-based orthography**, especially in digital communication, education projects, and diaspora communities. The Latin script is viewed as more internationally accessible and closer to other Turkic languages such as Turkish, Uzbek, and Azerbaijani.
 
 ### Variants
-<!-- {{VARIANT_DESCRIPTION}} -->
-<!-- @ OPTIONAL @ -->
-<!-- Describe the variants (MCV variants) of your language -->
+There are three main dialect groups of Tatar:  
+* **Kazan (Central) Tatar** – the literary standard and most widely spoken.  
+* **Mishar Tatar** – spoken in western regions; differs in phonetics and vocabulary.  
+* **Siberian Tatar** – spoken in smaller communities in Siberia; more divergent. 
+The Common Voice dataset predominantly reflects **Kazan Tatar** due to its dominance in education and media.
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -76,11 +91,20 @@ The text corpus contains `18083` sentences, of which `18051` are validated, `32`
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The corpus uses the **Cyrillic alphabet**, the official script for Tatar in Russia. Tatar Cyrillic consists of the standard Russian alphabet plus six additional letters: `Ә` `ә`, `Ө` `ө`, `Ү` `ү`, `Җ` `җ`, `Ң` `ң`, `Һ` `һ`.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
+Valid alphabet characters include:  
+А а, Ә ә, Б б, В в, Г г, Д д,
+Е е, Ё ё, Ж ж, Җ җ, З з, И и,
+Й й, К к, Л л, М м, Н н, Ң ң,
+О о, Ө ө, П п, Р р, С с, Т т,
+У у, Ү ү, Ф ф, Х х, Һ һ, Ц ц,
+Ч ч, Ш ш, Щ щ, Ъ ъ, Ы ы, Ь ь,
+Э э, Ю ю, Я я
 
 ### Sample
 There follows a randomly selected sample of five sentences from the corpus.
@@ -120,6 +144,10 @@ There follows a randomly selected sample of five sentences from the corpus.
 <!-- {{RECOMMENDED_POSTPROCESSING_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- What should people do before they use the data, for example Unicode normalisation -->
+Users may consider:  
+* Unicode normalization (NFC)  
+* Removal of extraneous punctuation and symbols  
+* Script conversion (e.g. Cyrillic → Latin) for multilingual training
 
 ### Fields
 Each row of a `tsv` file represents a single audio clip, and contains the following information:
@@ -170,6 +198,7 @@ information.
 ### Datasheet authors
 <!-- {{DATASHEET_AUTHORS_LIST}} -->
 <!-- A list in the format of: Your Name <email@email.com> -->
+Rinat Kharisov <rkharisov.tt@gmail.com> — member of **Yasalma**, a non-profit collective of Tatar language activists and volunteers
 
 ### Citation guidelines
 <!-- {{CITATION_DESCRIPTION}} -->
