@@ -163,6 +163,10 @@ class CVDatasheet(object):
             self.sections.append(current_ds_sect)
             self._section_map[current_ds_sect.title] = current_ds_sect
 
+    def get_section(self, title: str) -> DatasheetSection | None:
+        """Look up a section by title. Returns None if not found."""
+        return self._section_map.get(title)
+
     def replace_content(self, title, new_content):
         """
         Replaces the content of a section, uising the section
