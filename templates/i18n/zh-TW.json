@@ -1,0 +1,45 @@
+{
+  "_comment": "Traditional Chinese (Taiwan) strings for datasheet templates. SCS only — no SPS template in zh-TW.",
+
+  "header_intro_scs": "Mozilla Common Voice {version} {english_name} (`{locale}`) *文本錄音* 語料集。\n本語料集包含 {speakers} 位錄音者，共 {hours_recorded} 小時的錄音資料，其中 {hours_validated} 小時已驗證（經另二名參與者確認）。",
+
+  "title_language": "語言",
+  "title_variants": "方言／變體（Variants）",
+
+  "title_demographics": "統計資料",
+  "demographics_intro": "本資料集包含以下年齡與性別分布。",
+  "title_gender": "性別",
+  "gender_intro": "錄音者自行宣告的性別（Gender）資訊。頻次（Frequency）為標記此性別的錄音數。",
+  "title_age": "年齡",
+  "age_intro": "錄音者自行宣告的年齡層（Age band）資訊。頻次（Frequency）為標記此年齡的錄音數。",
+
+  "title_data_splits": "",
+
+  "title_text_corpus": "文本語料",
+  "title_writing_system": "書寫系統",
+  "title_symbol_table": "符號表",
+  "title_sample": "樣本",
+  "sample_intro": "以下為五個隨機選擇的錄音句子樣本",
+  "title_sources": "來源",
+  "title_text_domains": "文本領域",
+  "title_processing": "處理",
+  "title_postprocessing": "建議後處理流程步驟",
+
+  "title_fields": "",
+  "fields_intro": "",
+  "scs_fields_list": "",
+  "footnote_demographics": "",
+
+  "title_get_involved": "參與！",
+  "title_community_links": "社群連結",
+  "title_discussions": "討論",
+  "title_contribute": "貢獻",
+
+  "title_acknowledgements": "誌謝",
+  "title_authors": "資料表編撰",
+  "title_citation": "引用說明",
+  "title_funding": "經費",
+
+  "title_licence": "授權",
+  "licence_text": "此資料集以 [創用 CC 公眾領域貢獻宣告 (CC-0)](https://creativecommons.org/public-domain/cc0/) 釋出至公共領域。\n下載這個資料集，即代表你同意不對資料集中的個別參與者進行識別。"
+}

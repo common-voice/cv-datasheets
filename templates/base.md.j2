@@ -1,0 +1,73 @@
+{# base.md.j2 — Shared datasheet structure for all modalities.
+   Rendered by compile_datasheets.py with placeholder context.
+   Output: flat markdown with {{KEY}} markers for the bundler. #}
+# *{{ stats.native_name }}* &mdash; {{ stats.english_name }} (`{{ stats.locale }}`)
+
+{{ header_intro }}
+
+## {{ i18n.title_language }}
+
+{{ community.description }}
+
+{% block variants %}{% endblock %}
+## {{ i18n.title_demographics }}
+{% block demographics %}
+{{ i18n.demographics_intro }}
+
+### {{ i18n.title_gender }}
+
+{{ i18n.gender_intro }}
+
+{{ auto.gender_table }}
+
+### {{ i18n.title_age }}
+
+{{ i18n.age_intro }}
+
+{{ auto.age_table }}
+{% endblock %}
+{% if i18n.title_data_splits %}
+## {{ i18n.title_data_splits }}
+{% endif %}
+
+{% block corpus_details %}{% endblock %}
+
+{% block samples %}{% endblock %}
+
+{% block postprocessing %}{% endblock %}
+
+{% block fields_section %}{% endblock %}
+
+## {{ i18n.title_get_involved }}
+
+### {{ i18n.title_community_links }}
+
+{{ community.community_links }}
+
+### {{ i18n.title_discussions }}
+
+{{ community.discussion_links }}
+
+### {{ i18n.title_contribute }}
+
+{{ community.contribute_links }}
+
+{% block extra_contribute %}{% endblock %}
+
+## {{ i18n.title_acknowledgements }}
+
+### {{ i18n.title_authors }}
+
+{{ community.authors }}
+
+### {{ i18n.title_citation }}
+
+{{ community.citation }}
+
+### {{ i18n.title_funding }}
+
+{{ community.funding }}
+
+## {{ i18n.title_licence }}
+
+{{ i18n.licence_text }}
