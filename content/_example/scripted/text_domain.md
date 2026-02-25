@@ -1,0 +1,1 @@
+The corpus covers everyday conversational topics, cultural references, and some technical vocabulary. Domain distribution is skewed towards general/conversational content, with a smaller proportion of formal and literary text.

@@ -1,0 +1,1 @@
+Transcriptions are produced by volunteer speakers fluent in Klingon. Each recording is transcribed by one volunteer and validated by at least one other. Transcriptions use standard Okrand romanization.
