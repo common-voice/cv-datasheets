@@ -1,0 +1,1 @@
+Manx is the indgenous Celtic language of the Isle of Man, closely related to Irish and Scottish Gaelic. It has used a unique orthography from at least the seventeenth century. It is spoken by at least 2,000 speakers today (2025).

@@ -1,0 +1,1 @@
+De la Cruz Morales Román. Tesis de maestría, 2016, Lingüística, CIESAS. De la Cruz Morales Román. Tesis de doctorado, 2023, Lingüística, CIESAS. De la Cruz Morales Román. Manuscrito no publicado, 2024. De la Cruz Morales Román. Poesía no publicada, 2024.

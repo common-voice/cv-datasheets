@@ -1,0 +1,1 @@
+Presently, the corpus contains single sentences or texts with a few sentences (5 to 30 sentences). The average length of the sentences is from 8 to 15 words. These texts are created by enthusiasts specifically for Common Voice.

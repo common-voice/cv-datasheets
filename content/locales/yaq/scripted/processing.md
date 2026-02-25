@@ -1,0 +1,1 @@
+Se buscó bibliografía de textos de especialistas (citados anteriormente) que tuvieran texto escrito en jiak noki, después se separó, cada uno de los tres textos consultados, en oraciones y frases en un archivo de excel, se procedió con la normalización y posteriormente lo subieron a common voice.

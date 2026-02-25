@@ -1,0 +1,1 @@
+The collection of sentence prompts used for read speech in the compilation of this dataset was scripted with in an alphabet that is mostly based on Latin characgers with some phonetic symbols such as ɣ, ʒ, ŋ, ɛ, and ɔ.

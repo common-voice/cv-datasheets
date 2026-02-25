@@ -1,0 +1,1 @@
+Las oraciones mayormente son tomadas de la gramática del Dr. Rolando Guadalupe Felix Armendariz, aunque se usó también el diccionario de la Maestra Ana Aurora Medina Murillo además unos ejemplos de tesis de maestría de Ana Amelia Avila Enriquez y unos ejemplos de un artículo de la maestra Isabel Barreras Aguilar.

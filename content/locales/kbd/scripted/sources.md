@@ -1,0 +1,1 @@
+All sentences in this dataset were created specifically for the Common Voice project by native Kabardian speakers. The sentences were carefully crafted to cover a wide range of topics and linguistic structures, ensuring a diverse and representative corpus for speech recognition training.

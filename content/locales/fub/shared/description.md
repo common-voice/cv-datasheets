@@ -1,0 +1,1 @@
+Adamawa Fulfulde (also referred to simply as *Fulfulde*) is one of several varieties of Fulfulde, or Puular, or Fula spoken troughout the Sahel region in Africa. Adamawa Fulfulde is native to a population located in the Adamawa, North and Far-North Regions of Cameroon.

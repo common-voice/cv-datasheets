@@ -1,0 +1,1 @@
+Khetrani also called Khetranki is an Indo-Aryan language spoken in northeast Balochistan province of Pakistan mainly in Barkhan district but also in neighbouring districts, it is spoken by the Khetran people. About 200,000 people speak it.

@@ -1,0 +1,1 @@
+Se seleccionaron los materiales adecuados en donde se extrajeron los textos. Se seleccionaron que comprendían y podían ser emitidos por los propios hablantes. Fueron 1503 frases seleccionadas. Todos los textos se pegaron en Excel.

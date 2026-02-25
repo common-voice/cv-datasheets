@@ -1,0 +1,1 @@
+The Administrative Atlas of Cameroon's Languages (Breton and Bikia Fohtung, 1991) lists two varieties of Duala: Pongo and Muungo. Contributors to this dataset have listed another dialect, Ewale, which is reflected in the collection of sentence prompts used for read speech in this dataset.

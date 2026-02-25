@@ -1,0 +1,1 @@
+The Dameli corpus is written using the Arabic script (Perso-Arabic style), which is commonly used for many regional languages in Pakistan. The writing system has been adapted to represent Dameli sounds, with some additional diacritics and letters used where necessary to capture specific phonetic distinctions.

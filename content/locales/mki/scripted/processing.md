@@ -1,0 +1,1 @@
+The corpus was created by composing original sentences in Dhatki, typing them in Sindhi script, and then editing for accuracy and consistency. Sentences were cleaned, standardized, and organized into a digital format for use in analysis.

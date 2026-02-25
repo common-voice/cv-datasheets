@@ -1,0 +1,1 @@
+Pasco Quechua, identified by the ISO 639-3: [qva](https://iso639-3.sil.org/code/qva), belongs to the Quechua I group. This quechua dialect is spoken at both sides of bordeline between Junín and [Pasco](https://peru.sil.org/es/lengua_cultura/familia_linguistica_quechua/quechua_ambo-pasco) regions.

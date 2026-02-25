@@ -1,0 +1,1 @@
+According to [Ethnologue online](https://www.ethnologue.com/language/fue/), Borgu Fulfulde is a stable indigenous language of Benin. It belongs to the Niger-Congo language family and is part of the Fulah macrolanguage.

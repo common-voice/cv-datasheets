@@ -1,0 +1,1 @@
+Tem (Kotokoli) is a Gur language spoken primarily in Togo, Ghana, Benin, and Burkina Faso. It is part of the Niger-Congo family. The language is used in daily communication, religious practice, and traditional expressions.

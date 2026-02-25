@@ -1,0 +1,1 @@
+Nawdm (also known as Nawdem, Losso, Losu, Naoudem) is a Gur language spoken in northern Togo and southern Ghana. It belongs to the Niger‑Congo family, under the Oti‑Volta subgroup. The language is used in daily communication, religious texts, poetry, oral tradition, and common expressions.

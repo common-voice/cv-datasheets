@@ -1,0 +1,1 @@
+According to [Ethnologue online](https://www.ethnologue.com/language/pcm/), Nigerian Pidgin is a language of wider communication that originated in Nigeria. It is an English-based creole and used primarily as a second language.

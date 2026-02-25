@@ -1,0 +1,1 @@
+Speakers of Adamawa Fulfulde, including the contributors to this dataset, distinguish three main sub-varieties spoken in three main settlement areas: Maroua, Garoua, and Ngaoundéré. The variety used in the sentence prompts is Ngaoundéré.

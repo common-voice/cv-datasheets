@@ -1,0 +1,1 @@
+Si se trabaja con personas de otras comunidades tienen que normalizar los datos, es decir adaptarlos a las variaciones dialectales de la otra comunidad. Hubo una hablante de Cusarare, Guachochi que está considerado de la misma lengua y tenía dudas sobre algunas palabras.

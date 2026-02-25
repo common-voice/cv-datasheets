@@ -1,0 +1,1 @@
+El corpus se formó de historias de vida de varios hablantes, que no son los que grabaron, así como de las frases y oraciones de la interfaz pontoon de Mozilla. Fueron 10 horas de audio grabadas en common voice con tres hablantes de la misma variante. La media de las oraciones era de 7-8 segundos, había oraciones más extensas y otras más cortas.

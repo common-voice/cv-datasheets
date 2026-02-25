@@ -1,0 +1,3 @@
+This dataset was compiled by *Instituto da Lingua Galega* (Galician Language Institute) as part of *Proxecto Nós*. The work was funded by *Ministerio para la Transformación Digital y de la Función Pública*, with support from the European Union through *NextGenerationEU*, under the [ILENIA Project](https://proyectoilenia.es/) (reference 2022/TL22/00215336).
+
+Additional funding was provided by *Xunta de Galicia* through the programme *Axudas de consolidación e estruturación de unidades de investigación competitivas* to the research group *Filoloxía e Lingüística Galega* (ED431C 2025/13), as well as by *Ministerio de Cultura*.

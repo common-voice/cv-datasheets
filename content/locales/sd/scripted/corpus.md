@@ -1,0 +1,1 @@
+The Sindhi corpus consists of collected texts from newspapers, and social media. It contains more then one lacs sentences. The texts cover different domains, including literature, news, education, and everyday communication.

@@ -1,0 +1,1 @@
+El sistema de escritura del idioma seri se desarrolló en la década de 1950 y se ajusta lo más posible a la ortografía española, en particular al uso de la c y la qu para el fonema /k/, y el uso del acento para marcar el énfasis en posiciones no estándar. Consta de 23 letras y dos dígrafos, y se atiene estrechamente al inventario de fonemas.

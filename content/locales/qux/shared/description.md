@@ -1,0 +1,1 @@
+Yauyos Quechua, identified by the ISO 639-3: [qux](https://iso639-3.sil.org/code/qux), belongs to the Quechua I group. It is seriously endangered but still spoken in Perú, Lima region, Yauyos province, districts: Alis, Tomas, Huancaya, Vitis, Azángaro, Huangáscar, Cacra and Hongos.

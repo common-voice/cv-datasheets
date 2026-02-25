@@ -1,0 +1,1 @@
+The corpus of the langauge is mainly created/written on everyday discourse topics such as geography of the area, langauge, culture, education, sports activities, tourism potential of the area etc. There are more than three thousands sentences in the dataset and word count is around 20 thousand.

@@ -1,0 +1,3 @@
+- Subconjunto de oraciones para Dependencias Universales
+- Oraciones individuales para la plataforma de Common Voice
+-

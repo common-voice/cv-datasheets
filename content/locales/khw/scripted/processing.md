@@ -1,0 +1,1 @@
+Collected soft books and got copy waiver from authors.  Put on Excel sheet and reviewed the sentences for length and correction. Sent to Meesum Alam.  In my own case upload the sentence directly.  Voice over the sentences by different by people.  Validated the sentences by different people.

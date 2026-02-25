@@ -1,0 +1,1 @@
+El cuerpo del trabajo o las oraciones fueron escritas por el propio autor refiriéndose a situaciones de la vida cotidiana en el campo, en la casa, en el trabajo y en todas la actividades que se viven a diario en la comunidad.

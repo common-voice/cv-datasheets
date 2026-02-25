@@ -1,0 +1,1 @@
+The [Murui-Muinanɨ](https://bdpi.cultura.gob.pe/lenguas/murui-muinani) language, ISO code [hux](https://www.ethnologue.com/language/hux/) belongs to the Witotoan family and is spoken in the basins of the Putumayo, Napo, and Amazonas rivers in the Loreto department of Perú. It has traditionally been known as Uitoto or Huitoto but now they prefer the endonym Murui-Muinanɨ.

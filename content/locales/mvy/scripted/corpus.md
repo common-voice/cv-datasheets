@@ -1,0 +1,1 @@
+Corpus contains more 6500 sentences from different open source documents or from published books of different authors with their permission and consent. Most of them were submitted to a local organisation which then forwarded to Common voice.

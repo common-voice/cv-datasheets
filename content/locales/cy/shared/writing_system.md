@@ -1,0 +1,1 @@
+Welsh employs a Latin alphabet of 29 letters, including eight digraphs (ch, dd, ff, ng, ll, ph, rh, th) treated as single letters for alphabetization, and treats "w" and "y" as vowels. The orthography is largely phonetic with predictable sound-letter correspondences. Loanwords, especially from English, are occasionally adapted to Welsh spelling conventions.

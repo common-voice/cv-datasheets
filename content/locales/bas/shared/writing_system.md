@@ -1,0 +1,3 @@
+Basaa has several competing writing norms. The most widely used are the Catholic missionary orthography, the Prostestant missionary orthography, and a version of the General Alphabet of Cameroonian Languages that was adapted to Basaa. 
+
+This dataset is mostly based on the Protestant missionary's orthography, with minor alterations concerning, for example, the signaling of *b* as implosive [ɓ]. For example, *m'bôñ* "cassava" vs *mbôñ* "poison". Other alterations includes the signaling of the *n-* prefix followed by the *y* symbol, to distinguish it from the complex symbol *ny*. For example, *nyo* "mouth" vs *a n'yo* "he stole palm wine from the palm trunk".

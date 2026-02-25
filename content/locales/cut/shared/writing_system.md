@@ -1,0 +1,1 @@
+La escritura que se utilizó es la misma que se usa para el escribir en español, con la diferencia de que se agregaron más de un acento en algunas palabras, ya que la lengua dbaku se caracteriza por ser una lengua tonal.

@@ -1,0 +1,1 @@
+The corpus is written in the Sindhi script. While Dhatki can be written in either Perso-Arabic (Sindhi-based) or Devanagari, this dataset follows the Sindhi convention, reflecting the variety spoken in Pakistan (Sindh).

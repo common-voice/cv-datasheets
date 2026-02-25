@@ -1,0 +1,1 @@
+The corpus consists of spontaneous spoken texts in the Sarawani dialect of Brahui. It includes a large number of sentences and utterances, primarily drawn from natural conversations and everyday speech of native speakers. The dataset emphasizes oral and informal registers, reflecting authentic language use rather than standardized or literary forms.

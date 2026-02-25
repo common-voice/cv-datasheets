@@ -1,0 +1,1 @@
+In search of Truth Book. This book is written for people who are struggling. It contains many stories that people can read to reflect on their lives and change their lives. The book contains more than 1.2 million words.

@@ -1,0 +1,1 @@
+The [Jaqaru](https://bdpi.cultura.gob.pe/lenguas/jaqaru) language is characterized phonologically by possessing a series of aspirated co-articulated stop and affricate consonants, and by the presence of long vowels in some roots. Morphologically, it is an agglutinative language with extensive use of suffixes.
