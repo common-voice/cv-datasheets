@@ -1,6 +1,13 @@
 {# spontaneous.md.j2 — Spontaneous Speech (SPS) datasheet template #}
 {% extends "base.md.j2" %}
 
+{% block variants %}
+### {{ i18n.title_variants }}
+
+{{ community.variants }}
+
+{% endblock %}
+
 {% block demographics %}
 {{ i18n.sps_demographics_notice }}
 
