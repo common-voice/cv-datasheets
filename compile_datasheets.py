@@ -24,9 +24,9 @@ import re
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+from scripts.datasheet import CVDatasheet
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from scripts.datasheet import CVDatasheet
 
 # ---------------------------------------------------------------------------
 # Type aliases (Python 3.12+)
@@ -446,7 +446,7 @@ def main() -> None:
     version = args[0]
     releases_dir = REPO_ROOT / "releases"
     releases_dir.mkdir(exist_ok=True)
-    output_path = releases_dir / f"datasheets-v{version}.json"
+    output_path = releases_dir / f"datasheets-{version}.json"
     pretty = False
 
     i = 1
