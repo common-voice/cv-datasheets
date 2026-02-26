@@ -1,0 +1,16 @@
+{
+  "_comment": "Template language overrides. Locales not listed here default to 'en'. Applies to all modalities.",
+  "cut": "es",
+  "cux": "es",
+  "hch": "es",
+  "mau": "es",
+  "meh": "es",
+  "mmc": "es",
+  "ncx": "es",
+  "pua": "es",
+  "sei": "es",
+  "top": "es",
+  "var": "es",
+  "yaq": "es",
+  "zoc": "es"
+}
