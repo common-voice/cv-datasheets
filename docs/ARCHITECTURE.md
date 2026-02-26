@@ -7,16 +7,17 @@ cv-datasheets is the **data supplier** for dataset documentation in Common Voice
 ```txt
 cv-datasheets (compile-time)              Bundler (runtime)
 ─────────────────────────────────         ─────────────────────────
-Jinja2 templates ──┐
-content/ files ────┤── compile ──►  datasheets.json ──► datasheetsFetcher.ts
-metadata/ files ───┘                                        │
-                                                    DatasheetLocalePayload
-                                                    { template, community_fields, metadata }
-                                                            │
-                                                    datasheets.ts fills {{KEY}} with
-                                                    live stats + community data
-                                                            │
-                                                    README.md → tar.gz + GCS /datasheets/
+API snapshot ─────┐
+Jinja2 templates ─┤
+content/ files ───┤── compile ──►  datasheets.json ──► datasheetsFetcher.ts
+metadata/ files ──┘                                        │
+                                                   DatasheetLocalePayload
+                                                   { template, community_fields, metadata }
+                                                           │
+                                                   datasheets.ts fills {{KEY}} with
+                                                   live stats + community data
+                                                           │
+                                                   README.md → tar.gz + GCS /datasheets/
 ```
 
 ## Jinja2 Role
@@ -32,6 +33,35 @@ Jinja2 runs **at compile time only** inside this repository. It resolves templat
    - `{{ community.description }}` outputs literal `{{LANGUAGE_DESCRIPTION}}`
    - `{% block %}` / `{% extends %}` are resolved (inheritance flattened)
 4. Result: flat markdown with `{{KEY}}` markers — same format the bundler already consumes
+
+## API Snapshot
+
+Language metadata comes from a snapshot of the Common Voice APIs, fetched by `scripts/fetch_api_metadata.py`:
+
+| Source | Endpoint | Data |
+| --- | --- | --- |
+| SCS languagedata | `/api/v1/languagedata` | Names, text direction, variants, predefined accents, contributable status |
+| SPS locales | `/spontaneous-speech/beta/api/v1/locales` | Contributable SPS locale codes |
+
+The snapshot is stored in `metadata/api-snapshots/languagedata-{YYYYMMDD}.json` and passed to the compile script via `--api-snapshot`.
+
+**Locale extras:** Regional codes not present in the API (e.g. `el-CY`, `ms-MY`) are defined in `metadata/locale-extras.json` and merged into the snapshot at load time.
+
+**Template languages:** Auto-discovered from `templates/i18n/*.json` — the compile script checks for `header_intro_scs`/`header_intro_sps` keys to determine modality support. Default locale mapping is `en`; non-English overrides are in `metadata/template-languages.json` (currently 13 locales using `es`).
+
+## Auto-Generated Content
+
+The compile script auto-generates content from API data when no community file exists:
+
+| Field | Source | Condition |
+| --- | --- | --- |
+| `variant_description` | API `variants` list | No `variants.md` in content |
+| `predefined_accents_description` | API `predefined_accents` list | No `predefined_accents.md` in content |
+| `funding_description` | OMSF funding text | Locale in `funding.tsv`, no `funding.md` in content |
+| `contribute_links_list` | Standard Speak/Write/Listen/Review links | No `contribute_links.md` in content |
+| `community_links_list` | Pontoon translators link | No `community_links.md` in content |
+
+Community content always takes precedence over auto-generated content.
 
 ## Content Fallback Chain
 
@@ -62,8 +92,16 @@ The compile script produces a single JSON file per release:
     "scs": {
       "{locale}": {
         "template_language": "en",
-        "metadata": { "native_name": "...", "english_name": "...", "funding": "..." },
-        "community_fields": { "language_description": "...", ... }
+        "metadata": {
+          "native_name": "...", "english_name": "...",
+          "text_direction": "LTR", "funding": "..."
+        },
+        "community_fields": {
+          "language_description": "...",
+          "variant_description": "...",
+          "predefined_accents_description": "...",
+          ...
+        }
       }
     },
     "sps": { "..." }
@@ -88,10 +126,12 @@ It then:
 
 ## What Goes Where
 
-| Content type                                      | Handled by                                     | Bundler sees                       |
-| ------------------------------------------------- | ---------------------------------------------- | ---------------------------------- |
-| Community-written content                         | compile_datasheets.py                          | Filled `community_fields` values   |
-| Pontoon / contribute link defaults                | compile_datasheets.py (`_defaults/`)           | Pre-filled in `community_fields`   |
-| OMSF funding                                      | compile_datasheets.py (`metadata/funding.tsv`) | Pre-filled `funding_description`   |
-| Auto-generated stats (clips, hours, demographics) | Bundler at runtime                             | `{{KEY}}` placeholders in template |
-| Sentence/question samples                         | Bundler at runtime                             | `{{KEY}}` placeholders in template |
+| Content type | Handled by | Bundler sees |
+| --- | --- | --- |
+| Community-written content | compile_datasheets.py | Filled `community_fields` values |
+| API-derived names & direction | compile_datasheets.py (API snapshot) | `metadata.native_name`, `metadata.english_name`, `metadata.text_direction` |
+| Auto-generated variants/accents | compile_datasheets.py (API data) | Pre-filled in `community_fields` |
+| Pontoon / contribute link defaults | compile_datasheets.py (`_defaults/`) | Pre-filled in `community_fields` |
+| OMSF funding | compile_datasheets.py (`metadata/funding.tsv`) | Pre-filled `funding_description` |
+| Auto-generated stats (clips, hours, demographics) | Bundler at runtime | `{{KEY}}` placeholders in template |
+| Sentence/question samples | Bundler at runtime | `{{KEY}}` placeholders in template |

@@ -41,6 +41,7 @@ content/locales/{locale}/
   shared/              # Language-level (shared across SCS and SPS)
     description.md       About the language
     variants.md          Dialect / accent variants
+    predefined_accents.md  Predefined accent options
     writing_system.md    Writing system description
     alphabet.md          Symbol table
     community_links.md   Community resource links
@@ -81,17 +82,17 @@ entries across releases, while others describe the current state.
 
 **Additive fields — extend, do not replace:**
 
-| Field | Why it grows |
-| --- | --- |
-| `sources.md` | New text/audio sources are added each release |
-| `corpus.md` | Corpus description grows as new sources join |
-| `text_domain.md` | New domains appear as the corpus expands |
-| `authors.md` | New contributors and community leads join over time |
-| `citation.md` | New publications reference the dataset |
-| `funding.md` | Additional funders may support the project |
-| `community_links.md` | New community spaces are created |
-| `discussion_links.md` | New discussion channels open |
-| `contribute_links.md` | New contribution paths become available |
+| Field                 | Why it grows                                        |
+| --------------------- | --------------------------------------------------- |
+| `sources.md`          | New text/audio sources are added each release       |
+| `corpus.md`           | Corpus description grows as new sources join        |
+| `text_domain.md`      | New domains appear as the corpus expands            |
+| `authors.md`          | New contributors and community leads join over time |
+| `citation.md`         | New publications reference the dataset              |
+| `funding.md`          | Additional funders may support the project          |
+| `community_links.md`  | New community spaces are created                    |
+| `discussion_links.md` | New discussion channels open                        |
+| `contribute_links.md` | New contribution paths become available             |
 
 When editing additive fields, **add your entries below the existing content**.
 Do not remove previous contributions — they represent the work of earlier
@@ -100,15 +101,16 @@ community members. Include version references where helpful (e.g.
 
 **Descriptive fields — rewrite or improve freely:**
 
-| Field | What it describes |
-| --- | --- |
-| `description.md` | The language itself |
-| `variants.md` | Dialect and accent landscape |
-| `writing_system.md` | How the language is written |
-| `alphabet.md` | Symbol table or character list |
-| `processing.md` | Current text processing pipeline |
-| `postprocessing.md` | Current recommended post-processing |
-| `transcriptions.md` | Current transcription process |
+| Field                   | What it describes                               |
+| ----------------------- | ----------------------------------------------- |
+| `description.md`        | The language itself                             |
+| `variants.md`           | Dialect and accent landscape                    |
+| `predefined_accents.md` | Predefined accent options available to speakers |
+| `writing_system.md`     | How the language is written                     |
+| `alphabet.md`           | Symbol table or character list                  |
+| `processing.md`         | Current text processing pipeline                |
+| `postprocessing.md`     | Current recommended post-processing             |
+| `transcriptions.md`     | Current transcription process                   |
 
 These fields describe the current state. They can be rewritten entirely when
 the understanding improves — they are not a historical record.
@@ -123,5 +125,80 @@ Some fields are filled automatically if you don't provide them:
 - **`contribute_links.md`** — Standard Speak/Write/Listen/Review links are added
 - **`community_links.md`** — Pontoon translators link is added
 - **`funding.md`** — OMSF funding text is added for eligible locales
+- **`variants.md`** — Auto-generated from Common Voice API data (variant list with codes)
+- **`predefined_accents.md`** — Auto-generated from Common Voice API data (accent list with codes)
 
-Only create these files if you have additional or different content.
+Only create these files if you have additional or different content. Community content always overrides auto-generated defaults.
+
+---
+
+## How to Add a Translated Datasheet
+
+By default, datasheets are generated in English. You can add support for a new language so that speakers of that language see the datasheet in their own language.
+
+A translated datasheet requires two things:
+
+1. **i18n strings** — section titles and boilerplate text in an i18n JSON file
+2. **Template language mapping** — telling the compile script which locales use the new language
+
+The compile script **auto-discovers** available template languages by scanning `templates/i18n/*.json`. No code changes are needed — just add the files.
+
+### Step 1: Add i18n Strings
+
+Create a new file in `templates/i18n/{lang-code}.json` by copying `templates/i18n/en.json` and translating all values. Keep the JSON keys unchanged.
+
+The compile script detects which modalities the translation supports by checking for `header_intro_scs` and/or `header_intro_sps` keys. To support both SCS and SPS, include both keys. To support only one modality, include only the relevant key.
+
+Use the English file as the reference for the complete list of keys. All shared keys (titles, labels) must be present; modality-specific keys can be omitted for unsupported modalities.
+
+Existing translations:
+
+| File         | Language            | Coverage             |
+| ------------ | ------------------- | -------------------- |
+| `en.json`    | English             | Complete (SCS + SPS) |
+| `es.json`    | Spanish             | Complete (SCS + SPS) |
+| `zh-TW.json` | Traditional Chinese | SCS only             |
+
+### Step 2: Map Locales to the Template Language
+
+Edit `metadata/template-languages.json` to assign locales to your new template language. Only non-English locales need entries — English is the default.
+
+```json
+{
+  "_comment": "Template language overrides. Locales not listed here default to 'en'.",
+  "fr": "fr",
+  "fr-CA": "fr"
+}
+```
+
+### Step 3: Add Default Content (optional)
+
+If you want default content (contribute links, community links) in the new language, create `content/_defaults/{lang-code}/` with the relevant `.md` files. See `content/_defaults/en/` and `content/_defaults/es/` for the pattern.
+
+### Step 4: Add Auto-Generation Text (optional)
+
+If locales using this template language have API-derived variants or accents, add intro text for auto-generation in `compile_datasheets.py`:
+
+```python
+VARIANTS_INTRO_TEXT = {
+    "en": "The following regional variants are available ...",
+    "es": "Las siguientes variantes regionales ...",
+    "fr": "Les variantes régionales suivantes ...",  # new
+}
+
+ACCENTS_INTRO_TEXT = {
+    "en": "Speakers may self-report the following accents ...",
+    "es": "Los hablantes pueden indicar ...",
+    "fr": "Les locuteurs peuvent indiquer ...",  # new
+}
+```
+
+### Step 5: Compile and Verify
+
+```bash
+python3 compile_datasheets.py {version} \
+    --api-snapshot metadata/api-snapshots/languagedata-{date}.json \
+    --pretty
+```
+
+Check that the output JSON contains your new template in `templates.scs.{lang}` (or `templates.sps.{lang}`) and that the mapped locales reference the correct `template_language`.
