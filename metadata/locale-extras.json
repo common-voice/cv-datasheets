@@ -1,0 +1,25 @@
+{
+  "_comment": "Locales not present in the Common Voice languagedata API. These are merged into the API snapshot at compile time. Same field schema as API snapshot records.",
+  "el-CY": {
+    "code": "el-CY",
+    "english_name": "Cypriot Greek",
+    "native_name": "Cypriot Greek",
+    "text_direction": "LTR",
+    "is_contributable": 0,
+    "is_translated": 0,
+    "target_sentence_count": 0,
+    "variants": [],
+    "predefined_accents": []
+  },
+  "ms-MY": {
+    "code": "ms-MY",
+    "english_name": "Bahasa Malay",
+    "native_name": "Bahasa Malay",
+    "text_direction": "LTR",
+    "is_contributable": 0,
+    "is_translated": 0,
+    "target_sentence_count": 0,
+    "variants": [],
+    "predefined_accents": []
+  }
+}
