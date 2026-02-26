@@ -13,7 +13,8 @@ content. Fields marked with `~` are **descriptive** — can be rewritten freely.
 content/locales/{locale}/
   shared/              # Language-level fields (shared across SCS and SPS)
   ~ description.md       # About the language
-  ~ variants.md          # Dialect / accent variants
+  ~ variants.md          # Dialect / regional variants
+  ~ predefined_accents.md # Speaker accent options
   ~ writing_system.md    # Writing system description
   ~ alphabet.md          # Symbol table / alphabet list
   + community_links.md   # Links to community resources

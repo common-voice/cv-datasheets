@@ -80,11 +80,17 @@
       "file": "funding.md",
       "key": "funding_description",
       "edit_mode": "additive"
+    },
+    "predefined_accents": {
+      "file": "predefined_accents.md",
+      "key": "predefined_accents_description",
+      "edit_mode": "descriptive"
     }
   },
   "language_level_fields": [
     "description",
     "variants",
+    "predefined_accents",
     "writing_system",
     "alphabet",
     "community_links"
@@ -93,6 +99,7 @@
     "scripted": [
       "description",
       "variants",
+      "predefined_accents",
       "corpus",
       "writing_system",
       "alphabet",
@@ -110,6 +117,7 @@
     "spontaneous": [
       "description",
       "variants",
+      "predefined_accents",
       "transcriptions",
       "writing_system",
       "alphabet",

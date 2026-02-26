@@ -6,6 +6,7 @@
 
   "title_language": "Idioma",
   "title_variants": "Variantes",
+  "title_predefined_accents": "Acentos predefinidos",
 
   "title_demographics": "Información demográfica",
   "demographics_intro": "El conjunto de datos incluye la siguiente distribución de edad y género.",
