@@ -17,9 +17,13 @@ Output:
 
 Usage:
     python compile_datasheets.py <version> [--output PATH] [--pretty]
+                                           [--languages-file PATH]
+                                           [--diff PREVIOUS_JSON]
 
     Example:
         python compile_datasheets.py 24.0-2025-12-05
+        python compile_datasheets.py 24.0-2025-12-05 --diff releases/datasheets-23.0-2025-09-05.json
+        python compile_datasheets.py 23.0-2025-09-05 --languages-file metadata/datasheet-languages-23.tsv
 """
 
 from __future__ import annotations
@@ -107,13 +111,18 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(f, delimiter="\t"))
 
 
-def load_metadata() -> tuple[
+def load_metadata(
+    languages_file: Path | None = None,
+) -> tuple[
     dict[tuple[str, str], str],
     dict[str, str],
     dict[tuple[str, str], dict[str, str]],
 ]:
     """
     Load all metadata files.
+
+    Args:
+        languages_file: Override path for datasheet-languages TSV.
 
     Returns:
         lang_map: (modality_short, code) -> template_language
@@ -122,7 +131,7 @@ def load_metadata() -> tuple[
     """
     # Template language mapping
     lang_map: dict[tuple[str, str], str] = {}
-    ds_langs_path = METADATA_DIR / "datasheet-languages.tsv"
+    ds_langs_path = languages_file or (METADATA_DIR / "datasheet-languages.tsv")
     if ds_langs_path.exists():
         for row in read_tsv(ds_langs_path):
             lang_map[(row["modality"], row["code"])] = row[
@@ -367,7 +376,11 @@ def load_community_fields(
 
 
 def compile_datasheets(
-    version: str, output_path: Path, *, pretty: bool = False
+    version: str,
+    output_path: Path,
+    *,
+    pretty: bool = False,
+    languages_file: Path | None = None,
 ) -> None:
     """Compile templates, community data, and metadata into JSON."""
     print(f"Compiling datasheets for version {version}...")
@@ -380,7 +393,7 @@ def compile_datasheets(
     modality_fields_config = field_map.get("modality_fields", {})
 
     # Load metadata
-    lang_map, funding, names = load_metadata()
+    lang_map, funding, names = load_metadata(languages_file=languages_file)
 
     # Render templates
     print("Rendering templates...")
@@ -469,6 +482,84 @@ def compile_datasheets(
 
 
 # ---------------------------------------------------------------------------
+# Release diff
+# ---------------------------------------------------------------------------
+
+MODALITY_LABEL = {"scs": "SCS (Scripted Speech)", "sps": "SPS (Spontaneous Speech)"}
+
+
+def diff_releases(current_path: Path, previous_path: Path) -> str:
+    """
+    Compare two compiled release JSONs and return a markdown changelog entry.
+
+    Reports: new locales, removed locales, locales with updated community content.
+    """
+    with open(previous_path, encoding="utf-8") as f:
+        prev = json.load(f)
+    with open(current_path, encoding="utf-8") as f:
+        curr = json.load(f)
+
+    prev_version = prev.get("source_version", "unknown")
+    curr_version = curr.get("source_version", "unknown")
+
+    lines: list[str] = [
+        f"## datasheets-{curr_version}",
+        "",
+        f"Compared against: datasheets-{prev_version}",
+        "",
+        "### Data",
+        "",
+    ]
+
+    for mod in sorted(MODALITY_MAP.keys()):
+        label = MODALITY_LABEL.get(mod, mod.upper())
+        prev_locales = set(prev.get("locales", {}).get(mod, {}).keys())
+        curr_locales = set(curr.get("locales", {}).get(mod, {}).keys())
+
+        added = sorted(curr_locales - prev_locales)
+        removed = sorted(prev_locales - curr_locales)
+        common = sorted(prev_locales & curr_locales)
+
+        # Find locales with changed community content
+        updated: list[tuple[str, list[str]]] = []
+        for loc in common:
+            prev_cf = prev["locales"][mod][loc].get("community_fields", {})
+            curr_cf = curr["locales"][mod][loc].get("community_fields", {})
+            changed = []
+            for key in sorted(set(prev_cf) | set(curr_cf)):
+                pv = prev_cf.get(key, "")
+                cv = curr_cf.get(key, "")
+                if pv != cv:
+                    changed.append(key)
+            if changed:
+                updated.append((loc, changed))
+
+        lines.append(f"**{label}:** {len(curr_locales)} locales")
+        lines.append("")
+
+        if added:
+            lines.append(
+                f"- {len(added)} new: {', '.join(f'`{a}`' for a in added)}"
+            )
+        if removed:
+            lines.append(
+                f"- {len(removed)} removed: "
+                f"{', '.join(f'`{r}`' for r in removed)}"
+            )
+        if updated:
+            lines.append(f"- {len(updated)} updated content:")
+            for loc, fields in updated:
+                fields_str = ", ".join(fields)
+                lines.append(f"  - `{loc}`: {fields_str}")
+        if not added and not removed and not updated:
+            lines.append("- No changes")
+
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -484,11 +575,19 @@ def main() -> None:
     releases_dir = REPO_ROOT / "releases"
     output_path = releases_dir / f"datasheets-{version}.json"
     pretty = False
+    languages_file: Path | None = None
+    diff_path: Path | None = None
 
     i = 1
     while i < len(args):
         if args[i] in ("--output", "-o") and i + 1 < len(args):
             output_path = Path(args[i + 1])
+            i += 2
+        elif args[i] == "--languages-file" and i + 1 < len(args):
+            languages_file = Path(args[i + 1])
+            i += 2
+        elif args[i] == "--diff" and i + 1 < len(args):
+            diff_path = Path(args[i + 1])
             i += 2
         elif args[i] == "--pretty":
             pretty = True
@@ -497,7 +596,19 @@ def main() -> None:
             print(f"Unknown option: {args[i]}", file=sys.stderr)
             sys.exit(1)
 
-    compile_datasheets(version, output_path, pretty=pretty)
+    compile_datasheets(
+        version, output_path, pretty=pretty, languages_file=languages_file
+    )
+
+    if diff_path:
+        if not diff_path.exists():
+            print(f"\n[WARN] Diff file not found: {diff_path}", file=sys.stderr)
+        else:
+            changelog = diff_releases(output_path, diff_path)
+            print(f"\n{'=' * 50}")
+            print("  CHANGELOG ENTRY")
+            print(f"{'=' * 50}\n")
+            print(changelog)
 
 
 if __name__ == "__main__":
