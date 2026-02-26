@@ -9,12 +9,16 @@
     "variants": {
       "file": "variants.md",
       "key": "variant_description",
-      "edit_mode": "descriptive"
+      "edit_mode": "descriptive",
+      "mergeable": true,
+      "merge_auto_key": "VARIANT_STATS"
     },
     "corpus": {
       "file": "corpus.md",
       "key": "text_corpus_description",
-      "edit_mode": "additive"
+      "edit_mode": "descriptive",
+      "mergeable": true,
+      "merge_auto_key": "TEXT_CORPUS_STATS"
     },
     "writing_system": {
       "file": "writing_system.md",
@@ -29,12 +33,16 @@
     "sources": {
       "file": "sources.md",
       "key": "sources_list",
-      "edit_mode": "additive"
+      "edit_mode": "additive",
+      "mergeable": true,
+      "merge_auto_key": "SOURCES_STATS"
     },
     "text_domain": {
       "file": "text_domain.md",
       "key": "text_domain_description",
-      "edit_mode": "additive"
+      "edit_mode": "descriptive",
+      "mergeable": true,
+      "merge_auto_key": "TEXT_DOMAIN_STATS"
     },
     "processing": {
       "file": "processing.md",
@@ -49,7 +57,9 @@
     "transcriptions": {
       "file": "transcriptions.md",
       "key": "transcriptions_description",
-      "edit_mode": "descriptive"
+      "edit_mode": "descriptive",
+      "mergeable": true,
+      "merge_auto_key": "TRANSCRIPTION_STATS"
     },
     "community_links": {
       "file": "community_links.md",
@@ -84,7 +94,9 @@
     "predefined_accents": {
       "file": "predefined_accents.md",
       "key": "predefined_accents_description",
-      "edit_mode": "descriptive"
+      "edit_mode": "descriptive",
+      "mergeable": true,
+      "merge_auto_key": "ACCENT_STATS"
     }
   },
   "language_level_fields": [

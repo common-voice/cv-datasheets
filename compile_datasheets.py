@@ -102,6 +102,13 @@ AUTO_FIELDS = {
     "sentences_sample": "SENTENCES_SAMPLE",
     "questions_sample": "QUESTIONS_SAMPLE",
     "transcriptions_sample": "TRANSCRIPTIONS_SAMPLE",
+    # Mergeable field stats (bundler fills these alongside community content)
+    "text_corpus_stats": "TEXT_CORPUS_STATS",
+    "sources_stats": "SOURCES_STATS",
+    "text_domain_stats": "TEXT_DOMAIN_STATS",
+    "variant_stats": "VARIANT_STATS",
+    "accent_stats": "ACCENT_STATS",
+    "transcription_stats": "TRANSCRIPTION_STATS",
 }
 
 # Stats header placeholders (filled by bundler)
