@@ -16,14 +16,13 @@ Output:
     releases/datasheets-{version}.json
 
 Usage:
-    python compile_datasheets.py <version> [--output PATH] [--pretty]
-                                           [--languages-file PATH]
+    python compile_datasheets.py <version> --api-snapshot PATH
+                                           [--output PATH] [--pretty]
                                            [--diff PREVIOUS_JSON]
 
     Example:
-        python compile_datasheets.py 24.0-2025-12-05
-        python compile_datasheets.py 24.0-2025-12-05 --diff releases/datasheets-23.0-2025-09-05.json
-        python compile_datasheets.py 23.0-2025-09-05 --languages-file metadata/datasheet-languages-23.tsv
+        python compile_datasheets.py 24.0-2025-12-05 --api-snapshot metadata/api-snapshots/languagedata-20260226.json
+        python compile_datasheets.py 24.0-2025-12-05 --api-snapshot metadata/api-snapshots/languagedata-20260226.json --diff releases/datasheets-23.0-2025-09-05.json
 """
 
 from __future__ import annotations
@@ -51,10 +50,12 @@ FIELD_MAP_PATH = CONTENT_DIR / "_field_map.json"
 DEFAULTS_DIR = CONTENT_DIR / "_defaults"
 LOCALES_DIR = CONTENT_DIR / "locales"
 METADATA_DIR = REPO_ROOT / "metadata"
+LOCALE_EXTRAS_PATH = METADATA_DIR / "locale-extras.json"
+TEMPLATE_LANGS_PATH = METADATA_DIR / "template-languages.json"
+SPS_LOCALES_PATH = METADATA_DIR / "sps-locales.json"
 
 MODALITY_MAP = {"scs": "scripted", "sps": "spontaneous"}
 TEMPLATE_FILE = {"scs": "scripted.md.j2", "sps": "spontaneous.md.j2"}
-TEMPLATE_LANGS = {"scs": ["en", "es", "zh-TW"], "sps": ["en", "es"]}
 
 # Template variable names that differ from field_map field names
 TEMPLATE_VAR_ALIASES = {"text_corpus": "corpus"}
@@ -69,6 +70,28 @@ OMSF_FUNDING_TEXT = {
     "es": (
         "Este proyecto recibió financiamiento del "
         "*Open Multilingual Speech Fund* gestionado por Mozilla Common Voice."
+    ),
+}
+
+# Auto-generated variant intro per template language — used when no
+# community variants.md exists but the API has variant data.
+VARIANTS_INTRO_TEXT = {
+    "en": (
+        "The following regional variants are available for speakers "
+        "to self-identify:"
+    ),
+    "es": (
+        "Las siguientes variantes regionales están disponibles para "
+        "la autoidentificación:"
+    ),
+}
+
+# Auto-generated predefined accent intro per template language — same
+# pattern as variants, for predefined_accents from API.
+ACCENTS_INTRO_TEXT = {
+    "en": "Speakers may self-report the following accents when contributing:",
+    "es": (
+        "Los hablantes pueden indicar los siguientes acentos al contribuir:"
     ),
 }
 
@@ -111,32 +134,81 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(f, delimiter="\t"))
 
 
+def load_api_snapshot(path: Path) -> dict:
+    """Load an API snapshot and merge locale-extras."""
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    locales = data.get("locales", {})
+    meta = data.get("_metadata", {})
+    print(f"  API snapshot: {path.name}")
+    print(
+        f"    {len(locales)} locales "
+        f"({meta.get('contributable_locales', '?')} contributable)"
+    )
+    print(f"    fetched: {meta.get('fetched_at', 'unknown')}")
+
+    # Merge locale-extras (locales not in the API, e.g. regional codes)
+    if LOCALE_EXTRAS_PATH.exists():
+        with open(LOCALE_EXTRAS_PATH, encoding="utf-8") as f:
+            extras = json.load(f)
+        extras.pop("_comment", None)
+        merged = 0
+        for code, entry in extras.items():
+            if code not in locales:
+                locales[code] = entry
+                merged += 1
+        if merged:
+            print(f"    + {merged} from locale-extras.json")
+
+    return data
+
+
+def format_api_list(items: list[dict], intro: str) -> str:
+    """
+    Format a list of API items (variants or predefined accents) as
+    markdown bullet list.
+
+    Each item must have 'code' and 'name' keys.
+    Returns empty string if items list is empty.
+    """
+    if not items:
+        return ""
+    lines = [intro, ""]
+    for item in items:
+        lines.append(f"* **{item['name']}** (`{item['code']}`)")
+    return "\n".join(lines)
+
+
 def load_metadata(
-    languages_file: Path | None = None,
+    api_snapshot: dict,
 ) -> tuple[
-    dict[tuple[str, str], str],
     dict[str, str],
-    dict[tuple[str, str], dict[str, str]],
+    dict[str, str],
+    set[str],
 ]:
     """
-    Load all metadata files.
+    Load metadata from API snapshot and supporting files.
 
-    Args:
-        languages_file: Override path for datasheet-languages TSV.
+    Locale lists:
+        SCS — all locales in the API snapshot (incl. locale-extras)
+        SPS — from API snapshot's sps_locales (fetched from SPS API),
+              with fallback to metadata/sps-locales.json
+
+    Names come from the API snapshot (authoritative).
+    Template language defaults to "en"; overrides in template-languages.json.
 
     Returns:
-        lang_map: (modality_short, code) -> template_language
+        template_langs: locale -> template_language (only non-"en" entries)
         funding: locale -> funder
-        names: (modality_short, code) -> {native_name, english_name}
+        sps_locales: set of SPS locale codes
     """
-    # Template language mapping
-    lang_map: dict[tuple[str, str], str] = {}
-    ds_langs_path = languages_file or (METADATA_DIR / "datasheet-languages.tsv")
-    if ds_langs_path.exists():
-        for row in read_tsv(ds_langs_path):
-            lang_map[(row["modality"], row["code"])] = row[
-                "language_of_datasheet"
-            ]
+    # Template language overrides (default is "en")
+    template_langs: dict[str, str] = {}
+    if TEMPLATE_LANGS_PATH.exists():
+        with open(TEMPLATE_LANGS_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        data.pop("_comment", None)
+        template_langs = data
 
     # Funding
     funding: dict[str, str] = {}
@@ -145,42 +217,18 @@ def load_metadata(
         for row in read_tsv(funding_path):
             funding[row["locale"]] = row["funder"]
 
-    # Language names from metadata.tsv
-    names: dict[tuple[str, str], dict[str, str]] = {}
-    metadata_tsv = METADATA_DIR / "metadata.tsv"
-    if metadata_tsv.exists():
-        for row in read_tsv(metadata_tsv):
-            key = (row["modality"], row["code"])
-            native = row.get("native_name", "")
-            english = row.get("english_name", "")
-            names[key] = {
-                "native_name": native if native != "_" else "",
-                "english_name": english if english != "_" else "",
-            }
+    # SPS locale list — prefer snapshot, fallback to sps-locales.json
+    sps_list = api_snapshot.get("sps_locales", [])
+    if sps_list:
+        sps_locales = set(sps_list)
+    elif SPS_LOCALES_PATH.exists():
+        with open(SPS_LOCALES_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        sps_locales = set(data.get("locales", []))
+    else:
+        sps_locales = set()
 
-    # Supplement from per-modality metadata.json
-    for mod_short in MODALITY_MAP:
-        json_path = METADATA_DIR / mod_short / "metadata.json"
-        if not json_path.exists():
-            continue
-        with open(json_path, encoding="utf-8") as f:
-            data = json.loads(f.read(), strict=False)
-        for code, info in data.items():
-            key = (mod_short, code)
-            if key not in names:
-                names[key] = {
-                    "native_name": info.get("native_name", ""),
-                    "english_name": info.get("english_name", ""),
-                }
-            else:
-                if not names[key]["native_name"]:
-                    names[key]["native_name"] = info.get("native_name", "")
-                if not names[key]["english_name"]:
-                    names[key]["english_name"] = info.get(
-                        "english_name", ""
-                    )
-
-    return lang_map, funding, names
+    return template_langs, funding, sps_locales
 
 
 # ---------------------------------------------------------------------------
@@ -245,12 +293,33 @@ def build_jinja_context(
     }
 
 
+def discover_template_langs() -> dict[str, list[str]]:
+    """Discover available template languages from i18n JSON files.
+
+    Scans templates/i18n/*.json (skipping _-prefixed files). A language
+    supports a modality if its i18n file contains the header_intro key
+    for that modality (header_intro_scs, header_intro_sps).
+    """
+    result: dict[str, list[str]] = {mod: [] for mod in MODALITY_MAP}
+    for path in sorted(I18N_DIR.glob("*.json")):
+        if path.name.startswith("_"):
+            continue
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        lang = path.stem
+        for mod_short in MODALITY_MAP:
+            if f"header_intro_{mod_short}" in data:
+                result[mod_short].append(lang)
+    return result
+
+
 def render_templates(
     field_map: dict,
 ) -> dict[str, dict[str, str]]:
     """
     Render all Jinja2 templates for each modality × template language.
 
+    Languages are auto-discovered from templates/i18n/*.json files.
     Returns: { modality_short: { lang: flat_template_string } }
     """
     env = Environment(
@@ -258,9 +327,10 @@ def render_templates(
         keep_trailing_newline=True,
     )
 
+    template_langs = discover_template_langs()
     templates: dict[str, dict[str, str]] = {}
 
-    for mod_short, langs in TEMPLATE_LANGS.items():
+    for mod_short, langs in template_langs.items():
         templates[mod_short] = {}
         template = env.get_template(TEMPLATE_FILE[mod_short])
 
@@ -338,13 +408,15 @@ def load_community_fields(
     field_map: dict,
     modality_fields: list[str],
     funder: str = "",
+    api_locale_data: dict | None = None,
 ) -> dict[str, str]:
     """
     Load all community fields for a locale using the fallback chain.
 
-    If the locale has OMSF funding (from metadata/funding.tsv) and no
-    community-written funding content exists, the OMSF boilerplate is
-    injected automatically.
+    Auto-injection rules (only when no community content exists):
+    - funding: OMSF boilerplate if locale is OMSF-funded
+    - variants: formatted list from API snapshot if locale has variants
+    - predefined_accents: formatted list from API snapshot if locale has accents
 
     Returns: { bundler_key: content } for each field valid in this modality.
     """
@@ -365,6 +437,32 @@ def load_community_fields(
                 template_lang, OMSF_FUNDING_TEXT["en"]
             )
 
+        # Auto-generate variants from API data
+        if (
+            field_name == "variants"
+            and not content
+            and api_locale_data
+            and api_locale_data.get("variants")
+        ):
+            intro = VARIANTS_INTRO_TEXT.get(
+                template_lang, VARIANTS_INTRO_TEXT["en"]
+            )
+            content = format_api_list(api_locale_data["variants"], intro)
+
+        # Auto-generate predefined accents from API data
+        if (
+            field_name == "predefined_accents"
+            and not content
+            and api_locale_data
+            and api_locale_data.get("predefined_accents")
+        ):
+            intro = ACCENTS_INTRO_TEXT.get(
+                template_lang, ACCENTS_INTRO_TEXT["en"]
+            )
+            content = format_api_list(
+                api_locale_data["predefined_accents"], intro
+            )
+
         fields[info["key"]] = content
 
     return fields
@@ -380,7 +478,7 @@ def compile_datasheets(
     output_path: Path,
     *,
     pretty: bool = False,
-    languages_file: Path | None = None,
+    api_snapshot_path: Path,
 ) -> None:
     """Compile templates, community data, and metadata into JSON."""
     print(f"Compiling datasheets for version {version}...")
@@ -392,8 +490,13 @@ def compile_datasheets(
 
     modality_fields_config = field_map.get("modality_fields", {})
 
+    # Load API snapshot (includes locale-extras)
+    api_snapshot = load_api_snapshot(api_snapshot_path)
+    api_locales = api_snapshot.get("locales", {})
+    print()
+
     # Load metadata
-    lang_map, funding, names = load_metadata(languages_file=languages_file)
+    template_langs, funding, sps_locales = load_metadata(api_snapshot)
 
     # Render templates
     print("Rendering templates...")
@@ -415,11 +518,11 @@ def compile_datasheets(
 
         valid_fields = modality_fields_config.get(modality_dir, [])
 
-        # Collect all locales for this modality
-        modality_locales: set[str] = set()
-        for (mod, code), _ in lang_map.items():
-            if mod == mod_short:
-                modality_locales.add(code)
+        # Locale list: SCS = all API locales, SPS = explicit list
+        if mod_short == "scs":
+            modality_locales = set(api_locales.keys())
+        else:
+            modality_locales = sps_locales
 
         print(f"  Locales: {len(modality_locales)}")
 
@@ -427,14 +530,25 @@ def compile_datasheets(
         filled_count = 0
 
         for locale in sorted(modality_locales):
-            template_lang = lang_map.get((mod_short, locale), "en")
-            name_info = names.get((mod_short, locale), {})
+            template_lang = template_langs.get(locale, "en")
+            api_locale_data = api_locales.get(locale)
 
-            locale_metadata = {
-                "native_name": name_info.get("native_name", ""),
-                "english_name": name_info.get("english_name", ""),
+            locale_metadata: dict[str, str] = {
+                "native_name": "",
+                "english_name": "",
                 "funding": funding.get(locale, ""),
             }
+
+            if api_locale_data:
+                locale_metadata["native_name"] = api_locale_data.get(
+                    "native_name", ""
+                )
+                locale_metadata["english_name"] = api_locale_data.get(
+                    "english_name", ""
+                )
+                locale_metadata["text_direction"] = api_locale_data.get(
+                    "text_direction", "LTR"
+                )
 
             funder = funding.get(locale, "")
 
@@ -446,6 +560,7 @@ def compile_datasheets(
                 field_map,
                 valid_fields,
                 funder=funder,
+                api_locale_data=api_locale_data,
             )
 
             has_community = any(v for v in community_fields.values())
@@ -575,7 +690,7 @@ def main() -> None:
     releases_dir = REPO_ROOT / "releases"
     output_path = releases_dir / f"datasheets-{version}.json"
     pretty = False
-    languages_file: Path | None = None
+    api_snapshot_path: Path | None = None
     diff_path: Path | None = None
 
     i = 1
@@ -583,8 +698,8 @@ def main() -> None:
         if args[i] in ("--output", "-o") and i + 1 < len(args):
             output_path = Path(args[i + 1])
             i += 2
-        elif args[i] == "--languages-file" and i + 1 < len(args):
-            languages_file = Path(args[i + 1])
+        elif args[i] == "--api-snapshot" and i + 1 < len(args):
+            api_snapshot_path = Path(args[i + 1])
             i += 2
         elif args[i] == "--diff" and i + 1 < len(args):
             diff_path = Path(args[i + 1])
@@ -596,8 +711,19 @@ def main() -> None:
             print(f"Unknown option: {args[i]}", file=sys.stderr)
             sys.exit(1)
 
+    if not api_snapshot_path:
+        print(
+            "Error: --api-snapshot PATH is required.\n"
+            "Run: python scripts/fetch_api_metadata.py",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     compile_datasheets(
-        version, output_path, pretty=pretty, languages_file=languages_file
+        version,
+        output_path,
+        pretty=pretty,
+        api_snapshot_path=api_snapshot_path,
     )
 
     if diff_path:
