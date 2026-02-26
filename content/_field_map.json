@@ -3,67 +3,83 @@
   "fields": {
     "description": {
       "file": "description.md",
-      "key": "language_description"
+      "key": "language_description",
+      "edit_mode": "descriptive"
     },
     "variants": {
       "file": "variants.md",
-      "key": "variant_description"
+      "key": "variant_description",
+      "edit_mode": "descriptive"
     },
     "corpus": {
       "file": "corpus.md",
-      "key": "text_corpus_description"
+      "key": "text_corpus_description",
+      "edit_mode": "additive"
     },
     "writing_system": {
       "file": "writing_system.md",
-      "key": "writing_system_description"
+      "key": "writing_system_description",
+      "edit_mode": "descriptive"
     },
     "alphabet": {
       "file": "alphabet.md",
-      "key": "alphabet_table"
+      "key": "alphabet_table",
+      "edit_mode": "descriptive"
     },
     "sources": {
       "file": "sources.md",
-      "key": "sources_list"
+      "key": "sources_list",
+      "edit_mode": "additive"
     },
     "text_domain": {
       "file": "text_domain.md",
-      "key": "text_domain_description"
+      "key": "text_domain_description",
+      "edit_mode": "additive"
     },
     "processing": {
       "file": "processing.md",
-      "key": "processing_description"
+      "key": "processing_description",
+      "edit_mode": "descriptive"
     },
     "postprocessing": {
       "file": "postprocessing.md",
-      "key": "recommended_postprocessing_description"
+      "key": "recommended_postprocessing_description",
+      "edit_mode": "descriptive"
     },
     "transcriptions": {
       "file": "transcriptions.md",
-      "key": "transcriptions_description"
+      "key": "transcriptions_description",
+      "edit_mode": "descriptive"
     },
     "community_links": {
       "file": "community_links.md",
-      "key": "community_links_list"
+      "key": "community_links_list",
+      "edit_mode": "additive"
     },
     "discussion_links": {
       "file": "discussion_links.md",
-      "key": "discussion_links_list"
+      "key": "discussion_links_list",
+      "edit_mode": "additive"
     },
     "contribute_links": {
       "file": "contribute_links.md",
-      "key": "contribute_links_list"
+      "key": "contribute_links_list",
+      "edit_mode": "additive"
     },
     "authors": {
       "file": "authors.md",
-      "key": "datasheet_authors_list"
+      "key": "datasheet_authors_list",
+      "edit_mode": "additive"
     },
     "citation": {
       "file": "citation.md",
-      "key": "citation_description"
+      "key": "citation_description",
+      "edit_mode": "additive"
     },
     "funding": {
       "file": "funding.md",
-      "key": "funding_description"
+      "key": "funding_description",
+      "edit_mode": "additive"
     }
   },
   "language_level_fields": [
