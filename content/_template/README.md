@@ -6,36 +6,56 @@ the files you want to contribute.
 
 ## Directory structure
 
+Fields marked with `+` are **additive** — extend them, do not replace previous
+content. Fields marked with `~` are **descriptive** — can be rewritten freely.
+
 ```txt
 content/locales/{locale}/
   shared/              # Language-level fields (shared across SCS and SPS)
-    description.md       # About the language
-    variants.md          # Dialect / accent variants
-    writing_system.md    # Writing system description
-    alphabet.md          # Symbol table / alphabet list
-    community_links.md   # Links to community resources
+  ~ description.md       # About the language
+  ~ variants.md          # Dialect / accent variants
+  ~ writing_system.md    # Writing system description
+  ~ alphabet.md          # Symbol table / alphabet list
+  + community_links.md   # Links to community resources
 
   scripted/            # Scripted Speech (SCS) only
-    corpus.md            # Description of the text corpus
-    sources.md           # Sources of the text corpus
-    text_domain.md       # Text domain descriptions (not auto-generated tables)
-    processing.md        # Text processing applied to the corpus
-    postprocessing.md    # Recommended post-processing steps
-    discussion_links.md  # Discussion forum / chat links
-    contribute_links.md  # Links to contribute (only if non-standard)
-    authors.md           # Datasheet authors
-    citation.md          # How to cite this dataset
-    funding.md           # Funding information (only if non-OMSF or additional)
+  + corpus.md            # Description of the text corpus (append new sources)
+  + sources.md           # Sources of the text corpus
+  + text_domain.md       # Text domain descriptions
+  ~ processing.md        # Text processing applied to the corpus
+  ~ postprocessing.md    # Recommended post-processing steps
+  + discussion_links.md  # Discussion forum / chat links
+  + contribute_links.md  # Links to contribute (only if non-standard)
+  + authors.md           # Datasheet authors / community leads
+  + citation.md          # How to cite this dataset
+  + funding.md           # Funding information (only if non-OMSF or additional)
 
   spontaneous/         # Spontaneous Speech (SPS) only
-    transcriptions.md    # Description of the transcription process
-    postprocessing.md    # Recommended post-processing steps
-    discussion_links.md  # Discussion forum / chat links
-    contribute_links.md  # Links to contribute (only if non-standard)
-    authors.md           # Datasheet authors
-    citation.md          # How to cite this dataset
-    funding.md           # Funding information (only if non-OMSF or additional)
+  ~ transcriptions.md    # Description of the transcription process
+  ~ postprocessing.md    # Recommended post-processing steps
+  + discussion_links.md  # Discussion forum / chat links
+  + contribute_links.md  # Links to contribute (only if non-standard)
+  + authors.md           # Datasheet authors / community leads
+  + citation.md          # How to cite this dataset
+  + funding.md           # Funding information (only if non-OMSF or additional)
 ```
+
+## Additive vs Descriptive Fields
+
+**Additive (`+`)** fields build up over time across releases. When editing
+these files, **add your entries below the existing content** — do not remove
+or replace previous contributions. Include version references where helpful
+(e.g. `v24.0`, `v22.0–present`).
+
+Examples of additive content:
+
+- `sources.md` — each new text source is a new list entry
+- `authors.md` — new contributors are appended with their role and version range
+- `citation.md` — new papers referencing the dataset are added
+
+**Descriptive (`~`)** fields describe the current state of the language or
+process. These can be rewritten or improved freely — they represent the latest
+understanding, not a historical record.
 
 ## Guidelines
 
@@ -48,4 +68,4 @@ content/locales/{locale}/
 - **`funding.md`**: Only needed for non-OMSF or additional funding. OMSF
   funding is injected automatically for locales in `metadata/funding.tsv`.
 - Write plain Markdown. No Jinja2 or HTML needed.
-- See `content/_example/` for a filled-in reference.
+- See `content/_example/` for a filled-in reference with additive patterns.
