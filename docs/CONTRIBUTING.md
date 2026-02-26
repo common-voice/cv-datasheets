@@ -75,18 +75,16 @@ content/locales/{locale}/
 - Write plain Markdown — no Jinja2 or HTML needed.
 - List items (bullets, numbered lists) are deduplicated at compile time as a safety net.
 
-### Additive vs Descriptive Fields
+### Field Edit Modes
 
-Datasheet content is built by the community over time. Some fields accumulate
-entries across releases, while others describe the current state.
+Datasheet content is built by the community over time. Fields have two
+edit modes that indicate how they should be maintained.
 
 **Additive fields — extend, do not replace:**
 
 | Field                 | Why it grows                                        |
 | --------------------- | --------------------------------------------------- |
-| `sources.md`          | New text/audio sources are added each release       |
-| `corpus.md`           | Corpus description grows as new sources join        |
-| `text_domain.md`      | New domains appear as the corpus expands            |
+| `sources.md`          | New text sources are added across releases          |
 | `authors.md`          | New contributors and community leads join over time |
 | `citation.md`         | New publications reference the dataset              |
 | `funding.md`          | Additional funders may support the project          |
@@ -101,21 +99,40 @@ community members. Include version references where helpful (e.g.
 
 **Descriptive fields — rewrite or improve freely:**
 
-| Field                   | What it describes                               |
-| ----------------------- | ----------------------------------------------- |
-| `description.md`        | The language itself                             |
-| `variants.md`           | Dialect and accent landscape                    |
-| `predefined_accents.md` | Predefined accent options available to speakers |
-| `writing_system.md`     | How the language is written                     |
-| `alphabet.md`           | Symbol table or character list                  |
-| `processing.md`         | Current text processing pipeline                |
-| `postprocessing.md`     | Current recommended post-processing             |
-| `transcriptions.md`     | Current transcription process                   |
+| Field                   | What it describes                   |
+| ----------------------- | ----------------------------------- |
+| `description.md`        | The language itself                 |
+| `variants.md`           | Dialect / accent variants           |
+| `predefined_accents.md` | Predefined accent options           |
+| `corpus.md`             | Text corpus description             |
+| `text_domain.md`        | Text domain descriptions            |
+| `transcriptions.md`     | Transcription process               |
+| `writing_system.md`     | How the language is written         |
+| `alphabet.md`           | Symbol table or character list      |
+| `processing.md`         | Current text processing pipeline    |
+| `postprocessing.md`     | Current recommended post-processing |
 
 These fields describe the current state. They can be rewritten entirely when
 the understanding improves — they are not a historical record.
 
-See `content/_example/` for examples of both patterns, particularly
+**Mergeable fields — community content + auto-generated data:**
+
+Some fields are also **mergeable**: the final datasheet shows both your
+community-written content and bundler-generated statistics. Your text appears
+first, followed by auto-generated data (tables, counts, metrics). Each
+mergeable field is still either additive or descriptive — follow the edit
+rules above.
+
+| Field                   | Edit mode   | Bundler generates             |
+| ----------------------- | ----------- | ----------------------------- |
+| `sources.md`            | additive    | Per-source counts             |
+| `corpus.md`             | descriptive | Corpus statistics             |
+| `text_domain.md`        | descriptive | Domain breakdown              |
+| `variants.md`           | descriptive | Per-variant recording stats   |
+| `predefined_accents.md` | descriptive | Per-accent recording stats    |
+| `transcriptions.md`     | descriptive | Transcription quality metrics |
+
+See `content/_example/` for examples, particularly
 `scripted/sources.md` and `scripted/authors.md` for the additive style.
 
 ### Fields With Auto-Defaults

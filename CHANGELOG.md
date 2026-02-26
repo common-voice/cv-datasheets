@@ -43,6 +43,15 @@ The changelog has two sections:
 - Added `text_direction` to locale metadata output
 - SPS locale list now fetched from SPS API (79 contributable locales, up from manually maintained 58)
 - Added translated datasheet guide to `docs/CONTRIBUTING.md`
+- Auto-discovered template languages from `templates/i18n/*.json` — removed hardcoded `TEMPLATE_LANGS` constant
+
+#### Mergeable Fields
+
+- Added `mergeable` property (boolean) for fields that combine community content with bundler-generated stats
+- `mergeable` is orthogonal to `edit_mode` — each field retains its additive/descriptive edit policy
+- Mergeable fields: `corpus`, `sources`, `text_domain`, `variants`, `predefined_accents`, `transcriptions`
+- Added template-level auto placeholders (`{{*_STATS}}`) adjacent to community field placeholders
+- Bundler fills stats when available; unfilled placeholders are stripped (no bundler changes needed)
 
 ---
 

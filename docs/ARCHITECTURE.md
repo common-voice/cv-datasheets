@@ -135,3 +135,4 @@ It then:
 | OMSF funding | compile_datasheets.py (`metadata/funding.tsv`) | Pre-filled `funding_description` |
 | Auto-generated stats (clips, hours, demographics) | Bundler at runtime | `{{KEY}}` placeholders in template |
 | Sentence/question samples | Bundler at runtime | `{{KEY}}` placeholders in template |
+| Mergeable field stats (corpus, sources, domains, variants, accents, transcriptions) | Bundler at runtime | `{{KEY}}` placeholders adjacent to community fields |
