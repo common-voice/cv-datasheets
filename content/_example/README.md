@@ -6,14 +6,14 @@ own locale.
 
 ## Important: Edit Modes
 
-Some fields are **additive** — they accumulate content over time across
+Some fields are **additive** -- they accumulate content over time across
 releases. When editing these fields, **add your contribution below the
 existing content**. Do not remove or replace previous entries.
 
-Other fields are **descriptive** — they describe the current state and
+Other fields are **descriptive** -- they describe the current state and
 can be rewritten or improved freely.
 
-Some fields are also **mergeable** — the final datasheet shows both your
+Some fields are also **mergeable** -- the final datasheet shows both your
 community-written content and auto-generated statistics from the bundler.
 Mergeable fields follow the same additive/descriptive edit rules.
 
@@ -25,14 +25,14 @@ are additive, descriptive, and mergeable.
 If `sources.md` already contains:
 
 ```markdown
-* Common Voice Wiki Sentences (v17.0–v21.0)
+* Common Voice Wiki Sentences (v17.0-v21.0)
 * Tatoeba project sentences (v22.0)
 ```
 
 And you want to add a new source, append it:
 
 ```markdown
-* Common Voice Wiki Sentences (v17.0–v21.0)
+* Common Voice Wiki Sentences (v17.0-v21.0)
 * Tatoeba project sentences (v22.0)
 * Klingon Language Institute corpus (v24.0)
 ```

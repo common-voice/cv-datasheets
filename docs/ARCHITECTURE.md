@@ -9,7 +9,7 @@ cv-datasheets (compile-time)              Bundler (runtime)
 ─────────────────────────────────         ─────────────────────────
 API snapshot ─────┐
 Jinja2 templates ─┤
-content/ files ───┤── compile ──►  datasheets.json ──► datasheetsFetcher.ts
+content/ files ───┤── compile ──>  datasheets.json ──> datasheetsFetcher.ts
 metadata/ files ──┘                                        │
                                                    DatasheetLocalePayload
                                                    { template, community_fields, metadata }
@@ -17,12 +17,12 @@ metadata/ files ──┘                                        │
                                                    datasheets.ts fills {{KEY}} with
                                                    live stats + community data
                                                            │
-                                                   README.md → tar.gz + GCS /datasheets/
+                                                   README.md -> tar.gz + GCS /datasheets/
 ```
 
 ## Jinja2 Role
 
-Jinja2 runs **at compile time only** inside this repository. It resolves template inheritance (`base.md.j2` → child templates) and produces flat markdown strings with `{{KEY}}` markers. The bundler never touches Jinja2.
+Jinja2 runs **at compile time only** inside this repository. It resolves template inheritance (`base.md.j2` -> child templates) and produces flat markdown strings with `{{KEY}}` markers. The bundler never touches Jinja2.
 
 **How it works:**
 
@@ -32,7 +32,7 @@ Jinja2 runs **at compile time only** inside this repository. It resolves templat
    - `{{ stats.clips }}` outputs literal `{{CLIPS}}`
    - `{{ community.description }}` outputs literal `{{LANGUAGE_DESCRIPTION}}`
    - `{% block %}` / `{% extends %}` are resolved (inheritance flattened)
-4. Result: flat markdown with `{{KEY}}` markers — same format the bundler already consumes
+4. Result: flat markdown with `{{KEY}}` markers -- same format the bundler already consumes
 
 ## API Snapshot
 
@@ -47,7 +47,7 @@ The snapshot is stored in `metadata/api-snapshots/languagedata-{YYYYMMDD}.json` 
 
 **Locale extras:** Regional codes not present in the API (e.g. `el-CY`, `ms-MY`) are defined in `metadata/locale-extras.json` and merged into the snapshot at load time.
 
-**Template languages:** Auto-discovered from `templates/i18n/*.json` — the compile script checks for `header_intro_scs`/`header_intro_sps` keys to determine modality support. Default locale mapping is `en`; non-English overrides are in `metadata/template-languages.json` (currently 13 locales using `es`).
+**Template languages:** Auto-discovered from `templates/i18n/*.json` -- the compile script checks for `header_intro_scs`/`header_intro_sps` keys to determine modality support. Default locale mapping is `en`; non-English overrides are in `metadata/template-languages.json` (currently 13 locales using `es`).
 
 ## Auto-Generated Content
 
@@ -55,24 +55,24 @@ The compile script auto-generates content from API data when no community file e
 
 | Field | Source | Condition |
 | --- | --- | --- |
-| `variant_description` | API `variants` list | No `variants.md` in content |
-| `predefined_accents_description` | API `predefined_accents` list | No `predefined_accents.md` in content |
 | `funding_description` | OMSF funding text | Locale in `funding.tsv`, no `funding.md` in content |
 | `contribute_links_list` | Standard Speak/Write/Listen/Review links | No `contribute_links.md` in content |
 | `community_links_list` | Pontoon translators link | No `community_links.md` in content |
 
-Community content always takes precedence over auto-generated content.
+Community content always takes precedence over auto-generated defaults.
+
+For mergeable fields (variants, accents, corpus, sources, text domains, transcriptions), the bundler generates statistical data at runtime. Community content is optional -- if provided, it appears before the bundler's auto-generated data. If not provided, only the bundler's data appears.
 
 ## Content Fallback Chain
 
 When the compile script loads community content for a locale, it checks four locations in order:
 
 ```txt
-1. content/locales/{code}/{modality}/{field}.md     ← modality-specific (highest)
-2. content/locales/{code}/shared/{field}.md         ← explicit shared (opt-in)
-3. content/_defaults/{template_lang}/{field}.md     ← template language default
-4. content/_defaults/en/{field}.md                  ← English default
-5. ""                                               ← empty (bundler handles)
+1. content/locales/{code}/{modality}/{field}.md     <- modality-specific (highest)
+2. content/locales/{code}/shared/{field}.md         <- explicit shared (opt-in)
+3. content/_defaults/{template_lang}/{field}.md     <- template language default
+4. content/_defaults/en/{field}.md                  <- English default
+5. ""                                               <- empty (bundler handles)
 ```
 
 ## Compile Output

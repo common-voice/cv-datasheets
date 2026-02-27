@@ -6,9 +6,9 @@ the files you want to contribute.
 
 ## Directory structure
 
-Fields marked with `+` are **additive** — extend them, do not replace previous
-content. Fields marked with `~` are **descriptive** — can be rewritten freely.
-Fields marked with `*` are **mergeable** — the final datasheet shows both your
+Fields marked with `+` are **additive** -- extend them, do not replace previous
+content. Fields marked with `~` are **descriptive** -- can be rewritten freely.
+Fields marked with `*` are **mergeable** -- the final datasheet shows both your
 content and auto-generated statistics from the bundler.
 
 ```txt
@@ -46,23 +46,23 @@ content/locales/{locale}/
 ## Additive vs Descriptive Fields
 
 **Additive (`+`)** fields build up over time across releases. When editing
-these files, **add your entries below the existing content** — do not remove
+these files, **add your entries below the existing content** -- do not remove
 or replace previous contributions. Include version references where helpful
-(e.g. `v24.0`, `v22.0–present`).
+(e.g. `v24.0`, `v22.0-present`).
 
 Examples of additive content:
 
-- `sources.md` — each new text source is a new list entry
-- `authors.md` — new contributors are appended with their role and version range
-- `citation.md` — new papers referencing the dataset are added
+- `sources.md` -- each new text source is a new list entry
+- `authors.md` -- new contributors are appended with their role and version range
+- `citation.md` -- new papers referencing the dataset are added
 
 **Descriptive (`~`)** fields describe the current state of the language or
-process. These can be rewritten or improved freely — they represent the latest
+process. These can be rewritten or improved freely -- they represent the latest
 understanding, not a historical record.
 
 **Mergeable (`*`)** fields also show auto-generated statistics from the bundler
 below your content in the final datasheet. Each mergeable field is still either
-additive (`*+`) or descriptive (`*~`) — follow the same edit rules above.
+additive (`*+`) or descriptive (`*~`) -- follow the same edit rules above.
 
 ## Guidelines
 

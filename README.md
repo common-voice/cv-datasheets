@@ -7,7 +7,7 @@ Datasheets are documents that describe each language dataset in [Common Voice](h
 ```txt
 API snapshot ──────┐
 templates/        ─┤
-content/locales/  ─┤── compile_datasheets.py ──► releases/datasheets-{version}.json
+content/locales/  ─┤── compile_datasheets.py ──> releases/datasheets-{version}.json
 metadata/         ─┘                                       │
                                                     Bundler fills {{KEY}} with live stats
                                                            │
@@ -54,7 +54,7 @@ cv-datasheets/
 │   └── funding.tsv               OMSF-funded locales
 │
 ├── scripts/                    Utilities
-│   ├── fetch_api_metadata.py     Fetch SCS + SPS API → snapshot
+│   ├── fetch_api_metadata.py     Fetch SCS + SPS API -> snapshot
 │   └── extract_community_data.py One-time extraction from legacy datasheets
 │
 ├── compile_datasheets.py       Main compile script

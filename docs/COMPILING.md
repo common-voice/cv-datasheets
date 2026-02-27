@@ -40,13 +40,13 @@ python3 compile_datasheets.py 24.0-2025-12-05 \
 
 ## What the Compile Script Does
 
-1. **Loads API snapshot** — Language names, text direction, variants, accents, and SPS locale list from the snapshot (+ locale-extras for edge cases)
-2. **Renders Jinja2 templates** — Flattens `base.md.j2` → child templates into flat markdown with `{{KEY}}` placeholders
-3. **Loads community content** — Reads `content/locales/` with the fallback chain (modality → shared → defaults → empty)
-4. **Auto-generates from API data** — If no community `variants.md` or `predefined_accents.md` exists, generates content from API variant/accent lists
-5. **Injects OMSF funding** — For locales in `metadata/funding.tsv` that lack community-written funding content
-6. **Loads metadata** — Template-language mapping, funding info
-7. **Outputs JSON** — Single file matching the bundler's expected schema
+1. **Loads API snapshot** -- Language names, text direction, variants, accents, and SPS locale list from the snapshot (+ locale-extras for edge cases)
+2. **Renders Jinja2 templates** -- Flattens `base.md.j2` -> child templates into flat markdown with `{{KEY}}` placeholders
+3. **Loads community content** -- Reads `content/locales/` with the fallback chain (modality -> shared -> defaults -> empty)
+4. **Auto-generates from API data** -- If no community `variants.md` or `predefined_accents.md` exists, generates content from API variant/accent lists
+5. **Injects OMSF funding** -- For locales in `metadata/funding.tsv` that lack community-written funding content
+6. **Loads metadata** -- Template-language mapping, funding info
+7. **Outputs JSON** -- Single file matching the bundler's expected schema
 
 ## Fetching API Metadata
 
@@ -58,8 +58,8 @@ python3 scripts/fetch_api_metadata.py
 
 This fetches two endpoints:
 
-1. **SCS languagedata** (`/api/v1/languagedata`) — all locale metadata (names, variants, accents)
-2. **SPS locales** (`/spontaneous-speech/beta/api/v1/locales`) — contributable locale codes
+1. **SCS languagedata** (`/api/v1/languagedata`) -- all locale metadata (names, variants, accents)
+2. **SPS locales** (`/spontaneous-speech/beta/api/v1/locales`) -- contributable locale codes
 
 The snapshot is saved to `metadata/api-snapshots/languagedata-{YYYYMMDD}.json`.
 
@@ -73,9 +73,9 @@ python3 scripts/fetch_api_metadata.py --scs-url URL --sps-url URL
 
 The compile script derives its locale lists from the API snapshot:
 
-- **SCS locales** — all locales in the snapshot (428+), including non-contributable ones
-- **SPS locales** — from the snapshot's `sps_locales` array (fetched from SPS API)
-- **Edge cases** — `metadata/locale-extras.json` provides entries for locales not in the API (e.g. `el-CY`, `ms-MY` regional codes)
+- **SCS locales** -- all locales in the snapshot (428+), including non-contributable ones
+- **SPS locales** -- from the snapshot's `sps_locales` array (fetched from SPS API)
+- **Edge cases** -- `metadata/locale-extras.json` provides entries for locales not in the API (e.g. `el-CY`, `ms-MY` regional codes)
 
 There is no need to maintain a manual locale list. Any locale present in the API snapshot will get a datasheet entry.
 

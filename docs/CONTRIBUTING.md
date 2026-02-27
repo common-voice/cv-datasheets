@@ -72,7 +72,7 @@ content/locales/{locale}/
 
 - **Only create files you have content for.** Empty files are ignored.
 - **`shared/`** fields apply to both SCS and SPS. Write them once here instead of duplicating across `scripted/` and `spontaneous/`.
-- Write plain Markdown — no Jinja2 or HTML needed.
+- Write plain Markdown -- no Jinja2 or HTML needed.
 - List items (bullets, numbered lists) are deduplicated at compile time as a safety net.
 
 ### Field Edit Modes
@@ -80,7 +80,7 @@ content/locales/{locale}/
 Datasheet content is built by the community over time. Fields have two
 edit modes that indicate how they should be maintained.
 
-**Additive fields — extend, do not replace:**
+**Additive fields -- extend, do not replace:**
 
 | Field                 | Why it grows                                        |
 | --------------------- | --------------------------------------------------- |
@@ -93,11 +93,11 @@ edit modes that indicate how they should be maintained.
 | `contribute_links.md` | New contribution paths become available             |
 
 When editing additive fields, **add your entries below the existing content**.
-Do not remove previous contributions — they represent the work of earlier
+Do not remove previous contributions -- they represent the work of earlier
 community members. Include version references where helpful (e.g.
-`v24.0`, `v22.0–present`).
+`v24.0`, `v22.0-present`).
 
-**Descriptive fields — rewrite or improve freely:**
+**Descriptive fields -- rewrite or improve freely:**
 
 | Field                   | What it describes                   |
 | ----------------------- | ----------------------------------- |
@@ -113,15 +113,15 @@ community members. Include version references where helpful (e.g.
 | `postprocessing.md`     | Current recommended post-processing |
 
 These fields describe the current state. They can be rewritten entirely when
-the understanding improves — they are not a historical record.
+the understanding improves -- they are not a historical record.
 
-**Mergeable fields — community content + auto-generated data:**
+**Mergeable fields -- community content + auto-generated data:**
 
-Some fields are also **mergeable**: the final datasheet shows both your
-community-written content and bundler-generated statistics. Your text appears
-first, followed by auto-generated data (tables, counts, metrics). Each
-mergeable field is still either additive or descriptive — follow the edit
-rules above.
+Some fields are also **mergeable**: the bundler generates data (tables, counts,
+metrics) for these sections. Your community content is optional -- if you
+provide it, your text appears before the auto-generated data. If you don't
+provide it, only the bundler's data appears. Each mergeable field is still
+either additive or descriptive -- follow the edit rules above.
 
 | Field                   | Edit mode   | Bundler generates             |
 | ----------------------- | ----------- | ----------------------------- |
@@ -139,11 +139,9 @@ See `content/_example/` for examples, particularly
 
 Some fields are filled automatically if you don't provide them:
 
-- **`contribute_links.md`** — Standard Speak/Write/Listen/Review links are added
-- **`community_links.md`** — Pontoon translators link is added
-- **`funding.md`** — OMSF funding text is added for eligible locales
-- **`variants.md`** — Auto-generated from Common Voice API data (variant list with codes)
-- **`predefined_accents.md`** — Auto-generated from Common Voice API data (accent list with codes)
+- **`contribute_links.md`** -- Standard Speak/Write/Listen/Review links are added
+- **`community_links.md`** -- Pontoon translators link is added
+- **`funding.md`** -- OMSF funding text is added for eligible locales
 
 Only create these files if you have additional or different content. Community content always overrides auto-generated defaults.
 
@@ -155,10 +153,10 @@ By default, datasheets are generated in English. You can add support for a new l
 
 A translated datasheet requires two things:
 
-1. **i18n strings** — section titles and boilerplate text in an i18n JSON file
-2. **Template language mapping** — telling the compile script which locales use the new language
+1. **i18n strings** -- section titles and boilerplate text in an i18n JSON file
+2. **Template language mapping** -- telling the compile script which locales use the new language
 
-The compile script **auto-discovers** available template languages by scanning `templates/i18n/*.json`. No code changes are needed — just add the files.
+The compile script **auto-discovers** available template languages by scanning `templates/i18n/*.json`. No code changes are needed -- just add the files.
 
 ### Step 1: Add i18n Strings
 
@@ -178,7 +176,7 @@ Existing translations:
 
 ### Step 2: Map Locales to the Template Language
 
-Edit `metadata/template-languages.json` to assign locales to your new template language. Only non-English locales need entries — English is the default.
+Edit `metadata/template-languages.json` to assign locales to your new template language. Only non-English locales need entries -- English is the default.
 
 ```json
 {
