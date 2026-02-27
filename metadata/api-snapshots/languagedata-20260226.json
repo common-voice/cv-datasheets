@@ -1,0 +1,6482 @@
+{
+  "_metadata": {
+    "fetched_at": "2026-02-26T17:00:16.480440+00:00",
+    "scs_api_url": "https://commonvoice.mozilla.org/api/v1/languagedata",
+    "sps_api_url": "https://commonvoice.mozilla.org/spontaneous-speech/beta/api/v1/locales",
+    "total_locales": 428,
+    "contributable_locales": 292,
+    "sps_contributable_locales": 79
+  },
+  "locales": {
+    "aa": {
+      "code": "aa",
+      "english_name": "Afar",
+      "native_name": "aa",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "aat": {
+      "code": "aat",
+      "english_name": "Arvanitika",
+      "native_name": "aat",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ab": {
+      "code": "ab",
+      "english_name": "Abkhaz",
+      "native_name": "Аԥсшәа",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "abb": {
+      "code": "abb",
+      "english_name": "Bankon",
+      "native_name": "Ɓàŋkón",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "abq": {
+      "code": "abq",
+      "english_name": "Abaza",
+      "native_name": "abq",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "abq-tapanta",
+          "name": "Тlапlанта (ашвыуа)"
+        },
+        {
+          "code": "abq-ashkhara",
+          "name": "Ащхъарауа"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "ace": {
+      "code": "ace",
+      "english_name": "Acehnese",
+      "native_name": "Bahsa Acèh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ady": {
+      "code": "ady",
+      "english_name": "Adyghe",
+      "native_name": "Адыгабзэ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "ady-RU",
+          "name": "Адыгабзэ (Кирил, Урысый)"
+        },
+        {
+          "code": "ady-Cyrl-TR",
+          "name": "Адыгабзэ (Кирил, Тырку - Batı Çerkesçesi)"
+        },
+        {
+          "code": "ady-Latn-TR-t-ady-cyrl",
+          "name": "Adığabze (Latin, Turk, transliteratse - Batı Çerkesçesi)"
+        },
+        {
+          "code": "ady-Cyrl-JOR",
+          "name": "Адыгабзэ (Кирил, Иордание)"
+        },
+        {
+          "code": "ady-Cyrl-SY",
+          "name": "Адыгабзэ (Кирил, Сирие)"
+        },
+        {
+          "code": "ady-Cyrl",
+          "name": "Адыгабзэ (Кирил, пстэумэ зэдыряе)"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "abzakh",
+          "name": "Абдзах (Abzah)"
+        },
+        {
+          "code": "bzhedug",
+          "name": "Бжъэдыгъу (Bjeduğ)"
+        },
+        {
+          "code": "hatikuay",
+          "name": "Хьатыкъуай (Hatıkuay)"
+        },
+        {
+          "code": "shapsug",
+          "name": "Шапсыгъ (Şapsığ)"
+        },
+        {
+          "code": "temirgoy",
+          "name": "Кıэмгуй (Çemguy)"
+        },
+        {
+          "code": "ubykh",
+          "name": "Убых (Ubıh)"
+        }
+      ]
+    },
+    "af": {
+      "code": "af",
+      "english_name": "Afrikaans",
+      "native_name": "Afrikaans",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "aii": {
+      "code": "aii",
+      "english_name": "Suret",
+      "native_name": "aii",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ajg": {
+      "code": "ajg",
+      "english_name": "Adja",
+      "native_name": "ajg",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "aln": {
+      "code": "aln",
+      "english_name": "Gheg Albanian",
+      "native_name": "aln",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "am": {
+      "code": "am",
+      "english_name": "Amharic",
+      "native_name": "አማርኛ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "an": {
+      "code": "an",
+      "english_name": "Aragonese",
+      "native_name": "Aragonés",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ar": {
+      "code": "ar",
+      "english_name": "Arabic",
+      "native_name": "العربية",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "arn": {
+      "code": "arn",
+      "english_name": "Mapudungun",
+      "native_name": "Mapuzugun",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "as": {
+      "code": "as",
+      "english_name": "Assamese",
+      "native_name": "অসমীয়া",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ast": {
+      "code": "ast",
+      "english_name": "Asturian",
+      "native_name": "Asturianu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "az": {
+      "code": "az",
+      "english_name": "Azerbaijani",
+      "native_name": "Azərbaycanca",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "azz": {
+      "code": "azz",
+      "english_name": "Highland Puebla Nahuatl",
+      "native_name": "azz",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ba": {
+      "code": "ba",
+      "english_name": "Bashkir",
+      "native_name": "Башҡорт",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bag": {
+      "code": "bag",
+      "english_name": "Tuki",
+      "native_name": "Tukí",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bal": {
+      "code": "bal",
+      "english_name": "Balochi",
+      "native_name": "bal",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bas": {
+      "code": "bas",
+      "english_name": "Basaa",
+      "native_name": "Basaa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bax": {
+      "code": "bax",
+      "english_name": "Bamun",
+      "native_name": "Shüpamom",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bba": {
+      "code": "bba",
+      "english_name": "Baatonum",
+      "native_name": "Baatɔnum",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bbj": {
+      "code": "bbj",
+      "english_name": "Ghomala",
+      "native_name": "bbj",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bbl": {
+      "code": "bbl",
+      "english_name": "Tush",
+      "native_name": "ვაჲღეჼ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bce": {
+      "code": "bce",
+      "english_name": "Mengambo",
+      "native_name": "bce",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bci": {
+      "code": "bci",
+      "english_name": "Baoule",
+      "native_name": "bci",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "be": {
+      "code": "be",
+      "english_name": "Belarusian",
+      "native_name": "Беларуская",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "beb": {
+      "code": "beb",
+      "english_name": "Bamvele",
+      "native_name": "beb",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bew": {
+      "code": "bew",
+      "english_name": "Betawi",
+      "native_name": "bew",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bfd": {
+      "code": "bfd",
+      "english_name": "Bafut",
+      "native_name": "bfd",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bft": {
+      "code": "bft",
+      "english_name": "Balti",
+      "native_name": "بلتی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bg": {
+      "code": "bg",
+      "english_name": "Bulgarian",
+      "native_name": "Български",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bgp": {
+      "code": "bgp",
+      "english_name": "Eastern Balochi",
+      "native_name": "بلوچی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bkh": {
+      "code": "bkh",
+      "english_name": "Bakoko",
+      "native_name": "bkh",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bkm": {
+      "code": "bkm",
+      "english_name": "Kom",
+      "native_name": "bkm",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bm": {
+      "code": "bm",
+      "english_name": "Bambara",
+      "native_name": "Bamanankan na",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bn": {
+      "code": "bn",
+      "english_name": "Bengali",
+      "native_name": "বাংলা",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bnm": {
+      "code": "bnm",
+      "english_name": "Batanga",
+      "native_name": "bnm",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bnn": {
+      "code": "bnn",
+      "english_name": "Bunun",
+      "native_name": "Bunun",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "bnn-takitudu",
+          "name": "MalasTakitudu (卓群布農語)"
+        },
+        {
+          "code": "bnn-bakha",
+          "name": "MalasTakibakha (卡群布農語)"
+        },
+        {
+          "code": "bnn-bubukun",
+          "name": "MalasʼIsbubukun (郡群布農語)"
+        },
+        {
+          "code": "bnn-banuaz",
+          "name": "MalasTakbanuaz (巒群布農語)"
+        },
+        {
+          "code": "bnn-vatan",
+          "name": "MalasTakivatan (丹群布農語)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "bo": {
+      "code": "bo",
+      "english_name": "Tibetan",
+      "native_name": "bo",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "br": {
+      "code": "br",
+      "english_name": "Breton",
+      "native_name": "Brezhoneg",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "gwenedeg",
+          "name": "Gwenedeg"
+        },
+        {
+          "code": "kerneveg",
+          "name": "Kerneveg"
+        },
+        {
+          "code": "leoneg",
+          "name": "Leoneg"
+        },
+        {
+          "code": "tregerieg",
+          "name": "Tregerieg"
+        }
+      ]
+    },
+    "brh": {
+      "code": "brh",
+      "english_name": "Brahui",
+      "native_name": "brh",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bri": {
+      "code": "bri",
+      "english_name": "Mokpwe",
+      "native_name": "bri",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "brx": {
+      "code": "brx",
+      "english_name": "Bodo",
+      "native_name": "brx",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bs": {
+      "code": "bs",
+      "english_name": "Bosnian",
+      "native_name": "bs",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bsh": {
+      "code": "bsh",
+      "english_name": "Kateviri",
+      "native_name": "کتہ وری",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bsk": {
+      "code": "bsk",
+      "english_name": "Brushaski",
+      "native_name": "Mishaski",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bsy": {
+      "code": "bsy",
+      "english_name": "Sabah Bisaya",
+      "native_name": "bsy",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "btv": {
+      "code": "btv",
+      "english_name": "Bateri",
+      "native_name": "btv",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bum": {
+      "code": "bum",
+      "english_name": "Bulu",
+      "native_name": "bum",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bxk": {
+      "code": "bxk",
+      "english_name": "Bukusu",
+      "native_name": "bxk",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "bxr": {
+      "code": "bxr",
+      "english_name": "Buryat",
+      "native_name": "Буряад",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "byv": {
+      "code": "byv",
+      "english_name": "Medumba",
+      "native_name": "byv",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ca": {
+      "code": "ca",
+      "english_name": "Catalan",
+      "native_name": "català",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "ca-central",
+          "name": "Central"
+        },
+        {
+          "code": "ca-balear",
+          "name": "Balear"
+        },
+        {
+          "code": "ca-nwestern",
+          "name": "Nord-Occidental"
+        },
+        {
+          "code": "ca-northern",
+          "name": "Septentrional"
+        },
+        {
+          "code": "ca-valencia-southern",
+          "name": "Valencià meridional"
+        },
+        {
+          "code": "ca-valencia-alacant",
+          "name": "Alacantí"
+        },
+        {
+          "code": "ca-valencia-northern",
+          "name": "Valencià septentrional"
+        },
+        {
+          "code": "ca-valencia-tortosi",
+          "name": "Tortosí"
+        },
+        {
+          "code": "ca-valencia-central",
+          "name": "Valencià central"
+        },
+        {
+          "code": "ca-algueres",
+          "name": "Alguerès"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "balearic",
+          "name": "balear"
+        },
+        {
+          "code": "central",
+          "name": "central"
+        },
+        {
+          "code": "northwestern",
+          "name": "nord-occidental"
+        },
+        {
+          "code": "northern",
+          "name": "septentrional"
+        },
+        {
+          "code": "valencian",
+          "name": "valencià"
+        },
+        {
+          "code": "learner_es",
+          "name": "aprenent (recent, des del castellà)"
+        },
+        {
+          "code": "learner_other",
+          "name": "aprenent (recent, des d'altres llengües)"
+        }
+      ]
+    },
+    "cak": {
+      "code": "cak",
+      "english_name": "Kaqchikel",
+      "native_name": "Kaqchikel",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cdo": {
+      "code": "cdo",
+      "english_name": "Eastern Min",
+      "native_name": "cdo",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ce": {
+      "code": "ce",
+      "english_name": "Chechen",
+      "native_name": "Нохчийн",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cgg": {
+      "code": "cgg",
+      "english_name": "Chiga",
+      "native_name": "cgg",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cjk": {
+      "code": "cjk",
+      "english_name": "Chokwe",
+      "native_name": "cjk",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ckb": {
+      "code": "ckb",
+      "english_name": "Central Kurdish",
+      "native_name": "کوردیی ناوەندی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cnh": {
+      "code": "cnh",
+      "english_name": "Hakha Chin",
+      "native_name": "Laiholh (Hakha)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "co": {
+      "code": "co",
+      "english_name": "Corsican",
+      "native_name": "Corsu",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cpx": {
+      "code": "cpx",
+      "english_name": "Heng Hua",
+      "native_name": "cpx",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cpy": {
+      "code": "cpy",
+      "english_name": "Asheninka South Ucayali",
+      "native_name": "cpy",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "crh": {
+      "code": "crh",
+      "english_name": "Crimean Tatar",
+      "native_name": "crh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cs": {
+      "code": "cs",
+      "english_name": "Czech",
+      "native_name": "Čeština",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cut": {
+      "code": "cut",
+      "english_name": "Teutila Cuicatec",
+      "native_name": "Dbaku",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cux": {
+      "code": "cux",
+      "english_name": "Tepeuxila Cuicatec",
+      "native_name": "cux",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cv": {
+      "code": "cv",
+      "english_name": "Chuvash",
+      "native_name": "Чӑвашла",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "cy": {
+      "code": "cy",
+      "english_name": "Welsh",
+      "native_name": "Cymraeg",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "cy-northwes",
+          "name": "North-Western Welsh"
+        },
+        {
+          "code": "cy-northeas",
+          "name": "North-Eastern Welsh"
+        },
+        {
+          "code": "cy-midwales",
+          "name": "Mid Wales"
+        },
+        {
+          "code": "cy-southwes",
+          "name": "South-Western Welsh"
+        },
+        {
+          "code": "cy-southeas",
+          "name": "South-Eastern Welsh"
+        },
+        {
+          "code": "cy-wladfa",
+          "name": "Patagonian Welsh"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "united_kingdom",
+          "name": "Y Deyrnas Unedig Cymraeg"
+        }
+      ]
+    },
+    "da": {
+      "code": "da",
+      "english_name": "Danish",
+      "native_name": "Dansk",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dag": {
+      "code": "dag",
+      "english_name": "Dagbani",
+      "native_name": "Dagbanli",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dar": {
+      "code": "dar",
+      "english_name": "Dargwa",
+      "native_name": "Дарган",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dav": {
+      "code": "dav",
+      "english_name": "Kidaw'ida",
+      "native_name": "dav",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "de": {
+      "code": "de",
+      "english_name": "German",
+      "native_name": "Deutsch",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "germany",
+          "name": "Deutschland Deutsch"
+        },
+        {
+          "code": "netherlands",
+          "name": "Niederländisch Deutsch"
+        },
+        {
+          "code": "austria",
+          "name": "Österreichisches Deutsch"
+        },
+        {
+          "code": "poland",
+          "name": "Polnisch Deutsch"
+        },
+        {
+          "code": "switzerland",
+          "name": "Schweizerdeutsch"
+        },
+        {
+          "code": "united_kingdom",
+          "name": "Britisches Deutsch"
+        },
+        {
+          "code": "france",
+          "name": "Französisch Deutsch"
+        },
+        {
+          "code": "denmark",
+          "name": "Dänisch Deutsch"
+        },
+        {
+          "code": "belgium",
+          "name": "Belgisches Deutsch"
+        },
+        {
+          "code": "hungary",
+          "name": "Ungarisch Deutsch"
+        },
+        {
+          "code": "brazil",
+          "name": "Brasilianisches Deutsch"
+        },
+        {
+          "code": "czechia",
+          "name": "Tschechisch Deutsch"
+        },
+        {
+          "code": "united_states",
+          "name": "Amerikanisches Deutsch"
+        },
+        {
+          "code": "slovakia",
+          "name": "Slowakisch Deutsch"
+        },
+        {
+          "code": "russia",
+          "name": "Russisch Deutsch"
+        },
+        {
+          "code": "kazakhstan",
+          "name": "Kasachisch Deutsch"
+        },
+        {
+          "code": "italy",
+          "name": "Italienisch Deutsch"
+        },
+        {
+          "code": "finland",
+          "name": "Finnisch Deutsch"
+        },
+        {
+          "code": "slovenia",
+          "name": "Slowenisch Deutsch"
+        },
+        {
+          "code": "canada",
+          "name": "Kanadisches Deutsch"
+        },
+        {
+          "code": "bulgaria",
+          "name": "Bulgarisch Deutsch"
+        },
+        {
+          "code": "greece",
+          "name": "Griechisch Deutsch"
+        },
+        {
+          "code": "lithuania",
+          "name": "Litauisch Deutsch"
+        },
+        {
+          "code": "luxembourg",
+          "name": "Luxemburgisches Deutsch"
+        },
+        {
+          "code": "paraguay",
+          "name": "Paraguayisch Deutsch"
+        },
+        {
+          "code": "romania",
+          "name": "Rumänisch Deutsch"
+        },
+        {
+          "code": "liechtenstein",
+          "name": "liechtensteinisches Deutscher"
+        },
+        {
+          "code": "namibia",
+          "name": "Namibisch Deutsch"
+        },
+        {
+          "code": "turkey",
+          "name": "Türkisch Deutsch"
+        }
+      ]
+    },
+    "din": {
+      "code": "din",
+      "english_name": "Dinka",
+      "native_name": "din",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dmk": {
+      "code": "dmk",
+      "english_name": "Dawoodi",
+      "native_name": "داوُدِݵ",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dml": {
+      "code": "dml",
+      "english_name": "Dameli",
+      "native_name": "dml",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dru": {
+      "code": "dru",
+      "english_name": "Rukai",
+      "native_name": "Drekay",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "dru-taromak",
+          "name": "Ngodradrekai ka so Taromak (東魯凱語)"
+        },
+        {
+          "code": "dru-veday",
+          "name": "Ngudradreadrekadhane ka Veday (霧臺魯凱語)"
+        },
+        {
+          "code": "dru-labuane",
+          "name": "Ngudradreadrekadha ka Tailailabuwana (大武魯凱語)"
+        },
+        {
+          "code": "dru-kunga",
+          "name": "bakani Kongadavane (多納語)"
+        },
+        {
+          "code": "dru-oponoho",
+          "name": "ʼakoʼoponohae (萬山語)"
+        },
+        {
+          "code": "dru-teldreka",
+          "name": "teldredrekane (茂林語)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "dsb": {
+      "code": "dsb",
+      "english_name": "Sorbian, Lower",
+      "native_name": "Dolnoserbšćina",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dua": {
+      "code": "dua",
+      "english_name": "Duala",
+      "native_name": "dua",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dv": {
+      "code": "dv",
+      "english_name": "Dhivehi",
+      "native_name": "ދިވެހި",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "dyu": {
+      "code": "dyu",
+      "english_name": "Dioula",
+      "native_name": "Dioula ye",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ebr": {
+      "code": "ebr",
+      "english_name": "Ebrie",
+      "native_name": "ebr",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ee": {
+      "code": "ee",
+      "english_name": "Ewe",
+      "native_name": "ee",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "efk": {
+      "code": "efk",
+      "english_name": "Efik",
+      "native_name": "efk",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "eko": {
+      "code": "eko",
+      "english_name": "Ekoti",
+      "native_name": "eko",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "el": {
+      "code": "el",
+      "english_name": "Greek",
+      "native_name": "Ελληνικά",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "en": {
+      "code": "en",
+      "english_name": "English",
+      "native_name": "English",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "us",
+          "name": "United States English"
+        },
+        {
+          "code": "australia",
+          "name": "Australian English"
+        },
+        {
+          "code": "england",
+          "name": "England English"
+        },
+        {
+          "code": "canada",
+          "name": "Canadian English"
+        },
+        {
+          "code": "philippines",
+          "name": "Filipino"
+        },
+        {
+          "code": "hongkong",
+          "name": "Hong Kong English"
+        },
+        {
+          "code": "indian",
+          "name": "India and South Asia (India, Pakistan, Sri Lanka)"
+        },
+        {
+          "code": "ireland",
+          "name": "Irish English"
+        },
+        {
+          "code": "malaysia",
+          "name": "Malaysian English"
+        },
+        {
+          "code": "newzealand",
+          "name": "New Zealand English"
+        },
+        {
+          "code": "scotland",
+          "name": "Scottish English"
+        },
+        {
+          "code": "singapore",
+          "name": "Singaporean English"
+        },
+        {
+          "code": "southatlandtic",
+          "name": "South Atlantic (Falkland Islands, Saint Helena)"
+        },
+        {
+          "code": "african",
+          "name": "Southern African (South Africa, Zimbabwe, Namibia)"
+        },
+        {
+          "code": "wales",
+          "name": "Welsh English"
+        },
+        {
+          "code": "bermuda",
+          "name": "West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)"
+        }
+      ]
+    },
+    "eo": {
+      "code": "eo",
+      "english_name": "Esperanto",
+      "native_name": "Esperanto",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "internacia",
+          "name": "Internacia"
+        }
+      ]
+    },
+    "es": {
+      "code": "es",
+      "english_name": "Spanish",
+      "native_name": "Español",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "nortepeninsular",
+          "name": "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)"
+        },
+        {
+          "code": "centrosurpeninsular",
+          "name": "España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)"
+        },
+        {
+          "code": "surpeninsular",
+          "name": "España: Sur peninsular (Andalucia, Extremadura, Murcia)"
+        },
+        {
+          "code": "canario",
+          "name": "España: Islas Canarias"
+        },
+        {
+          "code": "mexicano",
+          "name": "México"
+        },
+        {
+          "code": "americacentral",
+          "name": "América central"
+        },
+        {
+          "code": "caribe",
+          "name": "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México"
+        },
+        {
+          "code": "andino",
+          "name": "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina"
+        },
+        {
+          "code": "rioplatense",
+          "name": "Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay"
+        },
+        {
+          "code": "chileno",
+          "name": "Chileno: Chile, Cuyo"
+        },
+        {
+          "code": "filipinas",
+          "name": "Español de Filipinas"
+        }
+      ]
+    },
+    "esu": {
+      "code": "esu",
+      "english_name": "",
+      "native_name": "esu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "et": {
+      "code": "et",
+      "english_name": "Estonian",
+      "native_name": "eesti",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "eto": {
+      "code": "eto",
+      "english_name": "Eton",
+      "native_name": "eto",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "eu": {
+      "code": "eu",
+      "english_name": "Basque",
+      "native_name": "Euskara",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "mendebalekoa",
+          "name": "Mendebalekoa (Araba, Bizkaia, Gipuzkoako mendebaleko herri batzuk)"
+        },
+        {
+          "code": "erdialdekoa_nafarra",
+          "name": "Erdialdekoa edo Nafarra (Gipuzkoa, Nafarroa)"
+        },
+        {
+          "code": "nafarlapurtarra_zuberoatarra",
+          "name": "Nafar-lapurtarra edo Zuberotarra (Lapurdi, Nafarroa Beherea, Zuberoa)"
+        }
+      ]
+    },
+    "ewo": {
+      "code": "ewo",
+      "english_name": "Ewondo",
+      "native_name": "ewo",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fa": {
+      "code": "fa",
+      "english_name": "Persian",
+      "native_name": "فارسی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fan": {
+      "code": "fan",
+      "english_name": "Fang",
+      "native_name": "fan",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ff": {
+      "code": "ff",
+      "english_name": "Fulah",
+      "native_name": "Pulaar-Fulfulde",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fi": {
+      "code": "fi",
+      "english_name": "Finnish",
+      "native_name": "suomi",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fmp": {
+      "code": "fmp",
+      "english_name": "",
+      "native_name": "fmp",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fo": {
+      "code": "fo",
+      "english_name": "Faroese",
+      "native_name": "Føroyskt",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fr": {
+      "code": "fr",
+      "english_name": "French",
+      "native_name": "Français",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "fr-europe",
+          "name": "Français d'Europe"
+        },
+        {
+          "code": "fr-metro",
+          "name": "Français de métropole"
+        },
+        {
+          "code": "fr-nafrica",
+          "name": "Français du nord de l'Afrique"
+        },
+        {
+          "code": "fr-safrica",
+          "name": "Français d'Afrique subsaharienne et des îles africaines"
+        },
+        {
+          "code": "fr-droum",
+          "name": "Français des départements et régions d'outre-mer"
+        },
+        {
+          "code": "fr-namerica",
+          "name": "Français d'Amérique du Nord"
+        },
+        {
+          "code": "fr-samerica",
+          "name": "Français d'Amérique du Sud et des Caraïbes"
+        },
+        {
+          "code": "fr-asia",
+          "name": "Français d'Asie et des îles du Pacifique"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "madagascar",
+          "name": "Français de Madagascar"
+        },
+        {
+          "code": "cameroon",
+          "name": "Français du Cameroun"
+        },
+        {
+          "code": "germany",
+          "name": "Français d’Allemagne"
+        },
+        {
+          "code": "united_kingdom",
+          "name": "Français du Royaume-Uni"
+        },
+        {
+          "code": "cote_d_ivoire",
+          "name": "Français de Côte d’Ivoire"
+        },
+        {
+          "code": "tunisia",
+          "name": "Français de Tunisie"
+        },
+        {
+          "code": "mali",
+          "name": "Français du Mali"
+        },
+        {
+          "code": "algeria",
+          "name": "Français d’Algérie"
+        },
+        {
+          "code": "canada",
+          "name": "Français du Canada"
+        },
+        {
+          "code": "morocco",
+          "name": "Français du Maroc"
+        },
+        {
+          "code": "senegal",
+          "name": "Français du Sénégal"
+        },
+        {
+          "code": "niger",
+          "name": "Français du Niger"
+        },
+        {
+          "code": "netherlands",
+          "name": "Français des Pays-Bas"
+        },
+        {
+          "code": "togo",
+          "name": "Français de la République du Togo"
+        },
+        {
+          "code": "belgium",
+          "name": "Français de Belgique"
+        },
+        {
+          "code": "congo_kinshasa",
+          "name": "Français du Congo (Kinshasa)"
+        },
+        {
+          "code": "italy",
+          "name": "Français d’Italie"
+        },
+        {
+          "code": "benin",
+          "name": "Français du Bénin"
+        },
+        {
+          "code": "romania",
+          "name": "Français de Roumanie"
+        },
+        {
+          "code": "central_african_republic",
+          "name": "Français de République centrafricaine"
+        },
+        {
+          "code": "united_states",
+          "name": "Français des États-Unis"
+        },
+        {
+          "code": "switzerland",
+          "name": "Français de Suisse"
+        },
+        {
+          "code": "syria",
+          "name": "Français de Syrie"
+        },
+        {
+          "code": "reunion",
+          "name": "Français de La Réunion"
+        },
+        {
+          "code": "mauritania",
+          "name": "Français de Mauritanie"
+        },
+        {
+          "code": "luxembourg",
+          "name": "Français du Luxembourg"
+        },
+        {
+          "code": "haiti",
+          "name": "Français d’Haïti"
+        },
+        {
+          "code": "comoros",
+          "name": "Français des Comores"
+        },
+        {
+          "code": "martinique",
+          "name": "Français de Martinique"
+        },
+        {
+          "code": "guadeloupe",
+          "name": "Français de Guadeloupe"
+        },
+        {
+          "code": "new_caledonia",
+          "name": "Français de Nouvelle-Calédonie"
+        },
+        {
+          "code": "french_polynesia",
+          "name": "Français de Polynésie française"
+        },
+        {
+          "code": "french_guiana",
+          "name": "Français de Guyane"
+        },
+        {
+          "code": "vanuatu",
+          "name": "Français du Vanuatu"
+        },
+        {
+          "code": "mayotte",
+          "name": "Français de Mayotte"
+        },
+        {
+          "code": "cyprus",
+          "name": "Français de Chypre"
+        },
+        {
+          "code": "equatorial_guinea",
+          "name": "Français de Guinée équatoriale"
+        },
+        {
+          "code": "seychelles",
+          "name": "Français des Seychelles"
+        },
+        {
+          "code": "mauritius",
+          "name": "Français de l’Île Maurice"
+        },
+        {
+          "code": "st_martin",
+          "name": "Français de Saint-Martin"
+        },
+        {
+          "code": "monaco",
+          "name": "Français de Monaco"
+        },
+        {
+          "code": "djibouti",
+          "name": "Français de Djibouti"
+        },
+        {
+          "code": "wallis_et_futuna",
+          "name": "Français de Wallis et Futuna"
+        },
+        {
+          "code": "st_barthelemy",
+          "name": "Français de Saint-Barthélemy"
+        },
+        {
+          "code": "st_pierre_et_miquelon",
+          "name": "Français de Saint-Pierre-et-Miquelon"
+        },
+        {
+          "code": "fr-metro-east",
+          "name": "Français de l'est de la France"
+        },
+        {
+          "code": "fr-metro-north",
+          "name": "Français du nord de la France"
+        },
+        {
+          "code": "fr-metro-west",
+          "name": "Français de l'ouest de la France"
+        },
+        {
+          "code": "fr-metro-south",
+          "name": "Français du sud de la France"
+        }
+      ]
+    },
+    "fub": {
+      "code": "fub",
+      "english_name": "Adamawa Fulfulde",
+      "native_name": "fub",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fue": {
+      "code": "fue",
+      "english_name": "Borgu Fulfulde",
+      "native_name": "fue",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fuf": {
+      "code": "fuf",
+      "english_name": "Pular Guinea",
+      "native_name": "fuf",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "fy-NL": {
+      "code": "fy-NL",
+      "english_name": "Frisian",
+      "native_name": "Frysk",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ga-IE": {
+      "code": "ga-IE",
+      "english_name": "Irish",
+      "native_name": "Gaeilge",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "ga-IE-uladh",
+          "name": "Gaeilge Uladh"
+        },
+        {
+          "code": "ga-IE-chonnact",
+          "name": "Gaeilge Chonnacht"
+        },
+        {
+          "code": "ga-IE-mumhan",
+          "name": "Gaeilge na Mumhan"
+        },
+        {
+          "code": "ga-IE-caighd",
+          "name": "Gaeilge Chaighdeánach"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "cainteoir_dúchais_gaeltacht",
+          "name": "Cainteoir dúchais, Gaeltacht"
+        },
+        {
+          "code": "cainteoir_dúchais_lasmuigh_den_ghaeltacht",
+          "name": "Cainteoir dúchais, lasmuigh den Ghaeltacht"
+        },
+        {
+          "code": "foghlaimeoir_fásta_ó_bhéarla",
+          "name": "Foghlaimeoir fásta, ó Bhéarla"
+        },
+        {
+          "code": "foghlaimeoir_i_ngaelscoil",
+          "name": "Foghlaimeoir, i nGaelscoil"
+        },
+        {
+          "code": "cainteoir_líofa_ní_ó_dhúchas",
+          "name": "Cainteoir líofa, ní ó dhúchas"
+        },
+        {
+          "code": "foghlaimeoir_fásta_ó_theanga_eile",
+          "name": "Foghlaimeoir fásta, ó theanga eile"
+        }
+      ]
+    },
+    "gaa": {
+      "code": "gaa",
+      "english_name": "Ga",
+      "native_name": "gaa",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gej": {
+      "code": "gej",
+      "english_name": "Mina",
+      "native_name": "gej",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ggg": {
+      "code": "ggg",
+      "english_name": "Gurgula",
+      "native_name": "ggg",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gid": {
+      "code": "gid",
+      "english_name": "Guidar",
+      "native_name": "gid",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gig": {
+      "code": "gig",
+      "english_name": "Goaria",
+      "native_name": "gig",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "giz": {
+      "code": "giz",
+      "english_name": "Guiziga",
+      "native_name": "giz",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gjk": {
+      "code": "gjk",
+      "english_name": "Kachhi",
+      "native_name": "gjk",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gju": {
+      "code": "gju",
+      "english_name": "Gujari",
+      "native_name": "گوجری",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gl": {
+      "code": "gl",
+      "english_name": "Galician",
+      "native_name": "Galego",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "atlantico",
+          "name": "Atlántico (seseo e gheada)"
+        },
+        {
+          "code": "central",
+          "name": "Central (gheada)"
+        },
+        {
+          "code": "oriental",
+          "name": "Oriental (común en zona oriental)"
+        },
+        {
+          "code": "normativo",
+          "name": "Normativo (estándar)"
+        },
+        {
+          "code": "neofalante",
+          "name": "Neofalante"
+        }
+      ]
+    },
+    "glk": {
+      "code": "glk",
+      "english_name": "Gilaki",
+      "native_name": "glk",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gn": {
+      "code": "gn",
+      "english_name": "Guarani",
+      "native_name": "Guarani",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gom": {
+      "code": "gom",
+      "english_name": "Konkani (Romi)",
+      "native_name": "Gõychi Konknni (Romi)",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gos": {
+      "code": "gos",
+      "english_name": "Gronings",
+      "native_name": "gos",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gsw": {
+      "code": "gsw",
+      "english_name": "Alsatian",
+      "native_name": "Elsassisch",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "gsw-FR-sudrfran",
+          "name": "Südrheinfränkisch (Weissebuisch, Màdere, usw.)"
+        },
+        {
+          "code": "gsw-FR-rhinfran",
+          "name": "Rhinfränkisch (Bùckenùmm, Lìtzelstän, Bitsch, Saargemìnn usw.)"
+        },
+        {
+          "code": "gsw-FR-nordalem",
+          "name": "Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, Pfàlzbùri usw.)"
+        },
+        {
+          "code": "gsw-FR-hochalem",
+          "name": "Hochàlemmànnisch (Hìniga, Pfìrt, usw.)"
+        },
+        {
+          "code": "gsw-FR-sudnalem",
+          "name": "Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "gu-IN": {
+      "code": "gu-IN",
+      "english_name": "Gujarati",
+      "native_name": "gu-IN",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "guc": {
+      "code": "guc",
+      "english_name": "Wayuunaiki",
+      "native_name": "Wayuunaiki",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gv": {
+      "code": "gv",
+      "english_name": "Manx",
+      "native_name": "gv",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gwc": {
+      "code": "gwc",
+      "english_name": "Gawri",
+      "native_name": "گاؤری",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gwt": {
+      "code": "gwt",
+      "english_name": "Gawarbaiti",
+      "native_name": "گوَرباتی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "gya": {
+      "code": "gya",
+      "english_name": "Northwest Gbaya",
+      "native_name": "gya",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ha": {
+      "code": "ha",
+      "english_name": "Hausa",
+      "native_name": "Hausa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hac": {
+      "code": "hac",
+      "english_name": "Gorani",
+      "native_name": "hac",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hak": {
+      "code": "hak",
+      "english_name": "Hakka",
+      "native_name": "hak",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "haz": {
+      "code": "haz",
+      "english_name": "Hazargi",
+      "native_name": "haz",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hch": {
+      "code": "hch",
+      "english_name": "Wixárika",
+      "native_name": "hch",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "he": {
+      "code": "he",
+      "english_name": "Hebrew",
+      "native_name": "עברית",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hem": {
+      "code": "hem",
+      "english_name": "Kihemba",
+      "native_name": "hem",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hi": {
+      "code": "hi",
+      "english_name": "Hindi",
+      "native_name": "हिंदी",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hil": {
+      "code": "hil",
+      "english_name": "Hiligaynon",
+      "native_name": "hil",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hno": {
+      "code": "hno",
+      "english_name": "Northern Hindko",
+      "native_name": "شمالی ہندکو",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hr": {
+      "code": "hr",
+      "english_name": "Croatian",
+      "native_name": "Hrvatski",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hrx": {
+      "code": "hrx",
+      "english_name": "Hunsrik",
+      "native_name": "hrx",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hsb": {
+      "code": "hsb",
+      "english_name": "Sorbian, Upper",
+      "native_name": "Hornjoserbšćina",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ht": {
+      "code": "ht",
+      "english_name": "Haitian",
+      "native_name": "Ayisyen",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hu": {
+      "code": "hu",
+      "english_name": "Hungarian",
+      "native_name": "Magyar",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hux": {
+      "code": "hux",
+      "english_name": "Nüpode Huitoto",
+      "native_name": "hux",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "hy-AM": {
+      "code": "hy-AM",
+      "english_name": "Armenian",
+      "native_name": "Հայերեն",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ia": {
+      "code": "ia",
+      "english_name": "Interlingua",
+      "native_name": "Interlingua",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "iba": {
+      "code": "iba",
+      "english_name": "Iban",
+      "native_name": "iba",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ibb": {
+      "code": "ibb",
+      "english_name": "Ibibio",
+      "native_name": "ibb",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "id": {
+      "code": "id",
+      "english_name": "Indonesian",
+      "native_name": "Bahasa Indonesia",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ie": {
+      "code": "ie",
+      "english_name": "Interlingue",
+      "native_name": "Interlingue",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ig": {
+      "code": "ig",
+      "english_name": "Igbo",
+      "native_name": "Ásụ̀sụ́ Ìgbò",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ipk": {
+      "code": "ipk",
+      "english_name": "Iñupiaq",
+      "native_name": "ipk",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "is": {
+      "code": "is",
+      "english_name": "Icelandic",
+      "native_name": "Íslenska",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "it": {
+      "code": "it",
+      "english_name": "Italian",
+      "native_name": "Italiano",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "izh": {
+      "code": "izh",
+      "english_name": "Izhorian",
+      "native_name": "izh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ja": {
+      "code": "ja",
+      "english_name": "Japanese",
+      "native_name": "日本語",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "jam": {
+      "code": "jam",
+      "english_name": "Jamaican Patois",
+      "native_name": "jam",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "jbo": {
+      "code": "jbo",
+      "english_name": "Lojban",
+      "native_name": "jbo",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "jgo": {
+      "code": "jgo",
+      "english_name": "Ngomba",
+      "native_name": "jgo",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "jqr": {
+      "code": "jqr",
+      "english_name": "Jaqaru",
+      "native_name": "jqr",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "jv": {
+      "code": "jv",
+      "english_name": "Javanese",
+      "native_name": "basa jawa",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "jv-timur",
+          "name": "Jawa Timur"
+        },
+        {
+          "code": "jv-tengah",
+          "name": "Jawa Tengah"
+        },
+        {
+          "code": "jv-kulon",
+          "name": "Jawa Kulon"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "ka": {
+      "code": "ka",
+      "english_name": "Georgian",
+      "native_name": "ქართული",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kaa": {
+      "code": "kaa",
+      "english_name": "Karakalpak",
+      "native_name": "Қарақалпақ",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kab": {
+      "code": "kab",
+      "english_name": "Kabyle",
+      "native_name": "Taqbaylit",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kam": {
+      "code": "kam",
+      "english_name": "Kikamba",
+      "native_name": "kam",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kbd": {
+      "code": "kbd",
+      "english_name": "Kabardian",
+      "native_name": "Адыгэбзэ (Къэбэрдей)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "kbd-RU",
+          "name": "Адыгэбзэ (Къэбэрдей, Кирил, Урысей)"
+        },
+        {
+          "code": "kbd-Cyrl-TR",
+          "name": "Адыгэбзэ (Къэбэрдей, Кирил, Тырку - Doğu Çerkesçesi)"
+        },
+        {
+          "code": "kbd-Latn-TR-t-kbd-cyrl",
+          "name": "Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)"
+        },
+        {
+          "code": "kbd-Cyrl-SY",
+          "name": "Адыгэбзэ (Къэбэрдей, Кирил, Сирие)"
+        },
+        {
+          "code": "kbd-Cyrl-JOR",
+          "name": "Адыгэбзэ (Къэбэрдей, Кирил, Иордание)"
+        },
+        {
+          "code": "kbd-Cyrl",
+          "name": "Адыгэбзэ (Къэбэрдей, Кирил, псоми зэдай)"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "bakhsan",
+          "name": "Бахъсэн (Baksan)"
+        },
+        {
+          "code": "besleney",
+          "name": "Беслъэней (Besleney)"
+        },
+        {
+          "code": "kuban",
+          "name": "Псыжь (Adıgey)"
+        },
+        {
+          "code": "kuban_zelenchuk",
+          "name": "Псыжь-инжыдж (Karaçay-Çerkes)"
+        },
+        {
+          "code": "malka",
+          "name": "Малкэ (Malka)"
+        },
+        {
+          "code": "mozdok",
+          "name": "Мэздэгу (Mozdok)"
+        },
+        {
+          "code": "terek",
+          "name": "Джылэхъстэней (Gilahsteney)"
+        }
+      ]
+    },
+    "kcn": {
+      "code": "kcn",
+      "english_name": "Nubi",
+      "native_name": "kcn",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kdh": {
+      "code": "kdh",
+      "english_name": "Kotokoli",
+      "native_name": "kdh",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "khw": {
+      "code": "khw",
+      "english_name": "Khowar",
+      "native_name": "کھوار",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ki": {
+      "code": "ki",
+      "english_name": "Kikuyu",
+      "native_name": "ki",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kjh": {
+      "code": "kjh",
+      "english_name": "Khakas",
+      "native_name": "kjh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kk": {
+      "code": "kk",
+      "english_name": "Kazakh",
+      "native_name": "Қазақ тілі",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kln": {
+      "code": "kln",
+      "english_name": "Kalenjin",
+      "native_name": "kln",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kls": {
+      "code": "kls",
+      "english_name": "Kalasha",
+      "native_name": "Kalasha",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "km": {
+      "code": "km",
+      "english_name": "Khmer",
+      "native_name": "ខ្មែរ",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kmr": {
+      "code": "kmr",
+      "english_name": "Kurmanji Kurdish",
+      "native_name": "Kurdî (Kurmancî)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kn": {
+      "code": "kn",
+      "english_name": "Kannada",
+      "native_name": "ಕನ್ನಡ",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "knn": {
+      "code": "knn",
+      "english_name": "Konkani (Devanagari)",
+      "native_name": "knn",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ko": {
+      "code": "ko",
+      "english_name": "Korean",
+      "native_name": "한국어",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "koo": {
+      "code": "koo",
+      "english_name": "Konzo",
+      "native_name": "koo",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kpv": {
+      "code": "kpv",
+      "english_name": "Komi-Zyrian",
+      "native_name": "Коми кыв",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "krc": {
+      "code": "krc",
+      "english_name": "Karachay-Balkar",
+      "native_name": "krc",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ks": {
+      "code": "ks",
+      "english_name": "Kashmiri",
+      "native_name": "ks",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ksf": {
+      "code": "ksf",
+      "english_name": "Bafia",
+      "native_name": "ksf",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kvx": {
+      "code": "kvx",
+      "english_name": "Parkari Koli",
+      "native_name": "kvx",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kw": {
+      "code": "kw",
+      "english_name": "Cornish",
+      "native_name": "Kernowek",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kxp": {
+      "code": "kxp",
+      "english_name": "Wadiyara Koli",
+      "native_name": "kxp",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ky": {
+      "code": "ky",
+      "english_name": "Kyrgyz",
+      "native_name": "Кыргызча",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "kzi": {
+      "code": "kzi",
+      "english_name": "Kelabit",
+      "native_name": "kzi",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "laj": {
+      "code": "laj",
+      "english_name": "Lango",
+      "native_name": "laj",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lb": {
+      "code": "lb",
+      "english_name": "Luxembourgish",
+      "native_name": "lb",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "led": {
+      "code": "led",
+      "english_name": "Lendu",
+      "native_name": "led",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "leu": {
+      "code": "leu",
+      "english_name": "Kara",
+      "native_name": "leu",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lg": {
+      "code": "lg",
+      "english_name": "Luganda",
+      "native_name": "Luganda",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lij": {
+      "code": "lij",
+      "english_name": "Ligurian",
+      "native_name": "Ligure",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lke": {
+      "code": "lke",
+      "english_name": "Kenyi",
+      "native_name": "lke",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lld": {
+      "code": "lld",
+      "english_name": "Ladin",
+      "native_name": "lld",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ln": {
+      "code": "ln",
+      "english_name": "Lingala",
+      "native_name": "ln",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lo": {
+      "code": "lo",
+      "english_name": "Lao",
+      "native_name": "ພາສາລາວ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lrk": {
+      "code": "lrk",
+      "english_name": "Loarki",
+      "native_name": "lrk",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lrl": {
+      "code": "lrl",
+      "english_name": "Achomi",
+      "native_name": "lrl",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "lrl-bandari",
+          "name": "بندری"
+        },
+        {
+          "code": "lrl-achomi",
+          "name": "اچومی"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "lss": {
+      "code": "lss",
+      "english_name": "Lassi",
+      "native_name": "لاسي",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lt": {
+      "code": "lt",
+      "english_name": "Lithuanian",
+      "native_name": "Lietuvių",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ltg": {
+      "code": "ltg",
+      "english_name": "Latgalian",
+      "native_name": "Latgalīšu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lth": {
+      "code": "lth",
+      "english_name": "Thur",
+      "native_name": "lth",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lua": {
+      "code": "lua",
+      "english_name": "Tshiluba",
+      "native_name": "lua",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "luo": {
+      "code": "luo",
+      "english_name": "Dholuo",
+      "native_name": "luo",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "luo-milambo",
+          "name": "Dholuo (Milambo)"
+        },
+        {
+          "code": "luo-nyanduat",
+          "name": "Dholuo (Nyanduat)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "lv": {
+      "code": "lv",
+      "english_name": "Latvian",
+      "native_name": "Latviešu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "lzz": {
+      "code": "lzz",
+      "english_name": "Laz",
+      "native_name": "Lazuri",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "lzz-atinuri",
+          "name": "Atinuri, Artaşenuri"
+        },
+        {
+          "code": "lzz-arkaburi",
+          "name": "Vitzuri, Arkaburi"
+        },
+        {
+          "code": "lzz-xopuri",
+          "name": "Xopuri"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "atinuri",
+          "name": "Atina (Pazar)"
+        },
+        {
+          "code": "artaşenuri",
+          "name": "Artaşeni (Ardeşen)"
+        },
+        {
+          "code": "vitzuri",
+          "name": "Vitzi (Fındıklı)"
+        },
+        {
+          "code": "arkaburi",
+          "name": "Arkabi (Arhavi)"
+        },
+        {
+          "code": "xopuri",
+          "name": "Xope (Hopa)"
+        },
+        {
+          "code": "çxaluri",
+          "name": "Çxala (İçkale/Borçka)"
+        },
+        {
+          "code": "beğlevanuri",
+          "name": "Beğlevani (Güreşen)"
+        }
+      ]
+    },
+    "mai": {
+      "code": "mai",
+      "english_name": "Maithili",
+      "native_name": "मैथिली",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mau": {
+      "code": "mau",
+      "english_name": "Huautla Mazatec",
+      "native_name": "mau",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mbf": {
+      "code": "mbf",
+      "english_name": "Baba Malay",
+      "native_name": "mbf",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mbo": {
+      "code": "mbo",
+      "english_name": "Mbo",
+      "native_name": "mbo",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mcf": {
+      "code": "mcf",
+      "english_name": "Matses",
+      "native_name": "mcf",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mcn": {
+      "code": "mcn",
+      "english_name": "Massa",
+      "native_name": "mcn",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mcx": {
+      "code": "mcx",
+      "english_name": "Mpiemo",
+      "native_name": "mcx",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mdd": {
+      "code": "mdd",
+      "english_name": "Mbum",
+      "native_name": "mdd",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mdf": {
+      "code": "mdf",
+      "english_name": "Moksha",
+      "native_name": "Мокшень кяль",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "meh": {
+      "code": "meh",
+      "english_name": "Mixteco Yucuhiti",
+      "native_name": "meh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mel": {
+      "code": "mel",
+      "english_name": "Melanau",
+      "native_name": "mel",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mfe": {
+      "code": "mfe",
+      "english_name": "Kreol Morisien",
+      "native_name": "mfe",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mg": {
+      "code": "mg",
+      "english_name": "Malagasy",
+      "native_name": "mg",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mgg": {
+      "code": "mgg",
+      "english_name": "Kunabembe",
+      "native_name": "mgg",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mhk": {
+      "code": "mhk",
+      "english_name": "Mungaka",
+      "native_name": "mhk",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mhr": {
+      "code": "mhr",
+      "english_name": "Meadow Mari",
+      "native_name": "Марий",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mk": {
+      "code": "mk",
+      "english_name": "Macedonian",
+      "native_name": "Македонски",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mki": {
+      "code": "mki",
+      "english_name": "Dhatki",
+      "native_name": "mki",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ml": {
+      "code": "ml",
+      "english_name": "Malayalam",
+      "native_name": "മലയാളം",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mmc": {
+      "code": "mmc",
+      "english_name": "Michoacán Mazahua",
+      "native_name": "Jñatjo",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mn": {
+      "code": "mn",
+      "english_name": "Mongolian",
+      "native_name": "Монгол хэл",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mni": {
+      "code": "mni",
+      "english_name": "Meetei Lon",
+      "native_name": "ꯃꯤꯇꯩ ꯂꯣꯟ",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mos": {
+      "code": "mos",
+      "english_name": "Mossi",
+      "native_name": "mos",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mqh": {
+      "code": "mqh",
+      "english_name": "Tlazoyaltepec Mixtec",
+      "native_name": "mqh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mr": {
+      "code": "mr",
+      "english_name": "Marathi",
+      "native_name": "मराठी",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mrh": {
+      "code": "mrh",
+      "english_name": "Mara",
+      "native_name": "mrh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mrj": {
+      "code": "mrj",
+      "english_name": "Hill Mari",
+      "native_name": "Кырык мары",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ms": {
+      "code": "ms",
+      "english_name": "Malay",
+      "native_name": "Bahasa Melayu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "ms-standard",
+          "name": "Dialek Standard"
+        },
+        {
+          "code": "ms-dialect",
+          "name": "Dialek Lain"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "mse": {
+      "code": "mse",
+      "english_name": "Moussey",
+      "native_name": "mse",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "msi": {
+      "code": "msi",
+      "english_name": "Sabah Malay",
+      "native_name": "msi",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mt": {
+      "code": "mt",
+      "english_name": "Maltese",
+      "native_name": "Malti",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mua": {
+      "code": "mua",
+      "english_name": "Mundang",
+      "native_name": "mua",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mug": {
+      "code": "mug",
+      "english_name": "Musgum",
+      "native_name": "mug",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mve": {
+      "code": "mve",
+      "english_name": "Marwari",
+      "native_name": "mve",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mvy": {
+      "code": "mvy",
+      "english_name": "Indus Kohistani",
+      "native_name": "اباسیْن کوستَیں",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "mxu": {
+      "code": "mxu",
+      "english_name": "Mada",
+      "native_name": "mxu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "my": {
+      "code": "my",
+      "english_name": "Burmese",
+      "native_name": "ဗမာ",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "myv": {
+      "code": "myv",
+      "english_name": "Erzya",
+      "native_name": "Эрзянь кель",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nan-tw": {
+      "code": "nan-tw",
+      "english_name": "Taiwanese (Minnan)",
+      "native_name": "台語",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "nan-TW-pehoeji",
+          "name": "白話字 (POJ)"
+        },
+        {
+          "code": "nan-TW-tailo",
+          "name": "台羅 (TL)"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "other_county",
+          "name": "出生地：其他"
+        },
+        {
+          "code": "keelung_city",
+          "name": "出生地：基隆市"
+        },
+        {
+          "code": "taipei_city",
+          "name": "出生地：臺北市"
+        },
+        {
+          "code": "taoyuan_city",
+          "name": "出生地：桃園市"
+        },
+        {
+          "code": "new_taipei_city",
+          "name": "出生地：新北市"
+        },
+        {
+          "code": "hsinchu_county",
+          "name": "出生地：新竹縣"
+        },
+        {
+          "code": "hsinchu_city",
+          "name": "出生地：新竹市"
+        },
+        {
+          "code": "miaoli_county",
+          "name": "出生地：苗栗縣"
+        },
+        {
+          "code": "taichung_city",
+          "name": "出生地：臺中市"
+        },
+        {
+          "code": "changhua_county",
+          "name": "出生地：彰化縣"
+        },
+        {
+          "code": "nantou_county",
+          "name": "出生地：南投縣"
+        },
+        {
+          "code": "yunlin_county",
+          "name": "出生地：雲林縣"
+        },
+        {
+          "code": "chiayi_county",
+          "name": "出生地：嘉義縣"
+        },
+        {
+          "code": "chiayi_city",
+          "name": "出生地：嘉義市"
+        },
+        {
+          "code": "tainan_city",
+          "name": "出生地：臺南市"
+        },
+        {
+          "code": "pingtung_county",
+          "name": "出生地：屏東縣"
+        },
+        {
+          "code": "yilan_county",
+          "name": "出生地：宜蘭縣"
+        },
+        {
+          "code": "hualien_county",
+          "name": "出生地：花蓮縣"
+        },
+        {
+          "code": "taitung_county",
+          "name": "出生地：臺東縣"
+        },
+        {
+          "code": "penghu_county",
+          "name": "出生地：澎湖縣"
+        },
+        {
+          "code": "kinmen_county",
+          "name": "出生地：金門縣"
+        },
+        {
+          "code": "lienchiang_county",
+          "name": "出生地：連江縣"
+        }
+      ]
+    },
+    "nb-NO": {
+      "code": "nb-NO",
+      "english_name": "Norwegian Bokmål",
+      "native_name": "Norsk (bokmål)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ncx": {
+      "code": "ncx",
+      "english_name": "Central Puebla Nahuatl",
+      "native_name": "Nahuat",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nd": {
+      "code": "nd",
+      "english_name": "IsiNdebele (North)",
+      "native_name": "nd",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ne-NP": {
+      "code": "ne-NP",
+      "english_name": "Nepali",
+      "native_name": "नेपाली",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "new": {
+      "code": "new",
+      "english_name": "Newari",
+      "native_name": "new",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nhe": {
+      "code": "nhe",
+      "english_name": "Eastern Huasteca Nahuatl",
+      "native_name": "Náhuatl de la Huasteca Oriental",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nhi": {
+      "code": "nhi",
+      "english_name": "Western Sierra Puebla Nahuatl",
+      "native_name": "nhi",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nia": {
+      "code": "nia",
+      "english_name": "Nias",
+      "native_name": "nia",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nl": {
+      "code": "nl",
+      "english_name": "Dutch",
+      "native_name": "Nederlands",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "netherlands",
+          "name": "Nederlands Nederlands"
+        },
+        {
+          "code": "belgium",
+          "name": "Belgisch Nederlands"
+        },
+        {
+          "code": "suriname",
+          "name": "Surinaams Nederlands"
+        },
+        {
+          "code": "france",
+          "name": "Frans Nederlands"
+        },
+        {
+          "code": "germany",
+          "name": "Duits Nederlands"
+        },
+        {
+          "code": "curacao",
+          "name": "Nederlands van Curaçao"
+        },
+        {
+          "code": "aruba",
+          "name": "Nederlands van Aruba"
+        },
+        {
+          "code": "sint_maarten",
+          "name": "Nederlands van Sint-Maarten"
+        },
+        {
+          "code": "south_africa",
+          "name": "Zuid-Afrikaans Nederlands"
+        },
+        {
+          "code": "namibia",
+          "name": "Namibisch Nederlands"
+        },
+        {
+          "code": "indonesia",
+          "name": "Indonesisch Nederlands"
+        }
+      ]
+    },
+    "nla": {
+      "code": "nla",
+      "english_name": "Ngombale",
+      "native_name": "nla",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nlv": {
+      "code": "nlv",
+      "english_name": "Orizaba Nahuatl",
+      "native_name": "Nauatl",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nmg": {
+      "code": "nmg",
+      "english_name": "Kwasio",
+      "native_name": "nmg",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nmz": {
+      "code": "nmz",
+      "english_name": "Losso",
+      "native_name": "nmz",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nn-NO": {
+      "code": "nn-NO",
+      "english_name": "Norwegian Nynorsk",
+      "native_name": "Norsk (nynorsk)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nnh": {
+      "code": "nnh",
+      "english_name": "Ngiembon",
+      "native_name": "nnh",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nqo": {
+      "code": "nqo",
+      "english_name": "NKo",
+      "native_name": "nqo",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nr": {
+      "code": "nr",
+      "english_name": "IsiNdebele (South)",
+      "native_name": "IsiNdebele (Sewula)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nso": {
+      "code": "nso",
+      "english_name": "Northern Sotho",
+      "native_name": "Sesotho sa Leboa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ny": {
+      "code": "ny",
+      "english_name": "Chinyanja",
+      "native_name": "ny",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nyn": {
+      "code": "nyn",
+      "english_name": "Runyankole",
+      "native_name": "nyn",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "nyu": {
+      "code": "nyu",
+      "english_name": "Nyungwe",
+      "native_name": "nyu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "oc": {
+      "code": "oc",
+      "english_name": "Occitan",
+      "native_name": "occitan",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "odk": {
+      "code": "odk",
+      "english_name": "Oadki",
+      "native_name": "odk",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "om": {
+      "code": "om",
+      "english_name": "Afaan Oromo",
+      "native_name": "om",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "or": {
+      "code": "or",
+      "english_name": "Odia",
+      "native_name": "ଓଡ଼ିଆ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "oru": {
+      "code": "oru",
+      "english_name": "Ormuri",
+      "native_name": "اُرمړي",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "os": {
+      "code": "os",
+      "english_name": "Ossetian",
+      "native_name": "Ирон",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pa-IN": {
+      "code": "pa-IN",
+      "english_name": "Punjabi",
+      "native_name": "ਪੰਜਾਬੀ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pap": {
+      "code": "pap",
+      "english_name": "Papiamento",
+      "native_name": "pap",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pap-AW": {
+      "code": "pap-AW",
+      "english_name": "Papiamento (Aruba)",
+      "native_name": "pap-AW",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pau": {
+      "code": "pau",
+      "english_name": "Palauan",
+      "native_name": "pau",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pcd": {
+      "code": "pcd",
+      "english_name": "Picard",
+      "native_name": "pcd",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pcm": {
+      "code": "pcm",
+      "english_name": "Nigerian Pidgin English",
+      "native_name": "pcm",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pez": {
+      "code": "pez",
+      "english_name": "Eastern Penan",
+      "native_name": "pez",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "phl": {
+      "code": "phl",
+      "english_name": "Palula",
+      "native_name": "پالولا",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "phr": {
+      "code": "phr",
+      "english_name": "Pahari-Pothwari",
+      "native_name": "phr",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pl": {
+      "code": "pl",
+      "english_name": "Polish",
+      "native_name": "polski",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "plk": {
+      "code": "plk",
+      "english_name": "Kohistani Shina",
+      "native_name": "کوہستانی شینا",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pne": {
+      "code": "pne",
+      "english_name": "Western Penan",
+      "native_name": "pne",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "prq": {
+      "code": "prq",
+      "english_name": "Asheninka Perene",
+      "native_name": "prq",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ps": {
+      "code": "ps",
+      "english_name": "Pashto",
+      "native_name": "پښتو",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pt": {
+      "code": "pt",
+      "english_name": "Portuguese",
+      "native_name": "Português",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "pt-BR",
+          "name": "Portuguese (Brasil)"
+        },
+        {
+          "code": "pt-PT",
+          "name": "Portuguese (Portugal)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "pua": {
+      "code": "pua",
+      "english_name": "Western Highland Purepecha",
+      "native_name": "pua",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "pwn": {
+      "code": "pwn",
+      "english_name": "Paiwan",
+      "native_name": "pwn",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "pwn-central",
+          "name": "pinayuanan a tjinuvecekadanan (中排灣語)"
+        },
+        {
+          "code": "pwn-eastern",
+          "name": "pinayuanan a kinaikacedasan (東排灣語)"
+        },
+        {
+          "code": "pwn-northern",
+          "name": "pinayuanan a tjinuvirian (北排灣語)"
+        },
+        {
+          "code": "pwn-southern",
+          "name": "pinayuanan a tjinainavaljan (南排灣語)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "quc": {
+      "code": "quc",
+      "english_name": "K'iche'",
+      "native_name": "quc",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qug": {
+      "code": "qug",
+      "english_name": "Quichua Chimborazo Highland",
+      "native_name": "qug",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qup": {
+      "code": "qup",
+      "english_name": "Southern Pastaza Quechua",
+      "native_name": "qup",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qur": {
+      "code": "qur",
+      "english_name": "Quechua Yanahuanca",
+      "native_name": "qur",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qus": {
+      "code": "qus",
+      "english_name": "Quechua Santiago del Estero",
+      "native_name": "qus",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qux": {
+      "code": "qux",
+      "english_name": "Quechua Yauyos",
+      "native_name": "qux",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "quy": {
+      "code": "quy",
+      "english_name": "Quechua Chanka",
+      "native_name": "Quechua Chanka",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qva": {
+      "code": "qva",
+      "english_name": "Quechua Ambo-Pasco",
+      "native_name": "qva",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qvi": {
+      "code": "qvi",
+      "english_name": "Kichwa",
+      "native_name": "qvi",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qvj": {
+      "code": "qvj",
+      "english_name": "Loja Highland Kichwa",
+      "native_name": "qvj",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qvl": {
+      "code": "qvl",
+      "english_name": "Quechua Cajatambo",
+      "native_name": "qvl",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qwa": {
+      "code": "qwa",
+      "english_name": "Quechua Corongo Ancash",
+      "native_name": "qwa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qws": {
+      "code": "qws",
+      "english_name": "Quechua Sihuas Ancash",
+      "native_name": "qws",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qxa": {
+      "code": "qxa",
+      "english_name": "Quechua Chiquián",
+      "native_name": "qxa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qxp": {
+      "code": "qxp",
+      "english_name": "Puno Quechua",
+      "native_name": "Punu qhichwa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qxq": {
+      "code": "qxq",
+      "english_name": "Qashqai",
+      "native_name": "qxq",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "qxq-farsq",
+          "name": "قشقایی فارس"
+        },
+        {
+          "code": "qxq-firuzabad",
+          "name": "قشقایی فیروزآباد"
+        },
+        {
+          "code": "qxq-semirom",
+          "name": "قشقایی سمیرم"
+        },
+        {
+          "code": "qxq-tribal",
+          "name": "قشقایی ایلی"
+        },
+        {
+          "code": "qxq-haftkel",
+          "name": "قشقایی هَفتگِل"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "qxt": {
+      "code": "qxt",
+      "english_name": "Quechua Pasco Santa Ana de Tusi",
+      "native_name": "qxt",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qxu": {
+      "code": "qxu",
+      "english_name": "Quechua Arequipa-La Unión",
+      "native_name": "qxu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "qxw": {
+      "code": "qxw",
+      "english_name": "Quechua Jauja Wanka",
+      "native_name": "qxw",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rif": {
+      "code": "rif",
+      "english_name": "Tarifit",
+      "native_name": "rif",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rm-sursilv": {
+      "code": "rm-sursilv",
+      "english_name": "Romansh Sursilvan",
+      "native_name": "romontsch sursilvan",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rm-vallader": {
+      "code": "rm-vallader",
+      "english_name": "Romansh Vallader",
+      "native_name": "Rumantsch vallader",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rn": {
+      "code": "rn",
+      "english_name": "Kirundi",
+      "native_name": "rn",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ro": {
+      "code": "ro",
+      "english_name": "Romanian",
+      "native_name": "Română",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "ro-RO",
+          "name": "Romanian-Romania"
+        },
+        {
+          "code": "ro-MD",
+          "name": "Romanian-Moldova"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "ro-muntenia",
+          "name": "Muntenesc"
+        },
+        {
+          "code": "ro-maramu",
+          "name": "Maramureșean"
+        },
+        {
+          "code": "ro-crisana",
+          "name": "Crișean"
+        },
+        {
+          "code": "ro-banat",
+          "name": "Bănățean"
+        },
+        {
+          "code": "ro-transilv",
+          "name": "Transilvănean"
+        },
+        {
+          "code": "ro-moldova",
+          "name": "Moldovenesc"
+        },
+        {
+          "code": "ro-oltenia",
+          "name": "Oltenesc"
+        }
+      ]
+    },
+    "rof": {
+      "code": "rof",
+      "english_name": "Kirombo",
+      "native_name": "rof",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ru": {
+      "code": "ru",
+      "english_name": "Russian",
+      "native_name": "Русский",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ruc": {
+      "code": "ruc",
+      "english_name": "Ruuli",
+      "native_name": "ruc",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rup": {
+      "code": "rup",
+      "english_name": "Aromanian",
+      "native_name": "rup",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rw": {
+      "code": "rw",
+      "english_name": "Kinyarwanda",
+      "native_name": "Ikinyarwanda",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "rwm": {
+      "code": "rwm",
+      "english_name": "Amba",
+      "native_name": "rwm",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sah": {
+      "code": "sah",
+      "english_name": "Sakha",
+      "native_name": "Саха тыла",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sat": {
+      "code": "sat",
+      "english_name": "Santali (Ol Chiki)",
+      "native_name": "ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sba": {
+      "code": "sba",
+      "english_name": "Ngambay",
+      "native_name": "sba",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sbn": {
+      "code": "sbn",
+      "english_name": "Sindhi Bhil",
+      "native_name": "sbn",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sc": {
+      "code": "sc",
+      "english_name": "Sardinian",
+      "native_name": "Sardu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "scl": {
+      "code": "scl",
+      "english_name": "Shina",
+      "native_name": "شِینا",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "scn": {
+      "code": "scn",
+      "english_name": "Sicilian",
+      "native_name": "Sicilianu",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sco": {
+      "code": "sco",
+      "english_name": "Scots",
+      "native_name": "sco",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sd": {
+      "code": "sd",
+      "english_name": "Sindhi",
+      "native_name": "sd",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sdh": {
+      "code": "sdh",
+      "english_name": "Southern Kurdish",
+      "native_name": "sdh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sdo": {
+      "code": "sdo",
+      "english_name": "Serian Bidayuh",
+      "native_name": "sdo",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "seh": {
+      "code": "seh",
+      "english_name": "Sena",
+      "native_name": "seh",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sei": {
+      "code": "sei",
+      "english_name": "Seri",
+      "native_name": "sei",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "shi": {
+      "code": "shi",
+      "english_name": "Tashlhiyt",
+      "native_name": "shi",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "shn": {
+      "code": "shn",
+      "english_name": "Shan",
+      "native_name": "shn",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "si": {
+      "code": "si",
+      "english_name": "Sinhala",
+      "native_name": "සිංහල",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sk": {
+      "code": "sk",
+      "english_name": "Slovak",
+      "native_name": "Slovenčina",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "skr": {
+      "code": "skr",
+      "english_name": "Saraiki",
+      "native_name": "سرائیکی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sl": {
+      "code": "sl",
+      "english_name": "Slovenian",
+      "native_name": "slovenščina",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sn": {
+      "code": "sn",
+      "english_name": "Shona",
+      "native_name": "sn",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "snk": {
+      "code": "snk",
+      "english_name": "Soninke",
+      "native_name": "snk",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "snv": {
+      "code": "snv",
+      "english_name": "",
+      "native_name": "snv",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "so": {
+      "code": "so",
+      "english_name": "Somali",
+      "native_name": "so",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sq": {
+      "code": "sq",
+      "english_name": "Albanian",
+      "native_name": "Shqip",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sr": {
+      "code": "sr",
+      "english_name": "Serbian",
+      "native_name": "Српски",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ss": {
+      "code": "ss",
+      "english_name": "Siswati",
+      "native_name": "Siswati",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ssi": {
+      "code": "ssi",
+      "english_name": "Sansi",
+      "native_name": "ssi",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "st": {
+      "code": "st",
+      "english_name": "Southern Sotho",
+      "native_name": "Sesotho sa Borwa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "su": {
+      "code": "su",
+      "english_name": "Sundanese",
+      "native_name": "Basa Sunda",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sv-SE": {
+      "code": "sv-SE",
+      "english_name": "Swedish",
+      "native_name": "Svenska",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "sva": {
+      "code": "sva",
+      "english_name": "Svan",
+      "native_name": "ლუშნუ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "sva-upperbal",
+          "name": "ლჷჟა̄ბუ"
+        },
+        {
+          "code": "sva-lowerbal",
+          "name": "ლუჩვაბურუ"
+        },
+        {
+          "code": "sva-lashkh",
+          "name": "ლჷლა̄შხუ"
+        },
+        {
+          "code": "sva-lentekh",
+          "name": "ლჷლტეხუ"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "ushgul",
+          "name": "ლჷჟა̄ბუ, უშგულ"
+        },
+        {
+          "code": "mestia",
+          "name": "ლჷჟა̄ბუ, მესტია"
+        },
+        {
+          "code": "ipari",
+          "name": "ლჷჟა̄ბუ, იფა̄̈რ"
+        },
+        {
+          "code": "upperbaldali",
+          "name": "ლჷჟა̄ბუ, და̈ლ"
+        },
+        {
+          "code": "latali",
+          "name": "ლჷჟა̄ბუ, ლატლი"
+        },
+        {
+          "code": "kala",
+          "name": "ლჷჟა̄ბუ, კა̄ლ"
+        },
+        {
+          "code": "becho",
+          "name": "ლუჩვაბურუ, ბეჩვი"
+        },
+        {
+          "code": "lenjeri",
+          "name": "ლჷჟა̄ბუ, ლენჯა̄̈რ"
+        },
+        {
+          "code": "etseri",
+          "name": "ლუჩვაბურუ, ჰეცერ"
+        },
+        {
+          "code": "tskhumari",
+          "name": "ლუჩვაბურუ, ცხჷმა̈რ"
+        },
+        {
+          "code": "pari",
+          "name": "ლუჩვაბურუ, ფა̈რ"
+        },
+        {
+          "code": "lakhamula",
+          "name": "ლუჩვაბურუ, ლახმჷლ"
+        },
+        {
+          "code": "chubekhevi",
+          "name": "ლუჩვაბურუ, ჩვიბეჴევ"
+        },
+        {
+          "code": "lowerbaldali",
+          "name": "ლუჩვაბურუ, და̈ლ"
+        },
+        {
+          "code": "zhakhunderi",
+          "name": "ლჷლა̄შხუ, ჟახუნდერ"
+        },
+        {
+          "code": "chikhareshi",
+          "name": "ლჷლა̄შხუ, ჩიხარეშ"
+        },
+        {
+          "code": "tsana",
+          "name": "ლჷლა̄შხუ, ცა̄ნ"
+        },
+        {
+          "code": "lentekhi",
+          "name": "ლჷლტეხუ, ლენტხა"
+        },
+        {
+          "code": "kheledi",
+          "name": "ლჷლტეხუ, ჴელედ"
+        },
+        {
+          "code": "khopuri",
+          "name": "ლჷლტეხუ, ხოფურ"
+        },
+        {
+          "code": "rtskhmeluri",
+          "name": "ლჷლტეხუ, რცხმელურ"
+        },
+        {
+          "code": "choluri",
+          "name": "ლჷლტეხუ, ჩოლურ"
+        }
+      ]
+    },
+    "sw": {
+      "code": "sw",
+      "english_name": "Swahili",
+      "native_name": "Kiswahili",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "sw-sanifu",
+          "name": "Kiswahili Sanifu (EA)"
+        },
+        {
+          "code": "sw-barake",
+          "name": "Kiswahili cha Bara ya Kenya"
+        },
+        {
+          "code": "sw-baratz",
+          "name": "Kiswahili cha Bara ya Tanzania"
+        },
+        {
+          "code": "sw-kingwana",
+          "name": "Kingwana (DRC)"
+        },
+        {
+          "code": "sw-kimvita",
+          "name": "Kimvita (KE) - Central dialect"
+        },
+        {
+          "code": "sw-kibajuni",
+          "name": "Kibajuni (KE) - Northern dialect"
+        },
+        {
+          "code": "sw-kimrima",
+          "name": "Kimrima (TZ) - Northern dialect"
+        },
+        {
+          "code": "sw-kiunguja",
+          "name": "Kiunguja (TZ) - Southern dialect"
+        },
+        {
+          "code": "sw-kipemba",
+          "name": "Kipemba (TZ) - Southern dialect"
+        },
+        {
+          "code": "sw-kikae",
+          "name": "Kimakunduchi/Kikae (TZ) - Southern dialect"
+        },
+        {
+          "code": "sw-katanga",
+          "name": "Katanga (DRC)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "syr": {
+      "code": "syr",
+      "english_name": "Syriac",
+      "native_name": "ܣܘܪܝܝܐ",
+      "text_direction": "RTL",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "szy": {
+      "code": "szy",
+      "english_name": "Sakizaya",
+      "native_name": "Sakizaya",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ta": {
+      "code": "ta",
+      "english_name": "Tamil",
+      "native_name": "தமிழ்",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tar": {
+      "code": "tar",
+      "english_name": "Central Tarahumara",
+      "native_name": "Rarámuri",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tay": {
+      "code": "tay",
+      "english_name": "Atayal",
+      "native_name": "Atayal",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "tay-squliq",
+          "name": "keʼ na Squliq Tayal (賽考利克泰雅語)"
+        },
+        {
+          "code": "tay-ciuli",
+          "name": "kay na Sʼuli Tayan (澤敖利泰雅語)"
+        },
+        {
+          "code": "tay-klesan",
+          "name": "keʼ na Cʼoli Klesan Tayal (宜蘭澤敖利泰雅語)"
+        },
+        {
+          "code": "tay-cquliq",
+          "name": "ke na Cquliq Tayal (四季泰雅語)"
+        },
+        {
+          "code": "tay-pingawan",
+          "name": "keʼ na Pingawan (萬大泰雅語)"
+        },
+        {
+          "code": "tay-matuuwal",
+          "name": "kayiʼ na Matuʼuwal (汶水泰雅語)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "te": {
+      "code": "te",
+      "english_name": "Telugu",
+      "native_name": "తెలుగు",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "teg": {
+      "code": "teg",
+      "english_name": "Teke",
+      "native_name": "teg",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tg": {
+      "code": "tg",
+      "english_name": "Tajik",
+      "native_name": "Тоҷикӣ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "th": {
+      "code": "th",
+      "english_name": "Thai",
+      "native_name": "ไทย",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ti": {
+      "code": "ti",
+      "english_name": "Tigrinya",
+      "native_name": "ትግርኛ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tig": {
+      "code": "tig",
+      "english_name": "Tigre",
+      "native_name": "ትግረ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tk": {
+      "code": "tk",
+      "english_name": "Turkmen",
+      "native_name": "Türkmençe",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tl": {
+      "code": "tl",
+      "english_name": "Tagalog",
+      "native_name": "Tagalog",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tli": {
+      "code": "tli",
+      "english_name": "Tlingit",
+      "native_name": "tli",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tn": {
+      "code": "tn",
+      "english_name": "Setswana",
+      "native_name": "Setswana",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "tn-central",
+          "name": "Central Setswana (Sehurutshe, Sengwaketse, Serolong)"
+        },
+        {
+          "code": "tn-eastern",
+          "name": "Eastern Setswana (Sekgatla, Setlokwa)"
+        },
+        {
+          "code": "tn-northern",
+          "name": "Northern Setswana (Sengwato, Setawana, Sekwena, Selete)"
+        },
+        {
+          "code": "tn-southern",
+          "name": "Southern Setswana (Setlhaping, Setlharo)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "tob": {
+      "code": "tob",
+      "english_name": "Toba Qom",
+      "native_name": "tob",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tok": {
+      "code": "tok",
+      "english_name": "Toki Pona",
+      "native_name": "toki pona",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "top": {
+      "code": "top",
+      "english_name": "Papantla Totonac",
+      "native_name": "top",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tr": {
+      "code": "tr",
+      "english_name": "Turkish",
+      "native_name": "Türkçe",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "trv": {
+      "code": "trv",
+      "english_name": "Seediq",
+      "native_name": "trv",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "trv-tgdaya",
+          "name": "Kari Seediq Tgdaya (德固達雅賽德克語)"
+        },
+        {
+          "code": "trv-teuda",
+          "name": "Kari Sediq Toda (都達賽德克語)"
+        },
+        {
+          "code": "trv-truku",
+          "name": "Kari Seejiq Truku (德鹿谷賽德克語)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "trw": {
+      "code": "trw",
+      "english_name": "Torwali",
+      "native_name": "توروالی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ts": {
+      "code": "ts",
+      "english_name": "Xitsonga",
+      "native_name": "Xitsonga",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tt": {
+      "code": "tt",
+      "english_name": "Tatar",
+      "native_name": "Татар",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ttj": {
+      "code": "ttj",
+      "english_name": "Rutoro",
+      "native_name": "ttj",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tui": {
+      "code": "tui",
+      "english_name": "Tupuri",
+      "native_name": "t'pur",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "tui-bangwere",
+          "name": "Ɓaŋwere (Tupuri Bangwere)"
+        },
+        {
+          "code": "tui-banggo",
+          "name": "Ɓaŋgɔ̀ (Tupuri Banggo)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "tum": {
+      "code": "tum",
+      "english_name": "Tumbuka",
+      "native_name": "tum",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tuq": {
+      "code": "tuq",
+      "english_name": "Tudaga",
+      "native_name": "tuq",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tvu": {
+      "code": "tvu",
+      "english_name": "Tunen",
+      "native_name": "tvu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "tvu-ndikini",
+          "name": "Tunen (Ndikinimeki)"
+        },
+        {
+          "code": "tvu-fombo",
+          "name": "Tunen (Fɔ̀mbɔ́)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "tw": {
+      "code": "tw",
+      "english_name": "Twi",
+      "native_name": "Twi",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ty": {
+      "code": "ty",
+      "english_name": "Tahitian",
+      "native_name": "ty",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "tyv": {
+      "code": "tyv",
+      "english_name": "Tuvan",
+      "native_name": "Тыва дыл",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "uby": {
+      "code": "uby",
+      "english_name": "Ubykh",
+      "native_name": "uby",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "udl": {
+      "code": "udl",
+      "english_name": "Ouldémé",
+      "native_name": "udl",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "udm": {
+      "code": "udm",
+      "english_name": "Udmurt",
+      "native_name": "udm",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ug": {
+      "code": "ug",
+      "english_name": "Uyghur",
+      "native_name": "ئۇيغۇرچە",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "ug-Arab",
+          "name": "ئۇيغۇر تىلى"
+        },
+        {
+          "code": "ug-Cyrl",
+          "name": "Уйғур тили"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "uk": {
+      "code": "uk",
+      "english_name": "Ukrainian",
+      "native_name": "Українська",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ukv": {
+      "code": "ukv",
+      "english_name": "Kuku",
+      "native_name": "ukv",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ur": {
+      "code": "ur",
+      "english_name": "Urdu",
+      "native_name": "اردو",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ush": {
+      "code": "ush",
+      "english_name": "Ushojo",
+      "native_name": "ush",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "usp": {
+      "code": "usp",
+      "english_name": "Uspanteko",
+      "native_name": "usp",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "uz": {
+      "code": "uz",
+      "english_name": "Uzbek",
+      "native_name": "O‘zbek",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "var": {
+      "code": "var",
+      "english_name": "Huarijio",
+      "native_name": "Makurawe",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "var-sierra",
+          "name": "Warihío (Guarijío de la sierra)"
+        },
+        {
+          "code": "var-delrio",
+          "name": "Makurawe (Guarijío del río)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "ve": {
+      "code": "ve",
+      "english_name": "Tshivenda",
+      "native_name": "Tshivenḓa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "vec": {
+      "code": "vec",
+      "english_name": "Venetian",
+      "native_name": "Vèneto",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "vi": {
+      "code": "vi",
+      "english_name": "Vietnamese",
+      "native_name": "Việt",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [
+        {
+          "code": "vi-hanoi",
+          "name": "Hà Nội"
+        },
+        {
+          "code": "vi-huett",
+          "name": "Huế"
+        },
+        {
+          "code": "vi-saigon",
+          "name": "Sài Gòn"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "vmw": {
+      "code": "vmw",
+      "english_name": "Emakhuwa",
+      "native_name": "Emakhuwa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "vot": {
+      "code": "vot",
+      "english_name": "Votic",
+      "native_name": "vad̕d̕a",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "wbl": {
+      "code": "wbl",
+      "english_name": "Wakhi",
+      "native_name": "Wakhi (Wuk̃hikwor)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "wep": {
+      "code": "wep",
+      "english_name": "Westphalian",
+      "native_name": "wep",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "wes": {
+      "code": "wes",
+      "english_name": "Cameroon Pidgin",
+      "native_name": "wes",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "wo": {
+      "code": "wo",
+      "english_name": "Wolof",
+      "native_name": "Wolof",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "xdq": {
+      "code": "xdq",
+      "english_name": "Kaitag",
+      "native_name": "xdq",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "xh": {
+      "code": "xh",
+      "english_name": "Xhosa",
+      "native_name": "IsiXhosa",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "xhe": {
+      "code": "xhe",
+      "english_name": "Khetrani",
+      "native_name": "کھیترانی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "xka": {
+      "code": "xka",
+      "english_name": "Kalkoti",
+      "native_name": "کلکوٹی",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "xkl": {
+      "code": "xkl",
+      "english_name": "Kenyah",
+      "native_name": "xkl",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "xmf": {
+      "code": "xmf",
+      "english_name": "Mingrelian",
+      "native_name": "მარგალური",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [
+        {
+          "code": "xmf-zugdid",
+          "name": "ზუგიდური"
+        },
+        {
+          "code": "xmf-samurz",
+          "name": "სამურზაყანოული"
+        },
+        {
+          "code": "xmf-senmar",
+          "name": " სენაკურ-მარტვილური"
+        }
+      ],
+      "predefined_accents": [
+        {
+          "code": "senak",
+          "name": "სენაკურ-მარტვილური, სენაკური"
+        },
+        {
+          "code": "bandza",
+          "name": "სენაკურ-მარტვილური, ბანძა-მარტვილური"
+        },
+        {
+          "code": "jvar",
+          "name": "ზუგიდური, ჯვარული"
+        },
+        {
+          "code": "zugid",
+          "name": "ზუგიდური, ზუგიდური"
+        },
+        {
+          "code": "martv",
+          "name": "სენაკურ-მარტვილური, მარტვილური"
+        },
+        {
+          "code": "chkhor",
+          "name": "სენაკურ-მარტვილური, ჩხოროწყული"
+        }
+      ]
+    },
+    "xsm": {
+      "code": "xsm",
+      "english_name": "Kasem",
+      "native_name": "xsm",
+      "text_direction": "LTR",
+      "is_contributable": 0,
+      "is_translated": 0,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "yaq": {
+      "code": "yaq",
+      "english_name": "Yaqui",
+      "native_name": "Jiak noki",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "yav": {
+      "code": "yav",
+      "english_name": "Nuasue",
+      "native_name": "yav",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "ydg": {
+      "code": "ydg",
+      "english_name": "Yadgha",
+      "native_name": "ydg",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "yi": {
+      "code": "yi",
+      "english_name": "Yiddish",
+      "native_name": "אידיש",
+      "text_direction": "RTL",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "yo": {
+      "code": "yo",
+      "english_name": "Yoruba",
+      "native_name": "Yòrùbá",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "yue": {
+      "code": "yue",
+      "english_name": "Cantonese",
+      "native_name": "粵語",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "zgh": {
+      "code": "zgh",
+      "english_name": "Tamazight",
+      "native_name": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 2000,
+      "variants": [
+        {
+          "code": "zgh-shi",
+          "name": "ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)"
+        },
+        {
+          "code": "zgh-tzm",
+          "name": "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)"
+        },
+        {
+          "code": "zgh-rif",
+          "name": "ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)"
+        }
+      ],
+      "predefined_accents": []
+    },
+    "zh-CN": {
+      "code": "zh-CN",
+      "english_name": "Chinese (China)",
+      "native_name": "汉语（中国大陆）",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "110000",
+          "name": "出生地：11 北京市"
+        },
+        {
+          "code": "120000",
+          "name": "出生地：12 天津市"
+        },
+        {
+          "code": "130000",
+          "name": "出生地：13 河北省"
+        },
+        {
+          "code": "140000",
+          "name": "出生地：14 山西省"
+        },
+        {
+          "code": "150000",
+          "name": "出生地：15 内蒙古自治区"
+        },
+        {
+          "code": "210000",
+          "name": "出生地：21 辽宁省"
+        },
+        {
+          "code": "220000",
+          "name": "出生地：22 吉林省"
+        },
+        {
+          "code": "230000",
+          "name": "出生地：23 黑龙江省"
+        },
+        {
+          "code": "310000",
+          "name": "出生地：31 上海市"
+        },
+        {
+          "code": "320000",
+          "name": "出生地：32 江苏省"
+        },
+        {
+          "code": "330000",
+          "name": "出生地：33 浙江省"
+        },
+        {
+          "code": "340000",
+          "name": "出生地：34 安徽省"
+        },
+        {
+          "code": "350000",
+          "name": "出生地：35 福建省"
+        },
+        {
+          "code": "360000",
+          "name": "出生地：36 江西省"
+        },
+        {
+          "code": "370000",
+          "name": "出生地：37 山东省"
+        },
+        {
+          "code": "410000",
+          "name": "出生地：41 河南省"
+        },
+        {
+          "code": "420000",
+          "name": "出生地：42 湖北省"
+        },
+        {
+          "code": "430000",
+          "name": "出生地：43 湖南省"
+        },
+        {
+          "code": "440000",
+          "name": "出生地：44 广东省"
+        },
+        {
+          "code": "450000",
+          "name": "出生地：45 广西壮族自治区"
+        },
+        {
+          "code": "460000",
+          "name": "出生地：46 海南省"
+        },
+        {
+          "code": "500000",
+          "name": "出生地：50 重庆市"
+        },
+        {
+          "code": "510000",
+          "name": "出生地：51 四川省"
+        },
+        {
+          "code": "520000",
+          "name": "出生地：52 贵州省"
+        },
+        {
+          "code": "530000",
+          "name": "出生地：53 云南省"
+        },
+        {
+          "code": "540000",
+          "name": "出生地：54 西藏自治区"
+        },
+        {
+          "code": "610000",
+          "name": "出生地：61 陕西省"
+        },
+        {
+          "code": "620000",
+          "name": "出生地：62 甘肃省"
+        },
+        {
+          "code": "630000",
+          "name": "出生地：63 青海省"
+        },
+        {
+          "code": "640000",
+          "name": "出生地：64 宁夏回族自治区"
+        },
+        {
+          "code": "650000",
+          "name": "出生地：65 新疆维吾尔自治区"
+        },
+        {
+          "code": "710000",
+          "name": "出生地：71 台湾省"
+        },
+        {
+          "code": "810000",
+          "name": "出生地：81 香港特别行政区"
+        },
+        {
+          "code": "820000",
+          "name": "出生地：82 澳门特别行政区"
+        }
+      ]
+    },
+    "zh-HK": {
+      "code": "zh-HK",
+      "english_name": "Chinese (Hong Kong)",
+      "native_name": "中文（香港）",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "zh-TW": {
+      "code": "zh-TW",
+      "english_name": "Chinese (Taiwan)",
+      "native_name": "華語（台灣）",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": [
+        {
+          "code": "keelung_city",
+          "name": "出生地：基隆市"
+        },
+        {
+          "code": "taipei_city",
+          "name": "出生地：臺北市"
+        },
+        {
+          "code": "new_taipei_city",
+          "name": "出生地：新北市"
+        },
+        {
+          "code": "taoyuan_city",
+          "name": "出生地：桃園市"
+        },
+        {
+          "code": "hsinchu_county",
+          "name": "出生地：新竹縣"
+        },
+        {
+          "code": "hsinchu_city",
+          "name": "出生地：新竹市"
+        },
+        {
+          "code": "miaoli_county",
+          "name": "出生地：苗栗縣"
+        },
+        {
+          "code": "taichung_city",
+          "name": "出生地：臺中市"
+        },
+        {
+          "code": "changhua_county",
+          "name": "出生地：彰化縣"
+        },
+        {
+          "code": "nantou_county",
+          "name": "出生地：南投縣"
+        },
+        {
+          "code": "yunlin_county",
+          "name": "出生地：雲林縣"
+        },
+        {
+          "code": "chiayi_county",
+          "name": "出生地：嘉義縣"
+        },
+        {
+          "code": "chiayi_city",
+          "name": "出生地：嘉義市"
+        },
+        {
+          "code": "tainan_city",
+          "name": "出生地：臺南市"
+        },
+        {
+          "code": "kaohsiung_city",
+          "name": "出生地：高雄市"
+        },
+        {
+          "code": "pingtung_county",
+          "name": "出生地：屏東縣"
+        },
+        {
+          "code": "yilan_county",
+          "name": "出生地：宜蘭縣"
+        },
+        {
+          "code": "hualien_county",
+          "name": "出生地：花蓮縣"
+        },
+        {
+          "code": "taitung_county",
+          "name": "出生地：臺東縣"
+        },
+        {
+          "code": "penghu_county",
+          "name": "出生地：澎湖縣"
+        },
+        {
+          "code": "kinmen_county",
+          "name": "出生地：金門縣"
+        },
+        {
+          "code": "lienchiang_county",
+          "name": "出生地：連江縣"
+        },
+        {
+          "code": "hong_kong",
+          "name": "香港"
+        }
+      ]
+    },
+    "zoc": {
+      "code": "zoc",
+      "english_name": "Copainalá Zoque",
+      "native_name": "zoc",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "zu": {
+      "code": "zu",
+      "english_name": "Zulu",
+      "native_name": "Zulu",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 750,
+      "variants": [],
+      "predefined_accents": []
+    },
+    "zza": {
+      "code": "zza",
+      "english_name": "Zaza",
+      "native_name": "Kurdkî (Zazakî)",
+      "text_direction": "LTR",
+      "is_contributable": 1,
+      "is_translated": 1,
+      "target_sentence_count": 5000,
+      "variants": [],
+      "predefined_accents": []
+    }
+  },
+  "sps_locales": [
+    "aat",
+    "ady",
+    "aln",
+    "an",
+    "ba",
+    "bas",
+    "bew",
+    "br",
+    "brx",
+    "bsy",
+    "bxk",
+    "ca",
+    "cdo",
+    "cgg",
+    "cpx",
+    "cy",
+    "da",
+    "de",
+    "el-CY",
+    "en",
+    "eo",
+    "es",
+    "fr",
+    "fy-NL",
+    "ga-IE",
+    "gl",
+    "gsw",
+    "gv",
+    "hac",
+    "hch",
+    "hr",
+    "hu",
+    "jv",
+    "ka",
+    "kbd",
+    "kcn",
+    "koo",
+    "kzi",
+    "laj",
+    "led",
+    "lij",
+    "lke",
+    "lth",
+    "lv",
+    "mbf",
+    "meh",
+    "mel",
+    "mmc",
+    "mrh",
+    "ms-MY",
+    "msi",
+    "nhi",
+    "nl",
+    "pez",
+    "pne",
+    "ps",
+    "qxp",
+    "rki",
+    "ru",
+    "ruc",
+    "rwm",
+    "sco",
+    "sdo",
+    "seh",
+    "shi",
+    "si",
+    "sn",
+    "snv",
+    "su",
+    "th",
+    "tob",
+    "top",
+    "tr",
+    "tt",
+    "ttj",
+    "tuq",
+    "ukv",
+    "ush",
+    "xkl"
+  ]
+}
