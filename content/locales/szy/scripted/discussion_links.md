@@ -1,0 +1,2 @@
+- [Discourse 討論區](https://discourse.mozilla.org/c/voice/zh-tw/286)
+- [相關新聞](https://hackmd.io/@moztw/common-voice-news)

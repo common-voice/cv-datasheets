@@ -1,0 +1,1 @@
+According to [Ethnoloque online](https://www.ethnologue.com/language/bba/) Baatonum is a language of wider communication that originated in Benin and Nigeria. It belongs to the Niger-Congo language family. Direct evidence is lacking, but the language is thought to be used as a first language by all in the ethnic community. It is taught as a subject of instruction in education.

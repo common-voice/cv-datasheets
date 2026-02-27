@@ -1,0 +1,1 @@
+Adja (Aja) is a Gbe language  spoken in Benin, Gabon, Ghana, Nigeria and Togo by 1M+ people. It is part of the Kwa branch of the Niger-Congo family. The language is used in daily communication, oral literature, and traditional expressions.

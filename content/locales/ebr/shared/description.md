@@ -1,0 +1,1 @@
+[Ethnologue online](https://www.ethnologue.com/language/ebr/) describes Ebrie also known as Tchaman or Tyaman as a stable indigenous language of Côte d’Ivoire that belongs to the Niger-Congo language family.

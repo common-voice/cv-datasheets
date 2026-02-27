@@ -1,59 +1,91 @@
 # cv-datasheets
-Datasheets are documents that can be offered to help make datasets more valuable to the developers, researchers or other people who use the dataset. We're working with the [Common Voice](https://commonvoice.mozilla.org/) language communities to support the creation of a [datasheet](https://en.wikipedia.org/wiki/Datasheet) for each of the languages in the Common Voice dataset.
+
+Datasheets are documents that describe each language dataset in [Common Voice](https://commonvoice.mozilla.org/). This repository maintains **templates, community-written content, and metadata** that are compiled into a single JSON file consumed by the bundler pipeline at release time.
+
+## How it works
+
+```txt
+API snapshot ──────┐
+templates/        ─┤
+content/locales/  ─┤── compile_datasheets.py ──> releases/datasheets-{version}.json
+metadata/         ─┘                                       │
+                                                    Bundler fills {{KEY}} with live stats
+                                                           │
+                                                    README.md per locale in dataset tar
+```
+
+For details on the compile-time vs runtime split, Jinja2 role, and bundler integration, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ## Community contribution
-The Common Voice team believes that language communities are the experts that should should steer the direction of their languages on Common Voice. We're asking members of the hundreds of language communities across Common Voice to help create datasheets for your language(s), because you're going to be the best qualified to describe the features of your language(s).
 
-**Example datasheet:** The datasheet for [Norsk Nynorsk — Norwegian Nynorsk (nn-NO)](https://github.com/common-voice/cv-datasheets/blob/main/cv-corpus/scs/23.0-2025-09-17/final/en/nn-NO.md) can be a helpful guide to what kind of information to include in a new datasheet. Information on the amount of recorded hours for this dataset, validated hours and demographics in this dataset are automatically generated.
+Language communities are the experts on their languages. We ask community members to contribute datasheet content for their language(s) via Pull Requests.
 
-As Common Voice Scripted Speech and Spontanous Speech are seperate datasets, seperate datasheets will need to be created for languages that collect data in both of these modes.
+1. Look at `content/_template/` for the directory structure, file list, and field types
+2. Look at `content/_example/` for a filled-in reference (fictional Klingon locale)
+3. Create or edit files under `content/locales/{your-locale-code}/`
+4. Submit a Pull Request
 
-Right now, the information needed to generate new datasheets can be submitted via a Google Form or via a Pull Request on this GitHub repository. If you haven't used GitHub before, we recommend following the instructions below to submit a datasheet for your language via Google form.
+Datasheets can also be submitted via Google Forms or email. For the full contributor guide, directory structure, additive vs descriptive field rules, and form links, see [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
-If you can't access the Google form or the GitHub contribution process, please email the Common Voice team at commonvoice@mozilla.com for support.
+Want to have the datasheet in your own language? See [How to Add a Translated Datasheet](docs/CONTRIBUTING.md#how-to-add-a-translated-datasheet).
 
+## Repository structure
 
-
-### Via a form
-To add a new datasheet for your language in either the Scripted Speech or Spontaneous Speech, please click the appropriate link below and follow the instructions in the form.
-
-Currently these forms are available in English and Spanish.
-
-**Scripted/Read Speech:**
-
-* (`en`) [MCV Datasheet: Scripted speech](https://docs.google.com/forms/d/e/1FAIpQLSc5QnmXd7MrfPd375RZ2YFh-Z3I_BGAf7e2cTD2h5xtWV8klQ/viewform?usp=dialog)
-* (`es`) [MCV Datasheet: Habla leída](https://docs.google.com/forms/d/e/1FAIpQLSdk1IITzjpjrXKKLyHhzb5d0VoGvNNbscBywqJZf1BnBcf7Pw/viewform?usp=dialog)
-
-**Spontaneous Speech:**
-
-* (`en`) [MCV Datasheet: Spontaneous speech](https://docs.google.com/forms/d/e/1FAIpQLSfYI6CXK97boZ951gb3l2ysl77Hnyyi8qeSagXAlB1v32adqQ/viewform?usp=dialog)
-* (`es`) [MCV Datasheet: Habla espontánea](https://docs.google.com/forms/d/e/1FAIpQLSdhHHYqgj1x6Cki8OYCHjVr3l3KmahBfcWvOgF70B6gV1jfbw/viewform?usp=dialog)
-  
-### Directly on GitHub
-
-1. **Fork and Clone:** Start by forking this repository and then cloning your fork to your local machine.
-2. **Locate your Language Datasheet:** Navigate to the appropriate directory:
-    * [scs/](https://github.com/common-voice/cv-datasheets/tree/main/cv-corpus/scs/23.0-2025-09-17/draft/) for **Scripted Speech** datasheets.
-    * [sps/](https://github.com/common-voice/cv-datasheets/tree/main/cv-corpus/sps/23.0-2025-09-17/draft/) for **Spontaneous Speech** datasheets. 
-3. **Edit the Draft:** Open the draft `.md` file of your language. Follow the pointers and descriptions in the file's comments to add all required information.
-4. **Submit a Pull Request:** Commint your changes to your fork project and open a pull request to add your language `.md` datasheet in the main repository. 
-
-* **Alternative Method (Email):** If you are unable to use GitHub, you may download the draft file, edit it locally, and email the completed `.md` file to <commonvoice@mozilla.com>.
-
-Please note that fields marked **OPTIONAL** in the guidance comments don't need to be completed as part of your datasheet submission. Fields marked **AUTOMATICALLY GENERATED** in the guidance comments will be generated by our systems and you can skip these sections.
-
-## Internal process
-The instructions below are for use by the Common Voice team. Community members contributing datasets don't need to worry about this section.
-
-* The draft datasheets are generated from a template + the language metadata
-* The draft datasheets are then given to community members to edit and adapt
-* The editted datasheets that we receive back are added to the repository in the final/ directory 
-
-# Scripts
-
-**Usage:**
-
-Generate the draft datasheets:
-
+```txt
+cv-datasheets/
+├── templates/                  Jinja2 templates
+│   ├── base.md.j2                Shared skeleton
+│   ├── scripted.md.j2            SCS child template
+│   ├── spontaneous.md.j2         SPS child template
+│   ├── i18n/                     Section title translations (auto-discovered)
+│   └── _legacy/                  Old plain markdown templates (reference)
+│
+├── content/                    Community content
+│   ├── _field_map.json           Field-to-bundler-key mapping
+│   ├── _defaults/                Fallback content per template language
+│   ├── _template/                Empty file structure for contributors
+│   ├── _example/                 Filled-in example (Klingon)
+│   └── locales/{code}/           Per-locale content (shared/, scripted/, spontaneous/)
+│
+├── metadata/                   Static data files
+│   ├── api-snapshots/            Timestamped API snapshots (language names, variants, accents)
+│   ├── locale-extras.json        Locales not in API (el-CY, ms-MY)
+│   ├── template-languages.json   Non-"en" template overrides
+│   └── funding.tsv               OMSF-funded locales
+│
+├── scripts/                    Utilities
+│   ├── fetch_api_metadata.py     Fetch SCS + SPS API -> snapshot
+│   └── extract_community_data.py One-time extraction from legacy datasheets
+│
+├── compile_datasheets.py       Main compile script
+├── schema/                     JSON Schema for output validation
+├── docs/                       Documentation
+│   ├── ARCHITECTURE.md           System design and bundler integration
+│   ├── CONTRIBUTING.md           Community contribution guide
+│   └── COMPILING.md              Compile script usage and release workflow
+│
+├── releases/                   Compiled output (datasheets-{version}.json)
+│
+└── _legacy/                    Deprecated scripts, metadata, and generated datasheets
 ```
-python3 generate_datasheet.py metadata/metadata.tsv metadata/datasheet-languages.tsv 23.0-2025-09-17 cv-corpus 
+
+## Quick start
+
+Fetch a fresh API snapshot and compile:
+
+```bash
+python3 scripts/fetch_api_metadata.py
+python3 compile_datasheets.py 24.0-2025-12-05 \
+    --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
+    --pretty
 ```
+
+Compare against a previous release:
+
+```bash
+python3 compile_datasheets.py 24.0-2025-12-05 \
+    --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
+    --diff releases/datasheets-23.0-2025-09-05.json --pretty
+```
+
+For all options and the release workflow, see [docs/COMPILING.md](docs/COMPILING.md).

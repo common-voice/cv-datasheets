@@ -1,0 +1,1 @@
+Gheg Albanian (/ɡɛɡ/) is an Albanian dialect group spoken in northern and central Albania, Kosovo, northwestern North Macedonia, southeastern Montenegro, southern Serbia and southwestern Croatia. Identified by the ISO 639-3 code aln, it belongs to the Indo-European language family. There are estimated to be around four million speakers. There is no widely accepted writing system.

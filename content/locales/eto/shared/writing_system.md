@@ -1,0 +1,1 @@
+The writing system used in the collection of sentence prompts for read speech in this dataset is based on Latin characters with casual tone marking. It reflects the writing system introduced by early missionaries through literature in Ewondo.

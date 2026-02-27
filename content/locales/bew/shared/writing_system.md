@@ -1,0 +1,1 @@
+Historically, this language used Pegon, Arabic script, but now Latin is adapted.The writing system in this dataset uses general Latin script, but involves allophone variants of three /e/, these are /é/, /è/, and /e/.

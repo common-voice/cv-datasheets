@@ -1,0 +1,1 @@
+The Sindhi corpus is written in the Perso-Arabic script, which is the standard script used by Sindhi newspapers in Pakistan. It includes additional letters that represent Sindhi-specific sounds not found in standard Arabic.

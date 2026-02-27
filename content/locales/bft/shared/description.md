@@ -1,0 +1,1 @@
+Balti is known as the lingua franca in Baltistan, the Northern Areas of Pakistan.  It is spoken in the four districts of Baltistan Division: Skardu, Ghanche, Shigar, Kharmang and some parts of Round District of Gilgit Baltistan.  It is spoken by Eight Lac people.

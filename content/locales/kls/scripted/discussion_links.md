@@ -1,0 +1,1 @@
+Mozilla foundation, Facebook, Instagram

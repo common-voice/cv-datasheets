@@ -1,0 +1,1 @@
+Bafut is a Grassfield-Bantu language that belongs to the Ring group, alongside Pinyin, Mankon, Nkwen, Awing, Bambili, Menchum, Babanki, Veŋo, Bamunka, and Wushi. It is spoken in the Mezam and Menchum divisions of the Northwest Region of Cameroon.

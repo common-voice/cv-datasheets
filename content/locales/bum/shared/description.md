@@ -1,0 +1,1 @@
+Bulu is identified as a language by [Ethnologue](https://www.ethnologue.com/language/bum/) and a dialect by Breton and Bikia Fohtung (1991) and Binam Bikoi (2012). Whatever be the case, Bulu is indigenous to a population presently inhabiting the Ntem, Dja-and-Lobo, and Ocean Divisions in the South Region of Cameroon.

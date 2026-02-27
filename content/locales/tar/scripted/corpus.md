@@ -1,0 +1,1 @@
+Los textos son del diccionario de Brambila (1976) y unos pocos de la gramática de Brambila (1953)   revisados y modificados  (normalizados) por hablantes de Norogachi para la variación histórica.  Longitud media de palabras es 5, y la media de  caracteres es 24.

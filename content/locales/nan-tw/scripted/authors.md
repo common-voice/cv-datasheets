@@ -1,0 +1,2 @@
+- Irvin Chen (MozTW 社群聯絡人) <irvin@moztw.org>
+- Dennis Chen (Common Voice Community Facilitator, Wikimedia Taiwan) <dennis@wikimedia.tw>

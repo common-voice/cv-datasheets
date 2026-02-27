@@ -1,0 +1,1 @@
+Para realizar el trabajo de habla espontanea, se usaron textos ya publicados, dos tesis, una de maestría y una de doctorado, cinco cuentos en manuscrito y un poema. Se validaron aproximadamente 11,000 frases. La mayor parte de las frases validadas provienen de las dos tesis.

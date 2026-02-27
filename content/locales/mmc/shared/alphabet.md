@@ -1,0 +1,1 @@
+Para esta propuesta de alfabeto, se retomará el sugerido por la Universidad Intercultural del Estado de México expuesto en la tesis de Gloria Vargas Bernal (2013). Se tiene la visión de hacerlo más específico en el caso de los tonos.

@@ -1,0 +1,1 @@
+Hazargi is the language of Hazara people who live in Pakistan, Afghanistan, Iran, Europe, Australia and America. It contains 32 alphabets and the script is in Arabic with some additional characters which are Hazargi based.

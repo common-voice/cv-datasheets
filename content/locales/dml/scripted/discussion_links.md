@@ -1,0 +1,1 @@
+There are no formal online forums or blogs for discussions related to the dataset. Instead, most of the discussion and coordination took place in the WhatsApp group “Anjuman Taraqi Damyan Basha”, where community members exchanged ideas, shared poetry, cultural materials, and contributed to decisions during the dataset creation process.

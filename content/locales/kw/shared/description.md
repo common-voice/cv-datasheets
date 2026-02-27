@@ -1,0 +1,1 @@
+Cornish, or Kernewek, is a Brythonic language, alongside Breton and Welsh, and part of the Celtic Indo-European language family. It is an indigenous language of the United Kingdom, with most speakers located in Cornwall. In the 2021 UK Census 567 people self-identified Cornish as their main language. UNESCO has classified its status as "severely endangered".

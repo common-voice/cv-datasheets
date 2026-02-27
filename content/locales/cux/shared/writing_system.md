@@ -1,0 +1,1 @@
+El cuicateco no cuenta con un sistema de escritura normalizado, por lo que las propuestas emergentes dentro de cada comunidad varían ligeramente entre ellas, aún dentro de la misma comunidad. Esto se refleja en el presente corpus en algunas inconsistencias en la marcación del tono o nasalización para algunas palabras.

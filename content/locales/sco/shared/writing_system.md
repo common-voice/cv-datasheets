@@ -1,0 +1,1 @@
+Present day Scots has no written standard and orthographic conventions vary both within and between the different dialects being represented. For example, *can’t* may be *cannae* or *canny* in Edinburgh, but *canna* in Aberdeen. For these transcriptions, we have followed protocols documented in previous research e.g. https://scotssyntaxatlas.ac.uk

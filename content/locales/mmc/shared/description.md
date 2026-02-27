@@ -1,0 +1,2 @@
+La variante de Michoacán de mazahua o ‘Jñatjo’ es hablada en el norte Michoacán, México.  Las tenencias donde se habla esta variante son Crescencio Morales, Boca de la Cañada, Rincón de San Mateo, El Tigre, La Barranca, La Dieta, La Fundición, Macho de Agua y Río de Guadalupe. Pertenece a la familia lingüística otomangue, subrama otopameana-central.
+Los datos obtenidos para este corpus de datos provienen de la tenencia de Crescencio Morales, ubicado en el municipio de Zitácuaro.

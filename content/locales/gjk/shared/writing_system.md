@@ -1,0 +1,1 @@
+Arabic Persian script

@@ -1,0 +1,1 @@
+The Dawoodi language is one of the rarest and most endangered languages of northern Pakistan. It is spoken by the Dawoodi community, a small ethnic group mainly found in the Hunza and Gilgit regions of Gilgit-Baltistan.

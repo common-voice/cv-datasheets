@@ -1,0 +1,1 @@
+El promedio de palabras por oración es de 4.5. El corpus se compone principalmente por oraciones creadas por los participantes sobre temas generales y cotidianos. Incluye ítems de la elicitación gramatical del Archivo de Lenguas Indígenas de México.

@@ -1,0 +1,1 @@
+The corpus originates from a Brahui book. Sentences and short texts were created from the book and then spoken by native speakers for recording. Thus, the primary source is written Brahui material adapted into spoken form.

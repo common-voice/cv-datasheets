@@ -1,0 +1,1 @@
+- El texto se creo a partir tanto de la traducción de español a cuicateco como directamente en cuicateco. El registro de varios autores se realizó en una hoja de cálculo. Posteriormente se realizó una homogeneización de los caracteres. Algunas divergencias ortográficas por autor se mantuvieron.

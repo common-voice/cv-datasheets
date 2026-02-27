@@ -1,0 +1,1 @@
+Indus Kohistani is an Indo-Aryan language spoken in District Lower Kohistan, Upper Kohistan, Gilgit Baltistan and other parts of Pakistan. There are few books written and published in this language. It is mainly a verbal language but currently young generation has started this language at social media platform and started to write in it.

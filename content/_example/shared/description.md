@@ -1,0 +1,1 @@
+Klingon (tlhIngan Hol) is a constructed language created by Marc Okrand for the Star Trek franchise. It has a small but dedicated community of speakers worldwide who use the language for everyday communication, literature, and cultural events. The Klingon Language Institute (KLI) serves as the primary hub for language preservation and education.

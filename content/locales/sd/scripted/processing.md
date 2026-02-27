@@ -1,0 +1,1 @@
+The corpus was created by collecting texts from different Sindhi newspapers. The articles were gathered, cleaned to remove formatting issues, and then organized into a structured dataset for analysis.

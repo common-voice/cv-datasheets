@@ -1,4 +1,16 @@
+# IDEs
 .idea/
 .vscode/
+
+# AI coding assistants
+.claude/
+.copilot/
+
+# Developer local
+.local/
+.dev/
+
+# Python
+.venv/
 __pycache__/*
 */__pycache__/*

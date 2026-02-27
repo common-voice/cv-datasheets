@@ -1,0 +1,1 @@
+Mushtaq Mughul Ali Toorani Jawad Khawari Raziq Kohzad Mustafa Elkhani  Shawkat shaoor Hussain Ali Yosufi Aziz Fayaz Qadir Nayil Yaseen Zameer Loyaqath Ajiz Manzoor poya T. Malistani Amir Shah Haidri Farhad Zahidi Doc Zaibul Nisa

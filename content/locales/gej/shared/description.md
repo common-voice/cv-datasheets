@@ -1,0 +1,1 @@
+Mina (also called Gen, Gɛn gbe, Popo) is a Gbe language spoken primarily in southern Togo (Maritime Region) and in southern Benin (Mono Department). It is part of the Kwa branch of the Niger-Congo family. The language is used in daily communication, religious contexts, oral literature, and traditional expressions.

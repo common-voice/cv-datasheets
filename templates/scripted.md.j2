@@ -1,0 +1,77 @@
+{# scripted.md.j2 — Scripted Speech (SCS) datasheet template #}
+{% extends "base.md.j2" %}
+
+{% block variants %}
+### {{ i18n.title_variants }}
+
+{{ community.variants }}
+
+{{ auto.variant_stats }}
+
+### {{ i18n.title_predefined_accents }}
+
+{{ community.predefined_accents }}
+
+{{ auto.accent_stats }}
+
+{% endblock %}
+
+{% block corpus_details %}
+## {{ i18n.title_text_corpus }}
+
+{{ community.text_corpus }}
+
+{{ auto.text_corpus_stats }}
+
+### {{ i18n.title_writing_system }}
+
+{{ community.writing_system }}
+
+#### {{ i18n.title_symbol_table }}
+
+{{ community.alphabet }}
+
+### {{ i18n.title_sample }}
+
+{{ i18n.sample_intro }}
+
+{{ auto.sentences_sample }}
+
+### {{ i18n.title_sources }}
+
+{{ community.sources }}
+
+{{ auto.sources_stats }}
+
+### {{ i18n.title_text_domains }}
+
+{{ community.text_domain }}
+
+{{ auto.text_domain_stats }}
+
+### {{ i18n.title_processing }}
+
+{{ community.processing }}
+
+{% endblock %}
+
+{% block postprocessing %}
+### {{ i18n.title_postprocessing }}
+
+{{ community.postprocessing }}
+
+{% endblock %}
+
+{% block fields_section %}
+{% if i18n.scs_fields_list %}
+### {{ i18n.title_fields }}
+
+{{ i18n.fields_intro }}
+
+{{ i18n.scs_fields_list }}
+
+####
+
+{{ i18n.footnote_demographics }}
+{% endif %}
+{% endblock %}

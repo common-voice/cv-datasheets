@@ -1,0 +1,1 @@
+Contributors to this dataset reported two Mokpwe variants: Upper-Mokpwe, spoken in Buea, and Lower-Mokpwe, spoken in Bimbia. The sentence prompts used for read speech in the compilation of this dataset represent the Upper Mokpwe variety.

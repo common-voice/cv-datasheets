@@ -1,0 +1,1 @@
+Dhatki is a regional Indo-Aryan language, mainly spoken in Sindh (Pakistan) and Rajasthan (India). It is very close to Sindhi and Rajasthani, written in different scripts depending on the region, and mostly used in daily conversation, folk songs, and local stories.

@@ -1,0 +1,1 @@
+The recordings were collected from native kate  speakers, then manually transcribed. Background noise and silence were removed, and irrelevant parts were excluded. The text was checked for accuracy and aligned with the corresponding audio segments

@@ -1,0 +1,1 @@
+The writing system uses the Latin script in general, but with some combinations of consonants that serve to represent the specific sounds of the language as ny, dz, jh, pf, bz, ng', ps, sv, ts, dh and bh.

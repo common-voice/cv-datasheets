@@ -1,0 +1,1 @@
+Sindhi (سنڌي) is an Indo-Aryan language spoken mainly in Sindh, Pakistan, and also in India. It has millions of speakers, a rich literary history, and is written in both Perso-Arabic and Devanagari scripts.

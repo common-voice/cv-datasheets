@@ -1,0 +1,83 @@
+{# spontaneous.md.j2 — Spontaneous Speech (SPS) datasheet template #}
+{% extends "base.md.j2" %}
+
+{% block variants %}
+### {{ i18n.title_variants }}
+
+{{ community.variants }}
+
+{{ auto.variant_stats }}
+
+### {{ i18n.title_predefined_accents }}
+
+{{ community.predefined_accents }}
+
+{{ auto.accent_stats }}
+
+{% endblock %}
+
+{% block demographics %}
+{{ i18n.sps_demographics_notice }}
+
+{% endblock %}
+
+{% block corpus_details %}
+## {{ i18n.title_transcriptions }}
+
+{{ community.transcriptions }}
+
+{{ auto.transcription_stats }}
+
+### {{ i18n.title_writing_system }}
+
+{{ community.writing_system }}
+
+#### {{ i18n.title_symbol_table }}
+
+{{ community.alphabet }}
+
+#### {{ i18n.title_extralinguistic_tags }}
+
+{% endblock %}
+
+{% block samples %}
+### {{ i18n.title_samples }}
+
+#### {{ i18n.title_questions }}
+
+{{ i18n.questions_intro }}
+
+{{ auto.questions_sample }}
+
+#### {{ i18n.title_responses }}
+
+{{ i18n.responses_intro }}
+
+{{ auto.transcriptions_sample }}
+
+{% endblock %}
+
+{% block postprocessing %}
+### {{ i18n.title_postprocessing }}
+
+{{ community.postprocessing }}
+
+{% endblock %}
+
+{% block fields_section %}
+{% if i18n.sps_fields_list %}
+### {{ i18n.title_fields }}
+
+{{ i18n.fields_intro }}
+
+{{ i18n.sps_fields_list }}
+
+####
+
+{{ i18n.footnote_demographics }}
+{% endif %}
+{% endblock %}
+
+{% block extra_contribute %}
+{{ i18n.sps_contribute_links }}
+{% endblock %}

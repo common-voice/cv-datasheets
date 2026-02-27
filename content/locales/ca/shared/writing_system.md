@@ -1,0 +1,1 @@
+Catalan is written using the Latin alphabet (abcdefghijklmnopqrstuvwxyz), with the special characters *ç* and *l·l*. In addition, vowels can be accented (à, è, é, í, ò, ó, ú, ü, ï). The characters *-* (hyphen) and *'* (apostrophe) are also part of Catalan orthography.

@@ -1,0 +1,1 @@
+The process involved collecting texts, stories, and proverbs through community-based audio recordings. These recordings were transcribed, and selected sentences were curated for inclusion in the Common Voice dataset. The finalized dataset was then uploaded and subsequently recorded by multiple speakers.

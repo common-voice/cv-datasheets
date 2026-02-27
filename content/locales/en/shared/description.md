@@ -1,0 +1,1 @@
+English is a West Germanic language with origins in England. There are an estimated 1.5 billion English speakers, making it the most widely spoken language in the world. English is commonly learned as a second language in many countries.

@@ -1,0 +1,1 @@
+Shina language is one of the major languages of Gilgit Baltistan Pakistan. It's spoken in Gilgit, Astore, Chilas, Kohistan and some areas in Sakrdu Baltistan. It is also spoken in some areas of India. Gilgiti and Astori dialects are considered to be its major dialects. The dialect spoken in Gilgit is known as the main and standard dialect.

@@ -1,0 +1,1 @@
+Klingon is most commonly written using a Latin-based romanization system devised by Marc Okrand, which uses case-sensitive letter combinations (e.g. `tlh`, `gh`, `ng`). An alternative native script (pIqaD) exists but is less commonly used in digital contexts.

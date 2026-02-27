@@ -1,0 +1,1 @@
+The Dhatki corpus used in this project consists of original sentences written by the researcher. Unlike other collections that rely on religious texts or folk stories, this corpus is self-constructed (Rishi Parkash) to represent natural and everyday usage of Dhatki.

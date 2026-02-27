@@ -1,0 +1,1 @@
+Eastern Balochi is a Northwestern Iranian language spoken by the Baloch people, primarily in eastern Balochistan (Pakistan), as well as in parts of Punjab and Sindh. It is one of the major dialects of Balochi and has significant mutual intelligibility with Western and Southern Balochi. Around 2 million people speak Eastern Balochi.

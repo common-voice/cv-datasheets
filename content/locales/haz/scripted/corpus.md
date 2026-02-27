@@ -1,0 +1,1 @@
+As mentioned before that there has not been enough work on Hazargi so I tried to gather different books from the people around, arranged them and made the dataset. I gathered some 19 Hazargi books which are in different contexts like poems, folk stories, history and literature, the word count is around 893,112.
