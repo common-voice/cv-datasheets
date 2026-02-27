@@ -8,21 +8,23 @@ the files you want to contribute.
 
 Fields marked with `+` are **additive** — extend them, do not replace previous
 content. Fields marked with `~` are **descriptive** — can be rewritten freely.
+Fields marked with `*` are **mergeable** — the final datasheet shows both your
+content and auto-generated statistics from the bundler.
 
 ```txt
 content/locales/{locale}/
   shared/              # Language-level fields (shared across SCS and SPS)
   ~ description.md       # About the language
-  ~ variants.md          # Dialect / regional variants
-  ~ predefined_accents.md # Speaker accent options
+  *~ variants.md         # Dialect / regional variants
+  *~ predefined_accents.md # Speaker accent options
   ~ writing_system.md    # Writing system description
   ~ alphabet.md          # Symbol table / alphabet list
   + community_links.md   # Links to community resources
 
   scripted/            # Scripted Speech (SCS) only
-  + corpus.md            # Description of the text corpus (append new sources)
-  + sources.md           # Sources of the text corpus
-  + text_domain.md       # Text domain descriptions
+  *~ corpus.md           # Description of the text corpus
+  *+ sources.md          # Sources of the text corpus
+  *~ text_domain.md      # Text domain descriptions
   ~ processing.md        # Text processing applied to the corpus
   ~ postprocessing.md    # Recommended post-processing steps
   + discussion_links.md  # Discussion forum / chat links
@@ -32,7 +34,7 @@ content/locales/{locale}/
   + funding.md           # Funding information (only if non-OMSF or additional)
 
   spontaneous/         # Spontaneous Speech (SPS) only
-  ~ transcriptions.md    # Description of the transcription process
+  *~ transcriptions.md   # Description of the transcription process
   ~ postprocessing.md    # Recommended post-processing steps
   + discussion_links.md  # Discussion forum / chat links
   + contribute_links.md  # Links to contribute (only if non-standard)
@@ -57,6 +59,10 @@ Examples of additive content:
 **Descriptive (`~`)** fields describe the current state of the language or
 process. These can be rewritten or improved freely — they represent the latest
 understanding, not a historical record.
+
+**Mergeable (`*`)** fields also show auto-generated statistics from the bundler
+below your content in the final datasheet. Each mergeable field is still either
+additive (`*+`) or descriptive (`*~`) — follow the same edit rules above.
 
 ## Guidelines
 
