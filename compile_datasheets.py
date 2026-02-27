@@ -73,28 +73,6 @@ OMSF_FUNDING_TEXT = {
     ),
 }
 
-# Auto-generated variant intro per template language — used when no
-# community variants.md exists but the API has variant data.
-VARIANTS_INTRO_TEXT = {
-    "en": (
-        "The following regional variants are available for speakers "
-        "to self-identify:"
-    ),
-    "es": (
-        "Las siguientes variantes regionales están disponibles para "
-        "la autoidentificación:"
-    ),
-}
-
-# Auto-generated predefined accent intro per template language — same
-# pattern as variants, for predefined_accents from API.
-ACCENTS_INTRO_TEXT = {
-    "en": "Speakers may self-report the following accents when contributing:",
-    "es": (
-        "Los hablantes pueden indicar los siguientes acentos al contribuir:"
-    ),
-}
-
 # Auto-generated field placeholders (filled by bundler, not community)
 AUTO_FIELDS = {
     "gender_table": "GENDER_TABLE",
@@ -168,22 +146,6 @@ def load_api_snapshot(path: Path) -> dict:
             print(f"    + {merged} from locale-extras.json")
 
     return data
-
-
-def format_api_list(items: list[dict], intro: str) -> str:
-    """
-    Format a list of API items (variants or predefined accents) as
-    markdown bullet list.
-
-    Each item must have 'code' and 'name' keys.
-    Returns empty string if items list is empty.
-    """
-    if not items:
-        return ""
-    lines = [intro, ""]
-    for item in items:
-        lines.append(f"* **{item['name']}** (`{item['code']}`)")
-    return "\n".join(lines)
 
 
 def load_metadata(
@@ -415,15 +377,12 @@ def load_community_fields(
     field_map: dict,
     modality_fields: list[str],
     funder: str = "",
-    api_locale_data: dict | None = None,
 ) -> dict[str, str]:
     """
     Load all community fields for a locale using the fallback chain.
 
     Auto-injection rules (only when no community content exists):
     - funding: OMSF boilerplate if locale is OMSF-funded
-    - variants: formatted list from API snapshot if locale has variants
-    - predefined_accents: formatted list from API snapshot if locale has accents
 
     Returns: { bundler_key: content } for each field valid in this modality.
     """
@@ -442,32 +401,6 @@ def load_community_fields(
         if field_name == "funding" and not content and funder == "omsf":
             content = OMSF_FUNDING_TEXT.get(
                 template_lang, OMSF_FUNDING_TEXT["en"]
-            )
-
-        # Auto-generate variants from API data
-        if (
-            field_name == "variants"
-            and not content
-            and api_locale_data
-            and api_locale_data.get("variants")
-        ):
-            intro = VARIANTS_INTRO_TEXT.get(
-                template_lang, VARIANTS_INTRO_TEXT["en"]
-            )
-            content = format_api_list(api_locale_data["variants"], intro)
-
-        # Auto-generate predefined accents from API data
-        if (
-            field_name == "predefined_accents"
-            and not content
-            and api_locale_data
-            and api_locale_data.get("predefined_accents")
-        ):
-            intro = ACCENTS_INTRO_TEXT.get(
-                template_lang, ACCENTS_INTRO_TEXT["en"]
-            )
-            content = format_api_list(
-                api_locale_data["predefined_accents"], intro
             )
 
         fields[info["key"]] = content
@@ -567,7 +500,6 @@ def compile_datasheets(
                 field_map,
                 valid_fields,
                 funder=funder,
-                api_locale_data=api_locale_data,
             )
 
             has_community = any(v for v in community_fields.values())
