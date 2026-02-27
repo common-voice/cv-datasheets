@@ -28,20 +28,54 @@ Jinja2 runs **at compile time only** inside this repository. It resolves templat
 
 1. `base.md.j2` defines the shared skeleton (header, demographics, links, licence)
 2. `scripted.md.j2` and `spontaneous.md.j2` extend the base with modality-specific blocks
-3. The compile script renders each child template with placeholder values:
-   - `{{ stats.clips }}` outputs literal `{{CLIPS}}`
-   - `{{ community.description }}` outputs literal `{{LANGUAGE_DESCRIPTION}}`
+3. The compile script renders each child template with placeholder values from three namespaces:
+   - `stats.*` -- title/header fields (`{{ stats.native_name }}` -> `{{NATIVE_NAME}}`)
+   - `auto.*` -- bundler-generated tables and blocks (`{{ auto.gender_table }}` -> `{{GENDER_TABLE}}`)
+   - `community.*` -- community content fields (`{{ community.description }}` -> `{{LANGUAGE_DESCRIPTION}}`)
+   - `i18n.*` -- literal i18n text with optional `{variable}` -> `{{KEY}}` conversion
    - `{% block %}` / `{% extends %}` are resolved (inheritance flattened)
 4. Result: flat markdown with `{{KEY}}` markers -- same format the bundler already consumes
+
+## Inline Variables in i18n Strings
+
+Some i18n strings contain `{variable}` placeholders that reference bundler statistics (sentence counts, clip counts, durations). At compile time, `render_inline_vars()` converts these to `{{KEY}}` bundler markers.
+
+Example: `"The dataset contains {validated_clips} validated clips"` becomes `"The dataset contains {{VALIDATED_CLIPS}} validated clips"` in the compiled template.
+
+The mapping is defined in `INLINE_VAR_MAP` in `compile_datasheets.py`. All i18n string values are processed through this conversion -- not just header intros.
+
+Available inline variables:
+
+| Variable                  | Bundler key             | Description                   |
+| ------------------------- | ----------------------- | ----------------------------- |
+| `{version}`               | `VERSION`               | Release version               |
+| `{english_name}`          | `ENGLISH_NAME`          | Language name in English      |
+| `{locale}`                | `LOCALE`                | Locale code                   |
+| `{clips}`                 | `CLIPS`                 | Total clips                   |
+| `{hours_recorded}`        | `HOURS_RECORDED`        | Hours of recorded speech      |
+| `{hours_validated}`       | `HOURS_VALIDATED`       | Hours of validated speech     |
+| `{speakers}`              | `SPEAKERS`              | Number of speakers            |
+| `{total_sentences}`       | `TOTAL_SENTENCES`       | Total sentences in corpus     |
+| `{avg_duration_secs}`     | `AVG_DURATION_SECS`     | Average clip duration         |
+| `{validated_clips}`       | `VALIDATED_CLIPS`       | Validated clip count          |
+| `{invalidated_clips}`     | `INVALIDATED_CLIPS`     | Invalidated clip count        |
+| `{other_clips}`           | `OTHER_CLIPS`           | Unresolved clip count         |
+| `{validated_sentences}`   | `VALIDATED_SENTENCES`   | Validated sentence count      |
+| `{unvalidated_sentences}` | `UNVALIDATED_SENTENCES` | Unvalidated sentence count    |
+| `{rejected_sentences}`    | `REJECTED_SENTENCES`    | Rejected sentence count       |
+| `{pending_sentences}`     | `PENDING_SENTENCES`     | Pending review sentence count |
+| `{reported_sentences}`    | `REPORTED_SENTENCES`    | Reported sentence count       |
+
+i18n strings that use these variables: `header_intro_scs`, `header_intro_sps`, `data_splits_detail`, `text_corpus_detail`.
 
 ## API Snapshot
 
 Language metadata comes from a snapshot of the Common Voice APIs, fetched by `scripts/fetch_api_metadata.py`:
 
-| Source | Endpoint | Data |
-| --- | --- | --- |
-| SCS languagedata | `/api/v1/languagedata` | Names, text direction, variants, predefined accents, contributable status |
-| SPS locales | `/spontaneous-speech/beta/api/v1/locales` | Contributable SPS locale codes |
+| Source           | Endpoint                                  | Data                                                                      |
+| ---------------- | ----------------------------------------- | ------------------------------------------------------------------------- |
+| SCS languagedata | `/api/v1/languagedata`                    | Names, text direction, variants, predefined accents, contributable status |
+| SPS locales      | `/spontaneous-speech/beta/api/v1/locales` | Contributable SPS locale codes                                            |
 
 The snapshot is stored in `metadata/api-snapshots/languagedata-{YYYYMMDD}.json` and passed to the compile script via `--api-snapshot`.
 
@@ -53,11 +87,11 @@ The snapshot is stored in `metadata/api-snapshots/languagedata-{YYYYMMDD}.json` 
 
 The compile script auto-generates content from API data when no community file exists:
 
-| Field | Source | Condition |
-| --- | --- | --- |
-| `funding_description` | OMSF funding text | Locale in `funding.tsv`, no `funding.md` in content |
-| `contribute_links_list` | Standard Speak/Write/Listen/Review links | No `contribute_links.md` in content |
-| `community_links_list` | Pontoon translators link | No `community_links.md` in content |
+| Field                   | Source                                   | Condition                                           |
+| ----------------------- | ---------------------------------------- | --------------------------------------------------- |
+| `funding_description`   | OMSF funding text                        | Locale in `funding.tsv`, no `funding.md` in content |
+| `contribute_links_list` | Standard Speak/Write/Listen/Review links | No `contribute_links.md` in content                 |
+| `community_links_list`  | Pontoon translators link                 | No `community_links.md` in content                  |
 
 Community content always takes precedence over auto-generated defaults.
 
@@ -126,13 +160,14 @@ It then:
 
 ## What Goes Where
 
-| Content type | Handled by | Bundler sees |
-| --- | --- | --- |
-| Community-written content | compile_datasheets.py | Filled `community_fields` values |
-| API-derived names & direction | compile_datasheets.py (API snapshot) | `metadata.native_name`, `metadata.english_name`, `metadata.text_direction` |
-| Auto-generated variants/accents | compile_datasheets.py (API data) | Pre-filled in `community_fields` |
-| Pontoon / contribute link defaults | compile_datasheets.py (`_defaults/`) | Pre-filled in `community_fields` |
-| OMSF funding | compile_datasheets.py (`metadata/funding.tsv`) | Pre-filled `funding_description` |
-| Auto-generated stats (clips, hours, demographics) | Bundler at runtime | `{{KEY}}` placeholders in template |
-| Sentence/question samples | Bundler at runtime | `{{KEY}}` placeholders in template |
-| Mergeable field stats (corpus, sources, domains, variants, accents, transcriptions) | Bundler at runtime | `{{KEY}}` placeholders adjacent to community fields |
+| Content type                                                                        | Handled by                                     | Bundler sees                                                               |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
+| Community-written content                                                           | compile_datasheets.py                          | Filled `community_fields` values                                           |
+| API-derived names & direction                                                       | compile_datasheets.py (API snapshot)           | `metadata.native_name`, `metadata.english_name`, `metadata.text_direction` |
+| Pontoon / contribute link defaults                                                  | compile_datasheets.py (`_defaults/`)           | Pre-filled in `community_fields`                                           |
+| OMSF funding                                                                        | compile_datasheets.py (`metadata/funding.tsv`) | Pre-filled `funding_description`                                           |
+| Auto-generated stats (clips, hours, demographics)                                   | Bundler at runtime                             | `{{KEY}}` placeholders in template                                         |
+| Inline stats (sentence counts, split counts, durations)                             | Bundler at runtime                             | `{{KEY}}` placeholders inside i18n text                                    |
+| Sentence/question samples                                                           | Bundler at runtime                             | `{{KEY}}` placeholders in template                                         |
+| Data splits table (SCS only)                                                        | Bundler at runtime                             | `{{DATA_SPLITS_TABLE}}` placeholder in template                            |
+| Mergeable field stats (corpus, sources, domains, variants, accents, transcriptions) | Bundler at runtime                             | `{{KEY}}` placeholders adjacent to community fields                        |

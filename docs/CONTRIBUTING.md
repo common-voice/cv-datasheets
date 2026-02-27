@@ -168,11 +168,11 @@ Use the English file as the reference for the complete list of keys. All shared 
 
 Existing translations:
 
-| File         | Language            | Coverage             |
-| ------------ | ------------------- | -------------------- |
-| `en.json`    | English             | Complete (SCS + SPS) |
-| `es.json`    | Spanish             | Complete (SCS + SPS) |
-| `zh-TW.json` | Traditional Chinese | SCS only             |
+| File         | Language            | Keys | Coverage             |
+| ------------ | ------------------- | ---- | -------------------- |
+| `en.json`    | English             | 47   | Complete (SCS + SPS) |
+| `es.json`    | Spanish             | 47   | Complete (SCS + SPS) |
+| `zh-TW.json` | Traditional Chinese | 34   | SCS only             |
 
 ### Step 2: Map Locales to the Template Language
 
@@ -188,27 +188,12 @@ Edit `metadata/template-languages.json` to assign locales to your new template l
 
 ### Step 3: Add Default Content (optional)
 
-If you want default content (contribute links, community links) in the new language, create `content/_defaults/{lang-code}/` with the relevant `.md` files. See `content/_defaults/en/` and `content/_defaults/es/` for the pattern.
+If you want default content (contribute links, community links, OMSF funding text) in the new language:
 
-### Step 4: Add Auto-Generation Text (optional)
+- Create `content/_defaults/{lang-code}/` with the relevant `.md` files. See `content/_defaults/en/` and `content/_defaults/es/` for the pattern.
+- Add a translated OMSF funding string to `OMSF_FUNDING_TEXT` in `compile_datasheets.py`.
 
-If locales using this template language have API-derived variants or accents, add intro text for auto-generation in `compile_datasheets.py`:
-
-```python
-VARIANTS_INTRO_TEXT = {
-    "en": "The following regional variants are available ...",
-    "es": "Las siguientes variantes regionales ...",
-    "fr": "Les variantes régionales suivantes ...",  # new
-}
-
-ACCENTS_INTRO_TEXT = {
-    "en": "Speakers may self-report the following accents ...",
-    "es": "Los hablantes pueden indicar ...",
-    "fr": "Les locuteurs peuvent indiquer ...",  # new
-}
-```
-
-### Step 5: Compile and Verify
+### Step 4: Compile and Verify
 
 ```bash
 python3 compile_datasheets.py {version} \
