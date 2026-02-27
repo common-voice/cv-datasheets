@@ -1,7 +1,7 @@
 {
   "_comment": "Spanish strings for datasheet templates.",
 
-  "header_intro_scs": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos de voz guiada de Mozilla Common Voice para {english_name} ({locale}). El conjunto de datos contiene {clips} clips representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes.",
+  "header_intro_scs": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos de voz guiada de Mozilla Common Voice para {english_name} ({locale}). El conjunto de datos contiene {clips} clips representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes, grabados a partir de un corpus de texto de {total_sentences} oraciones.",
   "header_intro_sps": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice para {english_name} (`{locale}`). El conjunto de datos contiene {clips} representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes.",
 
   "title_language": "Idioma",
@@ -17,6 +17,9 @@
   "sps_demographics_notice": "Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea disponible en el próximo lanzamiento.",
 
   "title_data_splits": "Partición de datos para modelado",
+  "data_splits_detail": "El conjunto de datos contiene {validated_clips} clips validados, {invalidated_clips} invalidados y {other_clips} sin resolver. La duración promedio de los clips es de {avg_duration_secs} segundos.",
+
+  "text_corpus_detail": "El corpus contiene {total_sentences} oraciones: {validated_sentences} validadas y {unvalidated_sentences} no validadas ({pending_sentences} pendientes de revisión, {rejected_sentences} rechazadas), con {reported_sentences} reportadas para revisión.",
 
   "title_text_corpus": "Corpus de texto",
   "title_writing_system": "Sistema de escritura",
@@ -38,7 +41,7 @@
 
   "title_fields": "Campos",
   "fields_intro": "Cada fila de un archivo `tsv` representa un solo clip de audio, y contiene la siguiente información:",
-  "scs_fields_list": "* `client_id` - UUID hasheado de cierto usuario\n* `path` - ruta relativa al archivo de audio\n* `text` - presunta transcripción del audio\n* `up_votes` - número de personas que dijeron que el audio concordaba con el texto\n* `down_votes` - número de personas que dijeron que el audio no concordaba con el texto\n* `age` - edad de los hablantes[^1]\n* `gender` - genero de los hablantes[^1]\n* `accent` - acénto de los hablantes[^1]\n* `segment` - si la oración pertenece a una porción personalizada de un dataset, será listada aquí",
+  "scs_fields_list": "* `client_id` - UUID hasheado de cierto usuario\n* `path` - ruta relativa al archivo de audio\n* `text` - presunta transcripción del audio\n* `up_votes` - número de personas que dijeron que el audio concordaba con el texto\n* `down_votes` - número de personas que dijeron que el audio no concordaba con el texto\n* `age` - edad de los hablantes[^1]\n* `gender` - genero de los hablantes[^1]\n* `accents` - acentos de los hablantes[^1]\n* `segment` - si la oración pertenece a una porción personalizada de un dataset, será listada aquí",
   "sps_fields_list": "* `client_id` - UUID hasheado de cierto usuario\n* `audio_id` - id numérico para archivo de audio\n* `audio_file` - nombre del archivo de audio\n* `duration_ms` - duración del audio en milisegundo\n* `prompt_id` - id numérico para el prompt\n* `prompt` - pregunta para el usuario\n* `transcription` - transcripción de la respuesta al audio\n* `votes` - número de personas quiene aprobaron cierta transcripción\n* `age` - edad de los hablantes[^1]\n* `gender` - genero de los hablantes[^1]\n* `language` - nombre de la lengua\n* `split` - para el modelado de datos, indica a qué subconjunto de datos pertenece este clip\n* `char_per_sec` - cuántos caracteres de transcripción por segundo de audio.\n* `quality_tags` - una evaluación automatizada del par transcripción-audio, separadas por `|`\n   * `transcription-length` - caracteres por segundo inferior a 3 caracteres por segundo\n   * `speech-rate` - tasa de caracteres por segundo superior a 30 caracteres por segundo\n   * `short-audio` - duración del audio inferior a 2 segundos\n   * `long-audio` - duración del audio superior a 30 segundos",
   "footnote_demographics": "[^1]: Para una lista completa de opciones de edades, generos, y acéntos, ver la [especificación demográfica](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). Esta será reportada únicamente si el hablante aceptó proporcionar dicha información.",
 

@@ -1,7 +1,7 @@
 {
   "_comment": "English strings for datasheet templates. {variable} placeholders are replaced by the compile script with {{KEY}} bundler markers.",
 
-  "header_intro_scs": "This datasheet is for version {version} of the Mozilla Common Voice *Scripted Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers.",
+  "header_intro_scs": "This datasheet is for version {version} of the Mozilla Common Voice *Scripted Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers, recorded from a text corpus of {total_sentences} sentences.",
   "header_intro_sps": "This datasheet is for version {version} of the Mozilla Common Voice *Spontaneous Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers.",
 
   "title_language": "Language",
@@ -17,6 +17,9 @@
   "sps_demographics_notice": "We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information is not available.",
 
   "title_data_splits": "Data splits for modelling",
+  "data_splits_detail": "The dataset contains {validated_clips} validated, {invalidated_clips} invalidated, and {other_clips} unresolved clips. The average clip duration is {avg_duration_secs} seconds.",
+
+  "text_corpus_detail": "The corpus contains {total_sentences} sentences: {validated_sentences} validated and {unvalidated_sentences} unvalidated ({pending_sentences} pending review, {rejected_sentences} rejected), with {reported_sentences} reported for review.",
 
   "title_text_corpus": "Text corpus",
   "title_writing_system": "Writing system",
@@ -38,7 +41,7 @@
 
   "title_fields": "Fields",
   "fields_intro": "Each row of a `tsv` file represents a single audio clip, and contains the following information:",
-  "scs_fields_list": "* `client_id` - hashed UUID of a given user\n* `path` - relative path of the audio file\n* `text` - supposed transcription of the audio\n* `up_votes` - number of people who said audio matches the text\n* `down_votes` - number of people who said audio does not match text\n* `age` - age of the speaker[^1]\n* `gender` - gender of the speaker[^1]\n* `accent` - accent of the speaker[^1]\n* `segment` - if sentence belongs to a custom dataset segment, it will be listed here",
+  "scs_fields_list": "* `client_id` - hashed UUID of a given user\n* `path` - relative path of the audio file\n* `text` - supposed transcription of the audio\n* `up_votes` - number of people who said audio matches the text\n* `down_votes` - number of people who said audio does not match text\n* `age` - age of the speaker[^1]\n* `gender` - gender of the speaker[^1]\n* `accents` - accents of the speaker[^1]\n* `segment` - if sentence belongs to a custom dataset segment, it will be listed here",
   "sps_fields_list": "* `client_id` - hashed UUID of a given user\n* `audio_id` - numeric id for audio file\n* `audio_file` - audio file name\n* `duration_ms` - duration of audio in milliseconds\n* `prompt_id` - numeric id for prompt\n* `prompt` - question for user\n* `transcription` - transcription of the audio response\n* `votes` - number of people that who approved a given transcript\n* `age` - age of the speaker[^1]\n* `gender` - gender of the speaker[^1]\n* `language` - language name\n* `split` - for data modelling, which subset of the data does this clip pertain to\n* `char_per_sec` - how many characters of transcription per second of audio\n* `quality_tags` - some automated assessment of the transcription--audio pair, separated by `|`\n   * `transcription-length` - character per second under 3 characters per second\n   * `speech-rate` - characters per second over 30 characters per second\n   * `short-audio` - audio length under 2 seconds\n   * `long-audio` - audio length over 30 seconds",
   "footnote_demographics": "[^1]: For a full list of age, gender, and accent options, see the [demographics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These will only be reported if the speaker opted in to provide that information.",
 

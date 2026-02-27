@@ -40,13 +40,12 @@ python3 compile_datasheets.py 24.0-2025-12-05 \
 
 ## What the Compile Script Does
 
-1. **Loads API snapshot** -- Language names, text direction, variants, accents, and SPS locale list from the snapshot (+ locale-extras for edge cases)
-2. **Renders Jinja2 templates** -- Flattens `base.md.j2` -> child templates into flat markdown with `{{KEY}}` placeholders
+1. **Loads API snapshot** -- Language names, text direction, and SPS locale list from the snapshot (+ locale-extras for edge cases)
+2. **Renders Jinja2 templates** -- Flattens `base.md.j2` -> child templates into flat markdown with `{{KEY}}` placeholders. Processes all i18n strings through `render_inline_vars()` to convert `{variable}` placeholders to `{{KEY}}` bundler markers.
 3. **Loads community content** -- Reads `content/locales/` with the fallback chain (modality -> shared -> defaults -> empty)
-4. **Auto-generates from API data** -- If no community `variants.md` or `predefined_accents.md` exists, generates content from API variant/accent lists
-5. **Injects OMSF funding** -- For locales in `metadata/funding.tsv` that lack community-written funding content
-6. **Loads metadata** -- Template-language mapping, funding info
-7. **Outputs JSON** -- Single file matching the bundler's expected schema
+4. **Injects OMSF funding** -- For locales in `metadata/funding.tsv` that lack community-written funding content
+5. **Loads metadata** -- Template-language mapping, funding info
+6. **Outputs JSON** -- Single file matching the bundler's expected schema
 
 ## Fetching API Metadata
 

@@ -9,4 +9,4 @@ The following table presents the general language variants of the Kabardian lang
 | Kabardian/East Circassian (Cyrillic, Jordan)                   | kbd-Cyrl-JOR                       | Cyrillic                | Specified for literate speakers in Jordan. |
 | Kabardian/East Circassian (Cyrillic, Syria)                    | kbd-Cyrl-SY                        | Cyrillic                | Specified for literate speakers in Syria. |
 
-**Semtences in the MCV project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Kabardian alphabet.
+**Sentences in the MCV project are provided in Cyrillic and Turkish transliteration to support non-literate users from the Turkish diaspora.** With "literacy" we mean being able to read the Kabardian alphabet.

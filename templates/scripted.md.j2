@@ -16,12 +16,24 @@
 
 {% endblock %}
 
+{% block data_splits %}
+{% if i18n.title_data_splits %}
+## {{ i18n.title_data_splits }}
+
+{{ auto.data_splits_table }}
+
+{{ i18n.data_splits_detail }}
+{% endif %}
+{% endblock %}
+
 {% block corpus_details %}
 ## {{ i18n.title_text_corpus }}
 
 {{ community.text_corpus }}
 
 {{ auto.text_corpus_stats }}
+
+{{ i18n.text_corpus_detail }}
 
 ### {{ i18n.title_writing_system }}
 

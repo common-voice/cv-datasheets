@@ -26,9 +26,7 @@
 
 {{ auto.age_table }}
 {% endblock %}
-{% if i18n.title_data_splits %}
-## {{ i18n.title_data_splits }}
-{% endif %}
+{% block data_splits %}{% endblock %}
 
 {% block corpus_details %}{% endblock %}
 
