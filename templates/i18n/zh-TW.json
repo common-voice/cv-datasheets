@@ -1,7 +1,7 @@
 {
   "_comment": "Traditional Chinese (Taiwan) strings for datasheet templates. SCS only — no SPS template in zh-TW.",
 
-  "header_intro_scs": "Mozilla Common Voice {version} {english_name} (`{locale}`) *文本錄音* 語料集。\n本語料集包含 {speakers} 位錄音者，共 {hours_recorded} 小時的錄音資料，其中 {hours_validated} 小時已驗證（經另二名參與者確認）。",
+  "header_intro_scs": "Mozilla Common Voice {version} {english_name} (`{locale}`) *文本錄音* 語料集。\n本語料集包含 {speakers} 位錄音者，共 {hours_recorded} 小時的錄音資料，其中 {hours_validated} 小時已驗證（經另二名參與者確認），來自 {total_sentences} 條文本句。",
 
   "title_language": "語言",
   "title_variants": "方言／變體（Variants）",

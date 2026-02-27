@@ -1,7 +1,7 @@
 {
   "_comment": "English strings for datasheet templates. {variable} placeholders are replaced by the compile script with {{KEY}} bundler markers.",
 
-  "header_intro_scs": "This datasheet is for version {version} of the Mozilla Common Voice *Scripted Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers.",
+  "header_intro_scs": "This datasheet is for version {version} of the Mozilla Common Voice *Scripted Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers, recorded from a text corpus of {total_sentences} sentences.",
   "header_intro_sps": "This datasheet is for version {version} of the Mozilla Common Voice *Spontaneous Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers.",
 
   "title_language": "Language",
@@ -17,6 +17,9 @@
   "sps_demographics_notice": "We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information is not available.",
 
   "title_data_splits": "Data splits for modelling",
+  "data_splits_detail": "The dataset contains {validated_clips} validated, {invalidated_clips} invalidated, and {other_clips} unresolved clips. The average clip duration is {avg_duration_secs} seconds.",
+
+  "text_corpus_detail": "The corpus contains {total_sentences} sentences: {validated_sentences} validated and {unvalidated_sentences} unvalidated ({pending_sentences} pending review, {rejected_sentences} rejected), with {reported_sentences} reported for review.",
 
   "title_text_corpus": "Text corpus",
   "title_writing_system": "Writing system",

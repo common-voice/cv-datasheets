@@ -87,6 +87,8 @@ AUTO_FIELDS = {
     "variant_stats": "VARIANT_STATS",
     "accent_stats": "ACCENT_STATS",
     "transcription_stats": "TRANSCRIPTION_STATS",
+    # Data splits table (SCS only; bundler can remove regex injection once live)
+    "data_splits_table": "DATA_SPLITS_TABLE",
 }
 
 # Stats header placeholders (filled by bundler)
@@ -96,8 +98,9 @@ STATS_FIELDS = {
     "locale": "LOCALE",
 }
 
-# Header intro variable → bundler key mapping
-HEADER_VAR_MAP = {
+# Inline variable → bundler key mapping.
+# Used in i18n strings: {variable} is converted to {{KEY}} at compile time.
+INLINE_VAR_MAP = {
     "version": "VERSION",
     "english_name": "ENGLISH_NAME",
     "locale": "LOCALE",
@@ -105,6 +108,16 @@ HEADER_VAR_MAP = {
     "hours_recorded": "HOURS_RECORDED",
     "hours_validated": "HOURS_VALIDATED",
     "speakers": "SPEAKERS",
+    "total_sentences": "TOTAL_SENTENCES",
+    "avg_duration_secs": "AVG_DURATION_SECS",
+    "validated_clips": "VALIDATED_CLIPS",
+    "invalidated_clips": "INVALIDATED_CLIPS",
+    "other_clips": "OTHER_CLIPS",
+    "validated_sentences": "VALIDATED_SENTENCES",
+    "unvalidated_sentences": "UNVALIDATED_SENTENCES",
+    "rejected_sentences": "REJECTED_SENTENCES",
+    "pending_sentences": "PENDING_SENTENCES",
+    "reported_sentences": "REPORTED_SENTENCES",
 }
 
 
@@ -205,16 +218,16 @@ def load_metadata(
 # ---------------------------------------------------------------------------
 
 
-def render_header_intro(intro_template: str) -> str:
+def render_inline_vars(text: str) -> str:
     """
-    Convert i18n header_intro with {variable} placeholders into
+    Convert {variable} placeholders in i18n strings into
     bundler {{KEY}} markers.
 
     Example: "version {version} for {english_name}"
-        → "version {{VERSION}} for {{ENGLISH_NAME}}"
+        -> "version {{VERSION}} for {{ENGLISH_NAME}}"
     """
-    result = intro_template
-    for var_name, key in HEADER_VAR_MAP.items():
+    result = text
+    for var_name, key in INLINE_VAR_MAP.items():
         result = result.replace("{" + var_name + "}", "{{" + key + "}}")
     return result
 
@@ -247,17 +260,23 @@ def build_jinja_context(
         if field_name in community:
             community[alias] = community[field_name]
 
-    # header_intro — pick modality-specific intro, convert {var} → {{KEY}}
+    # Process {var} -> {{KEY}} in all i18n strings
+    resolved_i18n = {
+        k: render_inline_vars(v) if isinstance(v, str) else v
+        for k, v in i18n.items()
+    }
+
+    # header_intro — pick modality-specific intro (already resolved above)
     intro_key = (
         "header_intro_scs" if modality_short == "scs" else "header_intro_sps"
     )
-    header_intro = render_header_intro(i18n.get(intro_key, ""))
+    header_intro = resolved_i18n.get(intro_key, "")
 
     return {
         "stats": stats,
         "auto": auto,
         "community": community,
-        "i18n": i18n,
+        "i18n": resolved_i18n,
         "header_intro": header_intro,
     }
 

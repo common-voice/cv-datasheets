@@ -1,7 +1,7 @@
 {
   "_comment": "Spanish strings for datasheet templates.",
 
-  "header_intro_scs": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos de voz guiada de Mozilla Common Voice para {english_name} ({locale}). El conjunto de datos contiene {clips} clips representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes.",
+  "header_intro_scs": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos de voz guiada de Mozilla Common Voice para {english_name} ({locale}). El conjunto de datos contiene {clips} clips representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes, grabados a partir de un corpus de texto de {total_sentences} oraciones.",
   "header_intro_sps": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice para {english_name} (`{locale}`). El conjunto de datos contiene {clips} representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes.",
 
   "title_language": "Idioma",
@@ -17,6 +17,9 @@
   "sps_demographics_notice": "Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea disponible en el próximo lanzamiento.",
 
   "title_data_splits": "Partición de datos para modelado",
+  "data_splits_detail": "El conjunto de datos contiene {validated_clips} clips validados, {invalidated_clips} invalidados y {other_clips} sin resolver. La duración promedio de los clips es de {avg_duration_secs} segundos.",
+
+  "text_corpus_detail": "El corpus contiene {total_sentences} oraciones: {validated_sentences} validadas y {unvalidated_sentences} no validadas ({pending_sentences} pendientes de revisión, {rejected_sentences} rechazadas), con {reported_sentences} reportadas para revisión.",
 
   "title_text_corpus": "Corpus de texto",
   "title_writing_system": "Sistema de escritura",
