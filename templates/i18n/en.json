@@ -6,14 +6,14 @@
 
   "title_language": "Language",
   "title_variants": "Variants",
-  "title_predefined_accents": "Predefined accents",
+  "title_accents": "Accents",
 
   "title_demographics": "Demographic information",
-  "demographics_intro": "The dataset includes the following distribution of age and gender.",
+  "demographics_intro": "The dataset includes the following self-declared age and gender distributions. A coverage summary is shown below each table.",
   "title_gender": "Gender",
-  "gender_intro": "Self-declared gender information, percentage refers to the number of clips annotated with this gender.",
+  "gender_intro": "Self-declared gender information. The table shows clip and speaker counts with percentages. Speakers who did not declare a gender are listed as Unspecified. A dash (-) indicates zero.",
   "title_age": "Age",
-  "age_intro": "Self-declared age information, percentage refers to the number of clips annotated with this age band.",
+  "age_intro": "Self-declared age information. The table shows clip and speaker counts with percentages. Speakers who did not declare an age are listed as Unspecified. A dash (-) indicates zero.",
   "sps_demographics_notice": "We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information is not available.",
 
   "title_data_splits": "Data splits for modelling",

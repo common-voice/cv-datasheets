@@ -6,14 +6,14 @@
 
   "title_language": "Idioma",
   "title_variants": "Variantes",
-  "title_predefined_accents": "Acentos predefinidos",
+  "title_accents": "Acentos",
 
   "title_demographics": "Información demográfica",
-  "demographics_intro": "El conjunto de datos incluye la siguiente distribución de edad y género.",
+  "demographics_intro": "El conjunto de datos incluye las siguientes distribuciones autodeclaradas de edad y género. Debajo de cada tabla se muestra un resumen de cobertura.",
   "title_gender": "Género",
-  "gender_intro": "Información de género autodeclarada, el porcentaje se refiere al número de clips anotados con este género.",
+  "gender_intro": "Información de género autodeclarada. La tabla muestra conteos de clips y hablantes con porcentajes. Los hablantes que no declararon género aparecen como No especificado. Un guion (-) indica cero.",
   "title_age": "Edad",
-  "age_intro": "Información de edad autodeclarada, el porcentaje se refiere al número de clips anotados con este rango de edad.",
+  "age_intro": "Información de edad autodeclarada. La tabla muestra conteos de clips y hablantes con porcentajes. Los hablantes que no declararon edad aparecen como No especificado. Un guion (-) indica cero.",
   "sps_demographics_notice": "Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea disponible en el próximo lanzamiento.",
 
   "title_data_splits": "Partición de datos para modelado",
