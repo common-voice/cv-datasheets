@@ -133,7 +133,7 @@ The compile script produces a single JSON file per release:
         "community_fields": {
           "language_description": "...",
           "variant_description": "...",
-          "predefined_accents_description": "...",
+          "accents_description": "...",
           ...
         }
       }

@@ -41,7 +41,7 @@ content/locales/{locale}/
   shared/              # Language-level (shared across SCS and SPS)
     description.md       About the language
     variants.md          Dialect / accent variants
-    predefined_accents.md  Predefined accent options
+    accents.md             Accent options
     writing_system.md    Writing system description
     alphabet.md          Symbol table
     community_links.md   Community resource links
@@ -103,7 +103,7 @@ community members. Include version references where helpful (e.g.
 | ----------------------- | ----------------------------------- |
 | `description.md`        | The language itself                 |
 | `variants.md`           | Dialect / accent variants           |
-| `predefined_accents.md` | Predefined accent options           |
+| `accents.md`            | Accent options                      |
 | `corpus.md`             | Text corpus description             |
 | `text_domain.md`        | Text domain descriptions            |
 | `transcriptions.md`     | Transcription process               |
@@ -129,7 +129,7 @@ either additive or descriptive -- follow the edit rules above.
 | `corpus.md`             | descriptive | Corpus statistics             |
 | `text_domain.md`        | descriptive | Domain breakdown              |
 | `variants.md`           | descriptive | Per-variant recording stats   |
-| `predefined_accents.md` | descriptive | Per-accent recording stats    |
+| `accents.md`            | descriptive | Per-accent recording stats    |
 | `transcriptions.md`     | descriptive | Transcription quality metrics |
 
 See `content/_example/` for examples, particularly
