@@ -1,0 +1,2 @@
+- v25.0 Klingon Language Institute research grant
+- v22.0-v24.0 Mozilla Foundation open-source galactic language initiative

@@ -4,8 +4,3 @@ If you want to contribute to the Kabardian language, please visit the following 
 https://bit.ly/cv_circassian_start_here
 
 	A special thanks to all the volunteers who contributed to this dataset.
-
-* [Speak](https://commonvoice.mozilla.org/kbd/speak)
-* [Write](https://commonvoice.mozilla.org/kbd/write)
-* [Listen](https://commonvoice.mozilla.org/kbd/listen)
-* [Review](https://commonvoice.mozilla.org/kbd/review)

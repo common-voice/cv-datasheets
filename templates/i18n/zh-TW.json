@@ -35,6 +35,9 @@
   "title_community_links": "社群連結",
   "title_discussions": "討論",
   "title_contribute": "貢獻",
+  "community_links_defaults": "* [Pontoon 上的 Common Voice 翻譯者](https://pontoon.mozilla.org/{locale}/common-voice/contributors/)\n* [Common Voice 社群](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)",
+  "discussion_links_defaults": "* [Common Voice Matrix 聊天室](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)\n* [Common Voice Discourse 論壇](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218)\n* [Common Voice Discord](https://discord.gg/9QTj9zwn)\n* [Common Voice Telegram](https://t.me/mozilla_common_voice)",
+  "scs_contribute_links_defaults": "* [朗讀](https://commonvoice.mozilla.org/{locale}/speak)\n* [撰寫](https://commonvoice.mozilla.org/{locale}/write)\n* [聆聽](https://commonvoice.mozilla.org/{locale}/listen)\n* [複查](https://commonvoice.mozilla.org/{locale}/review)",
 
   "title_acknowledgements": "誌謝",
   "title_authors": "資料表編撰",

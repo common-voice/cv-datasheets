@@ -10,4 +10,3 @@ Social media channels used during campaigns:
 - [X/Twitter](https://bit.ly/3jmq08a)
 - [Instagram](https://bit.ly/3G0RUAB)
 - [LinkedIn Page](https://bit.ly/3G0RUAB)
-* [Common Voice translators on Pontoon](https://pontoon.mozilla.org/tr/common-voice/contributors/)

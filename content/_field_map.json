@@ -64,17 +64,20 @@
     "community_links": {
       "file": "community_links.md",
       "key": "community_links_list",
-      "edit_mode": "additive"
+      "edit_mode": "additive",
+      "mergeable": true
     },
     "discussion_links": {
       "file": "discussion_links.md",
       "key": "discussion_links_list",
-      "edit_mode": "additive"
+      "edit_mode": "descriptive",
+      "mergeable": true
     },
     "contribute_links": {
       "file": "contribute_links.md",
       "key": "contribute_links_list",
-      "edit_mode": "additive"
+      "edit_mode": "descriptive",
+      "mergeable": true
     },
     "authors": {
       "file": "authors.md",

@@ -49,7 +49,10 @@
   "title_community_links": "Enlaces comunitarios",
   "title_discussions": "Discusiones",
   "title_contribute": "Contribuir",
-  "sps_contribute_links": "* [Contribuye con preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)\n* [Valida preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)\n* [Responde preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)\n* [Transcribe grabaciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)\n* [Valida transcripciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)",
+  "community_links_defaults": "* [Traductores de Common Voice en Pontoon](https://pontoon.mozilla.org/{locale}/common-voice/contributors/)\n* [Comunidades de Common Voice](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)",
+  "discussion_links_defaults": "* [Common Voice en Matrix](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)\n* [Common Voice en Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218)\n* [Common Voice en Discord](https://discord.gg/9QTj9zwn)\n* [Common Voice en Telegram](https://t.me/mozilla_common_voice)",
+  "scs_contribute_links_defaults": "* [Hablar](https://commonvoice.mozilla.org/{locale}/speak)\n* [Escribir](https://commonvoice.mozilla.org/{locale}/write)\n* [Escuchar](https://commonvoice.mozilla.org/{locale}/listen)\n* [Revisar](https://commonvoice.mozilla.org/{locale}/review)",
+  "sps_contribute_links_defaults": "* [Contribuye con preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)\n* [Valida preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)\n* [Responde preguntas](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)\n* [Transcribe grabaciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)\n* [Valida transcripciones](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)",
 
   "title_acknowledgements": "Agradecimientos",
   "title_authors": "Autores de la ficha técnica",

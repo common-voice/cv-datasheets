@@ -14,8 +14,8 @@ Other fields are **descriptive** -- they describe the current state and
 can be rewritten or improved freely.
 
 Some fields are also **mergeable** -- the final datasheet shows both your
-community-written content and auto-generated statistics from the bundler.
-Mergeable fields follow the same additive/descriptive edit rules.
+community-written content and auto-generated data. Mergeable fields
+follow the same additive/descriptive edit rules.
 
 See the field list in `content/_template/README.md` for which fields
 are additive, descriptive, and mergeable.
@@ -38,6 +38,33 @@ And you want to add a new source, append it:
 ```
 
 Do **not** replace the file with only your new entry.
+
+### Versioning in additive fields
+
+Use version references to help readers track when content was added:
+
+```markdown
+* v25.0 New Author -- role description
+* v21.0-v24.0 Previous Author -- role description
+```
+
+This applies to `authors.md`, `funding.md`, `sources.md`, and
+`citation.md`.
+
+### Fields with auto-generated defaults
+
+Three link fields always include auto-generated default links in the
+final datasheet. Your community content appears **before** the defaults:
+
+- `community_links.md` -- Pontoon and Communities links are added
+- `discussion_links.md` -- Matrix, Discourse, Discord, Telegram links
+  are added
+- `contribute_links.md` -- Standard contribution links are added
+  (Speak/Write/Listen/Review for SCS, question/transcription links
+  for SPS)
+
+Do **not** duplicate default links in your community files. Only add
+links that are specific to your community.
 
 ## Directory Layout
 
