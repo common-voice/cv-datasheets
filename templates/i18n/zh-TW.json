@@ -1,7 +1,8 @@
 {
-  "_comment": "Traditional Chinese (Taiwan) strings for datasheet templates. SCS only — no SPS template in zh-TW.",
+  "_comment": "Traditional Chinese (Taiwan) strings for datasheet templates. SCS + SPS.",
 
   "header_intro_scs": "Mozilla Common Voice {version} {english_name} (`{locale}`) *文本錄音* 語料集。\n本語料集包含 {speakers} 位錄音者，共 {hours_recorded} 小時的錄音資料，其中 {hours_validated} 小時已驗證（經另二名參與者確認），來自 {total_sentences} 條文本句。",
+  "header_intro_sps": "Mozilla Common Voice {version} {english_name} (`{locale}`) *提示性語音* 語料集。\n本語料集包含 {speakers} 位錄音者，共 {hours_recorded} 小時的錄音資料（其中 {hours_validated} 小時已驗證）。",
 
   "title_language": "語言",
   "title_variants": "方言／變體（Variants）",
@@ -13,8 +14,12 @@
   "gender_intro": "錄音者自行宣告的性別資訊。表格顯示錄音數與錄音者數及其百分比。未宣告性別的錄音者列為「未指定」。破折號（-）表示零。",
   "title_age": "年齡",
   "age_intro": "錄音者自行宣告的年齡層資訊。表格顯示錄音數與錄音者數及其百分比。未宣告年齡的錄音者列為「未指定」。破折號（-）表示零。",
+  "sps_demographics_notice": "目前提示性語音資料集尚未提供統計資訊。我們正在努力新增相關資訊。",
 
-  "title_data_splits": "",
+  "title_data_splits": "資料分群（用於模型訓練）",
+  "data_splits_detail": "本資料集包含 {validated_clips} 筆已驗證、{invalidated_clips} 筆未通過驗證及 {other_clips} 筆待審查的片段。片段平均長度為 {avg_duration_secs} 秒。",
+
+  "text_corpus_detail": "本語料庫包含 {total_sentences} 條句子：{validated_sentences} 條已驗證、{unvalidated_sentences} 條未驗證（{pending_sentences} 條待審查、{rejected_sentences} 條被拒絕），另有 {reported_sentences} 條被回報需審查。",
 
   "title_text_corpus": "文本語料",
   "title_writing_system": "書寫系統",
@@ -26,10 +31,23 @@
   "title_processing": "處理",
   "title_postprocessing": "建議後處理流程步驟",
 
-  "title_fields": "",
-  "fields_intro": "",
-  "scs_fields_list": "",
-  "footnote_demographics": "",
+  "title_transcriptions": "轉錄",
+  "title_samples": "樣本",
+  "title_questions": "問題",
+  "questions_intro": "以下為語料庫中隨機選出的提問樣本。",
+  "title_responses": "回應",
+  "responses_intro": "以下為語料庫中隨機選出的轉錄回應樣本。",
+
+  "title_fields": "欄位",
+  "fields_intro": "每個 `tsv` 檔案的每一列代表一個音聲片段，包含以下資訊：",
+  "scs_fields_list": "* `client_id` - 使用者的雜湊 UUID\n* `path` - 音檔的相對路徑\n* `text` - 音檔的預期轉錄文本\n* `up_votes` - 認為音檔與文本相符的人數\n* `down_votes` - 認為音檔與文本不符的人數\n* `age` - 錄音者的年齡[^1]\n* `gender` - 錄音者的性別[^1]\n* `accents` - 錄音者的腔調[^1]\n* `segment` - 若句子屬於自訂資料集分群，會列在此欄位",
+  "sps_fields_list": "* `client_id` - 使用者的雜湊 UUID\n* `audio_id` - 音檔的數字識別碼\n* `audio_file` - 音檔名稱\n* `duration_ms` - 音檔長度（毫秒）\n* `prompt_id` - 提問的數字識別碼\n* `prompt` - 給使用者的問題\n* `transcription` - 語音回應的轉錄\n* `votes` - 核准此轉錄的人數\n* `age` - 錄音者的年齡[^1]\n* `gender` - 錄音者的性別[^1]\n* `language` - 語言名稱\n* `split` - 用於建模，此片段所屬的資料子集\n* `char_per_sec` - 每秒音檔的轉錄文字數\n* `quality_tags` - 轉錄與音檔配對的自動評估，以 `|` 分隔\n   * `transcription-length` - 每秒字數低於 3 個字\n   * `speech-rate` - 每秒字數超過 30 個字\n   * `short-audio` - 音檔長度低於 2 秒\n   * `long-audio` - 音檔長度超過 30 秒",
+  "clips_fields_title": "片段",
+  "validated_sentences_fields_intro": "`validated_sentences.tsv` 檔案中的每一列代表文本語料庫中一條已驗證的句子：",
+  "scs_validated_sentences_fields": "* `sentence_id` - 句子的唯一識別碼\n* `sentence` - 句子文本\n* `sentence_domain` - 句子所屬的領域\n* `source` - 句子的來源\n* `is_used` - 該句子是否至少已被錄製為一筆片段\n* `clips_count` - 為該句子錄製的片段數量",
+  "unvalidated_sentences_fields_intro": "`unvalidated_sentences.tsv` 檔案中的每一列代表文本語料庫中一條未驗證的句子：",
+  "scs_unvalidated_sentences_fields": "* `sentence_id` - 句子的唯一識別碼\n* `sentence` - 句子文本\n* `sentence_domain` - 句子所屬的領域\n* `source` - 句子的來源",
+  "footnote_demographics": "[^1]: 如需年齡、性別及腔調選項的完整清單，請參閱 [demographics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts)。僅在錄音者同意提供時才會揭露這些資訊。",
 
   "title_get_involved": "參與！",
   "title_community_links": "社群連結",
@@ -38,6 +56,7 @@
   "community_links_defaults": "* [Pontoon 上的 Common Voice 翻譯者](https://pontoon.mozilla.org/{locale}/common-voice/contributors/)\n* [Common Voice 社群](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)",
   "discussion_links_defaults": "* [Common Voice Matrix 聊天室](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)\n* [Common Voice Discourse 論壇](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218)\n* [Common Voice Discord](https://discord.gg/9QTj9zwn)\n* [Common Voice Telegram](https://t.me/mozilla_common_voice)",
   "scs_contribute_links_defaults": "* [朗讀](https://commonvoice.mozilla.org/{locale}/speak)\n* [撰寫](https://commonvoice.mozilla.org/{locale}/write)\n* [聆聽](https://commonvoice.mozilla.org/{locale}/listen)\n* [複查](https://commonvoice.mozilla.org/{locale}/review)",
+  "sps_contribute_links_defaults": "* [新增問題](https://commonvoice.mozilla.org/spontaneous-speech/beta/question)\n* [驗證問題](https://commonvoice.mozilla.org/spontaneous-speech/beta/validate)\n* [回答問題](https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts)\n* [轉錄錄音](https://commonvoice.mozilla.org/spontaneous-speech/beta/transcribe)\n* [驗證轉錄](https://commonvoice.mozilla.org/spontaneous-speech/beta/check-transcript)",
 
   "title_acknowledgements": "誌謝",
   "title_authors": "資料表編撰",

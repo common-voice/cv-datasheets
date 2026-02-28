@@ -179,9 +179,9 @@ Existing translations:
 
 | File         | Language            | Keys | Coverage             |
 | ------------ | ------------------- | ---- | -------------------- |
-| `en.json`    | English             | 51   | Complete (SCS + SPS) |
-| `es.json`    | Spanish             | 51   | Complete (SCS + SPS) |
-| `zh-TW.json` | Traditional Chinese | 37   | SCS only             |
+| `en.json`    | English             | 55   | Complete (SCS + SPS) |
+| `es.json`    | Spanish             | 55   | Complete (SCS + SPS) |
+| `zh-TW.json` | Traditional Chinese | 55   | Complete (SCS + SPS) |
 
 ### Step 2: Map Locales to the Template Language
 
