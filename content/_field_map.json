@@ -91,9 +91,9 @@
       "key": "funding_description",
       "edit_mode": "additive"
     },
-    "predefined_accents": {
-      "file": "predefined_accents.md",
-      "key": "predefined_accents_description",
+    "accents": {
+      "file": "accents.md",
+      "key": "accents_description",
       "edit_mode": "descriptive",
       "mergeable": true,
       "merge_auto_key": "ACCENT_STATS"
@@ -102,7 +102,7 @@
   "language_level_fields": [
     "description",
     "variants",
-    "predefined_accents",
+    "accents",
     "writing_system",
     "alphabet",
     "community_links"
@@ -111,7 +111,7 @@
     "scripted": [
       "description",
       "variants",
-      "predefined_accents",
+      "accents",
       "corpus",
       "writing_system",
       "alphabet",
@@ -129,7 +129,7 @@
     "spontaneous": [
       "description",
       "variants",
-      "predefined_accents",
+      "accents",
       "transcriptions",
       "writing_system",
       "alphabet",
