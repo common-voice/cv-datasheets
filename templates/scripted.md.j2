@@ -8,9 +8,9 @@
 
 {{ auto.variant_stats }}
 
-### {{ i18n.title_predefined_accents }}
+### {{ i18n.title_accents }}
 
-{{ community.predefined_accents }}
+{{ community.accents }}
 
 {{ auto.accent_stats }}
 
@@ -78,12 +78,28 @@
 {% if i18n.scs_fields_list %}
 ### {{ i18n.title_fields }}
 
+#### {{ i18n.clips_fields_title }}
+
 {{ i18n.fields_intro }}
 
 {{ i18n.scs_fields_list }}
 
-####
-
 {{ i18n.footnote_demographics }}
+
+#### `validated_sentences.tsv`
+
+{{ i18n.validated_sentences_fields_intro }}
+
+{{ i18n.scs_validated_sentences_fields }}
+
+#### `unvalidated_sentences.tsv`
+
+{{ i18n.unvalidated_sentences_fields_intro }}
+
+{{ i18n.scs_unvalidated_sentences_fields }}
 {% endif %}
+{% endblock %}
+
+{% block contribute_links_defaults %}
+{{ i18n.scs_contribute_links_defaults }}
 {% endblock %}

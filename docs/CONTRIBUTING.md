@@ -23,12 +23,12 @@ Datasheets can also be submitted via Google Form (English and Spanish):
 **Scripted/Read Speech:**
 
 - (`en`) [MCV Datasheet: Scripted speech](https://docs.google.com/forms/d/e/1FAIpQLSc5QnmXd7MrfPd375RZ2YFh-Z3I_BGAf7e2cTD2h5xtWV8klQ/viewform?usp=dialog)
-- (`es`) [MCV Datasheet: Habla leída](https://docs.google.com/forms/d/e/1FAIpQLSdk1IITzjpjrXKKLyHhzb5d0VoGvNNbscBywqJZf1BnBcf7Pw/viewform?usp=dialog)
+- (`es`) [MCV Datasheet: Habla leida](https://docs.google.com/forms/d/e/1FAIpQLSdk1IITzjpjrXKKLyHhzb5d0VoGvNNbscBywqJZf1BnBcf7Pw/viewform?usp=dialog)
 
 **Spontaneous Speech:**
 
 - (`en`) [MCV Datasheet: Spontaneous speech](https://docs.google.com/forms/d/e/1FAIpQLSfYI6CXK97boZ951gb3l2ysl77Hnyyi8qeSagXAlB1v32adqQ/viewform?usp=dialog)
-- (`es`) [MCV Datasheet: Habla espontánea](https://docs.google.com/forms/d/e/1FAIpQLSdhHHYqgj1x6Cki8OYCHjVr3l3KmahBfcWvOgF70B6gV1jfbw/viewform?usp=dialog)
+- (`es`) [MCV Datasheet: Habla espontanea](https://docs.google.com/forms/d/e/1FAIpQLSdhHHYqgj1x6Cki8OYCHjVr3l3KmahBfcWvOgF70B6gV1jfbw/viewform?usp=dialog)
 
 ### Via Email
 
@@ -41,7 +41,7 @@ content/locales/{locale}/
   shared/              # Language-level (shared across SCS and SPS)
     description.md       About the language
     variants.md          Dialect / accent variants
-    predefined_accents.md  Predefined accent options
+    accents.md           Accent options
     writing_system.md    Writing system description
     alphabet.md          Symbol table
     community_links.md   Community resource links
@@ -53,7 +53,7 @@ content/locales/{locale}/
     processing.md        Text processing applied
     postprocessing.md    Recommended post-processing
     discussion_links.md  Discussion links
-    contribute_links.md  Non-standard contribute links
+    contribute_links.md  Additional contribute links
     authors.md           Datasheet authors
     citation.md          Citation guidelines
     funding.md           Non-OMSF or additional funding
@@ -62,7 +62,7 @@ content/locales/{locale}/
     transcriptions.md    Transcription process description
     postprocessing.md    Recommended post-processing
     discussion_links.md  Discussion links
-    contribute_links.md  Non-standard contribute links
+    contribute_links.md  Additional contribute links
     authors.md           Datasheet authors
     citation.md          Citation guidelines
     funding.md           Non-OMSF or additional funding
@@ -85,12 +85,10 @@ edit modes that indicate how they should be maintained.
 | Field                 | Why it grows                                        |
 | --------------------- | --------------------------------------------------- |
 | `sources.md`          | New text sources are added across releases          |
+| `community_links.md`  | New community spaces are created                    |
 | `authors.md`          | New contributors and community leads join over time |
 | `citation.md`         | New publications reference the dataset              |
 | `funding.md`          | Additional funders may support the project          |
-| `community_links.md`  | New community spaces are created                    |
-| `discussion_links.md` | New discussion channels open                        |
-| `contribute_links.md` | New contribution paths become available             |
 
 When editing additive fields, **add your entries below the existing content**.
 Do not remove previous contributions -- they represent the work of earlier
@@ -103,7 +101,7 @@ community members. Include version references where helpful (e.g.
 | ----------------------- | ----------------------------------- |
 | `description.md`        | The language itself                 |
 | `variants.md`           | Dialect / accent variants           |
-| `predefined_accents.md` | Predefined accent options           |
+| `accents.md`            | Accent options                      |
 | `corpus.md`             | Text corpus description             |
 | `text_domain.md`        | Text domain descriptions            |
 | `transcriptions.md`     | Transcription process               |
@@ -111,39 +109,50 @@ community members. Include version references where helpful (e.g.
 | `alphabet.md`           | Symbol table or character list      |
 | `processing.md`         | Current text processing pipeline    |
 | `postprocessing.md`     | Current recommended post-processing |
+| `discussion_links.md`   | Current discussion channels         |
+| `contribute_links.md`   | Current contribution paths          |
 
 These fields describe the current state. They can be rewritten entirely when
 the understanding improves -- they are not a historical record.
 
 **Mergeable fields -- community content + auto-generated data:**
 
-Some fields are also **mergeable**: the bundler generates data (tables, counts,
-metrics) for these sections. Your community content is optional -- if you
+Some fields are also **mergeable**: the final datasheet includes auto-generated
+data alongside your content. Your community content is optional -- if you
 provide it, your text appears before the auto-generated data. If you don't
-provide it, only the bundler's data appears. Each mergeable field is still
+provide it, only the auto-generated data appears. Each mergeable field is still
 either additive or descriptive -- follow the edit rules above.
 
-| Field                   | Edit mode   | Bundler generates             |
-| ----------------------- | ----------- | ----------------------------- |
-| `sources.md`            | additive    | Per-source counts             |
-| `corpus.md`             | descriptive | Corpus statistics             |
-| `text_domain.md`        | descriptive | Domain breakdown              |
-| `variants.md`           | descriptive | Per-variant recording stats   |
-| `predefined_accents.md` | descriptive | Per-accent recording stats    |
-| `transcriptions.md`     | descriptive | Transcription quality metrics |
+| Field                   | Edit mode   | Auto-generated data                                |
+| ----------------------- | ----------- | -------------------------------------------------- |
+| `sources.md`            | additive    | Per-source counts (bundler)                        |
+| `corpus.md`             | descriptive | Corpus statistics (bundler)                        |
+| `text_domain.md`        | descriptive | Domain breakdown (bundler)                         |
+| `variants.md`           | descriptive | Per-variant recording stats (bundler)              |
+| `accents.md`            | descriptive | Per-accent recording stats (bundler)               |
+| `transcriptions.md`     | descriptive | Transcription quality metrics (bundler)            |
+| `community_links.md`    | additive    | Pontoon + Communities links (template)             |
+| `discussion_links.md`   | descriptive | Matrix/Discourse/Discord/Telegram links (template) |
+| `contribute_links.md`   | descriptive | Speak/Write/Listen/Review links (template)         |
 
 See `content/_example/` for examples, particularly
 `scripted/sources.md` and `scripted/authors.md` for the additive style.
 
 ### Fields With Auto-Defaults
 
-Some fields are filled automatically if you don't provide them:
+Some fields always include default links in the final datasheet. Your
+community content appears **before** the defaults. Do not duplicate
+the default links in your files.
 
-- **`contribute_links.md`** -- Standard Speak/Write/Listen/Review links are added
-- **`community_links.md`** -- Pontoon translators link is added
+- **`community_links.md`** -- Pontoon translators link + Communities page
+  are always included
+- **`discussion_links.md`** -- Matrix, Discourse, Discord, and Telegram
+  links are always included
+- **`contribute_links.md`** -- Standard contribution links are always
+  included (Speak/Write/Listen/Review for SCS, question/transcription
+  links for SPS)
 - **`funding.md`** -- OMSF funding text is added for eligible locales
-
-Only create these files if you have additional or different content. Community content always overrides auto-generated defaults.
+  (only when no community file exists)
 
 ---
 
@@ -170,9 +179,9 @@ Existing translations:
 
 | File         | Language            | Keys | Coverage             |
 | ------------ | ------------------- | ---- | -------------------- |
-| `en.json`    | English             | 47   | Complete (SCS + SPS) |
-| `es.json`    | Spanish             | 47   | Complete (SCS + SPS) |
-| `zh-TW.json` | Traditional Chinese | 34   | SCS only             |
+| `en.json`    | English             | 55   | Complete (SCS + SPS) |
+| `es.json`    | Spanish             | 55   | Complete (SCS + SPS) |
+| `zh-TW.json` | Traditional Chinese | 55   | Complete (SCS + SPS) |
 
 ### Step 2: Map Locales to the Template Language
 
@@ -186,12 +195,15 @@ Edit `metadata/template-languages.json` to assign locales to your new template l
 }
 ```
 
-### Step 3: Add Default Content (optional)
+### Step 3: Add Translated Defaults (optional)
 
-If you want default content (contribute links, community links, OMSF funding text) in the new language:
+If you want default link text in the new language, add the translated
+`community_links_defaults`, `discussion_links_defaults`,
+`scs_contribute_links_defaults`, and `sps_contribute_links_defaults` keys
+to your i18n JSON file. See `en.json` for the pattern.
 
-- Create `content/_defaults/{lang-code}/` with the relevant `.md` files. See `content/_defaults/en/` and `content/_defaults/es/` for the pattern.
-- Add a translated OMSF funding string to `OMSF_FUNDING_TEXT` in `compile_datasheets.py`.
+For OMSF funding text, add a translated string to `OMSF_FUNDING_TEXT`
+in `compile_datasheets.py`.
 
 ### Step 4: Compile and Verify
 

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/common-voice/cv-datasheets/main/schema/datasheets.schema.json",
+  "title": "CV Datasheets Compiled Data",
+  "description": "Pre-compiled templates, community data, and metadata for Common Voice dataset datasheets. Consumed by the bundler via GitHub raw URL.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "source_version",
+    "templates",
+    "locales"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of this JSON schema. Breaking changes increment the major version."
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when this file was generated."
+    },
+    "source_version": {
+      "type": "string",
+      "description": "Dataset release version used as the source (e.g., '25.0-2026-03-09')."
+    },
+    "templates": {
+      "type": "object",
+      "description": "Markdown templates keyed by modality and template language.",
+      "required": ["scs", "sps"],
+      "properties": {
+        "scs": { "$ref": "#/$defs/template_set" },
+        "sps": { "$ref": "#/$defs/template_set" }
+      },
+      "additionalProperties": false
+    },
+    "locales": {
+      "type": "object",
+      "description": "Per-locale data keyed by modality and locale code.",
+      "required": ["scs", "sps"],
+      "properties": {
+        "scs": { "$ref": "#/$defs/locale_set" },
+        "sps": { "$ref": "#/$defs/locale_set" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "template_set": {
+      "type": "object",
+      "description": "Templates for a single modality. Keys are template language codes (e.g., 'en', 'es', 'zh-TW'). Values are full markdown template strings with {{PLACEHOLDER}} markers.",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "locale_set": {
+      "type": "object",
+      "description": "Locale entries for a single modality. Keys are locale codes (e.g., 'en', 'de', 'es').",
+      "additionalProperties": {
+        "$ref": "#/$defs/locale_entry"
+      }
+    },
+    "locale_entry": {
+      "type": "object",
+      "required": [
+        "template_language",
+        "metadata",
+        "community_fields"
+      ],
+      "properties": {
+        "template_language": {
+          "type": "string",
+          "description": "Which template language to use for this locale (e.g., 'en', 'es', 'zh-TW')."
+        },
+        "metadata": {
+          "$ref": "#/$defs/locale_metadata"
+        },
+        "community_fields": {
+          "$ref": "#/$defs/community_fields"
+        }
+      },
+      "additionalProperties": false
+    },
+    "locale_metadata": {
+      "type": "object",
+      "description": "Static metadata for this locale. The bundler may override stats (clips, hours, speakers) with its own pipeline data.",
+      "required": [
+        "native_name",
+        "english_name",
+        "funding"
+      ],
+      "properties": {
+        "native_name": {
+          "type": "string",
+          "description": "Language name in its native script. Falls back to locale code if unknown."
+        },
+        "english_name": {
+          "type": "string",
+          "description": "Language name in English."
+        },
+        "funding": {
+          "type": "string",
+          "description": "Funding source identifier (e.g., 'omsf'). Empty string if not funded."
+        },
+        "text_direction": {
+          "type": "string",
+          "enum": ["LTR", "RTL"],
+          "description": "Text direction for this locale."
+        }
+      },
+      "additionalProperties": false
+    },
+    "community_fields": {
+      "type": "object",
+      "description": "Community-provided content for this locale. Keys match {{PLACEHOLDER}} names in templates (lowercased). Empty string means no community data -- bundler should use default or strip the section.",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}

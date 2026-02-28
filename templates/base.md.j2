@@ -42,15 +42,23 @@
 
 {{ community.community_links }}
 
+{% block community_links_defaults %}
+{{ i18n.community_links_defaults }}
+{% endblock %}
+
 ### {{ i18n.title_discussions }}
 
 {{ community.discussion_links }}
+
+{% block discussion_links_defaults %}
+{{ i18n.discussion_links_defaults }}
+{% endblock %}
 
 ### {{ i18n.title_contribute }}
 
 {{ community.contribute_links }}
 
-{% block extra_contribute %}{% endblock %}
+{% block contribute_links_defaults %}{% endblock %}
 
 ## {{ i18n.title_acknowledgements }}
 
