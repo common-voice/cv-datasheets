@@ -44,7 +44,7 @@
   "sps_fields_list": "* `client_id` - 使用者的雜湊 UUID\n* `audio_id` - 音檔的數字識別碼\n* `audio_file` - 音檔名稱\n* `duration_ms` - 音檔長度（毫秒）\n* `prompt_id` - 提問的數字識別碼\n* `prompt` - 給使用者的問題\n* `transcription` - 語音回應的轉錄\n* `votes` - 核准此轉錄的人數\n* `age` - 錄音者的年齡[^1]\n* `gender` - 錄音者的性別[^1]\n* `language` - 語言名稱\n* `split` - 用於建模，此片段所屬的資料子集\n* `char_per_sec` - 每秒音檔的轉錄文字數\n* `quality_tags` - 轉錄與音檔配對的自動評估，以 `|` 分隔\n   * `transcription-length` - 每秒字數低於 3 個字\n   * `speech-rate` - 每秒字數超過 30 個字\n   * `short-audio` - 音檔長度低於 2 秒\n   * `long-audio` - 音檔長度超過 30 秒",
   "clips_fields_title": "片段",
   "validated_sentences_fields_intro": "`validated_sentences.tsv` 檔案中的每一列代表文本語料庫中一條已驗證的句子：",
-  "scs_validated_sentences_fields": "* `sentence_id` - 句子的唯一識別碼\n* `sentence` - 句子文本\n* `sentence_domain` - 句子所屬的領域\n* `source` - 句子的來源\n* `is_used` - 該句子是否至少已被錄製為一筆片段\n* `clips_count` - 為該句子錄製的片段數量",
+  "scs_validated_sentences_fields": "* `sentence_id` - 句子的唯一識別碼\n* `sentence` - 句子文本\n* `sentence_domain` - 句子所屬的領域\n* `source` - 句子的來源\n* `is_used` - 該句子是否仍在流通中供錄製使用\n* `clips_count` - 為該句子錄製的片段數量",
   "unvalidated_sentences_fields_intro": "`unvalidated_sentences.tsv` 檔案中的每一列代表文本語料庫中一條未驗證的句子：",
   "scs_unvalidated_sentences_fields": "* `sentence_id` - 句子的唯一識別碼\n* `sentence` - 句子文本\n* `sentence_domain` - 句子所屬的領域\n* `source` - 句子的來源",
   "footnote_demographics": "[^1]: 如需年齡、性別及腔調選項的完整清單，請參閱 [demographics spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts)。僅在錄音者同意提供時才會揭露這些資訊。",
