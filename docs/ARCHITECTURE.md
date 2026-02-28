@@ -85,15 +85,30 @@ The snapshot is stored in `metadata/api-snapshots/languagedata-{YYYYMMDD}.json` 
 
 ## Auto-Generated Content
 
-The compile script auto-generates content from API data when no community file exists:
+The compile script auto-generates content in two ways:
 
-| Field                   | Source                                   | Condition                                           |
-| ----------------------- | ---------------------------------------- | --------------------------------------------------- |
-| `funding_description`   | OMSF funding text                        | Locale in `funding.tsv`, no `funding.md` in content |
-| `contribute_links_list` | Standard Speak/Write/Listen/Review links | No `contribute_links.md` in content                 |
-| `community_links_list`  | Pontoon translators link                 | No `community_links.md` in content                  |
+**Compile-time auto-injection (community_fields fallback):**
 
-Community content always takes precedence over auto-generated defaults.
+| Field                 | Source            | Condition                                           |
+| --------------------- | ----------------- | --------------------------------------------------- |
+| `funding_description` | OMSF funding text | Locale in `funding.tsv`, no `funding.md` in content |
+
+Community content always takes precedence over auto-injected defaults.
+
+**Template-embedded defaults (always present):**
+
+Three link fields have default links embedded directly in the compiled
+template via i18n keys. These defaults always appear alongside any
+community content:
+
+| Field                   | Default links                              | i18n key                                    |
+| ----------------------- | ------------------------------------------ | ------------------------------------------- |
+| `community_links_list`  | Pontoon + Communities page                 | `community_links_defaults`                  |
+| `discussion_links_list` | Matrix, Discourse, Discord, Telegram       | `discussion_links_defaults`                 |
+| `contribute_links_list` | Speak/Write/Listen/Review (SCS)            | `scs_contribute_links_defaults`             |
+| `contribute_links_list` | Question/Transcription links (SPS)         | `sps_contribute_links_defaults`             |
+
+**Bundler-generated mergeable data (runtime):**
 
 For mergeable fields (variants, accents, corpus, sources, text domains, transcriptions), the bundler generates statistical data at runtime. Community content is optional -- if provided, it appears before the bundler's auto-generated data. If not provided, only the bundler's data appears.
 
@@ -164,7 +179,7 @@ It then:
 | ----------------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
 | Community-written content                                                           | compile_datasheets.py                          | Filled `community_fields` values                                           |
 | API-derived names & direction                                                       | compile_datasheets.py (API snapshot)           | `metadata.native_name`, `metadata.english_name`, `metadata.text_direction` |
-| Pontoon / contribute link defaults                                                  | compile_datasheets.py (`_defaults/`)           | Pre-filled in `community_fields`                                           |
+| Link defaults (Pontoon, Discourse, Speak/Write, etc.)                               | i18n keys -> template-embedded                 | Literal text in compiled template (always present)                         |
 | OMSF funding                                                                        | compile_datasheets.py (`metadata/funding.tsv`) | Pre-filled `funding_description`                                           |
 | Auto-generated stats (clips, hours, demographics)                                   | Bundler at runtime                             | `{{KEY}}` placeholders in template                                         |
 | Inline stats (sentence counts, split counts, durations)                             | Bundler at runtime                             | `{{KEY}}` placeholders inside i18n text                                    |
