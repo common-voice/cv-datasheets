@@ -24,7 +24,7 @@
   "auto_bucket_header": "Bucket",
   "auto_clips_header": "Clips",
   "auto_split_header": "Split",
-  "auto_category_header": "Category",
+  "auto_category_header": "Clip category",
   "auto_count_header": "Count",
   "auto_bucket_transcribed_validated": "Transcribed & Validated",
   "auto_bucket_transcribed_pending": "Transcribed & Pending",
