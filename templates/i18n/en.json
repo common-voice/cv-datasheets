@@ -18,6 +18,22 @@
   "data_splits_detail": "The dataset contains {validated_clips} validated, {invalidated_clips} invalidated, and {other_clips} unresolved clips. The average clip duration is {avg_duration_secs} seconds.",
   "sps_data_splits_intro": "The dataset clips are categorised by transcription status and training-set assignment. The following tables summarise the distribution.",
 
+  "auto_audio_clips_title": "Audio clips",
+  "auto_training_splits_title": "Training splits",
+  "auto_transcription_status_title": "Transcription status",
+  "auto_bucket_header": "Bucket",
+  "auto_clips_header": "Clips",
+  "auto_split_header": "Split",
+  "auto_category_header": "Category",
+  "auto_count_header": "Count",
+  "auto_bucket_transcribed_validated": "Transcribed & Validated",
+  "auto_bucket_transcribed_pending": "Transcribed & Pending",
+  "auto_bucket_not_transcribed": "Not transcribed",
+  "auto_split_unassigned": "Unassigned",
+  "auto_training_split_coverage": "Training split coverage: {covered} of {total} transcribed & validated clips ({percentage})",
+  "auto_transcription_validated": "Validated",
+  "auto_transcription_pending": "Pending",
+
   "text_corpus_detail": "The corpus contains {total_sentences} sentences: {validated_sentences} validated and {unvalidated_sentences} unvalidated ({pending_sentences} pending review, {rejected_sentences} rejected), with {reported_sentences} reported for review.",
 
   "title_text_corpus": "Text corpus",

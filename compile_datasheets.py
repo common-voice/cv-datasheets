@@ -343,6 +343,28 @@ def render_templates(
     return templates
 
 
+def extract_auto_labels() -> dict[str, dict[str, str]]:
+    """
+    Extract auto_* keys from i18n files for bundler table generation.
+
+    These keys are not used in Jinja2 templates but are needed by the bundler
+    to produce localized markdown tables (data splits, transcription status).
+
+    Returns: { lang: { "auto_audio_clips_title": "...", ... } }
+    """
+    labels: dict[str, dict[str, str]] = {}
+    for path in sorted(I18N_DIR.glob("*.json")):
+        if path.name.startswith("_"):
+            continue
+        lang = path.stem
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        auto_keys = {k: v for k, v in data.items() if k.startswith("auto_")}
+        if auto_keys:
+            labels[lang] = auto_keys
+    return labels
+
+
 # ---------------------------------------------------------------------------
 # Community content loading (fallback chain)
 # ---------------------------------------------------------------------------
@@ -462,11 +484,15 @@ def compile_datasheets(
     templates = render_templates(field_map)
     print()
 
+    # Extract auto_labels from i18n files (for bundler table generation)
+    auto_labels = extract_auto_labels()
+
     output = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": datetime.now(UTC).isoformat(),
         "source_version": version,
         "templates": templates,
+        "auto_labels": auto_labels,
         "locales": {},
     }
 

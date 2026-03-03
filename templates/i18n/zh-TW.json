@@ -18,6 +18,22 @@
   "data_splits_detail": "本資料集包含 {validated_clips} 筆已驗證、{invalidated_clips} 筆未通過驗證及 {other_clips} 筆待審查的片段。片段平均長度為 {avg_duration_secs} 秒。",
   "sps_data_splits_intro": "本資料集的片段依轉錄狀態及訓練集分配進行分類。以下表格摘要其分佈情形。",
 
+  "auto_audio_clips_title": "音聲片段",
+  "auto_training_splits_title": "訓練分群",
+  "auto_transcription_status_title": "轉錄狀態",
+  "auto_bucket_header": "類別",
+  "auto_clips_header": "片段",
+  "auto_split_header": "分群",
+  "auto_category_header": "類別",
+  "auto_count_header": "數量",
+  "auto_bucket_transcribed_validated": "已轉錄且已驗證",
+  "auto_bucket_transcribed_pending": "已轉錄待驗證",
+  "auto_bucket_not_transcribed": "未轉錄",
+  "auto_split_unassigned": "未分配",
+  "auto_training_split_coverage": "訓練分群涵蓋率：{total} 筆已轉錄且已驗證片段中的 {covered} 筆（{percentage}）",
+  "auto_transcription_validated": "已驗證",
+  "auto_transcription_pending": "待驗證",
+
   "text_corpus_detail": "本語料庫包含 {total_sentences} 條句子：{validated_sentences} 條已驗證、{unvalidated_sentences} 條未驗證（{pending_sentences} 條待審查、{rejected_sentences} 條被拒絕），另有 {reported_sentences} 條被回報需審查。",
 
   "title_text_corpus": "文本語料",
