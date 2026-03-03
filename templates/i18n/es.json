@@ -14,10 +14,9 @@
   "gender_intro": "Información de género autodeclarada. La tabla muestra conteos de clips y hablantes con porcentajes. Los hablantes que no declararon género aparecen como No especificado. Un guion (-) indica cero.",
   "title_age": "Edad",
   "age_intro": "Información de edad autodeclarada. La tabla muestra conteos de clips y hablantes con porcentajes. Los hablantes que no declararon edad aparecen como No especificado. Un guion (-) indica cero.",
-  "sps_demographics_notice": "Por el momento no está disponible la información demográfica para habla espontánea. Estamos trabajando en ello y esperamos que sea disponible en el próximo lanzamiento.",
-
   "title_data_splits": "Partición de datos para modelado",
   "data_splits_detail": "El conjunto de datos contiene {validated_clips} clips validados, {invalidated_clips} invalidados y {other_clips} sin resolver. La duración promedio de los clips es de {avg_duration_secs} segundos.",
+  "sps_data_splits_intro": "Los clips del conjunto de datos se clasifican según el estado de transcripción y la asignación al conjunto de entrenamiento. Las siguientes tablas resumen la distribución.",
 
   "text_corpus_detail": "El corpus contiene {total_sentences} oraciones: {validated_sentences} validadas y {unvalidated_sentences} no validadas ({pending_sentences} pendientes de revisión, {rejected_sentences} rechazadas), con {reported_sentences} reportadas para revisión.",
 

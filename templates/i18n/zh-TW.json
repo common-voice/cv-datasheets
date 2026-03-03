@@ -14,10 +14,9 @@
   "gender_intro": "錄音者自行宣告的性別資訊。表格顯示錄音數與錄音者數及其百分比。未宣告性別的錄音者列為「未指定」。破折號（-）表示零。",
   "title_age": "年齡",
   "age_intro": "錄音者自行宣告的年齡層資訊。表格顯示錄音數與錄音者數及其百分比。未宣告年齡的錄音者列為「未指定」。破折號（-）表示零。",
-  "sps_demographics_notice": "目前提示性語音資料集尚未提供統計資訊。我們正在努力新增相關資訊。",
-
   "title_data_splits": "資料分群（用於模型訓練）",
   "data_splits_detail": "本資料集包含 {validated_clips} 筆已驗證、{invalidated_clips} 筆未通過驗證及 {other_clips} 筆待審查的片段。片段平均長度為 {avg_duration_secs} 秒。",
+  "sps_data_splits_intro": "本資料集的片段依轉錄狀態及訓練集分配進行分類。以下表格摘要其分佈情形。",
 
   "text_corpus_detail": "本語料庫包含 {total_sentences} 條句子：{validated_sentences} 條已驗證、{unvalidated_sentences} 條未驗證（{pending_sentences} 條待審查、{rejected_sentences} 條被拒絕），另有 {reported_sentences} 條被回報需審查。",
 

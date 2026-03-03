@@ -18,6 +18,14 @@
 
 {% block demographics %}{% endblock %}
 
+{% block data_splits %}
+## {{ i18n.title_data_splits }}
+
+{{ i18n.sps_data_splits_intro }}
+
+{{ auto.data_splits_table }}
+{% endblock %}
+
 {% block corpus_details %}
 ## {{ i18n.title_transcriptions }}
 

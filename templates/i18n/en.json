@@ -14,10 +14,9 @@
   "gender_intro": "Self-declared gender information. The table shows clip and speaker counts with percentages. Speakers who did not declare a gender are listed as Unspecified. A dash (-) indicates zero.",
   "title_age": "Age",
   "age_intro": "Self-declared age information. The table shows clip and speaker counts with percentages. Speakers who did not declare an age are listed as Unspecified. A dash (-) indicates zero.",
-  "sps_demographics_notice": "We are working on adding demographic information to the Spontaneous Speech datasets. For the moment this information is not available.",
-
   "title_data_splits": "Data splits for modelling",
   "data_splits_detail": "The dataset contains {validated_clips} validated, {invalidated_clips} invalidated, and {other_clips} unresolved clips. The average clip duration is {avg_duration_secs} seconds.",
+  "sps_data_splits_intro": "The dataset clips are categorised by transcription status and training-set assignment. The following tables summarise the distribution.",
 
   "text_corpus_detail": "The corpus contains {total_sentences} sentences: {validated_sentences} validated and {unvalidated_sentences} unvalidated ({pending_sentences} pending review, {rejected_sentences} rejected), with {reported_sentences} reported for review.",
 
