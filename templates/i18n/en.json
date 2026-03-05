@@ -1,8 +1,8 @@
 {
   "_comment": "English strings for datasheet templates. {variable} placeholders are replaced by the compile script with {{KEY}} bundler markers.",
 
-  "header_intro_scs": "This datasheet is for version {version} of the Mozilla Common Voice *Scripted Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers, recorded from a text corpus of {total_sentences} sentences.",
-  "header_intro_sps": "This datasheet is for version {version} of the Mozilla Common Voice *Spontaneous Speech* dataset for {english_name} (`{locale}`). The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers.",
+  "header_intro_scs": "This datasheet is for {version} of the Mozilla Common Voice *Scripted Speech* dataset for {english_name} [{native_name} - `{locale}`]. The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers, recorded from a text corpus of {total_sentences} sentences.",
+  "header_intro_sps": "This datasheet is for {version} of the Mozilla Common Voice *Spontaneous Speech* dataset for {english_name} [{native_name} - `{locale}`]. The dataset contains {clips} clips representing {hours_recorded} hours of recorded speech ({hours_validated} hours validated) from {speakers} speakers.",
 
   "title_language": "Language",
   "title_variants": "Variants",

@@ -1,8 +1,8 @@
 {
   "_comment": "Spanish strings for datasheet templates.",
 
-  "header_intro_scs": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos de voz guiada de Mozilla Common Voice para {english_name} ({locale}). El conjunto de datos contiene {clips} clips representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes, grabados a partir de un corpus de texto de {total_sentences} oraciones.",
-  "header_intro_sps": "Esta ficha técnica corresponde a la versión {version} del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice para {english_name} (`{locale}`). El conjunto de datos contiene {clips} representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes.",
+  "header_intro_scs": "Esta ficha técnica corresponde a {version} del conjunto de datos de voz guiada de Mozilla Common Voice para {native_name} [{english_name} - `{locale}`]. El conjunto de datos contiene {clips} clips representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes, grabados a partir de un corpus de texto de {total_sentences} oraciones.",
+  "header_intro_sps": "Esta ficha técnica corresponde a {version} del conjunto de datos *Spontaneous Speech* (habla espontánea) de Mozilla Common Voice para {native_name} [{english_name} - `{locale}`]. El conjunto de datos contiene {clips} representando {hours_recorded} horas de grabaciones ({hours_validated} horas validadas) de {speakers} hablantes.",
 
   "title_language": "Idioma",
   "title_variants": "Variantes",
