@@ -102,6 +102,7 @@ STATS_FIELDS = {
 # Used in i18n strings: {variable} is converted to {{KEY}} at compile time.
 INLINE_VAR_MAP = {
     "version": "VERSION",
+    "native_name": "NATIVE_NAME",
     "english_name": "ENGLISH_NAME",
     "locale": "LOCALE",
     "clips": "CLIPS",
