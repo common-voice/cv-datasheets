@@ -13,16 +13,16 @@ Inputs:
     metadata/               Language names, funding, template language mapping
 
 Output:
-    releases/datasheets-{version}.json
+    releases/datasheets-{snapshot_date}.json
 
 Usage:
-    python compile_datasheets.py <version> --api-snapshot PATH
-                                           [--output PATH] [--pretty]
-                                           [--diff PREVIOUS_JSON]
+    python compile_datasheets.py <snapshot_date> --api-snapshot PATH
+                                                 [--output PATH] [--pretty]
+                                                 [--diff PREVIOUS_JSON]
 
     Example:
-        python compile_datasheets.py 24.0-2025-12-05 --api-snapshot metadata/api-snapshots/languagedata-20260226.json
-        python compile_datasheets.py 24.0-2025-12-05 --api-snapshot metadata/api-snapshots/languagedata-20260226.json --diff releases/datasheets-23.0-2025-09-05.json
+        python compile_datasheets.py 2026-03-09 --api-snapshot metadata/api-snapshots/languagedata-20260226.json
+        python compile_datasheets.py 2026-03-09 --api-snapshot metadata/api-snapshots/languagedata-20260226.json --diff releases/datasheets-2025-12-05.json
 """
 
 from __future__ import annotations
@@ -102,6 +102,7 @@ STATS_FIELDS = {
 # Used in i18n strings: {variable} is converted to {{KEY}} at compile time.
 INLINE_VAR_MAP = {
     "version": "VERSION",
+    "native_name": "NATIVE_NAME",
     "english_name": "ENGLISH_NAME",
     "locale": "LOCALE",
     "clips": "CLIPS",
@@ -262,14 +263,11 @@ def build_jinja_context(
 
     # Process {var} -> {{KEY}} in all i18n strings
     resolved_i18n = {
-        k: render_inline_vars(v) if isinstance(v, str) else v
-        for k, v in i18n.items()
+        k: render_inline_vars(v) if isinstance(v, str) else v for k, v in i18n.items()
     }
 
     # header_intro — pick modality-specific intro (already resolved above)
-    intro_key = (
-        "header_intro_scs" if modality_short == "scs" else "header_intro_sps"
-    )
+    intro_key = "header_intro_scs" if modality_short == "scs" else "header_intro_sps"
     header_intro = resolved_i18n.get(intro_key, "")
 
     return {
@@ -440,9 +438,7 @@ def load_community_fields(
 
         # Inject OMSF funding if no community content and locale is funded
         if field_name == "funding" and not content and funder == "omsf":
-            content = OMSF_FUNDING_TEXT.get(
-                template_lang, OMSF_FUNDING_TEXT["en"]
-            )
+            content = OMSF_FUNDING_TEXT.get(template_lang, OMSF_FUNDING_TEXT["en"])
 
         fields[info["key"]] = content
 
@@ -455,14 +451,14 @@ def load_community_fields(
 
 
 def compile_datasheets(
-    version: str,
+    snapshot_date: str,
     output_path: Path,
     *,
     pretty: bool = False,
     api_snapshot_path: Path,
 ) -> None:
     """Compile templates, community data, and metadata into JSON."""
-    print(f"Compiling datasheets for version {version}...")
+    print(f"Compiling datasheets for {snapshot_date}...")
     print(f"Output: {output_path}\n")
 
     # Load field map
@@ -490,7 +486,7 @@ def compile_datasheets(
     output = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": datetime.now(UTC).isoformat(),
-        "source_version": version,
+        "snapshot_date": snapshot_date,
         "templates": templates,
         "auto_labels": auto_labels,
         "locales": {},
@@ -525,9 +521,7 @@ def compile_datasheets(
             }
 
             if api_locale_data:
-                locale_metadata["native_name"] = api_locale_data.get(
-                    "native_name", ""
-                )
+                locale_metadata["native_name"] = api_locale_data.get("native_name", "")
                 locale_metadata["english_name"] = api_locale_data.get(
                     "english_name", ""
                 )
@@ -598,8 +592,8 @@ def diff_releases(current_path: Path, previous_path: Path) -> str:
     with open(current_path, encoding="utf-8") as f:
         curr = json.load(f)
 
-    prev_version = prev.get("source_version", "unknown")
-    curr_version = curr.get("source_version", "unknown")
+    prev_version = prev.get("snapshot_date", prev.get("source_version", "unknown"))
+    curr_version = curr.get("snapshot_date", curr.get("source_version", "unknown"))
 
     lines: list[str] = [
         f"## datasheets-{curr_version}",
@@ -637,13 +631,10 @@ def diff_releases(current_path: Path, previous_path: Path) -> str:
         lines.append("")
 
         if added:
-            lines.append(
-                f"- {len(added)} new: {', '.join(f'`{a}`' for a in added)}"
-            )
+            lines.append(f"- {len(added)} new: {', '.join(f'`{a}`' for a in added)}")
         if removed:
             lines.append(
-                f"- {len(removed)} removed: "
-                f"{', '.join(f'`{r}`' for r in removed)}"
+                f"- {len(removed)} removed: " f"{', '.join(f'`{r}`' for r in removed)}"
             )
         if updated:
             lines.append(f"- {len(updated)} updated content:")
@@ -670,9 +661,9 @@ def main() -> None:
         print((__doc__ or "").strip())
         sys.exit(0)
 
-    version = args[0]
+    snapshot_date = args[0]
     releases_dir = REPO_ROOT / "releases"
-    output_path = releases_dir / f"datasheets-{version}.json"
+    output_path = releases_dir / f"datasheets-{snapshot_date}.json"
     pretty = False
     api_snapshot_path: Path | None = None
     diff_path: Path | None = None
@@ -704,7 +695,7 @@ def main() -> None:
         sys.exit(1)
 
     compile_datasheets(
-        version,
+        snapshot_date,
         output_path,
         pretty=pretty,
         api_snapshot_path=api_snapshot_path,

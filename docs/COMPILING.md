@@ -9,7 +9,7 @@
 ## Basic Usage
 
 ```bash
-python3 compile_datasheets.py <version> --api-snapshot <snapshot-path> [--pretty] [--output PATH] [--diff PREVIOUS_JSON]
+python3 compile_datasheets.py <snapshot_date> --api-snapshot <snapshot-path> [--pretty] [--output PATH] [--diff PREVIOUS_JSON]
 ```
 
 ### Examples
@@ -17,7 +17,7 @@ python3 compile_datasheets.py <version> --api-snapshot <snapshot-path> [--pretty
 Compile for a specific release:
 
 ```bash
-python3 compile_datasheets.py 24.0-2025-12-05 \
+python3 compile_datasheets.py 2026-03-09 \
     --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
     --pretty
 ```
@@ -25,7 +25,7 @@ python3 compile_datasheets.py 24.0-2025-12-05 \
 Custom output path:
 
 ```bash
-python3 compile_datasheets.py 24.0-2025-12-05 \
+python3 compile_datasheets.py 2026-03-09 \
     --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
     --output /tmp/test-datasheets.json --pretty
 ```
@@ -33,9 +33,9 @@ python3 compile_datasheets.py 24.0-2025-12-05 \
 Compare with a previous release:
 
 ```bash
-python3 compile_datasheets.py 24.0-2025-12-05 \
+python3 compile_datasheets.py 2026-03-09 \
     --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
-    --diff releases/datasheets-23.0-2025-09-05.json --pretty
+    --diff releases/datasheets-2025-09-05.json --pretty
 ```
 
 ## What the Compile Script Does
@@ -92,7 +92,7 @@ To add a new translated template, see [How to Add a Translated Datasheet](CONTRI
 
 ## Output
 
-Default output: `releases/datasheets-{version}.json`
+Default output: `releases/datasheets-{snapshot_date}.json`
 
 The `--pretty` flag adds indentation for human readability.
 
@@ -100,7 +100,7 @@ The `--pretty` flag adds indentation for human readability.
 
 1. Fetch a fresh API snapshot: `python3 scripts/fetch_api_metadata.py`
 2. Update community content via PRs
-3. Compile: `python3 compile_datasheets.py {version} --api-snapshot metadata/api-snapshots/languagedata-{date}.json --pretty`
+3. Compile: `python3 compile_datasheets.py {snapshot_date} --api-snapshot metadata/api-snapshots/languagedata-{YYYYMMDD}.json --pretty`
 4. Review the changelog diff (use `--diff` against previous release)
 5. Commit the release JSON
-6. Tag: `datasheets-v{version}`
+6. Tag: `datasheets-{snapshot_date}`

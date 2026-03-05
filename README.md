@@ -7,7 +7,7 @@ Datasheets are documents that describe each language dataset in [Common Voice](h
 ```txt
 API snapshot ──────┐
 templates/        ─┤
-content/locales/  ─┤── compile_datasheets.py ──> releases/datasheets-{version}.json
+content/locales/  ─┤── compile_datasheets.py ──> releases/datasheets-{snapshot_date}.json
 metadata/         ─┘                                       │
                                                     Bundler fills {{KEY}} with live stats
                                                            │
@@ -64,7 +64,7 @@ cv-datasheets/
 │   ├── CONTRIBUTING.md           Community contribution guide
 │   └── COMPILING.md              Compile script usage and release workflow
 │
-├── releases/                   Compiled output (datasheets-{version}.json)
+├── releases/                   Compiled output (datasheets-{snapshot_date}.json)
 │
 └── _legacy/                    Deprecated scripts, metadata, and generated datasheets
 ```
@@ -75,7 +75,7 @@ Fetch a fresh API snapshot and compile:
 
 ```bash
 python3 scripts/fetch_api_metadata.py
-python3 compile_datasheets.py 24.0-2025-12-05 \
+python3 compile_datasheets.py 2026-03-09 \
     --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
     --pretty
 ```
@@ -83,9 +83,9 @@ python3 compile_datasheets.py 24.0-2025-12-05 \
 Compare against a previous release:
 
 ```bash
-python3 compile_datasheets.py 24.0-2025-12-05 \
+python3 compile_datasheets.py 2026-03-09 \
     --api-snapshot metadata/api-snapshots/languagedata-20260226.json \
-    --diff releases/datasheets-23.0-2025-09-05.json --pretty
+    --diff releases/datasheets-2025-09-05.json --pretty
 ```
 
 For all options and the release workflow, see [docs/COMPILING.md](docs/COMPILING.md).

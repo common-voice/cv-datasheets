@@ -132,7 +132,7 @@ The compile script produces a single JSON file per release:
 {
   "schema_version": "2.0.0",
   "generated_at": "2026-02-26T...",
-  "source_version": "24.0-2025-12-05",
+  "snapshot_date": "2025-12-05",
   "templates": {
     "scs": { "en": "flat markdown...", "es": "...", "zh-TW": "..." },
     "sps": { "en": "flat markdown...", "es": "..." }

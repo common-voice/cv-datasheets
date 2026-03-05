@@ -5,7 +5,7 @@ All notable changes to this project are documented in this file.
 The changelog has two sections:
 
 - **Code & Workflow** -- changes to scripts, templates, tooling, and processes
-- **Data vNN.N** -- changes to compiled releases (new locales, content updates)
+- **Data** -- changes to compiled releases (new locales, content updates)
 
 ---
 
@@ -45,6 +45,14 @@ The changelog has two sections:
 - Added translated datasheet guide to `docs/CONTRIBUTING.md`
 - Auto-discovered template languages from `templates/i18n/*.json` -- removed hardcoded `TEMPLATE_LANGS` constant
 
+#### Release Naming
+
+- Switched to date-based release naming: `datasheets-{YYYY-MM-DD}.json` (was `datasheets-{version}-{date}.json`)
+- CLI arg renamed from `<version>` to `<snapshot_date>`
+- JSON field renamed from `source_version` to `snapshot_date`
+- Removed "version" word from i18n intro text (en: "for {version}", es: "a {version}")
+- Added `native_name` to `INLINE_VAR_MAP` -- was missing, appeared as literal `{native_name}` in compiled templates
+
 #### Mergeable Fields
 
 - Added `mergeable` property (boolean) for fields where the bundler generates data at runtime
@@ -56,9 +64,7 @@ The changelog has two sections:
 
 ---
 
-## datasheets-24.0-2025-12-05
-
-### Data v24.0
+## datasheets-2025-12-05
 
 **SCS (Scripted Speech):** 289 locales
 
@@ -70,9 +76,7 @@ The changelog has two sections:
 
 ---
 
-## datasheets-23.0-2025-09-05
-
-### Data v23.0
+## datasheets-2025-09-05
 
 **SCS (Scripted Speech):** 288 locales
 
