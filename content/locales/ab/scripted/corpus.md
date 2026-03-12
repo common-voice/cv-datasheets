@@ -41,7 +41,7 @@ Gagra District
  - Schools in Pitsunda
  - Ldzaa village school
 
-Tkvarchal 
+Tkvarchal
  - School No. 1
 
 Abkhaz State University also played a major role in the project. Recording sessions initially started at the Faculty of Philology and later expanded to other faculties, involving approximately 200 students and professors.
