@@ -19,30 +19,30 @@ Participation of educational institutions
 The campaign involved numerous educational institutions throughout Abkhazia.
 
 Sukhum
- • School No. 5
- • School No. 1
- • School No. 4
- • School No. 10
- • Sukhum Boarding Lyceum
+ - School No. 5
+ - School No. 1
+ - School No. 4
+ - School No. 10
+ - Sukhum Boarding Lyceum
 
 Ochamchira District
- • Ochamchira Boarding School
- • Village schools of Chlou and Kutol
+ - Ochamchira Boarding School
+ - Village schools of Chlou and Kutol
 
 Gulrypsh District
- • Dranda Secondary School
+ - Dranda Secondary School
 
 Gudauta District
- • Schools No. 1, No. 2 and No. 5 in Gudauta
- • Village schools of Lykhny, Duripsh and Dzhirkhva
+ - Schools No. 1, No. 2 and No. 5 in Gudauta
+ - Village schools of Lykhny, Duripsh and Dzhirkhva
 
 Gagra District
- • School No. 1 in Gagra
- • Schools in Pitsunda
- • Ldzaa village school
+ - School No. 1 in Gagra
+ - Schools in Pitsunda
+ - Ldzaa village school
 
 Tkvarchal 
- • School No. 1
+ - School No. 1
 
 Abkhaz State University also played a major role in the project. Recording sessions initially started at the Faculty of Philology and later expanded to other faculties, involving approximately 200 students and professors.
 
