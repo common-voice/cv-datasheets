@@ -1,0 +1,1 @@
+- v23.0 台灣維基媒體協會 Wikimedia Taiwan「Common Voice 原住民族語錄音補助計畫」/ Mozilla Foundation Open Multilingual Speech Fund (OMSF)
