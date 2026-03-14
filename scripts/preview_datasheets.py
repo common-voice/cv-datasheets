@@ -520,40 +520,78 @@ def compile_locale_from_tree(
 # ---------------------------------------------------------------------------
 
 
-def detect_changed_locales() -> list[tuple[str, str]]:
-    """Detect changed locales from git diff against main.
-
-    Returns list of (locale, modality_short) tuples.
-    """
+def _git_diff_names(path: str = "") -> list[str]:
+    """Get changed file names from git diff against main."""
+    cmd = ["git", "diff", "--name-only", "main"]
+    if path:
+        cmd += ["--", path]
     try:
-        diff = subprocess.run(
-            ["git", "diff", "--name-only", "main", "--", "content/locales/"],
-            capture_output=True,
-            text=True,
-            check=True,
-        )
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        return [l for l in result.stdout.strip().splitlines() if l]
     except (subprocess.CalledProcessError, FileNotFoundError):
         return []
 
-    modality_dir_map = {"scripted": "scs", "spontaneous": "sps", "shared": None}
-    results: set[tuple[str, str]] = set()
 
-    for line in diff.stdout.strip().splitlines():
+def _detect_template_lang_changes() -> set[str]:
+    """Detect locales affected by template-languages.json changes.
+
+    Compares current vs main version of the file and returns locale codes
+    whose template language mapping was added, removed, or changed.
+    """
+    changed_files = _git_diff_names("metadata/template-languages.json")
+    if not changed_files:
+        return set()
+
+    # Load current version
+    current: dict[str, str] = {}
+    tl_path = compiler.TEMPLATE_LANGS_PATH
+    if tl_path.exists():
+        with open(tl_path, encoding="utf-8") as f:
+            current = json.load(f)
+        current.pop("_comment", None)
+
+    # Load main version
+    previous: dict[str, str] = {}
+    try:
+        result = subprocess.run(
+            ["git", "show", "main:metadata/template-languages.json"],
+            capture_output=True, text=True, check=True,
+        )
+        previous = json.load(__import__("io").StringIO(result.stdout))
+        previous.pop("_comment", None)
+    except (subprocess.CalledProcessError, json.JSONDecodeError):
+        pass
+
+    # Find locales with changed mappings
+    all_locales = set(current.keys()) | set(previous.keys())
+    changed = set()
+    for loc in all_locales:
+        if current.get(loc) != previous.get(loc):
+            changed.add(loc)
+
+    return changed
+
+
+def detect_changed_locales() -> tuple[list[str], list[str]]:
+    """Detect changed locales from git diff against main.
+
+    Returns:
+        (content_locales, metadata_locales) - deduplicated locale code lists.
+        content_locales: locales with changed content files.
+        metadata_locales: locales affected by template-languages.json changes.
+    """
+    content_locales: set[str] = set()
+
+    for line in _git_diff_names("content/locales/"):
         # content/locales/{locale}/{modality_dir}/...
         parts = Path(line).parts
         if len(parts) < 4 or parts[0] != "content" or parts[1] != "locales":
             continue
-        locale = parts[2]
-        modality_dir = parts[3]
-        mod_short = modality_dir_map.get(modality_dir)
-        if mod_short:
-            results.add((locale, mod_short))
-        elif modality_dir == "shared":
-            # Shared files affect both modalities
-            results.add((locale, "scs"))
-            results.add((locale, "sps"))
+        content_locales.add(parts[2])
 
-    return sorted(results)
+    metadata_locales = _detect_template_lang_changes()
+
+    return sorted(content_locales), sorted(metadata_locales)
 
 
 # ---------------------------------------------------------------------------
@@ -608,17 +646,23 @@ def main() -> None:
     locales_to_preview: list[str] = []
 
     if changed:
-        changed_pairs = detect_changed_locales()
-        if not changed_pairs:
+        content_locales, metadata_locales = detect_changed_locales()
+        # Merge both lists, deduplicated
+        all_changed = list(dict.fromkeys(content_locales + metadata_locales))
+        if not all_changed:
             print("No changed locales detected (compared to main).")
             sys.exit(0)
-        # Deduplicate locale codes (compile_locale_from_tree handles modalities)
-        locales_to_preview = list(dict.fromkeys(loc for loc, _ in changed_pairs))
-        print(
-            f"\nDetected {len(locales_to_preview)} changed locale(s): "
-            f"{', '.join(locales_to_preview)}",
-            file=sys.stderr,
-        )
+        locales_to_preview = all_changed
+        if content_locales:
+            print(
+                f"\nContent changes: {', '.join(content_locales)}",
+                file=sys.stderr,
+            )
+        if metadata_locales:
+            print(
+                f"Template language remapped: {', '.join(metadata_locales)}",
+                file=sys.stderr,
+            )
     elif locales:
         locales_to_preview = locales
     else:
