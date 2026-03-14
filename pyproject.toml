@@ -1,11 +1,33 @@
 [project]
 name = "cv-datasheets"
-version = "0.0.2"
-description = "Scripts to generate MDC datasheets"
+version = "0.1.0"
+description = "Compile and preview datasheets for Mozilla Common Voice datasets"
 readme = "README.md"
 requires-python = ">=3.12"
+license = "MPL-2.0"
+authors = [
+    { name = "Mozilla Common Voice" },
+]
+keywords = ["common-voice", "datasheets", "speech", "datasets", "mozilla"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
 dependencies = [
     "dotenv>=0.9.9",
     "jinja2>=3.1",
+    "pymarkdownlnt>=0.9",
     "requests>=2.32.5",
 ]
+
+[project.urls]
+Homepage = "https://github.com/common-voice/cv-datasheets"
+Repository = "https://github.com/common-voice/cv-datasheets"
+Issues = "https://github.com/common-voice/cv-datasheets/issues"
+
+[tool.setuptools]
+packages = []

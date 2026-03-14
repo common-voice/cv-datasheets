@@ -1,0 +1,75 @@
+name: Compile datasheets-latest.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "templates/**"
+      - "metadata/**"
+      - "compile_datasheets.py"
+      - "scripts/fetch_api_metadata.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: compile-latest
+  cancel-in-progress: true
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    # Skip if this push was the auto-compile commit itself
+    if: "!contains(github.event.head_commit.message, 'chore: auto-compile')"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install jinja2
+
+      - name: Find latest API snapshot
+        id: snapshot
+        run: |
+          snapshot=$(ls -1 metadata/api-snapshots/languagedata-*.json | sort | tail -1)
+          if [ -z "$snapshot" ]; then
+            echo "No API snapshot found"
+            exit 1
+          fi
+          echo "path=${snapshot}" >> "$GITHUB_OUTPUT"
+          echo "Using snapshot: ${snapshot}"
+
+      - name: Compile datasheets-latest.json
+        run: |
+          python compile_datasheets.py latest \
+            --api-snapshot "${{ steps.snapshot.outputs.path }}" \
+            --output releases/datasheets-latest.json \
+            --pretty
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain releases/datasheets-latest.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "datasheets-latest.json has changes"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes in datasheets-latest.json"
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add releases/datasheets-latest.json
+          git commit -m "chore: auto-compile datasheets-latest.json"
+          git push
