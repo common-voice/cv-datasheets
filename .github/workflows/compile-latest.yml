@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: compile-latest
+  cancel-in-progress: true
+
 jobs:
   compile:
     runs-on: ubuntu-latest
