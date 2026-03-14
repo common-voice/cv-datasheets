@@ -1,0 +1,148 @@
+name: Datasheet Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "content/**"
+      - "templates/**"
+      - "metadata/**"
+      - "compile_datasheets.py"
+      - "scripts/preview_datasheets.py"
+
+  workflow_dispatch:
+    inputs:
+      locales:
+        description: "Locale codes to preview (space-separated, e.g. 'ady kbd es'). Leave empty to auto-detect from PR."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # needed for git diff against main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install jinja2
+
+      - name: Determine locales to preview
+        id: locales
+        run: |
+          if [ -n "${{ github.event.inputs.locales }}" ]; then
+            echo "args=-l ${{ github.event.inputs.locales }}" >> "$GITHUB_OUTPUT"
+            echo "Previewing manually specified locales: ${{ github.event.inputs.locales }}"
+          else
+            echo "args=--changed" >> "$GITHUB_OUTPUT"
+            echo "Auto-detecting changed locales from diff"
+          fi
+
+      - name: Generate previews
+        id: generate
+        run: |
+          python scripts/preview_datasheets.py ${{ steps.locales.outputs.args }} 2>&1 | tee /tmp/preview-log.txt
+          # Collect generated preview files
+          if ls previews/preview-*.md 1>/dev/null 2>&1; then
+            echo "has_previews=true" >> "$GITHUB_OUTPUT"
+            echo "Generated previews:"
+            ls -la previews/preview-*.md
+          else
+            echo "has_previews=false" >> "$GITHUB_OUTPUT"
+            echo "No previews generated"
+          fi
+
+      - name: Build PR comment
+        if: steps.generate.outputs.has_previews == 'true' && github.event_name == 'pull_request'
+        id: comment
+        run: |
+          # Build markdown comment body from preview files
+          {
+            echo "## Datasheet Preview"
+            echo ""
+
+            count=$(ls previews/preview-*.md 2>/dev/null | wc -l)
+            echo "Preview for **${count} datasheet(s)** in this PR."
+            echo ""
+
+            for f in previews/preview-*.md; do
+              # Extract locale and modality from filename: preview-{locale}-{modality}.md
+              basename=$(basename "$f" .md)
+              locale=$(echo "$basename" | sed 's/^preview-//; s/-[^-]*$//')
+              modality=$(echo "$basename" | sed 's/.*-//' | tr '[:lower:]' '[:upper:]')
+
+              # Read the preview content
+              content=$(cat "$f")
+
+              # Truncate if too long (keep under 5000 chars per preview)
+              if [ ${#content} -gt 5000 ]; then
+                content="${content:0:5000}
+
+          ...
+
+          *(truncated - full preview available as workflow artifact)*"
+              fi
+
+              echo "<details>"
+              echo "<summary><strong>${locale}</strong> (${modality})</summary>"
+              echo ""
+              echo "${content}"
+              echo ""
+              echo "</details>"
+              echo ""
+            done
+
+            echo "---"
+            echo ""
+            echo "> This preview uses dummy statistics (marked with \`?\`). Actual numbers are filled by the bundler at release time."
+          } > /tmp/pr-comment.md
+
+          # Check total size (GitHub comment limit: 65536 chars)
+          size=$(wc -c < /tmp/pr-comment.md)
+          echo "Comment size: ${size} bytes"
+          if [ "$size" -gt 60000 ]; then
+            {
+              echo "## Datasheet Preview"
+              echo ""
+              echo "Preview generated for **${count} datasheet(s)** but the comment would be too large."
+              echo "Download the preview files from the workflow artifacts."
+            } > /tmp/pr-comment.md
+          fi
+
+      - name: Find existing comment
+        if: steps.generate.outputs.has_previews == 'true' && github.event_name == 'pull_request'
+        uses: peter-evans/find-comment@v3
+        id: find-comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: "github-actions[bot]"
+          body-includes: "## Datasheet Preview"
+
+      - name: Post or update PR comment
+        if: steps.generate.outputs.has_previews == 'true' && github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: /tmp/pr-comment.md
+          edit-mode: replace
+
+      - name: Upload preview artifacts
+        if: steps.generate.outputs.has_previews == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: datasheet-previews
+          path: previews/preview-*.md
+          retention-days: 5
