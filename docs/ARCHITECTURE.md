@@ -20,6 +20,52 @@ metadata/ files ──┘                                        │
                                                    README.md -> tar.gz + GCS /datasheets/
 ```
 
+## Repository Structure
+
+```txt
+cv-datasheets/
+├── templates/                  Jinja2 templates
+│   ├── base.md.j2                Shared skeleton
+│   ├── scripted.md.j2            SCS child template
+│   ├── spontaneous.md.j2         SPS child template
+│   ├── i18n/                     Section title translations (auto-discovered)
+│   └── _legacy/                  Old plain markdown templates (reference)
+│
+├── content/                    Community content
+│   ├── _field_map.json           Field-to-bundler-key mapping
+│   ├── _defaults/                Fallback content per template language
+│   ├── _template/                Empty file structure for contributors
+│   ├── _example/                 Filled-in example (Klingon)
+│   └── locales/{code}/           Per-locale content (shared/, scripted/, spontaneous/)
+│
+├── metadata/                   Static data files
+│   ├── api-snapshots/            Timestamped API snapshots (language names, variants, accents)
+│   ├── locale-extras.json        Locales not in API (el-CY, ms-MY)
+│   ├── template-languages.json   Non-"en" template overrides
+│   └── funding.tsv               OMSF-funded locales
+│
+├── scripts/                    Utilities
+│   ├── fetch_api_metadata.py     Fetch SCS + SPS API -> snapshot
+│   ├── preview_datasheets.py     Preview datasheets with dummy stats
+│   └── extract_community_data.py One-time extraction from legacy datasheets
+│
+├── compile_datasheets.py       Main compile script
+├── schema/                     JSON Schema for output validation
+├── docs/                       Documentation
+│   ├── ARCHITECTURE.md           System design and bundler integration
+│   ├── CONTRIBUTING.md           Community contribution guide
+│   └── COMPILING.md              Compile script usage and release workflow
+│
+├── .github/workflows/          CI/CD
+│   ├── preview.yml               PR preview (auto-generates preview comment)
+│   └── compile-latest.yml        Auto-compile datasheets-latest.json on merge
+│
+├── releases/                   Compiled output (datasheets-{snapshot_date}.json)
+├── previews/                   Local preview output (gitignored)
+│
+└── _legacy/                    Deprecated scripts, metadata, and generated datasheets
+```
+
 ## Jinja2 Role
 
 Jinja2 runs **at compile time only** inside this repository. It resolves template inheritance (`base.md.j2` -> child templates) and produces flat markdown strings with `{{KEY}}` markers. The bundler never touches Jinja2.
@@ -172,6 +218,14 @@ It then:
 2. Builds a replacement map from auto-generated stats + community fields + metadata
 3. Replaces `{{KEY}}` placeholders via regex
 4. Writes `README.md` per locale into the dataset tar
+
+## CI/CD
+
+Two GitHub Actions workflows automate the pipeline:
+
+**Preview** (`preview.yml`): Triggers on every PR that touches `content/`, `templates/`, or `metadata/`. Runs `preview_datasheets.py --changed` to compile affected locales from the working tree with dummy statistics, then posts the rendered preview as a comment on the PR. Also detects template-language remappings in `metadata/template-languages.json`.
+
+**Auto-compile** (`compile-latest.yml`): Triggers on push to `main` (after merge). Runs `compile_datasheets.py` with the latest committed API snapshot and commits `releases/datasheets-latest.json` if it changed. The commit message (`chore: auto-compile`) prevents re-triggering.
 
 ## What Goes Where
 

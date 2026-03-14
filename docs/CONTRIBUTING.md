@@ -14,7 +14,10 @@ Datasheets describe each language dataset in Common Voice. They include informat
 2. Look at `content/_template/` for the directory structure and file list
 3. Look at `content/_example/` for a filled-in reference
 4. Create or edit files under `content/locales/{your-locale-code}/`
-5. Submit a Pull Request
+5. Preview locally (optional): `python3 scripts/preview_datasheets.py -l {your-locale-code}`
+6. Submit a Pull Request -- a preview of your datasheet will be posted automatically as a comment on the PR
+
+Please submit **one PR per locale** so that previews and reviews stay focused.
 
 ### Via Google Form
 
