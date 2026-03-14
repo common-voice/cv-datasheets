@@ -557,7 +557,7 @@ def _detect_template_lang_changes() -> set[str]:
             ["git", "show", "main:metadata/template-languages.json"],
             capture_output=True, text=True, check=True,
         )
-        previous = json.load(__import__("io").StringIO(result.stdout))
+        previous = json.load(io.StringIO(result.stdout))
         previous.pop("_comment", None)
     except (subprocess.CalledProcessError, json.JSONDecodeError):
         pass
