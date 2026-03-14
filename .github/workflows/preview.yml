@@ -21,6 +21,10 @@ permissions:
   contents: read
   pull-requests: write
 
+concurrency:
+  group: preview-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   preview:
     runs-on: ubuntu-latest
@@ -41,10 +45,17 @@ jobs:
 
       - name: Determine locales to preview
         id: locales
+        env:
+          INPUT_LOCALES: ${{ github.event.inputs.locales }}
         run: |
-          if [ -n "${{ github.event.inputs.locales }}" ]; then
-            echo "args=-l ${{ github.event.inputs.locales }}" >> "$GITHUB_OUTPUT"
-            echo "Previewing manually specified locales: ${{ github.event.inputs.locales }}"
+          if [ -n "$INPUT_LOCALES" ]; then
+            # Validate: locale codes may only contain a-z, A-Z, 0-9, and hyphens
+            if ! echo "$INPUT_LOCALES" | grep -qP '^[a-zA-Z0-9\- ]+$'; then
+              echo "Error: Invalid locale input. Only alphanumeric characters and hyphens allowed."
+              exit 1
+            fi
+            echo "args=-l $INPUT_LOCALES" >> "$GITHUB_OUTPUT"
+            echo "Previewing manually specified locales: $INPUT_LOCALES"
           else
             echo "args=--changed" >> "$GITHUB_OUTPUT"
             echo "Auto-detecting changed locales from diff"
@@ -52,8 +63,10 @@ jobs:
 
       - name: Generate previews
         id: generate
+        env:
+          PREVIEW_ARGS: ${{ steps.locales.outputs.args }}
         run: |
-          python scripts/preview_datasheets.py ${{ steps.locales.outputs.args }} 2>&1 | tee /tmp/preview-log.txt
+          python scripts/preview_datasheets.py $PREVIEW_ARGS 2>&1 | tee /tmp/preview-log.txt
           # Collect generated preview files
           if ls previews/preview-*.md 1>/dev/null 2>&1; then
             echo "has_previews=true" >> "$GITHUB_OUTPUT"
