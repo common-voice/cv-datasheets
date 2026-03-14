@@ -57,12 +57,12 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          if git diff --quiet releases/datasheets-latest.json 2>/dev/null; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes in datasheets-latest.json"
-          else
+          if [ -n "$(git status --porcelain releases/datasheets-latest.json)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "datasheets-latest.json has changes"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes in datasheets-latest.json"
           fi
 
       - name: Commit and push
