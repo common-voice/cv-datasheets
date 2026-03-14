@@ -96,11 +96,41 @@ Default output: `releases/datasheets-{snapshot_date}.json`
 
 The `--pretty` flag adds indentation for human readability.
 
+## Previewing
+
+Preview how community content will render without needing real bundler statistics:
+
+```bash
+python3 scripts/preview_datasheets.py -l ady          # single locale
+python3 scripts/preview_datasheets.py -l ady kbd es    # multiple locales
+python3 scripts/preview_datasheets.py --changed        # auto-detect from git diff
+```
+
+The preview script:
+
+- Compiles directly from the working tree (no pre-compiled JSON needed)
+- Fetches API metadata on the fly (cached for 24h in `previews/.api-snapshot.json`)
+- Falls back to the latest committed snapshot if the API is unreachable
+- Substitutes `{{KEY}}` placeholders with dummy values (marked `?` in tables)
+- Strips empty sections (same as the bundler)
+- Outputs to `previews/preview-{locale}-{modality}.md` (gitignored)
+
+On Pull Requests, the `preview.yml` workflow runs automatically and posts the rendered preview as a comment.
+
+## Auto-Compile
+
+When changes are merged to `main`, the `compile-latest.yml` workflow automatically recompiles `releases/datasheets-latest.json` using the latest committed API snapshot. This rolling file always reflects the current state of `main`.
+
+The auto-compile triggers on changes to `content/`, `templates/`, `metadata/`, or the compile script itself. The resulting commit (`chore: auto-compile datasheets-latest.json`) does not re-trigger the workflow.
+
 ## Release Workflow
 
 1. Fetch a fresh API snapshot: `python3 scripts/fetch_api_metadata.py`
-2. Update community content via PRs
-3. Compile: `python3 compile_datasheets.py {snapshot_date} --api-snapshot metadata/api-snapshots/languagedata-{YYYYMMDD}.json --pretty`
-4. Review the changelog diff (use `--diff` against previous release)
-5. Commit the release JSON
-6. Tag: `datasheets-{snapshot_date}`
+2. Commit the snapshot to `metadata/api-snapshots/`
+3. Update community content via PRs (previews are generated automatically)
+4. Compile: `python3 compile_datasheets.py {snapshot_date} --api-snapshot metadata/api-snapshots/languagedata-{YYYYMMDD}.json --pretty`
+5. Review the changelog diff (use `--diff` against previous release)
+6. Commit the release JSON
+7. Tag: `datasheets-{snapshot_date}`
+
+Note: `datasheets-latest.json` is updated automatically on merge. Dated release files (`datasheets-{date}.json`) are created manually as part of this workflow.
