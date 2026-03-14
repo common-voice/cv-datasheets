@@ -12,7 +12,6 @@ keywords = ["common-voice", "datasheets", "speech", "datasets", "mozilla"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering",
@@ -21,6 +20,7 @@ classifiers = [
 dependencies = [
     "dotenv>=0.9.9",
     "jinja2>=3.1",
+    "pymarkdownlnt>=0.9",
     "requests>=2.32.5",
 ]
 

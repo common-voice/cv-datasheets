@@ -499,17 +499,6 @@ def compile_locale_from_tree(
         # Post-render cleanup: strip empty sections, collapse blank lines
         result = clean_rendered_markdown(result)
 
-        # Add disclaimer at the top
-        from datetime import UTC, datetime
-
-        timestamp = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
-        disclaimer = (
-            f"> **Preview** - This is a preview with dummy numeric data. "
-            f"Tables marked with `?` will be filled by the bundler at release time. "
-            f"Generated: {timestamp}\n"
-        )
-        result = disclaimer + "\n" + result
-
         results.append((locale, mod_short, result))
 
     return results
