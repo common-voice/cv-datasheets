@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-06-11T14:55:21.343864+00:00",
+  "generated_at": "2026-06-13T00:02:55.424321+00:00",
   "snapshot_date": "latest",
   "templates": {
     "scs": {
@@ -960,6 +960,33 @@
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
         }
       },
+      "bfq": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "bfq",
+          "english_name": "Badaga",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "bft": {
         "template_language": "en",
         "metadata": {
@@ -1039,6 +1066,33 @@
           "datasheet_authors_list": "SHUMAILA AMAN amanshumaila@gmail.com",
           "citation_description": "[https://ebook.balochiacademy.org/](https://ebook.balochiacademy.org/)",
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+        }
+      },
+      "bin": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "bin",
+          "english_name": "Edo",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
         }
       },
       "bkh": {
@@ -3098,6 +3152,33 @@
         "metadata": {
           "native_name": "gaa",
           "english_name": "Ga",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
+      "gcf": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "gcf",
+          "english_name": "Martinican Creole",
           "funding": "",
           "text_direction": "LTR"
         },
@@ -6414,11 +6495,38 @@
           "funding_description": ""
         }
       },
+      "mnw": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "မန်",
+          "english_name": "Mon",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "mos": {
         "template_language": "en",
         "metadata": {
           "native_name": "mos",
-          "english_name": "Mossi",
+          "english_name": "Mooré",
           "funding": "",
           "text_direction": "LTR"
         },
@@ -7389,7 +7497,7 @@
       "ny": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ny",
+          "native_name": "Chinyanja",
           "english_name": "Chinyanja",
           "funding": "",
           "text_direction": "LTR"
@@ -8631,7 +8739,7 @@
       "rki": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rki",
+          "native_name": "Rakhine",
           "english_name": "Rakhine",
           "funding": "",
           "text_direction": "LTR"
@@ -9276,6 +9384,33 @@
           "funding_description": "Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice."
         }
       },
+      "sg": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "sg",
+          "english_name": "Sango",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "shi": {
         "template_language": "en",
         "metadata": {
@@ -9789,6 +9924,33 @@
           "funding_description": ""
         }
       },
+      "swb": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "swb",
+          "english_name": "Shimaore",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "syr": {
         "template_language": "en",
         "metadata": {
@@ -10064,6 +10226,33 @@
         "metadata": {
           "native_name": "ትግረ",
           "english_name": "Tigre",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
+      "tiv": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "tiv",
+          "english_name": "Tiv",
           "funding": "",
           "text_direction": "LTR"
         },
@@ -11780,6 +11969,30 @@
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
         }
       },
+      "am": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "አማርኛ",
+          "english_name": "Amharic",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "an": {
         "template_language": "en",
         "metadata": {
@@ -12042,6 +12255,30 @@
           "datasheet_authors_list": "",
           "citation_description": "",
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+        }
+      },
+      "co": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Corsu",
+          "english_name": "Corsican",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
         }
       },
       "cpx": {
@@ -12860,6 +13097,30 @@
           "funding_description": "Este proyecto recibió financiamiento del *Open Multilingual Speech Fund* gestionado por Mozilla Common Voice."
         }
       },
+      "mnw": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "မန်",
+          "english_name": "Mon",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "mrh": {
         "template_language": "en",
         "metadata": {
@@ -12980,6 +13241,54 @@
           "funding_description": ""
         }
       },
+      "om": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Afaan Oromoo",
+          "english_name": "Afaan Oromo",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
+      "pcd": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "pcd",
+          "english_name": "Picard",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "pez": {
         "template_language": "en",
         "metadata": {
@@ -13079,7 +13388,7 @@
       "rki": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rki",
+          "native_name": "Rakhine",
           "english_name": "Rakhine",
           "funding": "",
           "text_direction": "LTR"
@@ -13244,6 +13553,30 @@
           "funding_description": ""
         }
       },
+      "sg": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "sg",
+          "english_name": "Sango",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "shi": {
         "template_language": "en",
         "metadata": {
@@ -13345,6 +13678,30 @@
         "metadata": {
           "native_name": "Basa Sunda",
           "english_name": "Sundanese",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
+      "swb": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "swb",
+          "english_name": "Shimaore",
           "funding": "",
           "text_direction": "LTR"
         },
