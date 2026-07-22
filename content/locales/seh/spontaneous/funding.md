@@ -1,0 +1,1 @@
+Project supported by Mozilla in 2025 through the Common Voice micro-grant program for the first phase of Cisena recordings. The current corpus of 60 questions was developed as a continuation of that voluntary work, with validation by native speakers from Tete.
