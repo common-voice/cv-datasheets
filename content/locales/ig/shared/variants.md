@@ -1,0 +1,1 @@
+Igbo has numerous dialects including Onitsha, Owerri, Ngwa, Afikpo, Nsukka, and others. The Common Voice dataset mainly uses Standard Igbo orthography, but recordings reflect various speaker accents and dialects from Nigeria.

@@ -1,0 +1,2 @@
+- Igbo-specific Discord: https://discord.gg/quZYHjdHY6
+- Igbo WhatsApp Group: https://chat.whatsapp.com/Cgw9yD2Xt1XFm6RiJe1bwb

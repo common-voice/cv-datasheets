@@ -1,0 +1,1 @@
+Igbo (Ásụ̀sụ́ Ìgbò) is a Niger-Congo language spoken by over 30 million people, primarily in southeastern Nigeria. It is a tonal language with many dialects. Standard Igbo (Igbo izugbe) serves as the literary form.
