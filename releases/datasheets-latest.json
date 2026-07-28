@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-06-17T00:26:20.316561+00:00",
+  "generated_at": "2026-07-28T19:35:38.154134+00:00",
   "snapshot_date": "latest",
   "templates": {
     "scs": {
@@ -4106,15 +4106,15 @@
           "accents_description": "",
           "text_corpus_description": "",
           "writing_system_description": "",
-          "alphabet_table": "",
+          "alphabet_table": "a á b c cs d dz dzs e é f g h i í j k l ly m n ny o ó ö ő p q r s sz t ty u ú ü ű v w x y z zs",
           "sources_list": "",
-          "text_domain_description": "",
+          "text_domain_description": "General",
           "processing_description": "",
           "recommended_postprocessing_description": "",
           "community_links_list": "",
           "discussion_links_list": "",
           "contribute_links_list": "",
-          "datasheet_authors_list": "",
+          "datasheet_authors_list": "Károly Fábricz <kfabricz@gmail.com>",
           "citation_description": "",
           "funding_description": ""
         }
@@ -4317,20 +4317,20 @@
           "text_direction": "LTR"
         },
         "community_fields": {
-          "language_description": "",
-          "variant_description": "",
+          "language_description": "Igbo (Ásụ̀sụ́ Ìgbò) is a Niger-Congo language spoken by over 30 million people, primarily in southeastern Nigeria. It is a tonal language with many dialects. Standard Igbo (Igbo izugbe) serves as the literary form.",
+          "variant_description": "Igbo has numerous dialects including Onitsha, Owerri, Ngwa, Afikpo, Nsukka, and others. The Common Voice dataset mainly uses Standard Igbo orthography, but recordings reflect various speaker accents and dialects from Nigeria.",
           "accents_description": "",
           "text_corpus_description": "",
-          "writing_system_description": "",
-          "alphabet_table": "",
-          "sources_list": "",
+          "writing_system_description": "Latin script using the Onwu orthography (standard Igbo alphabet). It includes additional letters/digraphs such as: a b ch d e f g gb gh gw h i j k kp kw l m n nw ny ṅ o p r s sh t u v w y z.",
+          "alphabet_table": "a b c ch d e f g gb gh gw h i j k kp kw l m n nw ny ṅ o p r s sh t u v w y z",
+          "sources_list": "Community-contributed sentences via the Common Voice platform.\nWikipedia dumps and other public domain texts.\nVolunteer contributions from Igbo speakers and past contribute-a-thons.",
           "text_domain_description": "",
-          "processing_description": "",
-          "recommended_postprocessing_description": "",
+          "processing_description": "Sentences were collected through the Common Voice web platform.\nBasic filtering for length, profanity, and quality was applied per Mozilla guideline. No major custom processing beyond standard pipeline.",
+          "recommended_postprocessing_description": "Normalize tone marks if needed -Igbo is tonal but orthography often omits some.\nHandle dialectal variations carefully.\nFor ASR training, consider diacritic removal in some cases for better performance.",
           "community_links_list": "",
-          "discussion_links_list": "",
-          "contribute_links_list": "",
-          "datasheet_authors_list": "",
+          "discussion_links_list": "- Igbo-specific Discord: https://discord.gg/quZYHjdHY6\n- Igbo WhatsApp Group: https://chat.whatsapp.com/Cgw9yD2Xt1XFm6RiJe1bwb",
+          "contribute_links_list": "Igbo Contribute-a-thon events: Search \"\"Igbo Common Voice\"\" on Discourse",
+          "datasheet_authors_list": "Eze Rita Chidera \nritajanefrancis28@gmail.com (Igbo Community Facilitator)",
           "citation_description": "",
           "funding_description": ""
         }
@@ -11175,20 +11175,20 @@
           "text_direction": "LTR"
         },
         "community_fields": {
-          "language_description": "",
-          "variant_description": "",
+          "language_description": "The official language spoken by Vietnamese people.",
+          "variant_description": "There are three main variations of the language: Hà Nội, Huế and Saigon.",
           "accents_description": "",
-          "text_corpus_description": "",
-          "writing_system_description": "",
-          "alphabet_table": "",
-          "sources_list": "",
-          "text_domain_description": "",
-          "processing_description": "",
+          "text_corpus_description": "\"This text corpus is for the Huế variation only. The source is the Dictionary of the Huế Variation (Từ Điển Tiếng Huế) by Dr. Bùi Minh Đức. The author has granted a permission to use the dictionary. \nThere are about 10,700 sentences posted on Common Voice.\"",
+          "writing_system_description": "\"The writing system consists of the 26 letters of the English alphabet minus f, j, w, and z. ̣ (These letters are, however, found in foreign loanwords.)\nand seven modified letters using diacritics: đ, ă, â, ê, ô, ơ, and ư. \"",
+          "alphabet_table": "Please refer to Alphabet and Character Frequency: Vietnamese (Việt) (https://www.sttmedia.com/characterfrequency-vietnamese#alphabet)",
+          "sources_list": "Dictionary of the Huế Variation (Từ Điển Tiếng Huế) by Dr. Bùi Minh Đức.",
+          "text_domain_description": "General",
+          "processing_description": "1. The dictionary is copied page by page in the PDF format.\n2. Use the online OCR to text conversion service Convertio to convert the files to a text format.\n3. Process the text files using Python to extract example sentences.\n4. Manually proof read the result to correct OCR typos and remove extra sentences.\n5. Due to Common Voice limits, only sentences with 5 or more words and less than 15 words are submitted.",
           "recommended_postprocessing_description": "",
-          "community_links_list": "",
+          "community_links_list": "Presentation in Vietnamese at https://cvtienghue.github.io/presentation",
           "discussion_links_list": "",
-          "contribute_links_list": "",
-          "datasheet_authors_list": "",
+          "contribute_links_list": "https://cvtienghue.github.io/presentation",
+          "datasheet_authors_list": "Chung V Le <chungvle@yahoo.com>, Phung Xung Thi Le <xungle1954@gmail.com>",
           "citation_description": "",
           "funding_description": ""
         }
@@ -12703,7 +12703,7 @@
           "accents_description": "",
           "transcriptions_description": "",
           "writing_system_description": "",
-          "alphabet_table": "",
+          "alphabet_table": "a á b c cs d dz dzs e é f g h i í j k l ly m n ny o ó ö ő p q r s sz t ty u ú ü ű v w x y z zs",
           "recommended_postprocessing_description": "",
           "community_links_list": "",
           "discussion_links_list": "",
@@ -13544,13 +13544,13 @@
           "transcriptions_description": "",
           "writing_system_description": "The writing system uses the Latin script in general, but with some combinations of consonants that serve to represent the specific sounds of the language as ny, dz, jh, pf, bz, ng', ps, sv, ts, dh and bh.",
           "alphabet_table": "| Sena | IPA | Sena | IPA |\n|------|-----|------|-----|\n| a    | a | n | n |\n| b    | ɓ | ng' | ŋ |\n| bh   | b | ny | ɲ |\n| c    | c | o | ɔ |\n| d    | ɗ | p | p |\n| dh   | d | r | ɾ |\n| jh   | dʒ | s | s |\n| j    | dj | dz | dz |\n| e    | ɛ | t | t |\n| f    | f | th | ʄ |\n| g    | g | u | u |\n| h    | h | v | v |\n| i    | i | w | w |\n| k    | k | x | ʃ |\n| l    | l | y | j |\n| m    | m | z | Z |",
-          "recommended_postprocessing_description": "",
+          "recommended_postprocessing_description": "The 60 questions were developed directly in Sena by the author, a native speaker. The corpus underwent orthographic normalization according to the standard of the Núcleo de Estudos das Línguas Moçambicanas (NELIMO) and was validated by 2 other native speakers from the Sofala and Tete region to ensure linguistic correctness, correct use of tones, and cultural appropriateness before being uploaded to Common Voice.",
           "community_links_list": "",
-          "discussion_links_list": "",
+          "discussion_links_list": "Here is the Facebook link for the Sena community: https://facebook.com/groups/214234422305827/",
           "contribute_links_list": "",
           "datasheet_authors_list": "* Ricardo Samuel Bulaque &lt;rbulaque@isced.ac.mz&gt;",
           "citation_description": "",
-          "funding_description": ""
+          "funding_description": "Project supported by Mozilla in 2025 through the Common Voice micro-grant program for the first phase of Cisena recordings. The current corpus of 60 questions was developed as a continuation of that voluntary work, with validation by native speakers from Tete."
         }
       },
       "sg": {
