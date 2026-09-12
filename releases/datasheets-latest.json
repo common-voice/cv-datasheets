@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-28T19:35:38.154134+00:00",
+  "generated_at": "2026-09-12T00:02:40.988069+00:00",
   "snapshot_date": "latest",
   "templates": {
     "scs": {
@@ -72,7 +72,7 @@
       "aa": {
         "template_language": "en",
         "metadata": {
-          "native_name": "aa",
+          "native_name": "Afar",
           "english_name": "Afar",
           "funding": "",
           "text_direction": "LTR"
@@ -99,7 +99,7 @@
       "aat": {
         "template_language": "en",
         "metadata": {
-          "native_name": "aat",
+          "native_name": "Arvanitika",
           "english_name": "Arvanitika",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -180,7 +180,7 @@
       "abq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "abq",
+          "native_name": "Abaza",
           "english_name": "Abaza",
           "funding": "",
           "text_direction": "LTR"
@@ -288,7 +288,7 @@
       "aii": {
         "template_language": "en",
         "metadata": {
-          "native_name": "aii",
+          "native_name": "Suret",
           "english_name": "Suret",
           "funding": "",
           "text_direction": "RTL"
@@ -315,7 +315,7 @@
       "ajg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ajg",
+          "native_name": "Adja",
           "english_name": "Adja",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -342,7 +342,7 @@
       "aln": {
         "template_language": "en",
         "metadata": {
-          "native_name": "aln",
+          "native_name": "Gheg Albanian",
           "english_name": "Gheg Albanian",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -416,6 +416,33 @@
           "discussion_links_list": "",
           "contribute_links_list": "",
           "datasheet_authors_list": "* Juan Pablo Martínez <jpmartinez@academiaaragonesadelalengua.org>",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
+      "apc": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Levantine Arabic",
+          "english_name": "Levantine Arabic",
+          "funding": "",
+          "text_direction": "RTL"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
           "citation_description": "",
           "funding_description": ""
         }
@@ -558,7 +585,7 @@
       "azz": {
         "template_language": "en",
         "metadata": {
-          "native_name": "azz",
+          "native_name": "Highland Puebla Nahuatl",
           "english_name": "Highland Puebla Nahuatl",
           "funding": "",
           "text_direction": "LTR"
@@ -639,7 +666,7 @@
       "bal": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bal",
+          "native_name": "Balochi",
           "english_name": "Balochi",
           "funding": "",
           "text_direction": "RTL"
@@ -747,7 +774,7 @@
       "bbj": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bbj",
+          "native_name": "Ghomala",
           "english_name": "Ghomala",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -801,7 +828,7 @@
       "bce": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bce",
+          "native_name": "Mengambo",
           "english_name": "Mengambo",
           "funding": "",
           "text_direction": "LTR"
@@ -828,7 +855,7 @@
       "bci": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bci",
+          "native_name": "Baoule",
           "english_name": "Baoule",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -882,7 +909,7 @@
       "beb": {
         "template_language": "en",
         "metadata": {
-          "native_name": "beb",
+          "native_name": "Bamvele",
           "english_name": "Bamvele",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -909,7 +936,7 @@
       "bew": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bew",
+          "native_name": "Betawi",
           "english_name": "Betawi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -936,7 +963,7 @@
       "bfd": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bfd",
+          "native_name": "Bafut",
           "english_name": "Bafut",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -963,7 +990,7 @@
       "bfq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bfq",
+          "native_name": "Badaga",
           "english_name": "Badaga",
           "funding": "",
           "text_direction": "LTR"
@@ -1071,7 +1098,7 @@
       "bin": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bin",
+          "native_name": "Edo",
           "english_name": "Edo",
           "funding": "",
           "text_direction": "LTR"
@@ -1098,7 +1125,7 @@
       "bkh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bkh",
+          "native_name": "Bakoko",
           "english_name": "Bakoko",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1125,7 +1152,7 @@
       "bkm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bkm",
+          "native_name": "Kom",
           "english_name": "Kom",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1147,6 +1174,33 @@
           "datasheet_authors_list": "",
           "citation_description": "",
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+        }
+      },
+      "blk": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "ပအိုဝ်ႏ",
+          "english_name": "Pa'O",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
         }
       },
       "bm": {
@@ -1206,7 +1260,7 @@
       "bnm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bnm",
+          "native_name": "Batanga",
           "english_name": "Batanga",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1260,7 +1314,7 @@
       "bo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bo",
+          "native_name": "Tibetan",
           "english_name": "Tibetan",
           "funding": "",
           "text_direction": "LTR"
@@ -1341,7 +1395,7 @@
       "bri": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bri",
+          "native_name": "Mokpwe",
           "english_name": "Mokpwe",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1368,7 +1422,7 @@
       "brx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "brx",
+          "native_name": "Bodo",
           "english_name": "Bodo",
           "funding": "",
           "text_direction": "LTR"
@@ -1395,7 +1449,7 @@
       "bs": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bs",
+          "native_name": "Bosnian",
           "english_name": "Bosnian",
           "funding": "",
           "text_direction": "LTR"
@@ -1476,7 +1530,7 @@
       "bsy": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bsy",
+          "native_name": "Sabah Bisaya",
           "english_name": "Sabah Bisaya",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1503,7 +1557,7 @@
       "btv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "btv",
+          "native_name": "Bateri",
           "english_name": "Bateri",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -1530,7 +1584,7 @@
       "bum": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bum",
+          "native_name": "Bulu",
           "english_name": "Bulu",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1557,7 +1611,7 @@
       "bxk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bxk",
+          "native_name": "Bukusu",
           "english_name": "Bukusu",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1611,7 +1665,7 @@
       "byv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "byv",
+          "native_name": "Medumba",
           "english_name": "Medumba",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1692,7 +1746,7 @@
       "cdo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cdo",
+          "native_name": "Eastern Min",
           "english_name": "Eastern Min",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1746,7 +1800,7 @@
       "cgg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cgg",
+          "native_name": "Chiga",
           "english_name": "Chiga",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1773,7 +1827,7 @@
       "cjk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cjk",
+          "native_name": "Chokwe",
           "english_name": "Chokwe",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1881,7 +1935,7 @@
       "cpx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cpx",
+          "native_name": "Heng Hua",
           "english_name": "Heng Hua",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1908,7 +1962,7 @@
       "cpy": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cpy",
+          "native_name": "Asheninka South Ucayali",
           "english_name": "Asheninka South Ucayali",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -1935,7 +1989,7 @@
       "crh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "crh",
+          "native_name": "Crimean Tatar",
           "english_name": "Crimean Tatar",
           "funding": "",
           "text_direction": "LTR"
@@ -2016,7 +2070,7 @@
       "cux": {
         "template_language": "es",
         "metadata": {
-          "native_name": "cux",
+          "native_name": "Tepeuxila Cuicatec",
           "english_name": "Tepeuxila Cuicatec",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2178,7 +2232,7 @@
       "dav": {
         "template_language": "en",
         "metadata": {
-          "native_name": "dav",
+          "native_name": "Kidaw'ida",
           "english_name": "Kidaw'ida",
           "funding": "",
           "text_direction": "LTR"
@@ -2232,7 +2286,7 @@
       "din": {
         "template_language": "en",
         "metadata": {
-          "native_name": "din",
+          "native_name": "Dinka",
           "english_name": "Dinka",
           "funding": "",
           "text_direction": "LTR"
@@ -2286,7 +2340,7 @@
       "dml": {
         "template_language": "en",
         "metadata": {
-          "native_name": "dml",
+          "native_name": "Dameli",
           "english_name": "Dameli",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -2367,7 +2421,7 @@
       "dua": {
         "template_language": "en",
         "metadata": {
-          "native_name": "dua",
+          "native_name": "Duala",
           "english_name": "Duala",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2445,10 +2499,37 @@
           "funding_description": ""
         }
       },
+      "dz": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Dzongkha",
+          "english_name": "Dzongkha",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "ebr": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ebr",
+          "native_name": "Ebrie",
           "english_name": "Ebrie",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2475,7 +2556,7 @@
       "ee": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ee",
+          "native_name": "Ewe",
           "english_name": "Ewe",
           "funding": "",
           "text_direction": "LTR"
@@ -2502,7 +2583,7 @@
       "efk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "efk",
+          "native_name": "Efik",
           "english_name": "Efik",
           "funding": "",
           "text_direction": "LTR"
@@ -2529,7 +2610,7 @@
       "eko": {
         "template_language": "en",
         "metadata": {
-          "native_name": "eko",
+          "native_name": "Ekoti",
           "english_name": "Ekoti",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2691,8 +2772,8 @@
       "esu": {
         "template_language": "en",
         "metadata": {
-          "native_name": "esu",
-          "english_name": "Central Alaskan Yup’ik",
+          "native_name": "Central Alaskan Yup'ik",
+          "english_name": "Central Alaskan Yup'ik",
           "funding": "omsf",
           "text_direction": "LTR"
         },
@@ -2745,7 +2826,7 @@
       "eto": {
         "template_language": "en",
         "metadata": {
-          "native_name": "eto",
+          "native_name": "Eton",
           "english_name": "Eton",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2799,7 +2880,7 @@
       "ewo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ewo",
+          "native_name": "Ewondo",
           "english_name": "Ewondo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2853,7 +2934,7 @@
       "fan": {
         "template_language": "en",
         "metadata": {
-          "native_name": "fan",
+          "native_name": "Fang",
           "english_name": "Fang",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -2934,8 +3015,8 @@
       "fmp": {
         "template_language": "en",
         "metadata": {
-          "native_name": "fmp",
-          "english_name": "Fe’efe’e",
+          "native_name": "Fe'efe'e",
+          "english_name": "Fe'efe'e",
           "funding": "omsf",
           "text_direction": "LTR"
         },
@@ -3015,7 +3096,7 @@
       "fub": {
         "template_language": "en",
         "metadata": {
-          "native_name": "fub",
+          "native_name": "Adamawa Fulfulde",
           "english_name": "Adamawa Fulfulde",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3042,7 +3123,7 @@
       "fue": {
         "template_language": "en",
         "metadata": {
-          "native_name": "fue",
+          "native_name": "Borgu Fulfulde",
           "english_name": "Borgu Fulfulde",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3069,7 +3150,7 @@
       "fuf": {
         "template_language": "en",
         "metadata": {
-          "native_name": "fuf",
+          "native_name": "Pular Guinea",
           "english_name": "Pular Guinea",
           "funding": "",
           "text_direction": "LTR"
@@ -3150,7 +3231,7 @@
       "gaa": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gaa",
+          "native_name": "Ga",
           "english_name": "Ga",
           "funding": "",
           "text_direction": "LTR"
@@ -3177,7 +3258,7 @@
       "gcf": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gcf",
+          "native_name": "Martinican Creole",
           "english_name": "Martinican Creole",
           "funding": "",
           "text_direction": "LTR"
@@ -3204,7 +3285,7 @@
       "gej": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gej",
+          "native_name": "Mina",
           "english_name": "Mina",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3231,7 +3312,7 @@
       "ggg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ggg",
+          "native_name": "Gurgula",
           "english_name": "Gurgula",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -3258,7 +3339,7 @@
       "gid": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gid",
+          "native_name": "Guidar",
           "english_name": "Guidar",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3285,7 +3366,7 @@
       "gig": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gig",
+          "native_name": "Goaria",
           "english_name": "Goaria",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -3312,7 +3393,7 @@
       "giz": {
         "template_language": "en",
         "metadata": {
-          "native_name": "giz",
+          "native_name": "Guiziga",
           "english_name": "Guiziga",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3339,7 +3420,7 @@
       "gjk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gjk",
+          "native_name": "Kachhi",
           "english_name": "Kachhi",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -3420,7 +3501,7 @@
       "glk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "glk",
+          "native_name": "Gilaki",
           "english_name": "Gilaki",
           "funding": "",
           "text_direction": "RTL"
@@ -3501,7 +3582,7 @@
       "gos": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gos",
+          "native_name": "Gronings",
           "english_name": "Gronings",
           "funding": "",
           "text_direction": "LTR"
@@ -3555,7 +3636,7 @@
       "gu-IN": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gu-IN",
+          "native_name": "Gujarati",
           "english_name": "Gujarati",
           "funding": "",
           "text_direction": "LTR"
@@ -3609,7 +3690,7 @@
       "gv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gv",
+          "native_name": "Manx",
           "english_name": "Manx",
           "funding": "",
           "text_direction": "LTR"
@@ -3690,7 +3771,7 @@
       "gya": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gya",
+          "native_name": "Northwest Gbaya",
           "english_name": "Northwest Gbaya",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3744,7 +3825,7 @@
       "hac": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hac",
+          "native_name": "Gorani",
           "english_name": "Gorani",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -3771,7 +3852,7 @@
       "hak": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hak",
+          "native_name": "Hakka",
           "english_name": "Hakka",
           "funding": "",
           "text_direction": "LTR"
@@ -3798,7 +3879,7 @@
       "haz": {
         "template_language": "en",
         "metadata": {
-          "native_name": "haz",
+          "native_name": "Hazargi",
           "english_name": "Hazargi",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -3825,7 +3906,7 @@
       "hch": {
         "template_language": "es",
         "metadata": {
-          "native_name": "hch",
+          "native_name": "Wixárika",
           "english_name": "Wixárika",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3879,7 +3960,7 @@
       "hem": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hem",
+          "native_name": "Kihemba",
           "english_name": "Kihemba",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -3933,7 +4014,7 @@
       "hil": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hil",
+          "native_name": "Hiligaynon",
           "english_name": "Hiligaynon",
           "funding": "",
           "text_direction": "LTR"
@@ -4014,7 +4095,7 @@
       "hrx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hrx",
+          "native_name": "Hunsrik",
           "english_name": "Hunsrik",
           "funding": "",
           "text_direction": "LTR"
@@ -4122,7 +4203,7 @@
       "hux": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hux",
+          "native_name": "Nüpode Huitoto",
           "english_name": "Nüpode Huitoto",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4203,7 +4284,7 @@
       "iba": {
         "template_language": "en",
         "metadata": {
-          "native_name": "iba",
+          "native_name": "Iban",
           "english_name": "Iban",
           "funding": "",
           "text_direction": "LTR"
@@ -4230,7 +4311,7 @@
       "ibb": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ibb",
+          "native_name": "Ibibio",
           "english_name": "Ibibio",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4338,7 +4419,7 @@
       "ipk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ipk",
+          "native_name": "Iñupiaq",
           "english_name": "Iñupiaq",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4419,7 +4500,7 @@
       "izh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "izh",
+          "native_name": "Izhorian",
           "english_name": "Izhorian",
           "funding": "",
           "text_direction": "LTR"
@@ -4473,7 +4554,7 @@
       "jam": {
         "template_language": "en",
         "metadata": {
-          "native_name": "jam",
+          "native_name": "Jamaican Patois",
           "english_name": "Jamaican Patois",
           "funding": "",
           "text_direction": "LTR"
@@ -4500,7 +4581,7 @@
       "jbo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "jbo",
+          "native_name": "Lojban",
           "english_name": "Lojban",
           "funding": "",
           "text_direction": "LTR"
@@ -4527,7 +4608,7 @@
       "jgo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "jgo",
+          "native_name": "Ngomba",
           "english_name": "Ngomba",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4554,7 +4635,7 @@
       "jqr": {
         "template_language": "en",
         "metadata": {
-          "native_name": "jqr",
+          "native_name": "Jaqaru",
           "english_name": "Jaqaru",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4689,7 +4770,7 @@
       "kam": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kam",
+          "native_name": "Kikamba",
           "english_name": "Kikamba",
           "funding": "",
           "text_direction": "LTR"
@@ -4743,7 +4824,7 @@
       "kcn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kcn",
+          "native_name": "Nubi",
           "english_name": "Nubi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4770,7 +4851,7 @@
       "kdh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kdh",
+          "native_name": "Kotokoli",
           "english_name": "Kotokoli",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -4824,7 +4905,7 @@
       "ki": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ki",
+          "native_name": "Kikuyu",
           "english_name": "Kikuyu",
           "funding": "",
           "text_direction": "LTR"
@@ -4851,7 +4932,7 @@
       "kjh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kjh",
+          "native_name": "Khakas",
           "english_name": "Khakas",
           "funding": "",
           "text_direction": "LTR"
@@ -4902,10 +4983,37 @@
           "funding_description": ""
         }
       },
+      "kl": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Kalaallisut",
+          "english_name": "Kalaallisut",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "kln": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kln",
+          "native_name": "Kalenjin",
           "english_name": "Kalenjin",
           "funding": "",
           "text_direction": "LTR"
@@ -5040,7 +5148,7 @@
       "knn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "knn",
+          "native_name": "Konkani (Devanagari)",
           "english_name": "Konkani (Devanagari)",
           "funding": "",
           "text_direction": "LTR"
@@ -5094,7 +5202,7 @@
       "koo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "koo",
+          "native_name": "Konzo",
           "english_name": "Konzo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5148,7 +5256,7 @@
       "krc": {
         "template_language": "en",
         "metadata": {
-          "native_name": "krc",
+          "native_name": "Karachay-Balkar",
           "english_name": "Karachay-Balkar",
           "funding": "",
           "text_direction": "LTR"
@@ -5175,7 +5283,7 @@
       "ks": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ks",
+          "native_name": "Kashmiri",
           "english_name": "Kashmiri",
           "funding": "",
           "text_direction": "RTL"
@@ -5202,7 +5310,7 @@
       "ksf": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ksf",
+          "native_name": "Bafia",
           "english_name": "Bafia",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5229,7 +5337,7 @@
       "kvx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kvx",
+          "native_name": "Parkari Koli",
           "english_name": "Parkari Koli",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -5283,7 +5391,7 @@
       "kxp": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kxp",
+          "native_name": "Wadiyara Koli",
           "english_name": "Wadiyara Koli",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -5337,7 +5445,7 @@
       "kzi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kzi",
+          "native_name": "Kelabit",
           "english_name": "Kelabit",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5364,7 +5472,7 @@
       "laj": {
         "template_language": "en",
         "metadata": {
-          "native_name": "laj",
+          "native_name": "Lango",
           "english_name": "Lango",
           "funding": "",
           "text_direction": "LTR"
@@ -5391,7 +5499,7 @@
       "lb": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lb",
+          "native_name": "Luxembourgish",
           "english_name": "Luxembourgish",
           "funding": "",
           "text_direction": "LTR"
@@ -5418,7 +5526,7 @@
       "led": {
         "template_language": "en",
         "metadata": {
-          "native_name": "led",
+          "native_name": "Lendu",
           "english_name": "Lendu",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5445,7 +5553,7 @@
       "leu": {
         "template_language": "en",
         "metadata": {
-          "native_name": "leu",
+          "native_name": "Kara",
           "english_name": "Kara",
           "funding": "",
           "text_direction": "LTR"
@@ -5526,7 +5634,7 @@
       "lke": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lke",
+          "native_name": "Kenyi",
           "english_name": "Kenyi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5553,7 +5661,7 @@
       "lld": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lld",
+          "native_name": "Ladin",
           "english_name": "Ladin",
           "funding": "",
           "text_direction": "LTR"
@@ -5580,7 +5688,7 @@
       "ln": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ln",
+          "native_name": "Lingala",
           "english_name": "Lingala",
           "funding": "",
           "text_direction": "LTR"
@@ -5634,7 +5742,7 @@
       "lrk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lrk",
+          "native_name": "Loarki",
           "english_name": "Loarki",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -5661,7 +5769,7 @@
       "lrl": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lrl",
+          "native_name": "Achomi",
           "english_name": "Achomi",
           "funding": "",
           "text_direction": "RTL"
@@ -5769,7 +5877,7 @@
       "lth": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lth",
+          "native_name": "Thur",
           "english_name": "Thur",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5796,7 +5904,7 @@
       "lua": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lua",
+          "native_name": "Tshiluba",
           "english_name": "Tshiluba",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5823,7 +5931,7 @@
       "luo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "luo",
+          "native_name": "Dholuo",
           "english_name": "Dholuo",
           "funding": "",
           "text_direction": "LTR"
@@ -5931,7 +6039,7 @@
       "mau": {
         "template_language": "es",
         "metadata": {
-          "native_name": "mau",
+          "native_name": "Huautla Mazatec",
           "english_name": "Huautla Mazatec",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -5958,7 +6066,7 @@
       "mbf": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mbf",
+          "native_name": "Baba Malay",
           "english_name": "Baba Malay",
           "funding": "",
           "text_direction": "LTR"
@@ -5985,7 +6093,7 @@
       "mbo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mbo",
+          "native_name": "Mbo",
           "english_name": "Mbo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6012,7 +6120,7 @@
       "mcf": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mcf",
+          "native_name": "Matses",
           "english_name": "Matses",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6039,7 +6147,7 @@
       "mcn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mcn",
+          "native_name": "Massa",
           "english_name": "Massa",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6066,7 +6174,7 @@
       "mcx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mcx",
+          "native_name": "Mpiemo",
           "english_name": "Mpiemo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6093,7 +6201,7 @@
       "mdd": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mdd",
+          "native_name": "Mbum",
           "english_name": "Mbum",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6147,7 +6255,7 @@
       "meh": {
         "template_language": "es",
         "metadata": {
-          "native_name": "meh",
+          "native_name": "Mixteco Yucuhiti",
           "english_name": "Mixteco Yucuhiti",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6174,7 +6282,7 @@
       "mel": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mel",
+          "native_name": "Melanau",
           "english_name": "Melanau",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6201,7 +6309,7 @@
       "mfe": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mfe",
+          "native_name": "Kreol Morisien",
           "english_name": "Kreol Morisien",
           "funding": "",
           "text_direction": "LTR"
@@ -6228,7 +6336,7 @@
       "mg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mg",
+          "native_name": "Malagasy",
           "english_name": "Malagasy",
           "funding": "",
           "text_direction": "LTR"
@@ -6255,7 +6363,7 @@
       "mgg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mgg",
+          "native_name": "Kunabembe",
           "english_name": "Kunabembe",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6282,7 +6390,7 @@
       "mhk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mhk",
+          "native_name": "Mungaka",
           "english_name": "Mungaka",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6363,7 +6471,7 @@
       "mki": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mki",
+          "native_name": "Dhatki",
           "english_name": "Dhatki",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -6525,7 +6633,7 @@
       "mos": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mos",
+          "native_name": "Mooré",
           "english_name": "Mooré",
           "funding": "",
           "text_direction": "LTR"
@@ -6552,7 +6660,7 @@
       "mqh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mqh",
+          "native_name": "Tlazoyaltepec Mixtec",
           "english_name": "Tlazoyaltepec Mixtec",
           "funding": "",
           "text_direction": "LTR"
@@ -6606,7 +6714,7 @@
       "mrh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mrh",
+          "native_name": "Mara",
           "english_name": "Mara",
           "funding": "",
           "text_direction": "LTR"
@@ -6714,7 +6822,7 @@
       "mse": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mse",
+          "native_name": "Moussey",
           "english_name": "Moussey",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6741,7 +6849,7 @@
       "msi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "msi",
+          "native_name": "Sabah Malay",
           "english_name": "Sabah Malay",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6795,7 +6903,7 @@
       "mua": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mua",
+          "native_name": "Mundang",
           "english_name": "Mundang",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6822,7 +6930,7 @@
       "mug": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mug",
+          "native_name": "Musgum",
           "english_name": "Musgum",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6846,10 +6954,37 @@
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
         }
       },
+      "mui": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Musi",
+          "english_name": "Musi",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "mve": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mve",
+          "native_name": "Marwari",
           "english_name": "Marwari",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -6903,7 +7038,7 @@
       "mxu": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mxu",
+          "native_name": "Mada",
           "english_name": "Mada",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -6959,6 +7094,33 @@
         "metadata": {
           "native_name": "Эрзянь кель",
           "english_name": "Erzya",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
+      "mzn": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Mazandarani",
+          "english_name": "Mazandarani",
           "funding": "",
           "text_direction": "LTR"
         },
@@ -7065,7 +7227,7 @@
       "nd": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nd",
+          "native_name": "IsiNdebele (North)",
           "english_name": "IsiNdebele (North)",
           "funding": "",
           "text_direction": "LTR"
@@ -7119,7 +7281,7 @@
       "new": {
         "template_language": "en",
         "metadata": {
-          "native_name": "new",
+          "native_name": "Newari",
           "english_name": "Newari",
           "funding": "",
           "text_direction": "LTR"
@@ -7173,7 +7335,7 @@
       "nhi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nhi",
+          "native_name": "Western Sierra Puebla Nahuatl",
           "english_name": "Western Sierra Puebla Nahuatl",
           "funding": "",
           "text_direction": "LTR"
@@ -7200,7 +7362,7 @@
       "nia": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nia",
+          "native_name": "Nias",
           "english_name": "Nias",
           "funding": "",
           "text_direction": "LTR"
@@ -7254,7 +7416,7 @@
       "nla": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nla",
+          "native_name": "Ngombale",
           "english_name": "Ngombale",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -7308,7 +7470,7 @@
       "nmg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nmg",
+          "native_name": "Kwasio",
           "english_name": "Kwasio",
           "funding": "",
           "text_direction": "LTR"
@@ -7335,7 +7497,7 @@
       "nmz": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nmz",
+          "native_name": "Losso",
           "english_name": "Losso",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -7389,7 +7551,7 @@
       "nnh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nnh",
+          "native_name": "Ngiembon",
           "english_name": "Ngiembon",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -7416,7 +7578,7 @@
       "nqo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nqo",
+          "native_name": "NKo",
           "english_name": "NKo",
           "funding": "",
           "text_direction": "RTL"
@@ -7524,7 +7686,7 @@
       "nyn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nyn",
+          "native_name": "Runyankole",
           "english_name": "Runyankole",
           "funding": "",
           "text_direction": "LTR"
@@ -7551,7 +7713,7 @@
       "nyu": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nyu",
+          "native_name": "Nyungwe",
           "english_name": "Nyungwe",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -7605,7 +7767,7 @@
       "odk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "odk",
+          "native_name": "Oadki",
           "english_name": "Oadki",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -7767,7 +7929,7 @@
       "pap": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pap",
+          "native_name": "Papiamento",
           "english_name": "Papiamento",
           "funding": "",
           "text_direction": "LTR"
@@ -7794,7 +7956,7 @@
       "pap-AW": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pap-AW",
+          "native_name": "Papiamento (Aruba)",
           "english_name": "Papiamento (Aruba)",
           "funding": "",
           "text_direction": "LTR"
@@ -7821,7 +7983,7 @@
       "pau": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pau",
+          "native_name": "Palauan",
           "english_name": "Palauan",
           "funding": "",
           "text_direction": "LTR"
@@ -7848,7 +8010,7 @@
       "pcd": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pcd",
+          "native_name": "Picard",
           "english_name": "Picard",
           "funding": "",
           "text_direction": "LTR"
@@ -7875,7 +8037,7 @@
       "pcm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pcm",
+          "native_name": "Nigerian Pidgin English",
           "english_name": "Nigerian Pidgin English",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -7902,7 +8064,7 @@
       "pez": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pez",
+          "native_name": "Eastern Penan",
           "english_name": "Eastern Penan",
           "funding": "",
           "text_direction": "LTR"
@@ -7956,7 +8118,7 @@
       "phr": {
         "template_language": "en",
         "metadata": {
-          "native_name": "phr",
+          "native_name": "Pahari-Pothwari",
           "english_name": "Pahari-Pothwari",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -8037,7 +8199,7 @@
       "pne": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pne",
+          "native_name": "Western Penan",
           "english_name": "Western Penan",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8064,7 +8226,7 @@
       "prq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "prq",
+          "native_name": "Asheninka Perene",
           "english_name": "Asheninka Perene",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8145,7 +8307,7 @@
       "pua": {
         "template_language": "es",
         "metadata": {
-          "native_name": "pua",
+          "native_name": "Western Highland Purepecha",
           "english_name": "Western Highland Purepecha",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8172,7 +8334,7 @@
       "pwn": {
         "template_language": "zh-TW",
         "metadata": {
-          "native_name": "pwn",
+          "native_name": "Paiwan",
           "english_name": "Paiwan",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8199,7 +8361,7 @@
       "quc": {
         "template_language": "en",
         "metadata": {
-          "native_name": "quc",
+          "native_name": "K'iche'",
           "english_name": "K'iche'",
           "funding": "",
           "text_direction": "LTR"
@@ -8226,7 +8388,7 @@
       "qug": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qug",
+          "native_name": "Quichua Chimborazo Highland",
           "english_name": "Quichua Chimborazo Highland",
           "funding": "",
           "text_direction": "LTR"
@@ -8253,7 +8415,7 @@
       "qup": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qup",
+          "native_name": "Southern Pastaza Quechua",
           "english_name": "Southern Pastaza Quechua",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8280,7 +8442,7 @@
       "qur": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qur",
+          "native_name": "Quechua Yanahuanca",
           "english_name": "Quechua Yanahuanca",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8307,7 +8469,7 @@
       "qus": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qus",
+          "native_name": "Quechua Santiago del Estero",
           "english_name": "Quechua Santiago del Estero",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8334,7 +8496,7 @@
       "qux": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qux",
+          "native_name": "Quechua Yauyos",
           "english_name": "Quechua Yauyos",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8388,7 +8550,7 @@
       "qva": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qva",
+          "native_name": "Quechua Ambo-Pasco",
           "english_name": "Quechua Ambo-Pasco",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8415,7 +8577,7 @@
       "qvi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qvi",
+          "native_name": "Kichwa",
           "english_name": "Kichwa",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8442,7 +8604,7 @@
       "qvj": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qvj",
+          "native_name": "Loja Highland Kichwa",
           "english_name": "Loja Highland Kichwa",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8469,7 +8631,7 @@
       "qvl": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qvl",
+          "native_name": "Quechua Cajatambo",
           "english_name": "Quechua Cajatambo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8496,7 +8658,7 @@
       "qwa": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qwa",
+          "native_name": "Quechua Corongo Ancash",
           "english_name": "Quechua Corongo Ancash",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8523,7 +8685,7 @@
       "qws": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qws",
+          "native_name": "Quechua Sihuas Ancash",
           "english_name": "Quechua Sihuas Ancash",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8550,7 +8712,7 @@
       "qxa": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qxa",
+          "native_name": "Quechua Chiquián",
           "english_name": "Quechua Chiquián",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8604,7 +8766,7 @@
       "qxq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qxq",
+          "native_name": "Qashqai",
           "english_name": "Qashqai",
           "funding": "",
           "text_direction": "RTL"
@@ -8631,7 +8793,7 @@
       "qxt": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qxt",
+          "native_name": "Quechua Pasco Santa Ana de Tusi",
           "english_name": "Quechua Pasco Santa Ana de Tusi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8658,7 +8820,7 @@
       "qxu": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qxu",
+          "native_name": "Quechua Arequipa-La Unión",
           "english_name": "Quechua Arequipa-La Unión",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8685,7 +8847,7 @@
       "qxw": {
         "template_language": "en",
         "metadata": {
-          "native_name": "qxw",
+          "native_name": "Quechua Jauja Wanka",
           "english_name": "Quechua Jauja Wanka",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8712,7 +8874,7 @@
       "rif": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rif",
+          "native_name": "Tarifit",
           "english_name": "Tarifit",
           "funding": "",
           "text_direction": "LTR"
@@ -8820,7 +8982,7 @@
       "rn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rn",
+          "native_name": "Kirundi",
           "english_name": "Kirundi",
           "funding": "",
           "text_direction": "LTR"
@@ -8874,7 +9036,7 @@
       "rof": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rof",
+          "native_name": "Kirombo",
           "english_name": "Kirombo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8928,7 +9090,7 @@
       "ruc": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ruc",
+          "native_name": "Ruuli",
           "english_name": "Ruuli",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -8955,7 +9117,7 @@
       "rup": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rup",
+          "native_name": "Aromanian",
           "english_name": "Aromanian",
           "funding": "",
           "text_direction": "LTR"
@@ -9009,7 +9171,7 @@
       "rwm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rwm",
+          "native_name": "Amba",
           "english_name": "Amba",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -9090,7 +9252,7 @@
       "sba": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sba",
+          "native_name": "Ngambay",
           "english_name": "Ngambay",
           "funding": "",
           "text_direction": "LTR"
@@ -9117,7 +9279,7 @@
       "sbn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sbn",
+          "native_name": "Sindhi Bhil",
           "english_name": "Sindhi Bhil",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -9225,7 +9387,7 @@
       "sco": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sco",
+          "native_name": "Scots",
           "english_name": "Scots",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -9252,7 +9414,7 @@
       "sd": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sd",
+          "native_name": "Sindhi",
           "english_name": "Sindhi",
           "funding": "",
           "text_direction": "RTL"
@@ -9279,7 +9441,7 @@
       "sdh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sdh",
+          "native_name": "Southern Kurdish",
           "english_name": "Southern Kurdish",
           "funding": "",
           "text_direction": "LTR"
@@ -9306,7 +9468,7 @@
       "sdo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sdo",
+          "native_name": "Serian Bidayuh",
           "english_name": "Serian Bidayuh",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -9333,7 +9495,7 @@
       "seh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "seh",
+          "native_name": "Sena",
           "english_name": "Sena",
           "funding": "",
           "text_direction": "LTR"
@@ -9360,7 +9522,7 @@
       "sei": {
         "template_language": "es",
         "metadata": {
-          "native_name": "sei",
+          "native_name": "Seri",
           "english_name": "Seri",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -9387,7 +9549,7 @@
       "sg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sg",
+          "native_name": "Sango",
           "english_name": "Sango",
           "funding": "",
           "text_direction": "LTR"
@@ -9414,7 +9576,7 @@
       "shi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "shi",
+          "native_name": "Tashlhiyt",
           "english_name": "Tashlhiyt",
           "funding": "",
           "text_direction": "LTR"
@@ -9441,7 +9603,7 @@
       "shn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "shn",
+          "native_name": "Shan",
           "english_name": "Shan",
           "funding": "",
           "text_direction": "LTR"
@@ -9576,7 +9738,7 @@
       "sn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sn",
+          "native_name": "Shona",
           "english_name": "Shona",
           "funding": "",
           "text_direction": "LTR"
@@ -9603,7 +9765,7 @@
       "snk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "snk",
+          "native_name": "Soninke",
           "english_name": "Soninke",
           "funding": "",
           "text_direction": "LTR"
@@ -9630,8 +9792,8 @@
       "snv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "snv",
-          "english_name": "Sa’ban",
+          "native_name": "Sa'ban",
+          "english_name": "Sa'ban",
           "funding": "omsf",
           "text_direction": "LTR"
         },
@@ -9657,7 +9819,7 @@
       "so": {
         "template_language": "en",
         "metadata": {
-          "native_name": "so",
+          "native_name": "Somali",
           "english_name": "Somali",
           "funding": "",
           "text_direction": "LTR"
@@ -9765,7 +9927,7 @@
       "ssi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ssi",
+          "native_name": "Sansi",
           "english_name": "Sansi",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -9927,7 +10089,7 @@
       "swb": {
         "template_language": "en",
         "metadata": {
-          "native_name": "swb",
+          "native_name": "Shimaore",
           "english_name": "Shimaore",
           "funding": "",
           "text_direction": "LTR"
@@ -10116,7 +10278,7 @@
       "teg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "teg",
+          "native_name": "Teke",
           "english_name": "Teke",
           "funding": "",
           "text_direction": "LTR"
@@ -10251,7 +10413,7 @@
       "tiv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tiv",
+          "native_name": "Tiv",
           "english_name": "Tiv",
           "funding": "",
           "text_direction": "LTR"
@@ -10332,7 +10494,7 @@
       "tli": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tli",
+          "native_name": "Tlingit",
           "english_name": "Tlingit",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10386,7 +10548,7 @@
       "tob": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tob",
+          "native_name": "Toba Qom",
           "english_name": "Toba Qom",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10440,7 +10602,7 @@
       "top": {
         "template_language": "es",
         "metadata": {
-          "native_name": "top",
+          "native_name": "Papantla Totonac",
           "english_name": "Papantla Totonac",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10494,7 +10656,7 @@
       "trv": {
         "template_language": "zh-TW",
         "metadata": {
-          "native_name": "trv",
+          "native_name": "Seediq",
           "english_name": "Seediq",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10602,7 +10764,7 @@
       "ttj": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ttj",
+          "native_name": "Rutoro",
           "english_name": "Rutoro",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10656,7 +10818,7 @@
       "tum": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tum",
+          "native_name": "Tumbuka",
           "english_name": "Tumbuka",
           "funding": "",
           "text_direction": "LTR"
@@ -10683,7 +10845,7 @@
       "tuq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tuq",
+          "native_name": "Tudaga",
           "english_name": "Tudaga",
           "funding": "",
           "text_direction": "LTR"
@@ -10710,7 +10872,7 @@
       "tvu": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tvu",
+          "native_name": "Tunen",
           "english_name": "Tunen",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10764,7 +10926,7 @@
       "ty": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ty",
+          "native_name": "Tahitian",
           "english_name": "Tahitian",
           "funding": "",
           "text_direction": "LTR"
@@ -10818,7 +10980,7 @@
       "uby": {
         "template_language": "en",
         "metadata": {
-          "native_name": "uby",
+          "native_name": "Ubykh",
           "english_name": "Ubykh",
           "funding": "",
           "text_direction": "LTR"
@@ -10845,7 +11007,7 @@
       "udl": {
         "template_language": "en",
         "metadata": {
-          "native_name": "udl",
+          "native_name": "Ouldémé",
           "english_name": "Ouldémé",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -10872,7 +11034,7 @@
       "udm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "udm",
+          "native_name": "Udmurt",
           "english_name": "Udmurt",
           "funding": "",
           "text_direction": "LTR"
@@ -10953,7 +11115,7 @@
       "ukv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ukv",
+          "native_name": "Kuku",
           "english_name": "Kuku",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -11007,7 +11169,7 @@
       "ush": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ush",
+          "native_name": "Ushojo",
           "english_name": "Ushojo",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -11034,7 +11196,7 @@
       "usp": {
         "template_language": "en",
         "metadata": {
-          "native_name": "usp",
+          "native_name": "Uspanteko",
           "english_name": "Uspanteko",
           "funding": "",
           "text_direction": "LTR"
@@ -11061,7 +11223,7 @@
       "uz": {
         "template_language": "en",
         "metadata": {
-          "native_name": "O‘zbek",
+          "native_name": "O'zbek",
           "english_name": "Uzbek",
           "funding": "",
           "text_direction": "LTR"
@@ -11193,6 +11355,33 @@
           "funding_description": ""
         }
       },
+      "vls": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "West Flemish",
+          "english_name": "West Flemish",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "text_corpus_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "sources_list": "",
+          "text_domain_description": "",
+          "processing_description": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "vmw": {
         "template_language": "en",
         "metadata": {
@@ -11277,7 +11466,7 @@
       "wep": {
         "template_language": "en",
         "metadata": {
-          "native_name": "wep",
+          "native_name": "Westphalian",
           "english_name": "Westphalian",
           "funding": "",
           "text_direction": "LTR"
@@ -11304,7 +11493,7 @@
       "wes": {
         "template_language": "en",
         "metadata": {
-          "native_name": "wes",
+          "native_name": "Cameroon Pidgin",
           "english_name": "Cameroon Pidgin",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -11358,7 +11547,7 @@
       "xdq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "xdq",
+          "native_name": "Kaitag",
           "english_name": "Kaitag",
           "funding": "",
           "text_direction": "LTR"
@@ -11466,7 +11655,7 @@
       "xkl": {
         "template_language": "en",
         "metadata": {
-          "native_name": "xkl",
+          "native_name": "Kenyah",
           "english_name": "Kenyah",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -11520,7 +11709,7 @@
       "xsm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "xsm",
+          "native_name": "Kasem",
           "english_name": "Kasem",
           "funding": "",
           "text_direction": "LTR"
@@ -11574,7 +11763,7 @@
       "yav": {
         "template_language": "en",
         "metadata": {
-          "native_name": "yav",
+          "native_name": "Nuasue",
           "english_name": "Nuasue",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -11601,7 +11790,7 @@
       "ydg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ydg",
+          "native_name": "Yadgha",
           "english_name": "Yadgha",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -11817,7 +12006,7 @@
       "zoc": {
         "template_language": "es",
         "metadata": {
-          "native_name": "zoc",
+          "native_name": "Copainalá Zoque",
           "english_name": "Copainalá Zoque",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -11900,7 +12089,7 @@
       "aat": {
         "template_language": "en",
         "metadata": {
-          "native_name": "aat",
+          "native_name": "Arvanitika",
           "english_name": "Arvanitika",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -11948,7 +12137,7 @@
       "aln": {
         "template_language": "en",
         "metadata": {
-          "native_name": "aln",
+          "native_name": "Gheg Albanian",
           "english_name": "Gheg Albanian",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12068,7 +12257,7 @@
       "bew": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bew",
+          "native_name": "Betawi",
           "english_name": "Betawi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12087,6 +12276,30 @@
           "datasheet_authors_list": "* Yacub Fahmilda &lt;yacub.fahmilda@gmail.com&gt;\n* Riska Legistari Febri &lt;riskalegistari25@gmail.com&gt;",
           "citation_description": "",
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+        }
+      },
+      "bn": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "বাংলা",
+          "english_name": "Bengali",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
         }
       },
       "br": {
@@ -12116,7 +12329,7 @@
       "brx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "brx",
+          "native_name": "Bodo",
           "english_name": "Bodo",
           "funding": "",
           "text_direction": "LTR"
@@ -12140,7 +12353,7 @@
       "bsy": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bsy",
+          "native_name": "Sabah Bisaya",
           "english_name": "Sabah Bisaya",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12164,7 +12377,7 @@
       "bxk": {
         "template_language": "en",
         "metadata": {
-          "native_name": "bxk",
+          "native_name": "Bukusu",
           "english_name": "Bukusu",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12212,7 +12425,7 @@
       "cdo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cdo",
+          "native_name": "Eastern Min",
           "english_name": "Eastern Min",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12236,7 +12449,7 @@
       "cgg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cgg",
+          "native_name": "Chiga",
           "english_name": "Chiga",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12284,7 +12497,7 @@
       "cpx": {
         "template_language": "en",
         "metadata": {
-          "native_name": "cpx",
+          "native_name": "Heng Hua",
           "english_name": "Heng Hua",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12596,7 +12809,7 @@
       "gv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "gv",
+          "native_name": "Manx",
           "english_name": "Manx",
           "funding": "",
           "text_direction": "LTR"
@@ -12620,7 +12833,7 @@
       "hac": {
         "template_language": "en",
         "metadata": {
-          "native_name": "hac",
+          "native_name": "Gorani",
           "english_name": "Gorani",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -12644,7 +12857,7 @@
       "hch": {
         "template_language": "es",
         "metadata": {
-          "native_name": "hch",
+          "native_name": "Wixárika",
           "english_name": "Wixárika",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12788,7 +13001,7 @@
       "kcn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kcn",
+          "native_name": "Nubi",
           "english_name": "Nubi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12812,7 +13025,7 @@
       "koo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "koo",
+          "native_name": "Konzo",
           "english_name": "Konzo",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12836,7 +13049,7 @@
       "kzi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "kzi",
+          "native_name": "Kelabit",
           "english_name": "Kelabit",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12860,7 +13073,7 @@
       "laj": {
         "template_language": "en",
         "metadata": {
-          "native_name": "laj",
+          "native_name": "Lango",
           "english_name": "Lango",
           "funding": "",
           "text_direction": "LTR"
@@ -12884,7 +13097,7 @@
       "led": {
         "template_language": "en",
         "metadata": {
-          "native_name": "led",
+          "native_name": "Lendu",
           "english_name": "Lendu",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12932,7 +13145,7 @@
       "lke": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lke",
+          "native_name": "Kenyi",
           "english_name": "Kenyi",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -12956,7 +13169,7 @@
       "lth": {
         "template_language": "en",
         "metadata": {
-          "native_name": "lth",
+          "native_name": "Thur",
           "english_name": "Thur",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13004,7 +13217,7 @@
       "mbf": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mbf",
+          "native_name": "Baba Malay",
           "english_name": "Baba Malay",
           "funding": "",
           "text_direction": "LTR"
@@ -13028,7 +13241,7 @@
       "meh": {
         "template_language": "es",
         "metadata": {
-          "native_name": "meh",
+          "native_name": "Mixteco Yucuhiti",
           "english_name": "Mixteco Yucuhiti",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13052,7 +13265,7 @@
       "mel": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mel",
+          "native_name": "Melanau",
           "english_name": "Melanau",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13124,7 +13337,7 @@
       "mrh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "mrh",
+          "native_name": "Mara",
           "english_name": "Mara",
           "funding": "",
           "text_direction": "LTR"
@@ -13172,7 +13385,7 @@
       "msi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "msi",
+          "native_name": "Sabah Malay",
           "english_name": "Sabah Malay",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13196,7 +13409,7 @@
       "nhi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "nhi",
+          "native_name": "Western Sierra Puebla Nahuatl",
           "english_name": "Western Sierra Puebla Nahuatl",
           "funding": "",
           "text_direction": "LTR"
@@ -13265,10 +13478,34 @@
           "funding_description": ""
         }
       },
+      "pau": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Palauan",
+          "english_name": "Palauan",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "pcd": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pcd",
+          "native_name": "Picard",
           "english_name": "Picard",
           "funding": "",
           "text_direction": "LTR"
@@ -13292,7 +13529,7 @@
       "pez": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pez",
+          "native_name": "Eastern Penan",
           "english_name": "Eastern Penan",
           "funding": "",
           "text_direction": "LTR"
@@ -13316,7 +13553,7 @@
       "pne": {
         "template_language": "en",
         "metadata": {
-          "native_name": "pne",
+          "native_name": "Western Penan",
           "english_name": "Western Penan",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13436,7 +13673,7 @@
       "ruc": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ruc",
+          "native_name": "Ruuli",
           "english_name": "Ruuli",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13460,7 +13697,7 @@
       "rwm": {
         "template_language": "en",
         "metadata": {
-          "native_name": "rwm",
+          "native_name": "Amba",
           "english_name": "Amba",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13484,7 +13721,7 @@
       "sco": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sco",
+          "native_name": "Scots",
           "english_name": "Scots",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13508,7 +13745,7 @@
       "sdo": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sdo",
+          "native_name": "Serian Bidayuh",
           "english_name": "Serian Bidayuh",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13532,7 +13769,7 @@
       "seh": {
         "template_language": "en",
         "metadata": {
-          "native_name": "seh",
+          "native_name": "Sena",
           "english_name": "Sena",
           "funding": "",
           "text_direction": "LTR"
@@ -13556,7 +13793,7 @@
       "sg": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sg",
+          "native_name": "Sango",
           "english_name": "Sango",
           "funding": "",
           "text_direction": "LTR"
@@ -13580,7 +13817,7 @@
       "shi": {
         "template_language": "en",
         "metadata": {
-          "native_name": "shi",
+          "native_name": "Tashlhiyt",
           "english_name": "Tashlhiyt",
           "funding": "",
           "text_direction": "LTR"
@@ -13628,7 +13865,7 @@
       "sn": {
         "template_language": "en",
         "metadata": {
-          "native_name": "sn",
+          "native_name": "Shona",
           "english_name": "Shona",
           "funding": "",
           "text_direction": "LTR"
@@ -13652,8 +13889,8 @@
       "snv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "snv",
-          "english_name": "Sa’ban",
+          "native_name": "Sa'ban",
+          "english_name": "Sa'ban",
           "funding": "omsf",
           "text_direction": "LTR"
         },
@@ -13697,10 +13934,34 @@
           "funding_description": ""
         }
       },
+      "sw": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "Kiswahili",
+          "english_name": "Swahili",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
+        }
+      },
       "swb": {
         "template_language": "en",
         "metadata": {
-          "native_name": "swb",
+          "native_name": "Shimaore",
           "english_name": "Shimaore",
           "funding": "",
           "text_direction": "LTR"
@@ -13748,7 +14009,7 @@
       "tob": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tob",
+          "native_name": "Toba Qom",
           "english_name": "Toba Qom",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13772,7 +14033,7 @@
       "top": {
         "template_language": "es",
         "metadata": {
-          "native_name": "top",
+          "native_name": "Papantla Totonac",
           "english_name": "Papantla Totonac",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13844,7 +14105,7 @@
       "ttj": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ttj",
+          "native_name": "Rutoro",
           "english_name": "Rutoro",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13868,7 +14129,7 @@
       "tuq": {
         "template_language": "en",
         "metadata": {
-          "native_name": "tuq",
+          "native_name": "Tudaga",
           "english_name": "Tudaga",
           "funding": "",
           "text_direction": "LTR"
@@ -13892,7 +14153,7 @@
       "ukv": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ukv",
+          "native_name": "Kuku",
           "english_name": "Kuku",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13916,7 +14177,7 @@
       "ush": {
         "template_language": "en",
         "metadata": {
-          "native_name": "ush",
+          "native_name": "Ushojo",
           "english_name": "Ushojo",
           "funding": "omsf",
           "text_direction": "RTL"
@@ -13940,7 +14201,7 @@
       "xkl": {
         "template_language": "en",
         "metadata": {
-          "native_name": "xkl",
+          "native_name": "Kenyah",
           "english_name": "Kenyah",
           "funding": "omsf",
           "text_direction": "LTR"
@@ -13959,6 +14220,30 @@
           "datasheet_authors_list": "",
           "citation_description": "",
           "funding_description": "This dataset was partially funded by the *Open Multilingual Speech Fund* managed by Mozilla Common Voice."
+        }
+      },
+      "zh-CN": {
+        "template_language": "en",
+        "metadata": {
+          "native_name": "汉语（中国大陆）",
+          "english_name": "Chinese (China)",
+          "funding": "",
+          "text_direction": "LTR"
+        },
+        "community_fields": {
+          "language_description": "",
+          "variant_description": "",
+          "accents_description": "",
+          "transcriptions_description": "",
+          "writing_system_description": "",
+          "alphabet_table": "",
+          "recommended_postprocessing_description": "",
+          "community_links_list": "",
+          "discussion_links_list": "",
+          "contribute_links_list": "",
+          "datasheet_authors_list": "",
+          "citation_description": "",
+          "funding_description": ""
         }
       }
     }
